@@ -1,0 +1,69 @@
+---
+title: Instanzdetails
+description: Erfahren Sie, wie Sie Ihre Instanzdetails in der Systemsteuerung überwachen können
+translation-type: tm+mt
+source-git-commit: 8ee999b89af88a1a59956838d5722ce8fc6b3955
+
+---
+
+
+# Details der Instanz {#instance-details}
+
+>[!CAUTION]
+>
+>Diese Funktion ist nur für Campaign Classic-Instanzen verfügbar.
+
+## Info zu Instanzdetails {#about-instance-details}
+
+Die Architektur Ihrer Adobe Campaign Classic-Instanz kann mehrere Server umfassen, um flexible Marketingaktivitäten zu ermöglichen. So können beispielsweise Marketing-, Echtzeit- (oder Message Center-) und Mid Sourcing-Server Ihre Instanz unterstützen.
+
+Mit der Funktion "Details der Instanz" können Sie sich die flache Architektur Ihrer Instanz anzeigen lassen. Zusätzlich zu den Server-Informationen erfahren Sie hier auch, ob der Build Ihrer Instanz aktuell ist oder ob ein Upgrade empfohlen wird.
+
+>[!NOTE]
+>
+>Es ist empfehlenswert, Instanzen mindestens einmal jährlich zu aktualisieren, um ein Nachlassen der Leistung zu verhindern und die neuesten Funktionen und Fehlerkorrekturen von Adobe Campaign Classic zu nutzen.
+
+**Verwandte Themen:**
+
+* [Durchführen eines Build-Upgrades](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html)
+* [Adobe Campaign aktualisieren](https://docs.campaign.adobe.com/doc/AC/en/PRO_Updating_Adobe_Campaign_Introduction.html)
+
+## Abrufen von Informationen zu Ihren Instanzen {#retrieving-information-about-instances}
+
+Gehen Sie wie folgt vor, um Informationen zu den Servern abzurufen, die mit Ihren Instanzen verbunden sind:
+
+1. Öffnen Sie die Karte **[!UICONTROL Instanzeinstellungen]**, um auf die Registerkarte **[!UICONTROL Details der Instanz]** zuzugreifen.
+
+   >[!NOTE]
+   >
+   >Wenn die Karte Instanzeneinstellungen nicht auf der Startseite des Control Panels sichtbar ist, bedeutet das, dass Ihre IMS-ORG-Kennung mit keiner Adobe Campaign Classic-Instanz verknüpft ist.
+
+1. Wählen Sie im linken Fenster die gewünschte Campaign Classic-Instanz aus.
+
+   >[!NOTE]
+   >
+   >Alle Campaign-Instanzen werden auf der linken Fensterseite aufgelistet. Da die Funktion "Instanzdetails"nur Campaign Classic-Instanzen gewidmet ist, wird die Meldung "Nicht zutreffende Instanz"angezeigt, wenn Sie eine Campaign Standard-Instanz auswählen.
+
+1. Die mit der Instanz verbundenen Server werden angezeigt.
+
+   ![](assets/instance_details.png)
+
+Diese Informationen sind verfügbar:
+
+* **[!UICONTROL Typ]**: der Typ des Servers. Mögliche Werte sind MKT (Marketing), MID (Mid Sourcing) und RT (Message Center-/Echtzeit-Messaging).
+* **[!UICONTROL Name]**: der Name des Servers.
+* **[!UICONTROL Build:]** die auf dem Server installierte Build-Version.
+* **[!UICONTROL Aktualisierungsinformationen]**: In dieser Spalte werden für den Server erforderliche Updates aufgeführt.
+   * Grün: Ihr Server ist auf dem neuesten Stand, kein Upgrade ist erforderlich.
+   * Gelb: Sie sollten ein Upgrade in Erwägung ziehen. Ihnen fehlen die neuesten Funktionen und Fehlerkorrekturen.
+   * Rot: Führen Sie möglichst rasch ein Upgrade durch. Ihnen fehlen neue Funktionen und die Serverleistung ist möglicherweise nicht optimal.
+
+If one of your servers requires to be upgraded, refer to [this documentation](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html) for more details on how to proceed.
+
+## Häufige Fragen {#common-questions}
+
+**Ich kann in meiner Instanzenarchitektur keinen MID-Server sehen. Bedeutet das, dass meine Instanzen nicht ordnungsgemäß funktionieren? Benötige ich die RT-Instanz für etwas, was ich derzeit nicht ausführen kann?**
+
+Ihre eigene Instanz kann völlig anders aussehen und möglicherweise verfügt sie nicht über alle Typen von Servern oder über mehrere Server vom selben Typ. Auch wenn bei Ihnen ein Servertyp fehlt, bedeutet das nicht, dass Sie keine Echtzeitnachrichten senden oder andere Aktivitäten durchführen können. Sie können zusätzliche Serverkapazität beantragen, wodurch höhere Gebühren anfallen.
+
+Kontaktieren Sie die Kundenunterstützung, wenn Sie der Ansicht sind, dass auf der Seite "Details der Instanz" nicht alle Server aufgeführt werden. Geben Sie in Ihrer Nachricht die jeweilige Instanz-URL an.
