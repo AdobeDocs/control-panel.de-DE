@@ -1,7 +1,7 @@
 ---
 title: Produktdokumentation
 translation-type: tm+mt
-source-git-commit: 4d8c8cb517df36e814644127746550759d5d2a46
+source-git-commit: 66d64c1b9819090f9d0bfd778d0ce6cb96b4565b
 
 ---
 
@@ -12,24 +12,24 @@ source-git-commit: 4d8c8cb517df36e814644127746550759d5d2a46
 
 ## Über Systemsteuerung {#about-control-panel}
 
-Die Systemsteuerung hilft Ihnen, die Effizienz Ihrer Arbeit als Produktadministrator von Adobe Campaign Standard und/oder Classic zu erhöhen, indem Sie die Einstellungen verwalten und die Nutzung für jede Ihrer Instanzen verfolgen können. Dank der intuitiven Benutzeroberfläche können Sie einfach die Nutzung wichtiger Ressourcen überwachen und administrative Aufgaben durchführen, wie IP-Adressen auf die Whitelist setzen, den Speicher von SFTP-Servern überwachen und die Schlüssel verwalten.
+Die Systemsteuerung hilft Ihnen, die Effizienz Ihrer Arbeit als Produktadministrator von Adobe Campaign Standard und/oder Classic zu erhöhen, indem Sie die Einstellungen verwalten und die Nutzung für jede Ihrer Instanzen verfolgen können. Die intuitive Benutzeroberfläche ermöglicht die einfache Überwachung der Verwendung wichtiger Assets sowie die Durchführung von Verwaltungsaufgaben wie die Whitelisting von IP-Adressen, die Überwachung des SFTP-Speichers, die Schlüsselverwaltung und mehr.
 
 Wichtigste Vorteile:
 
-* Nehmen Sie rasch selbst Änderungen an Einstellungen vor, ohne die Kundenunterstützung zu kontaktieren.
-* Konfigurieren Sie zu beliebigen Zeiten die Einstellungen entsprechend Ihren Unternehmensanforderungen.
-* Erhöhen Sie die Sicherheit, indem Sie die Zugriffseinstellungen nach Bedarf steuern.
+* Nehmen Sie schnell Änderungen an den Einstellungen selbst vor, ohne sich an die Kundenunterstützung zu wenden.
+* Konfigurieren Sie die Einstellungen zu unterschiedlichen Zeiten entsprechend Ihren geschäftlichen Anforderungen.
+* Verbessern Sie die Sicherheit, indem Sie die Zugriffseinstellungen nach Bedarf steuern.
 
 >[!NOTE]
->Zugriff auf das Control Panel haben nur Admin-Benutzer. Das Control Panel steht allen Kunden zur Verfügung, die auf AWS gehostet werden. Die Schritte, um einem Benutzer Administratorzugriff zu gewähren, finden Sie in [diesem Abschnitt](discover/using/managing-permissions.md). Um zu überprüfen, ob Ihre Instanz auf AWS gehostet wird, folgen Sie den Schritten in [diesem Abschnitt](faq.md).
+>Die Systemsteuerung steht nur Administratoren zur Verfügung und steht allen auf AWS gehosteten Kunden zur Verfügung. Die Schritte zum Gewähren des Administratorzugriffs für einen Benutzer sind in [diesem Abschnitt](discover/using/managing-permissions.md)beschrieben. Um zu überprüfen, ob Ihre Instanz auf AWS gehostet wird, führen Sie die in [diesem Abschnitt](faq.md)beschriebenen Schritte aus.
 >
->Für den Zugriff auf das Control Panel ist kein Upgrade auf den aktuellen Campaign-Build erforderlich.
+>Bitte beachten Sie, dass für den Zugriff auf die Systemsteuerung kein Upgrade auf den neuesten Kampagnenaufbau erforderlich ist.
 
 <table>
 <tr>
     <td>
         <a href="discover/using/accessing-control-panel.md"><img alt="Bedingungen" src="assets/discover.png"/></a>
-        <div><a href="discover/using/accessing-control-panel.md"><strong>Funktionsweise des Control Panels</strong></a></div>
+        <div><a href="discover/using/accessing-control-panel.md"><strong>Control Panel</strong></a></div>
         <em>Erfahren Sie mehr über die Systemsteuerung und wie Sie darauf zugreifen können.</em>
     </td>
     <td>
@@ -38,8 +38,8 @@ Wichtigste Vorteile:
         <em>Erfahren Sie, wie Sie Ihre SFTP-Server verwalten.</em>
     </td>
     <td>
-        <a href="subdomains-certificates/using/about-ssl-certificates.md"><img alt="Bedingungen" src="assets/subdomains.png"/></a>
-        <div><a href="subdomains-certificates/using/about-ssl-certificates.md"><strong>Ihre Subdomänen überwachen</strong></a></div>
+        <a href="subdomains-certificates/using/about-subdomains.md"><img alt="Bedingungen" src="assets/subdomains.png"/></a>
+        <div><a href="subdomains-certificates/using/about-subdomains.md"><strong>Ihre Subdomänen überwachen</strong></a></div>
         <em>Erfahren Sie, wie Sie Ihre Subdomänen und ihre Zertifikate überwachen.</em>
     </td>
     <td>
