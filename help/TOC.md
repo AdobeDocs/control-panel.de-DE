@@ -4,7 +4,7 @@ sub-product: control panel
 audience: end-user
 user-guide-title: Control Panel Help
 translation-type: tm+mt
-source-git-commit: cde5b58c1cf65d23b68c5fa6b1a484fc6db40325
+source-git-commit: 6bc165f995d34d21b5bce379db3095317db10906
 
 ---
 
@@ -24,10 +24,8 @@ source-git-commit: cde5b58c1cf65d23b68c5fa6b1a484fc6db40325
    + [Anmelden beim SFTP-Server](sftp/using/logging-into-sftp-server.md)
    + [Allgemeine Fragen](sftp/using/common-questions.md)
 + Subdomänen und Zertifikate {#subdomains-and-certificates}
-   + [Grundlagen zu Subdomänen](subdomains-certificates/using/about-subdomains.md)
-   + [Einrichten einer Subdomäne](subdomains-certificates/using/setting-up-new-subdomain.md)
-   + [SSL-Zertifikate überwachen](subdomains-certificates/using/monitoring-ssl-certificates.md)
-   + [SSL-Zertifikate erneuern](subdomains-certificates/using/renewing-subdomain-certificate.md)
+   + [SSL-Zertifikate](subdomains-certificates/using/about-ssl-certificates.md)
+   + [SSL-Zertifikate für Subdomänen verwalten](subdomains-certificates/using/managing-ssl-certificates.md)
 + Instanzeinstellungen (Campaign Classic) {#instances-settings}
    + [IP-Whitelist, z. B. Zugriff](instances-settings/using/ip-whitelisting-instance-access.md)
    + [URL-Berechtigungen](instances-settings/using/url-permissions.md)
