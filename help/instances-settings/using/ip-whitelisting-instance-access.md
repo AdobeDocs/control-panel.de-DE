@@ -1,13 +1,13 @@
 ---
-title: IP-Whitelist
-description: Weitere Informationen über die IP-Whitelist in der Systemsteuerung zum Beispiel zum Zugriff auf die IP-Whitelist
+title: IP-Whitelisting
+description: Erfahren Sie mehr über IP-Whitelisting im Control Panel für den Zugriff auf Instanzen
 translation-type: tm+mt
-source-git-commit: 8ee999b89af88a1a59956838d5722ce8fc6b3955
+source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
 
 ---
 
 
-# IP whitelisting {#ip-whitelisting}
+# IP-Whitelisting {#ip-whitelisting}
 
 >[!CAUTION]
 >
@@ -15,9 +15,9 @@ source-git-commit: 8ee999b89af88a1a59956838d5722ce8fc6b3955
 
 ## Über IP-Whitelisting {#about-ip-whitelisting}
 
-Standardmäßig kann auf Ihre Adobe Campaign Classic-Instanz nicht von verschiedenen IP-Adressen aus zugegriffen werden.
+Standardmäßig kann nicht über verschiedene IP-Adressen auf Ihre Adobe Campaign Classic-Instanz zugegriffen werden.
 
-Wenn Ihre IP-Adresse nicht auf der Whitelist steht, können Sie sich nicht von dieser Adresse aus bei der Instanz anmelden. Auf dieselbe Weise können Sie eine API möglicherweise nicht mit Ihrem Message Center oder Ihrer Marketing-Instanz verbinden, wenn die IP-Adresse nicht explizit mit der Instanz in die Positivliste gesetzt wurde.
+Wenn Ihre IP-Adresse nicht auf der Whitelist steht, können Sie sich nicht von dieser Adresse aus bei der Instanz anmelden. Ebenso können Sie keine API mit Ihrer Message Center- oder Marketing-Instanz verbinden, wenn die IP-Adresse nicht speziell für die Instanz auf die Whitelist gesetzt wurde.
 
 Im Control Panel können Sie neue Verbindungen mit Ihren Instanzen einrichten, indem Sie IP-Adressbereiche auf die Whitelist setzen. Folgen Sie dazu den weiter unten beschriebenen Schritten.
 
@@ -28,18 +28,18 @@ Nachdem IP-Adressen auf die Whitelist gesetzt wurden, können Sie Campaign-Benut
 Beachten Sie unbedingt die folgenden Empfehlungen und Einschränkungen, wenn Sie IP-Adressen über das Control Panel auf die Whitelist setzen.
 
 * **Aktivieren Sie nicht den IP-Zugriff für alle Zugriffstypen**, wenn Sie nicht möchten, dass sich die IP-Adresse mit Ihren RT-Servern oder der AEM-Sicherheitszone verbindet.
-* **Wenn Sie vorübergehend den Zugriff auf Ihre Instanz für eine IP-Adresse** aktiviert haben, müssen Sie sicherstellen, dass die IP-Adressen von den in der Positivliste eingetragenen IP-Adressen entfernt werden, sobald Sie keine Verbindung mehr zu Ihrer Instanz herstellen müssen.
-* **Wir empfehlen nicht, die IP-Adressen von öffentlichen Orten** (Flughäfen, Hotels usw.) in der Positivliste anzugeben. Verwenden Sie Ihre unternehmenseigene VPN-Adresse, um jederzeit die Sicherheit Ihrer Instanz zu gewährleisten.
+* **Wenn Sie einer IP-Adresse einen temporären Zugriff auf Ihre Instanz gewährt haben**, entfernen Sie die IP-Adresse wieder aus der Whitelist, wenn diese keine Verbindung mehr mit Ihrer Instanz herstellen muss.
+* **Wir empfehlen, keine IP-Adressen öffentlicher Orte auf die Whitelist zu setzen** (Flughäfen, Hotels etc.). Verwenden Sie Ihre unternehmenseigene VPN-Adresse, um jederzeit die Sicherheit Ihrer Instanz zu gewährleisten.
 
 ## IP-Adressen für den Zugriff auf eine Instanz auf die Whitelist setzen {#whistelisting-ip-addresses}
 
-Gehen Sie wie folgt vor, um IP-Adressen in der Whitelist anzuzeigen:
+Gehen Sie wie folgt vor, um IP-Adressen auf die Whitelist zu setzen:
 
-1. Öffnen Sie die Karte **[!UICONTROL Instanzeinstellungen]**, um auf die Registerkarte „IP-Whitelisting“ zuzugreifen, und klicken Sie dann auf **[!UICONTROL Neuen IP-Bereich hinzufügen]**.
+1. Öffnen Sie die Karte **[!UICONTROL Instanzeinstellungen]**, um auf die Registerkarte &quot;IP-Whitelisting&quot; zuzugreifen, und wählen Sie dann**[!UICONTROL  Neuen IP-Bereich hinzufügen]** aus.
 
    >[!NOTE]
    >
-   >Wenn die Karte Instanzeneinstellungen nicht auf der Startseite des Control Panels sichtbar ist, bedeutet das, dass Ihre IMS-ORG-Kennung mit keiner Adobe Campaign Classic-Instanz verknüpft ist.
+   >Wenn die Karte &quot;Instanzeinstellungen&quot; nicht auf der Startseite des Control Panels sichtbar ist, bedeutet das, dass Ihre IMS-ORG-Kennung mit keiner Adobe Campaign Classic-Instanz verknüpft ist.
 
    ![](assets/ip_whitelist_list1.png)
 
@@ -47,30 +47,30 @@ Gehen Sie wie folgt vor, um IP-Adressen in der Whitelist anzuzeigen:
 
    ![](assets/ip_whitelist_add1.png)
 
-   * **[!UICONTROL Instanz(en)]**: Die Instanzen, zu denen die IP-Adressen eine Verbindung herstellen können. Mehrere Instanzen können gleichzeitig bearbeitet werden. Beispielsweise kann IP-Whitelisting im selben Schritt sowohl für Produktions- als auch für Staging-Instanzen ausgeführt werden.
-   * **[!UICONTROL IP-Bereich]**: Der IP-Bereich, den Sie als Whitelist im CIDR-Format festlegen möchten. Beachten Sie, dass sich ein IP-Bereich nicht mit einem bereits auf der Whitelist vorhandenen Bereich überschneiden darf. Löschen Sie in diesem Fall zunächst den Bereich, der die überlappende IP enthält.
+   * **[!UICONTROL Instanz(en)]**: Die Instanzen, mit denen sich die IP-Adressen verbinden können. Mehrere Instanzen können gleichzeitig bearbeitet werden. Beispielsweise kann IP-Whitelisting im selben Schritt sowohl für Produktions- als auch für Staging-Instanzen ausgeführt werden.
+   * **[!UICONTROL IP-Bereich]**: Der IP-Bereich, der auf die Whitelist gesetzt werden soll (im CIDR-Format). Beachten Sie, dass sich ein IP-Bereich nicht mit einem bereits auf der Whitelist vorhandenen Bereich überschneiden darf. Löschen Sie in diesem Fall zunächst den Bereich, der die überlappende IP enthält.
    >[!NOTE]
    >
    >IP-Bereiche werden über das Control Panel im CIDR-Format (Classless Inter-Domain Routing) hinzugefügt. Die Syntax besteht aus einer IP-Adresse, gefolgt vom Zeichen / und einer Dezimalzahl. Format und Syntax sind in [diesem Artikel](https://whatismyipaddress.com/cidr) ausführlich beschrieben.
    >
    >Sie können im Internet nach kostenlosen Online-Tools suchen, mit denen Sie Ihren IP-Bereich in das CIDR-Format konvertieren können.
 
-   * **!UICONTROL Beschriftung]**: Die Bezeichnung, die in der Liste der in der Positivliste eingetragenen IP-Adressen angezeigt wird.
-   * **[!UICONTROL Name]**: Der Name muss eindeutig sein für Zugriffstyp, Instanz (bei externer API-Verbindung) und die IP-Adresse.
+   * **[!UICONTROL Beschriftung]**: Die Bezeichnung, die in der Liste der in der Positivliste eingetragenen IP-Adressen angezeigt wird.
+   * **[!UICONTROL Name]**: Der Name muss für den Zugriffstyp, die Instanz (im Fall einer externen API-Verbindung) und die IP-Adresse eindeutig sein.
 
 
-1. Geben Sie den Zugriffstyp an, den Sie den IP-Adressen zuweisen möchten:
+1. Geben Sie die Art des Zugriffs an, den Sie den IP-Adressen gewähren möchten:
 
-   * **[!UICONTROL Zugriff]** auf Kampagnenkonsole: Die IP-Adressen dürfen eine Verbindung zur Campaign Classic-Konsole herstellen. Beachten Sie, dass der Konsolenzugriff nur für Marketinginstanzen möglich ist. Der Zugriff auf MID- und RT-Instanzen ist nicht erlaubt und deshalb auch nicht aktiviert.
-   * **[!UICONTROL AEM-Verbindung]**: Die angegebenen AEM-IP-Adressen dürfen eine Verbindung zur Marketing-Instanz herstellen.
-   * **[!UICONTROL Externe API-Verbindung]**: Externe APIs mit den angegebenen IP-Adressen dürfen eine Verbindung zur Marketing- und/oder Message Center-Instanz herstellen. Beachten Sie, dass die Verbindung mit der Konsole für RT-Instanzen nicht aktiviert ist.
+   * **[!UICONTROL Zugriff auf die Campaign-Konsole]**: Die IP-Adressen können sich mit der Campaign Classic-Konsole verbinden. Beachten Sie, dass der Konsolenzugriff nur für Marketing-Instanzen möglich ist. Der Zugriff auf MID- und RT-Instanzen ist nicht erlaubt und deshalb auch nicht aktiviert.
+   * **[!UICONTROL AEM-Verbindung]**: Die angegebenen AEM-IP-Adressen können sich mit der Marketing-Instanz verbinden.
+   * **[!UICONTROL Externe API-Verbindung]**: Externe APIs mit den angegebenen IP-Adressen können sich mit der Marketing- und/oder Message Center (RT)-Instanz verbinden. Beachten Sie, dass die Verbindung mit der Konsole für RT-Instanzen nicht aktiviert ist.
    ![](assets/ip_whitelist_acesstype.png)
 
-1. Wählen Sie die Schaltfläche **[!UICONTROL Speichern]aus.** Der IP-Bereich wird zur Liste der auf der Whitelist befindlichen IP-Adressen hinzugefügt.
+1. Wählen Sie die Schaltfläche **[!UICONTROL Speichern]**aus. Der IP-Bereich wird zur Liste der auf der Whitelist befindlichen IP-Adressen hinzugefügt.
 
    ![](assets/ip_whitelist_added.png)
 
-To delete whitelisted IP ranges, select them then click the **[!UICONTROL Delete IP range]** button.
+Um IP-Bereiche aus der Whitelist zu löschen, selektieren Sie sie und wählen Sie dann die Schaltfläche **[!UICONTROL IP-Bereiche löschen]**aus.
 
 **Verwandte Themen:**
 * [IP Whitelisting (Video-Tutorial)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/ip-whitelisting.html)
