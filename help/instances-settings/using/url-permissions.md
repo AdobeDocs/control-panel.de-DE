@@ -1,7 +1,7 @@
 ---
 title: URL-Genehmigungen
-description: Informationen zum Verwalten von URL-Berechtigungen in der Systemsteuerung
-translation-type: tm+mt
+description: Erfahren Sie, wie Sie URL-Genehmigungen im Control Panel verwalten.
+translation-type: ht
 source-git-commit: 8ee999b89af88a1a59956838d5722ce8fc6b3955
 
 ---
@@ -31,21 +31,21 @@ Nach dem Hinzufügen einer URL wird sie in der Konfigurationsdatei der Instanz r
 
 * Verbinden Sie Ihre Campaign-Instanz nicht mit Websites/Servern, zu denen Sie keine Verbindung benötigen.
 * Löschen Sie URLs, die Sie nicht mehr benötigen. Beachten Sie jedoch, dass für andere Abteilungen Ihres Unternehmens, die die von Ihnen gelöschte URL weiterhin benötigen, keine Verbindung mehr zu dieser URL möglich ist.
-* The Control Panel supports **http**, **https**, and **sftp** protocols. Die Eingabe ungültiger URLs oder Protokolle hat Fehler zur Folge.
+* Das Control Panel unterstützt die Protokolle **HTTP**, **HTTPS** und **SFTP**. Die Eingabe ungültiger URLs oder Protokolle hat Fehler zur Folge.
 
-## URL-Genehmigungen verwalten {#managing-url-permissions}
+## Verwaltung von URL-Genehmigungen {#managing-url-permissions}
 
-Gehen Sie wie folgt vor, um eine URL hinzuzufügen, mit der Ihre Instanz eine Verbindung herstellen kann:
+Gehen Sie wie folgt vor, um eine URL hinzuzufügen, mit der sich Ihre Instanz verbinden kann:
 
-1. Öffnen Sie die Karte **[!UICONTROL Instanzeinstellungen]**, um auf die Registerkarte **[!UICONTROL URL-Genehmigungen]** zuzugreifen.
+1. Öffnen Sie die Karte **[!UICONTROL Instanzeinstellungen]**, um auf die Registerkarte**[!UICONTROL  URL-Genehmigungen]** zuzugreifen.
 
    >[!NOTE]
    >
-   >Wenn die Karte Instanzeneinstellungen nicht auf der Startseite des Control Panels sichtbar ist, bedeutet das, dass Ihre IMS-ORG-Kennung mit keiner Adobe Campaign Classic-Instanz verknüpft ist.
+   >Wenn die Karte &quot;Instanzeinstellungen&quot; nicht auf der Startseite des Control Panels sichtbar ist, bedeutet das, dass Ihre IMS-ORG-Kennung mit keiner Adobe Campaign Classic-Instanz verknüpft ist.
    >
-   >The <b><span class="uicontrol">URL permissions</span></b> tab lists all outside URLs that your instance can connect to. Diese Liste enthält jedoch nicht die URLs, die für das Funktionieren von Campaign erforderlich sind (z. B. Verbindungen zwischen Infrastrukturelementen).
+   >Auf der Registerkarte <b><span class="uicontrol">URL-Genehmigungen</span></b> werden alle externen URLs aufgelistet, mit denen Ihre Instanz eine Verbindung herstellen kann. Diese Liste enthält jedoch nicht die URLs, die für das Funktionieren von Campaign erforderlich sind (z. B. Verbindungen zwischen Infrastrukturelementen).
 
-1. Wählen Sie auf der linken Seite die gewünschte Instanz aus und danach die Schaltfläche **[!UICONTROL Neue URL hinzufügen].**
+1. Wählen Sie auf der linken Seite die gewünschte Instanz aus und danach die Schaltfläche **[!UICONTROL Neue URL hinzufügen]**.
 
    ![](assets/add_url1.png)
 
@@ -53,9 +53,9 @@ Gehen Sie wie folgt vor, um eine URL hinzuzufügen, mit der Ihre Instanz eine Ve
    >
    >Alle Campaign-Instanzen werden auf der linken Fensterseite aufgelistet.
    >
-   >Da die Verwaltung der URL-Berechtigungen ausschließlich Kampagnen-Classic-Instanzen gewidmet ist, wird die Meldung "Nicht zutreffende Instanz"angezeigt, wenn Sie eine Campaign Standard-Instanz auswählen.
+   >Da die Verwaltung der URL-Genehmigungen nur für Campaign Classic-Instanzen möglich ist, erscheint bei der Auswahl einer Campaign Standard-Instanz die Meldung &quot;Nicht anwendbare Instanz&quot;.
 
-1. Geben Sie die URL ein, die genehmigt werden soll, einschließlich des mit ihr verknüpften Protokolls (http, https oder sftp).
+1. Geben Sie die URL ein, die genehmigt werden soll, einschließlich des mit ihr verknüpften Protokolls (HTTP, HTTPS oder SFTP).
 
    >[!NOTE]
    >
@@ -63,15 +63,15 @@ Gehen Sie wie folgt vor, um eine URL hinzuzufügen, mit der Ihre Instanz eine Ve
 
    ![](assets/add_url2.png)
 
-1. Die URL wurde hiermit der Liste hinzugefügt und Sie können sich jetzt damit verbinden.
+1. Die URL wird der Liste hinzugefügt und Sie können sich jetzt damit verbinden.
 
    >[!NOTE]
    >
-   >Nach der Validierung werden am Ende der eingegebenen URL automatisch die Zeichen "/.*" hinzugefügt, damit auch alle Unterseiten eingeschlossen sind.
+   >Nach der Validierung werden am Ende der eingegebenen URL automatisch die Zeichen &quot;/.*&quot; hinzugefügt, damit auch alle Unterseiten eingeschlossen sind.
 
    ![](assets/add_url_listnew.png)
 
-You can delete a URL at any time by selecting it and clicking the **[!UICONTROL Delete URL]** button.
+Sie können eine URL jederzeit löschen, indem Sie sie selektieren und danach die Schaltfläche **[!UICONTROL URL löschen]**auswählen.
 
 Beachten Sie, dass eine gelöschte URL von Ihrer Instanz nicht mehr aufgerufen werden kann.
 
