@@ -2,12 +2,16 @@
 title: Subdomänen-Branding
 description: Weitere Informationen zum Branding von Subdomänen
 translation-type: tm+mt
-source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
+source-git-commit: 52f155bbbecec9edabc66cbc28756f9579b81f04
 
 ---
 
 
 # Subdomänen-Branding {#subdomains-branding}
+
+>[!NOTE]
+>
+>Die Subdomänenübertragung von der Systemsteuerung befindet sich derzeit in der Betaphase und unterliegt häufigen Aktualisierungen und Änderungen ohne Benachrichtigung.
 
 ## Warum Subdomänen einrichten? {#why-setting-up-subdomains}
 
@@ -35,4 +39,4 @@ Die nachstehende Tabelle gibt einen Überblick über die Funktionsweise dieser M
 | **Vollständige Delegation** | Erstellen Sie den Unterdomäne- und Namespace-Datensatz. Adobe konfiguriert dann alle für Adobe Campaign erforderlichen DNS-Datensätze.<br/><br/>Bei diesem Setup ist Adobe voll verantwortlich für die Verwaltung der Subdomäne und aller DNS-Datensätze. | Niedrig |
 | **CNAME, benutzerspezifische Methode** | Erstellen Sie den Unterdomäne- und Namespace-Datensatz. Adobe stellt dann die Datensätze bereit, die auf Ihren DNS-Servern abgelegt werden sollen, und konfiguriert die entsprechenden Werte in den Adobe Campaign-DNS-Servern.<br/><br/>Bei diesem Setup sind Sie und Adobe gemeinsam für die Verwaltung von DNS verantwortlich. | Hoch |
 
-Weitere Informationen zur Domänenübertragung finden Sie[in dieser Dokumentation](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html).
+Weitere Informationen zur Domänenübertragung finden Sie in [dieser Dokumentation](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html).
