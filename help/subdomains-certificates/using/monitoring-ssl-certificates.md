@@ -2,12 +2,14 @@
 title: SSL-Zertifikate von Subdomänen überwachen
 description: Erfahren Sie, wie Sie die SSL-Zertifikate Ihrer Subdomänen überwachen.
 translation-type: tm+mt
-source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
+source-git-commit: 52f155bbbecec9edabc66cbc28756f9579b81f04
 
 ---
 
 
 # Monitoring subdomains&#39; SSL certificates {#monitoring-ssl-certificates}
+
+## Über SSL-Zertifikate {#about-ssl-certificates}
 
 Adobe Campaign empfiehlt, die Subdomains zu schützen, die Ihre Landingpages hosten, insbesondere jene, die sensible Kundendaten erfassen.
 
@@ -19,4 +21,28 @@ Mit der **SSL-Verschlüsselung (Secure Socket Layer)** stellen Sie sicher, dass 
 
 ![](assets/no_certificate.png)
 
-Wenn eines der SSL-Zertifikate Ihrer Subdomäne bald abläuft, können Sie es direkt in der Systemsteuerung verlängern. Weitere Informationen finden Sie in diesem Abschnitt: Verlängerung [des SSL-Zertifikats](../../subdomains-certificates/using/renewing-subdomain-certificate.md)einer Subdomäne
+## Überwachung von SSL-Zertifikaten {#monitoring-certificates}
+
+Der Status der SSL-Zertifikate Ihrer Subdomänen ist direkt in der Liste der Subdomänen verfügbar, wenn Sie die Karte &quot; **[!UICONTROL Subdomänen und Zertifikate]**&quot;auswählen.
+
+Die Subdomains sind nach dem nächsten Ablaufdatum des SSL-Zertifikats geordnet, wobei das Ablaufdatum in Tagen optisch dargestellt wird:
+
+* **Grün**: Das Zertifikat der Subdomain läuft nicht innerhalb der nächsten 60 Tage ab.
+* **Orange**: Mindestens eine Subdomain hat ein Zertifikat, das innerhalb der nächsten 60 Tage abläuft.
+* **Rot**: Mindestens eine Subdomain hat ein Zertifikat, das innerhalb der nächsten 30 Tage abläuft.
+* **Grau**: Für die Subdomäne wurde kein Zertifikat installiert.
+
+![](assets/subdomains_list.png)
+
+To get more details on a subdomain, click the **[!UICONTROL Subdomain Details]**button.
+Die Liste aller verwandten Subdomänen wird angezeigt. Normalerweise sind dies Subdomains von Landingpages, Seiten mit Ressourcen usw.
+
+Die Registerkarte &quot; **[!UICONTROL Sender-Info]**&quot;enthält Informationen zu den konfigurierten Postfächern (Sender, Antwort auf, Fehler-E-Mail).
+
+![](assets/subdomain_details.png)
+
+Wenn eines der SSL-Zertifikate Ihrer Subdomäne abläuft, können Sie es direkt über die Systemsteuerung erneuern. Weitere Informationen finden Sie in diesem Abschnitt: Verlängerung [des SSL-Zertifikats](../../subdomains-certificates/using/renewing-subdomain-certificate.md)einer Subdomäne
+
+>[!NOTE]
+>
+>Die Erneuerung der Zertifikate über die Systemsteuerung wird in Kürze in der Beta-Version verfügbar sein. In der Zwischenzeit finden Sie auf [dieser Seite](https://helpx.adobe.com/campaign/kb/control-panel-subdomains-certificates.html) weitere Informationen zum Überwachen von Zertifikaten in der Systemsteuerung.
