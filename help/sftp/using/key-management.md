@@ -1,7 +1,7 @@
 ---
 title: Schlüsselverwaltung
 description: Erfahren Sie, wie Sie Schlüssel für die Verbindung mit SFTP-Servern verwalten.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
 
 ---
@@ -82,6 +82,6 @@ Sie können Fingerabdrücke verwenden, um die auf Ihrem Computer gespeicherten p
 
 ![](assets/fingerprint_compare.png)
 
-Mit der Schaltfläche &quot;**...**“ können Sie einen vorhandenen Schlüssel löschen oder seinen zugehörigen Fingerabdruck in die Zwischenablage kopieren.
+Mit der Schaltfläche &quot;**...**&quot; können Sie einen vorhandenen Schlüssel löschen oder seinen zugehörigen Fingerabdruck in die Zwischenablage kopieren.
 
 ![](assets/key_options.png)
