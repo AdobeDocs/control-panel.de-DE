@@ -1,13 +1,13 @@
 ---
-title: SSL-Zertifikate von Subdomänen überwachen
-description: Erfahren Sie, wie Sie die SSL-Zertifikate Ihrer Subdomänen überwachen.
+title: Überwachen von SSL-Zertifikaten der Subdomains
+description: Erfahren Sie, wie Sie die Zertifikate Ihrer Subdomains überwachen.
 translation-type: tm+mt
-source-git-commit: 001064877594a10733c054f925f254545f93145d
+source-git-commit: 7726a8ef8863d2e2d57e5be7ade7de636a7d2ea1
 
 ---
 
 
-# Monitoring subdomains&#39; SSL certificates {#monitoring-ssl-certificates}
+# Überwachen von SSL-Zertifikaten der Subdomains {#monitoring-ssl-certificates}
 
 ## Über SSL-Zertifikate {#about-ssl-certificates}
 
@@ -34,15 +34,15 @@ Die Subdomains sind nach dem nächsten Ablaufdatum des SSL-Zertifikats geordnet,
 
 ![](assets/subdomains_list.png)
 
-To get more details on a subdomain, click the **[!UICONTROL Subdomain Details]**button.
-Die Liste aller verwandten Subdomänen wird angezeigt. Normalerweise sind dies Subdomains von Landingpages, Seiten mit Ressourcen usw.
+Wählen Sie die Schaltfläche **[!UICONTROL Details der Subdomain]**aus, um weitere Details zu einer Subdomain zu erhalten.
+Die Liste aller zugehörigen Subdomains wird angezeigt. Normalerweise sind dies Subdomains von Landingpages, Seiten mit Ressourcen usw.
 
-Die Registerkarte &quot; **[!UICONTROL Sender-Info]**&quot;enthält Informationen zu den konfigurierten Postfächern (Sender, Antwort auf, Fehler-E-Mail).
+Die Registerkarte **[!UICONTROL Absenderdetails]**enthält Informationen zu den konfigurierten Postfächern (Absender-, Antwort-, Fehler-E-Mail).
 
 ![](assets/subdomain_details.png)
 
-Wenn eines der SSL-Zertifikate Ihrer Subdomäne abläuft, können Sie es direkt über die Systemsteuerung erneuern. Weitere Informationen finden Sie in diesem Abschnitt: Verlängerung [des SSL-Zertifikats](../../subdomains-certificates/using/renewing-subdomain-certificate.md)einer Subdomäne
+Wenn eines der SSL-Zertifikate Ihrer Subdomäne abläuft, können Sie es direkt über die Systemsteuerung erneuern. Weitere Informationen dazu finden Sie in diesem Abschnitt: [Verlängern des SSL-Zertifikats einer Subdomain](../../subdomains-certificates/using/renewing-subdomain-certificate.md).
 
 >[!NOTE]
 >
->Die Erneuerung der Zertifikate über die Systemsteuerung wird in Kürze in der Beta-Version verfügbar sein. In der Zwischenzeit finden Sie auf [dieser Seite](https://helpx.adobe.com/campaign/kb/control-panel-subdomains-certificates.html) weitere Informationen zum Überwachen von Zertifikaten in der Systemsteuerung.
+>Die Zertifikatsverlängerung der Kontrollgruppe wird Ende Januar als Beta-Version verfügbar sein.
