@@ -1,70 +1,72 @@
 ---
-title: Verlängerung des SSL-Zertifikats einer Subdomäne
-description: Erfahren Sie, wie Sie die SSL-Zertifikate Ihrer Subdomänen erneuern.
+title: Verlängern des SSL-Zertifikats einer Subdomain
+description: Erfahren Sie, wie Sie die Zertifikate Ihrer Subdomains verlängern.
 translation-type: tm+mt
-source-git-commit: 52f155bbbecec9edabc66cbc28756f9579b81f04
+source-git-commit: 2c5a4f4f48e975bd9c9de4a86d2691cfddf58354
 
 ---
 
 
-# Verlängerung des SSL-Zertifikats einer Subdomäne {#renewing-subdomains-ssl-certificates}
+# Verlängern des SSL-Zertifikats einer Subdomain {#renewing-subdomains-ssl-certificates}
 
 >[!NOTE]
 >
->Die Subdomänenübertragung von der Systemsteuerung befindet sich derzeit in der Betaphase und unterliegt häufigen Aktualisierungen und Änderungen ohne Benachrichtigung.
+>Die Zertifikatsverlängerung der Kontrollgruppe wird Ende Januar als Beta-Version verfügbar sein.
 
-## Grundlagen zur Zertifikatverlängerung {#about-certificate-renewal-process}
+## Über die Zertifikatverlängerung {#about-certificate-renewal-process}
 
 Der Verlängerungsprozess eines SSL-Zertifikats besteht aus drei Schritten:
 
-1. **Generierung der Zertifikatsignaturanforderung (CSR)** Der Adobe-Kundendienst generiert eine CSR für Sie. Darauf müssen Sie alle für die Erstellung einer CSR erforderlichen Informationen bereitstellen (z. B. Gebrauchsname, Organisationsname und Adresse). 
-1. **Erwerb des SSL-Zertifikats** Sobald das CSR generiert wurde, können Sie es herunterladen und zum Kauf des SSL-Zertifikats bei der Zertifizierungsstelle verwenden, die Ihr Unternehmen genehmigt.
-1. **Installation des SSL-Zertifikats** Nachdem Sie das SSL-Zertifikat erworben haben, können Sie es in der gewünschten Subdomäne installieren.
+1. **Generieren der Certificate Signing Request (CSR)** Die Adobe-Kundenunterstützung generiert eine CSR für Sie. Sie müssen einige Informationen angeben, die für die Generierung der CSR erforderlich sind (z. B. Gebrauchsname, Organisationsname und Adresse).
+1. **Kauf des SSL-Zertifikats**
+Sobald die CSR generiert wurde, können Sie sie herunterladen und zum Kauf des SSL-Zertifikats bei der von Ihrem Unternehmen genehmigten Zertifizierungsstelle verwenden.
+1. **Installation des SSL-Zertifikats**
+Nachdem Sie das SSL-Zertifikat erworben haben, können Sie es in der gewünschten Subdomain installieren.
 
 >[!NOTE]
 >
 >Die Erneuerung von SSL-Zertifikaten über die Systemsteuerung ist nur für **vollständig delegierte Subdomänen** verfügbar.
 
-## Erstellen einer Zertifikatsignaturanforderung (CSR) {#generating-csr}
+## Generieren einer Certificate Signing Request (CSR) {#generating-csr}
 
-Gehen Sie wie folgt vor, um eine CSR-Anforderung (Certificate Signing Request) zu erstellen:
+Gehen Sie wie folgt vor, um eine Certificate Signing Request (CSR) zu erstellen:
 
-1. Wählen Sie auf der Karte &quot; **[!UICONTROL Subdomänen und Zertifikate]**&quot;die gewünschte Instanz aus und klicken Sie dann auf die Schaltfläche &quot;Zertifikat**[!UICONTROL  verwalten&quot;]** .
+1. Wählen Sie zuerst auf der Karte **[!UICONTROL Subdomains &amp; Zertifikate]**die gewünschte Instanz und danach**[!UICONTROL  Zertifikat verwalten]** aus.
 
    ![](assets/renewal1.png)
 
-1. Wählen Sie &quot;CSR **[!UICONTROL generieren&quot;]**und klicken Sie dann auf &quot;**[!UICONTROL  Weiter]** &quot;, um den Assistenten zu starten, der Sie durch den CSR-Generierungsprozess führt.
+1. Wählen Sie **[!UICONTROL CSR generieren]**und dann**[!UICONTROL  Weiter]** aus, um den Assistenten zu starten, der Sie durch den CSR-Generierungsprozess führt.
 
    ![](assets/renewal2.png)
 
-1. Es wird ein Formular mit allen zum Generieren der CSR erforderlichen Details angezeigt.
+1. Daraufhin wird ein Formular mit allen Details angezeigt, die zum Generieren Ihrer CSR erforderlich sind.
 
-   Vergewissern Sie sich, dass Sie die angeforderten Informationen vollständig und genau ausfüllen. Andernfalls wird das Zertifikat möglicherweise nicht erneuert (wenden Sie sich bei Bedarf an Ihr internes Team, Ihre Sicherheits- und IT-Teams), und klicken Sie auf **[!UICONTROL Weiter]**.
+   Make sure you fill in the requested information fully and accurately, otherwise the certificate may not be renewed (contact your internal team, Security and IT teams if necessary), then click **[!UICONTROL Next]**.
 
    * **[!UICONTROL Einrichtung]**: Name der amtlichen Einrichtung.
    * **[!UICONTROL Referat]**Einrichtung: mit der Subdomäne verknüpfte Einheit (Beispiel: Marketing, IT).
    * **[!UICONTROL Instanz]**(vorausgefüllt): URL der der Subdomäne zugeordneten Kampagneninstanz.
    ![](assets/renewal3.png)
 
-1. Wählen Sie die Subdomänen aus, die in die CSR einbezogen werden sollen, und klicken Sie dann auf **[!UICONTROL OK]**.
+1. Wählen Sie zuerst die Subdomains aus, die in die CSR einbezogen werden sollen, und danach **[!UICONTROL OK]**.
 
    ![](assets/renewal4.png)
 
-1. Die ausgewählten Subdomänen werden in der Liste angezeigt. Wählen Sie für jede dieser Domänen die einzuschließenden Subdomänen aus und klicken Sie dann auf **[!UICONTROL Weiter]**.
+1. Die ausgewählten Subdomains werden in der Liste angezeigt. Wählen Sie für jede davon die einzubeziehenden Subdomains und dann **[!UICONTROL Weiter]**aus.
 
    ![](assets/renewal5.png)
 
-1. Es wird eine Zusammenfassung der Subdomänen angezeigt, die in das CSR einbezogen werden sollen. Klicken Sie auf **[!UICONTROL Senden]**, um Ihre Anforderung zu bestätigen.
+1. In einer Zusammenfassung werden alle Subdomains angezeigt, die in die CSR einbezogen werden sollen. Bestätigen Sie Ihre Anfrage durch die Auswahl von **[!UICONTROL Senden]**.
 
    ![](assets/renewal6.png)
 
-1. Die CSR-Datei, die Ihrer Auswahl entspricht, wird automatisch generiert und heruntergeladen. Sie können es jetzt verwenden, um das SSL-Zertifikat von der Zertifizierungsstelle zu erwerben, die Ihr Unternehmen genehmigt.
+1. Die .csr-Datei wird entsprechend Ihrer Auswahl automatisch generiert und heruntergeladen. Mit dieser Datei können Sie nun das SSL-Zertifikat bei der von Ihrem Unternehmen genehmigten Zertifizierungsstelle erwerben.
 
-## Erwerb eines Zertifikats mit dem CSR {#purchasing-certificate}
+## Kaufen eines Zertifikats mit der CSR {#purchasing-certificate}
 
-Nachdem Sie eine CSR-Anforderung für Zertifikatsignierung von der Systemsteuerung erhalten haben, erwerben Sie ein SSL-Zertifikat von einer Zertifizierungsstelle, die von Ihrem Unternehmen genehmigt wurde.
+Nachdem Sie eine Certificate Signing Request (CSR) über das Control Panel generiert haben, können Sie bei einer von Ihrer Organisation genehmigten Zertifizierungsstelle ein SSL-Zertifikat kaufen.
 
-## SSL-Zertifikat installieren {#installing-ssl-certificate}
+## Installieren des SSL-Zertifikats {#installing-ssl-certificate}
 
 Nachdem Sie ein SSL-Zertifikat erworben haben, können Sie es auf Ihrer Instanz installieren. Bevor Sie fortfahren, stellen Sie sicher, dass Sie die folgenden Voraussetzungen kennen:
 
@@ -74,15 +76,15 @@ Nachdem Sie ein SSL-Zertifikat erworben haben, können Sie es auf Ihrer Instanz 
 
 Gehen Sie wie folgt vor, um das Zertifikat zu installieren:
 
-1. Wählen Sie auf der Karte &quot; **[!UICONTROL Subdomänen und Zertifikate]**&quot;die gewünschte Instanz aus und klicken Sie dann auf die Schaltfläche &quot;Zertifikat**[!UICONTROL  verwalten&quot;]** .
+1. Wählen Sie auf der Karte **[!UICONTROL Subdomains &amp; Zertifikate]**zuerst die gewünschte Instanz und danach**[!UICONTROL  Zertifikat verwalten]** aus.
 
    ![](assets/renewal1.png)
 
-1. Klicken Sie auf SSL-Zertifikat ****installieren und dann auf**[!UICONTROL  Weiter]** , um den Assistenten zu starten, der Sie durch den Zertifikatinstallationsprozess führt.
+1. Wählen Sie **[!UICONTROL Installieren eines SSL-Zertifikats]**und dann**[!UICONTROL  Weiter]** aus, um den Assistenten zu starten, der Sie durch den Zertifikatinstallationsprozess führt.
 
    ![](assets/install1.png)
 
-1. Wählen Sie die ZIP-Datei aus, die das zu installierende Zertifikat enthält, und klicken Sie dann auf **[!UICONTROL Senden]**.
+1. Wählen Sie die .zip-Datei aus, die das zu installierende Zertifikat enthält, und wählen Sie danach **[!UICONTROL Senden]**aus.
 
    ![](assets/install2.png)
 
