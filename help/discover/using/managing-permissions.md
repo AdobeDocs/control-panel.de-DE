@@ -1,7 +1,7 @@
 ---
 title: Berechtigungen für das Control Panel verwalten
 description: Erfahren Sie, wie Sie Berechtigungen für das Control Panel verwalten
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
 
 ---
