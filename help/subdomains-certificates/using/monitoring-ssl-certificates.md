@@ -2,7 +2,7 @@
 title: Überwachen von SSL-Zertifikaten der Subdomains
 description: Erfahren Sie, wie Sie die Zertifikate Ihrer Subdomains überwachen.
 translation-type: tm+mt
-source-git-commit: 7726a8ef8863d2e2d57e5be7ade7de636a7d2ea1
+source-git-commit: c44f6800a0f7905fe9e5619388c7007f0af8f973
 
 ---
 
@@ -43,6 +43,6 @@ Die Registerkarte **[!UICONTROL Absenderdetails]**enthält Informationen zu den 
 
 Wenn eines der SSL-Zertifikate Ihrer Subdomäne abläuft, können Sie es direkt über die Systemsteuerung erneuern. Weitere Informationen dazu finden Sie in diesem Abschnitt: [Verlängern des SSL-Zertifikats einer Subdomain](../../subdomains-certificates/using/renewing-subdomain-certificate.md).
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Die Zertifikatsverlängerung der Kontrollgruppe wird Ende Januar als Beta-Version verfügbar sein.
+>Die Erneuerung der Zertifikate durch das Control Panel wird bis Ende Januar als Beta-Version verfügbar sein, vorbehaltlich häufiger Aktualisierungen und Änderungen ohne Vorankündigung.
