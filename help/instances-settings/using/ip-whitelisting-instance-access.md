@@ -1,7 +1,7 @@
 ---
 title: IP-Whitelisting
 description: Erfahren Sie mehr über IP-Whitelisting im Control Panel für den Zugriff auf Instanzen
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
 
 ---
@@ -55,7 +55,7 @@ Gehen Sie wie folgt vor, um IP-Adressen auf die Whitelist zu setzen:
    >
    >Sie können im Internet nach kostenlosen Online-Tools suchen, mit denen Sie Ihren IP-Bereich in das CIDR-Format konvertieren können.
 
-   * **[!UICONTROL Beschriftung]**: Die Bezeichnung, die in der Liste der in der Positivliste eingetragenen IP-Adressen angezeigt wird.
+   * **[!UICONTROL Titel]**: Die Bezeichnung, die auf der Liste der auf die Whitelist gesetzten IP-Adressen erscheinen soll.
    * **[!UICONTROL Name]**: Der Name muss für den Zugriffstyp, die Instanz (im Fall einer externen API-Verbindung) und die IP-Adresse eindeutig sein.
 
 
