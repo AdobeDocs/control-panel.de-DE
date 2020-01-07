@@ -2,16 +2,18 @@
 title: Einrichten einer neuen Subdomain
 description: Erfahren Sie, wie Sie eine neue Subdomain für Ihre Campaign-Instanz einrichten.
 translation-type: tm+mt
-source-git-commit: 766ff590d83929eeddb69113904643517c1475ad
+source-git-commit: c44f6800a0f7905fe9e5619388c7007f0af8f973
 
 ---
 
 
 # Einrichten einer neuen Subdomain {#setting-up-subdomain}
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Die Subdomänenübertragung von der Systemsteuerung befindet sich derzeit in der Betaphase und unterliegt häufigen Aktualisierungen und Änderungen ohne Benachrichtigung.
+>Die Subdomänendelegation der Kontrollgruppe wird bis Ende Januar als Beta-Version verfügbar sein, vorbehaltlich häufiger Aktualisierungen und Änderungen ohne Vorankündigung.
+
+Wenden Sie sich bei Fragen zu Subdomänen-Delegationsmethoden an das Adobe Deliverability-Team oder wenden Sie sich an den Kundendienst, um Beratung zur Lieferbarkeit anzufordern.
 
 ## Vollständige Subdomain-Zuweisung {#full-subdomain-delegation}
 
@@ -19,8 +21,9 @@ source-git-commit: 766ff590d83929eeddb69113904643517c1475ad
 
 >[!NOTE]
 >
->Wenn Sie keine Subdomäne für Adobe konfiguriert haben, gilt die erste von Ihnen eingerichtete Subdomäne als **primäre Subdomäne**.
->Ein **umgekehrter DNS-Datensatz** wird erstellt und als Standard-Subdomäne für Postfächer (Sender, Antwort, Fehler-E-Mail-Adressen) festgelegt.
+>Wenn die ausgewählte Instanz keine zuvor konfigurierten Subdomänen hat, wird die erste an Adobe delegierte Subdomäne die **primäre Subdomäne** für diese Instanz. Sie können sie in Zukunft nicht mehr ändern.
+>
+>Umgekehrte DNS-Datensätze werden für andere Subdomänen mit der primären Subdomäne erstellt. Antworten- und Absprungadressen für andere Subdomänen werden aus der primären Subdomäne generiert.
 
 1. Wählen Sie auf der Karte **[!UICONTROL Subdomains &amp; Zertifikate]**die gewünschte Produktionsinstanz und danach**[!UICONTROL  Neue Subdomain einrichten]** aus.
 
@@ -105,4 +108,4 @@ You can get more details on the subdomain by clicking the **[!UICONTROL Subdomai
 
 ## Verwenden von CNAME {#use-cnames}
 
-Die Verwendung von CNAME für die Zuweisung von Subdomains wird von Adobe nicht empfohlen und vom Control Panel nicht unterstützt. Wenden Sie sich zur Verwendung dieser Methode an den Adobe-Kundendienst.
+Die Verwendung von CNAMEs für Subdomänendelegationen wird nicht über die Systemsteuerung unterstützt. Wenden Sie sich zur Verwendung dieser Methode an den Adobe-Kundendienst.
