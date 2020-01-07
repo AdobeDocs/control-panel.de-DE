@@ -1,7 +1,7 @@
 ---
 title: SFTP-Speicherverwaltung
 description: Erfahren Sie, wie Sie den Speicher des SFTP-Servers überwachen und verwalten.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
 
 ---
@@ -38,6 +38,6 @@ Außerdem erfahren Sie, wie Sie vorgehen sollten, wenn die Server-Kapazität nah
 ## Best Practices, wenn die Speicherkapazität erschöpft ist {#best-practices-when-capacity-runs-out}
 
 1. **Entfernen Sie vom SFTP-Server alte oder unnötige Dateien**. Weitere Informationen zum Zugriff auf Ihren SFTP-Server-Ordner finden Sie in [diesem Abschnitt](../../sftp/using/logging-into-sftp-server.md).
-1. Stellen Sie sicher, dass die **Workflows**, die Ihre SFTP-Server bereinigen, ordnungsgemäß ausgeführt werden. Weitere Informationen zu technischen Workflows in Adobe Campaign finden Sie in den Dokumentationen zu [Campaign Classic](https://docs.campaign.adobe.com/doc/AC/en/WKF__General_operation_Building_a_workflow.html#Technical_workflows) und [Campaign Standard](https://helpx.adobe.com/campaign/standard/administration/using/technical-workflows.html).
+1. Stellen Sie sicher, dass die **Workflows**, die Ihre SFTP-Server bereinigen, ordnungsgemäß ausgeführt werden. Weitere Informationen zu technischen Workflows in Adobe Campaign finden Sie in den Dokumentationen zu [Campaign Classic](https://docs.campaign.adobe.com/doc/AC/de/WKF_Allgemeine_Funktionsweise_Workflow_erstellen.html#Technische_Workflows) und [Campaign Standard](https://helpx.adobe.com/de/campaign/standard/administration/using/technical-workflows.html).
 1. Wenden Sie sich an Ihr Account-Team, um **mehr Speicherplatz anzufordern** (möglicherweise fallen zusätzliche Gebühren an).
 1. Wenden Sie sich an die **Kundenunterstützung**, wenn Sie glauben, dass ein Problem vorliegt.
