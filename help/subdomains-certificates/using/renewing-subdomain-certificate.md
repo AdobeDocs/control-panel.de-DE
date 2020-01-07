@@ -2,16 +2,16 @@
 title: Verlängern des SSL-Zertifikats einer Subdomain
 description: Erfahren Sie, wie Sie die Zertifikate Ihrer Subdomains verlängern.
 translation-type: tm+mt
-source-git-commit: 2c5a4f4f48e975bd9c9de4a86d2691cfddf58354
+source-git-commit: c44f6800a0f7905fe9e5619388c7007f0af8f973
 
 ---
 
 
 # Verlängern des SSL-Zertifikats einer Subdomain {#renewing-subdomains-ssl-certificates}
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Die Zertifikatsverlängerung der Kontrollgruppe wird Ende Januar als Beta-Version verfügbar sein.
+>Die Subdomänendelegation der Kontrollgruppe wird bis Ende Januar als Beta-Version verfügbar sein, vorbehaltlich häufiger Aktualisierungen und Änderungen ohne Vorankündigung.
 
 ## Über die Zertifikatverlängerung {#about-certificate-renewal-process}
 
