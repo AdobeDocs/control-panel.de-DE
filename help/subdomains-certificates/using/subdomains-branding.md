@@ -1,42 +1,44 @@
 ---
-title: Subdomänen-Branding
-description: Weitere Informationen zum Branding von Subdomänen
+title: Subdomain-Branding
+description: Weitere Informationen zum Branding von Subdomains
 translation-type: tm+mt
-source-git-commit: 52f155bbbecec9edabc66cbc28756f9579b81f04
+source-git-commit: c44f6800a0f7905fe9e5619388c7007f0af8f973
 
 ---
 
 
-# Subdomänen-Branding {#subdomains-branding}
+# Subdomain-Branding {#subdomains-branding}
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Die Subdomänenübertragung von der Systemsteuerung befindet sich derzeit in der Betaphase und unterliegt häufigen Aktualisierungen und Änderungen ohne Benachrichtigung.
+>Die Subdomänendelegation der Kontrollgruppe wird bis Ende Januar als Beta-Version verfügbar sein, vorbehaltlich häufiger Aktualisierungen und Änderungen ohne Vorankündigung.
 
-## Warum Subdomänen einrichten? {#why-setting-up-subdomains}
+## Warum sollten Sie Subdomains einrichten? {#why-setting-up-subdomains}
 
-Eine Subdomäne ist eine Division Ihrer Domäne, die verwendet werden kann, um Ihre Marken oder verschiedene Arten von Traffic (Transaktionsmeldungen, Marketinginformationen usw.) zu isolieren.
+Sie können Ihre Domain in Subdomains unterteilen, um Ihre Marken oder unterschiedlichen Textsorten (Transaktionsnachrichten, Marketing-Informationen usw.) voreinander zu trennen.
 
-Nehmen wir das Beispiel der Domäne &quot;mybrand.com&quot;, die sowohl transaktionale als auch Marketing-Kommunikation sendet. In diesem Fall können Sie zwei Subdomänen einrichten:
+Nehmen wir zum Beispiel die Domain &quot;mybrand.com&quot;, die sowohl Transaktions- als auch Marketing-Nachrichten sendet. In diesem Fall können Sie zwei Subdomains einrichten:
 
-* &quot;info.mybrand.com&quot;-Subdomäne für Ihre Transaktionsbenachrichtigung (Kaufbestätigung, Kennwortrücksetzung usw.),
-* &quot;marketing.mybrand.com&quot;-Subdomäne für Ihre E-Mails zum Anzeigen.
+* die Subdomain &quot;info.mybrand.com&quot; für Ihre Transaktionsnachrichten (Kaufbestätigung, Passwortzurücksetzung usw.),
+* die Subdomain &quot;marketing.mybrand.com&quot; für Ihre Werbe-E-Mails.
 
-Dadurch erhalten Sie den Ruf Ihrer Domäne und anderer Subdomänen. Wenn beispielsweise die Subdomänen &quot;marketing.mybrand.com&quot;aufgrund einer schlechten Zustellbarkeit auf der schwarzen Liste der Internetdienstanbieter standen, würde dies verhindern, dass die gesamte Domäne &quot;mybrand.com&quot;und die Unterdomäne &quot;info.mybrand.com&quot;auf die schwarze Liste gesetzt werden.
+Dies hilft Ihnen, die Reputation Ihrer Domain und anderer Subdomains zu schützen. Wenn z. B. die Subdomains &quot;marketing.mybrand.com&quot; aufgrund schlechter Zustellbarkeit von Internetdienstanbietern auf die Blacklist gesetzt werden, würde dies verhindern, dass die gesamte Domain &quot;mybrand.com&quot; und die Subdomain &quot;info.mybrand.com&quot; ebenfalls auf die Blacklist gesetzt werden.
 
-## Subdomänendelegationsmethoden {#subdomain-delegation-methods}
+## Methoden der Subdomain-Zuweisung {#subdomain-delegation-methods}
 
-Mithilfe der Subdomänendelegation können Sie einen Unterabschnitt Ihrer Domäne (technisch eine &quot;DNS-Zone&quot;) für die Verwendung mit Adobe Campaign delegieren. Verfügbare Setupmethoden sind:
+Mithilfe der Subdomain-Zuweisung können Sie einen Teil Ihrer Domain (technisch eine &quot;DNS-Zone&quot;) Adobe Campaign zuweisen. Verfügbare Einrichtungsmethoden sind:
 
-* **Vollständige Subdomänenübertragung an Adobe Campaign** (empfohlen): Die Subdomäne wird vollständig an Adobe delegiert. Adobe ist in der Lage, die Kampagne als verwalteten Dienst bereitzustellen, indem es alle Aspekte von DNS steuert und pflegt, die für die Bereitstellung, Wiedergabe und Verfolgung von E-Mail-Kampagnen erforderlich sind.
+* **Vollständige Subdomain-Zuweisung an Adobe Campaign** (empfohlen): Die Subdomain wird Adobe vollständig zugewiesen. Adobe kann Campaign als verwalteten Dienst bereitstellen, im Rahmen dessen alle DNS-Bereiche kontrolliert und gewartet werden, die für die Zustellung, das Rendern und das Tracking von E-Mail-Kampagnen erforderlich sind.
 
-* **Verwendung von CNAMEs** (nicht empfohlen und nicht über die Systemsteuerung unterstützt): Erstellen Sie eine Subdomäne und verwenden Sie CNAMEs, um auf Adobe-spezifische Datensätze zu verweisen. Mit diesem Setup teilen sich Adobe und der Kunde die Verantwortung für die Verwaltung des DNS.
+* **Verwenden von CNAME** (nicht empfohlen und vom Control Panel nicht unterstützt): Erstellen Sie eine Subdomain und verwenden Sie CNAME, um auf Adobe-spezifische Einträge zu verweisen. Mit dieser Konfiguration sind Adobe und der Kunde gleichermaßen für die Wartung des DNS verantwortlich.
 
 Die nachstehende Tabelle gibt einen Überblick über die Funktionsweise dieser Methoden sowie den damit verbundenen Aufwand:
 
-| Delegationsmethode | Funktionsweise | Umfang des Aufwands |
+| Zuweisungsmethode | Funktionsweise | Aufwand |
 |---|---|---|
-| **Vollständige Delegation** | Erstellen Sie den Unterdomäne- und Namespace-Datensatz. Adobe konfiguriert dann alle für Adobe Campaign erforderlichen DNS-Datensätze.<br/><br/>Bei diesem Setup ist Adobe voll verantwortlich für die Verwaltung der Subdomäne und aller DNS-Datensätze. | Niedrig |
-| **CNAME, benutzerspezifische Methode** | Erstellen Sie den Unterdomäne- und Namespace-Datensatz. Adobe stellt dann die Datensätze bereit, die auf Ihren DNS-Servern abgelegt werden sollen, und konfiguriert die entsprechenden Werte in den Adobe Campaign-DNS-Servern.<br/><br/>Bei diesem Setup sind Sie und Adobe gemeinsam für die Verwaltung von DNS verantwortlich. | Hoch |
+| **Vollständige Zuweisung** | Sie erstellen die Subdomain und den Namensraumeintrag. Adobe konfiguriert dann alle für Adobe Campaign erforderlichen DNS-Einträge.<br/><br/>Bei dieser Konfiguration hat Adobe die volle Verantwortung für die Pflege der Subdomain und aller DNS-Einträge. | Niedrig |
+| **CNAME, benutzerspezifische Methode** | Sie erstellen die Subdomain und den Namensraumeintrag. Adobe stellt dann die Einträge bereit, die auf Ihren DNS-Servern abgelegt werden sollen, und konfiguriert die entsprechenden Werte in den Adobe Campaign-DNS-Servern.<br/><br/>Bei dieser Konfiguration sind Sie und Adobe gemeinsam für die Pflege des DNS verantwortlich. | Hoch |
 
-Weitere Informationen zur Domänenübertragung finden Sie in [dieser Dokumentation](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html).
+Weitere Informationen zur Domain-Zuweisung finden Sie [in dieser Dokumentation](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html).
+
+Wenden Sie sich bei Fragen zu Subdomänen-Delegationsmethoden an das Adobe Deliverability-Team oder wenden Sie sich an den Kundendienst, um Beratung zur Lieferbarkeit anzufordern.
