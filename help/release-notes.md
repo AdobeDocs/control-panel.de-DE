@@ -1,7 +1,7 @@
 ---
 title: Systemsteuerungsfenster
 translation-type: tm+mt
-source-git-commit: 5a7200038abd647a3e77d043d14579590449218c
+source-git-commit: 5a2c66df101516a33c194851263d309ad6f29971
 
 ---
 
@@ -18,7 +18,15 @@ Hier finden Sie Informationen zu den neuesten Versionen der Systemsteuerung.
 
 *22. Januar 2020*
 
-zu definieren
+Es wurden neue Funktionen hinzugefügt, mit denen Administratoren Subdomänen delegieren und SSL-Zertifikate über die Systemsteuerung erneuern können.
+
+Weitere Informationen finden Sie auf folgenden Seiten:
+* [Einrichten einer neuen Subdomain](subdomains-certificates/using/setting-up-new-subdomain.md)
+* [Verlängern des SSL-Zertifikats einer Subdomain](subdomains-certificates/using/renewing-subdomain-certificate.md)
+
+>[!IMPORTANT]
+>
+>Diese Funktionen werden in der Beta-Version verfügbar sein, vorbehaltlich häufiger Aktualisierungen und Änderungen ohne Vorankündigung.
 
 ## September 2019 {#september-2019}
 
