@@ -2,7 +2,7 @@
 title: Verlängern des SSL-Zertifikats einer Subdomain
 description: Erfahren Sie, wie Sie die Zertifikate Ihrer Subdomains verlängern.
 translation-type: tm+mt
-source-git-commit: c44f6800a0f7905fe9e5619388c7007f0af8f973
+source-git-commit: 50d29d25891adc866d624888ca72e16e529ae7bf
 
 ---
 
@@ -62,6 +62,10 @@ Gehen Sie wie folgt vor, um eine Certificate Signing Request (CSR) zu erstellen:
 
 1. Die .csr-Datei wird entsprechend Ihrer Auswahl automatisch generiert und heruntergeladen. Mit dieser Datei können Sie nun das SSL-Zertifikat bei der von Ihrem Unternehmen genehmigten Zertifizierungsstelle erwerben.
 
+   >[!NOTE]
+   >
+   >Wenn der CSR nicht gespeichert/heruntergeladen wird, geht er verloren und Sie müssen ihn erneut generieren.
+
 ## Kaufen eines Zertifikats mit der CSR {#purchasing-certificate}
 
 Nachdem Sie eine Certificate Signing Request (CSR) über das Control Panel generiert haben, können Sie bei einer von Ihrer Organisation genehmigten Zertifizierungsstelle ein SSL-Zertifikat kaufen.
@@ -71,8 +75,18 @@ Nachdem Sie eine Certificate Signing Request (CSR) über das Control Panel gener
 Nachdem Sie ein SSL-Zertifikat erworben haben, können Sie es auf Ihrer Instanz installieren. Bevor Sie fortfahren, stellen Sie sicher, dass Sie die folgenden Voraussetzungen kennen:
 
 * Die Zertifikatsignaturanforderung (Certificate Signing Request, CSR) muss über die Systemsteuerung generiert worden sein. Andernfalls können Sie das Zertifikat nicht über die Systemsteuerung installieren.
-* Stellen Sie sicher, dass die Anforderung zur Zertifikatsignierung (Certificate Signing Request, CSR) mit der Subdomäne übereinstimmt, die an Adobe delegiert wurde. Es kann beispielsweise nicht mehr Subdomänen enthalten, als die delegierte Domäne.
-* Das Zertifikat muss ein aktuelles Datum haben. Es ist nicht möglich, Zertifikate mit Terminen in der Zukunft zu installieren.
+* Die Zertifikatssignaturanforderung (CSR) sollte mit der Subdomäne übereinstimmen, die an Adobe delegiert wurde. Es kann beispielsweise nicht mehr Subdomänen enthalten, als die delegierte Domäne.
+* Das Zertifikat sollte ein aktuelles Datum haben. Es ist nicht möglich, Zertifikate mit Terminen in der Zukunft zu installieren, und sollte nicht abgelaufen sein (d.h. gültige Start- und Enddaten).
+* Das Zertifikat sollte von einer vertrauenswürdigen Zertifizierungsstelle (CA) wie Comodo, DigiCert, GoDaddy usw. ausgestellt werden.
+* Die Größe des Zertifikats sollte 2048 Bit und der Algorithmus RSA sein.
+* Das Zertifikat sollte im Format X.509 PEM vorliegen.
+* SAN-Zertifikate werden unterstützt.
+* Wildcard-Zertifikate werden nicht unterstützt.
+* Die ZIP-Datei oder das Zertifikat sollte nicht kennwortgeschützt sein.
+* Die ZIP-Datei sollte nur Folgendes in vorzugsweise einzelnen Dateien enthalten:
+   * Endentitätszertifikat.
+   * Zwischenzeitliche Zertifikatskette (in der richtigen Reihenfolge angeordnet).
+   * Stammzertifikat (optional).
 
 Gehen Sie wie folgt vor, um das Zertifikat zu installieren:
 
@@ -89,5 +103,3 @@ Gehen Sie wie folgt vor, um das Zertifikat zu installieren:
    ![](assets/install2.png)
 
 Nach der Installation des SSL-Zertifikats werden das Ablaufdatum und das Statussymbol des Zertifikats entsprechend aktualisiert.
-
-Die URL-Adresse Ihrer Subdomäne ändert sich von **http** in **https**.
