@@ -33,7 +33,7 @@ Gehen Sie wie folgt vor, um eine Verbindung mit dem SFTP-Server herzustellen:
 
    ![](assets/do-not-localize/connect2.png)
 
-   Der private Schlüssel der Datei wird automatisch in das Feld **[!UICONTROL Passwort]**eingetragen.
+   Der private Schlüssel der Datei wird automatisch in das Feld **[!UICONTROL Password]**eingetragen.
 
    ![](assets/do-not-localize/connect3.png)
 
