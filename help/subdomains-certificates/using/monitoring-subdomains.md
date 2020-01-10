@@ -1,7 +1,7 @@
 ---
 title: Überwachen von SSL-Zertifikaten der Subdomains
 description: Erfahren Sie, wie Sie die SSL-Zertifikate Ihrer Subdomains überwachen.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c51a43fb310bbb8bd7570bc4ea668d708159535c
 
 ---
@@ -13,14 +13,14 @@ Sie müssen Ihre Subdomains unbedingt überwachen, um sicherzustellen, dass alle
 
 Die Liste der Subdomains für jede Ihrer Produktionsinstanzen ist direkt verfügbar, wenn Sie die Karte **[!UICONTROL Subdomains &amp; Zertifikate]**auswählen.
 
-The **[!UICONTROL Last verification]**column indicates when a subdomain was verified for the last time. Sie können eine Verifizierung jederzeit starten, indem Sie die Schaltfläche**...**/**[!UICONTROL  Subdomain verifizieren]** auswählen.
+Die Spalte **[!UICONTROL Letzte Verifizierung]**gibt an, wann eine Subdomain zum letzten Mal verifiziert wurde. Sie können eine Verifizierung jederzeit starten, indem Sie die Schaltfläche**...**/**[!UICONTROL  Subdomain verifizieren]** auswählen.
 
 ![](assets/subdomain_verification.png)
 
 >[!CAUTION]
 >
->Adobe empfiehlt die Verwendung von Subdomänen ohne Zertifikatdatum nicht, da dies bedeuten könnte, dass diese Subdomänen möglicherweise Probleme mit der Bereitstellung haben.
+>Adobe rät von der Verwendung von Subdomains ohne Zertifikatsdatum ab, da diese Subdomains Probleme mit der Zustellbarkeit haben können.
 
-Beim Starten einer Überprüfung werden verschiedene Vorgänge ausgeführt, um zu überprüfen, ob die Subdomäne korrekt konfiguriert ist (Prüfung des Instanzenanwärters, E-Mail-Versand-Test usw.)
+Beim Starten einer Verifizierung werden mehrere Vorgänge ausgeführt, um zu überprüfen, ob die Subdomain korrekt konfiguriert ist (Prüfung des Instanzmandanten, E-Mail-Versand-Test usw.)
 
-Wenn die Überprüfung der Subdomäne fehlschlägt, wenden Sie sich für weitere Informationen an den Adobe-Kundendienst.
+Wenn die Verifizierung der Subdomain fehlschlägt, wenden Sie sich für weitere Informationen an die Adobe-Kundenunterstützung.
