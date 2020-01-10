@@ -1,7 +1,7 @@
 ---
 title: Control Panel – Häufig gestellte Fragen
 description: Häufige Fragen zum Control Panel
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b728dfe0289e44188adfa6e71aac2e9fc0abc1d2
 
 ---
@@ -15,11 +15,11 @@ source-git-commit: b728dfe0289e44188adfa6e71aac2e9fc0abc1d2
 
 Dies ist eine eindeutige Kennung, die Ihrer Instanz bei der ersten Anmeldung in Adobe Experience Cloud zugewiesen wird. Sie sollte im folgenden Format vorliegen: xxx@AdobeOrg.
 
-Weitere Informationen finden Sie in der [Adobe Experience Cloud-Dokumentation](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html).
+Weitere Informationen finden Sie in der [Adobe Experience Cloud-Dokumentation](https://marketing.adobe.com/resources/help/de_DE/mcloud/organizations.html).
 
 **Wo finde ich meine Kennung der IMS-Organisation?**
 
-Eine Möglichkeit besteht darin, zur [Startseite von Adobe Experience Cloud](https://exc-login.experiencecloud.adobe.com/exc-content/login.html?prefixtenantid=amc) > **[!UICONTROL Administration]**zu navigieren. Die Kennung Ihrer IMS-Organisation finden Sie in der Administration unten im Bereich**[!UICONTROL  Schnellzugriff]**. Detailliertere Informationen finden Sie in der [Adobe Experience Cloud-Dokumentation](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html).
+Eine Möglichkeit besteht darin, zur [Startseite von Adobe Experience Cloud](https://exc-login.experiencecloud.adobe.com/exc-content/login.html?prefixtenantid=amc) > **[!UICONTROL Administration]**zu navigieren. Die Kennung Ihrer IMS-Organisation finden Sie in der Administration unten im Bereich**[!UICONTROL  Schnellzugriff]**. Detailliertere Informationen finden Sie in der [Adobe Experience Cloud-Dokumentation](https://marketing.adobe.com/resources/help/de_DE/mcloud/organizations.html).
 
 Eine andere Möglichkeit besteht darin, die **Admin Console** zu starten. Die Kennung Ihrer IMS-Organisation wird in Ihrer URL angezeigt. Sie sieht in etwa so aus: https://adminconsole.adobe.com/xxx@AdobeOrg/overview.
 
