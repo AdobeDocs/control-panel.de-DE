@@ -3,7 +3,7 @@ product: adobe campaign
 sub-product: control panel
 audience: end-user
 user-guide-title: Control Panel Help
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 87a9a587e7728ff9b76cedb9bb5990dfe1ac1c78
 
 ---
@@ -13,8 +13,8 @@ source-git-commit: 87a9a587e7728ff9b76cedb9bb5990dfe1ac1c78
 
 + [Produktdokumentation](control-panel-home.md)
 + [Versionshinweise](release-notes.md)
-+ Funktionsweise des Control Panels {#discover-control-panel}
-   + [Wichtigste Funktionen](discover/using/key-features.md)
++ Control Panel {#discover-control-panel}
+   + [Schlüsselfunktionen](discover/using/key-features.md)
    + [Zugriff auf das Control Panel](discover/using/accessing-control-panel.md)
    + [Berechtigungen für das Control Panel verwalten](discover/using/managing-permissions.md)
    + [Benutzeroberfläche des Control Panels](discover/using/discovering-the-interface.md)
