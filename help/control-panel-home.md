@@ -1,6 +1,6 @@
 ---
 title: Produktdokumentation
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5a7200038abd647a3e77d043d14579590449218c
 
 ---
@@ -12,13 +12,13 @@ source-git-commit: 5a7200038abd647a3e77d043d14579590449218c
 
 ## Neue Funktionen
 
-* [SSL-Zertifikatüberwachung](subdomains-certificates/using/monitoring-ssl-certificates.md)
+* [Überwachen von SSL-Zertifikaten](subdomains-certificates/using/monitoring-ssl-certificates.md)
 
-   Erfahren Sie, wie Sie das Ablaufdatum der SSL-Zertifikate Ihrer Subdomänen überwachen.
+   Erfahren Sie, wie Sie das Ablaufdatum der SSL-Zertifikate Ihrer Subdomains überwachen.
 
-* [Subdomänenübertragung](subdomains-certificates/using/subdomains-branding.md)
+* [Zuweisen von Subdomains](subdomains-certificates/using/subdomains-branding.md)
 
-   Erfahren Sie mehr über das Branding von Subdomänen und die wichtigsten Schritte zum Delegieren von Subdomänen an Adobe mithilfe der Systemsteuerung
+   Erfahren Sie mehr über das Branding von Subdomains und die wichtigsten Schritte, um Adobe Subdomains über das Control Panel zuzuweisen.
 
 ## Zusätzliche Ressourcen {#additional-resources}
 
@@ -27,7 +27,7 @@ source-git-commit: 5a7200038abd647a3e77d043d14579590449218c
         <td><b>Campaign Standard</b><br/>
         <ul>
             <li><a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/control-panel-overview.html">Tutorial-Videos für das Campaign Standard Control Panel</a></li>
-            <li><a href="https://docs.adobe.com/content/help/en/campaign-standard/using/campaign-standard-home.html">Produktdokumentation zu Campaign Standard</a></li>
+            <li><a href="https://docs.adobe.com/content/help/de-DE/campaign-standard/using/campaign-standard-home.html">Produktdokumentation zu Campaign Standard</a></li>
         </ul>
         </td>
         <td><b>Campaign Classic</b><br/>
