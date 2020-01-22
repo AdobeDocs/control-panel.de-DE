@@ -1,7 +1,7 @@
 ---
 title: Schlüsselverwaltung
 description: Erfahren Sie, wie Sie Schlüssel für die Verbindung mit SFTP-Servern verwalten.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 46b78a83b1d613dc41983204ef9d9d371fb32156
 
 ---
@@ -41,7 +41,7 @@ In sehr seltenen Fällen ist die passwortbasierte Authentifizierung auf manchen 
 >
 >Die folgenden Schritte sind nur ein Beispiel für die Erstellung von SSH-Schlüsseln. Beachten Sie Ihre Unternehmensrichtlinien in Bezug auf SSH-Schlüssel. Das folgende Beispiel veranschaulicht die Vorgehensweise und zeigt, welche Informationen Sie Ihrem Team oder Ihrer internen Netzwerkgruppe mitteilen müssen.
 
-1. Navigate to the **[!UICONTROL Key Management]**tab, then click the**[!UICONTROL  Add new public key]** button.
+1. Öffnen Sie die Registerkarte **[!UICONTROL Schlüsselverwaltung]**und wählen Sie dann die Schaltfläche**[!UICONTROL  Neuen öffentlichen Schlüssel hinzufügen]** aus.
 
    ![](assets/key0.png)
 
