@@ -1,7 +1,7 @@
 ---
 title: Subdomain-Branding
 description: Weitere Informationen zum Branding von Subdomains
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c44f6800a0f7905fe9e5619388c7007f0af8f973
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: c44f6800a0f7905fe9e5619388c7007f0af8f973
 
 >[!IMPORTANT]
 >
->Die Subdomänendelegation der Kontrollgruppe wird bis Ende Januar als Beta-Version verfügbar sein, vorbehaltlich häufiger Aktualisierungen und Änderungen ohne Vorankündigung.
+>Die Subdomain-Zuweisung über das Control Panel wird Ende Januar als Beta-Version verfügbar sein und häufigen Aktualisierungen und Änderungen ohne vorherige Ankündigung unterliegen.
 
 ## Warum sollten Sie Subdomains einrichten? {#why-setting-up-subdomains}
 
@@ -39,6 +39,6 @@ Die nachstehende Tabelle gibt einen Überblick über die Funktionsweise dieser M
 | **Vollständige Zuweisung** | Sie erstellen die Subdomain und den Namensraumeintrag. Adobe konfiguriert dann alle für Adobe Campaign erforderlichen DNS-Einträge.<br/><br/>Bei dieser Konfiguration hat Adobe die volle Verantwortung für die Pflege der Subdomain und aller DNS-Einträge. | Niedrig |
 | **CNAME, benutzerspezifische Methode** | Sie erstellen die Subdomain und den Namensraumeintrag. Adobe stellt dann die Einträge bereit, die auf Ihren DNS-Servern abgelegt werden sollen, und konfiguriert die entsprechenden Werte in den Adobe Campaign-DNS-Servern.<br/><br/>Bei dieser Konfiguration sind Sie und Adobe gemeinsam für die Pflege des DNS verantwortlich. | Hoch |
 
-Weitere Informationen zur Domain-Zuweisung finden Sie [in dieser Dokumentation](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html).
+Weitere Informationen zur Domain-Zuweisung finden Sie [in dieser Dokumentation](https://helpx.adobe.com/de/campaign/kb/domain-name-delegation.html).
 
-Wenden Sie sich bei Fragen zu Subdomänen-Delegationsmethoden an das Adobe Deliverability-Team oder wenden Sie sich an den Kundendienst, um Beratung zur Lieferbarkeit anzufordern.
+Wenden Sie sich bei Fragen zu den Methoden der Subdomain-Zuweisung an das Zustellbarkeitsteam von Adobe oder an die Kundenunterstützung, um eine Beratung zu Fragen der Zustellbarkeit anzufordern.
