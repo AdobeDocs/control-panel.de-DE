@@ -1,8 +1,8 @@
 ---
 title: Control Panel – Häufig gestellte Fragen
 description: Häufige Fragen zum Control Panel
-translation-type: ht
-source-git-commit: b728dfe0289e44188adfa6e71aac2e9fc0abc1d2
+translation-type: tm+mt
+source-git-commit: 9bd57cd6d4430cf2cae8575547f8e332f94940c1
 
 ---
 
@@ -15,11 +15,11 @@ source-git-commit: b728dfe0289e44188adfa6e71aac2e9fc0abc1d2
 
 Dies ist eine eindeutige Kennung, die Ihrer Instanz bei der ersten Anmeldung in Adobe Experience Cloud zugewiesen wird. Sie sollte im folgenden Format vorliegen: xxx@AdobeOrg.
 
-Weitere Informationen finden Sie in der [Adobe Experience Cloud-Dokumentation](https://marketing.adobe.com/resources/help/de_DE/mcloud/organizations.html).
+Weitere Informationen finden Sie in der [Adobe Experience Cloud-Dokumentation](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html).
 
 **Wo finde ich meine Kennung der IMS-Organisation?**
 
-Eine Möglichkeit besteht darin, zur [Startseite von Adobe Experience Cloud](https://exc-login.experiencecloud.adobe.com/exc-content/login.html?prefixtenantid=amc) > **[!UICONTROL Administration]**zu navigieren. Die Kennung Ihrer IMS-Organisation finden Sie in der Administration unten im Bereich**[!UICONTROL  Schnellzugriff]**. Detailliertere Informationen finden Sie in der [Adobe Experience Cloud-Dokumentation](https://marketing.adobe.com/resources/help/de_DE/mcloud/organizations.html).
+Eine Möglichkeit besteht darin, zur [Startseite von Adobe Experience Cloud](https://exc-login.experiencecloud.adobe.com/exc-content/login.html?prefixtenantid=amc) > **[!UICONTROL Administration]**zu navigieren. Die Kennung Ihrer IMS-Organisation finden Sie in der Administration unten im Bereich**[!UICONTROL  Schnellzugriff]**. Detailliertere Informationen finden Sie in der [Adobe Experience Cloud-Dokumentation](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html).
 
 Eine andere Möglichkeit besteht darin, die **Admin Console** zu starten. Die Kennung Ihrer IMS-Organisation wird in Ihrer URL angezeigt. Sie sieht in etwa so aus: https://adminconsole.adobe.com/xxx@AdobeOrg/overview.
 
@@ -41,7 +41,7 @@ Wenn Sie Zugriff auf mehrere Adobe-Lösungen haben, kann es sein, dass Sie mehr 
 
 Gehen Sie wie folgt vor, um zu überprüfen, ob Ihre Instanz auf AWS gehostet wird:
 
-1. Rufen Sie Ihre Anmelde-URL ab. Dies ist die URL, die Sie zur Anmeldung in Ihrer Campaign-Instanz verwenden. Sie endet normalerweise auf &quot;.campaign.adobe.com&quot;.
+1. Rufen Sie Ihre Anmelde-URL ab. Es ist die URL, mit der Sie sich bei Ihrer Kampagneninstanz anmelden, und endet meist mit &quot;.campaign.adobe.com&quot;oder&quot;.neolane.net&quot;.
 1. Öffnen Sie das Terminal und führen Sie dann einen **[!DNL nslookup]**--Vorgang auf Ihrer Anmelde-URL aus.
 
    `doe-macOS% nslookup myinstance.campaign.adobe.com`
