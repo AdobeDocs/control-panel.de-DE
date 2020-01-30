@@ -1,8 +1,8 @@
 ---
 title: Verlängern des SSL-Zertifikats einer Subdomain
 description: Erfahren Sie, wie Sie die Zertifikate Ihrer Subdomains verlängern.
-translation-type: ht
-source-git-commit: 50d29d25891adc866d624888ca72e16e529ae7bf
+translation-type: tm+mt
+source-git-commit: 762c445713e6e728fc1a45d5fcf8c9c1cb0dcdf6
 
 ---
 
@@ -103,3 +103,9 @@ Gehen Sie wie folgt vor, um das Zertifikat zu installieren:
    ![](assets/install2.png)
 
 Nach der Installation des SSL-Zertifikats werden das Ablaufdatum und das Statussymbol des Zertifikats entsprechend aktualisiert.
+
+**Verwandte Themen:**
+
+* [Hinzufügen von SSL-Zertifikaten (Lernvideo)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/adding-ssl-certificates.html)
+* [Subdomain-Branding](../../subdomains-certificates/using/subdomains-branding.md)
+* [Überwachen von Subdomains](../../subdomains-certificates/using/monitoring-subdomains.md)
