@@ -1,8 +1,8 @@
 ---
 title: Einrichten einer neuen Subdomain
 description: Erfahren Sie, wie Sie eine neue Subdomain für Ihre Campaign-Instanz einrichten.
-translation-type: ht
-source-git-commit: c44f6800a0f7905fe9e5619388c7007f0af8f973
+translation-type: tm+mt
+source-git-commit: 762c445713e6e728fc1a45d5fcf8c9c1cb0dcdf6
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: c44f6800a0f7905fe9e5619388c7007f0af8f973
 >
 >Die Subdomain-Zuweisung über das Control Panel wird Ende Januar als Beta-Version verfügbar sein und häufigen Aktualisierungen und Änderungen ohne vorherige Ankündigung unterliegen.
 
-Wenden Sie sich bei Fragen zu den Methoden der Subdomain-Zuweisung an das Zustellbarkeitsteam von Adobe oder an die Kundenunterstützung, um eine Beratung zu Fragen der Zustellbarkeit anzufordern.
+Wenden Sie sich bei Fragen zu Subdomänendelegationsmethoden an das Adobe-Bereitstellungsteam oder wenden Sie sich an den Kundendienst, um Beratung zur Lieferbarkeit anzufordern.
 
 ## Vollständige Subdomain-Zuweisung {#full-subdomain-delegation}
 
@@ -109,3 +109,9 @@ Klicken Sie auf **[!UICONTROL Details der Subdomain]**, um weitere Details zur S
 ## Verwenden von CNAME {#use-cnames}
 
 Die Verwendung von CNAME für die Subdomain-Zuweisung wird über das Control Panel nicht unterstützt. Kontaktieren Sie zur Verwendung dieser Methode die Adobe-Kundenunterstützung.
+
+**Verwandte Themen:**
+
+* [Delegieren von Subdomänen (Lernvideo)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/subdomain-delegation.html)
+* [Subdomain-Branding](../../subdomains-certificates/using/subdomains-branding.md)
+* [Überwachen von Subdomains](../../subdomains-certificates/using/monitoring-subdomains.md)
