@@ -1,8 +1,8 @@
 ---
 title: Überwachen von SSL-Zertifikaten der Subdomains
 description: Erfahren Sie, wie Sie die SSL-Zertifikate Ihrer Subdomains überwachen.
-translation-type: ht
-source-git-commit: c51a43fb310bbb8bd7570bc4ea668d708159535c
+translation-type: tm+mt
+source-git-commit: 762c445713e6e728fc1a45d5fcf8c9c1cb0dcdf6
 
 ---
 
@@ -24,3 +24,9 @@ Die Spalte **[!UICONTROL Letzte Verifizierung]**gibt an, wann eine Subdomain zum
 Beim Starten einer Verifizierung werden mehrere Vorgänge ausgeführt, um zu überprüfen, ob die Subdomain korrekt konfiguriert ist (Prüfung des Instanzmandanten, E-Mail-Versand-Test usw.)
 
 Wenn die Verifizierung der Subdomain fehlschlägt, wenden Sie sich für weitere Informationen an die Adobe-Kundenunterstützung.
+
+**Verwandte Themen:**
+
+* [Hinzufügen von SSL-Zertifikaten (Lernvideo)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/adding-ssl-certificates.html)
+* [Verlängern des SSL-Zertifikats einer Subdomain](../..help/subdomains-certificates/using/renewing-subdomain-certificate.md)
+* [Subdomain-Branding](../../subdomains-certificates/using/subdomains-branding.md)
