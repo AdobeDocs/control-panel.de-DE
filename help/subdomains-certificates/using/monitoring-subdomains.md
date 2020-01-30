@@ -2,7 +2,7 @@
 title: Überwachen von SSL-Zertifikaten der Subdomains
 description: Erfahren Sie, wie Sie die SSL-Zertifikate Ihrer Subdomains überwachen.
 translation-type: tm+mt
-source-git-commit: 762c445713e6e728fc1a45d5fcf8c9c1cb0dcdf6
+source-git-commit: ce15da4aabb0350cb9a60cc16556ffcf691fc3df
 
 ---
 
@@ -28,5 +28,5 @@ Wenn die Verifizierung der Subdomain fehlschlägt, wenden Sie sich für weitere 
 **Verwandte Themen:**
 
 * [Hinzufügen von SSL-Zertifikaten (Lernvideo)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/adding-ssl-certificates.html)
-* [Verlängern des SSL-Zertifikats einer Subdomain](../..help/subdomains-certificates/using/renewing-subdomain-certificate.md)
+* [Verlängern des SSL-Zertifikats einer Subdomain](../../subdomains-certificates/using/renewing-subdomain-certificate.md)
 * [Subdomain-Branding](../../subdomains-certificates/using/subdomains-branding.md)
