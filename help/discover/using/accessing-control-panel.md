@@ -1,8 +1,8 @@
 ---
 title: Zugriff auf das Control Panel
 description: Erfahren Sie, wie Sie auf das Control Panel zugreifen können.
-translation-type: ht
-source-git-commit: b7b48c01cb7d7c618f4622173c9bd059a8e7098e
+translation-type: tm+mt
+source-git-commit: ddf4ca24c1583e388c07aae110522627220d5e66
 
 ---
 
@@ -15,13 +15,13 @@ Es steht nur **Administratoren** zur Verfügung. Weitere Informationen zum Hinzu
 
 ## Zugriff über die Experience Cloud-Plattform {#access-experience-cloud-platform}
 
-Um über die Experience Cloud-Plattform auf das Control Panel zuzugreifen, öffnen Sie die [Startseite der Experience Cloud-Plattform](https://amc.experiencecloud.adobe.com/) und wählen Sie dann im Bereich **Schnellzugriff** den entsprechenden Link aus.
+Um über die Experience Cloud-Plattform auf das Control Panel zuzugreifen, öffnen Sie die [Startseite der Experience Cloud-Plattform](https://experiencecloud.adobe.com/) und wählen Sie dann im Bereich **Schnellzugriff** den entsprechenden Link aus.
 
 ![](assets/do-not-localize/quickaccess.png)
 
 Der Zugriff auf das Control Panel ist auch über die Experience Cloud-Plattform in der **Auswahl der Lösungen** möglich:
 
-1. Gehen Sie zu [Adobe Experience Cloud](https://amc.experiencecloud.adobe.com/) und wählen Sie dann in der Lösungsauswahl **Campaign** aus.
+1. Gehen Sie zu [Adobe Experience Cloud](https://experiencecloud.adobe.com/) und wählen Sie dann in der Lösungsauswahl **Campaign** aus.
 
    ![](assets/do-not-localize/control_panel_access1.png)
 
