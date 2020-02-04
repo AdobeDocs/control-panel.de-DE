@@ -2,7 +2,7 @@
 title: Einrichten einer neuen Subdomain
 description: Erfahren Sie, wie Sie eine neue Subdomain für Ihre Campaign-Instanz einrichten.
 translation-type: tm+mt
-source-git-commit: 762c445713e6e728fc1a45d5fcf8c9c1cb0dcdf6
+source-git-commit: ee5567a41f68d4dc51c19ae70e8b25693a1d33fa
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: 762c445713e6e728fc1a45d5fcf8c9c1cb0dcdf6
 
 >[!IMPORTANT]
 >
->Die Subdomain-Zuweisung über das Control Panel wird Ende Januar als Beta-Version verfügbar sein und häufigen Aktualisierungen und Änderungen ohne vorherige Ankündigung unterliegen.
+>Subdomänendelegationen von der Systemsteuerung sind in der Beta-Version verfügbar und unterliegen häufigen Aktualisierungen und Änderungen ohne Vorankündigung.
 
 Wenden Sie sich bei Fragen zu Subdomänendelegationsmethoden an das Adobe-Bereitstellungsteam oder wenden Sie sich an den Kundendienst, um Beratung zur Lieferbarkeit anzufordern.
 
