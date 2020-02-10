@@ -1,7 +1,7 @@
 ---
 title: Zugriff auf das Control Panel
 description: Erfahren Sie, wie Sie auf das Control Panel zugreifen können.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ddf4ca24c1583e388c07aae110522627220d5e66
 
 ---
@@ -35,10 +35,10 @@ Der Zugriff auf das Control Panel ist auch über die Experience Cloud-Plattform 
 >
 >Der Zugriff über das Produkt ist nur für Campaign Standard verfügbar.
 
-1. Öffnen Sie Campaign Standard und wählen Sie dann das Menü **[!UICONTROL Administration]**aus dem Bereich**[!UICONTROL  Navigation]** aus.
+1. Öffnen Sie Campaign Standard und wählen Sie dann das Menü **[!UICONTROL Administration]** aus dem Bereich **[!UICONTROL Navigation]** aus.
 
    ![](assets/control_panel_access3.png)
 
-1. Wählen Sie das Symbol **[!UICONTROL Control Panel]**aus.
+1. Wählen Sie das Symbol **[!UICONTROL Control Panel]** aus.
 
    ![](assets/control_panel_access4.png)
