@@ -1,7 +1,7 @@
 ---
 title: Überwachen von SSL-Zertifikaten der Subdomains
-description: Erfahren Sie, wie Sie die Zertifikate Ihrer Subdomains überwachen.
-translation-type: tm+mt
+description: Erfahren Sie, wie Sie die SSL-Zertifikate Ihrer Subdomains überwachen.
+translation-type: ht
 source-git-commit: ce15da4aabb0350cb9a60cc16556ffcf691fc3df
 
 ---
@@ -23,7 +23,7 @@ Mit der **SSL-Verschlüsselung (Secure Socket Layer)** stellen Sie sicher, dass 
 
 ## Überwachung von SSL-Zertifikaten {#monitoring-certificates}
 
-Der Status der SSL-Zertifikate Ihrer Subdomains ist direkt in der Liste der Subdomains verfügbar, wenn Sie die Karte **[!UICONTROL Subdomains &amp; Zertifikate]**auswählen.
+Der Status der SSL-Zertifikate Ihrer Subdomains ist direkt in der Liste der Subdomains verfügbar, wenn Sie die Karte **[!UICONTROL Subdomains &amp; Zertifikate]** auswählen.
 
 Die Subdomains sind nach dem nächsten Ablaufdatum des SSL-Zertifikats geordnet, wobei das Ablaufdatum in Tagen optisch dargestellt wird:
 
@@ -34,10 +34,10 @@ Die Subdomains sind nach dem nächsten Ablaufdatum des SSL-Zertifikats geordnet,
 
 ![](assets/subdomains_list.png)
 
-Wählen Sie die Schaltfläche **[!UICONTROL Details der Subdomain]**aus, um weitere Details zu einer Subdomain zu erhalten.
+Wählen Sie die Schaltfläche **[!UICONTROL Details der Subdomain]** aus, um weitere Details zu einer Subdomain zu erhalten.
 Die Liste aller zugehörigen Subdomains wird angezeigt. Normalerweise sind dies Subdomains von Landingpages, Seiten mit Ressourcen usw.
 
-Die Registerkarte **[!UICONTROL Absenderdetails]**enthält Informationen zu den konfigurierten Postfächern (Absender-, Antwort-, Fehler-E-Mail).
+Die Registerkarte **[!UICONTROL Absenderdetails]** enthält Informationen zu den konfigurierten Postfächern (Absender-, Antwort-, Fehler-E-Mail).
 
 ![](assets/subdomain_details.png)
 
@@ -49,6 +49,6 @@ Wenn eines der SSL-Zertifikate Ihrer Subdomain bald abläuft, können Sie es dir
 
 **Verwandte Themen:**
 
-* [Hinzufügen von SSL-Zertifikaten (Lernvideo)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/adding-ssl-certificates.html)
+* [Hinzufügen von SSL-Zertifikaten (Tutorial-Video)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/adding-ssl-certificates.html)
 * [Verlängern des SSL-Zertifikats einer Subdomain](../../subdomains-certificates/using/renewing-subdomain-certificate.md)
 * [Subdomain-Branding](../../subdomains-certificates/using/subdomains-branding.md)
