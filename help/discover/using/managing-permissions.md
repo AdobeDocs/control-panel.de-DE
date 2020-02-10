@@ -1,7 +1,7 @@
 ---
 title: Berechtigungen für das Control Panel verwalten
 description: Erfahren Sie, wie Sie Berechtigungen für das Control Panel verwalten
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ddf4ca24c1583e388c07aae110522627220d5e66
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: ddf4ca24c1583e388c07aae110522627220d5e66
 
 Auf das Control Panel haben alle Admin-Benutzer einer Campaign-Instanz Zugriff. Führen Sie die folgenden Schritte aus, um Benutzern Administratorrechte zu erteilen und ihnen Zugriff auf das Control Panel zu gewähren.
 
-1. Gehen Sie zu [Adobe Experience Cloud](https://experiencecloud.adobe.com/) und wählen Sie dann die Registerkarte **[!UICONTROL Administration]**aus.
+1. Gehen Sie zu [Adobe Experience Cloud](https://experiencecloud.adobe.com/) und wählen Sie dann die Registerkarte **[!UICONTROL Administration]** aus.
 
    ![](assets/do-not-localize/control_panel_add_user1.png)
 
@@ -39,7 +39,7 @@ Auf das Control Panel haben alle Admin-Benutzer einer Campaign-Instanz Zugriff. 
    >
    >Sie können für jede Campaign-Instanz unterschiedliche Admin-Benutzer hinzufügen. Die Admin-Benutzer können aber nur auf das Control Panel der Instanz zugreifen, zu der sie gehören.
 
-1. Für die ausgewählte Instanz wird die Liste der Produktprofile angezeigt. Wählen Sie das Produktprofil **[!UICONTROL Administratoren]**aus, um auf die Liste der Admin-Benutzer zuzugreifen.
+1. Für die ausgewählte Instanz wird die Liste der Produktprofile angezeigt. Wählen Sie das Produktprofil **[!UICONTROL Administratoren]** aus, um auf die Liste der Admin-Benutzer zuzugreifen.
 
    ![](assets/do-not-localize/control_panel_add_user_5.png)
 
@@ -47,6 +47,6 @@ Auf das Control Panel haben alle Admin-Benutzer einer Campaign-Instanz Zugriff. 
    >
    >Standardmäßig gehören Admin-Benutzer dem Produktprofil &quot;Administratoren&quot; an. Je nach Konfiguration Ihrer Organisation kann das Produktprofil unterschiedlich benannt sein (&quot;admin&quot;, &quot;admins&quot; usw.).
 
-1. Die Liste der Admin-Benutzer wird angezeigt. Wählen Sie die Schaltfläche **[!UICONTROL Benutzer hinzufügen]**aus, um den gewünschten Benutzer hinzuzufügen.
+1. Die Liste der Admin-Benutzer wird angezeigt. Wählen Sie die Schaltfläche **[!UICONTROL Benutzer hinzufügen]** aus, um den gewünschten Benutzer hinzuzufügen.
 
    ![](assets/do-not-localize/control_panel_add_user_6.png)
