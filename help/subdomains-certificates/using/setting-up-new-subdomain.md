@@ -1,7 +1,7 @@
 ---
 title: Einrichten einer neuen Subdomain
 description: Erfahren Sie, wie Sie eine neue Subdomain für Ihre Campaign-Instanz einrichten.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ee5567a41f68d4dc51c19ae70e8b25693a1d33fa
 
 ---
@@ -11,9 +11,9 @@ source-git-commit: ee5567a41f68d4dc51c19ae70e8b25693a1d33fa
 
 >[!IMPORTANT]
 >
->Subdomänendelegationen von der Systemsteuerung sind in der Beta-Version verfügbar und unterliegen häufigen Aktualisierungen und Änderungen ohne Vorankündigung.
+>Die Subdomain-Zuweisung über das Control Panel befindet sich in der Beta-Phase und unterliegt häufigen Aktualisierungen und Änderungen ohne Vorankündigung.
 
-Wenden Sie sich bei Fragen zu Subdomänendelegationsmethoden an das Adobe-Bereitstellungsteam oder wenden Sie sich an den Kundendienst, um Beratung zur Lieferbarkeit anzufordern.
+Wenden Sie sich bei Fragen zu den Methoden der Subdomain-Zuweisung an das Zustellbarkeits-Team von Adobe oder an die Kundenunterstützung, um eine Beratung zu Fragen der Zustellbarkeit anzufordern.
 
 ## Vollständige Subdomain-Zuweisung {#full-subdomain-delegation}
 
@@ -25,7 +25,7 @@ Wenden Sie sich bei Fragen zu Subdomänendelegationsmethoden an das Adobe-Bereit
 >
 >Mithilfe dieser primären Subdomain werden Reverse-DNS-Einträge für andere Subdomains erstellt. Außerdem werden über die primäre Subdomain Antwort- und Bounce-Adressen für andere Subdomains generiert.
 
-1. Wählen Sie auf der Karte **[!UICONTROL Subdomains &amp; Zertifikate]**die gewünschte Produktionsinstanz und danach**[!UICONTROL  Neue Subdomain einrichten]** aus.
+1. Wählen Sie auf der Karte **[!UICONTROL Subdomains &amp; Zertifikate]** die gewünschte Produktionsinstanz und danach **[!UICONTROL Neue Subdomain einrichten]** aus.
 
    ![](assets/subdomain1.png)
 
@@ -33,7 +33,7 @@ Wenden Sie sich bei Fragen zu Subdomänendelegationsmethoden an das Adobe-Bereit
    >
    >Die Zuweisung von Subdomains ist nur für **Produktionsinstanzen** verfügbar.
 
-1. Wählen Sie **[!UICONTROL Weiter]**aus, um die Methode der vollständigen Zuweisung zu bestätigen.
+1. Wählen Sie **[!UICONTROL Weiter]** aus, um die Methode der vollständigen Zuweisung zu bestätigen.
 
    ![](assets/subdomain3.png)
 
@@ -49,7 +49,7 @@ Wenden Sie sich bei Fragen zu Subdomänendelegationsmethoden an das Adobe-Bereit
 
    ![](assets/subdomain4.png)
 
-   Nachdem die Subdomain mit den entsprechenden Adobe-Nameserver-Informationen erstellt wurde, wählen Sie **[!UICONTROL Weiter]**aus.
+   Nachdem die Subdomain mit den entsprechenden Adobe-Nameserver-Informationen erstellt wurde, wählen Sie **[!UICONTROL Weiter]** aus.
 
 1. Wählen Sie den gewünschten Anwendungsfall für die Subdomain aus:
 
@@ -63,7 +63,7 @@ Wenden Sie sich bei Fragen zu Subdomänendelegationsmethoden an das Adobe-Bereit
 
    ![](assets/subdomain5.png)
 
-1. Geben Sie die von Ihnen erstellte Subdomain in Ihre Hosting-Lösung ein und wählen Sie dann **[!UICONTROL Senden]**aus.
+1. Geben Sie die von Ihnen erstellte Subdomain in Ihre Hosting-Lösung ein und wählen Sie dann **[!UICONTROL Senden]** aus.
 
    >[!NOTE]
    >
@@ -73,13 +73,13 @@ Wenden Sie sich bei Fragen zu Subdomänendelegationsmethoden an das Adobe-Bereit
 
 1. Nachdem die Subdomain übermittelt wurde, prüft das Control Panel, ob sie korrekt auf Adobe-NS-Einträge verweist. Zusätzlich wird sichergestellt, dass für diese Subdomain kein SOA-Datensatz (Start of Authority) existiert.
 
-1. Wenn die Prüfungen erfolgreich sind, beginnt das Control Panel mit der Einrichtung der Subdomain mit DNS-Einträgen, zusätzlichen URLs, Postfächern usw. Wählen Sie **[!UICONTROL Prozessdetails]**aus, um weitere Informationen zum Konfigurationsfortschritt zu erhalten.
+1. Wenn die Prüfungen erfolgreich sind, beginnt das Control Panel mit der Einrichtung der Subdomain mit DNS-Einträgen, zusätzlichen URLs, Postfächern usw. Wählen Sie **[!UICONTROL Prozessdetails]** aus, um weitere Informationen zum Konfigurationsfortschritt zu erhalten.
 
    ![](assets/subdomain7.png)
 
    >[!NOTE]
    >
-   >In einigen Fällen wird die Zuweisung durchgeführt, die Subdomain wird jedoch möglicherweise nicht erfolgreich verifiziert. Die Subdomain wird direkt in die Liste der **[!UICONTROL verifizierten Subdomain]**mit dem Status**[!UICONTROL  Nicht verifiziert]** und einem Verarbeitungslog mit Informationen zum Fehler aufgenommen. Wenden Sie sich an die Kundenunterstützung, wenn Sie Probleme bei der Lösung des Problems haben.
+   >In einigen Fällen wird die Zuweisung durchgeführt, die Subdomain wird jedoch möglicherweise nicht erfolgreich verifiziert. Die Subdomain wird direkt in die Liste der **[!UICONTROL verifizierten Subdomain]** mit dem Status **[!UICONTROL Nicht verifiziert]** und einem Verarbeitungslog mit Informationen zum Fehler aufgenommen. Wenden Sie sich an die Kundenunterstützung, wenn Sie Probleme bei der Lösung des Problems haben.
    >
    >Beachten Sie, dass während der Ausführung der Subdomain-Zuweisung andere Anfragen über das Control Panel in eine Warteschlange eingegeben und erst nach Abschluss der Subdomain-Zuweisung ausgeführt werden, um Leistungsprobleme zu vermeiden.
 
@@ -112,6 +112,6 @@ Die Verwendung von CNAME für die Subdomain-Zuweisung wird über das Control Pan
 
 **Verwandte Themen:**
 
-* [Delegieren von Subdomänen (Lernvideo)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/subdomain-delegation.html)
+* [Zuweisen von Subdomains (Tutorial-Video)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/subdomain-delegation.html)
 * [Subdomain-Branding](../../subdomains-certificates/using/subdomains-branding.md)
 * [Überwachen von Subdomains](../../subdomains-certificates/using/monitoring-subdomains.md)
