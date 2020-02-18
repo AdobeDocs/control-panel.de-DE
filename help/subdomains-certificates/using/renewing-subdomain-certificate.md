@@ -1,7 +1,7 @@
 ---
 title: Verlängern des SSL-Zertifikats einer Subdomain
 description: Erfahren Sie, wie Sie die Zertifikate Ihrer Subdomains verlängern.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ee5567a41f68d4dc51c19ae70e8b25693a1d33fa
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: ee5567a41f68d4dc51c19ae70e8b25693a1d33fa
 
 >[!IMPORTANT]
 >
->Subdomänendelegationen von der Systemsteuerung sind in der Beta-Version verfügbar und unterliegen häufigen Aktualisierungen und Änderungen ohne Vorankündigung.
+>Die Subdomain-Zuweisung über das Control Panel befindet sich in der Beta-Phase und unterliegt häufigen Aktualisierungen und Änderungen ohne Vorankündigung.
 
 ## Über die Zertifikatsverlängerung {#about-certificate-renewal-process}
 
@@ -31,28 +31,28 @@ Nachdem Sie das SSL-Zertifikat erworben haben, können Sie es in der gewünschte
 
 Gehen Sie wie folgt vor, um eine Certificate Signing Request (CSR) zu erstellen:
 
-1. Wählen Sie zuerst auf der Karte **[!UICONTROL Subdomains &amp; Zertifikate]**die gewünschte Instanz und danach**[!UICONTROL  Zertifikat verwalten]** aus.
+1. Wählen Sie zuerst auf der Karte **[!UICONTROL Subdomains &amp; Zertifikate]** die gewünschte Instanz und danach **[!UICONTROL Zertifikat verwalten]** aus.
 
    ![](assets/renewal1.png)
 
-1. Wählen Sie **[!UICONTROL Erstellen einer CSR]**und dann**[!UICONTROL  Weiter]** aus, um den Assistenten zu starten, der Sie durch den CSR-Generierungsprozess führt.
+1. Wählen Sie **[!UICONTROL Erstellen einer CSR]** und dann **[!UICONTROL Weiter]** aus, um den Assistenten zu starten, der Sie durch den CSR-Generierungsprozess führt.
 
    ![](assets/renewal2.png)
 
 1. Daraufhin wird ein Formular mit allen Details angezeigt, die zum Generieren Ihrer CSR erforderlich sind.
 
-   Vergewissern Sie sich, dass Sie die angeforderten Informationen vollständig und korrekt ausgefüllt haben. Anderenfalls kann das Zertifikat möglicherweise nicht verlängert werden. (Wenden Sie sich bei Bedarf an Ihr internes Team bzw. Ihr Sicherheits- oder IT-Team.) Wählen Sie dann **[!UICONTROL Weiter]**aus.
+   Vergewissern Sie sich, dass Sie die angeforderten Informationen vollständig und korrekt ausgefüllt haben. Anderenfalls kann das Zertifikat möglicherweise nicht verlängert werden. (Wenden Sie sich bei Bedarf an Ihr internes Team bzw. Ihr Sicherheits- oder IT-Team.) Wählen Sie dann **[!UICONTROL Weiter]** aus.
 
    * **[!UICONTROL Organisation]**: Offizieller Name der Organisation.
    * **[!UICONTROL Organisationseinheit]**: Die mit der Subdomain verknüpfte Einheit (Beispiel: Marketing, IT).
-   * **[!UICONTROL Instanz]**(vorbelegt): URL der Campaign-Instanz, die mit der Subdomain verknüpft ist.
+   * **[!UICONTROL Instanz]** (vorbelegt): URL der Campaign-Instanz, die mit der Subdomain verknüpft ist.
    ![](assets/renewal3.png)
 
 1. Wählen Sie zuerst die Subdomains aus, die in die CSR einbezogen werden sollen, und danach **[!UICONTROL OK]**.
 
    ![](assets/renewal4.png)
 
-1. Die ausgewählten Subdomains werden in der Liste angezeigt. Wählen Sie für jede davon die einzubeziehenden Subdomains und dann **[!UICONTROL Weiter]**aus.
+1. Die ausgewählten Subdomains werden in der Liste angezeigt. Wählen Sie für jede davon die einzubeziehenden Subdomains und dann **[!UICONTROL Weiter]** aus.
 
    ![](assets/renewal5.png)
 
@@ -90,15 +90,15 @@ Sobald Sie ein SSL-Zertifikat gekauft haben, können Sie es auf Ihrer Instanz in
 
 Gehen Sie wie folgt vor, um das Zertifikat zu installieren:
 
-1. Wählen Sie auf der Karte **[!UICONTROL Subdomains &amp; Zertifikate]**zuerst die gewünschte Instanz und danach**[!UICONTROL  Zertifikat verwalten]** aus.
+1. Wählen Sie auf der Karte **[!UICONTROL Subdomains &amp; Zertifikate]** zuerst die gewünschte Instanz und danach **[!UICONTROL Zertifikat verwalten]** aus.
 
    ![](assets/renewal1.png)
 
-1. Wählen Sie **[!UICONTROL Installieren eines SSL-Zertifikats]**und dann**[!UICONTROL  Weiter]** aus, um den Assistenten zu starten, der Sie durch den Zertifikatinstallationsprozess führt.
+1. Wählen Sie **[!UICONTROL Installieren eines SSL-Zertifikats]** und dann **[!UICONTROL Weiter]** aus, um den Assistenten zu starten, der Sie durch den Zertifikatinstallationsprozess führt.
 
    ![](assets/install1.png)
 
-1. Wählen Sie die .zip-Datei aus, die das zu installierende Zertifikat enthält, und wählen Sie danach **[!UICONTROL Senden]**aus.
+1. Wählen Sie die .zip-Datei aus, die das zu installierende Zertifikat enthält, und wählen Sie danach **[!UICONTROL Senden]** aus.
 
    ![](assets/install2.png)
 
@@ -106,6 +106,6 @@ Nach der Installation des SSL-Zertifikats werden das Ablaufdatum und das Statuss
 
 **Verwandte Themen:**
 
-* [Hinzufügen von SSL-Zertifikaten (Lernvideo)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/adding-ssl-certificates.html)
+* [Hinzufügen von SSL-Zertifikaten (Tutorial-Video)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/adding-ssl-certificates.html)
 * [Subdomain-Branding](../../subdomains-certificates/using/subdomains-branding.md)
 * [Überwachen von Subdomains](../../subdomains-certificates/using/monitoring-subdomains.md)
