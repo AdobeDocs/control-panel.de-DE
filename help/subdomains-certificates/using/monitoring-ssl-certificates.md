@@ -1,8 +1,8 @@
 ---
 title: Überwachen von SSL-Zertifikaten der Subdomains
 description: Erfahren Sie, wie Sie die SSL-Zertifikate Ihrer Subdomains überwachen.
-translation-type: ht
-source-git-commit: ce15da4aabb0350cb9a60cc16556ffcf691fc3df
+translation-type: tm+mt
+source-git-commit: f0aea7944ea31b76f1f9efef6d0e759c7b5896b6
 
 ---
 
@@ -23,7 +23,7 @@ Mit der **SSL-Verschlüsselung (Secure Socket Layer)** stellen Sie sicher, dass 
 
 ## Überwachung von SSL-Zertifikaten {#monitoring-certificates}
 
-Der Status der SSL-Zertifikate Ihrer Subdomains ist direkt in der Liste der Subdomains verfügbar, wenn Sie die Karte **[!UICONTROL Subdomains &amp; Zertifikate]** auswählen.
+The status of your subdomains&#39; SSL certificates is available directly from the list of subdomains when selecting the **[!UICONTROL Subdomains & Certificates]** card.
 
 Die Subdomains sind nach dem nächsten Ablaufdatum des SSL-Zertifikats geordnet, wobei das Ablaufdatum in Tagen optisch dargestellt wird:
 
@@ -34,10 +34,10 @@ Die Subdomains sind nach dem nächsten Ablaufdatum des SSL-Zertifikats geordnet,
 
 ![](assets/subdomains_list.png)
 
-Wählen Sie die Schaltfläche **[!UICONTROL Details der Subdomain]** aus, um weitere Details zu einer Subdomain zu erhalten.
+To get more details on a subdomain, click the **[!UICONTROL Subdomain Details]** button.
 Die Liste aller zugehörigen Subdomains wird angezeigt. Normalerweise sind dies Subdomains von Landingpages, Seiten mit Ressourcen usw.
 
-Die Registerkarte **[!UICONTROL Absenderdetails]** enthält Informationen zu den konfigurierten Postfächern (Absender-, Antwort-, Fehler-E-Mail).
+The **[!UICONTROL Sender info]** tab provides information on the configured inboxes (Sender, Reply to, Error email).
 
 ![](assets/subdomain_details.png)
 
@@ -45,7 +45,7 @@ Wenn eines der SSL-Zertifikate Ihrer Subdomain bald abläuft, können Sie es dir
 
 >[!IMPORTANT]
 >
->Die Zertifikatsverlängerung über das Control Panel wird Ende Januar als Beta-Version verfügbar sein und häufigen Aktualisierungen und Änderungen ohne vorherige Ankündigung unterliegen.
+>Die Zertifikatsverlängerung über die Systemsteuerung ist in der Beta-Version verfügbar und kann mit häufigen Aktualisierungen und Änderungen ohne Vorankündigung erfolgen.
 
 **Verwandte Themen:**
 
