@@ -1,13 +1,19 @@
 ---
 title: URL-Genehmigungen
 description: Erfahren Sie, wie Sie URL-Genehmigungen im Control Panel verwalten.
-translation-type: ht
-source-git-commit: 8ee999b89af88a1a59956838d5722ce8fc6b3955
+translation-type: tm+mt
+source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 ---
 
 
 # URL-Genehmigungen {#url-permissions}
+
+>[!CONTEXTUALHELP]
+>id=&quot;cp_instancesettings_urlpermissions&quot;
+>title=&quot;Informationen zu URL-Berechtigungen&quot;
+>abstract=&quot;Verwalten Sie die URLs, mit denen Ihre Adobe Campaign-Instanzen eine Verbindung herstellen können.&quot;
+>additional-url=&quot;https://images-tv.adobe.com/mpcv3/91206a19-d9af-4b6a-8197-0d2810a78941_1563488165.1920x1080at3000_h264.mp4&quot; text=&quot;Demovideo ansehen&quot;
 
 >[!CAUTION]
 >
@@ -35,9 +41,14 @@ Nach dem Hinzufügen einer URL wird sie in der Konfigurationsdatei der Instanz r
 
 ## Verwaltung von URL-Genehmigungen {#managing-url-permissions}
 
+>[!CONTEXTUALHELP]
+>id=&quot;cp_instancesettings_url_add&quot;
+>title=&quot;Neue URL hinzufügen&quot;
+>abstract=&quot;Fügen Sie URLs hinzu, um Verbindungen zu Ihrer Kampagneninstanz zuzulassen.&quot;
+
 Gehen Sie wie folgt vor, um eine URL hinzuzufügen, mit der sich Ihre Instanz verbinden kann:
 
-1. Öffnen Sie die Karte **[!UICONTROL Instanzeinstellungen]**, um auf die Registerkarte**[!UICONTROL  URL-Genehmigungen]** zuzugreifen.
+1. Öffnen Sie die **[!UICONTROL Instances Settings]** Karte, um auf die **[!UICONTROL URL Permissions]** Registerkarte zuzugreifen.
 
    >[!NOTE]
    >
@@ -45,7 +56,7 @@ Gehen Sie wie folgt vor, um eine URL hinzuzufügen, mit der sich Ihre Instanz ve
    >
    >Auf der Registerkarte <b><span class="uicontrol">URL-Genehmigungen</span></b> werden alle externen URLs aufgelistet, mit denen Ihre Instanz eine Verbindung herstellen kann. Diese Liste enthält jedoch nicht die URLs, die für das Funktionieren von Campaign erforderlich sind (z. B. Verbindungen zwischen Infrastrukturelementen).
 
-1. Wählen Sie auf der linken Seite die gewünschte Instanz aus und danach die Schaltfläche **[!UICONTROL Neue URL hinzufügen]**.
+1. Select in the left pane the desired instance, then click the **[!UICONTROL Add new URL]** button.
 
    ![](assets/add_url1.png)
 
@@ -71,7 +82,7 @@ Gehen Sie wie folgt vor, um eine URL hinzuzufügen, mit der sich Ihre Instanz ve
 
    ![](assets/add_url_listnew.png)
 
-Sie können eine URL jederzeit löschen, indem Sie sie selektieren und danach die Schaltfläche **[!UICONTROL URL löschen]**auswählen.
+You can delete a URL at any time by selecting it and clicking the **[!UICONTROL Delete URL]** button.
 
 Beachten Sie, dass eine gelöschte URL von Ihrer Instanz nicht mehr aufgerufen werden kann.
 
