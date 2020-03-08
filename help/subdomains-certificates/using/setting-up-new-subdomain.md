@@ -2,12 +2,18 @@
 title: Einrichten einer neuen Subdomain
 description: Erfahren Sie, wie Sie eine neue Subdomain für Ihre Campaign-Instanz einrichten.
 translation-type: tm+mt
-source-git-commit: f0aea7944ea31b76f1f9efef6d0e759c7b5896b6
+source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 ---
 
 
 # Einrichten einer neuen Subdomain {#setting-up-subdomain}
+
+>[!CONTEXTUALHELP]
+>id=&quot;cp_subdomain_management&quot;
+>title=&quot;Neue Subdomänen einrichten und Zertifikate verwalten&quot;
+>abstract=&quot;Sie müssen eine neue Subdomäne einrichten und die SSL-Zertifikate Ihrer Subdomänen verwalten, um E-Mails zu senden oder Einstiegsseiten mit Adobe Campaign zu veröffentlichen.&quot;
+>additional-url=&quot;https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html&quot; text=&quot;So überwachen Sie die SSL-Zertifikate Ihrer Subdomänen&quot;
 
 >[!IMPORTANT]
 >
@@ -23,7 +29,7 @@ source-git-commit: f0aea7944ea31b76f1f9efef6d0e759c7b5896b6
 >
 >Mithilfe dieser primären Subdomain werden Reverse-DNS-Einträge für andere Subdomains erstellt. Außerdem werden über die primäre Subdomain Antwort- und Bounce-Adressen für andere Subdomains generiert.
 
-1. Wählen Sie auf der **[!UICONTROL Subdomains & Certificates]** Karte die gewünschte Produktionsinstanz aus und klicken Sie auf **[!UICONTROL Setup new subdomain]**.
+1. Wählen Sie auf der **[!UICONTROL Subdomains & Certificates]** Karte die gewünschte Produktionsinstanz aus und klicken Sie dann auf **[!UICONTROL Setup new subdomain]**.
 
    ![](assets/subdomain1.png)
 
