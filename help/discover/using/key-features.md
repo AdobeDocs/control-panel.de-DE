@@ -1,13 +1,19 @@
 ---
 title: Zugriff auf das Control Panel
 description: Erfahren Sie, wie Sie auf das Control Panel zugreifen können.
-translation-type: ht
-source-git-commit: 5a7200038abd647a3e77d043d14579590449218c
+translation-type: tm+mt
+source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 ---
 
 
 # Schlüsselfunktionen {#key-features}
+
+>[!CONTEXTUALHELP]
+>id=&quot;cp_overview&quot;
+>title=&quot;Über Systemsteuerung&quot;
+>abstract=&quot;Die Systemsteuerung-Homepage gibt Ihnen Zugriff auf alle Aktionen, die an Ihren Kampagneninstanzen durchgeführt werden können.&quot;
+>additional-url=&quot;https://docs.adobe.com/content/help/en/control-panel/using/discover-control-panel/discovering-the-interface.html&quot; text=&quot;Benutzeroberfläche entdecken&quot;
 
 Das Control Panel bietet Produktadministratoren von Adobe Campaign Standard und/oder Classic verbesserte Effizienz. Sie können damit die Einstellungen einer jeden Instanz verwalten und deren Nutzung überwachen. Dank der intuitiven Benutzeroberfläche kann die Nutzung wichtiger Ressourcen überwacht und administrative Aufgaben einfach durchgeführt werden. So können beispielsweise IP-Adressen auf die Whitelist gesetzt, der Speicher von SFTP-Servern überwacht und die Schlüssel verwaltet werden.
 
