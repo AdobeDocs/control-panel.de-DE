@@ -1,7 +1,7 @@
 ---
 title: Details der Instanz
 description: Erfahren Sie, wie Sie die Details der Instanz im Control Panel überwachen können
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 ---
@@ -11,10 +11,10 @@ source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 >[!CONTEXTUALHELP]
 >id=&quot;cp_instancesettings_instancedetails&quot;
->title=&quot;Info zu Instanzdetails&quot;
->abstract=&quot;Details zu Ihren Adobe Campaign-Instanzen anzeigen: Typen, Namen, Build-Informationen und mögliche Upgrade-Empfehlungen.&quot;
->additional-url=&quot;https://docs.adobe.com/content/help/en/campaign-classic/using/release-notes/latest-release.html&quot; text=&quot;Campaign Classic Versionshinweise&quot;
->additional-url=&quot;https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html&quot; text=&quot;Campaign Standard Versionshinweise&quot;
+>title=&quot;Über die Details der Instanz&quot;
+>abstract=&quot;Zeigen Sie die Details Ihrer Adobe Campaign-Instanzen an: Typen, Namen, Build-Informationen und mögliche Upgrade-Empfehlungen.&quot;
+>additional-url=&quot;https://docs.adobe.com/content/help/de-DE/campaign-classic/using/release-notes/latest-release.html&quot; text=&quot;Versionshinweise zu Campaign Classic&quot;
+>additional-url=&quot;https://docs.adobe.com/content/help/de-DE/campaign-standard/using/release-notes/release-notes.html&quot; text=&quot;Versionshinweise zu Campaign Standard&quot;
 
 >[!CAUTION]
 >
@@ -32,14 +32,14 @@ Mit der Funktion &quot;Details der Instanz&quot; können Sie sich die flache Arc
 
 **Verwandte Themen:**
 
-* [Durchführen eines Build-Upgrades](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html)
+* [Durchführen eines Build-Upgrades](https://docs.campaign.adobe.com/doc/AC/getting_started/DE/buildUpgrade.html)
 * [Adobe Campaign aktualisieren](https://docs.campaign.adobe.com/doc/AC/en/PRO_Updating_Adobe_Campaign_Introduction.html)
 
 ## Abrufen von Informationen zu Ihren Instanzen {#retrieving-information-about-instances}
 
 Gehen Sie wie folgt vor, um Informationen zu den mit Ihren Instanzen verbundenen Servern zu erhalten:
 
-1. Öffnen Sie die **[!UICONTROL Instances Settings]** Karte, um auf die **[!UICONTROL Instance Details]** Registerkarte zuzugreifen.
+1. Öffnen Sie die Karte **[!UICONTROL Instanzeinstellungen]**, um auf die Registerkarte **[!UICONTROL Details der Instanz]** zuzugreifen.
 
    >[!NOTE]
    >
@@ -57,15 +57,15 @@ Gehen Sie wie folgt vor, um Informationen zu den mit Ihren Instanzen verbundenen
 
 Diese Informationen sind verfügbar:
 
-* **[!UICONTROL Type]**: der Typ des Servers. Mögliche Werte sind MKT (Marketing), MID (Mid Sourcing) und RT (Message Center-/Echtzeit-Messaging).
-* **[!UICONTROL Name]** : der Name des Servers.
+* **[!UICONTROL Typ:]** der Typ des Servers. Mögliche Werte sind MKT (Marketing), MID (Mid Sourcing) und RT (Message Center-/Echtzeit-Messaging).
+* **[!UICONTROL Name:]** der Name des Servers.
 * **[!UICONTROL Build:]** die auf dem Server installierte Build-Version.
-* **[!UICONTROL Upgrade info]**: Diese Spalte informiert Sie, wenn für den Server ein Update erforderlich ist.
+* **[!UICONTROL Aktualisierungsinformationen:]** In dieser Spalte werden für den Server erforderliche Updates aufgeführt.
    * Grün: Ihr Server ist auf dem neuesten Stand, kein Upgrade ist erforderlich.
    * Gelb: Sie sollten ein Upgrade in Erwägung ziehen. Ihnen fehlen die neuesten Funktionen und Fehlerkorrekturen.
    * Rot: Führen Sie möglichst rasch ein Upgrade durch. Ihnen fehlen neue Funktionen und die Server-Leistung ist möglicherweise nicht optimal.
 
-Informationen zur Aktualisierung von Servern finden Sie in [dieser Dokumentation](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html).
+Informationen zur Aktualisierung von Servern finden Sie in [dieser Dokumentation](https://docs.campaign.adobe.com/doc/AC/getting_started/DE/buildUpgrade.html).
 
 ## Häufige Fragen {#common-questions}
 
