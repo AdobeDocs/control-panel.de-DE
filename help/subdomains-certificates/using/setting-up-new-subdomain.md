@@ -1,7 +1,7 @@
 ---
 title: Einrichten einer neuen Subdomain
 description: Erfahren Sie, wie Sie eine neue Subdomain für Ihre Campaign-Instanz einrichten.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 ---
@@ -11,9 +11,9 @@ source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 >[!CONTEXTUALHELP]
 >id=&quot;cp_subdomain_management&quot;
->title=&quot;Neue Subdomänen einrichten und Zertifikate verwalten&quot;
->abstract=&quot;Sie müssen eine neue Subdomäne einrichten und die SSL-Zertifikate Ihrer Subdomänen verwalten, um E-Mails zu senden oder Einstiegsseiten mit Adobe Campaign zu veröffentlichen.&quot;
->additional-url=&quot;https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html&quot; text=&quot;So überwachen Sie die SSL-Zertifikate Ihrer Subdomänen&quot;
+>title=&quot;Einrichten neuer Subdomains und Verwalten von Zertifikaten&quot;
+>abstract=&quot;Sie müssen eine neue Subdomain einrichten und die SSL-Zertifikate Ihrer Subdomains verwalten, um mit Adobe Campaign E-Mails senden oder Landingpages veröffentlichen zu können.&quot;
+>additional-url=&quot;https://docs.adobe.com/content/help/de-DE/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html&quot; text=&quot;Überwachen von SSL-Zertifikaten der Subdomains&quot;
 
 >[!IMPORTANT]
 >
@@ -29,7 +29,7 @@ source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 >
 >Mithilfe dieser primären Subdomain werden Reverse-DNS-Einträge für andere Subdomains erstellt. Außerdem werden über die primäre Subdomain Antwort- und Bounce-Adressen für andere Subdomains generiert.
 
-1. Wählen Sie auf der **[!UICONTROL Subdomains & Certificates]** Karte die gewünschte Produktionsinstanz aus und klicken Sie dann auf **[!UICONTROL Setup new subdomain]**.
+1. Wählen Sie auf der Karte **[!UICONTROL Subdomains &amp; Zertifikate]** die gewünschte Produktionsinstanz und danach **[!UICONTROL Neue Subdomain einrichten]** aus.
 
    ![](assets/subdomain1.png)
 
@@ -37,7 +37,7 @@ source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
    >
    >Die Zuweisung von Subdomains ist nur für **Produktionsinstanzen** verfügbar.
 
-1. Click **[!UICONTROL Next]** to confirm the full delegation method.
+1. Wählen Sie **[!UICONTROL Weiter]** aus, um die Methode der vollständigen Zuweisung zu bestätigen.
 
    ![](assets/subdomain3.png)
 
@@ -53,7 +53,7 @@ source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
    ![](assets/subdomain4.png)
 
-   Once the subdomain is created with the corresponding Adobe nameserver information, click **[!UICONTROL Next]**.
+   Nachdem die Subdomain mit den entsprechenden Adobe-Nameserver-Informationen erstellt wurde, wählen Sie **[!UICONTROL Weiter]** aus.
 
 1. Wählen Sie den gewünschten Anwendungsfall für die Subdomain aus:
 
@@ -67,7 +67,7 @@ source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
    ![](assets/subdomain5.png)
 
-1. Enter the subdomain that you created into your hosting solution, then click **[!UICONTROL Submit]**.
+1. Geben Sie die von Ihnen erstellte Subdomain in Ihre Hosting-Lösung ein und wählen Sie dann **[!UICONTROL Senden]** aus.
 
    >[!NOTE]
    >
@@ -77,13 +77,13 @@ source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 1. Nachdem die Subdomain übermittelt wurde, prüft das Control Panel, ob sie korrekt auf Adobe-NS-Einträge verweist. Zusätzlich wird sichergestellt, dass für diese Subdomain kein SOA-Datensatz (Start of Authority) existiert.
 
-1. Wenn die Prüfungen erfolgreich sind, beginnt das Control Panel mit der Einrichtung der Subdomain mit DNS-Einträgen, zusätzlichen URLs, Postfächern usw. You can get more details on the configuration progress by clicking the **[!UICONTROL Process details]** button.
+1. Wenn die Prüfungen erfolgreich sind, beginnt das Control Panel mit der Einrichtung der Subdomain mit DNS-Einträgen, zusätzlichen URLs, Postfächern usw. Wählen Sie **[!UICONTROL Prozessdetails]** aus, um weitere Informationen zum Konfigurationsfortschritt zu erhalten.
 
    ![](assets/subdomain7.png)
 
    >[!NOTE]
    >
-   >In einigen Fällen wird die Zuweisung durchgeführt, die Subdomain wird jedoch möglicherweise nicht erfolgreich verifiziert. The subdomain will go directly into the **[!UICONTROL Verified subdomains]** list with the **[!UICONTROL Unverified]** status and a job log providing information on the error. Wenden Sie sich an die Kundenunterstützung, wenn Sie Probleme bei der Lösung des Problems haben.
+   >In einigen Fällen wird die Zuweisung durchgeführt, die Subdomain wird jedoch möglicherweise nicht erfolgreich verifiziert. Die Subdomain wird direkt in die Liste der **[!UICONTROL verifizierten Subdomain]** mit dem Status **[!UICONTROL Nicht verifiziert]** und einem Verarbeitungslog mit Informationen zum Fehler aufgenommen. Wenden Sie sich an die Kundenunterstützung, wenn Sie Probleme bei der Lösung des Problems haben.
    >
    >Beachten Sie, dass während der Ausführung der Subdomain-Zuweisung andere Anfragen über das Control Panel in eine Warteschlange eingegeben und erst nach Abschluss der Subdomain-Zuweisung ausgeführt werden, um Leistungsprobleme zu vermeiden.
 
@@ -98,7 +98,7 @@ Am Ende des Prozesses werden die Subdomains für die Verwendung mit Ihrer Adobe 
 >Standardmäßig ist das „Antwort“-Postfach über das Control Panel so konfiguriert, dass E-Mails gelöscht werden, und kann nicht überprüft werden. Verwenden Sie diese Adresse nicht, wenn Sie Ihr „Antwort“-Postfach für Ihre Marketingkampagnen überwachen möchten.
 
 
-You can get more details on the subdomain by clicking the **[!UICONTROL Subdomain Details]** button.
+Klicken Sie auf **[!UICONTROL Details der Subdomain]**, um weitere Details zur Subdomain zu erhalten.
 
 ![](assets/subdomain_details_general.png)
 
@@ -106,7 +106,7 @@ You can get more details on the subdomain by clicking the **[!UICONTROL Subdomai
 
 >[!IMPORTANT]
 >
->Nach der Verarbeitung sollten Sie beim Adobe-Kundendienst prüfen, ob eine Prüfanforderung für das Zustellteam zur Prüfung der neu erstellten Subdomäne eingereicht wurde. Der Prüfungsprozess kann bis zu 3 10 Werktage nach der Übertragung der Subdomäne dauern.
+>Fragen Sie nach der Verarbeitungsphase bei der Adobe-Kundenunterstützung nach, ob eine Prüfanfrage für das Zustellbarkeits-Team eingereicht wurde, um die neu erstellte Subdomain zu überprüfen. Der Prüfvorgang kann drei bis zehn Werktage dauern, nachdem die Subdomain zugewiesen wurde.
 >
 >Die durchgeführten Überprüfungen umfassen das Testen von Feedback-Schleifen und Spam-Beschwerdeschleifen. Daher empfehlen wir nicht, die Subdomain vor Abschluss der Prüfung zu verwenden, da dies zu einer schlechten Reputation der Subdomain führen kann.
 
