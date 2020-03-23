@@ -1,7 +1,7 @@
 ---
 title: IP-Bereiche auf die Whitelist setzen
 description: Erfahren Sie, wie Sie IP-Bereiche für den Zugriff auf SFTP-Server auf die Whitelist setzen
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 ---
@@ -11,8 +11,8 @@ source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 >[!CONTEXTUALHELP]
 >id=&quot;cp_ip_whitelist&quot;
->title=&quot;Info zur IP-Whitelist&quot;
->abstract=&quot;Auf dieser Registerkarte können Sie die IP-Bereiche der Whitelist anzeigen, um eine Verbindung zu Ihren SFTP-Servern herzustellen. Hier werden nur SFTP-Server aufgeführt, auf die Sie Zugriff haben. Wenn Sie Zugriff auf andere SFTP-Server wünschen, kontaktieren Sie Ihren Administrator.&quot;
+>title=&quot;Über IP-Whitelisting&quot;
+>abstract=&quot;Auf dieser Registerkarte können Sie IP-Bereiche auf die Whitelist setzen, um eine Verbindung zu Ihren SFTP-Servern herzustellen. Hier werden nur SFTP-Server aufgeführt, auf die Sie Zugriff haben. Wenn Sie Zugriff auf andere SFTP-Server wünschen, kontaktieren Sie Ihren Administrator.&quot;
 >additional-url=&quot;https://images-tv.adobe.com/mpcv3/8a977e03-d76c-44d3-853c-95d0b799c870_1560205338.1920x1080at3000_h264.mp4#t=98&quot; text=&quot;Demovideo ansehen&quot;
 
 SFTP-Server sind geschützt. Damit Sie darauf zugreifen und Dateien anzeigen oder neue erstellen können, müssen Sie die öffentliche IP-Adresse des Systems oder des Clients, über das bzw. den der Zugriff auf die Server erfolgt, auf die Whitelist setzen.
@@ -38,13 +38,13 @@ Beachten Sie unbedingt die folgenden Empfehlungen und Einschränkungen, wenn Sie
 
 >[!CONTEXTUALHELP]
 >id=&quot;cp_sftp_iprange_add&quot;
->title=&quot;Neuen IP-Bereich hinzufügen&quot;
->abstract=&quot;Definieren Sie die IP-Bereiche, in denen Sie eine Whitelist für die Verbindung mit Ihren SFTP-Servern erstellen möchten.&quot;
+>title=&quot;Hinzufügen eines neuen IP-Bereichs&quot;
+>abstract=&quot;Definieren Sie die IP-Bereiche, die Sie auf die Whitelist setzen möchten, um eine Verbindung zu Ihren SFTP-Servern herzustellen.&quot;
 
 Gehen Sie wie folgt vor, um einen IP-Bereich auf die Whitelist zu setzen:
 
-1. Öffnen Sie die **[!UICONTROL SFTP]** Karte und wählen Sie die **[!UICONTROL IP Whistelisting]** Registerkarte aus.
-1. Für jede Instanz wird die Liste der auf der Whitelist befindlichen IP-Adressen angezeigt. Select the desired instance from the left-hand side list, then click the **[!UICONTROL Add new IP range]** button.
+1. Öffnen Sie die Karte **[!UICONTROL SFTP]** und wählen Sie dann die Registerkarte **[!UICONTROL IP-Whitelisting]**.
+1. Für jede Instanz wird die Liste der auf der Whitelist befindlichen IP-Adressen angezeigt. Wählen Sie in der linken Liste die gewünschte Instanz und danach die Schaltfläche **[!UICONTROL Neuen IP-Bereich hinzufügen]** aus.
 
    ![](assets/control_panel_add_range.png)
 
@@ -65,9 +65,9 @@ Gehen Sie wie folgt vor, um einen IP-Bereich auf die Whitelist zu setzen:
 
    ![](assets/control_panel_add_range3.png)
 
-1. Click the **[!UICONTROL Save]** button. Das Hinzufügen der IP-Adresse zur Whitelist wird als &quot;Ausstehend&quot; gekennzeichnet, bis die Anfrage vollständig verarbeitet wurde. Dies dauert nur einige Sekunden.
+1. Wählen Sie die Schaltfläche **[!UICONTROL Speichern]** aus. Das Hinzufügen der IP-Adresse zur Whitelist wird als &quot;Ausstehend&quot; gekennzeichnet, bis die Anfrage vollständig verarbeitet wurde. Dies dauert nur einige Sekunden.
 
-To delete whitelisted IP ranges, select them then click the **[!UICONTROL Delete IP range]** button.
+Um IP-Bereiche aus der Whitelist zu löschen, selektieren Sie sie und wählen Sie dann die Schaltfläche **[!UICONTROL IP-Bereiche löschen]** aus.
 
 ![](assets/control_panel_delete_range2.png)
 
@@ -77,7 +77,7 @@ To delete whitelisted IP ranges, select them then click the **[!UICONTROL Delete
 
 ## Änderungen überwachen {#monitoring-changes}
 
-The **[!UICONTROL Job Logs]** in the Control Panel home page let you monitor all changes that have been made to whitelisted IP addresses.
+Auf der Startseite im Control Panel können Sie mit der Option **[!UICONTROL Verarbeitungslogs]** alle Änderungen bei IP-Adressen überwachen, die sich auf der Whitelist befinden.
 
 Weitere Informationen zur Benutzeroberfläche des Control Panels finden Sie in [diesem Abschnitt](../../discover/using/discovering-the-interface.md).
 
