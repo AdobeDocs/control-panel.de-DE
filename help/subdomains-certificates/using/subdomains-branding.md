@@ -1,7 +1,7 @@
 ---
 title: Subdomain-Branding
 description: Weitere Informationen zum Branding von Subdomains
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 ---
@@ -11,9 +11,9 @@ source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 >[!CONTEXTUALHELP]
 >id=&quot;cp_certificate_management&quot;
->title=&quot;Info zu Subdomänen und SSL-Zertifikaten&quot;
->abstract=&quot;Überwachen Sie Ihre Subdomänen und die zugehörigen SSL-Zertifikate.&quot;
->additional-url=&quot;https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html&quot; text=&quot;So überwachen Sie die SSL-Zertifikate Ihrer Subdomänen&quot;
+>title=&quot;Über Subdomains und SSL-Zertifikate&quot;
+>abstract=&quot;Überwachen Sie Ihre Subdomains und die zugehörigen SSL-Zertifikate.&quot;
+>additional-url=&quot;https://docs.adobe.com/content/help/de-DE/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html&quot; text=&quot;Überwachen von SSL-Zertifikaten der Subdomains&quot;
 
 >[!IMPORTANT]
 >
@@ -45,7 +45,7 @@ Die nachstehende Tabelle gibt einen Überblick über die Funktionsweise dieser M
 | **Vollständige Zuweisung** | Sie erstellen die Subdomain und den Namensraumeintrag. Adobe konfiguriert dann alle für Adobe Campaign erforderlichen DNS-Einträge.<br/><br/>Bei dieser Konfiguration hat Adobe die volle Verantwortung für die Pflege der Subdomain und aller DNS-Einträge. | Niedrig |
 | **CNAME, benutzerspezifische Methode** | Sie erstellen die Subdomain und den Namensraumeintrag. Adobe stellt dann die Einträge bereit, die auf Ihren DNS-Servern abgelegt werden sollen, und konfiguriert die entsprechenden Werte in den Adobe Campaign-DNS-Servern.<br/><br/>Bei dieser Konfiguration sind Sie und Adobe gemeinsam für die Pflege des DNS verantwortlich. | Hoch |
 
-Weitere Informationen zur Domain-Zuweisung finden Sie [in dieser Dokumentation](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html).
+Weitere Informationen zur Domain-Zuweisung finden Sie [in dieser Dokumentation](https://helpx.adobe.com/de/campaign/kb/domain-name-delegation.html).
 
 Wenden Sie sich bei Fragen zu den Methoden der Subdomain-Zuweisung an das Zustellbarkeits-Team von Adobe oder an die Kundenunterstützung, um eine Beratung zu Fragen der Zustellbarkeit anzufordern.
 
