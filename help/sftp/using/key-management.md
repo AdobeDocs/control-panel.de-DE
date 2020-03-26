@@ -1,8 +1,8 @@
 ---
 title: Schlüsselverwaltung
 description: Erfahren Sie, wie Sie Schlüssel für die Verbindung mit SFTP-Servern verwalten.
-translation-type: ht
-source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
+translation-type: tm+mt
+source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
 
 ---
 
@@ -35,7 +35,7 @@ Verwenden Sie immer dieselbe Authentifizierung für die Verbindung zum Server un
 
 In sehr seltenen Fällen ist die passwortbasierte Authentifizierung auf manchen SFTP-Servern aktiviert. Adobe empfiehlt die Verwendung der schlüsselbasierten Authentifizierung, da diese Methode effizienter und sicherer ist. Sie können die Umstellung auf schlüsselbasierte Authentifizierung bei der Kundenunterstützung anfordern.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Sollte Ihr Passwort seine Gültigkeit verlieren, können Sie sich nicht mehr bei Ihren SFTP-Konten anmelden, auch wenn auf Ihrem System Schlüssel installiert sind.
 
@@ -48,11 +48,11 @@ In sehr seltenen Fällen ist die passwortbasierte Authentifizierung auf manchen 
 >title=&quot;Hinzufügen eines neuen öffentlichen Schlüssels&quot;
 >abstract=&quot;Fügen Sie einen neuen öffentlichen Schlüssel für eine Instanz hinzu.&quot;
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Die folgenden Schritte sind nur ein Beispiel für die Erstellung von SSH-Schlüsseln. Beachten Sie Ihre Unternehmensrichtlinien in Bezug auf SSH-Schlüssel. Das folgende Beispiel veranschaulicht die Vorgehensweise und zeigt, welche Informationen Sie Ihrem Team oder Ihrer internen Netzwerkgruppe mitteilen müssen.
 
-1. Öffnen Sie die Registerkarte **[!UICONTROL Schlüsselverwaltung]** und wählen Sie dann die Schaltfläche **[!UICONTROL Neuen öffentlichen Schlüssel hinzufügen]** aus.
+1. Navigieren Sie zur **[!UICONTROL Key Management]** Registerkarte und klicken Sie dann auf die **[!UICONTROL Add new public key]** Schaltfläche.
 
    ![](assets/key0.png)
 
@@ -87,7 +87,7 @@ In sehr seltenen Fällen ist die passwortbasierte Authentifizierung auf manchen 
 
    ![](assets/publickey.png)
 
-1. Wählen Sie die Schaltfläche **[!UICONTROL Speichern]** aus, um den Schlüssel zu erstellen. Das Control Panel speichert den öffentlichen Schlüssel und den zugehörigen Fingerabdruck, verschlüsselt im SHA256-Format.
+1. Click the **[!UICONTROL Save]** button to create the key. Das Control Panel speichert den öffentlichen Schlüssel und den zugehörigen Fingerabdruck, verschlüsselt im SHA256-Format.
 
 Sie können Fingerabdrücke verwenden, um die auf Ihrem Computer gespeicherten privaten Schlüssel mit den entsprechenden öffentlichen Schlüsseln im Control Panel abzugleichen.
 
