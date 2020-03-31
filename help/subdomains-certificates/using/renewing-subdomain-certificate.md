@@ -1,8 +1,8 @@
 ---
 title: Verlängern des SSL-Zertifikats einer Subdomain
 description: Erfahren Sie, wie Sie die Zertifikate Ihrer Subdomains verlängern.
-translation-type: ht
-source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
+translation-type: tm+mt
+source-git-commit: f08b0e68cf0a208b1385052510c06ca1eb679e63
 
 ---
 
@@ -50,32 +50,32 @@ Nachdem Sie das SSL-Zertifikat erworben haben, können Sie es in der gewünschte
 
 Gehen Sie wie folgt vor, um eine Certificate Signing Request (CSR) zu erstellen:
 
-1. Wählen Sie zuerst auf der Karte **[!UICONTROL Subdomains &amp; Zertifikate]** die gewünschte Instanz und danach **[!UICONTROL Zertifikat verwalten]** aus.
+1. Wählen Sie auf der **[!UICONTROL Subdomains & Certificates]** Karte die gewünschte Instanz aus und klicken Sie dann auf die **[!UICONTROL Manage Certificate]** Schaltfläche.
 
    ![](assets/renewal1.png)
 
-1. Wählen Sie **[!UICONTROL Erstellen einer CSR]** und dann **[!UICONTROL Weiter]** aus, um den Assistenten zu starten, der Sie durch den CSR-Generierungsprozess führt.
+1. Select **[!UICONTROL Generate a CSR]**, then click **[!UICONTROL Next]** to launch the wizard that will guide you through the CSR generation process.
 
    ![](assets/renewal2.png)
 
 1. Daraufhin wird ein Formular mit allen Details angezeigt, die zum Generieren Ihrer CSR erforderlich sind.
 
-   Vergewissern Sie sich, dass Sie die angeforderten Informationen vollständig und korrekt ausgefüllt haben. Anderenfalls kann das Zertifikat möglicherweise nicht verlängert werden. (Wenden Sie sich bei Bedarf an Ihr internes Team bzw. Ihr Sicherheits- oder IT-Team.) Wählen Sie dann **[!UICONTROL Weiter]** aus.
+   Make sure you fill in the requested information fully and accurately, otherwise the certificate may not be renewed (contact your internal team, Security and IT teams if necessary), then click **[!UICONTROL Next]**.
 
-   * **[!UICONTROL Organisation]**: Offizieller Name der Organisation.
-   * **[!UICONTROL Organisationseinheit]**: Die mit der Subdomain verknüpfte Einheit (Beispiel: Marketing, IT).
-   * **[!UICONTROL Instanz]** (vorbelegt): URL der Campaign-Instanz, die mit der Subdomain verknüpft ist.
+   * **[!UICONTROL Organization]**: Name der amtlichen Einrichtung.
+   * **[!UICONTROL Organization Unit]**: mit der Subdomäne verknüpfte Einheit (Beispiel: Marketing, IT).
+   * **[!UICONTROL Instance]** (Fertigspritze): URL der der Subdomäne zugeordneten Kampagne.
    ![](assets/renewal3.png)
 
 1. Wählen Sie zuerst die Subdomains aus, die in die CSR einbezogen werden sollen, und danach **[!UICONTROL OK]**.
 
    ![](assets/renewal4.png)
 
-1. Die ausgewählten Subdomains werden in der Liste angezeigt. Wählen Sie für jede davon die einzubeziehenden Subdomains und dann **[!UICONTROL Weiter]** aus.
+1. Die ausgewählten Subdomains werden in der Liste angezeigt. For each of them, select the subdomains to include, then click **[!UICONTROL Next]**.
 
    ![](assets/renewal5.png)
 
-1. In einer Zusammenfassung werden alle Subdomains angezeigt, die in die CSR einbezogen werden sollen. Bestätigen Sie Ihre Anfrage durch die Auswahl von **[!UICONTROL Senden]**.
+1. In einer Zusammenfassung werden alle Subdomains angezeigt, die in die CSR einbezogen werden sollen. Click **[!UICONTROL Submit]** to confirm your request.
 
    ![](assets/renewal6.png)
 
@@ -115,17 +115,21 @@ Sobald Sie ein SSL-Zertifikat gekauft haben, können Sie es auf Ihrer Instanz in
 
 Gehen Sie wie folgt vor, um das Zertifikat zu installieren:
 
-1. Wählen Sie auf der Karte **[!UICONTROL Subdomains &amp; Zertifikate]** zuerst die gewünschte Instanz und danach **[!UICONTROL Zertifikat verwalten]** aus.
+1. Wählen Sie auf der **[!UICONTROL Subdomains & Certificates]** Karte die gewünschte Instanz aus und klicken Sie dann auf die **[!UICONTROL Manage Certificate]** Schaltfläche.
 
    ![](assets/renewal1.png)
 
-1. Wählen Sie **[!UICONTROL Installieren eines SSL-Zertifikats]** und dann **[!UICONTROL Weiter]** aus, um den Assistenten zu starten, der Sie durch den Zertifikatinstallationsprozess führt.
+1. Click **[!UICONTROL Install SSL Certificate]**, then **[!UICONTROL Next]** to launch the wizard that will guide you through the certificate installation process.
 
    ![](assets/install1.png)
 
-1. Wählen Sie die .zip-Datei aus, die das zu installierende Zertifikat enthält, und wählen Sie danach **[!UICONTROL Senden]** aus.
+1. Select the .zip file that contains the certificate to install, then click **[!UICONTROL Submit]**.
 
    ![](assets/install2.png)
+
+>[!NOTE]
+>
+>Das Zertifikat wird auf allen im CSR enthaltenen Domänen/Subdomänen installiert. Zusätzliche Domänen/Subdomänen, die im Zertifikat vorhanden sind, werden nicht berücksichtigt.
 
 Nach der Installation des SSL-Zertifikats werden das Ablaufdatum und das Statussymbol des Zertifikats entsprechend aktualisiert.
 
