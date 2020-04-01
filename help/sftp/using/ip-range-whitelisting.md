@@ -1,8 +1,8 @@
 ---
 title: IP-Bereiche auf die Whitelist setzen
 description: Erfahren Sie, wie Sie IP-Bereiche für den Zugriff auf SFTP-Server auf die Whitelist setzen
-translation-type: ht
-source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
+translation-type: tm+mt
+source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
 
 ---
 
@@ -43,8 +43,8 @@ Beachten Sie unbedingt die folgenden Empfehlungen und Einschränkungen, wenn Sie
 
 Gehen Sie wie folgt vor, um einen IP-Bereich auf die Whitelist zu setzen:
 
-1. Öffnen Sie die Karte **[!UICONTROL SFTP]** und wählen Sie dann die Registerkarte **[!UICONTROL IP-Whitelisting]**.
-1. Für jede Instanz wird die Liste der auf der Whitelist befindlichen IP-Adressen angezeigt. Wählen Sie in der linken Liste die gewünschte Instanz und danach die Schaltfläche **[!UICONTROL Neuen IP-Bereich hinzufügen]** aus.
+1. Öffnen Sie die **[!UICONTROL SFTP]** Karte und wählen Sie die **[!UICONTROL IP Whistelisting]** Registerkarte aus.
+1. Für jede Instanz wird die Liste der auf der Whitelist befindlichen IP-Adressen angezeigt. Select the desired instance from the left-hand side list, then click the **[!UICONTROL Add new IP range]** button.
 
    ![](assets/control_panel_add_range.png)
 
@@ -57,7 +57,7 @@ Gehen Sie wie folgt vor, um einen IP-Bereich auf die Whitelist zu setzen:
 
    ![](assets/control_panel_add_range2.png)
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Ein IP-Bereich darf sich nicht mit einem bereits auf der Whitelist vorhandenen Bereich überschneiden. Löschen Sie in diesem Fall zunächst den Bereich, der die überlappende IP enthält.
    >
@@ -65,9 +65,9 @@ Gehen Sie wie folgt vor, um einen IP-Bereich auf die Whitelist zu setzen:
 
    ![](assets/control_panel_add_range3.png)
 
-1. Wählen Sie die Schaltfläche **[!UICONTROL Speichern]** aus. Das Hinzufügen der IP-Adresse zur Whitelist wird als &quot;Ausstehend&quot; gekennzeichnet, bis die Anfrage vollständig verarbeitet wurde. Dies dauert nur einige Sekunden.
+1. Click the **[!UICONTROL Save]** button. Das Hinzufügen der IP-Adresse zur Whitelist wird als &quot;Ausstehend&quot; gekennzeichnet, bis die Anfrage vollständig verarbeitet wurde. Dies dauert nur einige Sekunden.
 
-Um IP-Bereiche aus der Whitelist zu löschen, selektieren Sie sie und wählen Sie dann die Schaltfläche **[!UICONTROL IP-Bereiche löschen]** aus.
+To delete whitelisted IP ranges, select them then click the **[!UICONTROL Delete IP range]** button.
 
 ![](assets/control_panel_delete_range2.png)
 
@@ -77,7 +77,7 @@ Um IP-Bereiche aus der Whitelist zu löschen, selektieren Sie sie und wählen Si
 
 ## Änderungen überwachen {#monitoring-changes}
 
-Auf der Startseite im Control Panel können Sie mit der Option **[!UICONTROL Verarbeitungslogs]** alle Änderungen bei IP-Adressen überwachen, die sich auf der Whitelist befinden.
+The **[!UICONTROL Job Logs]** in the Control Panel home page let you monitor all changes that have been made to whitelisted IP addresses.
 
 Weitere Informationen zur Benutzeroberfläche des Control Panels finden Sie in [diesem Abschnitt](../../discover/using/discovering-the-interface.md).
 
