@@ -1,7 +1,7 @@
 ---
 title: Überwachen von SSL-Zertifikaten der Subdomains
 description: Erfahren Sie, wie Sie die SSL-Zertifikate Ihrer Subdomains überwachen.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
 
 ---
@@ -11,9 +11,9 @@ source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
 
 Sie müssen Ihre Subdomains unbedingt überwachen, um sicherzustellen, dass alle ordnungsgemäß für die Verwendung mit Adobe Campaign konfiguriert sind.
 
-The list of subdomains for each of your production instances is accessible directly when selecting the **[!UICONTROL Subdomains & Certificates]** card.
+Die Liste der Subdomains für jede Ihrer Produktionsinstanzen ist direkt verfügbar, wenn Sie die Karte **[!UICONTROL Subdomains &amp; Zertifikate]** auswählen.
 
-The **[!UICONTROL Last verification]** column indicates when a subdomain was verified for the last time. You can launch a verification at any time by clicking the **...** / **[!UICONTROL Verify subdomain]** button.
+Die Spalte **[!UICONTROL Letzte Verifizierung]** gibt an, wann eine Subdomain zum letzten Mal verifiziert wurde. Sie können eine Verifizierung jederzeit starten, indem Sie die Schaltfläche **...** / **[!UICONTROL Subdomain verifizieren]** auswählen.
 
 ![](assets/subdomain_verification.png)
 
