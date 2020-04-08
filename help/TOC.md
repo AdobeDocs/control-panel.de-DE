@@ -3,7 +3,7 @@ product: adobe campaign
 sub-product: control panel
 audience: end-user
 user-guide-title: Control Panel Help
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d81f76a07c294fdab4ed31e7741cf7ec4fb2f985
 
 ---
@@ -31,11 +31,11 @@ source-git-commit: d81f76a07c294fdab4ed31e7741cf7ec4fb2f985
    + [Einrichten einer neuen Subdomain](subdomains-certificates/using/setting-up-new-subdomain.md)
    + [Überwachen von SSL-Zertifikaten](subdomains-certificates/using/monitoring-ssl-certificates.md)
    + [Verlängern von SSL-Zertifikaten](subdomains-certificates/using/renewing-subdomain-certificate.md)
-   + [Verwalten von TXT-Datensätzen](subdomains-certificates/using/managing-txt-records.md)
-+ Performance monitoring {#performance-monitoring}
-   + [Informationen zur Leistungsüberwachung](performance-monitoring/using/about-performance-monitoring.md)
+   + [Verwalten von TXT-Einträgen](subdomains-certificates/using/managing-txt-records.md)
++ Leistungsüberwachung {#performance-monitoring}
+   + [Über die Leistungsüberwachung](performance-monitoring/using/about-performance-monitoring.md)
    + [Datenbanküberwachung](performance-monitoring/using/database-monitoring.md)
-   + [E-Mail-Warnung](performance-monitoring/using/email-alerting.md)
+   + [Warnungen per E-Mail](performance-monitoring/using/email-alerting.md)
 + Instanzeneinstellungen (Campaign Classic) {#instances-settings}
    + [IP-Whitelisting für den Instanzenzugriff](instances-settings/using/ip-whitelisting-instance-access.md)
    + [URL-Genehmigungen](instances-settings/using/url-permissions.md)
