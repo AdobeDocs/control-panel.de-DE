@@ -1,50 +1,53 @@
 ---
-title: Verwalten von TXT-Datensätzen
-description: Erfahren Sie, wie Sie TXT-Datensätze für die Domäneneigentumsüberprüfung verwalten.
-translation-type: tm+mt
+title: Verwalten von TXT-Einträgen
+description: Erfahren Sie, wie Sie TXT-Einträge zur Verifizierung von Domain-Besitz verwalten können.
+translation-type: ht
 source-git-commit: 3ce9f62be9df0f6e6a61c16ddaf3ab8ae58712ce
 
 ---
 
 
-# Verwalten von TXT-Datensätzen {#managing-txt-records}
+# Verwalten von TXT-Einträgen {#managing-txt-records}
 
 >[!CONTEXTUALHELP]
+>id="cp_siteverification_add"
+>title="[!CONTEXTUALHELP]
 >id=&quot;cp_siteVerification_add&quot;
->title=&quot;Verwalten von TXT-Datensätzen&quot;
->abstract=&quot;Bei einigen Diensten wie Google müssen Sie Ihren Domäneneinstellungen einen TXT-Datensatz hinzufügen, um sicherzustellen, dass Sie Eigentümer der Domäne sind.&quot;
+>title=&quot;Verwalten von TXT-Einträgen&quot;
+>abstract=&quot;Bei bestimmten Diensten wie Google müssen Sie Ihren Domain-Einstellungen einen TXT-Eintrag hinzufügen, um zu verifizieren, dass Sie der Besitzer der Domain sind.&quot;"
+>abstract="Über TXT-Einträge {#about-txt-records}"
 
-## Informationen zu TXT-Datensätzen {#about-txt-records}
+## TXT-Einträge sind eine Art von DNS-Einträgen, die der Bereitstellung von Textinformationen über eine Domain dienen und von externen Quellen gelesen werden können.{#about-txt-records}
 
-TXT-Datensätze sind eine Art DNS-Datensätze, die zur Bereitstellung von Textinformationen über eine Domäne verwendet werden, die von externen Quellen gelesen werden können.
+Für hohe Posteingangsraten und niedrige Spam-Raten setzen bestimmte Dienste wie Google voraus, dass Sie Ihren Domain-Einstellungen einen TXT-Eintrag hinzufügen, um zu verifizieren, dass Sie der Besitzer der Domain sind.
 
-Um hohe Posteingangsraten und niedrige Spam-Raten sicherzustellen, müssen einige Dienste wie Google Ihren Domäneneinstellungen einen TXT-Datensatz hinzufügen, um sicherzustellen, dass Sie Eigentümer der Domäne sind.
+Gmail gehört derzeit zu den beliebtesten Anbietern von E-Mail-Adressen. Für optimale Zustellbarkeit und einen erfolgreichen Versand von E-Mails an Gmail-Adressen können Sie Ihren Subdomains mit Adobe Campaign spezielle TXT-Einträge der Websiteüberprüfung von Google hinzufügen, um für ihre Verifizierung zu sorgen.
 
-Gmail gehört derzeit zu den beliebtesten Anbietern von E-Mail-Adressen. Um eine gute Lieferbarkeit und einen erfolgreichen Versand von E-Mails an Gmail-Adressen sicherzustellen, können Sie mit Adobe Campaign Ihren Subdomänen besondere TXT-Verifizierungs-TXT-Datensätze für Google-Sites hinzufügen, um sicherzustellen, dass diese verifiziert werden.
+Hinzufügen eines Google TXT-Eintrags für eine Subdomain {#adding-a-google-txt-record}
 
-## Hinzufügen eines Google TXT-Datensatzes für eine Subdomäne {#adding-a-google-txt-record}
+## Gehen Sie wie folgt vor, um Ihrer Subdomain, die Sie zum Versenden von E-Mails an Gmail-Adressen nutzen, einen Google TXT-Eintrag hinzuzufügen:{#adding-a-google-txt-record}
 
-Gehen Sie wie folgt vor, um Ihrer Subdomäne, die zum Versenden von E-Mail-Adressen verwendet wird, einen Google TXT-Datensatz hinzuzufügen:
+Navigieren Sie zur Karte **[!UICONTROL Subdomains und Zertifikate]**.
 
-1. Navigieren Sie zur **[!UICONTROL Subdomain and Certificates]** Karte.
+1. Wählen Sie Ihre Instanz aus und öffnen Sie dann die Details der Subdomain, der Sie einen DNS-Eintrag hinzufügen möchten.****
 
-1. Wählen Sie die Instanz aus und öffnen Sie dann die Details der Subdomäne, der Sie einen DNS-Datensatz hinzufügen möchten.
+1. ![](assets/txt_subdomaindetails.png)
 
-   ![](assets/txt_subdomaindetails.png)
+   Klicken Sie auf die Schaltfläche **[!UICONTROL TXT-Eintrag hinzufügen]** und geben Sie dann den Wert ein, der in den G Suite Admin-Tools generiert wurde. Weiterführende Informationen finden Sie in der [G Suite Admin-Hilfe[#$tu15].
 
-1. Klicken Sie auf die **[!UICONTROL Add TXT record]** Schaltfläche und geben Sie dann den in den G Suite Admin Tools generierten Wert ein. Weitere Informationen finden Sie in der [G Suite Admin-Hilfe](https://support.google.com/a/answer/183895).
+1. 
 
-   ![](assets/txt_addtxt.png)
+   Klicken Sie zur Bestätigung auf die Schaltfläche **[!UICONTROL Hinzufügen]**.
 
-1. Klicken Sie zur Bestätigung auf die **[!UICONTROL Add]** Schaltfläche.
+1. ![](assets/txt_txtadded.png)]**
 
-   ![](assets/txt_txtadded.png)
-
-Nachdem der TXT-Datensatz hinzugefügt wurde, müssen Sie ihn von Google überprüfen lassen. Navigieren Sie dazu zu den Admin Tools der G Suite und starten Sie dann den Verifizierungsschritt (siehe [G Suite Admin-Hilfe](https://support.google.com/a/answer/183895)).
+   Nachdem der TXT-Eintrag hinzugefügt wurde, müssen Sie ihn von Google verifizieren lassen. Rufen Sie dazu die G Suite Admin-Tools auf und starten Sie dann den Verifizierungsschritt (siehe [G Suite Admin-Hilfe[#$tu20]).
 
 
-Um einen Datensatz zu löschen, wählen Sie ihn in der Liste &quot;Datensätze&quot;aus und klicken Sie dann auf die Schaltfläche &quot;Entfernen&quot;.
 
->[!NOTE]
+
+[!NOTE]
+
+>[!NOTE]Der einzige Eintrag, den Sie aus der Liste der DNS-Einträge löschen können, ist derjenige, den Sie zuvor hinzugefügt haben (in unserem Fall der Google TXT-Eintrag).
 >
->Der einzige Datensatz, den Sie aus der Liste der DNS-Datensätze löschen können, ist der, den Sie zuvor hinzugefügt haben (in unserem Fall der Google TXT-Datensatz).
+>The only record that you can delete from the DNS records list is the one that you have previously added (in our case the Google TXT record).
