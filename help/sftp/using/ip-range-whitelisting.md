@@ -1,7 +1,7 @@
 ---
 title: IP-Bereiche auf die Whitelist setzen
 description: Erfahren Sie, wie Sie IP-Bereiche für den Zugriff auf SFTP-Server auf die Whitelist setzen
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
 
 ---
@@ -10,75 +10,82 @@ source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
 # IP-Bereiche auf die Whitelist setzen {#ip-range-whitelisting}
 
 >[!CONTEXTUALHELP]
+>id="cp_ip_whitelist"
+>title="[!CONTEXTUALHELP]
 >id=&quot;cp_ip_whitelist&quot;
 >title=&quot;Über IP-Whitelisting&quot;
 >abstract=&quot;Auf dieser Registerkarte können Sie IP-Bereiche auf die Whitelist setzen, um eine Verbindung zu Ihren SFTP-Servern herzustellen. Hier werden nur SFTP-Server aufgeführt, auf die Sie Zugriff haben. Wenn Sie Zugriff auf andere SFTP-Server wünschen, kontaktieren Sie Ihren Administrator.&quot;
->additional-url=&quot;https://images-tv.adobe.com/mpcv3/8a977e03-d76c-44d3-853c-95d0b799c870_1560205338.1920x1080at3000_h264.mp4#t=98&quot; text=&quot;Demovideo ansehen&quot;
+>additional-url=&quot;https://images-tv.adobe.com/mpcv3/8a977e03-d76c-44d3-853c-95d0b799c870_1560205338.1920x1080at3000_h264.mp4#t=98&quot; text=&quot;Demovideo ansehen&quot;"
+>abstract="SFTP-Server sind geschützt. Damit Sie darauf zugreifen und Dateien anzeigen oder neue erstellen können, müssen Sie die öffentliche IP-Adresse des Systems oder des Clients, über das bzw. den der Zugriff auf die Server erfolgt, auf die Whitelist setzen."
+>additional-url="Über das CIDR-Format {#about-cidr-format}" text="IP-Bereiche werden über das Control Panel im CIDR-Format (Classless Inter-Domain Routing) hinzugefügt."
 
-SFTP-Server sind geschützt. Damit Sie darauf zugreifen und Dateien anzeigen oder neue erstellen können, müssen Sie die öffentliche IP-Adresse des Systems oder des Clients, über das bzw. den der Zugriff auf die Server erfolgt, auf die Whitelist setzen.
+Die Syntax besteht aus einer IP-Adresse, gefolgt vom Zeichen / und einer Dezimalzahl. Format und Syntax sind in [diesem Artikel[#$tu9] ausführlich beschrieben.
 
-## Über das CIDR-Format {#about-cidr-format}
+## 
 
-IP-Bereiche werden über das Control Panel im CIDR-Format (Classless Inter-Domain Routing) hinzugefügt.
 
-Die Syntax besteht aus einer IP-Adresse, gefolgt vom Zeichen / und einer Dezimalzahl. Format und Syntax sind in [diesem Artikel](https://whatismyipaddress.com/cidr) ausführlich beschrieben.
 
-Sie können im Internet nach kostenlosen Online-Tools suchen, mit denen Sie Ihren IP-Bereich in das CIDR-Format konvertieren können.
 
-## Best Practices {#best-practices}
 
-Beachten Sie unbedingt die folgenden Empfehlungen und Einschränkungen, wenn Sie IP-Adressen über das Control Panel auf die Whitelist setzen.
+**Setzen Sie IP-Bereiche** statt einzelner IP-Adressen auf die Whitelist. Um eine einzelne IP-Adresse auf die Whitelist zu setzen, fügen Sie &quot;/32&quot; an sie an, um zu kennzeichnen, dass der Bereich nur eine einzelne IP-Adresse enthält.
 
-* **Setzen Sie IP-Bereiche** statt einzelner IP-Adressen auf die Whitelist. Um eine einzelne IP-Adresse auf die Whitelist zu setzen, fügen Sie &quot;/32&quot; an sie an, um zu kennzeichnen, dass der Bereich nur eine einzelne IP-Adresse enthält.
-* **Setzen Sie keine extrem großen Bereiche auf die Whitelist**, z. B. über 265 IP-Adressen. Das Control Panel lehnt Bereiche im CIDR-Format ab, die zwischen /0 und /23 liegen.
-* Nur **öffentliche IP-Adressen** können auf die Whitelist gesetzt werden.
+## **Setzen Sie keine extrem großen Bereiche auf die Whitelist**, z. B. über 265 IP-Adressen. Das Control Panel lehnt Bereiche im CIDR-Format ab, die zwischen /0 und /23 liegen.
+
+Nur **öffentliche IP-Adressen** können auf die Whitelist gesetzt werden.
+
 * Achten Sie darauf, dass Sie **regelmäßig IP-Adressen aus der Whitelist löschen**, wenn Sie sie nicht mehr benötigen.
-
-## IP-Adressen auf die Whitelist setzen {#whitelisting-ip-addresses}
-
->[!CONTEXTUALHELP]
+* IP-Adressen auf die Whitelist setzen {#whitelisting-ip-addresses}**
+* [!CONTEXTUALHELP]
 >id=&quot;cp_sftp_iprange_add&quot;
 >title=&quot;Hinzufügen eines neuen IP-Bereichs&quot;
->abstract=&quot;Definieren Sie die IP-Bereiche, die Sie auf die Whitelist setzen möchten, um eine Verbindung zu Ihren SFTP-Servern herzustellen.&quot;
+>abstract=&quot;Definieren Sie die IP-Bereiche, die Sie auf die Whitelist setzen möchten, um eine Verbindung zu Ihren SFTP-Servern herzustellen.&quot;**
+* Gehen Sie wie folgt vor, um einen IP-Bereich auf die Whitelist zu setzen:****
 
-Gehen Sie wie folgt vor, um einen IP-Bereich auf die Whitelist zu setzen:
+## Öffnen Sie die Karte **[!UICONTROL SFTP]** und wählen Sie dann die Registerkarte **[!UICONTROL IP-Whitelisting]**.
 
-1. Öffnen Sie die **[!UICONTROL SFTP]** Karte und wählen Sie die **[!UICONTROL IP Whistelisting]** Registerkarte aus.
-1. Für jede Instanz wird die Liste der auf der Whitelist befindlichen IP-Adressen angezeigt. Select the desired instance from the left-hand side list, then click the **[!UICONTROL Add new IP range]** button.
+>[!CONTEXTUALHELP]
+>id="cp_sftp_iprange_add"
+>title="Für jede Instanz wird die Liste der auf der Whitelist befindlichen IP-Adressen angezeigt. Wählen Sie in der linken Liste die gewünschte Instanz und danach die Schaltfläche **[!UICONTROL Neuen IP-Bereich hinzufügen]** aus."
+>abstract="![](assets/control_panel_add_range.png)"
 
-   ![](assets/control_panel_add_range.png)
+Definieren Sie den IP-Bereich, den Sie auf die Whitelist setzen möchten, im CIDR-Format und geben Sie dann den Titel ein, der in der Liste angezeigt werden soll.
 
-1. Definieren Sie den IP-Bereich, den Sie auf die Whitelist setzen möchten, im CIDR-Format und geben Sie dann den Titel ein, der in der Liste angezeigt werden soll.
+1. [!NOTE]]******
+1. Diese Sonderzeichen sind im Feld &quot;Titel&quot; erlaubt:
+****
 
-   >[!NOTE]
-   >
-   >Diese Sonderzeichen sind im Feld &quot;Titel&quot; erlaubt:
-   > `. _ - : / ( ) # , @ [ ] + = & ; { } ! $`
+   `. _ - : / ( ) # , @ [ ] + = & ; { } ! $`
 
-   ![](assets/control_panel_add_range2.png)
+1. ![](assets/control_panel_add_range2.png)
 
    >[!IMPORTANT]
    >
-   >Ein IP-Bereich darf sich nicht mit einem bereits auf der Whitelist vorhandenen Bereich überschneiden. Löschen Sie in diesem Fall zunächst den Bereich, der die überlappende IP enthält.
-   >
-   >Es ist möglich, einen Bereich für mehrere Instanzen auf die Whitelist zu setzen. Verwenden Sie dazu die Abwärtspfeiltaste oder geben Sie die ersten Buchstaben der gewünschten Instanz ein und wählen Sie sie dann aus der Liste aus.
+   >Ein IP-Bereich darf sich nicht mit einem bereits auf der Whitelist vorhandenen Bereich überschneiden. Löschen Sie in diesem Fall zunächst den Bereich, der die überlappende IP enthält.   > `. _ - : / ( ) # , @ [ ] + = & ; { } ! $`Es ist möglich, einen Bereich für mehrere Instanzen auf die Whitelist zu setzen. Verwenden Sie dazu die Abwärtspfeiltaste oder geben Sie die ersten Buchstaben der gewünschten Instanz ein und wählen Sie sie dann aus der Liste aus.
 
    ![](assets/control_panel_add_range3.png)
 
-1. Click the **[!UICONTROL Save]** button. Das Hinzufügen der IP-Adresse zur Whitelist wird als &quot;Ausstehend&quot; gekennzeichnet, bis die Anfrage vollständig verarbeitet wurde. Dies dauert nur einige Sekunden.
+   >Wählen Sie die Schaltfläche **[!UICONTROL Speichern]** aus. Das Hinzufügen der IP-Adresse zur Whitelist wird als &quot;Ausstehend&quot; gekennzeichnet, bis die Anfrage vollständig verarbeitet wurde. Dies dauert nur einige Sekunden.
+   >
+   >Um IP-Bereiche aus der Whitelist zu löschen, selektieren Sie sie und wählen Sie dann die Schaltfläche **[!UICONTROL IP-Bereiche löschen]** aus.
+   >
+   >![](assets/control_panel_delete_range2.png)
 
-To delete whitelisted IP ranges, select them then click the **[!UICONTROL Delete IP range]** button.
+   [!NOTE]
 
-![](assets/control_panel_delete_range2.png)
+1. Es ist derzeit nicht möglich, einen auf der Whitelist befindlichen Bereich zu bearbeiten. Um einen IP-Bereich zu ändern, löschen Sie ihn und erstellen Sie danach einen, der Ihren Anforderungen entspricht.****
 
->[!NOTE]
+Änderungen überwachen {#monitoring-changes}]**
+
+Auf der Startseite im Control Panel können Sie mit der Option **[!UICONTROL Verarbeitungslogs]** alle Änderungen bei IP-Adressen überwachen, die sich auf der Whitelist befinden.
+
+>Weitere Informationen zur Benutzeroberfläche des Control Panels finden Sie in [diesem Abschnitt](../../discover/using/discovering-the-interface.md).
 >
->Es ist derzeit nicht möglich, einen auf der Whitelist befindlichen Bereich zu bearbeiten. Um einen IP-Bereich zu ändern, löschen Sie ihn und erstellen Sie danach einen, der Ihren Anforderungen entspricht.
+>![](assets/control_panel_ip_log.png)
 
-## Änderungen überwachen {#monitoring-changes}
+## Monitoring changes {#monitoring-changes}
 
 The **[!UICONTROL Job Logs]** in the Control Panel home page let you monitor all changes that have been made to whitelisted IP addresses.
 
-Weitere Informationen zur Benutzeroberfläche des Control Panels finden Sie in [diesem Abschnitt](../../discover/using/discovering-the-interface.md).
+For more on the Control Panel interface, refer to [this section](../../discover/using/discovering-the-interface.md).
 
 ![](assets/control_panel_ip_log.png)
