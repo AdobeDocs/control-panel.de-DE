@@ -1,6 +1,6 @@
 ---
 title: Control Panel-Versionen
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5c35db25719830d196cc87ba0142c348bd8cdd92
 
 ---
@@ -16,13 +16,16 @@ Hier finden Sie Informationen zu den neuesten Versionen von Control Panel.
 
 ## April 2020 {#april-2020}
 
-Neue Funktionen werden im April in der Campaign Control Panel veröffentlicht:
+Im April werden im Campaign Control Panel neue Funktionen veröffentlicht:
 
-**Google TXT Datensatzverwaltung** Hinzufügen Google TXT Site Verification Record zu allen Subdomänen, die zum Senden von E-Mails an GMAIL-Adressen über die Campaign Control Panel verwendet werden.
+**Verwaltung von Google TXT-Einträgen**
+Fügen Sie allen Subdomains, die zum Senden von E-Mails an GMAIL-Adressen über das Campaign Control Panel verwendet werden, einen Eintrag der TXT-Websiteüberprüfung von Google hinzu.
 
-**Die Systemsteuerung für die Überwachung** des Datenbankspeicherplatzes wird mit Datenbanküberwachungsfunktionen ausgestattet, mit denen Sie die Nutzung des Datenbankspeicherplatzes nach Bedarf und im Zeitverlauf Ansicht haben können.
+**Überwachung von Datenbankspeicherplatz**
+Das Campaign Control Panel wird über Funktionen zur Datenbanküberwachung verfügen, mit denen Sie die aktuelle Auslastung Ihres Datenbankspeicherplatzes und die Auslastung im Zeitablauf anzeigen können.
 
-**Die E-Mail-Warnungs-** Campaign-Systemsteuerung ist mit Echtzeit-E-Mail-Warnfunktionen ausgestattet, mit denen Sie sich bei der Systemsteuerung anmelden und sich anmelden können, um Warnhinweise zu erhalten, wenn Ihr System Gefahr läuft, dass sich die Leistung verschlechtert, oder eine Aktion erforderlich ist, um eine hohe Leistung für die Zukunft sicherzustellen.
+**Warnungen per E-Mail**
+Das Campaign Control Panel wird Funktionen für echtzeitbasierte E-Mail-Warnungen bieten, sodass Sie sich beim Control Panel anmelden und Warnhinweise abonnieren können, falls Ihrem System abnehmende Leistung droht oder eine Aktion erforderlich ist, um hohe Leistung für die Zukunft sicherzustellen.
 
 ## Januar 2020 {#january-2020}
 
