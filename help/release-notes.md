@@ -1,7 +1,7 @@
 ---
 title: Control Panel-Versionen
-translation-type: ht
-source-git-commit: 5c35db25719830d196cc87ba0142c348bd8cdd92
+translation-type: tm+mt
+source-git-commit: f59be0be3b183dd453ba3cc8ee8c70887e65e6e3
 
 ---
 
@@ -16,16 +16,11 @@ Hier finden Sie Informationen zu den neuesten Versionen von Control Panel.
 
 ## April 2020 {#april-2020}
 
-Im April werden im Campaign Control Panel neue Funktionen veröffentlicht:
+**Google TXT Datensatzverwaltung** Hinzufügen Google TXT Site Verification Record zu allen Subdomänen, die zum Senden von E-Mails an Gmail-Adressen über die Kampagne Control Panel verwendet werden.
 
-**Verwaltung von Google TXT-Einträgen**
-Fügen Sie allen Subdomains, die zum Senden von E-Mails an GMAIL-Adressen über das Campaign Control Panel verwendet werden, einen Eintrag der TXT-Websiteüberprüfung von Google hinzu.
+**Die Systemsteuerung zur Überwachung** des Datenbankspeicherplatzes ist mit Datenbanküberwachungsfunktionen ausgestattet, mit denen Sie die Nutzung des Datenbankspeicherplatzes nach Bedarf und im Zeitverlauf Ansicht haben können.
 
-**Überwachung von Datenbankspeicherplatz**
-Das Campaign Control Panel wird über Funktionen zur Datenbanküberwachung verfügen, mit denen Sie die aktuelle Auslastung Ihres Datenbankspeicherplatzes und die Auslastung im Zeitablauf anzeigen können.
-
-**Warnungen per E-Mail**
-Das Campaign Control Panel wird Funktionen für echtzeitbasierte E-Mail-Warnungen bieten, sodass Sie sich beim Control Panel anmelden und Warnhinweise abonnieren können, falls Ihrem System abnehmende Leistung droht oder eine Aktion erforderlich ist, um hohe Leistung für die Zukunft sicherzustellen.
+**Die E-Mail-Warnungs-** Kampagne-Systemsteuerung ist mit Echtzeit-E-Mail-Warnfunktionen ausgestattet, mit denen Sie sich bei der Systemsteuerung anmelden und Warnungen empfangen können, wenn Ihr System Gefahr läuft, dass die Leistung beeinträchtigt wird, oder eine Aktion erforderlich ist, um eine hohe Leistung für die Zukunft sicherzustellen.
 
 ## Januar 2020 {#january-2020}
 
