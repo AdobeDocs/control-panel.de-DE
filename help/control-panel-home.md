@@ -1,7 +1,7 @@
 ---
 title: Produktdokumentation
-translation-type: ht
-source-git-commit: 5a7200038abd647a3e77d043d14579590449218c
+translation-type: tm+mt
+source-git-commit: f59be0be3b183dd453ba3cc8ee8c70887e65e6e3
 
 ---
 
@@ -12,13 +12,17 @@ source-git-commit: 5a7200038abd647a3e77d043d14579590449218c
 
 ## Neue Funktionen
 
-* [Überwachen von SSL-Zertifikaten](subdomains-certificates/using/monitoring-ssl-certificates.md)
+* [Google TXT Record Management](subdomains-certificates/using/managing-txt-records.md)
 
-   Erfahren Sie, wie Sie das Ablaufdatum der SSL-Zertifikate Ihrer Subdomains überwachen.
+   Hinzufügen Google TXT Site Verification Record zu allen Subdomänen, die zum Senden von E-Mails an Gmail-Adressen über die Kampagne Control Panel verwendet werden.
 
-* [Zuweisen von Subdomains](subdomains-certificates/using/subdomains-branding.md)
+* [Überwachung des Datenbankraums](performance-monitoring/using/database-monitoring.md)
 
-   Erfahren Sie mehr über das Branding von Subdomains und die wichtigsten Schritte, um Adobe Subdomains über das Control Panel zuzuweisen.
+   Ansicht des Datenbankspeicherplatzes nach Bedarf und im Zeitverlauf.
+
+* [Warnungen per E-Mail](performance-monitoring/using/email-alerting.md)
+
+   Melden Sie sich bei der Systemsteuerung an und melden Sie sich an, um Warnhinweise zu erhalten, wenn Ihr System Gefahr läuft, dass sich die Leistung verschlechtert, oder wenn eine Aktion erforderlich ist, um eine hohe Leistung für die Zukunft sicherzustellen.
 
 ## Zusätzliche Ressourcen {#additional-resources}
 
