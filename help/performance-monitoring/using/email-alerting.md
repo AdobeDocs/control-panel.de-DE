@@ -1,17 +1,21 @@
 ---
-title: E-Mail-Warnung
+title: Warnungen per E-Mail
 description: Erfahren Sie, wie Sie E-Mail-Benachrichtigungen erhalten, wenn Probleme mit Ihren Instanzen Ihrer Kampagne auftreten
 translation-type: tm+mt
-source-git-commit: e79ad202a1d3c3eb8c9944a352cb7d614953bcd4
+source-git-commit: 77165e3f408f75dfb57434111b07b20ad9caab5e
 
 ---
 
 
-# E-Mail-Warnung {#email-alerting}
+# Warnungen per E-Mail {#email-alerting}
+
+>[!IMPORTANT]
+>
+>Die E-Mail-Benachrichtigung der Systemsteuerung wird Ende April verfügbar sein.
 
 ## Informationen zu E-Mail-Warnungen {#about-email-alerts}
 
-Um Ihre Arbeit flexibler zu gestalten, verfügt die Systemsteuerung über eine Echtzeit-E-Mail-Warnfunktion.
+Um Ihre Arbeit flexibler zu gestalten, verfügt das Control Panel über eine Funktion mit echtzeitbasierten E-Mail-Warnungen.
 
 Gehen Sie wie folgt vor, um diese Warnungen zu abonnieren:
 
@@ -23,7 +27,7 @@ Gehen Sie wie folgt vor, um diese Warnungen zu abonnieren:
 
    ![](assets/email_subscription.png)
 
-1. Nach dem Abonnement benachrichtigt die Systemsteuerung über Systemprobleme und empfiehlt die zu ergreifenden Maßnahmen. E-Mail-Warnungen werden an alle Personen gesendet, die sich für **alle Instanzen** angemeldet haben, für die sie Administratoren sind.
+1. Nach dem Abonnement benachrichtigt die Systemsteuerung über Systemprobleme und empfiehlt die zu ergreifenden Maßnahmen. E-Mail-Warnungen werden an alle Personen gesendet, die sich für **alle Instanzen** angemeldet haben, bei denen sie Administratoren sind.
 
    ![](assets/alert_sample.png)
 
