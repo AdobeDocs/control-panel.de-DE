@@ -2,7 +2,7 @@
 title: Verwalten von TXT-Einträgen
 description: Erfahren Sie, wie Sie TXT-Einträge zur Verifizierung von Domain-Besitz verwalten können.
 translation-type: tm+mt
-source-git-commit: 77165e3f408f75dfb57434111b07b20ad9caab5e
+source-git-commit: 5a70141e0198946928723b34c9097c5cf8a24f97
 
 ---
 
@@ -28,8 +28,8 @@ Gmail gehört derzeit zu den beliebtesten Anbietern von E-Mail-Adressen. Für op
 
 Zusätzliche Ressourcen:
 
-* [Tutorial für Campaign Standard](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/google-txt-record-management.html).
-* [Tutorial für Campaign Classic](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/google-txt-record-management.html)
+* [Tutorial für Campaign Standard](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/google-txt-record-management.html)
+* [Tutorial für Campaign Classic](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/google-txt-record-management.html)
 
 ## Hinzufügen eines Google TXT-Eintrags für eine Subdomain {#adding-a-google-txt-record}
 
