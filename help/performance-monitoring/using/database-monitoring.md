@@ -2,16 +2,13 @@
 title: Datenbanküberwachung
 description: Erfahren Sie, wie Sie Ihre Campaign-Datenbank im Control Panel überwachen können
 translation-type: tm+mt
-source-git-commit: 77165e3f408f75dfb57434111b07b20ad9caab5e
+source-git-commit: e5646fdccd47b4180fd0f9d561f61c04cd515c01
 
 ---
 
 
 # Datenbanküberwachung {#database-monitoring}
 
->[!IMPORTANT]
->
->Die Datenbanküberwachung über die Systemsteuerung wird Ende April verfügbar sein.
 
 ## Über Datenbanken von Instanzen {#about-instances-databases}
 
@@ -25,11 +22,11 @@ Ein Überlaufen der Datenbank einer Instanz kann zu verschiedenen Problemen füh
 
 >[!NOTE]
 >
->Der in der Systemsteuerung angezeigte Speicherplatz in der Datenbank spiegelt möglicherweise nicht die in Ihrem Vertrag angegebene Menge an Datenbankspeicherplatz wider. In den meisten Fällen wird Ihnen vorübergehend ein größerer Datenbankraum zur Verfügung gestellt, um die Leistung Ihres Systems sicherzustellen.
+>Die im Control Panel angezeigte Menge an Datenbankspeicherplatz entspricht möglicherweise nicht der in Ihrem Vertrag angegebenen Menge an Datenbankspeicherplatz. In den meisten Fällen wird Ihnen vorübergehend ein größerer Datenbankspeicherplatz zur Verfügung gestellt, um die Leistung Ihres Systems sicherzustellen.
 
 ## Überwachen der Datenbanknutzung {#monitoring-instances-database}
 
-Über die Systemsteuerung können Sie die Datenbanknutzung für jede Ihrer Instanzen der Kampagne überwachen. Gehen Sie dazu wie folgt vor:
+Mit dem Control Panel können Sie die Datenbanknutzung für jede Ihrer Campaign-Instanzen überwachen. Gehen Sie dazu wie folgt vor:
 
 1. Öffnen Sie die **[!UICONTROL Performance Monitoring]** Karte und wählen Sie die **[!UICONTROL Databases]** Registerkarte aus.
 
@@ -51,7 +48,7 @@ Ein Überlaufen der Datenbank einer Instanz kann zu verschiedenen Problemen füh
 
 >[!NOTE]
 >
->Zusätzlich zu diesem Dashboard können Sie Benachrichtigungen erhalten, wenn eine Ihrer Datenbanken ihre Kapazität erreicht. Um dies zu tun, abonnieren Sie [E-Mail-Warnungen](../../performance-monitoring/using/email-alerting.md)
+>Zusätzlich zu diesem Dashboard können Sie Benachrichtigungen erhalten, wenn eine Ihrer Datenbanken ihre Kapazität erreicht. Abonnieren Sie dazu [Warnungen per E-Mail](../../performance-monitoring/using/email-alerting.md).
 
 ## Verhindern einer Überbelegung von Datenbanken {#preventing-database-overload}
 
@@ -66,7 +63,7 @@ Im folgenden Abschnitt finden Sie nützliche Ressourcen aus Campaign-Dokumentati
 
 **Wartung der Datenbank**
 
-* Technischer Workflow für die Datenbankbereinigung ([Campaign Standard](https://docs.adobe.com/help/en/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows) / [Campaign Classic](https://docs.adobe.com/help/de-DE/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html))
+* Technischer Workflow für die Datenbankbereinigung ([Campaign Standard](https://docs.adobe.com/help/de-DE/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows) / [Campaign Classic](https://docs.adobe.com/help/de-DE/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html))
 * [Handbuch zur Datenbankwartung](https://docs.adobe.com/content/help/de-DE/campaign-classic/using/monitoring-campaign-classic/database-maintenance/recommendations.html) (Campaign Classic)
 * [Behebung von Problemen mit der Datenbankleistung](https://docs.adobe.com/content/help/de-DE/campaign-classic/using/monitoring-campaign-classic/troubleshooting/database-performances.html) (Campaign Classic)
 * [Datenbankbezogene Optionen](https://docs.adobe.com/help/de-DE/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html#database) (Campaign Classic)
