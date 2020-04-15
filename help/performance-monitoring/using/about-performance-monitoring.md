@@ -1,13 +1,17 @@
 ---
-title: Leistungsüberwachung
-description: Erfahren Sie, wie Sie die Leistung Ihrer Instanzen in der Systemsteuerung überwachen können
+title: Über die Leistungsüberwachung
+description: Erfahren Sie, wie Sie im Control Panel die Leistung Ihrer Instanzen überwachen können
 translation-type: tm+mt
-source-git-commit: 34dc95481fa7f2db162dbfc19a462782ee825739
+source-git-commit: 135d8101c1dc3f902844de08e7382a2eb8b548ee
 
 ---
 
 
-# Leistungsüberwachung {#about-performance-monitoring}
+# Über die Leistungsüberwachung {#about-performance-monitoring}
+
+>[!IMPORTANT]
+>
+>Die Leistungsüberwachung durch das Control Panel wird Ende April verfügbar sein.
 
 Die Systemsteuerung bietet mehrere Funktionen, mit denen Sie Ihre Instanzen überwachen und eine optimale Leistung sicherstellen können.
 
