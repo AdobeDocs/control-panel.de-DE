@@ -2,7 +2,7 @@
 title: Verwalten von TXT-Einträgen
 description: Erfahren Sie, wie Sie TXT-Einträge zur Verifizierung von Domain-Besitz verwalten können.
 translation-type: tm+mt
-source-git-commit: 5a70141e0198946928723b34c9097c5cf8a24f97
+source-git-commit: e5646fdccd47b4180fd0f9d561f61c04cd515c01
 
 ---
 
@@ -13,10 +13,6 @@ source-git-commit: 5a70141e0198946928723b34c9097c5cf8a24f97
 >id="cp_siteverification_add"
 >title="Verwalten von TXT-Einträgen"
 >abstract="Bei bestimmten Diensten wie Google müssen Sie Ihren Domain-Einstellungen einen TXT-Eintrag hinzufügen, um zu verifizieren, dass Sie der Besitzer der Domain sind."
-
->[!IMPORTANT]
->
->Die Verwaltung von TXT-Datensätzen über die Systemsteuerung wird Ende April verfügbar sein.
 
 ## Über TXT-Einträge {#about-txt-records}
 
