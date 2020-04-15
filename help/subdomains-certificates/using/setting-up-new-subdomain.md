@@ -1,7 +1,7 @@
 ---
 title: Einrichten einer neuen Subdomain
 description: Erfahren Sie, wie Sie eine neue Subdomain für Ihre Campaign-Instanz einrichten.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 43d5d522c29586b9898d924dd164435ee8fbb614
 
 ---
@@ -10,10 +10,10 @@ source-git-commit: 43d5d522c29586b9898d924dd164435ee8fbb614
 # Einrichten einer neuen Subdomain {#setting-up-subdomain}
 
 >[!CONTEXTUALHELP]
->id=&quot;cp_subdomain_management&quot;
->title=&quot;Einrichten neuer Subdomains und Verwalten von Zertifikaten&quot;
->abstract=&quot;Sie müssen eine neue Subdomain einrichten und die SSL-Zertifikate Ihrer Subdomains verwalten, um mit Adobe Campaign E-Mails senden oder Landingpages veröffentlichen zu können.&quot;
->additional-url=&quot;https://docs.adobe.com/content/help/de-DE/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html&quot; text=&quot;Überwachen von SSL-Zertifikaten der Subdomains&quot;
+>id="cp_subdomain_management"
+>title="Einrichten neuer Subdomains und Verwalten von Zertifikaten"
+>abstract="Sie müssen eine neue Subdomain einrichten und die SSL-Zertifikate Ihrer Subdomains verwalten, um mit Adobe Campaign E-Mails senden oder Landingpages veröffentlichen zu können."
+>additional-url="https://docs.adobe.com/content/help/de-DE/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html" text="Überwachen der SSL-Zertifikate Ihrer Subdomains"
 
 >[!IMPORTANT]
 >
@@ -29,7 +29,7 @@ source-git-commit: 43d5d522c29586b9898d924dd164435ee8fbb614
 >
 >Mithilfe dieser primären Subdomain werden Reverse-DNS-Einträge für andere Subdomains erstellt. Außerdem werden über die primäre Subdomain Antwort- und Bounce-Adressen für andere Subdomains generiert.
 
-1. Wählen Sie auf der **[!UICONTROL Subdomains & Certificates]** Karte die gewünschte Produktionsinstanz aus und klicken Sie dann auf **[!UICONTROL Setup new subdomain]**.
+1. Wählen Sie auf der Karte **[!UICONTROL Subdomains &amp; Zertifikate]** die gewünschte Produktionsinstanz und danach **[!UICONTROL Neue Subdomain einrichten]** aus.
 
    ![](assets/subdomain1.png)
 
@@ -37,7 +37,7 @@ source-git-commit: 43d5d522c29586b9898d924dd164435ee8fbb614
    >
    >Die Zuweisung von Subdomains ist nur für **Produktionsinstanzen** verfügbar.
 
-1. Click **[!UICONTROL Next]** to confirm the full delegation method.
+1. Wählen Sie **[!UICONTROL Weiter]** aus, um die Methode der vollständigen Zuweisung zu bestätigen.
 
    ![](assets/subdomain3.png)
 
@@ -51,11 +51,11 @@ source-git-commit: 43d5d522c29586b9898d924dd164435ee8fbb614
    >
    >Achten Sie beim Konfigurieren von Nameservern darauf, **Adobe nie Ihre Stamm-Subdomain zuzuweisen**. Andernfalls kann die Domain nur mit Adobe verwendet werden. Eine andere Verwendung ist dann nicht möglich, wie z. B. das Senden interner E-Mails an die Mitarbeiter Ihrer Organisation.
    >
-   >Erstellen Sie **keine separate Zonendatei** für diese neue Subdomäne.
+   >Erstellen Sie außerdem **keine separate Zonendatei** für diese neue Subdomain.
 
    ![](assets/subdomain4.png)
 
-   Once the subdomain is created with the corresponding Adobe nameserver information, click **[!UICONTROL Next]**.
+   Nachdem die Subdomain mit den entsprechenden Adobe-Nameserver-Informationen erstellt wurde, wählen Sie **[!UICONTROL Weiter]** aus.
 
 1. Wählen Sie den gewünschten Anwendungsfall für die Subdomain aus:
 
@@ -63,17 +63,17 @@ source-git-commit: 43d5d522c29586b9898d924dd164435ee8fbb614
    * **Transaktions- und Betriebsnachrichten**: Transaktionsnachrichten enthalten Informationen zum Abschluss eines Prozesses, den der Empfänger mit Ihnen gestartet hat. Beispiel: Kaufbestätigung, E-Mail zum Zurücksetzen des Passworts. Betriebliche Nachrichten beziehen sich auf den Austausch von Informationen, Ideen und Ansichten innerhalb und außerhalb der Organisation ohne kommerziellen Zweck.
    ![](assets/subdomain5.png)
 
-   **Die Unterteilung Ihrer Subdomains nach Anwendungsfällen ist eine Best Practice für die Zustellbarkeit**. Dadurch wird die Reputation jeder Subdomain isoliert und geschützt. Wenn Ihre Subdomain für Marketingnachrichten beispielsweise von Internetdienstanbietern auf die Blacklist gesetzt wird, wird Ihre Subdomain für Transaktionsnachrichten nicht beeinträchtigt und kann weiterhin Nachrichten senden.
+   **Die Unterteilung Ihrer Subdomains nach Anwendungsfällen ist eine Best Practice für die Zustellbarkeit**. Dadurch wird die Reputation jeder Subdomain isoliert und geschützt. Wenn Ihre Subdomain für Marketing-Nachrichten beispielsweise von Internetdienstanbietern auf die Blacklist gesetzt wird, wird Ihre Subdomain für Transaktionsnachrichten nicht beeinträchtigt und kann weiterhin Nachrichten senden.
 
-   **Sie können Subdomänen für Marketing- und Transaktionszwecke** delegieren:
+   **Sie können Subdomains für sowohl Marketing- als auch Transaktionsanwendungsfälle delegieren**:
 
-   * Für Marketing-Anwendungsfälle werden Subdomänen auf **MID** -Instanzen (Mid Sourcing) konfiguriert.
-   * Bei Transaktionen werden Subdomänen für ALLE **RT** -Instanzen (Message Center/Echtzeit-Nachrichten) konfiguriert, um die Konnektivität sicherzustellen. Die Subdomänen funktionieren daher mit allen RT-Instanzen.
+   * Bei Marketing-Anwendungsfällen werden Subdomains in **MID**-Instanzen (Mid Sourcing) konfiguriert.
+   * Bei Transaktionsanwendungsfällen werden Subdomains in ALLEN **RT**-Instanzen (Message Center/Real Time Messaging) konfiguriert, um Konnektivität zu gewährleisten. Die Subdomains funktionieren daher mit allen RT-Instanzen.
    >[!NOTE]
    >
-   >Wenn Sie Campaign Classic verwenden, können Sie in der Systemsteuerung sehen, welche RT/MID-Instanzen mit der Marketing-Instanz verbunden sind, mit der Sie arbeiten. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../instances-settings/using/instance-details.md).
+   >Wenn Sie Campaign Classic verwenden, können Sie im Control Panel sehen, welche RT/MID-Instanzen mit der Marketing-Instanz verbunden sind, mit der Sie gerade arbeiten. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../instances-settings/using/instance-details.md).
 
-1. Enter the subdomain that you created into your hosting solution, then click **[!UICONTROL Submit]**.
+1. Geben Sie die von Ihnen erstellte Subdomain in Ihre Hosting-Lösung ein und wählen Sie dann **[!UICONTROL Senden]** aus.
 
    Vergewissern Sie sich, dass Sie den **vollständigen Namen** der zuzuweisenden Subdomain eingeben. Um beispielsweise die Subdomain &quot;usoffer.email.weretail.com&quot; zuzuweisen, geben Sie &quot;usoffer.email.weretail.com&quot; ein.
 
@@ -81,13 +81,13 @@ source-git-commit: 43d5d522c29586b9898d924dd164435ee8fbb614
 
 1. Nachdem die Subdomain übermittelt wurde, prüft das Control Panel, ob sie korrekt auf Adobe-NS-Einträge verweist. Zusätzlich wird sichergestellt, dass für diese Subdomain kein SOA-Datensatz (Start of Authority) existiert.
 
-1. Wenn die Prüfungen erfolgreich sind, beginnt das Control Panel mit der Einrichtung der Subdomain mit DNS-Einträgen, zusätzlichen URLs, Postfächern usw. You can get more details on the configuration progress by clicking the **[!UICONTROL Process details]** button.
+1. Wenn die Prüfungen erfolgreich sind, beginnt das Control Panel mit der Einrichtung der Subdomain mit DNS-Einträgen, zusätzlichen URLs, Postfächern usw. Wählen Sie **[!UICONTROL Prozessdetails]** aus, um weitere Informationen zum Konfigurationsfortschritt zu erhalten.
 
    ![](assets/subdomain7.png)
 
    >[!NOTE]
    >
-   >In einigen Fällen wird die Zuweisung durchgeführt, die Subdomain wird jedoch möglicherweise nicht erfolgreich verifiziert. The subdomain will go directly into the **[!UICONTROL Verified subdomains]** list with the **[!UICONTROL Unverified]** status and a job log providing information on the error. Wenden Sie sich an die Kundenunterstützung, wenn Sie Probleme bei der Lösung des Problems haben.
+   >In einigen Fällen wird die Zuweisung durchgeführt, die Subdomain wird jedoch möglicherweise nicht erfolgreich verifiziert. Die Subdomain wird direkt in die Liste der **[!UICONTROL verifizierten Subdomain]** mit dem Status **[!UICONTROL Nicht verifiziert]** und einem Verarbeitungslog mit Informationen zum Fehler aufgenommen. Wenden Sie sich an die Kundenunterstützung, wenn Sie Probleme bei der Lösung des Problems haben.
    >
    >Beachten Sie, dass während der Ausführung der Subdomain-Zuweisung andere Anfragen über das Control Panel in eine Warteschlange eingegeben und erst nach Abschluss der Subdomain-Zuweisung ausgeführt werden, um Leistungsprobleme zu vermeiden.
 
@@ -101,7 +101,7 @@ Am Ende des Prozesses werden die Subdomains für die Verwendung mit Ihrer Adobe 
 >
 >Standardmäßig ist das „Antwort“-Postfach über das Control Panel so konfiguriert, dass E-Mails gelöscht werden, und kann nicht überprüft werden. Verwenden Sie diese Adresse nicht, wenn Sie Ihr „Antwort“-Postfach für Ihre Marketingkampagnen überwachen möchten.
 
-You can get more details on the subdomain by clicking the **[!UICONTROL Subdomain details]** and **[!UICONTROL Sender info]** buttons.
+Klicken Sie auf **[!UICONTROL Details der Subdomain]** und **[!UICONTROL Absenderdetails]**, um weitere Informationen zur Subdomain zu erhalten.
 
 ![](assets/detail_buttons.png)
 
