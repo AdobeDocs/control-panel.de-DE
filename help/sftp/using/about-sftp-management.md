@@ -1,7 +1,7 @@
 ---
 title: Über die SFTP-Verwaltung
 description: Weitere Informationen zur SFTP-Verwaltung im Control Panel
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 8ee999b89af88a1a59956838d5722ce8fc6b3955
 
 ---
