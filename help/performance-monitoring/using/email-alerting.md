@@ -15,7 +15,7 @@ Um Ihre Arbeit flexibler zu gestalten, verfügt das Control Panel über eine Fun
 
 Gehen Sie wie folgt vor, um diese Warnungen zu abonnieren:
 
-1. Click the **[!UICONTROL Alerting notifications]** button available from any location in the Control Panel, then click **[!UICONTROL Subscribe]**.
+1. Klicken Sie an einer beliebigen Stelle im Control Panel auf die Schaltfläche **[!UICONTROL Warnbenachrichtigungen]** und dann auf **[!UICONTROL Abonnieren]**.
 
    ![](assets/subscribing.png)
 
