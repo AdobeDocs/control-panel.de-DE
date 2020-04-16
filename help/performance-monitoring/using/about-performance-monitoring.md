@@ -11,7 +11,7 @@ source-git-commit: e5646fdccd47b4180fd0f9d561f61c04cd515c01
 
 Das Control Panel bietet verschiedene Funktionen, mit denen Sie Ihre Instanzen überwachen und eine optimale Leistung sicherstellen können.
 
-The **[!UICONTROL Performance monitoring]** card in the Control Panel home page allows you to monitor the usage of your Campaign instances like, for example, their database capacity. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../performance-monitoring/using/database-monitoring.md).
+Mit der Karte **[!UICONTROL Leistungsüberwachung]** auf der Startseite von Control Panel können Sie die Nutzung Ihrer Campaign-Instanzen (wie z. B. deren Datenbankkapazität) überwachen. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../performance-monitoring/using/database-monitoring.md).
 
 ![](assets/performance_card.png)
 
