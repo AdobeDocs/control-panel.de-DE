@@ -31,17 +31,17 @@ Zusätzliche Ressourcen:
 
 Gehen Sie wie folgt vor, um Ihrer Subdomain, die Sie zum Versenden von E-Mails an Gmail-Adressen nutzen, einen Google TXT-Eintrag hinzuzufügen:
 
-1. Navigieren Sie zur **[!UICONTROL Subdomain and Certificates]** Karte.
+1. Navigieren Sie zur Karte **[!UICONTROL Subdomains und Zertifikate]**.
 
 1. Wählen Sie Ihre Instanz aus und öffnen Sie dann die Details der Subdomain, der Sie einen DNS-Eintrag hinzufügen möchten.
 
    ![](assets/txt_subdomaindetails.png)
 
-1. Click the **[!UICONTROL Add TXT record]** button, then enter the value generated in G Suite Admin tools. Weiterführende Informationen finden Sie in der [G Suite Admin-Hilfe](https://support.google.com/a/answer/183895).
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL TXT-Eintrag hinzufügen]** und geben Sie dann den Wert ein, der in den G Suite Admin-Tools generiert wurde. Weiterführende Informationen finden Sie in der [G Suite Admin-Hilfe](https://support.google.com/a/answer/183895).
 
    ![](assets/txt_addtxt.png)
 
-1. Click the **[!UICONTROL Add]** button to confirm.
+1. Klicken Sie zur Bestätigung auf die Schaltfläche **[!UICONTROL Hinzufügen]**.
 
    ![](assets/txt_txtadded.png)
 
