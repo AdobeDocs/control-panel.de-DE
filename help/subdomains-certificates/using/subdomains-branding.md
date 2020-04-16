@@ -1,7 +1,7 @@
 ---
 title: Subdomain-Branding
 description: Weitere Informationen zum Branding von Subdomains
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 ---
@@ -10,10 +10,10 @@ source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 # Subdomain-Branding {#subdomains-branding}
 
 >[!CONTEXTUALHELP]
->id=&quot;cp_certificate_management&quot;
->title=&quot;Über Subdomains und SSL-Zertifikate&quot;
->abstract=&quot;Überwachen Sie Ihre Subdomains und die zugehörigen SSL-Zertifikate.&quot;
->additional-url=&quot;https://docs.adobe.com/content/help/de-DE/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html&quot; text=&quot;Überwachen von SSL-Zertifikaten der Subdomains&quot;
+>id="cp_certificate_management"
+>title="Über Subdomains und SSL-Zertifikate"
+>abstract="Überwachen Sie Ihre Subdomains und die zugehörigen SSL-Zertifikate."
+>additional-url="https://docs.adobe.com/content/help/de-DE/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html" text="Überwachen der SSL-Zertifikate Ihrer Subdomains"
 
 >[!IMPORTANT]
 >
