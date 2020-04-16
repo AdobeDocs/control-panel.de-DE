@@ -1,7 +1,7 @@
 ---
 title: Häufige Fragen
 description: Weitere Informationen zu häufigen Fragen im Zusammenhang mit der SFTP-Verwaltung
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 8ee999b89af88a1a59956838d5722ce8fc6b3955
 
 ---
