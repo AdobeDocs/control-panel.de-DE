@@ -1,7 +1,7 @@
 ---
 title: SFTP-Speicherverwaltung
 description: Erfahren Sie, wie Sie den Speicher des SFTP-Servers überwachen und verwalten.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 834adb7c937a9927901f91e257a8df44e72ca45b
 
 ---
