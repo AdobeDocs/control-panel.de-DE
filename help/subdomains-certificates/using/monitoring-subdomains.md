@@ -1,7 +1,7 @@
 ---
 title: Überwachen von SSL-Zertifikaten der Subdomains
 description: Erfahren Sie, wie Sie die SSL-Zertifikate Ihrer Subdomains überwachen.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
 
 ---
