@@ -28,9 +28,9 @@ Ein Überlaufen der Datenbank einer Instanz kann zu verschiedenen Problemen füh
 
 Mit dem Control Panel können Sie die Datenbanknutzung für jede Ihrer Campaign-Instanzen überwachen. Gehen Sie dazu wie folgt vor:
 
-1. Öffnen Sie die **[!UICONTROL Performance Monitoring]** Karte und wählen Sie die **[!UICONTROL Databases]** Registerkarte aus.
+1. Öffnen Sie die Karte **[!UICONTROL Leistungsüberwachung]** und wählen Sie dann den Tab **[!UICONTROL Datenbanken]** aus.
 
-1. Select the desired instance from the **[!UICONTROL Instance List]**.
+1. Wählen Sie die gewünschte Instanz aus der **[!UICONTROL Instanzenliste]** aus.
 
    Der obere Bereich enthält Informationen zur Datenbankkapazität der Instanz sowie zum verwendeten Speicherplatz.
 
@@ -40,7 +40,7 @@ Mit dem Control Panel können Sie die Datenbanknutzung für jede Ihrer Campaign-
 
    Sie können den angezeigten Zeitraum mithilfe der oben rechts verfügbaren Filter ändern.
 
-   Zur besseren Lesbarkeit können Sie auch eine oder mehrere Kurven im Diagramm hervorheben. Wählen Sie dazu aus der **[!UICONTROL Aggregation Type]** Legende aus.
+   Zur besseren Lesbarkeit können Sie auch eine oder mehrere Kurven im Diagramm hervorheben. Wählen Sie dazu aus der Legende &quot; **[!UICONTROL Aggregationstyp]** &quot;aus.
 
    Wenn Sie den Mauszeiger über das Diagramm bewegen, erhalten Sie genaue Informationen zum ausgewählten Zeitraum.
 
