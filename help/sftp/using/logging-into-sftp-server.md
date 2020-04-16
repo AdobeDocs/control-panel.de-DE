@@ -1,7 +1,7 @@
 ---
 title: Anmeldung bei Ihrem SFTP-Server
 description: Erfahren Sie, wie Sie sich beim SFTP-Server anmelden.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
 
 ---
@@ -21,7 +21,7 @@ Bevor Sie sich beim Server anmelden, überprüfen Sie, ob folgende Voraussetzung
 
 Gehen Sie wie folgt vor, um eine Verbindung mit dem SFTP-Server herzustellen:
 
-1. Starten Sie das Control Panel und wählen Sie dann die Registerkarte **[!UICONTROL Schlüsselverwaltung]**auf der Karte**[!UICONTROL  SFTP]** aus.
+1. Starten Sie das Control Panel und wählen Sie dann die Registerkarte **[!UICONTROL Schlüsselverwaltung]** auf der Karte **[!UICONTROL SFTP]** aus.
 
    ![](assets/sftp_card.png)
 
@@ -29,11 +29,11 @@ Gehen Sie wie folgt vor, um eine Verbindung mit dem SFTP-Server herzustellen:
 
    ![](assets/do-not-localize/connect1.png)
 
-1. Wählen Sie im Feld **[!UICONTROL SSH Private Key]**die auf Ihrem Computer gespeicherte Datei für den privaten Schlüssel aus. Sie ist eine Textdatei und hat denselben Namen wie Ihr öffentlicher Schlüssel, jedoch ohne die Erweiterung &quot;.pub&quot; (z. B. &quot;enable&quot;).
+1. Wählen Sie im Feld **[!UICONTROL SSH Private Key]** die auf Ihrem Computer gespeicherte Datei für den privaten Schlüssel aus. Sie ist eine Textdatei und hat denselben Namen wie Ihr öffentlicher Schlüssel, jedoch ohne die Erweiterung &quot;.pub&quot; (z. B. &quot;enable&quot;).
 
    ![](assets/do-not-localize/connect2.png)
 
-   Der private Schlüssel der Datei wird automatisch in das Feld **[!UICONTROL Password]**eingetragen.
+   Der private Schlüssel der Datei wird automatisch in das Feld **[!UICONTROL Password]** eingetragen.
 
    ![](assets/do-not-localize/connect3.png)
 
@@ -47,6 +47,6 @@ Gehen Sie wie folgt vor, um eine Verbindung mit dem SFTP-Server herzustellen:
    >
    >`ssh-keygen -lf <path of the privatekey>`
 
-1. Sobald alle Informationen ausgefüllt sind, wählen Sie **[!UICONTROL Connect]**aus, um sich bei Ihrem SFTP-Server anzumelden.
+1. Sobald alle Informationen ausgefüllt sind, wählen Sie **[!UICONTROL Connect]** aus, um sich bei Ihrem SFTP-Server anzumelden.
 
    ![](assets/do-not-localize/sftpconnected.png)
