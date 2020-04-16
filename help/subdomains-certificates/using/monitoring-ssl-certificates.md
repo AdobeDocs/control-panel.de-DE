@@ -1,7 +1,7 @@
 ---
 title: Überwachen von SSL-Zertifikaten der Subdomains
 description: Erfahren Sie, wie Sie die SSL-Zertifikate Ihrer Subdomains überwachen.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 ---
@@ -24,9 +24,9 @@ Mit der **SSL-Verschlüsselung (Secure Socket Layer)** stellen Sie sicher, dass 
 ## Überwachung von SSL-Zertifikaten {#monitoring-certificates}
 
 >[!CONTEXTUALHELP]
->id=&quot;cp_subdomain_details&quot;
->title=&quot;Details der Subdomain&quot;
->abstract=&quot;Rufen Sie Informationen zu Ihren Subdomains ab.&quot;
+>id="cp_subdomain_details"
+>title="Details der Subdomain"
+>abstract="Rufen Sie Informationen zu Ihren Subdomains ab."
 
 Der Status der SSL-Zertifikate Ihrer Subdomains ist direkt in der Liste der Subdomains verfügbar, wenn Sie die Karte **[!UICONTROL Subdomains &amp; Zertifikate]** auswählen.
 
