@@ -1,7 +1,7 @@
 ---
 title: Einrichten einer neuen Subdomain
 description: Erfahren Sie, wie Sie eine neue Subdomain für Ihre Campaign-Instanz einrichten.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 43d5d522c29586b9898d924dd164435ee8fbb614
 
 ---
