@@ -1,7 +1,7 @@
 ---
 title: Datenbanküberwachung
 description: Erfahren Sie, wie Sie Ihre Campaign-Datenbank im Control Panel überwachen können
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e5646fdccd47b4180fd0f9d561f61c04cd515c01
 
 ---
@@ -36,11 +36,11 @@ Mit dem Control Panel können Sie die Datenbanknutzung für jede Ihrer Campaign-
 
    ![](assets/databases_dashboard.png)
 
-   Der untere Bereich bietet eine grafische Darstellung der minimalen, durchschnittlichen und maximalen Datenbankauslastung während der letzten 7 Tage sowie der 90%igen Datenbankauslastungsschwelle, dargestellt durch eine rote Punktkurve.
+   Der untere Bereich bietet eine grafische Darstellung der minimalen, durchschnittlichen und maximalen Datenbankauslastung über die letzten sieben Tage sowie des Schwellenwerts von 90 % Datenbankauslastung, gekennzeichnet durch eine rot gepunktete Kurve.
 
    Sie können den angezeigten Zeitraum mithilfe der oben rechts verfügbaren Filter ändern.
 
-   Zur besseren Lesbarkeit können Sie auch eine oder mehrere Kurven im Diagramm hervorheben. Wählen Sie dazu aus der Legende &quot; **[!UICONTROL Aggregationstyp]** &quot;aus.
+   Zur besseren Lesbarkeit können Sie auch eine oder mehrere Kurven im Diagramm hervorheben. Wählen Sie diese dazu aus der Legende **[!UICONTROL Aggregationstyp]** aus.
 
    Wenn Sie den Mauszeiger über das Diagramm bewegen, erhalten Sie genaue Informationen zum ausgewählten Zeitraum.
 
@@ -48,7 +48,7 @@ Mit dem Control Panel können Sie die Datenbanknutzung für jede Ihrer Campaign-
 
 >[!NOTE]
 >
->Zusätzlich zu diesem Dashboard können Sie Benachrichtigungen erhalten, wenn eine Ihrer Datenbanken ihre Kapazität erreicht. Abonnieren Sie dazu [Warnungen per E-Mail](../../performance-monitoring/using/email-alerting.md).
+>Zusätzlich zu diesem Dashboard stehen Ihnen auch Benachrichtigungen zur Verfügung, die an Sie gesendet werden, wenn eine Ihrer Datenbanken ihre Kapazitätsgrenze erreicht. Abonnieren Sie dazu [Warnungen per E-Mail](../../performance-monitoring/using/email-alerting.md).
 
 ## Verhindern einer Überbelegung von Datenbanken {#preventing-database-overload}
 
