@@ -1,7 +1,7 @@
 ---
 title: Verwalten von TXT-Einträgen
 description: Erfahren Sie, wie Sie TXT-Einträge zur Verifizierung von Domain-Besitz verwalten können.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e5646fdccd47b4180fd0f9d561f61c04cd515c01
 
 ---
