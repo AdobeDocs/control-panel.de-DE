@@ -1,6 +1,6 @@
 ---
 title: Control Panel-Versionen
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f59be0be3b183dd453ba3cc8ee8c70887e65e6e3
 
 ---
@@ -16,11 +16,14 @@ Hier finden Sie Informationen zu den neuesten Versionen von Control Panel.
 
 ## April 2020 {#april-2020}
 
-**Google TXT Datensatzverwaltung** Hinzufügen Google TXT Site Verification Record zu allen Subdomänen, die zum Senden von E-Mails an Gmail-Adressen über die Kampagne Control Panel verwendet werden.
+**Verwaltung von Google TXT-Einträgen**
+Fügen Sie allen Subdomains, die zum Senden von E-Mails an Gmail-Adressen über das Campaign Control Panel verwendet werden, einen Eintrag der TXT-Websiteüberprüfung von Google hinzu.
 
-**Die Systemsteuerung zur Überwachung** des Datenbankspeicherplatzes ist mit Datenbanküberwachungsfunktionen ausgestattet, mit denen Sie die Nutzung des Datenbankspeicherplatzes nach Bedarf und im Zeitverlauf Ansicht haben können.
+**Überwachung von Datenbankspeicherplatz**
+Das Campaign Control Panel verfügt über Funktionen zur Datenbanküberwachung, mit denen Sie die Auslastung Ihres Datenbankspeicherplatzes zu einem bestimmten Zeitpunkt und im Zeitverlauf anzeigen können.
 
-**Die E-Mail-Warnungs-** Kampagne-Systemsteuerung ist mit Echtzeit-E-Mail-Warnfunktionen ausgestattet, mit denen Sie sich bei der Systemsteuerung anmelden und Warnungen empfangen können, wenn Ihr System Gefahr läuft, dass die Leistung beeinträchtigt wird, oder eine Aktion erforderlich ist, um eine hohe Leistung für die Zukunft sicherzustellen.
+**Warnungen per E-Mail**
+Das Campaign Control Panel bietet Funktionen zum Empfang von E-Mail-Warnungen in Echtzeit. Wenn Sie sich beim Control Panel anmelden und Warnhinweise abonnieren, werden Sie benachrichtigt, wenn Ihrem System eine Leistungsverschlechterung droht oder eine Aktion erforderlich ist, um eine künftig hohe Leistung sicherzustellen.
 
 ## Januar 2020 {#january-2020}
 
