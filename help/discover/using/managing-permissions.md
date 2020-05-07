@@ -2,7 +2,10 @@
 title: Berechtigungen für das Control Panel verwalten
 description: Erfahren Sie, wie Sie Berechtigungen für das Control Panel verwalten
 translation-type: tm+mt
-source-git-commit: ddf4ca24c1583e388c07aae110522627220d5e66
+source-git-commit: aae2007169cc2abc003b3ef6b72e32570ffacba5
+workflow-type: tm+mt
+source-wordcount: '266'
+ht-degree: 89%
 
 ---
 
@@ -50,3 +53,7 @@ Auf das Control Panel haben alle Admin-Benutzer einer Campaign-Instanz Zugriff. 
 1. Die Liste der Admin-Benutzer wird angezeigt. Wählen Sie die Schaltfläche **[!UICONTROL Benutzer hinzufügen]** aus, um den gewünschten Benutzer hinzuzufügen.
 
    ![](assets/do-not-localize/control_panel_add_user_6.png)
+
+>[!NOTE]
+>
+>Sobald der Zugriff konfiguriert ist, muss sich der Benutzer bei Adobe Experience Cloud abmelden und erneut anmelden, um Zugriffskontrolle Panel nutzen zu können.
