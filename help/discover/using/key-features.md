@@ -2,7 +2,10 @@
 title: Zugriff auf das Control Panel
 description: Erfahren Sie, wie Sie auf das Control Panel zugreifen können.
 translation-type: tm+mt
-source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
+source-git-commit: 7bde86a86fbd128f4eb7bf029e58b0f95964390b
+workflow-type: tm+mt
+source-wordcount: '274'
+ht-degree: 87%
 
 ---
 
@@ -24,7 +27,7 @@ Wichtigste Vorteile:
 * Erhöhen Sie die Sicherheit, indem Sie die Zugriffseinstellungen nach Bedarf steuern.
 
 >[!NOTE]
->Zugriff auf das Control Panel haben nur Admin-Benutzer. Das Control Panel steht allen Kunden zur Verfügung, die auf AWS gehostet werden. Die Schritte, um einem Benutzer Administratorzugriff zu gewähren, finden Sie in [diesem Abschnitt](../../discover/using/managing-permissions.md). Um zu überprüfen, ob Ihre Instanz auf AWS gehostet wird, folgen Sie den Schritten in [diesem Abschnitt](../../faq.md).
+>Die Systemsteuerung steht nur Administratoren zur Verfügung und steht allen auf AWS gehosteten Kunden zur Verfügung, mit Ausnahme von Hybrid-Umgebung, die noch nicht unterstützt werden. Die Schritte, um einem Benutzer Administratorzugriff zu gewähren, finden Sie in [diesem Abschnitt](../../discover/using/managing-permissions.md). Um zu überprüfen, ob Ihre Instanz auf AWS gehostet wird, folgen Sie den Schritten in [diesem Abschnitt](../../faq.md).
 >
 >Für den Zugriff auf das Control Panel ist kein Upgrade auf den aktuellen Campaign-Build erforderlich.
 
