@@ -1,7 +1,10 @@
 ---
 title: Control Panel-Versionen
-translation-type: ht
-source-git-commit: f59be0be3b183dd453ba3cc8ee8c70887e65e6e3
+translation-type: tm+mt
+source-git-commit: 7bde86a86fbd128f4eb7bf029e58b0f95964390b
+workflow-type: tm+mt
+source-wordcount: '337'
+ht-degree: 91%
 
 ---
 
@@ -12,7 +15,7 @@ Hier finden Sie Informationen zu den neuesten Versionen von Control Panel.
 
 >[!NOTE]
 >
->Bitte beachten Sie, dass das Control Panel nur für auf AWS gehostete Kunden verfügbar ist. Für den Zugriff auf das Control Panel ist kein Upgrade erforderlich. Sie müssen Administrator sein, um darauf zugreifen zu können.
+>Beachten Sie, dass die Systemsteuerung nur für Kunden verfügbar ist, die auf AWS gehostet werden, mit Ausnahme von Hybrid-Umgebung, die noch nicht unterstützt werden. . Für das Bedienfeld &quot;Zugriffskontrolle&quot;sind keine Aktualisierungen erforderlich. Sie müssen Administrator sein, um darauf zugreifen zu können.
 
 ## April 2020 {#april-2020}
 
