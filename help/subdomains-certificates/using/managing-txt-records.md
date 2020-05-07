@@ -1,8 +1,11 @@
 ---
 title: Verwalten von TXT-Einträgen
 description: Erfahren Sie, wie Sie TXT-Einträge zur Verifizierung von Domain-Besitz verwalten können.
-translation-type: ht
-source-git-commit: e5646fdccd47b4180fd0f9d561f61c04cd515c01
+translation-type: tm+mt
+source-git-commit: 7c2dd60c70b5f9c0b2567df289582b972a7f76b8
+workflow-type: tm+mt
+source-wordcount: '350'
+ht-degree: 100%
 
 ---
 
@@ -52,5 +55,3 @@ Um einen Eintrag zu löschen, wählen Sie ihn in der Liste der Einträge aus und
 >[!NOTE]
 >
 >Der einzige Eintrag, den Sie aus der Liste der DNS-Einträge löschen können, ist derjenige, den Sie zuvor hinzugefügt haben (in unserem Fall der Google TXT-Eintrag).
-
-
