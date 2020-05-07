@@ -2,9 +2,9 @@
 title: GPG-Schlüsselverwaltung
 description: Erfahren Sie, wie Sie GPG-Schlüssel verwalten, um Daten in Adobe Campaign zu verschlüsseln und zu entschlüsseln.
 translation-type: tm+mt
-source-git-commit: 385f1c19b43d30e34d55ae655018e61aa1d2dc04
+source-git-commit: d44c0557904f0e6f6688c12687fbf84e42553d6b
 workflow-type: tm+mt
-source-wordcount: '1052'
+source-wordcount: '1051'
 ht-degree: 3%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 3%
 
 # GPG-Schlüsselverwaltung {#gpg-keys-management}
 
-## Informationen zur GPG-Verschlüsselung {about-gpg-cryption}
+## Grundlagen zur GPG-Verschlüsselung {#about-gpg-encryption}
 
 Mit der GPG-Verschlüsselung können Sie Ihre Daten mit einem System aus öffentlich-privaten Schlüsselpaaren schützen, die der [OpenPGP](https://www.openpgp.org/about/standard/) -Spezifikation entsprechen.
 
