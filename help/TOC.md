@@ -4,7 +4,10 @@ sub-product: Bedienfeld
 audience: end-user
 user-guide-title: Hilfe zum Control Panel
 translation-type: tm+mt
-source-git-commit: d81f76a07c294fdab4ed31e7741cf7ec4fb2f985
+source-git-commit: 22f84071d825004b8a8aaf32cc9c1579476ee1de
+workflow-type: tm+mt
+source-wordcount: '97'
+ht-degree: 94%
 
 ---
 
@@ -40,4 +43,5 @@ source-git-commit: d81f76a07c294fdab4ed31e7741cf7ec4fb2f985
    + [IP-Whitelisting für den Instanzenzugriff](instances-settings/using/ip-whitelisting-instance-access.md)
    + [URL-Genehmigungen](instances-settings/using/url-permissions.md)
    + [Details der Instanz](instances-settings/using/instance-details.md)
+   + [Verwaltung der GPG-Schlüssel](instances-settings/using/gpg-keys-management.md)
 + [Häufig gestellte Fragen](faq.md)
