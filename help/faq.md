@@ -2,7 +2,10 @@
 title: Control Panel – Häufig gestellte Fragen
 description: Häufige Fragen zum Control Panel
 translation-type: tm+mt
-source-git-commit: ddf4ca24c1583e388c07aae110522627220d5e66
+source-git-commit: 7bde86a86fbd128f4eb7bf029e58b0f95964390b
+workflow-type: tm+mt
+source-wordcount: '628'
+ht-degree: 98%
 
 ---
 
@@ -100,7 +103,7 @@ Ja, Sie können im Control Panel nur die Einstellungen für Adobe Campaign verwa
 
 **Kann jeder das Control Panel nutzen?**
 
-Das Control Panel steht nur Produktadministratoren unserer aktuellen Kunden offen, bei denen Adobe Campaign auf AWS gehostet wird.
+Das Control Panel steht nur Produktadministratoren unserer aktuellen Kunden offen, bei denen Adobe Campaign auf AWS gehostet wird. Beachten Sie, dass hybride Umgebung noch nicht unterstützt werden.
 
 Wenn Sie kein Administrator sind, aber Zugriff wünschen, wenden Sie sich an Ihren Produktadministrator mit der Bitte, Sie als Administrator hinzuzufügen.
 
