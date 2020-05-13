@@ -2,7 +2,7 @@
 title: GPG-Schlüsselverwaltung
 description: Erfahren Sie, wie Sie GPG-Schlüssel verwalten, um Daten in Adobe Campaign zu verschlüsseln und zu entschlüsseln.
 translation-type: tm+mt
-source-git-commit: 2c0bd8f3583423b3b2f981390a32416e8bbcbc4a
+source-git-commit: 59b91342b6bec1f78fce87b973d9f2d32cd5c698
 workflow-type: tm+mt
 source-wordcount: '1051'
 ht-degree: 3%
@@ -65,7 +65,7 @@ Als Best Practice empfehlen wir, alle Schlüssel zu entfernen, die Sie nicht meh
 
 Dazu müssen Sie ein GPG-Schlüsselpaar aus einem PGP-Verschlüsselungstool generieren und dann den öffentlichen Schlüssel in der Systemsteuerung installieren. Sie können dann Daten verschlüsseln, bevor Sie sie von Ihrer Instanz senden. Gehen Sie dazu wie folgt vor:
 
-1. Generieren Sie ein öffentliches/privates Schlüsselpaar mit einem GPG-Verschlüsselungstool nach der [OpenPGP-Spezifikation](https://www.openpgp.org/about/standard/). Installieren Sie dazu ein GPG-Dienstprogramm oder eine GNuPG-Software.
+1. Generieren Sie ein öffentliches/privates Schlüsselpaar mit einem GPG-Verschlüsselungstool nach der [OpenPGP-Spezifikation](https://www.openpgp.org/about/standard/). Installieren Sie dazu ein GPG-Dienstprogramm oder eine GNuGP-Software.
 
    >[!NOTE]
    >
@@ -85,7 +85,7 @@ Dazu müssen Sie ein GPG-Schlüsselpaar aus einem PGP-Verschlüsselungstool gene
    * **Passphrase**
    ![](assets/gpg_command.png)
 
-1. Nach der Bestätigung generiert das Skript einen Schlüssel, den Sie in eine Datei exportieren oder direkt in die Systemsteuerung einfügen können. Um die Datei zu exportieren, führen Sie diesen Befehl und anschließend den Fingerpunkt des von Ihnen erstellten Schlüssels aus.
+1. Nach der Bestätigung generiert das Skript einen Schlüssel, den Sie in eine Datei exportieren oder direkt in die Systemsteuerung einfügen können. Um die Datei zu exportieren, führen Sie diesen Befehl aus, gefolgt vom Fingerabdruck des von Ihnen erstellten Schlüssels.
 
    `gpg -a --export <fingerprint>`
 
@@ -105,7 +105,7 @@ Dazu müssen Sie ein GPG-Schlüsselpaar aus einem PGP-Verschlüsselungstool gene
 
 1. Klicken Sie auf die Schaltfläche **!UICONTROL Install Key]**.
 
-Sobald der öffentliche Schlüssel installiert ist, wird er in der Liste angezeigt. Sie können die **...** zum Herunterladen oder Kopieren des Fingerpunkts.
+Sobald der öffentliche Schlüssel installiert ist, wird er in der Liste angezeigt. Sie können die **...** zum Herunterladen oder Kopieren des Fingerabdrucks.
 
 ![](assets/gpg_install_download.png)
 
@@ -141,7 +141,7 @@ Gehen Sie wie folgt vor, um ein Schlüsselpaar in der Systemsteuerung zu generie
 
 Sobald das Schlüsselpaar generiert wurde, wird der öffentliche Schlüssel in der Liste angezeigt. Beachten Sie, dass Entschlüsselungspaare ohne Ablaufdatum generiert werden.
 
-Sie können die **...** zum Herunterladen des öffentlichen Schlüssels oder zum Kopieren des Fingerpunkts.
+Sie können die **...** zum Herunterladen des öffentlichen Schlüssels oder zum Kopieren des Fingerabdrucks.
 
 ![](assets/gpg_generate_list.png)
 
