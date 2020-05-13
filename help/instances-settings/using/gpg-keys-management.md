@@ -2,7 +2,7 @@
 title: GPG-Schlüsselverwaltung
 description: Erfahren Sie, wie Sie GPG-Schlüssel verwalten, um Daten in Adobe Campaign zu verschlüsseln und zu entschlüsseln.
 translation-type: tm+mt
-source-git-commit: d44c0557904f0e6f6688c12687fbf84e42553d6b
+source-git-commit: 2c0bd8f3583423b3b2f981390a32416e8bbcbc4a
 workflow-type: tm+mt
 source-wordcount: '1051'
 ht-degree: 3%
@@ -69,9 +69,9 @@ Dazu müssen Sie ein GPG-Schlüsselpaar aus einem PGP-Verschlüsselungstool gene
 
    >[!NOTE]
    >
-   >Open Source freie Software zum Generieren von Schlüsseln ist verfügbar. Achten Sie jedoch darauf, die Richtlinien Ihres Unternehmens zu befolgen und das von Ihrer IT/Security-Organisation empfohlene PGP-Dienstprogramm zu verwenden.
+   >Open Source freie Software zum Generieren von Schlüsseln ist verfügbar. Achten Sie jedoch darauf, die Richtlinien Ihres Unternehmens zu befolgen und das GPG-Dienstprogramm zu verwenden, das von Ihrer IT/Security-Organisation empfohlen wird.
 
-1. Nachdem das Dienstprogramm installiert wurde, führen Sie den Befehl unten in Mac Terminal oder Windows Machine aus.
+1. Nachdem das Dienstprogramm installiert wurde, führen Sie den Befehl unten in Mac Terminal oder Windows aus.
 
    `gpg --full-generate-key`
 
@@ -111,7 +111,7 @@ Sobald der öffentliche Schlüssel installiert ist, wird er in der Liste angezei
 
 Der Schlüssel ist dann für die Verwendung in Adobe Campaign Workflows verfügbar. Sie können sie verwenden, um Daten zu verschlüsseln, wenn Sie Aktivitäten zur Extraktion von Daten verwenden.
 
-Weitere Informationen finden Sie in den Adobe Campaign-Dokumentationen:
+Weitere Informationen finden Sie in der Dokumentation zum Adobe Campaign:
 
 | Campaign Classic | Campaign Standard |
 ---------|----------
@@ -147,7 +147,7 @@ Sie können die **...** zum Herunterladen des öffentlichen Schlüssels oder zum
 
 Der öffentliche Schlüssel ist dann für jedes externe System freigegeben. Adobe Campaign kann den privaten Schlüssel beim Laden von Aktivitäten verwenden, um Daten zu entschlüsseln, die mit dem öffentlichen Schlüssel verschlüsselt wurden.
 
-Weitere Informationen finden Sie in den Adobe Campaign-Dokumentationen:
+Weitere Informationen finden Sie in der Dokumentation zum Adobe Campaign:
 
 | Campaign Classic | Campaign Standard |
 ---------|----------
