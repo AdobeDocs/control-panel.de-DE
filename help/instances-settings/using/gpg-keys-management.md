@@ -2,7 +2,7 @@
 title: GPG-Schlüsselverwaltung
 description: Erfahren Sie, wie Sie GPG-Schlüssel verwalten, um Daten in Adobe Campaign zu verschlüsseln und zu entschlüsseln.
 translation-type: tm+mt
-source-git-commit: 59b91342b6bec1f78fce87b973d9f2d32cd5c698
+source-git-commit: 110e77e00fcc0ea893fa91c3b2d3d8788216a8dd
 workflow-type: tm+mt
 source-wordcount: '1051'
 ht-degree: 3%
@@ -103,7 +103,7 @@ Dazu müssen Sie ein GPG-Schlüsselpaar aus einem PGP-Verschlüsselungstool gene
 
    ![](assets/gpg_install_paste.png)
 
-1. Klicken Sie auf die Schaltfläche **!UICONTROL Install Key]**.
+1. Klicken Sie auf die Schaltfläche &quot; **[!UICONTROL Installationsschlüssel]** &quot;.
 
 Sobald der öffentliche Schlüssel installiert ist, wird er in der Liste angezeigt. Sie können die **...** zum Herunterladen oder Kopieren des Fingerabdrucks.
 
@@ -113,10 +113,15 @@ Der Schlüssel ist dann für die Verwendung in Adobe Campaign Workflows verfügb
 
 Weitere Informationen finden Sie in der Dokumentation zum Adobe Campaign:
 
-| Campaign Classic | Campaign Standard |
----------|----------
-| [Datei komprimieren oder verschlüsseln](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/how-to-use-workflow-data.html#zipping-or-encrypting-a-file) | [Verwalten verschlüsselter Daten](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/workflow-general-operation/importing-data.html#managing-encrypted-data) |
-| [Aktivität der Datendatei (Extraktion)](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/action-activities/extraction--file-.html) | [Aktivität „Dateiextraktion“](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/data-management-activities/extract-file.html) |
+**Campaign Classic:**
+
+* [Datei komprimieren oder verschlüsseln](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/how-to-use-workflow-data.html#zipping-or-encrypting-a-file)
+* [Aktivität der Datendatei (Extraktion)](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/action-activities/extraction--file-.html)
+
+**Campaign Standard:**
+
+* [Verwalten verschlüsselter Daten](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/workflow-general-operation/importing-data.html#managing-encrypted-data)
+* [Aktivität „Dateiextraktion“](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/data-management-activities/extract-file.html)
 
 ## Entschlüsseln von Daten {#decrypting-data}
 
@@ -149,7 +154,12 @@ Der öffentliche Schlüssel ist dann für jedes externe System freigegeben. Adob
 
 Weitere Informationen finden Sie in der Dokumentation zum Adobe Campaign:
 
-| Campaign Classic | Campaign Standard |
----------|----------
-| [Datei vor der Verarbeitung dekomprimieren oder entschlüsseln](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/importing-data.html#unzipping-or-decrypting-a-file-before-processing) | [Verwalten verschlüsselter Daten](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/workflow-general-operation/importing-data.html#managing-encrypted-data) |
-| [Aktivität zum Laden von Daten](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/action-activities/data-loading--file-.html) | [Aktivität „Datei laden“](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/data-management-activities/load-file.html) |
+**Campaign Classic:**
+
+* [Datei vor der Verarbeitung dekomprimieren oder entschlüsseln](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/importing-data.html#unzipping-or-decrypting-a-file-before-processing)
+* [Aktivität zum Laden von Daten](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/action-activities/data-loading--file-.html)
+
+**Campaign Standard:**
+
+* [Verwalten verschlüsselter Daten](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/workflow-general-operation/importing-data.html#managing-encrypted-data)
+* [Aktivität „Datei laden“](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/data-management-activities/load-file.html)
