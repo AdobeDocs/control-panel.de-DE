@@ -1,11 +1,11 @@
 ---
 title: Berechtigungen für das Control Panel verwalten
 description: Erfahren Sie, wie Sie Berechtigungen für das Control Panel verwalten
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: aae2007169cc2abc003b3ef6b72e32570ffacba5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '266'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -56,4 +56,4 @@ Auf das Control Panel haben alle Admin-Benutzer einer Campaign-Instanz Zugriff. 
 
 >[!NOTE]
 >
->Sobald der Zugriff konfiguriert ist, muss sich der Benutzer bei Adobe Experience Cloud abmelden und erneut anmelden, um Zugriffskontrolle Panel nutzen zu können.
+>Sobald der Zugriff konfiguriert ist, muss sich der Benutzer bei Adobe Experience Cloud abmelden und erneut anmelden, um auf das Control Panel zugreifen zu können.
