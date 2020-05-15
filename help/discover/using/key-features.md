@@ -1,11 +1,11 @@
 ---
 title: Zugriff auf das Control Panel
 description: Erfahren Sie, wie Sie auf das Control Panel zugreifen können.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7bde86a86fbd128f4eb7bf029e58b0f95964390b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '274'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 87%
 >id="cp_overview"
 >title="Über das Control Panel"
 >abstract="Auf der Startseite des Control Panels haben Sie Zugriff auf alle Aktionen, die auf Ihren Campaign-Instanzen ausgeführt werden können."
->additional-url="https://docs.adobe.com/content/help/en/control-panel/using/discover-control-panel/discovering-the-interface.html" text="Kennenlernen der Benutzeroberfläche"
+>additional-url="https://docs.adobe.com/content/help/de-DE/control-panel/using/discover-control-panel/discovering-the-interface.html" text="Kennenlernen der Benutzeroberfläche"
 
 Das Control Panel bietet Produktadministratoren von Adobe Campaign Standard und/oder Classic verbesserte Effizienz. Sie können damit die Einstellungen einer jeden Instanz verwalten und deren Nutzung überwachen. Dank der intuitiven Benutzeroberfläche kann die Nutzung wichtiger Ressourcen überwacht und administrative Aufgaben einfach durchgeführt werden. So können beispielsweise IP-Adressen auf die Whitelist gesetzt, der Speicher von SFTP-Servern überwacht und die Schlüssel verwaltet werden.
 
@@ -27,7 +27,7 @@ Wichtigste Vorteile:
 * Erhöhen Sie die Sicherheit, indem Sie die Zugriffseinstellungen nach Bedarf steuern.
 
 >[!NOTE]
->Die Systemsteuerung steht nur Administratoren zur Verfügung und steht allen auf AWS gehosteten Kunden zur Verfügung, mit Ausnahme von Hybrid-Umgebung, die noch nicht unterstützt werden. Die Schritte, um einem Benutzer Administratorzugriff zu gewähren, finden Sie in [diesem Abschnitt](../../discover/using/managing-permissions.md). Um zu überprüfen, ob Ihre Instanz auf AWS gehostet wird, folgen Sie den Schritten in [diesem Abschnitt](../../faq.md).
+>Das Control Panel ist nur für Administratoren zugänglich. Es steht allen auf AWS gehosteten Kunden zur Verfügung (mit Ausnahme der Hybrid-Umgebungen, die noch nicht unterstützt werden). Die Schritte, um einem Benutzer Administratorzugriff zu gewähren, finden Sie in [diesem Abschnitt](../../discover/using/managing-permissions.md). Um zu überprüfen, ob Ihre Instanz auf AWS gehostet wird, folgen Sie den Schritten in [diesem Abschnitt](../../faq.md).
 >
 >Für den Zugriff auf das Control Panel ist kein Upgrade auf den aktuellen Campaign-Build erforderlich.
 
