@@ -1,10 +1,10 @@
 ---
 title: Control Panel-Versionen
 translation-type: tm+mt
-source-git-commit: 88fd5b8853864ed25a3c6f2dfb5da718d0fc8d11
+source-git-commit: 032a4bd28b7f246771b3f246768fca083afe487b
 workflow-type: tm+mt
 source-wordcount: '401'
-ht-degree: 62%
+ht-degree: 65%
 
 ---
 
@@ -15,31 +15,31 @@ Hier finden Sie Informationen zu den neuesten Versionen von Control Panel.
 
 >[!NOTE]
 >
->Beachten Sie, dass die Systemsteuerung nur für Kunden verfügbar ist, die auf AWS gehostet werden, mit Ausnahme von Hybrid-Umgebung, die noch nicht unterstützt werden. Für das Bedienfeld &quot;Zugriffskontrolle&quot;sind keine Aktualisierungen erforderlich. Sie müssen Administrator sein, um darauf zugreifen zu können.
+>Beachten Sie, dass die Systemsteuerung nur für Kunden verfügbar ist, die auf AWS gehostet werden, mit Ausnahme von Hybrid-Umgebung, die noch nicht unterstützt werden. Für den Zugriff auf das Control Panel sind keine Aktualisierungen erforderlich. Sie müssen Administrator sein, um darauf zugreifen zu können.
 
 ## Mai 2020 (#Mai-2020)
 
 **GPG-Schlüsselverwaltung**
 
-Installieren und/oder generieren Sie GPG-Schlüssel auf einer Marketing-Instanz, um von der Kampagne gesendete Daten zu verschlüsseln und eingehende Daten zu entschlüsseln. [mehr dazu](../..//instances-settings/using/gpg-keys-management.md)
+Installieren und/oder generieren Sie GPG-Schlüssel auf einer Marketing-Instanz, um von der Kampagne gesendete Daten zu verschlüsseln und eingehende Daten zu entschlüsseln. [mehr dazu](instances-settings/using/gpg-keys-management.md)
 
 **Zertifikatverwaltung für CNAME-Subdomänen**
 
-Über die Systemsteuerung können Sie jetzt die SSL-Zertifikate Ihrer Subdomänen erneuern, die mit der CNAME-Methode delegiert wurden. [mehr dazu](../../subdomains-certificates/using/renewing-subdomain-certificate.md)
+Über die Systemsteuerung können Sie jetzt die SSL-Zertifikate Ihrer Subdomänen erneuern, die mit der CNAME-Methode delegiert wurden. [mehr dazu](subdomains-certificates/using/renewing-subdomain-certificate.md)
 
 ## April 2020 {#april-2020}
 
 **Verwaltung von Google TXT-Einträgen**
 
-Fügen Sie allen Subdomains, die zum Senden von E-Mails an Gmail-Adressen über das Campaign Control Panel verwendet werden, einen Eintrag der TXT-Websiteüberprüfung von Google hinzu. [mehr dazu](../../subdomains-certificates/using/managing-txt-records.md)
+Fügen Sie allen Subdomains, die zum Senden von E-Mails an Gmail-Adressen über das Campaign Control Panel verwendet werden, einen Eintrag der TXT-Websiteüberprüfung von Google hinzu. [mehr dazu](subdomains-certificates/using/managing-txt-records.md)
 
 **Überwachung von Datenbankspeicherplatz**
 
-Kampagne Control Panel ist mit Datenbanküberwachungsfunktionen ausgestattet, mit denen Sie die Auslastung Ihres Datenbankplatzes bei Bedarf und im Zeitverlauf Ansicht haben können. [mehr dazu](../../performance-monitoring/using/database-monitoring.md)
+Kampagne Control Panel ist mit Datenbanküberwachungsfunktionen ausgestattet, mit denen Sie die Auslastung Ihres Datenbankplatzes bei Bedarf und im Zeitverlauf Ansicht haben können. [mehr dazu](performance-monitoring/using/database-monitoring.md)
 
 **Warnungen per E-Mail**
 
-Das Control Panel für Kampagnen verfügt über Echtzeit-E-Mail-Warnfunktionen, mit denen Sie sich bei der Systemsteuerung anmelden und sich für den Empfang von Warnhinweisen anmelden können, wenn Ihr System Gefahr läuft, dass die Leistung beeinträchtigt wird, oder eine Aktion erforderlich ist, um eine hohe Leistung für die Zukunft sicherzustellen. [Mehr dazu](../../performance-monitoring/using/email-alerting.md)
+Das Control Panel für Kampagnen verfügt über Echtzeit-E-Mail-Warnfunktionen, mit denen Sie sich bei der Systemsteuerung anmelden und sich für den Empfang von Warnhinweisen anmelden können, wenn Ihr System Gefahr läuft, dass die Leistung beeinträchtigt wird, oder eine Aktion erforderlich ist, um eine hohe Leistung für die Zukunft sicherzustellen. [Mehr dazu](performance-monitoring/using/email-alerting.md)
 
 ## Januar 2020 {#january-2020}
 
