@@ -2,10 +2,10 @@
 title: GPG-Schlüsselverwaltung
 description: Erfahren Sie, wie GPG-Schlüssel zum Ver- und Entschlüsseln von Daten innerhalb von Adobe Campaign verwaltet werden.
 translation-type: tm+mt
-source-git-commit: c6e070c024df1bb7708281eff67b430e553ac258
+source-git-commit: a160b542a6f00a605a80605be2ab3b934f26ba72
 workflow-type: tm+mt
-source-wordcount: '1051'
-ht-degree: 86%
+source-wordcount: '1061'
+ht-degree: 82%
 
 ---
 
@@ -25,39 +25,6 @@ Anschließend können Sie:
 * **Gesendete Daten verschlüsseln**: Adobe Campaign sendet Daten nach der Verschlüsselung mit dem installierten öffentlichen Schlüssel.
 
 * **Eingehende Daten entschlüsseln**: Adobe Campaign empfängt Daten, die von einem Drittsystem mit einem öffentlichen Schlüssel verschlüsselt wurden, der vom Control Panel heruntergeladen wurde. Adobe Campaign entschlüsselt die Daten mit einem privaten Schlüssel, der vom Control Panel generiert wird.
-
-## Überwachen von GPG-Schlüsseln
-
-Um auf die für Ihre Instanzen installierten und generierten GPG-Schlüssel zuzugreifen, öffnen Sie die Karte **[!UICONTROL Instanzeneinstellungen]** und wählen Sie dann die Registerkarte **[!UICONTROL GPG-Schlüssel]** aus.
-
-![](assets/gpg_list.png)
-
-In der Liste werden alle GPG-Schlüssel zur Ver- und Entschlüsselung angezeigt, die für Ihre Instanzen installiert und generiert wurden. Dabei werden zu jedem Schlüssel detaillierte Informationen bereitgestellt:
-
-* **[!UICONTROL Name]**: Der Name, der beim Installieren oder Generieren des Schlüssels definiert wurde.
-* **[!UICONTROL Anwendungsfall]**: Diese Spalte gibt den Anwendungsfall des Schlüssels an:
-
-   ![](assets/gpg_icon_encrypt.png): Der Schlüssel wurde zur Verschlüsselung von Daten installiert.
-
-   ![](assets/gpg_icon_decrypt.png): Der Schlüssel wurde generiert, um die Entschlüsselung von Daten zu ermöglichen.
-
-* **[!UICONTROL Fingerabdruck]**: Der Fingerabdruck des Schlüssels.
-* **[!UICONTROL Läuft ab]**: Das Ablaufdatum des Schlüssels. Beachten Sie, dass das Control Panel visuelle Hinweise gibt, wenn sich der Schlüssel seinem Ablaufdatum nähert:
-
-   * „Dringend“ (rot) wird 30 Tage vor dem Ablaufdatum angezeigt.
-   * „Warnung“ (gelb) wird 60 Tage vor dem Ablaufdatum angezeigt.
-   * Sobald ein Schlüssel abgelaufen ist, wird ein rotes Banner „Abgelaufen“ angezeigt.
-   >[!NOTE]
-   >
-   >Beachten Sie, dass das Control Panel keine E-Mail-Benachrichtigungen sendet.
-
-Als Best Practice empfehlen wir, alle Schlüssel zu entfernen, die Sie nicht mehr benötigen. Klicken Sie dazu auf die Schaltfläche **...** und wählen Sie dann **[!UICONTROL Schlüssel löschen]aus.**
-
-![](assets/gpg_delete.png)
-
->[!IMPORTANT]
->
->Stellen Sie vor dem Entfernen eines Schlüssels sicher, dass er in keinem Adobe Campaign-Workflow verwendet wird, um ein Fehlschlagen zu verhindern.
 
 ## Verschlüsseln von Daten {#encrypting-data}
 
@@ -89,7 +56,7 @@ Dazu müssen Sie mithilfe eines PGP-Verschlüsselungs-Tools ein GPG-Schlüsselpa
 
    `gpg -a --export <fingerprint>`
 
-1. Um den öffentlichen Schlüssel im Control Panel zu installieren, rufen Sie die Registerkarte **[!UICONTROL GPG-Schlüssel]** auf und wählen Sie dann die gewünschte Instanz aus.
+1. Um den öffentlichen Schlüssel in der Systemsteuerung zu installieren, öffnen Sie die Karte **[!UICONTROL Instanzeinstellungen]** und wählen Sie dann die Registerkarte **[!UICONTROL GPG-Schlüssel]** und die gewünschte Instanz aus.
 
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Schlüssel installieren]**.
 
@@ -134,7 +101,7 @@ Dazu müssen Sie ein GPG-Schlüsselpaar direkt im Control Panel generieren.
 
 Gehen Sie wie folgt vor, um ein Schlüsselpaar im Control Panel zu generieren:
 
-1. Rufen Sie die Registerkarte **[!UICONTROL GPG-Schlüssel]** auf und wählen Sie dann die gewünschte Adobe Campaign-Instanz aus.
+1. Öffnen Sie die Einstellungskarte **[!UICONTROL Instanz]** und wählen Sie dann die Registerkarte **[!UICONTROL GPG-Schlüssel]** und die gewünschte Adobe Campaign-Instanz aus.
 
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Schlüssel generieren]**.
 
@@ -163,3 +130,36 @@ Weitere Informationen finden Sie in der Dokumentation zum Adobe Campaign:
 
 * [Verwalten verschlüsselter Daten](https://docs.adobe.com/content/help/de-DE/campaign-standard/using/managing-processes-and-data/workflow-general-operation/importing-data.html#managing-encrypted-data)
 * [Aktivität „Datei laden“](https://docs.adobe.com/content/help/de-DE/campaign-standard/using/managing-processes-and-data/data-management-activities/load-file.html)
+
+## Überwachen von GPG-Schlüsseln
+
+Um auf die für Ihre Instanzen installierten und generierten GPG-Schlüssel zuzugreifen, öffnen Sie die Karte **[!UICONTROL Instanzeneinstellungen]** und wählen Sie dann die Registerkarte **[!UICONTROL GPG-Schlüssel]** aus.
+
+![](assets/gpg_list.png)
+
+In der Liste werden alle GPG-Schlüssel zur Ver- und Entschlüsselung angezeigt, die für Ihre Instanzen installiert und generiert wurden. Dabei werden zu jedem Schlüssel detaillierte Informationen bereitgestellt:
+
+* **[!UICONTROL Name]**: Der Name, der beim Installieren oder Generieren des Schlüssels definiert wurde.
+* **[!UICONTROL Anwendungsfall]**: Diese Spalte gibt den Anwendungsfall des Schlüssels an:
+
+   ![](assets/gpg_icon_encrypt.png): Der Schlüssel wurde zur Verschlüsselung von Daten installiert.
+
+   ![](assets/gpg_icon_decrypt.png): Der Schlüssel wurde generiert, um die Entschlüsselung von Daten zu ermöglichen.
+
+* **[!UICONTROL Fingerabdruck]**: Der Fingerabdruck des Schlüssels.
+* **[!UICONTROL Läuft ab]**: Das Ablaufdatum des Schlüssels. Beachten Sie, dass das Control Panel visuelle Hinweise gibt, wenn sich der Schlüssel seinem Ablaufdatum nähert:
+
+   * „Dringend“ (rot) wird 30 Tage vor dem Ablaufdatum angezeigt.
+   * „Warnung“ (gelb) wird 60 Tage vor dem Ablaufdatum angezeigt.
+   * Sobald ein Schlüssel abgelaufen ist, wird ein rotes Banner „Abgelaufen“ angezeigt.
+   >[!NOTE]
+   >
+   >Beachten Sie, dass das Control Panel keine E-Mail-Benachrichtigungen sendet.
+
+Als Best Practice empfehlen wir, alle Schlüssel zu entfernen, die Sie nicht mehr benötigen. Klicken Sie dazu auf die Schaltfläche **...** und wählen Sie dann **[!UICONTROL Schlüssel löschen]aus.**
+
+![](assets/gpg_delete.png)
+
+>[!IMPORTANT]
+>
+>Stellen Sie vor dem Entfernen eines Schlüssels sicher, dass er in keinem Adobe Campaign-Workflow verwendet wird, um ein Fehlschlagen zu verhindern.
