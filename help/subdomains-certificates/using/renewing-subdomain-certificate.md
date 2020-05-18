@@ -2,7 +2,10 @@
 title: Verlängern des SSL-Zertifikats einer Subdomain
 description: Erfahren Sie, wie Sie die Zertifikate Ihrer Subdomains verlängern.
 translation-type: tm+mt
-source-git-commit: f08b0e68cf0a208b1385052510c06ca1eb679e63
+source-git-commit: bc29433167d4699ad9b840381abd0d5bbff8c630
+workflow-type: tm+mt
+source-wordcount: '865'
+ht-degree: 90%
 
 ---
 
@@ -30,10 +33,6 @@ Sobald die CSR generiert wurde, können Sie sie herunterladen und zum Kauf des S
 1. **Installation des SSL-Zertifikats**
 Nachdem Sie das SSL-Zertifikat erworben haben, können Sie es in der gewünschten Subdomain installieren.
 
->[!NOTE]
->
->Die Verlängerung von SSL-Zertifikaten über das Control Panel ist nur für **vollständig zugewiesene Subdomains** verfügbar.
-
 ## Generieren einer Certificate Signing Request (CSR) {#generating-csr}
 
 >[!CONTEXTUALHELP]
@@ -54,7 +53,7 @@ Gehen Sie wie folgt vor, um eine Certificate Signing Request (CSR) zu erstellen:
 
    ![](assets/renewal1.png)
 
-1. Wählen Sie **[!UICONTROL Erstellen einer CSR]** und dann **[!UICONTROL Weiter]** aus, um den Assistenten zu starten, der Sie durch den CSR-Generierungsprozess führt.
+1. Select **[!UICONTROL 1 - Generate a CSR]**, then click **[!UICONTROL Next]** to launch the wizard that will guide you through the CSR generation process.
 
    ![](assets/renewal2.png)
 
@@ -115,11 +114,11 @@ Sobald Sie ein SSL-Zertifikat gekauft haben, können Sie es auf Ihrer Instanz in
 
 Gehen Sie wie folgt vor, um das Zertifikat zu installieren:
 
-1. Wählen Sie auf der Karte **[!UICONTROL Subdomains &amp; Zertifikate]** zuerst die gewünschte Instanz und danach **[!UICONTROL Zertifikat verwalten]** aus.
+1. Wählen Sie zuerst auf der Karte **[!UICONTROL Subdomains &amp; Zertifikate]** die gewünschte Instanz und danach **[!UICONTROL Zertifikat verwalten]** aus.
 
    ![](assets/renewal1.png)
 
-1. Wählen Sie **[!UICONTROL Installieren eines SSL-Zertifikats]** und dann **[!UICONTROL Weiter]** aus, um den Assistenten zu starten, der Sie durch den Zertifikatinstallationsprozess führt.
+1. Select **[!UICONTROL 3 - Install Certificate Bundle]**, then click **[!UICONTROL Next]** to launch the wizard that will guide you through the certificate installation process.
 
    ![](assets/install1.png)
 
