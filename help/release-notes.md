@@ -1,10 +1,10 @@
 ---
 title: Control Panel-Versionen
 translation-type: tm+mt
-source-git-commit: 032a4bd28b7f246771b3f246768fca083afe487b
+source-git-commit: 49d84c42446ed1fc996b9d57005565b15ca24e77
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 65%
+source-wordcount: '423'
+ht-degree: 61%
 
 ---
 
@@ -21,7 +21,7 @@ Hier finden Sie Informationen zu den neuesten Versionen von Control Panel.
 
 **GPG-Schlüsselverwaltung**
 
-Installieren und/oder generieren Sie GPG-Schlüssel auf einer Marketing-Instanz, um von der Kampagne gesendete Daten zu verschlüsseln und eingehende Daten zu entschlüsseln. [mehr dazu](instances-settings/using/gpg-keys-management.md)
+Über die Systemsteuerung können Sie jetzt ein Paar GPG-Schlüssel generieren, damit Sie die Daten, die von außen in die Kampagne gelangen, einfach entschlüsseln können. Darüber hinaus haben wir eine Funktion hinzugefügt, mit der Sie einen öffentlichen GPG-Schlüssel installieren können, um Daten zu verschlüsseln, die Kampagne verlassen. [mehr dazu](instances-settings/using/gpg-keys-management.md)
 
 **Zertifikatverwaltung für CNAME-Subdomänen**
 
