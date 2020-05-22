@@ -1,11 +1,11 @@
 ---
 title: Verlängern des SSL-Zertifikats einer Subdomain
 description: Erfahren Sie, wie Sie die Zertifikate Ihrer Subdomains verlängern.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bc29433167d4699ad9b840381abd0d5bbff8c630
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '865'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -14,10 +14,10 @@ ht-degree: 90%
 
 >[!CONTEXTUALHELP]
 >id="cp_add_ssl_certificate"
->title="SSL-Zertifikat hinzufügen"
->abstract="Um ein SSL-Zertifikat hinzuzufügen, müssen Sie eine CSR generieren, das SSL-Zertifikat für Ihre Subdomain erwerben und das Zertifikat-Bundle installieren."
->additional-url="https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#generating-csr" text="Generieren einer Certificate Signing Request (CSR)"
->additional-url="https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#installing-ssl-certificate" text="Installieren eines SSL-Zertifikats"
+>title="Hinzufügen eines SSL-Zertifikats"
+>abstract="Um ein SSL-Zertifikat hinzuzufügen, müssen Sie eine CSR generieren, das SSL-Zertifikat für Ihre Subdomains erwerben und das Zertifikat-Bundle installieren."
+>additional-url="https://docs.adobe.com/content/help/de-DE/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#generating-csr" text="Generieren einer Certificate Signing Request (CSR)"
+>additional-url="https://docs.adobe.com/content/help/de-DE/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#installing-ssl-certificate" text="Installieren eines SSL-Zertifikats"
 
 >[!IMPORTANT]
 >
@@ -37,15 +37,15 @@ Nachdem Sie das SSL-Zertifikat erworben haben, können Sie es in der gewünschte
 
 >[!CONTEXTUALHELP]
 >id="cp_generate_csr"
->title="CSR erstellen"
+>title="Erstellen einer CSR"
 >abstract="Vor dem Kauf eines Zertifikats muss eine Certificate Signing Request für die Instanz und die Subdomains generiert werden, die Sie schützen möchten."
 
 >[!CONTEXTUALHELP]
 >id="cp_select_subdomains"
 >title="Auswählen der Subdomains für Ihre CSR"
 >abstract="Sie können auswählen, ob Sie alle oder nur bestimmte Subdomains in Ihre Certificate Signing Request aufnehmen möchten. Nur ausgewählte Subdomains werden über das erworbene SSL-Zertifikat zertifiziert."
->additional-url="https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#generating-csr" text="Generieren einer Certificate Signing Request (CSR)"
->additional-url="https://docs.adobe.com/content/help/de-DE/control-panel/using/subdomains-and-certificates/subdomains-branding.html" text="Subdomänen-Branding"
+>additional-url="https://docs.adobe.com/content/help/de-DE/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#generating-csr" text="Generieren einer Certificate Signing Request (CSR)"
+>additional-url="https://docs.adobe.com/content/help/de-DE/control-panel/using/subdomains-and-certificates/subdomains-branding.html" text="Über Subdomain-Branding"
 
 Gehen Sie wie folgt vor, um eine Certificate Signing Request (CSR) zu erstellen:
 
@@ -53,7 +53,7 @@ Gehen Sie wie folgt vor, um eine Certificate Signing Request (CSR) zu erstellen:
 
    ![](assets/renewal1.png)
 
-1. Select **[!UICONTROL 1 - Generate a CSR]**, then click **[!UICONTROL Next]** to launch the wizard that will guide you through the CSR generation process.
+1. Wählen Sie **[!UICONTROL 1 - Erstellen einer CSR]** und dann **[!UICONTROL Weiter]** aus, um den Assistenten zu starten, der Sie durch den CSR-Generierungsprozess führt.
 
    ![](assets/renewal2.png)
 
@@ -94,7 +94,7 @@ Nachdem Sie eine Certificate Signing Request (CSR) über das Control Panel gener
 >id="cp_install_ssl_certificate"
 >title="Installieren eines SSL-Zertifikats"
 >abstract="Installieren Sie das SSL-Zertifikat, das Sie bei der von Ihrem Unternehmen zugelassenen Zertifizierungsstelle erworben haben."
->additional-url="https://docs.adobe.com/content/help/de-DE/control-panel/using/subdomains-and-certificates/subdomains-branding.html" text="Subdomänen-Branding"
+>additional-url="https://docs.adobe.com/content/help/de-DE/control-panel/using/subdomains-and-certificates/subdomains-branding.html" text="Über Subdomain-Branding"
 
 Sobald Sie ein SSL-Zertifikat gekauft haben, können Sie es auf Ihrer Instanz installieren. Bevor Sie fortfahren, achten Sie auf folgende Voraussetzungen:
 
@@ -118,7 +118,7 @@ Gehen Sie wie folgt vor, um das Zertifikat zu installieren:
 
    ![](assets/renewal1.png)
 
-1. Select **[!UICONTROL 3 - Install Certificate Bundle]**, then click **[!UICONTROL Next]** to launch the wizard that will guide you through the certificate installation process.
+1. Wählen Sie **[!UICONTROL 3 - Zertifikat-Bundle installieren]** und dann **[!UICONTROL Weiter]** aus, um den Assistenten zu starten, der Sie durch den Zertifikatinstallationsprozess führt.
 
    ![](assets/install1.png)
 
