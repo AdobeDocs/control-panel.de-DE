@@ -1,10 +1,10 @@
 ---
 title: Produktdokumentation
 translation-type: tm+mt
-source-git-commit: c6e070c024df1bb7708281eff67b430e553ac258
+source-git-commit: ef0a3ccdec2aec6f220a93ab474242df2d3a621b
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 59%
+source-wordcount: '96'
+ht-degree: 100%
 
 ---
 
@@ -15,13 +15,9 @@ ht-degree: 59%
 
 ## Neue Funktionen
 
-* [GPG-Schlüsselverwaltung](instances-settings/using/gpg-keys-management.md)
+[Zertifikatverwaltung für CNAME-Subdomains](subdomains-certificates/using/renewing-subdomain-certificate.md)
 
-   Installieren und/oder generieren Sie GPG-Schlüssel auf einer Marketing-Instanz, um von der Kampagne gesendete Daten zu verschlüsseln und eingehende Daten zu entschlüsseln.
-
-* [Zertifikatverwaltung für CNAME-Subdomänen](subdomains-certificates/using/renewing-subdomain-certificate.md))
-
-   Über die Systemsteuerung können Sie jetzt die SSL-Zertifikate Ihrer Subdomänen erneuern, die mit der CNAME-Methode delegiert wurden.
+    Das Control Panel ermöglicht es Ihnen jetzt, die SSL-Zertifikate Ihrer Subdomains zu erneuern, die mit der CNAME-Methode zugewiesen wurden.
 
 ## Zusätzliche Ressourcen {#additional-resources}
 
