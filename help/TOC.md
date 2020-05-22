@@ -43,5 +43,4 @@ ht-degree: 100%
    + [IP-Whitelisting für den Instanzenzugriff](instances-settings/using/ip-whitelisting-instance-access.md)
    + [URL-Genehmigungen](instances-settings/using/url-permissions.md)
    + [Details der Instanz](instances-settings/using/instance-details.md)
-   + [GPG-Schlüsselverwaltung](instances-settings/using/gpg-keys-management.md)
 + [Häufig gestellte Fragen](faq.md)
