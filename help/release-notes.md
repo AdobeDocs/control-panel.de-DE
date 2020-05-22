@@ -1,9 +1,9 @@
 ---
 title: Control Panel-Versionen
 translation-type: tm+mt
-source-git-commit: 98f2fa0b3e943026bda28b615f0f11db54c404a6
+source-git-commit: ef0a3ccdec2aec6f220a93ab474242df2d3a621b
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '372'
 ht-degree: 100%
 
 ---
@@ -17,7 +17,7 @@ Hier finden Sie Informationen zu den neuesten Versionen von Control Panel.
 >
 >Beachten Sie, dass das Control Panel nur für Kunden verfügbar ist, die auf AWS gehostet werden (mit Ausnahme der hybriden Umgebungen, die noch nicht unterstützt werden). Für den Zugriff auf das Control Panel sind keine Aktualisierungen erforderlich. Sie müssen Administrator sein, um darauf zugreifen zu können.
 
-## Mai 2020 (#may-2020)
+## Mai 2020 {#may-2020}
 
 **Zertifikatverwaltung für CNAME-Subdomains**
 
