@@ -1,8 +1,8 @@
 ---
 title: Control Panel-Versionen
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ef0a3ccdec2aec6f220a93ab474242df2d3a621b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '372'
 ht-degree: 100%
 
