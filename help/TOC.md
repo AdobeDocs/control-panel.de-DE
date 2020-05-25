@@ -4,9 +4,9 @@ sub-product: Control Panel
 audience: end-user
 user-guide-title: Hilfe zum Control Panel
 translation-type: ht
-source-git-commit: 22f84071d825004b8a8aaf32cc9c1579476ee1de
+source-git-commit: 98f2fa0b3e943026bda28b615f0f11db54c404a6
 workflow-type: ht
-source-wordcount: '97'
+source-wordcount: '94'
 ht-degree: 100%
 
 ---
