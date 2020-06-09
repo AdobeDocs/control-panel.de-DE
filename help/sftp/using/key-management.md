@@ -2,7 +2,10 @@
 title: Schlüsselverwaltung
 description: Erfahren Sie, wie Sie Schlüssel für die Verbindung mit SFTP-Servern verwalten.
 translation-type: tm+mt
-source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
+source-git-commit: 197b3fc6726ccd12f59f85d021a5abf56535386c
+workflow-type: tm+mt
+source-wordcount: '604'
+ht-degree: 96%
 
 ---
 
@@ -75,7 +78,7 @@ In sehr seltenen Fällen ist die passwortbasierte Authentifizierung auf manchen 
    **Linux und Mac:**
 
    Verwenden Sie das Terminal, um ein Paar aus öffentlichem und privatem Schlüssel zu generieren:
-   1. Geben Sie folgenden Befehl ein: `ssh-keygen -t rsa -C <your_email@example.com>`.
+   1. Geben Sie folgenden Befehl ein: `ssh-keygen -m pem -t rsa -b 2048 -C "your_email@example.com"`.
    1. Geben Sie Ihrem Schlüssel einen Namen, wenn Sie dazu aufgefordert werden. Wenn das Verzeichnis &quot;.ssh&quot; nicht vorhanden ist, wird eines vom System erstellt.
    1. Geben Sie eine Passphrase ein und wiederholen Sie die Eingabe, wenn Sie dazu aufgefordert werden. Dieses Feld kann auch leer gelassen werden.
    1. Das Schlüsselpaar &quot;name&quot; und &quot;name.pub&quot; wird vom System erstellt. Suchen Sie nach der Datei &quot;name.pub&quot; und öffnen Sie sie. Sie hat eine alphanumerische Zeichenfolge, die mit der von Ihnen angegebenen E-Mail-Adresse endet.
