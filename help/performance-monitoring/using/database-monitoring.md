@@ -1,14 +1,16 @@
 ---
 title: Datenbanküberwachung
 description: Erfahren Sie, wie Sie Ihre Campaign-Datenbank im Control Panel überwachen können
-translation-type: ht
-source-git-commit: e5646fdccd47b4180fd0f9d561f61c04cd515c01
+translation-type: tm+mt
+source-git-commit: b2447b30314f4bd46b2b6e144f7f713ff2f1ec59
+workflow-type: tm+mt
+source-wordcount: '450'
+ht-degree: 100%
 
 ---
 
 
 # Datenbanküberwachung {#database-monitoring}
-
 
 ## Über Datenbanken von Instanzen {#about-instances-databases}
 
