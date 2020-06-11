@@ -1,11 +1,11 @@
 ---
 title: Zugriff auf das Control Panel
 description: Erfahren Sie, wie Sie auf das Control Panel zugreifen können.
-translation-type: ht
-source-git-commit: 7bde86a86fbd128f4eb7bf029e58b0f95964390b
-workflow-type: ht
-source-wordcount: '274'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 3752494c9de9de3ccb4d8dc29853d2c20df89062
+workflow-type: tm+mt
+source-wordcount: '289'
+ht-degree: 95%
 
 ---
 
@@ -51,7 +51,12 @@ Wichtigste Vorteile:
     <td>
         <a href="../../instances-settings/using/ip-whitelisting-instance-access.md"><img alt="Bedingungen" src="assets/do-not-localize/instance_settings.png"/></a>
         <div><a href="../../instances-settings/using/ip-whitelisting-instance-access.md"><strong>Verwalten der Instanzeneinstellungen</strong></a></div>
-        <br/><em>Erfahren Sie, wie Sie Ihre Instanzeneinstellungen verwalten (nur Campaign Classic)</em>
+        <br/><em>Erfahren Sie, wie Sie Ihre Instanzeneinstellungen verwalten (nur Campaign Classic).</em>
+    </td>
+    <td>
+        <a href="../../performance-monitoring/using/about-performance-monitoring.md"><img alt="Bedingungen" src="assets/do-not-localize/monitoring-performance.png"/></a>
+        <div><a href="../../performance-monitoring/using/about-performance-monitoring.md"><strong>Leistung überwachen</strong></a></div>
+        <br/><em>Erfahren Sie, wie Sie die Nutzung wichtiger Ressourcen auf Ihren Instanzen überwachen.</em>
     </td>
 </tr>
 </table>
