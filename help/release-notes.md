@@ -1,10 +1,10 @@
 ---
 title: Control Panel-Versionen
-translation-type: ht
-source-git-commit: ef0a3ccdec2aec6f220a93ab474242df2d3a621b
-workflow-type: ht
-source-wordcount: '372'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: fce9635ff6086ba6826bddc4a5af9dbfe310e3e1
+workflow-type: tm+mt
+source-wordcount: '453'
+ht-degree: 82%
 
 ---
 
@@ -16,6 +16,18 @@ Hier finden Sie Informationen zu den neuesten Versionen von Control Panel.
 >[!NOTE]
 >
 >Beachten Sie, dass das Control Panel nur für Kunden verfügbar ist, die auf AWS gehostet werden (mit Ausnahme der hybriden Umgebungen, die noch nicht unterstützt werden). Für den Zugriff auf das Control Panel sind keine Aktualisierungen erforderlich. Sie müssen Administrator sein, um darauf zugreifen zu können.
+
+## June 2020 {#june-2020}
+
+**Überwachung aktiver Profil**
+
+Über die Systemsteuerung können Sie jetzt die Anzahl der aktiven Profil überwachen, die von Ihren Instanzen verwendet und für Rechnungszwecke gezählt werden. [mehr dazu](performance-monitoring/using/active-profiles-monitoring.md)
+
+>[!IMPORTANT]
+>
+>Die Überwachung aktiver Profil über die Systemsteuerung ist in der Beta-Version verfügbar und kann mit häufigen Aktualisierungen und Änderungen ohne Vorankündigung durchgeführt werden.
+>
+>Die Funktion steht für Kunden zur Verfügung, die ab dem Build von Campaign Standard 10368 und dem Campaign Classic 8931 auf AWS gehostet werden. Wenn Sie einen früheren Build verwenden, müssen Sie ein Upgrade durchführen, um diese Funktion zu verwenden.
 
 ## Mai 2020 {#may-2020}
 
