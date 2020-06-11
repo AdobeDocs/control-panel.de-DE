@@ -3,11 +3,11 @@ product: adobe campaign
 sub-product: Control Panel
 audience: end-user
 user-guide-title: Hilfe zum Control Panel
-translation-type: ht
-source-git-commit: 98f2fa0b3e943026bda28b615f0f11db54c404a6
-workflow-type: ht
-source-wordcount: '94'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: b2447b30314f4bd46b2b6e144f7f713ff2f1ec59
+workflow-type: tm+mt
+source-wordcount: '97'
+ht-degree: 96%
 
 ---
 
@@ -38,6 +38,7 @@ ht-degree: 100%
 + Leistungsüberwachung {#performance-monitoring}
    + [Über die Leistungsüberwachung](performance-monitoring/using/about-performance-monitoring.md)
    + [Datenbanküberwachung](performance-monitoring/using/database-monitoring.md)
+   + [Überwachung aktiver Profil](performance-monitoring/using/active-profiles-monitoring.md)
    + [Warnungen per E-Mail](performance-monitoring/using/email-alerting.md)
 + Instanzeneinstellungen (Campaign Classic) {#instances-settings}
    + [IP-Whitelisting für den Instanzenzugriff](instances-settings/using/ip-whitelisting-instance-access.md)
