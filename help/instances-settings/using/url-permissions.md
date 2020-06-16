@@ -2,7 +2,10 @@
 title: URL-Genehmigungen
 description: Erfahren Sie, wie Sie URL-Genehmigungen im Control Panel verwalten.
 translation-type: tm+mt
-source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
+source-git-commit: 8d2fb9c03fb628dda78bf5e915bbb69bda5ef64d
+workflow-type: tm+mt
+source-wordcount: '616'
+ht-degree: 95%
 
 ---
 
@@ -17,7 +20,7 @@ source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
 
 >[!IMPORTANT]
 >
->Diese Funktion ist nur für Campaign Classic-Instanzen verfügbar.
+>Diese Funktion ist nur für Campaign Classic-Instanzen ab Build 8850 verfügbar. Wenn Sie einen früheren Build verwenden, müssen Sie ein Upgrade durchführen, um diese Funktion zu verwenden.
 
 ## Über URL-Genehmigungen {#about-url-permissions}
 
