@@ -1,11 +1,11 @@
 ---
 title: Control Panel – Häufig gestellte Fragen
 description: Häufige Fragen zum Control Panel
-translation-type: ht
-source-git-commit: 7bde86a86fbd128f4eb7bf029e58b0f95964390b
-workflow-type: ht
-source-wordcount: '628'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
+workflow-type: tm+mt
+source-wordcount: '632'
+ht-degree: 95%
 
 ---
 
@@ -92,8 +92,7 @@ Mit dem Control Panel können Produktadministratoren direkt verschiedene Einstel
 
 **Welche aktuellen Funktionen hat das Control Panel?**
 
-
-Das Control Panel ermöglicht es Ihnen, Speicherplatz zu überwachen, IP-Adressen auf die Whitelist zu setzen, SSH-Schlüssel für Ihre SFTP-Server nach Ihren Bedürfnissen selbst zu verwalten sowie andere Aktionen auszuführen.
+Über die Systemsteuerung können Sie die Datenspeicherung verfolgen, IPs zur zulassungsliste hinzufügen und SSH-Schlüssel für Ihre SFTP-Server auf eigene Faust und andere Aktionen verwalten.
 
 Weitere Informationen finden Sie in der Dokumentation zu den vom Control Panel unterstützten Aktionen.
 
