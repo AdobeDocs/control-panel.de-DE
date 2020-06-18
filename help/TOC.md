@@ -4,10 +4,10 @@ sub-product: Control Panel
 audience: end-user
 user-guide-title: Hilfe zum Control Panel
 translation-type: tm+mt
-source-git-commit: b2447b30314f4bd46b2b6e144f7f713ff2f1ec59
+source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 96%
+source-wordcount: '99'
+ht-degree: 89%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 96%
 + SFTP-Verwaltung {#sftp-management}
    + [Über die SFTP-Verwaltung](sftp/using/about-sftp-management.md)
    + [SFTP-Speicherverwaltung](sftp/using/sftp-storage-management.md)
-   + [IP-Bereiche auf die Whitelist setzen](sftp/using/ip-range-whitelisting.md)
+   + [IP-Bereich für die Auflistung](sftp/using/ip-range-whitelisting.md)
    + [Schlüsselverwaltung](sftp/using/key-management.md)
    + [Anmeldung bei Ihrem SFTP-Server](sftp/using/logging-into-sftp-server.md)
    + [Häufige Fragen](sftp/using/common-questions.md)
@@ -38,10 +38,10 @@ ht-degree: 96%
 + Leistungsüberwachung {#performance-monitoring}
    + [Über die Leistungsüberwachung](performance-monitoring/using/about-performance-monitoring.md)
    + [Datenbanküberwachung](performance-monitoring/using/database-monitoring.md)
-   + [Überwachung aktiver Profil](performance-monitoring/using/active-profiles-monitoring.md)
+   + [Überwachung aktiver Profile](performance-monitoring/using/active-profiles-monitoring.md)
    + [Warnungen per E-Mail](performance-monitoring/using/email-alerting.md)
 + Instanzeneinstellungen (Campaign Classic) {#instances-settings}
-   + [IP-Whitelisting für den Instanzenzugriff](instances-settings/using/ip-whitelisting-instance-access.md)
+   + [IP-Listen zulassen, z. B. Zugriff](instances-settings/using/ip-whitelisting-instance-access.md)
    + [URL-Genehmigungen](instances-settings/using/url-permissions.md)
    + [Details der Instanz](instances-settings/using/instance-details.md)
 + [Häufig gestellte Fragen](faq.md)
