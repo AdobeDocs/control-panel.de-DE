@@ -2,10 +2,10 @@
 title: Schlüsselverwaltung
 description: Erfahren Sie, wie Sie Schlüssel für die Verbindung mit SFTP-Servern verwalten.
 translation-type: tm+mt
-source-git-commit: 197b3fc6726ccd12f59f85d021a5abf56535386c
+source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 96%
+source-wordcount: '608'
+ht-degree: 90%
 
 ---
 
@@ -22,7 +22,7 @@ Adobe empfiehlt allen Kunden, die Verbindung zu ihren SFTP-Servern mit einem **P
 
 Im Folgenden werden die Schritte zum Erstellen und Hinzufügen eines öffentlichen SSH-Schlüssels für den Zugriff auf den SFTP-Server sowie Empfehlungen zur Authentifizierung beschrieben.
 
-Nachdem der Zugriff auf den Server eingerichtet wurde, müssen die **IP-Adressen auf die Whitelist gesetzt werden**, die Zugriff auf den Server benötigen, damit Sie eine Verbindung mit ihm herstellen können. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../instances-settings/using/ip-whitelisting-instance-access.md).
+Once access to the server is set up, remember to **add the IP addresses that will require access to the server to the allow list** so that you can connect to it. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../instances-settings/using/ip-whitelisting-instance-access.md).
 
 >[!NOTE]
 >
