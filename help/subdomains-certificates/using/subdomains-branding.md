@@ -2,7 +2,10 @@
 title: Subdomain-Branding
 description: Weitere Informationen zum Branding von Subdomains
 translation-type: tm+mt
-source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
+source-git-commit: 198c974d269289a6a9e5a87314662dba0bc85aff
+workflow-type: tm+mt
+source-wordcount: '467'
+ht-degree: 91%
 
 ---
 
@@ -28,7 +31,7 @@ Nehmen wir zum Beispiel die Domain &quot;mybrand.com&quot;, die sowohl Transakti
 * die Subdomain &quot;info.mybrand.com&quot; für Ihre Transaktionsnachrichten (Kaufbestätigung, Passwortzurücksetzung usw.),
 * die Subdomain &quot;marketing.mybrand.com&quot; für Ihre Werbe-E-Mails.
 
-Dies hilft Ihnen, die Reputation Ihrer Domain und anderer Subdomains zu schützen. Wenn z. B. die Subdomains &quot;marketing.mybrand.com&quot; aufgrund schlechter Zustellbarkeit von Internetdienstanbietern auf die Blacklist gesetzt werden, würde dies verhindern, dass die gesamte Domain &quot;mybrand.com&quot; und die Subdomain &quot;info.mybrand.com&quot; ebenfalls auf die Blacklist gesetzt werden.
+Dies hilft Ihnen, die Reputation Ihrer Domain und anderer Subdomains zu schützen. Wenn beispielsweise die &quot;marketing.mybrand.com&quot;-Subdomänen von Internet-Dienstleistern aufgrund einer schlechten Zustellbarkeit der blockierungsliste hinzugefügt wurden, würde dies verhindern, dass die gesamte &quot;mybrand.com&quot;-Domäne und die &quot;info.mybrand.com&quot;-Subdomäne der blockierungsliste hinzugefügt werden.
 
 ## Methoden der Subdomain-Zuweisung {#subdomain-delegation-methods}
 
