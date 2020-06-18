@@ -1,10 +1,10 @@
 ---
 title: Control Panel-Versionen
 translation-type: tm+mt
-source-git-commit: fce9635ff6086ba6826bddc4a5af9dbfe310e3e1
+source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
 workflow-type: tm+mt
-source-wordcount: '453'
-ht-degree: 82%
+source-wordcount: '459'
+ht-degree: 89%
 
 ---
 
@@ -17,17 +17,17 @@ Hier finden Sie Informationen zu den neuesten Versionen von Control Panel.
 >
 >Beachten Sie, dass das Control Panel nur für Kunden verfügbar ist, die auf AWS gehostet werden (mit Ausnahme der hybriden Umgebungen, die noch nicht unterstützt werden). Für den Zugriff auf das Control Panel sind keine Aktualisierungen erforderlich. Sie müssen Administrator sein, um darauf zugreifen zu können.
 
-## June 2020 {#june-2020}
+## Juni 2020{#june-2020}
 
-**Überwachung aktiver Profil**
+**Überwachung aktiver Profile**
 
 Über die Systemsteuerung können Sie jetzt die Anzahl der aktiven Profil überwachen, die von Ihren Instanzen verwendet und für Rechnungszwecke gezählt werden. [mehr dazu](performance-monitoring/using/active-profiles-monitoring.md)
 
 >[!IMPORTANT]
 >
->Die Überwachung aktiver Profil über die Systemsteuerung ist in der Beta-Version verfügbar und kann mit häufigen Aktualisierungen und Änderungen ohne Vorankündigung durchgeführt werden.
+>Die Überwachung aktiver Profile über das Control Panel befindet sich in der Beta-Phase und unterliegt häufigen Aktualisierungen und Änderungen ohne Vorankündigung.
 >
->Die Funktion steht für Kunden zur Verfügung, die ab dem Build von Campaign Standard 10368 und dem Campaign Classic 8931 auf AWS gehostet werden. Wenn Sie einen früheren Build verwenden, müssen Sie ein Upgrade durchführen, um diese Funktion zu verwenden.
+>Die Funktion steht Kunden zur Verfügung, die ab Build 10368 von Campaign Standard und Build 8931 von Campaign Classic auf AWS gehostet werden. Wenn Sie einen früheren Build verwenden, müssen Sie ein Upgrade durchführen, um diese Funktion zu verwenden.
 
 ## Mai 2020 {#may-2020}
 
@@ -67,7 +67,7 @@ Weitere Informationen finden Sie auf den folgenden Seiten:
 
 *16. September 2019*
 
-Für Admin-Benutzer wurden neue Funktionen hinzugefügt, mit denen sie IP-Adressen auf die Whitelist setzen können, um eine Verbindung zu Campaign Classic-Instanzen herzustellen.
+Es wurden neue Funktionen hinzugefügt, mit denen Administratoren der zulassungsliste IP-Adressen hinzufügen können, um eine Verbindung zu Campaign Classic-Instanzen herzustellen.
 Außerdem können Admin-Benutzer jetzt die Liste der Campaign Classic-Instanzen und die Berechtigung für Build-Upgrades einsehen.
 
 Weitere Informationen finden Sie in der [entsprechenden Dokumentation](instances-settings/using/ip-whitelisting-instance-access.md).
