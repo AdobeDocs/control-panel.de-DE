@@ -1,10 +1,10 @@
 ---
 title: Control Panel-Versionen
 translation-type: tm+mt
-source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
+source-git-commit: 0bea4b1508305254d53eb23d45bd62944a32495a
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 89%
+source-wordcount: '503'
+ht-degree: 82%
 
 ---
 
@@ -18,6 +18,10 @@ Hier finden Sie Informationen zu den neuesten Versionen von Control Panel.
 >Beachten Sie, dass das Control Panel nur für Kunden verfügbar ist, die auf AWS gehostet werden (mit Ausnahme der hybriden Umgebungen, die noch nicht unterstützt werden). Für den Zugriff auf das Control Panel sind keine Aktualisierungen erforderlich. Sie müssen Administrator sein, um darauf zugreifen zu können.
 
 ## Juni 2020{#june-2020}
+
+**Entfernung von &#39;Whitelist&#39;/&#39;Blacklist&#39;**
+
+Sowohl die Begriffe &quot;Whitelist&quot;als auch &quot;Blacklist&quot;wurden aus der Dokumentation zum Adobe Campaign entfernt. Einige dieser Begriffe sind möglicherweise in der Produktoberfläche, in Optionsnamen und im internen Code noch vorhanden, werden jedoch in den kommenden Kampagnen-Versionen mit &quot;blockierungsliste&quot;und &quot;zulassungsliste&quot;ersetzt.
 
 **Überwachung aktiver Profile**
 
