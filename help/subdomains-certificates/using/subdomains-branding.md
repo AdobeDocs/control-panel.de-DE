@@ -2,10 +2,10 @@
 title: Subdomain-Branding
 description: Weitere Informationen zum Branding von Subdomains
 translation-type: tm+mt
-source-git-commit: 198c974d269289a6a9e5a87314662dba0bc85aff
+source-git-commit: 80b35e82116b064a7b141d957ab79ecfc9a99026
 workflow-type: tm+mt
 source-wordcount: '467'
-ht-degree: 91%
+ht-degree: 88%
 
 ---
 
@@ -45,7 +45,7 @@ Die nachstehende Tabelle gibt einen Überblick über die Funktionsweise dieser M
 
 | Zuweisungsmethode | Funktionsweise | Aufwand |
 |---|---|---|
-| **Vollständige Zuweisung** | Sie erstellen die Subdomain und den Namensraumeintrag. Adobe konfiguriert dann alle für Adobe Campaign erforderlichen DNS-Einträge.<br/><br/>Bei dieser Konfiguration hat Adobe die volle Verantwortung für die Pflege der Subdomain und aller DNS-Einträge. | Niedrig |
+| **Vollständige Zuweisung** | Sie erstellen die Subdomain und den Namensraumeintrag. Adobe konfiguriert dann alle für Adobe Campaign erforderlichen DNS-Einträge.<br/><br/>Bei diesem Setup ist Adobe voll verantwortlich für die Verwaltung der Subdomäne und aller DNS-Datensätze. | Niedrig |
 | **CNAME, benutzerspezifische Methode** | Sie erstellen die Subdomain und den Namensraumeintrag. Adobe stellt dann die Einträge bereit, die auf Ihren DNS-Servern abgelegt werden sollen, und konfiguriert die entsprechenden Werte in den Adobe Campaign-DNS-Servern.<br/><br/>Bei dieser Konfiguration sind Sie und Adobe gemeinsam für die Pflege des DNS verantwortlich. | Hoch |
 
 Weitere Informationen zur Domain-Zuweisung finden Sie [in dieser Dokumentation](https://helpx.adobe.com/de/campaign/kb/domain-name-delegation.html).
