@@ -4,10 +4,10 @@ sub-product: Control Panel
 audience: end-user
 user-guide-title: Hilfe zum Control Panel
 translation-type: tm+mt
-source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
+source-git-commit: 5445ac36b81af3b23bc64788f010f497ec9d049c
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 89%
+source-wordcount: '100'
+ht-degree: 88%
 
 ---
 
@@ -40,8 +40,9 @@ ht-degree: 89%
    + [Datenbanküberwachung](performance-monitoring/using/database-monitoring.md)
    + [Überwachung aktiver Profile](performance-monitoring/using/active-profiles-monitoring.md)
    + [Warnungen per E-Mail](performance-monitoring/using/email-alerting.md)
-+ Instanzeneinstellungen (Campaign Classic) {#instances-settings}
++ Instances settings {#instances-settings}
    + [IP-Listen zulassen, z. B. Zugriff](instances-settings/using/ip-whitelisting-instance-access.md)
    + [URL-Genehmigungen](instances-settings/using/url-permissions.md)
    + [Details der Instanz](instances-settings/using/instance-details.md)
+   + [GPG-Schlüsselverwaltung](instances-settings/using/gpg-keys-management.md)
 + [Häufig gestellte Fragen](faq.md)
