@@ -2,9 +2,9 @@
 title: GPG-Schlüsselverwaltung
 description: Erfahren Sie, wie GPG-Schlüssel zum Ver- und Entschlüsseln von Daten innerhalb von Adobe Campaign verwaltet werden.
 translation-type: tm+mt
-source-git-commit: 6a28859565cf9385ac33886355d43e1d1a825e0e
+source-git-commit: 18c9c946301fab81f617e3cba1f72989645d552e
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: '1107'
 ht-degree: 82%
 
 ---
@@ -50,6 +50,7 @@ Dazu müssen Sie mithilfe eines PGP-Verschlüsselungs-Tools ein GPG-Schlüsselpa
    * **Kommentar**: Wenn Sie eine Beschriftung zum Kommentarfeld hinzufügen, können Sie den Schlüssel, der zum Verschlüsseln der Daten verwendet werden soll, leicht identifizieren.
    * **Gültigkeit**: Datum oder „0“ für kein Ablaufdatum.
    * **Passphrase**
+
    ![](assets/do-not-localize/gpg_command.png)
 
 1. Nach der Bestätigung generiert das Skript einen Schlüssel mit dem zugehörigen Fingerabdruck, den Sie in eine Datei exportieren oder direkt in die Systemsteuerung einfügen können. Um die Datei zu exportieren, führen Sie diesen Befehl aus, gefolgt vom Fingerabdruck des von Ihnen generierten Schlüssels.
@@ -83,7 +84,7 @@ Weitere Informationen hierzu finden Sie in der Adobe Campaign-Dokumentation:
 **Campaign Classic:**
 
 * [Datei komprimieren oder verschlüsseln](https://docs.adobe.com/content/help/de-DE/campaign-classic/using/automating-with-workflows/general-operation/how-to-use-workflow-data.html#zipping-or-encrypting-a-file)
-* [Verwendungsfall: Importieren von Daten, die mit einem von der Systemsteuerung generierten Schlüssel verschlüsselt wurden](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/how-to-use-workfow-data.html#use-case-gpg-encrypt)
+* [Verwendungsfall: Verschlüsseln und Exportieren von Daten mit einem in der Systemsteuerung installierten Schlüssel](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/how-to-use-workflow-data.html#use-case-gpg-encrypt)
 
 **Campaign Standard:**
 
@@ -152,6 +153,7 @@ In der Liste werden alle GPG-Schlüssel zur Ver- und Entschlüsselung angezeigt,
    * „Dringend“ (rot) wird 30 Tage vor dem Ablaufdatum angezeigt.
    * „Warnung“ (gelb) wird 60 Tage vor dem Ablaufdatum angezeigt.
    * Sobald ein Schlüssel abgelaufen ist, wird ein rotes Banner „Abgelaufen“ angezeigt.
+
    >[!NOTE]
    >
    >Beachten Sie, dass das Control Panel keine E-Mail-Benachrichtigungen sendet.
