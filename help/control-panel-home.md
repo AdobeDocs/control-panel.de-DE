@@ -1,10 +1,10 @@
 ---
 title: Produktdokumentation
 translation-type: tm+mt
-source-git-commit: 99fbe1670d470172a2103e2b60b36b5b56c6a53d
+source-git-commit: 5b7e8126789690662e72e72c885700b971362004
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 66%
+source-wordcount: '136'
+ht-degree: 75%
 
 ---
 
@@ -15,9 +15,15 @@ ht-degree: 66%
 
 ## Neue Funktionen
 
-* Sowohl die Begriffe &quot;Whitelist&quot;als auch &quot;Blacklist&quot;wurden aus der Dokumentation zum Adobe Campaign entfernt. [mehr dazu](release-notes.md)
+* **Prüfung der Subdomänenbereitstellung**
 
-* **Active Profils Monitoring**: Über die Systemsteuerung können Sie jetzt die Anzahl der aktiven Profil überwachen, die von Ihren Instanzen verwendet und für Rechnungszwecke gezählt werden. [mehr dazu](performance-monitoring/using/active-profiles-monitoring.md)
+   Nachdem Sie eine neue Subdomäne delegiert haben, können Sie nun mit der Systemsteuerung die vom Bereitstellungsteam durchgeführte Prüfung verfolgen. [mehr dazu](subdomains-certificates/using/setting-up-new-subdomain.md)
+
+* **GPG-Schlüsselverwaltung**
+
+   Installieren und/oder Generieren von GPG-Schlüsseln in einer Marketing-Instanz, um von Campaign gesendete Daten zu verschlüsseln und eingehende Daten zu entschlüsseln. [Mehr dazu](instances-settings/using/gpg-keys-management.md)
+
+* Sowohl die Begriffe &quot;Whitelist&quot;als auch &quot;Blacklist&quot;wurden aus der Dokumentation zum Adobe Campaign entfernt. [mehr dazu](release-notes.md)
 
 ## Zusätzliche Ressourcen {#additional-resources}
 
