@@ -1,10 +1,10 @@
 ---
 title: Control Panel-Versionen
 translation-type: tm+mt
-source-git-commit: 759d3ca0c3cafa84067c31a48432b0bfe2df186f
+source-git-commit: a83309bfb6e42db231fe970f47475fb85d6d441b
 workflow-type: tm+mt
-source-wordcount: '577'
-ht-degree: 80%
+source-wordcount: '605'
+ht-degree: 78%
 
 ---
 
@@ -26,6 +26,8 @@ Nachdem Sie eine neue Subdomäne delegiert haben, können Sie nun mit der System
 **GPG-Schlüsselverwaltung**
 
 Im Control Panel können Sie jetzt ein GPG-Schlüsselpaar generieren, sodass Sie in Campaign eingehende externe Daten problemlos entschlüsseln können. Darüber hinaus können Sie einen öffentlichen GPG-Schlüssel installieren, um von Campaign ausgehende Daten zu verschlüsseln. [mehr dazu](instances-settings/using/gpg-keys-management.md)
+* [Tutorial für Campaign Standard](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/generating-and-installing-gpg-keys.html)
+* [Tutorial für Campaign Classic](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/generating-and-installing-gpg-keys.html)
 
 **Entfernung von &#39;Whitelist&#39;/&#39;Blacklist&#39;**
 
