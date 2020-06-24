@@ -2,10 +2,10 @@
 title: IP-Listen zulassen
 description: Erfahren Sie, wie Sie der zulassungsliste in der Systemsteuerung IP-Adressen hinzufügen, z. B. den Zugriff auf die Systemsteuerung.
 translation-type: tm+mt
-source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
+source-git-commit: d8fe1c2e847fa25919f81bf0a4195de5ad0b2781
 workflow-type: tm+mt
 source-wordcount: '790'
-ht-degree: 48%
+ht-degree: 47%
 
 ---
 
@@ -89,5 +89,5 @@ Gehen Sie wie folgt vor, um der zulassungsliste IP-Adressen hinzuzufügen:
 Um IP-Bereiche aus der zulassungsliste zu löschen, wählen Sie sie aus und klicken Sie dann auf die Schaltfläche IP-Bereich **[!UICONTROL löschen]** .
 
 **Verwandte Themen:**
-* [IP-Listen zulassen (Tutorial-Video)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/ip-whitelisting.html)
+* [IP-Listen zulassen (Tutorial-Video)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/ip-allow-listing.html)
 * [Sicherheitszone mit einem Benutzer verknüpfen](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html#Linking_a_security_zone_to_an_operator)
