@@ -1,10 +1,10 @@
 ---
 title: Produktdokumentation
 translation-type: tm+mt
-source-git-commit: 5b7e8126789690662e72e72c885700b971362004
+source-git-commit: d8fe1c2e847fa25919f81bf0a4195de5ad0b2781
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 75%
+source-wordcount: '122'
+ht-degree: 81%
 
 ---
 
@@ -22,8 +22,6 @@ ht-degree: 75%
 * **GPG-Schlüsselverwaltung**
 
    Installieren und/oder Generieren von GPG-Schlüsseln in einer Marketing-Instanz, um von Campaign gesendete Daten zu verschlüsseln und eingehende Daten zu entschlüsseln. [Mehr dazu](instances-settings/using/gpg-keys-management.md)
-
-* Sowohl die Begriffe &quot;Whitelist&quot;als auch &quot;Blacklist&quot;wurden aus der Dokumentation zum Adobe Campaign entfernt. [mehr dazu](release-notes.md)
 
 ## Zusätzliche Ressourcen {#additional-resources}
 
