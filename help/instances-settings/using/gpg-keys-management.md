@@ -2,10 +2,10 @@
 title: GPG-Schlüsselverwaltung
 description: Erfahren Sie, wie GPG-Schlüssel zum Ver- und Entschlüsseln von Daten innerhalb von Adobe Campaign verwaltet werden.
 translation-type: tm+mt
-source-git-commit: 18c9c946301fab81f617e3cba1f72989645d552e
+source-git-commit: a83309bfb6e42db231fe970f47475fb85d6d441b
 workflow-type: tm+mt
-source-wordcount: '1107'
-ht-degree: 82%
+source-wordcount: '1137'
+ht-degree: 81%
 
 ---
 
@@ -25,6 +25,12 @@ Anschließend können Sie:
 * **Gesendete Daten verschlüsseln**: Adobe Campaign sendet Daten nach der Verschlüsselung mit dem installierten öffentlichen Schlüssel.
 
 * **Eingehende Daten entschlüsseln**: Adobe Campaign empfängt Daten, die von einem Drittsystem mit einem öffentlichen Schlüssel verschlüsselt wurden, der vom Control Panel heruntergeladen wurde. Adobe Campaign entschlüsselt die Daten mit einem privaten Schlüssel, der vom Control Panel generiert wird.
+
+**Verwandte Themen:**
+
+* [Tutorial für Campaign Standard](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/generating-and-installing-gpg-keys.html)
+* [Tutorial für Campaign Classic](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/generating-and-installing-gpg-keys.html)
+
 
 ## Verschlüsseln von Daten {#encrypting-data}
 
