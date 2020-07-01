@@ -4,7 +4,7 @@ translation-type: tm+mt
 source-git-commit: a83309bfb6e42db231fe970f47475fb85d6d441b
 workflow-type: tm+mt
 source-wordcount: '605'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -19,23 +19,23 @@ Hier finden Sie Informationen zu den neuesten Versionen von Control Panel.
 
 ## Juni 2020{#june-2020}
 
-**Prüfung der Subdomänenbereitstellung**
+**Prüfung der Subdomain-Zustellbarkeit**
 
-Nachdem Sie eine neue Subdomäne delegiert haben, können Sie nun mit der Systemsteuerung die vom Bereitstellungsteam durchgeführte Prüfung verfolgen. [mehr dazu](subdomains-certificates/using/setting-up-new-subdomain.md)
+Nachdem Sie eine neue Subdomain zugewiesen haben, können Sie nun mit dem Control Panel die vom Zustellbarkeitsteam durchgeführte Prüfung verfolgen. [Mehr dazu](subdomains-certificates/using/setting-up-new-subdomain.md)
 
 **GPG-Schlüsselverwaltung**
 
-Im Control Panel können Sie jetzt ein GPG-Schlüsselpaar generieren, sodass Sie in Campaign eingehende externe Daten problemlos entschlüsseln können. Darüber hinaus können Sie einen öffentlichen GPG-Schlüssel installieren, um von Campaign ausgehende Daten zu verschlüsseln. [mehr dazu](instances-settings/using/gpg-keys-management.md)
+Im Control Panel können Sie jetzt ein GPG-Schlüsselpaar generieren, sodass Sie in Campaign eingehende externe Daten problemlos entschlüsseln können. Darüber hinaus können Sie einen öffentlichen GPG-Schlüssel installieren, um von Campaign ausgehende Daten zu verschlüsseln. [Mehr dazu](instances-settings/using/gpg-keys-management.md)
 * [Tutorial für Campaign Standard](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/generating-and-installing-gpg-keys.html)
 * [Tutorial für Campaign Classic](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/generating-and-installing-gpg-keys.html)
 
 **Entfernung von &#39;Whitelist&#39;/&#39;Blacklist&#39;**
 
-Sowohl die Begriffe &quot;Whitelist&quot;als auch &quot;Blacklist&quot;wurden aus der Dokumentation zum Adobe Campaign entfernt. Einige dieser Begriffe sind möglicherweise in der Produktoberfläche, in Optionsnamen und im internen Code noch vorhanden, werden jedoch in den kommenden Kampagnen-Versionen mit &quot;blockierungsliste&quot;und &quot;zulassungsliste&quot;ersetzt.
+Die Begriffe &#39;Whitelist&#39; und &#39;Blacklist&#39; wurden aus der Dokumentation zu Adobe Campaign entfernt. Einige Vorkommen dieser Begriffe sind möglicherweise noch in der Benutzeroberfläche des Produkts, den Optionsnamen und dem internen Code vorhanden, werden jedoch in den kommenden Campaign-Versionen durch „Blockierungsliste“ und „Zulassungsliste“ ersetzt.
 
 **Überwachung aktiver Profile**
 
-Über die Systemsteuerung können Sie jetzt die Anzahl der aktiven Profil überwachen, die von Ihren Instanzen verwendet und für Rechnungszwecke gezählt werden. [mehr dazu](performance-monitoring/using/active-profiles-monitoring.md)
+Im Control Panel können Sie jetzt die Anzahl der aktiven Profile überwachen, die von Ihren Instanzen verwendet und für Abrechnungszwecke gezählt werden. [Mehr dazu](performance-monitoring/using/active-profiles-monitoring.md)
 
 >[!IMPORTANT]
 >
@@ -81,7 +81,7 @@ Weitere Informationen finden Sie auf den folgenden Seiten:
 
 *16. September 2019*
 
-Es wurden neue Funktionen hinzugefügt, mit denen Administratoren der zulassungsliste IP-Adressen hinzufügen können, um eine Verbindung zu Campaign Classic-Instanzen herzustellen.
+Für Admin-Benutzer wurden neue Funktionen hinzugefügt, mit denen sie IP-Adressen auf die Zulassungsliste setzen können, um eine Verbindung zu Campaign Classic-Instanzen herzustellen.
 Außerdem können Admin-Benutzer jetzt die Liste der Campaign Classic-Instanzen und die Berechtigung für Build-Upgrades einsehen.
 
 Weitere Informationen finden Sie in der [entsprechenden Dokumentation](instances-settings/using/ip-whitelisting-instance-access.md).
