@@ -1,11 +1,11 @@
 ---
 title: URL-Genehmigungen
 description: Erfahren Sie, wie Sie URL-Genehmigungen im Control Panel verwalten.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '617'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -93,4 +93,4 @@ Beachten Sie, dass eine gelöschte URL von Ihrer Instanz nicht mehr aufgerufen w
 
 **Ich habe eine neue URL hinzugefügt, meine Instanz kann aber noch immer keine Verbindung mit ihr herstellen. Warum passiert das?**
 
-In einigen Fällen müssen URLs, mit denen Sie eine Verbindung herstellen möchten, Listen-, Kennworteingabe oder eine andere Form der Authentifizierung zulassen. Das Control Panel unterstützt keine zusätzlichen Formen der Authentifizierung.
+In manchen Fällen ist es nötig, dass URLs auf die Zulassungsliste gesetzt werden, ein Passwort eingegeben oder eine andere Form der Authentifizierung durchgeführt wird, um eine Verbindung mit URLs herzustellen. Das Control Panel unterstützt keine zusätzlichen Formen der Authentifizierung.
