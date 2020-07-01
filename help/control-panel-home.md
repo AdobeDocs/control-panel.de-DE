@@ -4,7 +4,7 @@ translation-type: tm+mt
 source-git-commit: d8fe1c2e847fa25919f81bf0a4195de5ad0b2781
 workflow-type: tm+mt
 source-wordcount: '122'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 81%
 
 ## Neue Funktionen
 
-* **Prüfung der Subdomänenbereitstellung**
+* **Prüfung der Subdomain-Zustellbarkeit**
 
-   Nachdem Sie eine neue Subdomäne delegiert haben, können Sie nun mit der Systemsteuerung die vom Bereitstellungsteam durchgeführte Prüfung verfolgen. [mehr dazu](subdomains-certificates/using/setting-up-new-subdomain.md)
+   Nachdem Sie eine neue Subdomain zugewiesen haben, können Sie nun mit dem Control Panel die vom Zustellbarkeitsteam durchgeführte Prüfung verfolgen. [Mehr dazu](subdomains-certificates/using/setting-up-new-subdomain.md)
 
 * **GPG-Schlüsselverwaltung**
 
