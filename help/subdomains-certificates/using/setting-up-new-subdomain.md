@@ -1,11 +1,11 @@
 ---
 title: Einrichten einer neuen Subdomain
 description: Erfahren Sie, wie Sie eine neue Subdomain für Ihre Campaign-Instanz einrichten.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5b7e8126789690662e72e72c885700b971362004
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1012'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 81%
 
 1. Wählen Sie **[!UICONTROL Weiter]** aus, um die Methode der vollständigen Zuweisung zu bestätigen.
 
-   Note that [CNAME](#use-cnames) and custom methods are currently not supported by the Control Panel.
+   Beachten Sie, dass [CNAME](#use-cnames) und benutzerdefinierte Methoden derzeit vom Control Panel nicht unterstützt werden.
 
    ![](assets/subdomain3.png)
 
@@ -61,7 +61,7 @@ ht-degree: 81%
 
    ![](assets/subdomain5.png)
 
-   **Die Unterteilung Ihrer Subdomains nach Anwendungsfällen ist eine Best Practice für die Zustellbarkeit**. Dadurch wird die Reputation jeder Subdomain isoliert und geschützt. Wenn beispielsweise Ihre Subdomäne für Marketingkommunikation vom Internet-Dienstleister zur blockierungsliste hinzugefügt wird, wird Ihre Subdomäne für Transaktionskommunikation nicht beeinträchtigt und kann weiterhin Nachrichten senden.
+   **Die Unterteilung Ihrer Subdomains nach Anwendungsfällen ist eine Best Practice für die Zustellbarkeit**. Dadurch wird die Reputation jeder Subdomain isoliert und geschützt. Wenn Ihre Subdomain für Marketing-Nachrichten beispielsweise von Internetdienstanbietern auf die Blockierungsliste gesetzt wird, wird Ihre Subdomain für Transaktionsnachrichten nicht beeinträchtigt und kann weiterhin Nachrichten senden.
 
    **Sie können Subdomains für sowohl Marketing- als auch Transaktionsanwendungsfälle delegieren**:
 
@@ -70,7 +70,7 @@ ht-degree: 81%
 
    >[!NOTE]
    >
-   >Wenn Sie Campaign Classic verwenden, können Sie im Control Panel sehen, welche RT/MID-Instanzen mit der Marketing-Instanz verbunden sind, mit der Sie gerade arbeiten. For more on this, refer to the [Instance Details](../../instances-settings/using/instance-details.md) section.
+   >Wenn Sie Campaign Classic verwenden, können Sie im Control Panel sehen, welche RT/MID-Instanzen mit der Marketing-Instanz verbunden sind, mit der Sie gerade arbeiten. Weitere Informationen hierzu finden Sie im Abschnitt [Details der Instanz](../../instances-settings/using/instance-details.md).
 
 1. Geben Sie die von Ihnen erstellte Subdomain in Ihre Hosting-Lösung ein und wählen Sie dann **[!UICONTROL Senden]** aus.
 
@@ -88,7 +88,7 @@ ht-degree: 81%
 
    ![](assets/subdomain7.png)
 
-   Eventually, the **Deliverability team** will be notified about the new subdomain, in order to audit it. Der Prüfungsprozess kann bis zu 10 Werktage nach der Übertragung der Subdomäne dauern. Die durchgeführten Überprüfungen umfassen das Testen von Feedback-Schleifen und Spam-Beschwerdeschleifen. Daher empfehlen wir nicht, die Subdomain vor Abschluss der Prüfung zu verwenden, da dies zu einer schlechten Reputation der Subdomain führen kann.
+   Schließlich wird das **Zustellbarkeitsteam** über die neue Subdomain informiert, um sie zu prüfen. Der Prüfvorgang kann bis zu 10 Werktage dauern, nachdem die Subdomain zugewiesen wurde. Die durchgeführten Überprüfungen umfassen das Testen von Feedback-Schleifen und Spam-Beschwerdeschleifen. Daher empfehlen wir nicht, die Subdomain vor Abschluss der Prüfung zu verwenden, da dies zu einer schlechten Reputation der Subdomain führen kann.
 
    Wählen Sie **[!UICONTROL Prozessdetails]** aus, um weitere Informationen zum Konfigurationsfortschritt zu erhalten.
 
@@ -96,9 +96,9 @@ ht-degree: 81%
 
    **Fehlerbehebung:**
 
-   * In einigen Fällen wird die Zuweisung durchgeführt, die Subdomain wird jedoch möglicherweise nicht erfolgreich verifiziert. The subdomain will stay into the **[!UICONTROL Configured]** list with a job log providing information on the error. Wenden Sie sich an die Kundenunterstützung, wenn Sie Probleme bei der Lösung des Problems haben.
-   * Wenn die Subdomäne nach der Konfiguration als &quot;Nicht verifiziert&quot;angezeigt wird, starten Sie eine neue Subdomänenüberprüfung (**...** / **[!UICONTROL Subdomäne]**&#x200B;überprüfen). Wenn immer noch der gleiche Status angezeigt wird, kann dies darauf zurückzuführen sein, dass einige Anpassungen am Schema &quot;Empfänger&quot;vorgenommen wurden, die nicht mit Standardprozessen überprüft werden können. Bitte versuchen Sie, eine Kampagne mit dieser Subdomäne zu senden.
-   * Wenn die Konfiguration der Subdomäne bei der Überprüfung der Zustellbarkeit zu lange dauert (mehr als 10 Geschäftstage), wenden Sie sich bitte an die Kundenunterstützung.
+   * In einigen Fällen wird die Zuweisung durchgeführt, die Subdomain wird jedoch möglicherweise nicht erfolgreich verifiziert. Die Subdomain verbleibt mit einem Vorgangslog mit Informationen zum Fehler in der Liste **[!UICONTROL Konfiguriert]**. Wenden Sie sich an die Kundenunterstützung, wenn Sie Probleme bei der Lösung des Problems haben.
+   * Wenn die Subdomain nach der Konfiguration als &quot;Nicht verifiziert&quot; angezeigt wird, starten Sie eine neue Subdomain-Verifizierung (**...** / **[!UICONTROL Subdomain verifizieren]**). Wenn immer noch derselbe Status angezeigt wird, kann dies daran liegen, dass einige Anpassungen am Empfängerschema vorgenommen wurden, die mit Standardprozessen nicht überprüft werden können. Versuchen Sie, über diese Subdomain eine Kampagne zu senden.
+   * Wenn die Konfiguration der Subdomain bei der Zustellbarkeitsprüfung zu lange dauert (mehr als 10 Werktage), wenden Sie sich an die Kundenunterstützung.
 
 Am Ende des Prozesses werden die Subdomains für die Verwendung mit Ihrer Adobe Campaign-Instanz konfiguriert und die folgenden Elemente erstellt:
 
