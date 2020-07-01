@@ -1,11 +1,11 @@
 ---
 title: GPG-Schlüsselverwaltung
 description: Erfahren Sie, wie GPG-Schlüssel zum Ver- und Entschlüsseln von Daten innerhalb von Adobe Campaign verwaltet werden.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a83309bfb6e42db231fe970f47475fb85d6d441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1137'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Mit dem Control Panel können Sie Daten verschlüsseln, die aus Ihrer Adobe Camp
 
 Dazu müssen Sie mithilfe eines PGP-Verschlüsselungs-Tools ein GPG-Schlüsselpaar generieren und dann den öffentlichen Schlüssel im Control Panel installieren. Sie können dann Daten verschlüsseln, bevor Sie diese von Ihrer Instanz senden. Gehen Sie dazu wie folgt vor:
 
-1. Generate a public/private key pair using a PGP encryption tool following the [OpenPGP specification](https://www.openpgp.org/about/standard/). Installieren Sie dazu ein GPG-Dienstprogramm oder eine GNuGP-Software.
+1. Generieren Sie mithilfe eines PGP-Verschlüsselungs-Tools ein öffentlich-privates Schlüsselpaar gemäß der [OpenPGP-Spezifikation](https://www.openpgp.org/about/standard/). Installieren Sie dazu ein GPG-Dienstprogramm oder eine GNuGP-Software.
 
    >[!NOTE]
    >
@@ -53,13 +53,13 @@ Dazu müssen Sie mithilfe eines PGP-Verschlüsselungs-Tools ein GPG-Schlüsselpa
    * **Schlüsseltyp**: RSA
    * **Schlüssellänge**: 1024–4096 Bit
    * **Richtiger Name** und **E-Mail-Adresse**: Ermöglicht die Verfolgung, wer das Schlüsselpaar erstellt hat. Geben Sie einen Namen und eine E-Mail-Adresse ein, die mit Ihrer Organisation oder Abteilung verknüpft sind.
-   * **Kommentar**: Wenn Sie eine Beschriftung zum Kommentarfeld hinzufügen, können Sie den Schlüssel, der zum Verschlüsseln der Daten verwendet werden soll, leicht identifizieren.
+   * **Kommentar**: Wenn Sie dem Kommentarfeld eine Bezeichnung hinzufügen, können Sie den Schlüssel, der zum Verschlüsseln Ihrer Daten verwendet werden soll, leicht identifizieren.
    * **Gültigkeit**: Datum oder „0“ für kein Ablaufdatum.
    * **Passphrase**
 
    ![](assets/do-not-localize/gpg_command.png)
 
-1. Nach der Bestätigung generiert das Skript einen Schlüssel mit dem zugehörigen Fingerabdruck, den Sie in eine Datei exportieren oder direkt in die Systemsteuerung einfügen können. Um die Datei zu exportieren, führen Sie diesen Befehl aus, gefolgt vom Fingerabdruck des von Ihnen generierten Schlüssels.
+1. Nach der Bestätigung generiert das Skript einen Schlüssel mit dem zugehörigen Fingerabdruck, den Sie in eine Datei exportieren oder direkt in das Control Panel einfügen können. Um die Datei zu exportieren, führen Sie diesen Befehl aus, gefolgt vom Fingerabdruck des von Ihnen generierten Schlüssels.
 
    `gpg -a --export <fingerprint>`
 
@@ -69,7 +69,7 @@ Dazu müssen Sie mithilfe eines PGP-Verschlüsselungs-Tools ein GPG-Schlüsselpa
 
    ![](assets/gpg_install_button.png)
 
-1. Fügen Sie den öffentlichen Schlüssel ein, der mit Ihrem PGP-Verschlüsselungs-Tool generiert wurde. Sie können die exportierte Datei mit dem öffentlichen Schlüssel auch direkt per Drag &amp; Drop verschieben.
+1. Fügen Sie den öffentlichen Schlüssel ein, der mit Ihrem PGP-Verschlüsselungs-Tool generiert wurde. Sie können die exportierte Datei mit dem öffentlichen Schlüssel auch direkt per Drag-and-Drop einfügen.
 
    >[!NOTE]
    >
@@ -90,12 +90,12 @@ Weitere Informationen hierzu finden Sie in der Adobe Campaign-Dokumentation:
 **Campaign Classic:**
 
 * [Datei komprimieren oder verschlüsseln](https://docs.adobe.com/content/help/de-DE/campaign-classic/using/automating-with-workflows/general-operation/how-to-use-workflow-data.html#zipping-or-encrypting-a-file)
-* [Verwendungsfall: Verschlüsseln und Exportieren von Daten mit einem in der Systemsteuerung installierten Schlüssel](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/how-to-use-workflow-data.html#use-case-gpg-encrypt)
+* [Anwendungsfall: Verschlüsseln und Exportieren von Daten mit einem im Control Panel installierten Schlüssel](https://docs.adobe.com/content/help/de-DE/campaign-classic/using/automating-with-workflows/general-operation/how-to-use-workflow-data.html#use-case-gpg-encrypt)
 
 **Campaign Standard:**
 
-* [Verwalten verschlüsselter Daten](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
-* [Verwendungsfall: Verschlüsseln und Exportieren von Daten mit einem in der Systemsteuerung installierten Schlüssel](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-encrypt)
+* [Verwalten verschlüsselter Daten](https://docs.adobe.com/content/help/de-DE/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
+* [Anwendungsfall: Verschlüsseln und Exportieren von Daten mit einem im Control Panel installierten Schlüssel](https://docs.adobe.com/content/help/de-DE/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-encrypt)
 
 ## Entschlüsseln von Daten {#decrypting-data}
 
@@ -131,12 +131,12 @@ Weitere Informationen hierzu finden Sie in der Adobe Campaign-Dokumentation:
 **Campaign Classic:**
 
 * [Datei vor der Verarbeitung dekomprimieren oder entschlüsseln](https://docs.adobe.com/content/help/de-DE/campaign-classic/using/automating-with-workflows/general-operation/importing-data.html#unzipping-or-decrypting-a-file-before-processing)
-* [Verwendungsfall: Importieren von Daten, die mit einem von der Systemsteuerung generierten Schlüssel verschlüsselt wurden](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/importing-data.html#use-case-gpg-decrypt)
+* [Anwendungsfall: Importieren von Daten, die mit einem vom Control Panel generierten Schlüssel verschlüsselt wurden](https://docs.adobe.com/content/help/de-DE/campaign-classic/using/automating-with-workflows/general-operation/importing-data.html#use-case-gpg-decrypt)
 
 **Campaign Standard:**
 
-* [Verwalten verschlüsselter Daten](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
-* [Verwendungsfall: Importieren von Daten, die mit einem von der Systemsteuerung generierten Schlüssel verschlüsselt wurden](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-decrypt)
+* [Verwalten verschlüsselter Daten](https://docs.adobe.com/content/help/de-DE/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
+* [Anwendungsfall: Importieren von Daten, die mit einem vom Control Panel generierten Schlüssel verschlüsselt wurden](https://docs.adobe.com/content/help/de-DE/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-decrypt)
 
 ## Überwachen von GPG-Schlüsseln
 
