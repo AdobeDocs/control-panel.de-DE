@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
 workflow-type: tm+mt
 source-wordcount: '291'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 84%
 >abstract="Auf der Startseite des Control Panels haben Sie Zugriff auf alle Aktionen, die auf Ihren Campaign-Instanzen ausgeführt werden können."
 >additional-url="https://docs.adobe.com/content/help/de-DE/control-panel/using/discover-control-panel/discovering-the-interface.html" text="Kennenlernen der Benutzeroberfläche"
 
-Das Control Panel bietet Produktadministratoren von Adobe Campaign Standard und/oder Classic verbesserte Effizienz. Sie können damit die Einstellungen einer jeden Instanz verwalten und deren Nutzung überwachen. Die intuitive Benutzeroberfläche ermöglicht die einfache Überwachung der Verwendung wichtiger Assets sowie die Durchführung administrativer Aufgaben wie das Hinzufügen von IP-Adressen, die Überwachung der SFTP-Datenspeicherung, die Schlüsselverwaltung und mehr.
+Das Control Panel bietet Produktadministratoren von Adobe Campaign Standard und/oder Classic verbesserte Effizienz. Sie können damit die Einstellungen einer jeden Instanz verwalten und deren Nutzung überwachen. Dank der intuitiven Benutzeroberfläche kann die Nutzung wichtiger Ressourcen überwacht und administrative Aufgaben einfach durchgeführt werden. So können beispielsweise IP-Adressen auf die Zulassungsliste gesetzt, der Speicher von SFTP-Servern überwacht und die Schlüssel verwaltet werden.
 
 Wichtigste Vorteile:
 
@@ -55,8 +55,8 @@ Wichtigste Vorteile:
     </td>
     <td>
         <a href="../../performance-monitoring/using/about-performance-monitoring.md"><img alt="Bedingungen" src="assets/do-not-localize/monitoring-performance.png"/></a>
-        <div><a href="../../performance-monitoring/using/about-performance-monitoring.md"><strong>Leistung überwachen</strong></a></div>
-        <br/><em>Erfahren Sie, wie Sie die Nutzung wichtiger Ressourcen auf Ihren Instanzen überwachen.</em>
+        <div><a href="../../performance-monitoring/using/about-performance-monitoring.md"><strong>Überwachen der Leistung</strong></a></div>
+        <br/><em>Erfahren Sie, wie Sie die Nutzung wichtiger Ressourcen in Ihren Instanzen überwachen.</em>
     </td>
 </tr>
 </table>
