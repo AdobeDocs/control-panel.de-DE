@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
 workflow-type: tm+mt
 source-wordcount: '608'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 90%
 
 >[!CONTEXTUALHELP]
 >id="cp_key_management"
->title="Informationen zur Schlüsselverwaltung"
+>title="Über die Schlüsselverwaltung"
 >abstract="Auf dieser Registerkarte können Sie Ihre öffentlichen Schlüssel verwalten."
 >additional-url="https://images-tv.adobe.com/mpcv3/8a977e03-d76c-44d3-853c-95d0b799c870_1560205338.1920x1080at3000_h264.mp4#t=166" text="Demovideo ansehen"
 
@@ -22,7 +22,7 @@ Adobe empfiehlt allen Kunden, die Verbindung zu ihren SFTP-Servern mit einem **P
 
 Im Folgenden werden die Schritte zum Erstellen und Hinzufügen eines öffentlichen SSH-Schlüssels für den Zugriff auf den SFTP-Server sowie Empfehlungen zur Authentifizierung beschrieben.
 
-Once access to the server is set up, remember to **add the IP addresses that will require access to the server to the allow list** so that you can connect to it. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../instances-settings/using/ip-whitelisting-instance-access.md).
+Nachdem der Zugriff auf den Server eingerichtet wurde, müssen die **IP-Adressen auf die Zulassungsliste gesetzt werden, die Zugriff auf den Server benötigen**, damit Sie eine Verbindung mit ihm herstellen können. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../instances-settings/using/ip-whitelisting-instance-access.md).
 
 >[!NOTE]
 >
@@ -48,7 +48,7 @@ In sehr seltenen Fällen ist die passwortbasierte Authentifizierung auf manchen 
 
 >[!CONTEXTUALHELP]
 >id="cp_sftp_publickey_add"
->title="Hinzufügen neuer öffentlicher Schlüssel"
+>title="Hinzufügen von öffentlichen Schlüsseln"
 >abstract="Fügen Sie einen neuen öffentlichen Schlüssel für eine Instanz hinzu."
 
 >[!IMPORTANT]
