@@ -1,11 +1,11 @@
 ---
 title: Control Panel – Häufig gestellte Fragen
 description: Häufige Fragen zum Control Panel
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '632'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -92,7 +92,7 @@ Mit dem Control Panel können Produktadministratoren direkt verschiedene Einstel
 
 **Welche aktuellen Funktionen hat das Control Panel?**
 
-Über die Systemsteuerung können Sie die Datenspeicherung verfolgen, IPs zur zulassungsliste hinzufügen und SSH-Schlüssel für Ihre SFTP-Server auf eigene Faust und andere Aktionen verwalten.
+Das Control Panel ermöglicht es Ihnen, Speicherplatz zu überwachen, IP-Adressen auf die Zulassungsliste zu setzen, SSH-Schlüssel für Ihre SFTP-Server nach Ihren Bedürfnissen selbst zu verwalten sowie andere Aktionen auszuführen.
 
 Weitere Informationen finden Sie in der Dokumentation zu den vom Control Panel unterstützten Aktionen.
 
