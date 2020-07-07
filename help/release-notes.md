@@ -1,7 +1,7 @@
 ---
 title: Control Panel-Versionen
 translation-type: tm+mt
-source-git-commit: a83309bfb6e42db231fe970f47475fb85d6d441b
+source-git-commit: 7625d291486772c6f68924a70c57e85c3aee9606
 workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 100%
@@ -84,7 +84,7 @@ Weitere Informationen finden Sie auf den folgenden Seiten:
 Für Admin-Benutzer wurden neue Funktionen hinzugefügt, mit denen sie IP-Adressen auf die Zulassungsliste setzen können, um eine Verbindung zu Campaign Classic-Instanzen herzustellen.
 Außerdem können Admin-Benutzer jetzt die Liste der Campaign Classic-Instanzen und die Berechtigung für Build-Upgrades einsehen.
 
-Weitere Informationen finden Sie in der [entsprechenden Dokumentation](instances-settings/using/ip-whitelisting-instance-access.md).
+Weitere Informationen finden Sie in der [entsprechenden Dokumentation](instances-settings/using/ip-allow-listing-instance-access.md).
 
 ## August 2019 {#august-2019}
 
