@@ -2,7 +2,7 @@
 title: Zugriff auf das Control Panel
 description: Erfahren Sie, wie Sie auf das Control Panel zugreifen können.
 translation-type: tm+mt
-source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
+source-git-commit: f6d75de9c3d92e4f5d0b3d254f103db0901ab20a
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 100%
@@ -49,8 +49,8 @@ Wichtigste Vorteile:
         <em>Erfahren Sie, wie Sie Ihre Subdomains und deren Zertifikate überwachen.</em>
     </td>
     <td>
-        <a href="../../instances-settings/using/ip-whitelisting-instance-access.md"><img alt="Bedingungen" src="assets/do-not-localize/instance_settings.png"/></a>
-        <div><a href="../../instances-settings/using/ip-whitelisting-instance-access.md"><strong>Verwalten der Instanzeneinstellungen</strong></a></div>
+        <a href="../../instances-settings/using/ip-allow-listing-instance-access.md"><img alt="Bedingungen" src="assets/do-not-localize/instance_settings.png"/></a>
+        <div><a href="../../instances-settings/using/ip-allow-listing-instance-access.md"><strong>Verwalten der Instanzeneinstellungen</strong></a></div>
         <br/><em>Erfahren Sie, wie Sie Ihre Instanzeneinstellungen verwalten (nur Campaign Classic).</em>
     </td>
     <td>
