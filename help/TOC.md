@@ -4,7 +4,7 @@ sub-product: Control Panel
 audience: end-user
 user-guide-title: Hilfe zum Control Panel
 translation-type: tm+mt
-source-git-commit: 5445ac36b81af3b23bc64788f010f497ec9d049c
+source-git-commit: f6d75de9c3d92e4f5d0b3d254f103db0901ab20a
 workflow-type: tm+mt
 source-wordcount: '100'
 ht-degree: 100%
@@ -24,7 +24,7 @@ ht-degree: 100%
 + SFTP-Verwaltung {#sftp-management}
    + [Über die SFTP-Verwaltung](sftp/using/about-sftp-management.md)
    + [SFTP-Speicherverwaltung](sftp/using/sftp-storage-management.md)
-   + [IP-Bereich-Zulassungsauflistung](sftp/using/ip-range-whitelisting.md)
+   + [IP-Bereich-Zulassungsauflistung](sftp/using/ip-range-allow-listing.md)
    + [Schlüsselverwaltung](sftp/using/key-management.md)
    + [Anmeldung bei Ihrem SFTP-Server](sftp/using/logging-into-sftp-server.md)
    + [Häufige Fragen](sftp/using/common-questions.md)
@@ -41,7 +41,7 @@ ht-degree: 100%
    + [Überwachung aktiver Profile](performance-monitoring/using/active-profiles-monitoring.md)
    + [Warnungen per E-Mail](performance-monitoring/using/email-alerting.md)
 + Instanzeneinstellungen {#instances-settings}
-   + [IP-Zulassungsauflistung für den Zugriff auf Instanzen](instances-settings/using/ip-whitelisting-instance-access.md)
+   + [IP-Zulassungsauflistung für den Zugriff auf Instanzen](instances-settings/using/ip-allow-listing-instance-access.md)
    + [URL-Genehmigungen](instances-settings/using/url-permissions.md)
    + [Details der Instanz](instances-settings/using/instance-details.md)
    + [GPG-Schlüsselverwaltung](instances-settings/using/gpg-keys-management.md)
