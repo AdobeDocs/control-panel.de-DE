@@ -2,7 +2,7 @@
 title: Schlüsselverwaltung
 description: Erfahren Sie, wie Sie Schlüssel für die Verbindung mit SFTP-Servern verwalten.
 translation-type: tm+mt
-source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
+source-git-commit: 067921a32d0b99107fc148609f78ac664da717dd
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 100%
@@ -22,7 +22,7 @@ Adobe empfiehlt allen Kunden, die Verbindung zu ihren SFTP-Servern mit einem **P
 
 Im Folgenden werden die Schritte zum Erstellen und Hinzufügen eines öffentlichen SSH-Schlüssels für den Zugriff auf den SFTP-Server sowie Empfehlungen zur Authentifizierung beschrieben.
 
-Nachdem der Zugriff auf den Server eingerichtet wurde, müssen die **IP-Adressen auf die Zulassungsliste gesetzt werden, die Zugriff auf den Server benötigen**, damit Sie eine Verbindung mit ihm herstellen können. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../instances-settings/using/ip-whitelisting-instance-access.md).
+Nachdem der Zugriff auf den Server eingerichtet wurde, müssen die **IP-Adressen auf die Zulassungsliste gesetzt werden, die Zugriff auf den Server benötigen**, damit Sie eine Verbindung mit ihm herstellen können. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../instances-settings/using/ip-allow-listing-instance-access.md).
 
 >[!NOTE]
 >
@@ -41,8 +41,6 @@ In sehr seltenen Fällen ist die passwortbasierte Authentifizierung auf manchen 
 >[!IMPORTANT]
 >
 >Sollte Ihr Passwort seine Gültigkeit verlieren, können Sie sich nicht mehr bei Ihren SFTP-Konten anmelden, auch wenn auf Ihrem System Schlüssel installiert sind.
-
-![](assets/control_panel_passwordexpires.png)
 
 ## Installation des SSH-Schlüssels {#installing-ssh-key}
 
@@ -82,6 +80,7 @@ In sehr seltenen Fällen ist die passwortbasierte Authentifizierung auf manchen 
    1. Geben Sie Ihrem Schlüssel einen Namen, wenn Sie dazu aufgefordert werden. Wenn das Verzeichnis &quot;.ssh&quot; nicht vorhanden ist, wird eines vom System erstellt.
    1. Geben Sie eine Passphrase ein und wiederholen Sie die Eingabe, wenn Sie dazu aufgefordert werden. Dieses Feld kann auch leer gelassen werden.
    1. Das Schlüsselpaar &quot;name&quot; und &quot;name.pub&quot; wird vom System erstellt. Suchen Sie nach der Datei &quot;name.pub&quot; und öffnen Sie sie. Sie hat eine alphanumerische Zeichenfolge, die mit der von Ihnen angegebenen E-Mail-Adresse endet.
+
    **Windows:**
 
    Möglicherweise müssen Sie ein Tool eines Drittanbieters installieren, mit dem Sie ein privates/öffentliches Schlüsselpaar im gleichen Format wie &quot;name.pub&quot; erstellen können.
