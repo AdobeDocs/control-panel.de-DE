@@ -2,7 +2,7 @@
 title: Anmeldung bei Ihrem SFTP-Server
 description: Erfahren Sie, wie Sie sich beim SFTP-Server anmelden.
 translation-type: tm+mt
-source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
+source-git-commit: f6d75de9c3d92e4f5d0b3d254f103db0901ab20a
 workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 100%
@@ -19,7 +19,7 @@ Bevor Sie sich beim Server anmelden, überprüfen Sie, ob folgende Voraussetzung
 * Ihr SFTP-Server wird von **Adobe gehostet**.
 * Ihr **Benutzername** wurde für den Server eingerichtet. Sie können diese Informationen direkt im Control Panel auf der Registerkarte **Schlüsselverwaltung** der SFTP-Karte überprüfen.
 * Sie verfügen über ein **Paar aus privatem und öffentlichem Schlüssel**, um sich am SFTP-Server anzumelden. Lesen Sie [diesen Abschnitt](../../sftp/using/key-management.md), um mehr darüber zu erfahren, wie Sie den SSH-Schlüssel hinzufügen können.
-* Ihre **öffentliche IP-Adresse wurde der Zulassungsliste** auf dem SFTP-Server hinzugefügt. Ist dies nicht der Fall, lesen Sie [diesen Abschnitt](../../sftp/using/ip-range-whitelisting.md), um mehr darüber zu erfahren, wie Sie einen IP-Bereich auf die Zulassungsliste setzen.
+* Ihre **öffentliche IP-Adresse wurde der Zulassungsliste** auf dem SFTP-Server hinzugefügt. Ist dies nicht der Fall, lesen Sie [diesen Abschnitt](../../sftp/using/ip-range-allow-listing.md), um mehr darüber zu erfahren, wie Sie einen IP-Bereich auf die Zulassungsliste setzen.
 * Sie haben Zugriff auf eine **SFTP-Client-Software**. Fragen Sie Ihre IT-Abteilung nach der von ihr empfohlenen SFTP-Client-Anwendung oder suchen Sie im Internet nach einer, wenn dies durch Ihre Unternehmensrichtlinien erlaubt ist.
 
 Gehen Sie wie folgt vor, um eine Verbindung mit dem SFTP-Server herzustellen:
