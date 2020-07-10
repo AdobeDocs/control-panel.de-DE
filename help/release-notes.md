@@ -1,9 +1,9 @@
 ---
 title: Control Panel-Versionen
 translation-type: tm+mt
-source-git-commit: 7625d291486772c6f68924a70c57e85c3aee9606
+source-git-commit: c91a37883a883cdfa118c5c7e6315ff69e5ad0f5
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '561'
 ht-degree: 100%
 
 ---
@@ -28,10 +28,6 @@ Nachdem Sie eine neue Subdomain zugewiesen haben, können Sie nun mit dem Contro
 Im Control Panel können Sie jetzt ein GPG-Schlüsselpaar generieren, sodass Sie in Campaign eingehende externe Daten problemlos entschlüsseln können. Darüber hinaus können Sie einen öffentlichen GPG-Schlüssel installieren, um von Campaign ausgehende Daten zu verschlüsseln. [Mehr dazu](instances-settings/using/gpg-keys-management.md)
 * [Tutorial für Campaign Standard](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/generating-and-installing-gpg-keys.html)
 * [Tutorial für Campaign Classic](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/generating-and-installing-gpg-keys.html)
-
-**Entfernung von &#39;Whitelist&#39;/&#39;Blacklist&#39;**
-
-Die Begriffe &#39;Whitelist&#39; und &#39;Blacklist&#39; wurden aus der Dokumentation zu Adobe Campaign entfernt. Einige Vorkommen dieser Begriffe sind möglicherweise noch in der Benutzeroberfläche des Produkts, den Optionsnamen und dem internen Code vorhanden, werden jedoch in den kommenden Campaign-Versionen durch „Blockierungsliste“ und „Zulassungsliste“ ersetzt.
 
 **Überwachung aktiver Profile**
 
