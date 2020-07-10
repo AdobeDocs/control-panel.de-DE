@@ -2,10 +2,10 @@
 title: IP-Zulassungsauflistung
 description: Erfahren Sie, wie Sie der Zulassungsliste im Control Panel IP-Adressen für den Zugriff auf Instanzen hinzufügen.
 translation-type: tm+mt
-source-git-commit: abe22509e3389874e0b3586a99a1ad2d49681ed8
+source-git-commit: 35723590195ef54df42d1d1df5b37490787f8836
 workflow-type: tm+mt
 source-wordcount: '790'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -53,7 +53,7 @@ Gehen Sie wie folgt vor, um IP-Adressen auf die Zulassungsliste zu setzen:
 
    >[!NOTE]
    >
-   >Wenn die Karte „Instanzeinstellungen“ nicht auf der Startseite des Control Panels sichtbar ist, bedeutet das, dass Ihre IMS-ORG-Kennung mit keiner Adobe Campaign Classic-Instanz verknüpft ist.
+   >Wenn die Instanz-Einstellungskarte nicht auf der Startseite der Systemsteuerung angezeigt wird, bedeutet dies, dass Ihre IMS-Organisations-ID nicht mit Adobe Campaign Classic-Instanzen verknüpft ist.
 
    ![](assets/ip_whitelist_list1.png)
 
