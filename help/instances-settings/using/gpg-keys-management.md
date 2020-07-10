@@ -1,11 +1,11 @@
 ---
 title: GPG-Schlüsselverwaltung
 description: Erfahren Sie, wie GPG-Schlüssel zum Ver- und Entschlüsseln von Daten innerhalb von Adobe Campaign verwaltet werden.
-translation-type: ht
-source-git-commit: a83309bfb6e42db231fe970f47475fb85d6d441b
-workflow-type: ht
-source-wordcount: '1137'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 23ca04d0b071a0dd24e72a4db4b29cba35437995
+workflow-type: tm+mt
+source-wordcount: '1139'
+ht-degree: 98%
 
 ---
 
@@ -28,9 +28,8 @@ Anschließend können Sie:
 
 **Verwandte Themen:**
 
-* [Tutorial für Campaign Standard](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/generating-and-installing-gpg-keys.html)
-* [Tutorial für Campaign Classic](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/generating-and-installing-gpg-keys.html)
-
+* [Tutorials für Campaign Standard](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/gpg-key-management-overview.html)
+* [Tutorials für Campaign Classic](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/gpg-key-management-overview.html)
 
 ## Verschlüsseln von Daten {#encrypting-data}
 
