@@ -2,7 +2,10 @@
 title: Details der Instanz
 description: Erfahren Sie, wie Sie die Details der Instanz im Control Panel überwachen können
 translation-type: tm+mt
-source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
+source-git-commit: 35723590195ef54df42d1d1df5b37490787f8836
+workflow-type: tm+mt
+source-wordcount: '563'
+ht-degree: 91%
 
 ---
 
@@ -43,7 +46,7 @@ Gehen Sie wie folgt vor, um Informationen zu den mit Ihren Instanzen verbundenen
 
    >[!NOTE]
    >
-   >Wenn die Karte &quot;Instanzeinstellungen&quot; nicht auf der Startseite des Control Panels sichtbar ist, bedeutet das, dass Ihre IMS-ORG-Kennung mit keiner Adobe Campaign Classic-Instanz verknüpft ist.
+   >Wenn die Instanz-Einstellungskarte nicht auf der Startseite der Systemsteuerung angezeigt wird, bedeutet dies, dass Ihre IMS-Organisations-ID nicht mit Adobe Campaign Classic-Instanzen verknüpft ist.
 
 1. Wählen Sie im linken Fenster die gewünschte Campaign Classic-Instanz aus.
 
