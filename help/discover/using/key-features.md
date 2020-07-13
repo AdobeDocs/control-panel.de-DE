@@ -1,9 +1,9 @@
 ---
 title: Zugriff auf das Control Panel
 description: Erfahren Sie, wie Sie auf das Control Panel zugreifen können.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f6d75de9c3d92e4f5d0b3d254f103db0901ab20a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '291'
 ht-degree: 100%
 
