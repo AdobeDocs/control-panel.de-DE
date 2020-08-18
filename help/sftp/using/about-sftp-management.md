@@ -1,12 +1,12 @@
 ---
 title: Über die SFTP-Verwaltung
 description: Weitere Informationen zur SFTP-Verwaltung im Control Panel
-testing: SSECD-836
+testing: SSECD-836 2
 translation-type: tm+mt
 source-git-commit: 9fe5f25ef2f3d7dafe9ae63d430279c354fce25a
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
