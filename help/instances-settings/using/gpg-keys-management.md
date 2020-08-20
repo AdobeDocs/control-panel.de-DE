@@ -2,10 +2,10 @@
 title: GPG-Schlüsselverwaltung
 description: Erfahren Sie, wie GPG-Schlüssel zum Ver- und Entschlüsseln von Daten innerhalb von Adobe Campaign verwaltet werden.
 translation-type: tm+mt
-source-git-commit: 23ca04d0b071a0dd24e72a4db4b29cba35437995
+source-git-commit: 1fe1bf8cd90218c54076988780b53819e9fad304
 workflow-type: tm+mt
 source-wordcount: '1139'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -113,7 +113,7 @@ Gehen Sie wie folgt vor, um ein Schlüsselpaar im Control Panel zu generieren:
 
    ![](assets/gpg_generate.png)
 
-1. Geben Sie den Namen des Schlüssels an und klicken Sie dann auf **!UICONTROL Schlüssel generieren **. Mithilfe dieses Namens können Sie den Schlüssel identifizieren, der für die Entschlüsselung in Campaign-Workflows verwendet werden soll
+1. Specify the name of the key, then click **[!UICONTROL Generate Key]**. Mithilfe dieses Namens können Sie den Schlüssel identifizieren, der für die Entschlüsselung in Campaign-Workflows verwendet werden soll
 
    ![](assets/gpg_generate_name.png)
 
