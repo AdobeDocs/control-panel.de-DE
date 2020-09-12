@@ -2,17 +2,17 @@
 product: adobe campaign
 sub-product: Control Panel
 audience: end-user
-user-guide-title: Hilfe zum Control Panel
-translation-type: ht
-source-git-commit: f6d75de9c3d92e4f5d0b3d254f103db0901ab20a
-workflow-type: ht
+user-guide-title: Bedienungsanleitung
+translation-type: tm+mt
+source-git-commit: 060bda7df761b0da491fe3c443656ec36d4e6fb0
+workflow-type: tm+mt
 source-wordcount: '100'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
 
-# Hilfe zum Control Panel {#using}
+# Bedienungsanleitung {#using}
 
 + [Produktdokumentation](control-panel-home.md)
 + [Versionshinweise](release-notes.md)
