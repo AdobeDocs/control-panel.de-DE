@@ -1,10 +1,10 @@
 ---
 title: Control Panel-Versionen
 translation-type: tm+mt
-source-git-commit: 6607bb44a3a40607a653c37bfb19ae0d9fc6f5a9
+source-git-commit: 1c7e5a830ff9a6b6a726cfbe30ca2ad264f1d8c6
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 94%
+source-wordcount: '621'
+ht-degree: 80%
 
 ---
 
@@ -16,6 +16,16 @@ Hier finden Sie Informationen zu den neuesten Versionen der Systemsteuerung.
 >[!NOTE]
 >
 >Beachten Sie, dass das Control Panel nur für Kunden verfügbar ist, die auf AWS gehostet werden (mit Ausnahme der hybriden Umgebungen, die noch nicht unterstützt werden). Für den Zugriff auf das Control Panel sind keine Aktualisierungen erforderlich. Sie müssen Administrator sein, um darauf zugreifen zu können.
+
+## Oktober 2020 {#october-2020}
+
+**Subdomänenkonfiguration mit CNAMEs**
+
+Über die Systemsteuerung können Sie jetzt eine Subdomäne für die Verwendung von CNAMEs direkt über die Oberfläche konfigurieren. [mehr dazu](subdomains-certificates/using/setting-up-new-subdomain.md)
+
+**Verbesserungen bei der Datenbanküberwachung**
+
+Die Registerkarte **[!UICONTROL Datenbanküberwachung]** wurde um weitere Metriken erweitert, sodass Sie detaillierte Informationen zu den Ressourcen erhalten können, die Speicherplatz in Ihrer Datenbank benötigen. [Mehr dazu](performance-monitoring/using/database-monitoring.md)
 
 ## Juni 2020{#june-2020}
 
@@ -43,7 +53,7 @@ Im Control Panel können Sie jetzt die Anzahl der aktiven Profile überwachen, d
 
 **Zertifikatverwaltung für CNAME-Subdomains**
 
-Das Control Panel ermöglicht es Ihnen jetzt, die SSL-Zertifikate Ihrer Subdomains zu erneuern, die mit der CNAME-Methode zugewiesen wurden. [Mehr dazu](subdomains-certificates/using/renewing-subdomain-certificate.md)
+Über die Systemsteuerung können Sie jetzt die SSL-Zertifikate Ihrer Subdomänen erneuern, die mit der CNAME-Methode konfiguriert wurden. [Mehr dazu](subdomains-certificates/using/renewing-subdomain-certificate.md)
 
 ## April 2020 {#april-2020}
 
@@ -63,7 +73,7 @@ Das Campaign Control Panel bietet Funktionen zum Empfang von E-Mail-Warnungen in
 
 *22. Januar 2020*
 
-Für Admin-Benutzer wurden neue Funktionen hinzugefügt, mit denen sie über das Control Panel Subdomains zuweisen und SSL-Zertifikate verlängern können.
+Es wurden neue Funktionen hinzugefügt, mit denen Admin-Benutzer Subdomänen konfigurieren und SSL-Zertifikate über die Systemsteuerung erneuern können.
 
 Weitere Informationen finden Sie auf den folgenden Seiten:
 * [Einrichten einer neuen Subdomain](subdomains-certificates/using/setting-up-new-subdomain.md)
