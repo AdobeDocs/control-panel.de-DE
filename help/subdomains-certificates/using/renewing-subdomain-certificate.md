@@ -1,11 +1,11 @@
 ---
 title: Verlängern des SSL-Zertifikats einer Subdomain
 description: Erfahren Sie, wie Sie die Zertifikate Ihrer Subdomains verlängern.
-translation-type: ht
-source-git-commit: bc29433167d4699ad9b840381abd0d5bbff8c630
-workflow-type: ht
-source-wordcount: '865'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 17f51b60310b4fbc89e2106eb4ee9251fd525a59
+workflow-type: tm+mt
+source-wordcount: '867'
+ht-degree: 94%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->Die Subdomain-Zuweisung über das Control Panel befindet sich in der Beta-Phase und unterliegt häufigen Aktualisierungen und Änderungen ohne Vorankündigung.
+>Die Subdomänenkonfiguration über die Systemsteuerung ist in der Beta-Version verfügbar und unterliegt häufigen Aktualisierungen und Änderungen ohne Vorankündigung.
 
 ## Über die Zertifikatsverlängerung {#about-certificate-renewal-process}
 
@@ -64,6 +64,7 @@ Gehen Sie wie folgt vor, um eine Certificate Signing Request (CSR) zu erstellen:
    * **[!UICONTROL Organisation]**: Offizieller Name der Organisation.
    * **[!UICONTROL Organisationseinheit]**: Die mit der Subdomain verknüpfte Einheit (Beispiel: Marketing, IT).
    * **[!UICONTROL Instanz]** (vorbelegt): URL der Campaign-Instanz, die mit der Subdomain verknüpft ist.
+
    ![](assets/renewal3.png)
 
 1. Wählen Sie zuerst die Subdomains aus, die in die CSR einbezogen werden sollen, und danach **[!UICONTROL OK]**.
@@ -99,7 +100,7 @@ Nachdem Sie eine Certificate Signing Request (CSR) über das Control Panel gener
 Sobald Sie ein SSL-Zertifikat gekauft haben, können Sie es auf Ihrer Instanz installieren. Bevor Sie fortfahren, achten Sie auf folgende Voraussetzungen:
 
 * Die Certificate Signing Request (CSR) muss über das Control Panel generiert worden sein. Andernfalls können Sie das Zertifikat nicht über das Control Panel installieren.
-* Die Certificate Signing Request (CSR) sollte mit der Subdomain übereinstimmen, die Adobe zugewiesen wurde. Sie kann beispielsweise nicht mehr Subdomains enthalten als diejenige, die zugewiesen wurde.
+* Die Zertifikatssignaturanforderung (CSR) sollte mit der Subdomäne übereinstimmen, die für die Verwendung mit Adobe konfiguriert wurde. Es kann beispielsweise nicht mehr Subdomänen enthalten, als die konfigurierte.
 * Das Datum des Zertifikats muss aktuell sein. Es ist nicht möglich, Zertifikate mit einem Datum in der Zukunft zu installieren. Zertifikate dürfen nicht abgelaufen sein (d. h. gültiges Start- und Enddatum).
 * Das Zertifikat muss von einer vertrauenswürdigen Zertifizierungsstelle (CA) wie Comodo, DigiCert, GoDaddy usw. ausgestellt sein.
 * Die Größe des Zertifikats darf maximal 2048 Bit betragen und der Algorithmus muss vom Typ RSA sein.
