@@ -1,10 +1,10 @@
 ---
 title: Produktdokumentation
 translation-type: tm+mt
-source-git-commit: d8fe1c2e847fa25919f81bf0a4195de5ad0b2781
+source-git-commit: 75a10bc5c9886cf99df5d2bffb087b91ce81bb10
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 100%
+source-wordcount: '126'
+ht-degree: 58%
 
 ---
 
@@ -15,13 +15,14 @@ ht-degree: 100%
 
 ## Neue Funktionen
 
-* **Prüfung der Subdomain-Zustellbarkeit**
 
-   Nachdem Sie eine neue Subdomain zugewiesen haben, können Sie nun mit dem Control Panel die vom Zustellbarkeitsteam durchgeführte Prüfung verfolgen. [Mehr dazu](subdomains-certificates/using/setting-up-new-subdomain.md)
+**Subdomänenkonfiguration mit CNAMEs**
 
-* **GPG-Schlüsselverwaltung**
+Über die Systemsteuerung können Sie jetzt eine Subdomäne für die Verwendung von CNAMEs direkt über die Oberfläche konfigurieren. [mehr dazu](subdomains-certificates/using/setting-up-new-subdomain.md)
 
-   Installieren und/oder Generieren von GPG-Schlüsseln in einer Marketing-Instanz, um von Campaign gesendete Daten zu verschlüsseln und eingehende Daten zu entschlüsseln. [Mehr dazu](instances-settings/using/gpg-keys-management.md)
+**Verbesserungen bei der Datenbanküberwachung**
+
+Die Registerkarte **[!UICONTROL Datenbanküberwachung]** wurde um weitere Metriken erweitert, sodass Sie detaillierte Informationen zu den Ressourcen erhalten können, die Speicherplatz in Ihrer Datenbank benötigen. [mehr dazu](performance-monitoring/using/database-monitoring.md)
 
 ## Zusätzliche Ressourcen {#additional-resources}
 
