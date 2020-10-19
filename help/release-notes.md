@@ -1,9 +1,9 @@
 ---
 title: Control Panel-Versionen
 translation-type: tm+mt
-source-git-commit: 1c7e5a830ff9a6b6a726cfbe30ca2ad264f1d8c6
+source-git-commit: ee5c44c8b22b1053b7993744aa4898a10761782a
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '620'
 ht-degree: 80%
 
 ---
@@ -25,7 +25,7 @@ Hier finden Sie Informationen zu den neuesten Versionen der Systemsteuerung.
 
 **Verbesserungen bei der Datenbanküberwachung**
 
-Die Registerkarte **[!UICONTROL Datenbanküberwachung]** wurde um weitere Metriken erweitert, sodass Sie detaillierte Informationen zu den Ressourcen erhalten können, die Speicherplatz in Ihrer Datenbank benötigen. [Mehr dazu](performance-monitoring/using/database-monitoring.md)
+Die Datenbanküberwachung wurde um zusätzliche Metriken erweitert, mit denen Sie detaillierte Informationen zu den Ressourcen erhalten können, die Speicherplatz in Ihrer Datenbank benötigen. [Mehr dazu](performance-monitoring/using/database-monitoring.md)
 
 ## Juni 2020{#june-2020}
 
