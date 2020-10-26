@@ -1,11 +1,11 @@
 ---
 title: Details der Instanz
 description: Erfahren Sie, wie Sie die Details der Instanz im Control Panel überwachen können
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 35723590195ef54df42d1d1df5b37490787f8836
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '563'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -14,10 +14,10 @@ ht-degree: 91%
 
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_instancedetails"
->title="Info zu Instanzdetails"
+>title="Über die Details der Instanz"
 >abstract="Zeigen Sie die Details Ihrer Adobe Campaign-Instanzen an: Typen, Namen, Build-Informationen und mögliche Upgrade-Empfehlungen."
->additional-url="https://docs.adobe.com/content/help/de-DE/campaign-classic/using/release-notes/latest-release.html" text="Versionshinweise zum Campaign Classic"
->additional-url="https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html" text="Versionshinweise zu Campaign Standards"
+>additional-url="https://docs.adobe.com/content/help/de-DE/campaign-classic/using/release-notes/latest-release.html" text="Versionshinweise zu Campaign Classic"
+>additional-url="https://docs.adobe.com/content/help/de-DE/campaign-standard/using/release-notes/release-notes.html" text="Versionshinweise zu Campaign Standard"
 
 >[!IMPORTANT]
 >
@@ -46,7 +46,7 @@ Gehen Sie wie folgt vor, um Informationen zu den mit Ihren Instanzen verbundenen
 
    >[!NOTE]
    >
-   >Wenn die Instanz-Einstellungskarte nicht auf der Startseite der Systemsteuerung angezeigt wird, bedeutet dies, dass Ihre IMS-Organisations-ID nicht mit Adobe Campaign Classic-Instanzen verknüpft ist.
+   >Wenn die Karte „Instanzeneinstellungen“ nicht auf der Startseite des Control Panel sichtbar ist, bedeutet das, dass Ihre Kennung der IMS-Organisation mit keiner Adobe Campaign Classic-Instanz verknüpft ist.
 
 1. Wählen Sie im linken Fenster die gewünschte Campaign Classic-Instanz aus.
 
