@@ -1,11 +1,11 @@
 ---
 title: Zulassungsauflistung von IP-Bereichen
 description: Erfahren Sie, wie Sie der Zulassungsliste IP-Bereiche für den Zugriff auf SFTP-Server hinzufügen.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d96c044e83d37f020b5fd6ea55199c1223b9fa39
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '615'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ Beachten Sie unbedingt die folgenden Empfehlungen und Einschränkungen, wenn Sie
 
 Gehen Sie wie folgt vor, um einen IP-Bereich auf die Zulassungsliste zu setzen:
 
-1. Open the **[!UICONTROL SFTP]** card, then select the **[!UICONTROL IP Allow Listing]** tab.
+1. Öffnen Sie die Karte **[!UICONTROL SFTP]** und wählen Sie dann die Registerkarte **[!UICONTROL IP-Zulassungsauflistung]** aus.
 1. Die Liste der IP-Adressen auf der Zulassungsliste wird für jede Instanz angezeigt. Wählen Sie in der linken Liste die gewünschte Instanz und danach die Schaltfläche **[!UICONTROL Neuen IP-Bereich hinzufügen]** aus.
 
    ![](assets/control_panel_add_range.png)
@@ -80,7 +80,7 @@ Um IP-Bereiche aus der Zulassungsliste zu löschen, wählen Sie sie aus und klic
 
 ## Änderungen überwachen {#monitoring-changes}
 
-Auf der Startseite im Control Panel können Sie mit der Option **[!UICONTROL Verarbeitungslogs]** alle Änderungen bei IP-Adressen überwachen, die sich auf der Zulassungsliste befinden.
+Auf der Startseite im Control Panel können Sie mit der Option **[!UICONTROL Vorgangslogs]** alle Änderungen bei IP-Adressen überwachen, die sich auf der Zulassungsliste befinden.
 
 Weitere Informationen zur Benutzeroberfläche des Control Panels finden Sie in [diesem Abschnitt](../../discover/using/discovering-the-interface.md).
 
