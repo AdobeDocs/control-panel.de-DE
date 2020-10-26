@@ -1,11 +1,11 @@
 ---
 title: Überwachen von SSL-Zertifikaten der Subdomains
 description: Erfahren Sie, wie Sie die SSL-Zertifikate Ihrer Subdomains überwachen.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 17f51b60310b4fbc89e2106eb4ee9251fd525a59
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '410'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 93%
 
 Adobe Campaign empfiehlt, die Subdomains zu schützen, die Ihre Landingpages hosten, insbesondere jene, die sensible Kundendaten erfassen.
 
-**Die SSL-Verschlüsselung (Secure Socket Layer)** stellt sicher, dass die Subdomänen, die Sie für die Verwendung mit Adobe konfiguriert haben, sicher sind. Wenn Ihr Kunde ein Web-Formular ausfüllt oder eine von Adobe Campaign gehostete Landingpage besucht, werden die Daten standardmäßig über ein nicht-sicheres Protokoll (HTTP) übertragen. Verwenden Sie zur Datenübertragung ein HTTPS-Protokoll, um besseren Schutz zu gewährleisten. Ihre Subdomain-Adresse &quot;http://info.mywebsite.com/&quot; würde dann &quot;https://info.mywebsite.com/&quot; lauten.
+Mit der **SSL-Verschlüsselung (Secure Socket Layer)** stellen Sie sicher, dass die Subdomains, die Sie für die Verwendung mit Adobe konfiguriert haben, sicher sind. Wenn Ihr Kunde ein Web-Formular ausfüllt oder eine von Adobe Campaign gehostete Landingpage besucht, werden die Daten standardmäßig über ein nicht-sicheres Protokoll (HTTP) übertragen. Verwenden Sie zur Datenübertragung ein HTTPS-Protokoll, um besseren Schutz zu gewährleisten. Ihre Subdomain-Adresse &quot;http://info.mywebsite.com/&quot; würde dann &quot;https://info.mywebsite.com/&quot; lauten.
 
-**SSL-Zertifikate werden nicht auf den konfigurierten Subdomänen selbst** installiert. Sie sind auf verbundenen Subdomains installiert, darunter vor allem auf jenen, die Landingpages oder Seiten mit Ressourcen hosten.
+**SSL-Zertifikate sind nicht auf den konfigurierten Subdomains selbst installiert**. Sie sind auf verbundenen Subdomains installiert, darunter vor allem auf jenen, die Landingpages oder Seiten mit Ressourcen hosten.
 
 **SSL-Zertifikate werden für einen bestimmten Zeitraum bereitgestellt** (1 Jahr, 60 Tage usw.). Wenn ein Zertifikat abgelaufen ist, können Probleme beim Zugriff auf die Landingpages oder bei der Verwendung von auf der Subdomain vorhandenen Ressourcen auftreten. Um dies zu verhindern, können Sie über das Control Panel die SSL-Zertifikate Ihrer Subdomains überwachen und eine Verlängerung beantragen.
 
@@ -57,6 +57,6 @@ Wenn eines der SSL-Zertifikate Ihrer Subdomain bald abläuft, können Sie es dir
 
 **Verwandte Themen:**
 
-* [Hinzufügen von SSL-Zertifikaten (Tutorial-Video)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/adding-ssl-certificates.html)
+* [Hinzufügen von SSL-Zertifikaten (Tutorial-Video)](https://docs.adobe.com/content/help/de-DE/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html)
 * [Verlängern des SSL-Zertifikats einer Subdomain](../../subdomains-certificates/using/renewing-subdomain-certificate.md)
 * [Subdomain-Branding](../../subdomains-certificates/using/subdomains-branding.md)
