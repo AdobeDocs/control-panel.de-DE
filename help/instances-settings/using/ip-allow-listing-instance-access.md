@@ -1,11 +1,11 @@
 ---
 title: IP-Zulassungsauflistung
 description: Erfahren Sie, wie Sie der Zulassungsliste im Control Panel IP-Adressen für den Zugriff auf Instanzen hinzufügen.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 35723590195ef54df42d1d1df5b37490787f8836
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '790'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -53,7 +53,7 @@ Gehen Sie wie folgt vor, um IP-Adressen auf die Zulassungsliste zu setzen:
 
    >[!NOTE]
    >
-   >Wenn die Instanz-Einstellungskarte nicht auf der Startseite der Systemsteuerung angezeigt wird, bedeutet dies, dass Ihre IMS-Organisations-ID nicht mit Adobe Campaign Classic-Instanzen verknüpft ist.
+   >Wenn die Karte „Instanzeneinstellungen“ nicht auf der Startseite des Control Panel sichtbar ist, bedeutet das, dass Ihre Kennung der IMS-Organisation mit keiner Adobe Campaign Classic-Instanz verknüpft ist.
 
    ![](assets/ip_whitelist_list1.png)
 
@@ -89,5 +89,5 @@ Gehen Sie wie folgt vor, um IP-Adressen auf die Zulassungsliste zu setzen:
 Um IP-Bereiche aus der Zulassungsliste zu löschen, wählen Sie sie aus und klicken Sie anschließend auf die Schaltfläche **[!UICONTROL IP-Bereich löschen]**.
 
 **Verwandte Themen:**
-* [IP-Zulassungsauflistung (Tutorial-Video)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/ip-allow-listing.html)
+* [IP-Zulassungsauflistung (Tutorial-Video)](https://docs.adobe.com/content/help/de-DE/campaign-classic-learn/control-panel/instance-settings/ip-allow-listing.html)
 * [Sicherheitszone mit einem Benutzer verknüpfen](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html#Linking_a_security_zone_to_an_operator)
