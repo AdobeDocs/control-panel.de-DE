@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 4488040118bac708348bc73c5e525f35f6b1e6c1
 workflow-type: tm+mt
 source-wordcount: '1128'
-ht-degree: 49%
+ht-degree: 99%
 
 ---
 
@@ -20,25 +20,25 @@ ht-degree: 49%
 
 >[!IMPORTANT]
 >
->Die Subdomänenkonfiguration über die Systemsteuerung ist in der Beta-Version verfügbar und unterliegt häufigen Aktualisierungen und Änderungen ohne Vorankündigung.
+>Die Subdomain-Konfiguration über das Control Panel befindet sich in der Beta-Phase und unterliegt häufigen Aktualisierungen und Änderungen ohne Vorankündigung.
 
-Auf dieser Seite finden Sie Informationen zum Einrichten neuer Subdomänen mit vollständiger Subdomänenübertragung oder CNAMEs. Globale Konzepte zu diesen beiden Methoden werden in diesem Abschnitt vorgestellt: [](../../subdomains-certificates/using/subdomains-branding.md).
+Auf dieser Seite finden Sie Informationen zum Einrichten neuer Subdomains mit der vollständigen Subdomain-Zuweisung oder mit CNAME. Globale Konzepte zu diesen beiden Methoden werden in diesem Abschnitt vorgestellt: [](../../subdomains-certificates/using/subdomains-branding.md).
 
 **Verwandte Themen:**
 
-* [Zuweisen von Subdomains (Tutorial-Video)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/subdomain-delegation.html)
-* [Konfigurieren von Subdomänen mit CNAMEs (Lernvideo)](https://docs.adobe.com/content/help/en/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html)
+* [Zuweisen von Subdomains (Tutorial-Video)](https://docs.adobe.com/content/help/de-DE/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html)
+* [Konfigurieren von Subdomänen mit CNAMEs (Lernvideo)](https://docs.adobe.com/content/help/de-DE/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html)
 * [Überwachen von Subdomains](../../subdomains-certificates/using/monitoring-subdomains.md)
 
 ## Wichtige Informationen {#must-read}
 
 ### Instanzauswahl
 
-Subdomain configuration is available for **production** instances only.
+Die Konfiguration von Subdomains ist nur für **Produktionsinstanzen** verfügbar.
 
-Wenn die Instanz, die Sie im Assistenten auswählen, noch keine Subdomänen eingerichtet hat, wird die erste konfigurierte Subdomäne zur **primären Subdomäne** für diese Instanz und Sie können sie in Zukunft nicht mehr ändern.
+Wenn die im Assistenten ausgewählte Instanz keine zuvor eingerichteten Subdomains hat, wird die erste konfigurierte Subdomain zur **primären Subdomain** für diese Instanz. Sie werden dies später nicht mehr ändern können.
 
-Daher werden **umgekehrte DNS-Datensätze** für andere Subdomänen erstellt, die diese primäre Subdomäne verwenden. **Außerdem werden über die primäre Subdomain Antwort- und Bounce-Adressen für andere Subdomains generiert.**
+Daher werden **Reverse-DNS-Einträge** für andere Subdomains mithilfe dieser primären Subdomain erstellt. **Außerdem werden über die primäre Subdomain Antwort- und Bounce-Adressen für andere Subdomains generiert.**
 
 ### Nameserver-Konfiguration
 
@@ -48,7 +48,7 @@ Erstellen Sie außerdem **keine separate Zonendatei** für diese neue Subdomain.
 
 ## Vollständige Subdomain-Zuweisung {#full-subdomain-delegation}
 
-Gehen Sie wie folgt vor, um eine Subdomäne vollständig an Adobe Campaign zu delegieren:
+Gehen Sie wie folgt vor, um eine Subdomain Adobe Campaign vollständig zuzuweisen:
 
 1. Wählen Sie auf der Karte **[!UICONTROL Subdomains &amp; Zertifikate]** die gewünschte Produktionsinstanz und danach **[!UICONTROL Neue Subdomain einrichten]** aus.
 
@@ -64,7 +64,7 @@ Gehen Sie wie folgt vor, um eine Subdomäne vollständig an Adobe Campaign zu de
 
 1. Nachdem die Subdomain mit den entsprechenden Adobe-Nameserver-Informationen erstellt wurde, wählen Sie **[!UICONTROL Weiter]** aus.
 
-1. Wenn Sie eine Campaign Classic-Instanz ausgewählt haben, wählen Sie den gewünschten Anwendungsfall für die Subdomäne aus: **Marketing-Kommunikation** oder **Transaktions- und Betriebskommunikation**. Globale Konzepte zu den Anwendungsfällen von Subdomänen werden in [diesem Abschnitt](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases)vorgestellt.
+1. Wenn Sie eine Campaign Classic-Instanz ausgewählt haben, wählen Sie den gewünschten Anwendungsfall für die Subdomain aus: **Marketingnachrichten** oder **Transaktions- und Betriebsnachrichten**. Globale Konzepte zu den Anwendungsfällen von Subdomains werden in [diesem Abschnitt](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases) vorgestellt.
 
    ![](assets/subdomain5.png)
 
@@ -74,67 +74,67 @@ Gehen Sie wie folgt vor, um eine Subdomäne vollständig an Adobe Campaign zu de
 
    ![](assets/subdomain6.png)
 
-Sobald die Subdomäne gesendet wurde, führt die Systemsteuerung verschiedene Prüfungen und Konfigurationsschritte durch. Weitere Informationen hierzu finden Sie unter []( ../../subdomains-certificates/using/setting-up-new-subdomain.md#subdomain-ecks-and-configuration).
+Sobald die Subdomain gesendet wurde, führt das Control Panel verschiedene Prüfungen und Konfigurationsschritte durch. Weitere Informationen hierzu finden Sie unter []((../../subdomains-certificates/using/setting-up-new-subdomain.md#subdomain-checks-and-configuration).
 
-## Subdomänenkonfiguration mit CNAMEs {#use-cnames}
+## Subdomain-Konfiguration mit CNAME {#use-cnames}
 
-Gehen Sie wie folgt vor, um eine Subdomäne mithilfe von CNAMEs zu konfigurieren:
+Gehen Sie wie folgt vor, um eine Subdomain mit CNAME zu konfigurieren:
 
 1. Wählen Sie auf der Karte **[!UICONTROL Subdomains &amp; Zertifikate]** die gewünschte Produktionsinstanz und danach **[!UICONTROL Neue Subdomain einrichten]** aus.
 
    ![](assets/subdomain1.png)
 
-1. Wählen Sie die **[!UICONTROL CNAME]** -Methode und klicken Sie dann auf **[!UICONTROL Weiter]**.
+1. Wählen Sie die **[!UICONTROL CNAME]**-Methode aus und klicken Sie dann auf **[!UICONTROL Weiter]**.
 
    ![](assets/cname-method-selection.png)
 
-1. Wenn Sie eine Campaign Classic-Instanz ausgewählt haben, wählen Sie den gewünschten Anwendungsfall für die Subdomäne aus: **Marketing-Kommunikation** oder **Transaktions- und Betriebskommunikation**. Globale Konzepte zu den Anwendungsfällen von Subdomänen werden in [diesem Abschnitt](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases)vorgestellt.
+1. Wenn Sie eine Campaign Classic-Instanz ausgewählt haben, wählen Sie den gewünschten Anwendungsfall für die Subdomain aus: **Marketingnachrichten** oder **Transaktions- und Betriebsnachrichten**. Globale Konzepte zu den Anwendungsfällen von Subdomains werden in [diesem Abschnitt](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases) vorgestellt.
 
    ![](assets/cname-use-case.png)
 
-1. Enter the subdomain that you created into your hosting solution, then click **[!UICONTROL Next]**.
+1. Geben Sie die von Ihnen erstellte Subdomain in Ihre Hosting-Lösung ein und wählen Sie dann **[!UICONTROL Weiter]** aus.
 
-   Make sure you fill in the **full name** of the subdomain to setup. Geben Sie zum Konfigurieren der Subdomäne &quot;usoffer.email.weretail.com&quot;den Wert &quot;usoffer.email.weretail.com&quot;ein.
+   Vergewissern Sie sich, dass Sie den **vollständigen Namen** der einzurichtenden Subdomain eingeben. Um beispielsweise die Subdomain „usoffer.email.weretail.com“ zu konfigurieren, geben Sie „usoffer.email.weretail.com“ ein.
 
    ![](assets/cname-submit.png)
 
-1. Die Liste der Datensätze, die auf Ihren DNS-Servern gespeichert werden sollen, wird angezeigt. Kopieren Sie diese Datensätze entweder einzeln oder durch Herunterladen einer CSV-Datei und navigieren Sie dann zu Ihrer Domänenhostinglösung, um die entsprechenden DNS-Datensätze zu generieren.
+1. Die Liste der Einträge, die auf Ihren DNS-Servern gespeichert werden sollen, wird angezeigt. Kopieren Sie diese Einträge entweder einzeln oder durch Herunterladen einer CSV-Datei, und navigieren Sie dann zu Ihrer Domain-Hosting-Lösung, um die passenden DNS-Einträge zu generieren.
 
    ![](assets/cname-generate-record.png)
 
-1. Stellen Sie sicher, dass alle DNS-Datensätze aus vorherigen Schritten in Ihrer Domänenhostinglösung generiert wurden. Wenn alles richtig konfiguriert ist, wählen Sie die erste Anweisung aus und klicken Sie dann zur Bestätigung auf **[!UICONTROL Senden]** .
+1. Stellen Sie sicher, dass alle DNS-Einträge aus den vorherigen Schritten in Ihrer Domain-Hosting-Lösung generiert wurden. Wenn alles richtig konfiguriert ist, wählen Sie die erste Aussage aus und klicken Sie dann zur Bestätigung auf **[!UICONTROL Senden]**.
 
    ![](assets/cname-confirmation.png)
 
    >[!NOTE]
    >
-   >Wenn Sie die Datensätze erstellen und die Subdomänenkonfiguration später senden möchten, wählen Sie die zweite Anweisung aus und klicken Sie dann auf Später **[!UICONTROL senden]**. Anschließend können Sie die Konfiguration der Subdomäne direkt über den Bereich **[!UICONTROL Verarbeitung]** des Verwaltungsbildschirms für Subdomänen fortsetzen.
+   >Wenn Sie die Einträge erstellen und die Subdomain-Konfiguration später senden möchten, wählen Sie die zweite Aussage aus und klicken Sie dann auf **[!UICONTROL Später senden]**. Sie können dann die Konfiguration der Subdomain direkt über den **[!UICONTROL Verarbeitungsbereich]** des Bildschirms zur Subdomain-Verwaltung fortsetzen.
    >
-   >Beachten Sie, dass DNS-Einträge, die auf Ihrem Server abgelegt werden sollen, 30 Tage von der Systemsteuerung aufbewahrt werden. Nach Ablauf dieses Zeitraums müssen Sie die Subdomäne von Grund auf neu konfigurieren.
+   >Beachten Sie, dass DNS-Einträge, die auf Ihrem Server abgelegt werden sollen, vom Control Panel 30 Tage lang aufbewahrt werden. Nach diesem Zeitraum müssen Sie die Subdomain von Grund auf neu konfigurieren.
 
-Sobald die Subdomäne gesendet wurde, führt die Systemsteuerung verschiedene Prüfungen und Konfigurationsschritte durch. Weiterführende Informationen dazu finden Sie unter [](../../subdomains-certificates/using/setting-up-new-subdomain.md#subdomain-checks-and-configuration).
+Sobald die Subdomain gesendet wurde, führt das Control Panel verschiedene Prüfungen und Konfigurationsschritte durch. Weiterführende Informationen dazu finden Sie unter [](../../subdomains-certificates/using/setting-up-new-subdomain.md#subdomain-checks-and-configuration).
 
-## Subdomänenprüfungen und -konfiguration {#subdomain-checks-and-configuration}
+## Subdomain-Prüfungen und -konfiguration {#subdomain-checks-and-configuration}
 
-1. Sobald eine Subdomäne übermittelt wurde, prüft die Systemsteuerung, ob sie korrekt auf die Adobe NS records verweist und ob der Beginn des Authority (SOA)-Datensatzes für diese Subdomäne nicht vorhanden ist.
+1. Nachdem eine Subdomain übermittelt wurde, prüft das Control Panel, ob sie korrekt auf Adobe-NS-Einträge verweist. Zusätzlich wird sichergestellt, dass für diese Subdomain kein SOA-Eintrag (Start of Authority) existiert.
 
    >[!NOTE]
    >
-   >Beachten Sie, dass während der Ausführung der Subdomänenkonfiguration andere Anforderungen über die Systemsteuerung in eine Warteschlange eingegeben und erst nach Abschluss der Subdomänenkonfiguration ausgeführt werden, um Leistungsprobleme zu vermeiden.
+   >Beachten Sie, dass während der Ausführung der Subdomain-Konfiguration andere Anfragen über das Control Panel in einer Warteschlange gereiht und erst nach Abschluss der Subdomain-Konfiguration ausgeführt werden, um Leistungsprobleme zu vermeiden.
 
-1. Wenn die Prüfungen erfolgreich sind, beginnt das Control Panel mit der Einrichtung der Subdomain mit DNS-Einträgen, zusätzlichen URLs, Postfächern usw.
+1. Wenn die Prüfungen erfolgreich sind, beginnt das Control Panel mit der Einrichtung der Subdomain mit DNS-Einträgen, zusätzlichen URLs, Posteingängen usw.
 
    ![](assets/subdomain7.png)
 
-   You can get more details on the configuration progress by clicking the subdomain configuration **[!UICONTROL Details]** button.
+   Wählen Sie **[!UICONTROL Details]** für die Subdomain-Konfiguration aus, um weitere Informationen zum Konfigurationsfortschritt zu erhalten.
 
    ![](assets/subdomain_audit.png)
 
-1. Schließlich wird das **Zustellbarkeitsteam** über die neue Subdomain informiert, um sie zu prüfen. Der Prüfungsprozess kann bis zu 10 Werktage nach der Konfiguration der Subdomäne dauern.
+1. Schließlich wird das **Zustellbarkeitsteam** über die neue Subdomain informiert, um sie zu prüfen. Der Prüfvorgang kann bis zu 10 Werktage dauern, nachdem die Subdomain konfiguriert wurde.
 
    >[!IMPORTANT]
    >
-   >Zu den durchgeführten Lieferbarkeitsprüfungen zählen Feedback-Schleifen und Spam-Reklamationsschleifen-Tests. Daher empfehlen wir nicht, die Subdomain vor Abschluss der Prüfung zu verwenden, da dies zu einer schlechten Reputation der Subdomain führen kann.
+   >Die durchgeführten Zustellbarkeitsprüfungen umfassen das Testen von Feedback-Schleifen und Spam-Beschwerdeschleifen. Daher empfehlen wir nicht, die Subdomain vor Abschluss der Prüfung zu verwenden, da dies zu einer schlechten Reputation der Subdomain führen kann.
 
 1. Am Ende des Prozesses werden die Subdomains für die Verwendung mit Ihrer Adobe Campaign-Instanz konfiguriert und die folgenden Elemente erstellt:
 
@@ -154,6 +154,6 @@ Klicken Sie auf **[!UICONTROL Details der Subdomain]** und **[!UICONTROL Absende
 
 ## Fehlerbehebung {#troubleshooting}
 
-* In einigen Fällen wird die Subdomänenkonfiguration durchgeführt, aber die Subdomäne wird möglicherweise nicht erfolgreich überprüft. Die Subdomain verbleibt mit einem Vorgangslog mit Informationen zum Fehler in der Liste **[!UICONTROL Konfiguriert]**. Wenden Sie sich an die Kundenunterstützung, wenn Sie Probleme bei der Lösung des Problems haben.
+* In einigen Fällen wird die Subdomain-Konfiguration durchgeführt, die Subdomain wird jedoch möglicherweise nicht erfolgreich verifiziert. Die Subdomain verbleibt mit einem Vorgangslog mit Informationen zum Fehler in der Liste **[!UICONTROL Konfiguriert]**. Wenden Sie sich an die Kundenunterstützung, wenn Sie Probleme bei der Lösung des Problems haben.
 * Wenn die Subdomain nach der Konfiguration als &quot;Nicht verifiziert&quot; angezeigt wird, starten Sie eine neue Subdomain-Verifizierung (**...** / **[!UICONTROL Subdomain verifizieren]**). Wenn immer noch derselbe Status angezeigt wird, kann dies daran liegen, dass einige Anpassungen am Empfängerschema vorgenommen wurden, die mit Standardprozessen nicht überprüft werden können. Versuchen Sie, über diese Subdomain eine Kampagne zu senden.
 * Wenn die Konfiguration der Subdomain bei der Zustellbarkeitsprüfung zu lange dauert (mehr als 10 Werktage), wenden Sie sich an die Kundenunterstützung.
