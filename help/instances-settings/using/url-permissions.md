@@ -1,11 +1,11 @@
 ---
 title: URL-Genehmigungen
 description: Erfahren Sie, wie Sie URL-Genehmigungen im Control Panel verwalten.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 35723590195ef54df42d1d1df5b37490787f8836
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '617'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Nach dem Hinzufügen einer URL wird sie in der Konfigurationsdatei der Instanz r
 
 * [Campaign-Server konfigurieren](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html)
 * [Schutz der ausgehenden Verbindung](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html#Outgoing_connection_protection)
-* [Adding URL Permissions (Video-Tutorial)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/adding-url-permissions.html)
+* [Adding URL Permissions (Video-Tutorial)](https://docs.adobe.com/content/help/de-DE/campaign-classic-learn/control-panel/instance-settings/adding-url-permissions.html)
 
 ## Best Practices {#best-practices}
 
@@ -55,7 +55,7 @@ Gehen Sie wie folgt vor, um eine URL hinzuzufügen, mit der sich Ihre Instanz ve
 
    >[!NOTE]
    >
-   >Wenn die Instanz-Einstellungskarte nicht auf der Startseite der Systemsteuerung angezeigt wird, bedeutet dies, dass Ihre IMS-Organisations-ID nicht mit Adobe Campaign Classic-Instanzen verknüpft ist.
+   >Wenn die Karte „Instanzeneinstellungen“ nicht auf der Startseite des Control Panel sichtbar ist, bedeutet das, dass Ihre Kennung der IMS-Organisation mit keiner Adobe Campaign Classic-Instanz verknüpft ist.
    >
    >Auf der Registerkarte <b><span class="uicontrol">URL-Genehmigungen</span></b> werden alle externen URLs aufgelistet, mit denen Ihre Instanz eine Verbindung herstellen kann. Diese Liste enthält jedoch nicht die URLs, die für das Funktionieren von Campaign erforderlich sind (z. B. Verbindungen zwischen Infrastrukturelementen).
 
