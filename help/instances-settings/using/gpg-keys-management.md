@@ -1,11 +1,11 @@
 ---
 title: GPG-Schlüsselverwaltung
 description: Erfahren Sie, wie GPG-Schlüssel zum Ver- und Entschlüsseln von Daten innerhalb von Adobe Campaign verwaltet werden.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1fe1bf8cd90218c54076988780b53819e9fad304
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1139'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -28,8 +28,8 @@ Anschließend können Sie:
 
 **Verwandte Themen:**
 
-* [Tutorials für Campaign Standard](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/gpg-key-management-overview.html)
-* [Tutorials für Campaign Classic](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/gpg-key-management-overview.html)
+* [Tutorials für Campaign Standard](https://docs.adobe.com/content/help/de-DE/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/gpg-key-management-overview.html)
+* [Tutorials für Campaign Classic](https://docs.adobe.com/content/help/de-DE/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/gpg-key-management-overview.html)
 
 ## Verschlüsseln von Daten {#encrypting-data}
 
@@ -113,7 +113,7 @@ Gehen Sie wie folgt vor, um ein Schlüsselpaar im Control Panel zu generieren:
 
    ![](assets/gpg_generate.png)
 
-1. Specify the name of the key, then click **[!UICONTROL Generate Key]**. Mithilfe dieses Namens können Sie den Schlüssel identifizieren, der für die Entschlüsselung in Campaign-Workflows verwendet werden soll
+1. Geben Sie den Namen des Schlüssels an und klicken Sie dann auf **[!UICONTROL Schlüssel generieren]**. Mithilfe dieses Namens können Sie den Schlüssel identifizieren, der für die Entschlüsselung in Campaign-Workflows verwendet werden soll
 
    ![](assets/gpg_generate_name.png)
 
@@ -163,7 +163,7 @@ In der Liste werden alle GPG-Schlüssel zur Ver- und Entschlüsselung angezeigt,
    >
    >Beachten Sie, dass das Control Panel keine E-Mail-Benachrichtigungen sendet.
 
-Als Best Practice empfehlen wir, alle Schlüssel zu entfernen, die Sie nicht mehr benötigen. Klicken Sie dazu auf die Schaltfläche **...** und wählen Sie dann **[!UICONTROL Schlüssel löschen]aus.**
+Als Best Practice empfehlen wir, alle Schlüssel zu entfernen, die Sie nicht mehr benötigen. Klicken Sie dazu auf die Schaltfläche **...** und wählen Sie dann **[!UICONTROL Schlüssel löschen] aus.**
 
 ![](assets/gpg_delete.png)
 
