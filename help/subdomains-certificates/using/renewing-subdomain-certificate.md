@@ -1,11 +1,11 @@
 ---
 title: Verlängern des SSL-Zertifikats einer Subdomain
 description: Erfahren Sie, wie Sie die Zertifikate Ihrer Subdomains verlängern.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 17f51b60310b4fbc89e2106eb4ee9251fd525a59
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '867'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 94%
 
 >[!IMPORTANT]
 >
->Die Subdomänenkonfiguration über die Systemsteuerung ist in der Beta-Version verfügbar und unterliegt häufigen Aktualisierungen und Änderungen ohne Vorankündigung.
+>Die Subdomain-Konfiguration über das Control Panel befindet sich in der Beta-Phase und unterliegt häufigen Aktualisierungen und Änderungen ohne Vorankündigung.
 
 ## Über die Zertifikatsverlängerung {#about-certificate-renewal-process}
 
@@ -100,7 +100,7 @@ Nachdem Sie eine Certificate Signing Request (CSR) über das Control Panel gener
 Sobald Sie ein SSL-Zertifikat gekauft haben, können Sie es auf Ihrer Instanz installieren. Bevor Sie fortfahren, achten Sie auf folgende Voraussetzungen:
 
 * Die Certificate Signing Request (CSR) muss über das Control Panel generiert worden sein. Andernfalls können Sie das Zertifikat nicht über das Control Panel installieren.
-* Die Zertifikatssignaturanforderung (CSR) sollte mit der Subdomäne übereinstimmen, die für die Verwendung mit Adobe konfiguriert wurde. Es kann beispielsweise nicht mehr Subdomänen enthalten, als die konfigurierte.
+* Die Certificate Signing Request (CSR) sollte mit der Subdomain übereinstimmen, die für die Verwendung mit Adobe konfiguriert wurde. Sie kann beispielsweise nicht mehr Subdomains enthalten als diejenige, die konfiguriert wurde.
 * Das Datum des Zertifikats muss aktuell sein. Es ist nicht möglich, Zertifikate mit einem Datum in der Zukunft zu installieren. Zertifikate dürfen nicht abgelaufen sein (d. h. gültiges Start- und Enddatum).
 * Das Zertifikat muss von einer vertrauenswürdigen Zertifizierungsstelle (CA) wie Comodo, DigiCert, GoDaddy usw. ausgestellt sein.
 * Die Größe des Zertifikats darf maximal 2048 Bit betragen und der Algorithmus muss vom Typ RSA sein.
@@ -135,6 +135,6 @@ Nach der Installation des SSL-Zertifikats werden das Ablaufdatum und das Statuss
 
 **Verwandte Themen:**
 
-* [Hinzufügen von SSL-Zertifikaten (Tutorial-Video)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/adding-ssl-certificates.html)
+* [Hinzufügen von SSL-Zertifikaten (Tutorial-Video)](https://docs.adobe.com/content/help/de-DE/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html)
 * [Subdomain-Branding](../../subdomains-certificates/using/subdomains-branding.md)
 * [Überwachen von Subdomains](../../subdomains-certificates/using/monitoring-subdomains.md)
