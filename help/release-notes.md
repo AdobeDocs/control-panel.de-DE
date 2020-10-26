@@ -4,14 +4,14 @@ translation-type: tm+mt
 source-git-commit: ee5c44c8b22b1053b7993744aa4898a10761782a
 workflow-type: tm+mt
 source-wordcount: '620'
-ht-degree: 80%
+ht-degree: 95%
 
 ---
 
 
 # Control Panel-Versionen {#control-panel-releases}
 
-Hier finden Sie Informationen zu den neuesten Versionen der Systemsteuerung.
+Hier finden Sie Informationen zu den aktuellen Versionen des Control Panel.
 
 >[!NOTE]
 >
@@ -19,9 +19,9 @@ Hier finden Sie Informationen zu den neuesten Versionen der Systemsteuerung.
 
 ## Oktober 2020 {#october-2020}
 
-**Subdomänenkonfiguration mit CNAMEs**
+**Subdomain-Konfiguration mit CNAME**
 
-Über die Systemsteuerung können Sie jetzt eine Subdomäne für die Verwendung von CNAMEs direkt über die Oberfläche konfigurieren. [mehr dazu](subdomains-certificates/using/setting-up-new-subdomain.md)
+Im Control Panel können Sie jetzt mit CNAME eine Subdomain für die Verwendung mit Adobe direkt über die Benutzeroberfläche konfigurieren. [Mehr dazu](subdomains-certificates/using/setting-up-new-subdomain.md)
 
 **Verbesserungen bei der Datenbanküberwachung**
 
@@ -36,8 +36,8 @@ Nachdem Sie eine neue Subdomain zugewiesen haben, können Sie nun mit dem Contro
 **GPG-Schlüsselverwaltung**
 
 Im Control Panel können Sie jetzt ein GPG-Schlüsselpaar generieren, sodass Sie in Campaign eingehende externe Daten problemlos entschlüsseln können. Darüber hinaus können Sie einen öffentlichen GPG-Schlüssel installieren, um von Campaign ausgehende Daten zu verschlüsseln. [Mehr dazu](instances-settings/using/gpg-keys-management.md)
-* [Tutorials für Campaign Standard](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/gpg-key-management-overview.html)
-* [Tutorials für Campaign Classic](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/gpg-key-management-overview.html)
+* [Tutorials für Campaign Standard](https://docs.adobe.com/content/help/de-DE/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/gpg-key-management-overview.html)
+* [Tutorials für Campaign Classic](https://docs.adobe.com/content/help/de-DE/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/gpg-key-management-overview.html)
 
 **Überwachung aktiver Profile**
 
@@ -53,7 +53,7 @@ Im Control Panel können Sie jetzt die Anzahl der aktiven Profile überwachen, d
 
 **Zertifikatverwaltung für CNAME-Subdomains**
 
-Über die Systemsteuerung können Sie jetzt die SSL-Zertifikate Ihrer Subdomänen erneuern, die mit der CNAME-Methode konfiguriert wurden. [Mehr dazu](subdomains-certificates/using/renewing-subdomain-certificate.md)
+Das Control Panel ermöglicht es Ihnen jetzt, die SSL-Zertifikate Ihrer Subdomains zu erneuern, die mit der CNAME-Methode konfiguriert wurden. [Mehr dazu](subdomains-certificates/using/renewing-subdomain-certificate.md)
 
 ## April 2020 {#april-2020}
 
@@ -73,7 +73,7 @@ Das Campaign Control Panel bietet Funktionen zum Empfang von E-Mail-Warnungen in
 
 *22. Januar 2020*
 
-Es wurden neue Funktionen hinzugefügt, mit denen Admin-Benutzer Subdomänen konfigurieren und SSL-Zertifikate über die Systemsteuerung erneuern können.
+Für Admin-Benutzer wurden neue Funktionen hinzugefügt, mit denen sie über das Control Panel Subdomains konfigurieren und SSL-Zertifikate verlängern können.
 
 Weitere Informationen finden Sie auf den folgenden Seiten:
 * [Einrichten einer neuen Subdomain](subdomains-certificates/using/setting-up-new-subdomain.md)
