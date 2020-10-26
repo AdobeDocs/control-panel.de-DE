@@ -1,11 +1,11 @@
 ---
 title: Subdomain-Branding
 description: Weitere Informationen zum Branding von Subdomains
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 17f51b60310b4fbc89e2106eb4ee9251fd525a59
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '702'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 80%
 
 >[!IMPORTANT]
 >
->Die Subdomänenkonfiguration über die Systemsteuerung ist in der Beta-Version verfügbar und unterliegt häufigen Aktualisierungen und Änderungen ohne Vorankündigung.
+>Die Subdomain-Konfiguration über das Control Panel befindet sich in der Beta-Phase und unterliegt häufigen Aktualisierungen und Änderungen ohne Vorankündigung.
 
 ## Warum sollten Sie Subdomains einrichten? {#why-setting-up-subdomains}
 
@@ -33,13 +33,13 @@ Nehmen wir zum Beispiel die Domain &quot;mybrand.com&quot;, die sowohl Transakti
 
 Dies hilft Ihnen, die Reputation Ihrer Domain und anderer Subdomains zu schützen. Wenn z. B. die Subdomains &quot;marketing.mybrand.com&quot; aufgrund schlechter Zustellbarkeit von Internetdienstanbietern auf die Blockierungsliste gesetzt werden, würde dies verhindern, dass die gesamte Domain &quot;mybrand.com&quot; und die Subdomain &quot;info.mybrand.com&quot; ebenfalls auf die Blockierungsliste gesetzt werden.
 
-## Subdomänenkonfigurationsmethoden {#subdomain-delegation-methods}
+## Methoden der Subdomain-Konfiguration {#subdomain-delegation-methods}
 
-Mit der Subdomänenkonfiguration können Sie einen Unterabschnitt Ihrer Domäne (technisch eine &quot;DNS-Zone&quot;) für die Verwendung mit Adobe Campaign konfigurieren. Verfügbare Einrichtungsmethoden sind:
+Mithilfe der Subdomain-Konfiguration können Sie einen Teil Ihrer Domain (technisch eine „DNS-Zone“) für die Verwendung mit Adobe Campaign konfigurieren. Verfügbare Einrichtungsmethoden sind:
 
 * **Vollständige Subdomain-Zuweisung an Adobe Campaign** (empfohlen): Die Subdomain wird Adobe vollständig zugewiesen. Adobe kann Campaign als verwalteten Dienst bereitstellen, im Rahmen dessen alle DNS-Bereiche kontrolliert und gewartet werden, die für die Zustellung, das Rendern und das Tracking von E-Mail-Kampagnen erforderlich sind.
 
-* **Verwendung von CNAMEs**: Erstellen Sie eine Subdomäne und verwenden Sie CNAMEs, um auf Adoben-spezifische Datensätze zu verweisen. Mit dieser Konfiguration sind Adobe und der Kunde gleichermaßen für die Wartung des DNS verantwortlich.
+* **Verwenden von CNAME**: Erstellen Sie eine Subdomain und verwenden Sie CNAME, um auf Adobe-spezifische Einträge zu verweisen. Mit dieser Konfiguration sind Adobe und der Kunde gleichermaßen für die Wartung des DNS verantwortlich.
 
 Die nachstehende Tabelle gibt einen Überblick über die Funktionsweise dieser Methoden sowie den damit verbundenen Aufwand:
 
@@ -48,13 +48,13 @@ Die nachstehende Tabelle gibt einen Überblick über die Funktionsweise dieser M
 | **Vollständige Zuweisung** | Sie erstellen die Subdomain und den Namespace-Eintrag. Adobe konfiguriert dann alle für Adobe Campaign erforderlichen DNS-Einträge.<br/><br/>Bei dieser Konfiguration hat Adobe die volle Verantwortung für die Pflege der Subdomain und aller DNS-Einträge. | Niedrig |
 | **CNAME, benutzerspezifische Methode** | Sie erstellen die Subdomain und den Namespace-Eintrag. Adobe stellt dann die Einträge bereit, die auf Ihren DNS-Servern abgelegt werden sollen, und konfiguriert die entsprechenden Werte in den Adobe Campaign-DNS-Servern.<br/><br/>Bei dieser Konfiguration sind Sie und Adobe gemeinsam für die Pflege des DNS verantwortlich. | Hoch |
 
-Additional information on domain configuration is available in [this documentation](https://helpx.adobe.com/de/campaign/kb/domain-name-delegation.html).
+Weitere Informationen zur Domain-Konfiguration finden Sie in [dieser Dokumentation](https://helpx.adobe.com/de/campaign/kb/domain-name-delegation.html).
 
-Wenden Sie sich bei Fragen zu Subdomänenkonfigurationsmethoden an das Adobe Deliverability Team oder wenden Sie sich an den Kundendienst, um Beratung zur Lieferbarkeit anzufordern.
+Wenden Sie sich bei Fragen zu den Methoden der Subdomain-Konfiguration an das Zustellbarkeitsteam von Adobe oder an die Kundenunterstützung, um eine Beratung zu Fragen der Zustellbarkeit anzufordern.
 
-## Anwendungsfälle von Subdomänen (Campaign Classic) (#subdomains-use-case)
+## Anwendungsfälle von Subdomains (Campaign Classic) (#subdomains-use-case)
 
-Beim Einrichten von Subdomänen für Campaign Classic-Instanzen müssen Sie den Anwendungsfall auswählen, für den die Subdomäne verwendet werden soll (siehe [](../../subdomains-certificates/using/setting-up-new-subdomain.md)).
+Beim Einrichten von Subdomains für Campaign Classic-Instanzen müssen Sie den Anwendungsfall auswählen, für den die Subdomain verwendet werden soll (siehe [](../../subdomains-certificates/using/setting-up-new-subdomain.md)).
 
 Mögliche Anwendungsfälle sind:
 
@@ -64,7 +64,7 @@ Mögliche Anwendungsfälle sind:
 
 **Die Unterteilung Ihrer Subdomains nach Anwendungsfällen ist eine Best Practice für die Zustellbarkeit**. Dadurch wird die Reputation jeder Subdomain isoliert und geschützt. Wenn Ihre Subdomain für Marketing-Nachrichten beispielsweise von Internetdienstanbietern auf die Blockierungsliste gesetzt wird, wird Ihre Subdomain für Transaktionsnachrichten nicht beeinträchtigt und kann weiterhin Nachrichten senden.
 
-**Sie können eine Subdomäne sowohl für Marketing- als auch für Transaktionszwecke** konfigurieren:
+**Sie können Subdomains für sowohl Marketing- als auch Transaktionsanwendungsfälle konfigurieren**:
 
 * Bei Marketing-Anwendungsfällen werden Subdomains in **MID**-Instanzen (Mid Sourcing) konfiguriert.
 * Bei Transaktionsanwendungsfällen werden Subdomains in ALLEN **RT**-Instanzen (Message Center/Real Time Messaging) konfiguriert, um Konnektivität zu gewährleisten. Die Subdomains funktionieren daher mit allen RT-Instanzen.
@@ -76,5 +76,5 @@ Mögliche Anwendungsfälle sind:
 **Verwandte Themen:**
 
 * [Einrichten einer neuen Subdomain](../../subdomains-certificates/using/setting-up-new-subdomain.md)
-* [Lernvideo](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/subdomain-delegation.html)
+* [Tutorial-Video](https://docs.adobe.com/content/help/de-DE/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html)
 * [Überwachen von Subdomains](../../subdomains-certificates/using/monitoring-subdomains.md)
