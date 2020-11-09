@@ -2,10 +2,10 @@
 title: Einrichten einer neuen Subdomain
 description: Erfahren Sie, wie Sie eine neue Subdomain für Ihre Campaign-Instanz einrichten.
 translation-type: tm+mt
-source-git-commit: 4488040118bac708348bc73c5e525f35f6b1e6c1
+source-git-commit: a9dbcef585be629b77b7154535df95fc4778d781
 workflow-type: tm+mt
-source-wordcount: '1128'
-ht-degree: 99%
+source-wordcount: '1134'
+ht-degree: 96%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 99%
 >
 >Die Subdomain-Konfiguration über das Control Panel befindet sich in der Beta-Phase und unterliegt häufigen Aktualisierungen und Änderungen ohne Vorankündigung.
 
-Auf dieser Seite finden Sie Informationen zum Einrichten neuer Subdomains mit der vollständigen Subdomain-Zuweisung oder mit CNAME. Globale Konzepte zu diesen beiden Methoden werden in diesem Abschnitt vorgestellt: [](../../subdomains-certificates/using/subdomains-branding.md).
+Auf dieser Seite finden Sie Informationen zum Einrichten neuer Subdomains mit der vollständigen Subdomain-Zuweisung oder mit CNAME. Global concepts on these two methods are presented in this section: [Subdomains branding](../../subdomains-certificates/using/subdomains-branding.md).
 
 **Verwandte Themen:**
 
@@ -74,7 +74,7 @@ Gehen Sie wie folgt vor, um eine Subdomain Adobe Campaign vollständig zuzuweise
 
    ![](assets/subdomain6.png)
 
-Sobald die Subdomain gesendet wurde, führt das Control Panel verschiedene Prüfungen und Konfigurationsschritte durch. Weitere Informationen hierzu finden Sie unter []((../../subdomains-certificates/using/setting-up-new-subdomain.md#subdomain-checks-and-configuration).
+Sobald die Subdomain gesendet wurde, führt das Control Panel verschiedene Prüfungen und Konfigurationsschritte durch. Weitere Informationen hierzu finden Sie unter [Subdomänenprüfungen und Konfiguration](#subdomain-checks-and-configuration).
 
 ## Subdomain-Konfiguration mit CNAME {#use-cnames}
 
@@ -112,7 +112,7 @@ Gehen Sie wie folgt vor, um eine Subdomain mit CNAME zu konfigurieren:
    >
    >Beachten Sie, dass DNS-Einträge, die auf Ihrem Server abgelegt werden sollen, vom Control Panel 30 Tage lang aufbewahrt werden. Nach diesem Zeitraum müssen Sie die Subdomain von Grund auf neu konfigurieren.
 
-Sobald die Subdomain gesendet wurde, führt das Control Panel verschiedene Prüfungen und Konfigurationsschritte durch. Weiterführende Informationen dazu finden Sie unter [](../../subdomains-certificates/using/setting-up-new-subdomain.md#subdomain-checks-and-configuration).
+Sobald die Subdomain gesendet wurde, führt das Control Panel verschiedene Prüfungen und Konfigurationsschritte durch. Weitere Informationen hierzu finden Sie unter [Subdomänenprüfungen und Konfiguration](#subdomain-checks-and-configuration).
 
 ## Subdomain-Prüfungen und -konfiguration {#subdomain-checks-and-configuration}
 
