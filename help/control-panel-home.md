@@ -1,10 +1,12 @@
 ---
+product: campaign
+solution: Campaign
 title: Produktdokumentation
 translation-type: tm+mt
-source-git-commit: 75a10bc5c9886cf99df5d2bffb087b91ce81bb10
+source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
 workflow-type: tm+mt
 source-wordcount: '126'
-ht-degree: 58%
+ht-degree: 100%
 
 ---
 
@@ -16,13 +18,13 @@ ht-degree: 58%
 ## Neue Funktionen
 
 
-**Subdomänenkonfiguration mit CNAMEs**
+**Subdomain-Konfiguration mit CNAME**
 
-Über die Systemsteuerung können Sie jetzt eine Subdomäne für die Verwendung von CNAMEs direkt über die Oberfläche konfigurieren. [mehr dazu](subdomains-certificates/using/setting-up-new-subdomain.md)
+Im Control Panel können Sie jetzt mit CNAME eine Subdomain für die Verwendung mit Adobe direkt über die Benutzeroberfläche konfigurieren. [Mehr dazu](subdomains-certificates/using/setting-up-new-subdomain.md)
 
 **Verbesserungen bei der Datenbanküberwachung**
 
-Die Registerkarte **[!UICONTROL Datenbanküberwachung]** wurde um weitere Metriken erweitert, sodass Sie detaillierte Informationen zu den Ressourcen erhalten können, die Speicherplatz in Ihrer Datenbank benötigen. [mehr dazu](performance-monitoring/using/database-monitoring.md)
+Die Registerkarte **[!UICONTROL Datenbanküberwachung]** wurde um zusätzliche Metriken erweitert, sodass Sie detaillierte Informationen zu den Ressourcen erhalten können, die Speicherplatz in Ihrer Datenbank belegen. [Mehr dazu](performance-monitoring/using/database-monitoring.md)
 
 ## Zusätzliche Ressourcen {#additional-resources}
 
