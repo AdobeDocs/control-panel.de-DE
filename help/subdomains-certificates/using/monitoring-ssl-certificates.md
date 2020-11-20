@@ -1,9 +1,11 @@
 ---
+product: campaign
+solution: Campaign
 title: Überwachen von SSL-Zertifikaten der Subdomains
 description: Erfahren Sie, wie Sie die SSL-Zertifikate Ihrer Subdomains überwachen.
-translation-type: ht
-source-git-commit: 17f51b60310b4fbc89e2106eb4ee9251fd525a59
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+workflow-type: tm+mt
 source-wordcount: '410'
 ht-degree: 100%
 
