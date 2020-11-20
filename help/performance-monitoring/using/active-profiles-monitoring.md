@@ -1,9 +1,11 @@
 ---
+product: campaign
+solution: Campaign
 title: Überwachung aktiver Profile
 description: Erfahren Sie, wie Sie Informationen über die aktuelle und historische Nutzung und Entwicklung aktiver Profile für jede Ihrer Campaign-Instanzen in Echtzeit abrufen.
-translation-type: ht
-source-git-commit: 024eb750021ff2446b34d648b5abfb016eabc289
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 100%
 
