@@ -1,9 +1,11 @@
 ---
+product: campaign
+solution: Campaign
 title: Verlängern des SSL-Zertifikats einer Subdomain
 description: Erfahren Sie, wie Sie die Zertifikate Ihrer Subdomains verlängern.
-translation-type: ht
-source-git-commit: 17f51b60310b4fbc89e2106eb4ee9251fd525a59
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+workflow-type: tm+mt
 source-wordcount: '867'
 ht-degree: 100%
 
