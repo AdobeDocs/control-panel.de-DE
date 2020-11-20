@@ -1,8 +1,13 @@
 ---
+product: campaign
+solution: Campaign
 title: Häufige Fragen
 description: Weitere Informationen zu häufigen Fragen im Zusammenhang mit der SFTP-Verwaltung
 translation-type: tm+mt
-source-git-commit: 8ee999b89af88a1a59956838d5722ce8fc6b3955
+source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+workflow-type: tm+mt
+source-wordcount: '109'
+ht-degree: 100%
 
 ---
 
