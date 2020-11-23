@@ -4,7 +4,7 @@ solution: Campaign
 title: Einrichten einer neuen Subdomain
 description: Erfahren Sie, wie Sie eine neue Subdomain für Ihre Campaign-Instanz einrichten.
 translation-type: tm+mt
-source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
+source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
 source-wordcount: '1168'
 ht-degree: 90%
@@ -20,6 +20,8 @@ ht-degree: 90%
 >abstract="Sie müssen eine neue Subdomain einrichten und die SSL-Zertifikate Ihrer Subdomains verwalten, um mit Adobe Campaign E-Mails senden oder Landingpages veröffentlichen zu können."
 >additional-url="https://docs.adobe.com/content/help/de-DE/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html" text="Überwachen der SSL-Zertifikate Ihrer Subdomains"
 
+## Wichtige Informationen {#must-read}
+
 >[!IMPORTANT]
 >
 >Die Subdomain-Konfiguration über das Control Panel befindet sich in der Beta-Phase und unterliegt häufigen Aktualisierungen und Änderungen ohne Vorankündigung.
@@ -29,8 +31,6 @@ Auf dieser Seite finden Sie Informationen zum Einrichten neuer Subdomains mit de
 **Verwandtes Thema:**
 
 * [Überwachen von Subdomains](../../subdomains-certificates/using/monitoring-subdomains.md)
-
-## Wichtige Informationen {#must-read}
 
 ### Instanzauswahl
 
