@@ -4,7 +4,7 @@ solution: Campaign
 title: IP-Zulassungsauflistung
 description: Erfahren Sie, wie Sie der Zulassungsliste im Control Panel IP-Adressen für den Zugriff auf Instanzen hinzufügen.
 translation-type: tm+mt
-source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
+source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
 source-wordcount: '790'
 ht-degree: 98%
@@ -20,11 +20,11 @@ ht-degree: 98%
 >abstract="Fügen Sie der Zulassungsliste IP-Adressen hinzu, um auf Ihre Instanzen zuzugreifen."
 >additional-url="https://images-tv.adobe.com/mpcv3/045cac99-f948-478e-ae04-f8c161dcb9e2_1568132508.1920x1080at3000_h264.mp4" text="Demovideo ansehen"
 
+## Über die IP-Zulassungsauflistung {#about-ip-allow-listing}
+
 >[!IMPORTANT]
 >
 >Diese Funktion ist nur für Campaign Classic-Instanzen verfügbar.
-
-## Über die IP-Zulassungsauflistung {#about-ip-allow-listing}
 
 Standardmäßig kann nicht über verschiedene IP-Adressen auf Ihre Adobe Campaign Classic-Instanz zugegriffen werden.
 
