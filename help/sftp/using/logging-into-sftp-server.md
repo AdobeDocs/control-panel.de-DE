@@ -4,10 +4,10 @@ solution: Campaign
 title: Anmeldung bei Ihrem SFTP-Server
 description: Erfahren Sie, wie Sie sich beim SFTP-Server anmelden.
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 100%
+source-wordcount: '382'
+ht-degree: 91%
 
 ---
 
@@ -15,6 +15,8 @@ ht-degree: 100%
 # Anmeldung bei Ihrem SFTP-Server {#logging-into-sft-server}
 
 Die folgenden Schritte beschreiben, wie Sie mit Ihrer SFTP-Client-Anwendung eine Verbindung mit Ihrem SFTP-Server herstellen.
+
+![](assets/do-not-localize/how-to-video.png) Entdecken Sie diese Funktion im Video mit [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/connect-to-sftp-server.html?lang=en#sftp-management) oder [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/connect-to-sftp-server.html?lang=en#sftp-management)
 
 Bevor Sie sich beim Server anmelden, überprüfen Sie, ob folgende Voraussetzungen gegeben sind:
 
