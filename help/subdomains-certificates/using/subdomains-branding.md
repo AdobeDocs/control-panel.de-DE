@@ -4,7 +4,7 @@ solution: Campaign
 title: Subdomain-Branding
 description: Weitere Informationen zum Branding von Subdomains
 translation-type: tm+mt
-source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
+source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 95%
@@ -20,11 +20,11 @@ ht-degree: 95%
 >abstract="Überwachen Sie Ihre Subdomains und die zugehörigen SSL-Zertifikate."
 >additional-url="https://docs.adobe.com/content/help/de-DE/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html" text="Überwachen der SSL-Zertifikate Ihrer Subdomains"
 
+## Warum sollten Sie Subdomains einrichten? {#why-setting-up-subdomains}
+
 >[!IMPORTANT]
 >
 >Die Subdomain-Konfiguration über das Control Panel befindet sich in der Beta-Phase und unterliegt häufigen Aktualisierungen und Änderungen ohne Vorankündigung.
-
-## Warum sollten Sie Subdomains einrichten? {#why-setting-up-subdomains}
 
 Sie können Ihre Domain in Subdomains unterteilen, um Ihre Marken oder unterschiedlichen Textsorten (Transaktionsnachrichten, Marketing-Informationen usw.) voreinander zu trennen.
 
