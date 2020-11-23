@@ -4,7 +4,7 @@ solution: Campaign
 title: Details der Instanz
 description: Erfahren Sie, wie Sie die Details der Instanz im Control Panel überwachen können
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 100%
@@ -21,11 +21,11 @@ ht-degree: 100%
 >additional-url="https://docs.adobe.com/content/help/de-DE/campaign-classic/using/release-notes/latest-release.html" text="Versionshinweise zu Campaign Classic"
 >additional-url="https://docs.adobe.com/content/help/de-DE/campaign-standard/using/release-notes/release-notes.html" text="Versionshinweise zu Campaign Standard"
 
+## Über die Details der Instanz {#about-instance-details}
+
 >[!IMPORTANT]
 >
 >Diese Funktion ist nur für Campaign Classic-Instanzen verfügbar.
-
-## Über die Details der Instanz {#about-instance-details}
 
 Die Architektur Ihrer Adobe Campaign Classic-Instanz kann mehrere Server umfassen, um flexible Marketing-Aktivitäten zu ermöglichen. So können beispielsweise Marketing-, Echtzeit- (oder Message Center-) und Mid Sourcing-Server Ihre Instanz unterstützen.
 
