@@ -4,10 +4,10 @@ solution: Campaign
 title: URL-Genehmigungen
 description: Erfahren Sie, wie Sie URL-Genehmigungen im Control Panel verwalten.
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
 workflow-type: tm+mt
 source-wordcount: '617'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -32,11 +32,12 @@ Standardmäßig sind Instanzen nicht berechtigt, eine Verbindung zu externen URL
 
 Nach dem Hinzufügen einer URL wird sie in der Konfigurationsdatei der Instanz referenziert (serverConf.xml).
 
+![](assets/do-not-localize/how-to-video.png) [Funktion im Video kennenlernen](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/adding-url-permissions.html?lang=en#instance-settings).
+
 **Verwandte Themen:**
 
 * [Campaign-Server konfigurieren](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html)
 * [Schutz der ausgehenden Verbindung](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html#Outgoing_connection_protection)
-* [Adding URL Permissions (Video-Tutorial)](https://docs.adobe.com/content/help/de-DE/campaign-classic-learn/control-panel/instance-settings/adding-url-permissions.html)
 
 ## Best Practices {#best-practices}
 
