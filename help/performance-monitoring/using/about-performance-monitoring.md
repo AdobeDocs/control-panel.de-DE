@@ -4,10 +4,10 @@ solution: Campaign
 title: Über die Leistungsüberwachung
 description: Erfahren Sie, wie Sie im Control Panel die Leistung Ihrer Instanzen überwachen können
 translation-type: tm+mt
-source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
+source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 78%
+source-wordcount: '114'
+ht-degree: 100%
 
 ---
 
@@ -26,4 +26,3 @@ Mit der Karte **[!UICONTROL Leistungsüberwachung]** auf der Startseite von Cont
 
 Darüber hinaus bietet Ihnen das Control Panel die Möglichkeit, sich für den Erhalt von E-Mail-Benachrichtigungen anzumelden. Diese werden versendet, wenn in einer Ihrer Campaign-Instanzen ein Problem festgestellt wird. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../performance-monitoring/using/email-alerting.md).
 
-![](assets/do-not-localize/how-to-video.png) Entdecken Sie diese Funktion im Video mit [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=en#performance-monitoring) oder [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=en#performance-monitoring)
