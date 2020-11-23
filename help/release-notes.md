@@ -3,9 +3,9 @@ product: campaign
 solution: Campaign
 title: Control Panel-Versionen
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 1e1421494e5a6e357e56a77ee192475a03d18a28
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '590'
 ht-degree: 95%
 
 ---
@@ -38,8 +38,6 @@ Nachdem Sie eine neue Subdomain zugewiesen haben, können Sie nun mit dem Contro
 **GPG-Schlüsselverwaltung**
 
 Im Control Panel können Sie jetzt ein GPG-Schlüsselpaar generieren, sodass Sie in Campaign eingehende externe Daten problemlos entschlüsseln können. Darüber hinaus können Sie einen öffentlichen GPG-Schlüssel installieren, um von Campaign ausgehende Daten zu verschlüsseln. [Mehr dazu](instances-settings/using/gpg-keys-management.md)
-* [Tutorials für Campaign Standard](https://docs.adobe.com/content/help/de-DE/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/gpg-key-management-overview.html)
-* [Tutorials für Campaign Classic](https://docs.adobe.com/content/help/de-DE/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/gpg-key-management-overview.html)
 
 **Überwachung aktiver Profile**
 
