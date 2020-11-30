@@ -3,9 +3,9 @@ product: campaign
 solution: Campaign
 title: Control Panel – Häufig gestellte Fragen
 description: Häufige Fragen zum Control Panel
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '632'
 ht-degree: 100%
 
