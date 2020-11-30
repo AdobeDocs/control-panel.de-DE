@@ -3,9 +3,9 @@ product: campaign
 solution: Campaign
 title: Benutzeroberfläche des Control Panels
 description: Weitere Informationen zur Benutzeroberfläche des Control Panels
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '142'
 ht-degree: 100%
 
