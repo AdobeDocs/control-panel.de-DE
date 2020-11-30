@@ -3,11 +3,11 @@ product: campaign
 solution: Campaign
 title: Subdomain-Branding
 description: Weitere Informationen zum Branding von Subdomains
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '694'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -54,9 +54,9 @@ Weitere Informationen zur Domain-Konfiguration finden Sie in [dieser Dokumentati
 
 Wenden Sie sich bei Fragen zu den Methoden der Subdomain-Konfiguration an das Zustellbarkeitsteam von Adobe oder an die Kundenunterstützung, um eine Beratung zu Fragen der Zustellbarkeit anzufordern.
 
-## Subdomains&#39; use cases (Campaign Classic){#subdomains-use-cases}
+## Anwendungsfälle von Subdomains (Campaign Classic){#subdomains-use-cases}
 
-When setting up subdomains for Campaign Classic instances, you are required to select the use case for which the subdomain will be used (see [Setting up a new subdomain](../../subdomains-certificates/using/setting-up-new-subdomain.md)).
+Beim Einrichten von Subdomains für Campaign Classic-Instanzen müssen Sie den Anwendungsfall auswählen, für den die Subdomain verwendet werden soll (siehe [Einrichten einer neuen Subdomain](../../subdomains-certificates/using/setting-up-new-subdomain.md)).
 
 Mögliche Anwendungsfälle sind:
 
