@@ -2,11 +2,11 @@
 product: campaign
 solution: Campaign
 title: Control Panel-Versionen
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1e1421494e5a6e357e56a77ee192475a03d18a28
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '590'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Im Control Panel können Sie jetzt mit CNAME eine Subdomain für die Verwendung 
 
 **Verbesserungen bei der Datenbanküberwachung**
 
-Die Datenbanküberwachung wurde um zusätzliche Metriken erweitert, mit denen Sie detaillierte Informationen zu den Ressourcen erhalten können, die Speicherplatz in Ihrer Datenbank benötigen. [Mehr dazu](performance-monitoring/using/database-monitoring.md)
+Die Datenbanküberwachung wurde um zusätzliche Metriken erweitert, sodass Sie detaillierte Informationen zu den Ressourcen erhalten können, die Speicherplatz in Ihrer Datenbank belegen. [Mehr dazu](performance-monitoring/using/database-monitoring.md)
 
 ## Juni 2020{#june-2020}
 
