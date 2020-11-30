@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: c56aba50fd3b79fba996e87fed5556dc54ccc7c8
 workflow-type: tm+mt
 source-wordcount: '1143'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -85,11 +85,11 @@ Der Schlüssel kann dann in Adobe Campaign-Workflows verwendet werden. Sie könn
 
 ![](assets/do-not-localize/how-to-video.png)[ Funktion im Video kennenlernen](#video-use-key).
 
-Weitere Informationen zu diesem Thema finden Sie in der Dokumentation zum Adobe Campaign:
+Weitere Informationen zu diesem Thema finden Sie in der Adobe Campaign-Dokumentation:
 
 **Campaign Classic:**
 
-* [Datei komprimieren oder verschlüsseln](https://docs.adobe.com/content/help/de-DE/campaign-classic/using/automating-with-workflows/general-operation/how-to-use-workflow-data.html#zipping-or-encrypting-a-file)
+* [Datei komprimieren oder verschlüsseln](https://docs.adobe.com/de/content/help/de-DE/campaign-classic/using/automating-with-workflows/general-operation/how-to-use-workflow-data.html#zipping-or-encrypting-a-file)
 * [Anwendungsfall: Verschlüsseln und Exportieren von Daten mit einem im Control Panel installierten Schlüssel](https://docs.adobe.com/content/help/de-DE/campaign-classic/using/automating-with-workflows/general-operation/how-to-use-workflow-data.html#use-case-gpg-encrypt)
 
 **Campaign Standard:**
