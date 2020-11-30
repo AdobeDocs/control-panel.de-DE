@@ -3,9 +3,9 @@ product: campaign
 solution: Campaign
 title: Zugriff auf das Control Panel
 description: Erfahren Sie, wie Sie auf das Control Panel zugreifen können.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '291'
 ht-degree: 100%
 
