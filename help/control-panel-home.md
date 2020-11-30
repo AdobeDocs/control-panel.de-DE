@@ -2,11 +2,11 @@
 product: campaign
 solution: Campaign
 title: Produktdokumentation
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '118'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -32,13 +32,13 @@ Die Registerkarte **[!UICONTROL Datenbanküberwachung]** wurde um zusätzliche M
     <tr>
         <td><b>Campaign Standard</b><br/>
         <ul>
-            <li><a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html">Tutorial-Videos für das Campaign Standard Control Panel</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html?lang=de">Tutorial-Videos für das Campaign Standard Control Panel</a></li>
             <li><a href="https://docs.adobe.com/content/help/de-DE/campaign-standard/using/campaign-standard-home.html">Produktdokumentation zu Campaign Standard</a></li>
         </ul>
         </td>
         <td><b>Campaign Classic</b><br/>
         <ul>
-            <li><a href="https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html">Tutorial-Videos für das Campaign Classic Control Panel</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html?lang=de">Tutorial-Videos für das Campaign Classic Control Panel</a></li>
             <li><a href="https://docs.adobe.com/content/help/de-DE/campaign-classic/using/campaign-classic-home.html">Produktdokumentation zu Campaign Classic</a></li>
         </ul>
         </td>
