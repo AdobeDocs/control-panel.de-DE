@@ -3,11 +3,11 @@ product: campaign
 solution: Campaign
 title: GPG-Schlüsselverwaltung
 description: Erfahren Sie, wie GPG-Schlüssel zum Ver- und Entschlüsseln von Daten innerhalb von Adobe Campaign verwaltet werden.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e41f92fc80f77a8d4a4067360725ce3d6efe3f4c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1180'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Mit dem Control Panel können Sie Daten verschlüsseln, die aus Ihrer Adobe Camp
 
 Dazu müssen Sie mithilfe eines PGP-Verschlüsselungs-Tools ein GPG-Schlüsselpaar generieren und dann den öffentlichen Schlüssel im Control Panel installieren. Sie können dann Daten verschlüsseln, bevor Sie diese von Ihrer Instanz senden. Gehen Sie dazu wie folgt vor:
 
-![](assets/do-not-localize/how-to-video.png)[ Funktion im Video kennenlernen](#video).
+![](assets/do-not-localize/how-to-video.png) Funktion kennenlernen im [Video](#video).
 
 1. Generieren Sie mithilfe eines PGP-Verschlüsselungs-Tools ein öffentlich-privates Schlüsselpaar gemäß der [OpenPGP-Spezifikation](https://www.openpgp.org/about/standard/). Installieren Sie dazu ein GPG-Dienstprogramm oder eine GNuGP-Software.
 
@@ -83,7 +83,7 @@ Sobald der öffentliche Schlüssel installiert ist, wird er in der Liste angezei
 
 Der Schlüssel kann dann in Adobe Campaign-Workflows verwendet werden. Sie können ihn bei Aktivitäten zur Datenextraktion zum Verschlüsseln von Daten verwenden.
 
-![](assets/do-not-localize/how-to-video.png)[ Funktion im Video kennenlernen](#video).
+![](assets/do-not-localize/how-to-video.png) Funktion kennenlernen im [Video](#video)
 
 Weitere Informationen zu diesem Thema finden Sie in der Adobe Campaign-Dokumentation:
 
@@ -106,7 +106,7 @@ Dazu müssen Sie ein GPG-Schlüsselpaar direkt im Control Panel generieren.
 * Der **öffentliche Schlüssel** wird mit dem Drittsystem geteilt, das ihn zum Verschlüsseln der an Campaign zu sendenden Daten verwendet.
 * Der **private Schlüssel** wird von Campaign verwendet, um die eingehenden verschlüsselten Daten zu entschlüsseln.
 
-![](assets/do-not-localize/how-to-video.png)[ Funktion im Video kennenlernen](#video).
+![](assets/do-not-localize/how-to-video.png) Funktion kennenlernen im [Video](#video)
 
 Gehen Sie wie folgt vor, um ein Schlüsselpaar im Control Panel zu generieren:
 
@@ -137,7 +137,7 @@ Weitere Informationen hierzu finden Sie in der Adobe Campaign-Dokumentation:
 
 **Campaign Standard:**
 
-* [Verwalten verschlüsselter Daten](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
+* [Verwalten verschlüsselter Daten](https://docs.adobe.com/content/help/de-DE/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
 * [Anwendungsfall: Importieren von Daten, die mit einem vom Control Panel generierten Schlüssel verschlüsselt wurden](https://docs.adobe.com/content/help/de-DE/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-decrypt)
 
 ## Überwachen von GPG-Schlüsseln
@@ -176,9 +176,9 @@ Als Best Practice empfehlen wir, alle Schlüssel zu entfernen, die Sie nicht meh
 
 ## Anleitungsvideo {#video}
 
-Das folgende Video zeigt, wie GPG-Schlüssel für die Datenverschlüsselung generiert und installiert werden.
+Im folgenden Video wird gezeigt, wie GPG-Schlüssel für die Datenverschlüsselung generiert und installiert werden.
 
-Weitere Anleitungen zum Verwalten von GPG-Schlüsseln finden Sie auf den Seiten [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=de#instance-settings) und [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=de#instance-settings).
+Weitere Anleitungen zum Verwalten von GPG-Schlüsseln finden Sie in den Tutorials zu [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=de#instance-settings) und [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=de#instance-settings).
 
->[!VIDEO](https://video.tv.adobe.com/v/36386?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/36386?quality=12&captions=ger)
 
