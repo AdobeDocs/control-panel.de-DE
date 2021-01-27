@@ -3,9 +3,9 @@ product: campaign
 solution: Campaign
 title: Über die Leistungsüberwachung
 description: Erfahren Sie, wie Sie im Control Panel die Leistung Ihrer Instanzen überwachen können
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '114'
 ht-degree: 100%
 
