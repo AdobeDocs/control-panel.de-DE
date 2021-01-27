@@ -3,9 +3,9 @@ product: campaign
 solution: Campaign
 title: Berechtigungen für das Control Panel verwalten
 description: Erfahren Sie, wie Sie Berechtigungen für das Control Panel verwalten
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: b3eb3dd5144a0d29ac4c684a151525cc5a37287b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '273'
 ht-degree: 100%
 
@@ -64,4 +64,4 @@ Auf das Control Panel haben alle Admin-Benutzer einer Campaign-Instanz Zugriff. 
 
 ## Anleitungsvideo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/27147?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/27147?quality=12)
