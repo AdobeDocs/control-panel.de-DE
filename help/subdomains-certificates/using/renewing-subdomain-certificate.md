@@ -3,9 +3,9 @@ product: campaign
 solution: Campaign
 title: Verlängern des SSL-Zertifikats einer Subdomain
 description: Erfahren Sie, wie Sie die Zertifikate Ihrer Subdomains verlängern.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '883'
 ht-degree: 100%
 
@@ -48,7 +48,7 @@ Nachdem Sie das SSL-Zertifikat erworben haben, können Sie es in der gewünschte
 >id="cp_select_subdomains"
 >title="Auswählen der Subdomains für Ihre CSR"
 >abstract="Sie können auswählen, ob Sie alle oder nur bestimmte Subdomains in Ihre Certificate Signing Request aufnehmen möchten. Nur ausgewählte Subdomains werden über das erworbene SSL-Zertifikat zertifiziert."
->additional-url="https://docs.adobe.com/content/help/de-DE/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#generating-csr" text="Generieren einer Certificate Signing Request (CSR)"
+>additional-url="https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#generating-csr" text="Generieren einer Certificate Signing Request (CSR)"
 >additional-url="https://docs.adobe.com/content/help/de-DE/control-panel/using/subdomains-and-certificates/subdomains-branding.html" text="Über Subdomain-Branding"
 
 Gehen Sie wie folgt vor, um eine Certificate Signing Request (CSR) zu erstellen:
@@ -99,7 +99,7 @@ Nachdem Sie eine Certificate Signing Request (CSR) über das Control Panel gener
 >id="cp_install_ssl_certificate"
 >title="Installieren eines SSL-Zertifikats"
 >abstract="Installieren Sie das SSL-Zertifikat, das Sie bei der von Ihrem Unternehmen zugelassenen Zertifizierungsstelle erworben haben."
->additional-url="https://docs.adobe.com/content/help/de-DE/control-panel/using/subdomains-and-certificates/subdomains-branding.html" text="Über Subdomain-Branding"
+>additional-url="https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/subdomains-branding.html" text="Über Subdomain-Branding"
 
 Sobald Sie ein SSL-Zertifikat gekauft haben, können Sie es auf Ihrer Instanz installieren. Bevor Sie fortfahren, achten Sie auf folgende Voraussetzungen:
 
