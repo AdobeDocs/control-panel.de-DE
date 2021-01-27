@@ -3,9 +3,9 @@ product: campaign
 solution: Campaign
 title: Datenbanküberwachung
 description: Erfahren Sie, wie Sie Ihre Campaign-Datenbank im Control Panel überwachen können
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '979'
 ht-degree: 100%
 
@@ -125,7 +125,7 @@ Im folgenden Abschnitt finden Sie nützliche Ressourcen aus Campaign-Dokumentati
 
 **Wartung der Datenbank**
 
-* Technischer Workflow für die Datenbankbereinigung ([Campaign Standard](https://docs.adobe.com/help/de-DE/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows) / [Campaign Classic](https://docs.adobe.com/help/de-DE/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html))
+* Technischer Workflow für die Datenbankbereinigung ([Campaign Standard](https://docs.adobe.com/help/en/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows) / [Campaign Classic](https://docs.adobe.com/help/en/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html))
 * [Handbuch zur Datenbankwartung](https://docs.adobe.com/content/help/de-DE/campaign-classic/using/monitoring-campaign-classic/database-maintenance/recommendations.html) (Campaign Classic)
 * [Behebung von Problemen mit der Datenbankleistung](https://docs.adobe.com/content/help/de-DE/campaign-classic/using/monitoring-campaign-classic/troubleshooting/database-performances.html) (Campaign Classic)
 * [Datenbankbezogene Optionen](https://docs.adobe.com/help/de-DE/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html#database) (Campaign Classic)
