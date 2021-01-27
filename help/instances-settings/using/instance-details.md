@@ -3,9 +3,9 @@ product: campaign
 solution: Campaign
 title: Details der Instanz
 description: Erfahren Sie, wie Sie die Details der Instanz im Control Panel überwachen können
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 100%
 
@@ -70,7 +70,7 @@ Diese Informationen sind verfügbar:
    * Gelb: Sie sollten ein Upgrade in Erwägung ziehen. Ihnen fehlen die neuesten Funktionen und Fehlerkorrekturen.
    * Rot: Führen Sie möglichst rasch ein Upgrade durch. Ihnen fehlen neue Funktionen und die Server-Leistung ist möglicherweise nicht optimal.
 
-Informationen zur Aktualisierung von Servern finden Sie in [dieser Dokumentation](https://docs.campaign.adobe.com/doc/AC/getting_started/DE/buildUpgrade.html).
+Informationen zur Aktualisierung von Servern finden Sie in [dieser Dokumentation](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html).
 
 ## Häufige Fragen {#common-questions}
 
