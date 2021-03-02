@@ -4,10 +4,10 @@ solution: Campaign
 title: Überwachung aktiver Profile
 description: Erfahren Sie, wie Sie Informationen über die aktuelle und historische Nutzung und Entwicklung aktiver Profile für jede Ihrer Campaign-Instanzen in Echtzeit abrufen.
 translation-type: tm+mt
-source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
+source-git-commit: 90c6d50dcb0d70616745170b5c35e42b7e5d784e
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 100%
+source-wordcount: '393'
+ht-degree: 97%
 
 ---
 
@@ -53,7 +53,7 @@ Gehen Sie dazu wie folgt vor:
 >Aktive Profile werden anhand spezieller technischer Workflows gezählt, die täglich für Ihre Instanzen ausgeführt werden:
 >
 >* Der Workflow „[Abrechnung](https://docs.adobe.com/help/de-DE/campaign-standard/using/administrating/application-settings/technical-workflows.html)“ für Campaign Standard,
->* Der Workflow „[Anzahl aktiver Abrechnungsprofile](https://docs.adobe.com/content/help/de-DE/campaign-classic/using/automating-with-workflows/technical-workflows/deliveries.html)“ für Campaign Classic.
+>* Der Workflow „[Anzahl aktiver Abrechnungsprofile](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html)“ für Campaign Classic.
 
 
 Der untere Bereich zeigt eine grafische Darstellung der Nutzung aktiver Profile in den letzten 30 Tagen. Sie können den angezeigten Zeitraum mithilfe der oben rechts verfügbaren Filter auf 1 Jahr ändern.
