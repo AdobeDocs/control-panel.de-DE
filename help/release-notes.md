@@ -2,11 +2,14 @@
 product: campaign
 solution: Campaign
 title: Control Panel-Versionen
+feature: 'Control Panel   '
+role: Architekt
+level: Anfänger
 translation-type: tm+mt
-source-git-commit: 1e1421494e5a6e357e56a77ee192475a03d18a28
+source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 100%
+source-wordcount: '594'
+ht-degree: 99%
 
 ---
 
