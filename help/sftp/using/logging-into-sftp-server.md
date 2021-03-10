@@ -3,11 +3,14 @@ product: campaign
 solution: Campaign
 title: Anmeldung bei Ihrem SFTP-Server
 description: Erfahren Sie, wie Sie sich beim SFTP-Server anmelden.
+feature: 'Control Panel   '
+role: Architekt
+level: Erfahren
 translation-type: tm+mt
-source-git-commit: 54d3239a566491c854e5d46c297e72afeff83792
+source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 100%
+source-wordcount: '360'
+ht-degree: 99%
 
 ---
 
