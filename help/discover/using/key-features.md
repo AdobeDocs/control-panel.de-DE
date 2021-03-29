@@ -3,11 +3,11 @@ product: campaign
 solution: Campaign
 title: Zugriff auf das Control Panel
 description: Erfahren Sie, wie Sie auf das Control Panel zugreifen können.
-feature: 'Control Panel   '
+feature: Control Panel
 role: Architekt
 level: Anfänger
 translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+source-git-commit: c6401d8aba84e414f37eada9da593c353dcf3080
 workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 99%
@@ -36,7 +36,7 @@ Wichtigste Vorteile:
 >
 >Für den Zugriff auf das Control Panel ist kein Upgrade auf den aktuellen Campaign-Build erforderlich.
 
-<table>
+<table style="table-layout:fixed">
 <tr>
     <td>
         <a href="../../discover/using/accessing-control-panel.md"><img alt="Bedingungen" src="assets/do-not-localize/discover.png"/></a>
