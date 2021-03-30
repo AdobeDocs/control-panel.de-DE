@@ -2,14 +2,14 @@
 product: campaign
 solution: Campaign
 title: Control Panel-Versionen
-feature: 'Control Panel   '
+feature: Control Panel
 role: Architekt
 level: Anfänger
 translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+source-git-commit: 555181ca19af2f850f0e85f94ea2dcb4a87a7c1f
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,9 @@ Hier finden Sie Informationen zu den aktuellen Versionen des Control Panel.
 
 >[!NOTE]
 >
->Beachten Sie, dass das Control Panel nur für Kunden verfügbar ist, die auf AWS gehostet werden (mit Ausnahme der hybriden Umgebungen, die noch nicht unterstützt werden). Für den Zugriff auf das Control Panel sind keine Aktualisierungen erforderlich. Sie müssen Administrator sein, um darauf zugreifen zu können.
+>Die Systemsteuerung steht allen Administratoren zur Verfügung. Die Schritte, um einem Benutzer Administratorzugriff zu gewähren, finden Sie in [diesem Abschnitt](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel).
+>
+>Beachten Sie zum Campaign Classic, dass Ihre Instanz auf AWS gehostet und mit dem neuesten [Gold Standard](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/gs-overview.html) Build oder dem [neuesten GA-Build (21.1)](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html#release-notes) aktualisiert werden muss. Erfahren Sie, wie Sie Ihre Version in [diesem Abschnitt](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html#getting-your-campaign-version) überprüfen. Um zu überprüfen, ob Ihre Instanz auf AWS gehostet wird, führen Sie die unter [Diese Seite](faq.md) beschriebenen Schritte aus.
 
 ## Oktober 2020 {#october-2020}
 
@@ -49,8 +51,6 @@ Im Control Panel können Sie jetzt die Anzahl der aktiven Profile überwachen, d
 >[!IMPORTANT]
 >
 >Die Überwachung aktiver Profile über das Control Panel befindet sich in der Beta-Phase und unterliegt häufigen Aktualisierungen und Änderungen ohne Vorankündigung.
->
->Die Funktion steht Kunden zur Verfügung, die ab Build 10368 von Campaign Standard und Build 8931 von Campaign Classic auf AWS gehostet werden. Wenn Sie einen früheren Build verwenden, müssen Sie ein Upgrade durchführen, um diese Funktion zu verwenden.
 
 ## Mai 2020 {#may-2020}
 
