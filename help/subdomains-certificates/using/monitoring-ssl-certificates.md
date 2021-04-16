@@ -3,17 +3,17 @@ product: campaign
 solution: Campaign
 title: Überwachen von SSL-Zertifikaten der Subdomains
 description: Erfahren Sie, wie Sie die SSL-Zertifikate Ihrer Subdomains überwachen.
-feature: 'Control Panel   '
-role: Architekt
-level: Erfahren
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
-workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 99%
+feature: Control Panel
+role: Architect
+level: Experienced
+exl-id: a7888e1c-259d-4601-951b-0f1062d90dc2
+translation-type: ht
+source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
+workflow-type: ht
+source-wordcount: '397'
+ht-degree: 100%
 
 ---
-
 
 # Überwachen von SSL-Zertifikaten der Subdomains {#monitoring-ssl-certificates}
 
