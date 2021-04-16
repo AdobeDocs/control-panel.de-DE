@@ -3,17 +3,17 @@ product: campaign
 solution: Campaign
 title: IP-Zulassungsauflistung
 description: Erfahren Sie, wie Sie der Zulassungsliste im Control Panel IP-Adressen für den Zugriff auf Instanzen hinzufügen.
-feature: 'Control Panel   '
-role: Architekt
-level: Fortgeschr.
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
-workflow-type: tm+mt
-source-wordcount: '794'
-ht-degree: 99%
+feature: Control Panel
+role: Architect
+level: Intermediate
+exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
+translation-type: ht
+source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
+workflow-type: ht
+source-wordcount: '792'
+ht-degree: 100%
 
 ---
-
 
 # IP-Zulassungsauflistung {#ip-allow-listing}
 
