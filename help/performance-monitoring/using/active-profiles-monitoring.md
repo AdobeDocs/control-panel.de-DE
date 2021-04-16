@@ -4,16 +4,16 @@ solution: Campaign
 title: Überwachung aktiver Profile
 description: Erfahren Sie, wie Sie Informationen über die aktuelle und historische Nutzung und Entwicklung aktiver Profile für jede Ihrer Campaign-Instanzen in Echtzeit abrufen.
 feature: Control Panel
-role: Architekt
-level: Erfahren
-translation-type: tm+mt
-source-git-commit: 5a74107daaff7e3470e1db45f4ef8d75e40c83c1
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+role: Architect
+level: Experienced
+exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
+translation-type: ht
+source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
+workflow-type: ht
+source-wordcount: '370'
+ht-degree: 100%
 
 ---
-
 
 # Überwachung aktiver Profile {#active-profiles-monitoring}
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Die Überwachung aktiver Profile über das Control Panel befindet sich in der Beta-Phase und unterliegt häufigen Aktualisierungen und Änderungen ohne Vorankündigung. Es ist ab Campaign Standard 10368 Build verfügbar.
+>Die Überwachung aktiver Profile über das Control Panel befindet sich in der Beta-Phase und unterliegt häufigen Aktualisierungen und Änderungen ohne Vorankündigung. Diese Funktion ist ab Campaign Standard-Build 10368 verfügbar.
 
 Gemäß Ihrem Vertrag erhalten alle Ihre Campaign-Instanzen eine bestimmte Anzahl aktiver Profile, die zu Abrechnungszwecken gezählt werden. Informationen zur Anzahl der gekauften aktiven Profile finden Sie in Ihrem aktuellen Vertrag.
 
@@ -54,7 +54,7 @@ Gehen Sie dazu wie folgt vor:
 >Aktive Profile werden anhand spezieller technischer Workflows gezählt, die täglich für Ihre Instanzen ausgeführt werden:
 >
 >* Der Workflow „[Abrechnung](https://docs.adobe.com/help/de-DE/campaign-standard/using/administrating/application-settings/technical-workflows.html)“ für Campaign Standard,
->* Der Workflow „[Anzahl aktiver Abrechnungsprofile](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html)“ für Campaign Classic.
+>* Der Workflow „[Anzahl aktiver Abrechnungsprofile](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=de)“ für Campaign Classic.
 
 
 Der untere Bereich zeigt eine grafische Darstellung der Nutzung aktiver Profile in den letzten 30 Tagen. Sie können den angezeigten Zeitraum mithilfe der oben rechts verfügbaren Filter auf 1 Jahr ändern.
