@@ -4,17 +4,17 @@ solution: Campaign
 title: Über die SFTP-Verwaltung
 description: Weitere Informationen zur SFTP-Verwaltung im Control Panel
 testing: SSECD-836 2
-feature: 'Control Panel   '
-role: Architekt
-level: Fortgeschr.
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
-workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 99%
+feature: Control Panel
+role: Architect
+level: Intermediate
+exl-id: b2c3be80-0d1b-4998-87ab-5280c6213f3d
+translation-type: ht
+source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
+workflow-type: ht
+source-wordcount: '170'
+ht-degree: 100%
 
 ---
-
 
 # Über die SFTP-Verwaltung {#about-sftp-management}
 
