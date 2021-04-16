@@ -4,16 +4,16 @@ solution: Campaign
 title: URL-Genehmigungen
 description: Erfahren Sie, wie Sie URL-Genehmigungen im Control Panel verwalten.
 feature: Control Panel
-role: Architekt
-level: Fortgeschritten
-translation-type: tm+mt
-source-git-commit: 8fc348d0a4c858219fbead48e1d31f86c8576f72
-workflow-type: tm+mt
-source-wordcount: '616'
-ht-degree: 98%
+role: Architect
+level: Intermediate
+exl-id: a7df90da-a2ce-409f-9bc3-c7d4fa3024c8
+translation-type: ht
+source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
+workflow-type: ht
+source-wordcount: '614'
+ht-degree: 100%
 
 ---
-
 
 # URL-Genehmigungen {#url-permissions}
 
@@ -40,7 +40,7 @@ Nach dem Hinzufügen einer URL wird sie in der Konfigurationsdatei der Instanz r
 **Verwandte Themen:**
 
 * [Campaign-Server konfigurieren](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html)
-* [Schutz der ausgehenden Verbindung](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/server-configuration.html#outgoing-connection-protection)
+* [Schutz der ausgehenden Verbindung](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/server-configuration.html?lang=de#outgoing-connection-protection)
 
 ## Best Practices {#best-practices}
 
