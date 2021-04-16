@@ -3,17 +3,17 @@ product: campaign
 solution: Campaign
 title: Verwalten von TXT-Einträgen
 description: Erfahren Sie, wie Sie TXT-Einträge zur Verifizierung von Domain-Besitz verwalten können.
-feature: 'Control Panel   '
-role: Architekt
-level: Erfahren
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
-workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 99%
+feature: Control Panel
+role: Architect
+level: Experienced
+exl-id: 547ca6f2-720f-4d58-b31b-5b2611ba9156
+translation-type: ht
+source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
+workflow-type: ht
+source-wordcount: '353'
+ht-degree: 100%
 
 ---
-
 
 # Verwalten von TXT-Einträgen {#managing-txt-records}
 
