@@ -3,17 +3,17 @@ product: campaign
 solution: Campaign
 title: Warnungen per E-Mail
 description: Erfahren Sie, wie Sie E-Mail-Benachrichtigungen erhalten, wenn Probleme mit Ihren Campaign-Instanzen auftreten.
-feature: 'Control Panel   '
-role: Architekt
-level: Erfahren
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
-workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 98%
+feature: Control Panel
+role: Architect
+level: Experienced
+exl-id: 7942d2b1-d28f-4760-aa25-5ba94a627fd0
+translation-type: ht
+source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
+workflow-type: ht
+source-wordcount: '171'
+ht-degree: 100%
 
 ---
-
 
 # Warnungen per E-Mail {#email-alerting}
 
@@ -41,4 +41,3 @@ Die Liste der Warnungen lautet wie folgt:
 * **Datenbanknutzung**: Eine der Datenbanken Ihrer Instanzen hat mindestens 80 % ihrer Kapazität erreicht. Siehe [Datenbanküberwachung](../../performance-monitoring/using/database-monitoring.md).
 
 * **Ablauf des SSL-Zertifikats**: Eines der SSL-Zertifikate Ihrer Subdomains ist abgelaufen oder läuft in 60 Tagen oder weniger ab. Siehe [Überwachen von SSL-Zertifikaten der Subdomains](../../subdomains-certificates/using/monitoring-ssl-certificates.md).
-
