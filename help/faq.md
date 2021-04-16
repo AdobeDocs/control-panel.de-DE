@@ -3,17 +3,17 @@ product: campaign
 solution: Campaign
 title: Control Panel – Häufig gestellte Fragen
 description: Häufige Fragen zum Control Panel
-feature: 'Control Panel   '
-role: Architekt
-level: Fortgeschr.
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
-workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 99%
+feature: Control Panel
+role: Architect
+level: Intermediate
+exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
+translation-type: ht
+source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
+workflow-type: ht
+source-wordcount: '634'
+ht-degree: 100%
 
 ---
-
 
 # Häufig gestellte Fragen {#faq}
 
@@ -27,7 +27,7 @@ Weitere Informationen finden Sie in der [Adobe Experience Cloud-Dokumentation](h
 
 **Wo finde ich meine Kennung der IMS-Organisation?**
 
-Eine Möglichkeit besteht darin, zur [Startseite von Adobe Experience Cloud](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]** zu navigieren. Ihre Kennung der IMS-Organisation finden Sie in der Administration unten im Bereich **[!UICONTROL Schnellzugriff]**. Detailliertere Informationen finden Sie in der [Adobe Experience Cloud-Dokumentation](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html).
+Eine Möglichkeit besteht darin, zur [Startseite von Adobe Experience Cloud](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]** zu navigieren. Ihre Kennung der IMS-Organisation finden Sie in der Administration unten im Bereich **[!UICONTROL Schnellzugriff]**. Detailliertere Informationen finden Sie in der [Adobe Experience Cloud-Dokumentation](https://marketing.adobe.com/resources/help/de_DE/mcloud/organizations.html).
 
 Eine andere Möglichkeit besteht darin, die **Admin Console** zu starten. Ihre Kennung der IMS-Organisation wird in Ihrer URL angezeigt. Sie sieht in etwa so aus: https://adminconsole.adobe.com/xxx@AdobeOrg/overview.
 
