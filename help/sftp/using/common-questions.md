@@ -3,17 +3,17 @@ product: campaign
 solution: Campaign
 title: Häufige Fragen
 description: Weitere Informationen zu häufigen Fragen im Zusammenhang mit der SFTP-Verwaltung
-feature: 'Control Panel   '
-role: Architekt
-level: Fortgeschr.
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
-workflow-type: tm+mt
-source-wordcount: '113'
-ht-degree: 99%
+feature: Control Panel
+role: Architect
+level: Intermediate
+exl-id: f3aa4d56-491f-4d5d-9892-9bbafd6b1a50
+translation-type: ht
+source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
+workflow-type: ht
+source-wordcount: '111'
+ht-degree: 100%
 
 ---
-
 
 # Häufige Fragen {#common-questions}
 
