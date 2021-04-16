@@ -10,13 +10,13 @@ tutorials-url: https://docs.adobe.com/content/help/de-DE/campaign-standard-learn
 git-repo: https://git.corp.adobe.com/AdobeDocs/control-panel.de-DE
 index: true
 feature: Control Panel
-role: Architekt
-level: Anfänger
-translation-type: tm+mt
+role: Architect
+level: Beginner
+translation-type: ht
 source-git-commit: 0079a7e893595c3825f0ab2b44b341c379462de8
-workflow-type: tm+mt
-source-wordcount: '37'
-ht-degree: 97%
+workflow-type: ht
+source-wordcount: '35'
+ht-degree: 100%
 
 ---
 
