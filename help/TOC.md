@@ -3,14 +3,14 @@ product: adobe campaign
 sub-product: Control Panel
 audience: end-user
 user-guide-title: Control Panel-Anleitung
-feature: 'Control Panel   '
-role: Architekt
-level: Anfänger
-translation-type: tm+mt
+feature: Control Panel
+role: Architect
+level: Beginner
+translation-type: ht
 source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
-workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '102'
+ht-degree: 100%
 
 ---
 
