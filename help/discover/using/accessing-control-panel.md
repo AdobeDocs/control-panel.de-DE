@@ -3,17 +3,17 @@ product: campaign
 solution: Campaign
 title: Zugriff auf das Control Panel
 description: Erfahren Sie, wie Sie auf das Control Panel zugreifen können.
-feature: 'Control Panel   '
-role: Architekt
-level: Anfänger
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
-workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 98%
+feature: Control Panel
+role: Architect
+level: Beginner
+exl-id: eb67af6e-a64e-49a7-9656-782f91bc1d67
+translation-type: ht
+source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
+workflow-type: ht
+source-wordcount: '164'
+ht-degree: 100%
 
 ---
-
 
 # Zugriff auf das Control Panel {#accessing-control-panel}
 
