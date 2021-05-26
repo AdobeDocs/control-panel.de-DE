@@ -5,11 +5,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-translation-type: ht
-source-git-commit: 63491701dd099b12d22bf9a1eab3c8a290a2e6af
-workflow-type: ht
-source-wordcount: '231'
-ht-degree: 100%
+source-git-commit: e7350750800f68a132ac4607e962221b7fd20909
+workflow-type: tm+mt
+source-wordcount: '212'
+ht-degree: 68%
 
 ---
 
@@ -18,7 +17,6 @@ ht-degree: 100%
 ![](assets/do-not-localize/banner.png)
 
 ## Neue Funktionen
-
 
 **Subdomain-Konfiguration mit CNAME**
 
@@ -30,9 +28,13 @@ Die Registerkarte **[!UICONTROL Datenbanküberwachung]** wurde um zusätzliche M
 
 >[!NOTE]
 >
->Das Control Panel steht allen Administratoren zur Verfügung. Die Schritte, um einem Benutzer Administratorzugriff zu gewähren, finden Sie in [diesem Abschnitt](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=de#discover-control-panel).
+>Das Control Panel ist auf Admin-Benutzer beschränkt. [Weitere Informationen](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=de#discover-control-panel).
 >
->Beachten Sie für Campaign Classic, dass Ihre Instanz auf AWS gehostet und mit dem neuesten [Gold Standard](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/gs-overview.html?lang=de)-Build oder dem neuesten [allgemein verfügbaren Build (21.1)](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=de#release-notes) aktualisiert werden muss. Erfahren Sie in [diesem Abschnitt](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=de#getting-your-campaign-version), wie Sie Ihre Version überprüfen. Um zu überprüfen, ob Ihre Instanz auf AWS gehostet wird, folgen Sie den Schritten auf [dieser Seite](faq.md).
+>Beachten Sie zum Campaign Classic, dass Ihre Instanz auf Amazon Web Services (AWS) gehostet und auf den neuesten Build [Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses) aktualisiert werden muss.
+>
+>Erfahren Sie, wie Sie Ihre Campaign Classic-Version in [diesem Abschnitt](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=de#getting-your-campaign-version) überprüfen.
+>
+>Um zu überprüfen, ob Ihre Campaign Classic-Instanz auf AWS gehostet wird, führen Sie die unter [diese Seite](faq.md) beschriebenen Schritte aus.
 
 ## Zusätzliche Ressourcen {#additional-resources}
 
