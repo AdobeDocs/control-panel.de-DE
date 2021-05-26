@@ -5,7 +5,7 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: 9c7a17d3e6d5bb953cb584f5a255d7b76d5c2973
+source-git-commit: 99c24d7f27464741ee9eec0339c52fa95174b1cf
 workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 68%
@@ -31,13 +31,7 @@ Die Registerkarte **[!UICONTROL Datenbanküberwachung]** wurde um zusätzliche M
 >* Das Control Panel ist auf Admin-Benutzer beschränkt. [Weitere Informationen](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=de#discover-control-panel).
    >
    >
-* Beachten Sie zum Campaign Classic, dass Ihre Instanz auf Amazon Web Services (AWS) gehostet und auf den neuesten Build [Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses) aktualisiert werden muss.
-   >   
-   >   
-   * Erfahren Sie, wie Sie Ihre Campaign Classic-Version in [diesem Abschnitt](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=de#getting-your-campaign-version) überprüfen.
-      >   
-      >   
-   * Um zu überprüfen, ob Ihre Campaign Classic-Instanz auf AWS gehostet wird, führen Sie die unter [diese Seite](faq.md) beschriebenen Schritte aus.
+* Beachten Sie zum Campaign Classic, dass Ihre Instanz auf Amazon Web Services (AWS) gehostet und auf den neuesten Build [Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses) aktualisiert werden muss. Erfahren Sie, wie Sie Ihre Campaign Classic-Version in [diesem Abschnitt](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=de#getting-your-campaign-version) überprüfen. Um zu überprüfen, ob Ihre Campaign Classic-Instanz auf AWS gehostet wird, führen Sie die unter [diese Seite](faq.md) beschriebenen Schritte aus.
 
 
 ## Zusätzliche Ressourcen {#additional-resources}
