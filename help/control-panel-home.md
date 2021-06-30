@@ -29,9 +29,8 @@ Die Registerkarte **[!UICONTROL Datenbanküberwachung]** wurde um zusätzliche M
 >[!NOTE]
 >
 >* Das Control Panel steht nur Administratoren zur Verfügung. [Weitere Informationen](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=de#discover-control-panel).
-   >
-   >
-* Beachten Sie für Campaign Classic, dass Ihre Instanz auf Amazon Web Services (AWS) gehostet und auf den neuesten [allgemein verfügbaren Campaign Build](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=de#rn-statuses) aktualisiert werden muss. Erfahren Sie in [diesem Abschnitt](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=de#getting-your-campaign-version), wie Sie Ihre Campaign Classic-Version überprüfen. Um zu überprüfen, ob Ihre Campaign Classic Instanz auf AWS gehostet wird, folgen Sie den Schritten auf [dieser Seite](faq.md).
+>
+>* Beachten Sie für Campaign Classic, dass Ihre Instanz auf Amazon Web Services (AWS) gehostet und auf den neuesten [allgemein verfügbaren Campaign Build](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=de#rn-statuses) aktualisiert werden muss. Erfahren Sie in [diesem Abschnitt](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=de#getting-your-campaign-version), wie Sie Ihre Campaign Classic-Version überprüfen. Um zu überprüfen, ob Ihre Campaign Classic Instanz auf AWS gehostet wird, folgen Sie den Schritten auf [dieser Seite](faq.md).
 
 
 ## Zusätzliche Ressourcen {#additional-resources}
