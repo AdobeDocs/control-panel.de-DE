@@ -7,11 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-translation-type: ht
-source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
-workflow-type: ht
-source-wordcount: '1170'
-ht-degree: 100%
+source-git-commit: c8a17ca49f83282070c4ab50883454433970f2a7
+workflow-type: tm+mt
+source-wordcount: '1186'
+ht-degree: 98%
 
 ---
 
@@ -64,6 +63,10 @@ Gehen Sie wie folgt vor, um eine Subdomain Adobe Campaign vollständig zuzuweise
    ![](assets/subdomain3.png)
 
 1. Erstellen Sie die gewünschte Subdomain und die gewünschten Nameserver in der von Ihrem Unternehmen verwendeten Hosting-Lösung. Kopieren Sie dazu die im Assistenten angezeigten Adobe-Nameserver-Informationen und fügen Sie sie ein. Weitere Informationen zum Erstellen einer Subdomain in einer Hosting-Lösung finden Sie in diesem [Tutorial-Video](https://video.tv.adobe.com/v/30175).
+
+   >[!NOTE]
+   >
+   > Beispielsweise können Sie mit Subdomains sowohl Marketing- als auch Transaktionsnachrichten versenden.
 
    ![](assets/subdomain4.png)
 
