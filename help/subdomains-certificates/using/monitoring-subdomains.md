@@ -7,15 +7,18 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: edd55d07-bf0b-44b0-8281-be69c698d5e8
-translation-type: ht
-source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
-workflow-type: ht
-source-wordcount: '150'
-ht-degree: 100%
+source-git-commit: 3bd3dcc0e09d887cab7d810d43f2c72bb4251ac9
+workflow-type: tm+mt
+source-wordcount: '158'
+ht-degree: 94%
 
 ---
 
 # Überwachen von Subdomains {#monitoring-subdomains}
+
+>[!AVAILABILITY]
+>
+>Diese Funktion ist für Campaign v8 nicht verfügbar.
 
 Sie müssen Ihre Subdomains unbedingt überwachen, um sicherzustellen, dass alle ordnungsgemäß für die Verwendung mit Adobe Campaign konfiguriert sind.
 
