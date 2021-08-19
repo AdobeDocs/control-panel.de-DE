@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: 3bd3dcc0e09d887cab7d810d43f2c72bb4251ac9
+source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 88%
+source-wordcount: '227'
+ht-degree: 83%
 
 ---
 
@@ -32,6 +32,9 @@ Die Registerkarte **[!UICONTROL Datenbanküberwachung]** wurde um zusätzliche M
    >
    >
 * Beachten Sie zum Campaign Classic v7, dass Ihre Instanz auf Amazon Web Services (AWS) gehostet und auf den neuesten Build [Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=de#rn-statuses) aktualisiert werden muss. Erfahren Sie in [diesem Abschnitt](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=de#getting-your-campaign-version), wie Sie Ihre Campaign Classic-Version überprüfen. Um zu überprüfen, ob Ihre Campaign Classic Instanz auf AWS gehostet wird, folgen Sie den Schritten auf [dieser Seite](faq.md).
+   >
+   >
+* Die folgenden Funktionen sind für Campaign v8 nicht verfügbar: Verwaltung von Subdomains und Zertifikatverwaltung.
 
 
 ## Zusätzliche Ressourcen {#additional-resources}
