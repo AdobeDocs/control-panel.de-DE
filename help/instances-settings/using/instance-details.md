@@ -7,11 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
-translation-type: ht
-source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
-workflow-type: ht
-source-wordcount: '565'
-ht-degree: 100%
+source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
+workflow-type: tm+mt
+source-wordcount: '567'
+ht-degree: 93%
 
 ---
 
@@ -28,9 +27,9 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->Diese Funktion ist nur für Campaign Classic-Instanzen verfügbar.
+>Diese Funktion ist nur für Campaign Classic v7- und Campaign v8-Instanzen verfügbar.
 
-Die Architektur Ihrer Adobe Campaign Classic-Instanz kann mehrere Server umfassen, um flexible Marketing-Aktivitäten zu ermöglichen. So können beispielsweise Marketing-, Echtzeit- (oder Message Center-) und Mid Sourcing-Server Ihre Instanz unterstützen.
+Ihre Adobe Campaign-Instanzenarchitektur kann mehrere Server enthalten, um die Flexibilität von Marketingaktivitäten zu ermöglichen. So können beispielsweise Marketing-, Echtzeit- (oder Message Center-) und Mid Sourcing-Server Ihre Instanz unterstützen.
 
 Mit der Funktion &quot;Details der Instanz&quot; können Sie sich die flache Architektur Ihrer Instanz anzeigen lassen. Zusätzlich zu den Server-Informationen erfahren Sie hier auch, ob der Build Ihrer Instanz aktuell ist oder ob ein Upgrade empfohlen wird.
 
@@ -47,13 +46,13 @@ Mit der Funktion &quot;Details der Instanz&quot; können Sie sich die flache Arc
 
 Gehen Sie wie folgt vor, um Informationen zu den mit Ihren Instanzen verbundenen Servern zu erhalten:
 
-1. Öffnen Sie die Karte **[!UICONTROL Instanzeinstellungen]**, um auf die Registerkarte **[!UICONTROL Details der Instanz]** zuzugreifen.
+1. Öffnen Sie die Karte **[!UICONTROL Instanzeneinstellungen]**, um auf die Registerkarte **[!UICONTROL Details der Instanz]** zuzugreifen.
 
    >[!NOTE]
    >
    >Wenn die Karte „Instanzeneinstellungen“ nicht auf der Startseite des Control Panel sichtbar ist, bedeutet das, dass Ihre Kennung der IMS-Organisation mit keiner Adobe Campaign Classic-Instanz verknüpft ist.
 
-1. Wählen Sie im linken Fenster die gewünschte Campaign Classic-Instanz aus.
+1. Wählen Sie im linken Bereich die gewünschte Campaign-Instanz aus.
 
    >[!NOTE]
    >
@@ -73,7 +72,7 @@ Diese Informationen sind verfügbar:
    * Gelb: Sie sollten ein Upgrade in Erwägung ziehen. Ihnen fehlen die neuesten Funktionen und Fehlerkorrekturen.
    * Rot: Führen Sie möglichst rasch ein Upgrade durch. Ihnen fehlen neue Funktionen und die Server-Leistung ist möglicherweise nicht optimal.
 
-Informationen zur Aktualisierung von Servern finden Sie in [dieser Dokumentation](https://docs.campaign.adobe.com/doc/AC/getting_started/DE/buildUpgrade.html).
+Informationen zur Aktualisierung von Servern finden Sie in [dieser Dokumentation](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html).
 
 ## Häufige Fragen {#common-questions}
 
