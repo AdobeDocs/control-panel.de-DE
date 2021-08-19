@@ -7,11 +7,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-translation-type: ht
-source-git-commit: 4c8347f7b0f4a776ea726f02029ea1c92a83406a
-workflow-type: ht
-source-wordcount: '631'
-ht-degree: 100%
+source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
+workflow-type: tm+mt
+source-wordcount: '632'
+ht-degree: 95%
 
 ---
 
@@ -23,7 +22,7 @@ Hier finden Sie Informationen zu den aktuellen Versionen des Control Panel.
 >
 >Das Control Panel steht allen Administratoren zur Verfügung. Die Schritte, um einem Benutzer Administratorzugriff zu gewähren, finden Sie in [diesem Abschnitt](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=de#discover-control-panel).
 >
->Beachten Sie für Campaign Classic, dass Ihre Instanz auf AWS gehostet und mit dem neuesten [Gold Standard](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/gs-overview.html?lang=de)-Build oder dem neuesten [allgemein verfügbaren Build (21.1)](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=de#release-notes) aktualisiert werden muss. Erfahren Sie in [diesem Abschnitt](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=de#getting-your-campaign-version), wie Sie Ihre Version überprüfen. Um zu überprüfen, ob Ihre Instanz auf AWS gehostet wird, folgen Sie den Schritten auf [dieser Seite](faq.md).
+>Beachten Sie zum Campaign Classic v7, dass Ihre Instanz auf AWS gehostet und mit dem neuesten [Gold Standard](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/gs-overview.html?lang=de) Build oder dem [aktuellen GA-Build (21.1)](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=de#release-notes) aktualisiert werden muss. Erfahren Sie in [diesem Abschnitt](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=de#getting-your-campaign-version), wie Sie Ihre Version überprüfen. Um zu überprüfen, ob Ihre Instanz auf AWS gehostet wird, folgen Sie den Schritten auf [dieser Seite](faq.md).
 
 ## Oktober 2020 {#october-2020}
 
@@ -35,7 +34,7 @@ Im Control Panel können Sie jetzt mit CNAME eine Subdomain für die Verwendung 
 
 Die Datenbanküberwachung wurde um zusätzliche Metriken erweitert, sodass Sie detaillierte Informationen zu den Ressourcen erhalten können, die Speicherplatz in Ihrer Datenbank belegen. [Mehr dazu](performance-monitoring/using/database-monitoring.md)
 
-## Juni 2020{#june-2020}
+## Juni 2020 {#june-2020}
 
 **Prüfung der Subdomain-Zustellbarkeit**
 
