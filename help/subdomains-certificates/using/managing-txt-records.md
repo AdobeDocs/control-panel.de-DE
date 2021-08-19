@@ -7,11 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 547ca6f2-720f-4d58-b31b-5b2611ba9156
-translation-type: ht
-source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
-workflow-type: ht
-source-wordcount: '353'
-ht-degree: 100%
+source-git-commit: 3bd3dcc0e09d887cab7d810d43f2c72bb4251ac9
+workflow-type: tm+mt
+source-wordcount: '361'
+ht-degree: 97%
 
 ---
 
@@ -21,6 +20,10 @@ ht-degree: 100%
 >id="cp_siteverification_add"
 >title="Verwalten von TXT-Einträgen"
 >abstract="Bei bestimmten Diensten wie Google müssen Sie Ihren Domain-Einstellungen einen TXT-Eintrag hinzufügen, um zu verifizieren, dass Sie der Besitzer der Domain sind."
+
+>[!AVAILABILITY]
+>
+>Diese Funktion ist für Campaign v8 nicht verfügbar.
 
 ## Über TXT-Einträge {#about-txt-records}
 
