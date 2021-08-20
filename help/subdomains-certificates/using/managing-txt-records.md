@@ -7,7 +7,7 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 547ca6f2-720f-4d58-b31b-5b2611ba9156
-source-git-commit: 3bd3dcc0e09d887cab7d810d43f2c72bb4251ac9
+source-git-commit: 008edcd915017d147ee496ae7c0130a868b099b9
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 97%
@@ -21,11 +21,11 @@ ht-degree: 97%
 >title="Verwalten von TXT-Einträgen"
 >abstract="Bei bestimmten Diensten wie Google müssen Sie Ihren Domain-Einstellungen einen TXT-Eintrag hinzufügen, um zu verifizieren, dass Sie der Besitzer der Domain sind."
 
+## Über TXT-Einträge {#about-txt-records}
+
 >[!AVAILABILITY]
 >
 >Diese Funktion ist für Campaign v8 nicht verfügbar.
-
-## Über TXT-Einträge {#about-txt-records}
 
 TXT-Einträge sind eine Art von DNS-Einträgen, die der Bereitstellung von Textinformationen über eine Domain dienen und von externen Quellen gelesen werden können.
 
