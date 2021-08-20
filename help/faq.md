@@ -7,11 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
-translation-type: ht
-source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
-workflow-type: ht
-source-wordcount: '634'
-ht-degree: 100%
+source-git-commit: c88e18e97d2f6fa1fc308050c337a2a578187f9b
+workflow-type: tm+mt
+source-wordcount: '672'
+ht-degree: 94%
 
 ---
 
@@ -27,7 +26,7 @@ Weitere Informationen finden Sie in der [Adobe Experience Cloud-Dokumentation](h
 
 **Wo finde ich meine Kennung der IMS-Organisation?**
 
-Eine Möglichkeit besteht darin, zur [Startseite von Adobe Experience Cloud](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]** zu navigieren. Ihre Kennung der IMS-Organisation finden Sie in der Administration unten im Bereich **[!UICONTROL Schnellzugriff]**. Detailliertere Informationen finden Sie in der [Adobe Experience Cloud-Dokumentation](https://marketing.adobe.com/resources/help/de_DE/mcloud/organizations.html).
+Eine Möglichkeit besteht darin, zur [Startseite von Adobe Experience Cloud](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]** zu navigieren. Ihre Kennung der IMS-Organisation finden Sie in der Administration unten im Bereich **[!UICONTROL Schnellzugriff]**. Detailliertere Informationen finden Sie in der [Adobe Experience Cloud-Dokumentation](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html).
 
 Eine andere Möglichkeit besteht darin, die **Admin Console** zu starten. Ihre Kennung der IMS-Organisation wird in Ihrer URL angezeigt. Sie sieht in etwa so aus: https://adminconsole.adobe.com/xxx@AdobeOrg/overview.
 
@@ -50,7 +49,7 @@ Wenn Sie Zugriff auf mehrere Adobe-Lösungen haben, kann es sein, dass Sie mehr 
 Gehen Sie wie folgt vor, um zu überprüfen, ob Ihre Instanz auf AWS gehostet wird:
 
 1. Rufen Sie Ihre Anmelde-URL ab. Dies ist die URL, die Sie zur Anmeldung in Ihrer Campaign-Instanz verwenden. Sie endet normalerweise auf &quot;.campaign.adobe.com&quot; oder &quot;.neolane.net&quot;.
-1. Öffnen Sie das Terminal und führen Sie dann einen **[!DNL nslookup]** --Vorgang auf Ihrer Anmelde-URL aus.
+1. Öffnen Sie das Terminal und führen Sie dann einen **[!DNL nslookup]** -Vorgang auf Ihrer Anmelde-URL aus.
 
    `doe-macOS% nslookup myinstance.campaign.adobe.com`
 
@@ -100,6 +99,10 @@ Mit dem Control Panel können Produktadministratoren direkt verschiedene Einstel
 Das Control Panel ermöglicht es Ihnen, Speicherplatz zu überwachen, IP-Adressen auf die Zulassungsliste zu setzen, SSH-Schlüssel für Ihre SFTP-Server nach Ihren Bedürfnissen selbst zu verwalten sowie andere Aktionen auszuführen.
 
 Weitere Informationen finden Sie in der Dokumentation zu den vom Control Panel unterstützten Aktionen.
+
+**Welche Funktionen werden von Campaign v8 nicht unterstützt, sind jedoch in Campaign Classic v7 verfügbar?**
+
+Über das Control Panel in Campaign v8 werden die Funktionen Subdomain und Certificate Management noch nicht unterstützt. Wenden Sie sich an die Kundenunterstützung von Campaign, um Unterstützung zu erhalten.
 
 **Wird das Control Panel nur für Adobe Campaign verwendet?**
 
