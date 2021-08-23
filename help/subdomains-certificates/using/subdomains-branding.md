@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: a489d051-fb95-45cf-bb6d-33aef10b7795
-source-git-commit: 3bd3dcc0e09d887cab7d810d43f2c72bb4251ac9
+source-git-commit: 599cb22da734f53c0b06583be3e47668dcb57ef1
 workflow-type: tm+mt
-source-wordcount: '708'
-ht-degree: 97%
+source-wordcount: '707'
+ht-degree: 96%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 97%
 >id="cp_certificate_management"
 >title="Über Subdomains und SSL-Zertifikate"
 >abstract="Überwachen Sie Ihre Subdomains und die zugehörigen SSL-Zertifikate."
->additional-url="https://docs.adobe.com/content/help/de-DE/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html" text="Überwachen der SSL-Zertifikate Ihrer Subdomains"
+>additional-url="https://https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html" text="Überwachen der SSL-Zertifikate Ihrer Subdomains"
 
 
 ## Warum sollten Sie Subdomains einrichten? {#why-setting-up-subdomains}
