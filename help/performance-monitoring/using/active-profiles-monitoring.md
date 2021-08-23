@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
-source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
+source-git-commit: c29b6d4bf59628a10f6b8e402176b1835770fc54
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 96%
+source-wordcount: '369'
+ht-degree: 91%
 
 ---
 
@@ -32,7 +32,7 @@ Profile gelten als aktiv, wenn sie in den letzten 12 Monaten über einen beliebi
 >
 >Die Kanäle Facebook und Twitter werden nicht berücksichtigt.
 
-Weitere Informationen zu aktiven Profilen finden Sie in den Dokumentationen [Campaign Standard](https://docs.adobe.com/content/help/de-DE/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html) und [Campaign Classic v7](https://docs.adobe.com/content/help/de-DE/campaign-classic/using/getting-started/profile-management/about-profiles.html#active-profiles) .
+Weitere Informationen zu aktiven Profilen finden Sie in den Dokumentationen [Campaign Standard](https://https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html) und [Campaign Classic v7](https://https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html#active-profiles) .
 
 ## Überwachen aktiver Profile {#monitoring-active-profiles}
 
