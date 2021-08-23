@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
-source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
+source-git-commit: 599cb22da734f53c0b06583be3e47668dcb57ef1
 workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 93%
+source-wordcount: '565'
+ht-degree: 90%
 
 ---
 
@@ -20,8 +20,8 @@ ht-degree: 93%
 >id="cp_instancesettings_instancedetails"
 >title="Über die Details der Instanz"
 >abstract="Zeigen Sie die Details Ihrer Adobe Campaign-Instanzen an: Typen, Namen, Build-Informationen und mögliche Upgrade-Empfehlungen."
->additional-url="https://docs.adobe.com/content/help/de-DE/campaign-classic/using/release-notes/latest-release.html" text="Versionshinweise zu Campaign Classic"
->additional-url="https://docs.adobe.com/content/help/de-DE/campaign-standard/using/release-notes/release-notes.html" text="Versionshinweise zu Campaign Standard"
+>additional-url="https://https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html" text="Versionshinweise zu Campaign Classic"
+>additional-url="https://https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html" text="Versionshinweise zu Campaign Standard"
 
 ## Über die Details der Instanz {#about-instance-details}
 
