@@ -8,9 +8,9 @@ role: Architect
 level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
 source-git-commit: c29b6d4bf59628a10f6b8e402176b1835770fc54
-workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 88%
+workflow-type: ht
+source-wordcount: '368'
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Profile gelten als aktiv, wenn sie in den letzten 12 Monaten über einen beliebi
 >
 >Die Kanäle Facebook und Twitter werden nicht berücksichtigt.
 
-Weitere Informationen zu aktiven Profilen finden Sie in den Dokumentationen [Campaign Standard](https://https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html) und [Campaign Classic v7](https://https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html#active-profiles) .
+Weitere Informationen zu aktiven Profilen finden Sie in den Dokumentationen zu [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html?lang=de) und [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html?lang=de#active-profiles).
 
 ## Überwachen aktiver Profile {#monitoring-active-profiles}
 
@@ -52,7 +52,7 @@ Gehen Sie dazu wie folgt vor:
 >
 >Aktive Profile werden anhand spezieller technischer Workflows gezählt, die täglich für Ihre Instanzen ausgeführt werden:
 >
->* Der Workflow „[Abrechnung](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=en)“ für Campaign Standard,
+>* Der Workflow „[Abrechnung](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=de)“ für Campaign Standard,
 >* Der Workflow „[Anzahl aktiver Abrechnungsprofile](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=de)“ für Campaign Classic.
 
 
