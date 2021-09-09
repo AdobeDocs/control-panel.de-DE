@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: 3bd3dcc0e09d887cab7d810d43f2c72bb4251ac9
-workflow-type: tm+mt
-source-wordcount: '1194'
-ht-degree: 97%
+source-git-commit: 599cb22da734f53c0b06583be3e47668dcb57ef1
+workflow-type: ht
+source-wordcount: '1191'
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 97%
 >id="cp_subdomain_management"
 >title="Einrichten neuer Subdomains und Verwalten von Zertifikaten"
 >abstract="Sie müssen eine neue Subdomain einrichten und die SSL-Zertifikate Ihrer Subdomains verwalten, um mit Adobe Campaign E-Mails senden oder Landingpages veröffentlichen zu können."
->additional-url="https://docs.adobe.com/content/help/de-DE/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html" text="Überwachen der SSL-Zertifikate Ihrer Subdomains"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=de" text="Überwachen der SSL-Zertifikate Ihrer Subdomains"
 
 
 ## Wichtige Informationen {#must-read}
@@ -69,7 +69,7 @@ Gehen Sie wie folgt vor, um eine Subdomain Adobe Campaign vollständig zuzuweise
 
    >[!NOTE]
    >
-   > Bei Adobe Campaign Standard können Sie über zugewiesene Subdomains sowohl **Marketing**- als auch **Transaktionsnachrichten**-Nachrichten senden.
+   > Bei Adobe Campaign Standard können Sie über zugewiesene Subdomains sowohl **Marketing**- als auch **Transaktions**-Nachrichten senden.
 
    ![](assets/subdomain4.png)
 
@@ -127,7 +127,7 @@ Gehen Sie wie folgt vor, um eine Subdomain mit CNAME zu konfigurieren.
 
 Sobald die Subdomain gesendet wurde, führt das Control Panel verschiedene Prüfungen und Konfigurationsschritte durch. Weitere Informationen hierzu finden Sie unter [Subdomain-Prüfungen und -konfiguration](#subdomain-checks-and-configuration).
 
-## Subdomain-Prüfungen und -konfiguration {#subdomain-checks-and-configuration}
+## Subdomain-Prüfungen und -Konfiguration {#subdomain-checks-and-configuration}
 
 1. Nachdem eine Subdomain übermittelt wurde, prüft das Control Panel, ob sie korrekt auf Adobe-NS-Einträge verweist. Zusätzlich wird sichergestellt, dass für diese Subdomain kein SOA-Eintrag (Start of Authority) existiert.
 
