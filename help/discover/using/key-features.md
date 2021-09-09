@@ -8,9 +8,9 @@ role: Architect
 level: Beginner
 exl-id: cb6cc63b-d6cc-4c8b-870f-e108d05aa740
 source-git-commit: 599cb22da734f53c0b06583be3e47668dcb57ef1
-workflow-type: tm+mt
-source-wordcount: '315'
-ht-degree: 97%
+workflow-type: ht
+source-wordcount: '313'
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 97%
 >id="cp_overview"
 >title="Über das Control Panel"
 >abstract="Auf der Startseite des Control Panels haben Sie Zugriff auf alle Aktionen, die auf Ihren Campaign-Instanzen ausgeführt werden können."
->additional-url="https://https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/discovering-the-interface.html" text="Kennenlernen der Benutzeroberfläche"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/discovering-the-interface.html?lang=de" text="Kennenlernen der Benutzeroberfläche"
 
 Das Control Panel bietet Produktadministratoren von Adobe Campaign Standard und/oder Classic verbesserte Effizienz. Sie können damit die Einstellungen einer jeden Instanz verwalten und deren Nutzung kontrollieren. Dank der intuitiven Benutzeroberfläche können die Nutzung wichtiger Ressourcen überwacht und administrative Aufgaben einfach durchgeführt werden. So können beispielsweise IP-Adressen auf die Zulassungsliste gesetzt, der Speicher von SFTP-Servern überwacht und die Schlüssel verwaltet werden.
 
