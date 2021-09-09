@@ -8,9 +8,9 @@ role: Architect
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
 source-git-commit: c29b6d4bf59628a10f6b8e402176b1835770fc54
-workflow-type: tm+mt
-source-wordcount: '779'
-ht-degree: 85%
+workflow-type: ht
+source-wordcount: '777'
+ht-degree: 100%
 
 ---
 
@@ -26,11 +26,11 @@ Mit dem Control Panel können Produktadministratoren direkt verschiedene Einstel
 
 Das Control Panel ermöglicht es Ihnen, Speicherplatz zu überwachen, IP-Adressen auf die Zulassungsliste zu setzen, SSH-Schlüssel für Ihre SFTP-Server nach Ihren Bedürfnissen selbst zu verwalten sowie andere Aktionen auszuführen.
 
-Weitere Informationen finden Sie in der Dokumentation zu den vom Control Panel unterstützten Aktionen.
+Weitere Informationen zu den vom Control Panel unterstützten Aktionen finden Sie in der Dokumentation.
 
 ### Welche Funktionen werden von Campaign v8 nicht unterstützt, sind jedoch in Campaign Classic v7 verfügbar?{#v8-restrictions}
 
-Über das Control Panel in Campaign v8 werden die Funktionen Subdomain und Certificate Management noch nicht unterstützt. Wenden Sie sich an die Kundenunterstützung von Campaign, um Unterstützung zu erhalten.
+Die Subdomain- und Zertifikatsverwaltungs-Funktionen werden vom Control Panel in Campaign v8 noch nicht unterstützt. Wenden Sie sich an die Kundenunterstützung von Campaign, um diesbezüglich Hilfe zu erhalten.
 
 ### Wird das Control Panel nur für Adobe Campaign verwendet?
 
@@ -42,17 +42,17 @@ Das Control Panel steht nur Produktadministratoren unserer aktuellen Kunden offe
 
 Wenn Sie kein Administrator sind, aber Zugriff wünschen, wenden Sie sich an Ihren Produktadministrator mit der Bitte, Sie als Administrator hinzuzufügen.
 
-### Welche Bedingungen gelten für den Zugriff auf das Control Panel als Campaign Classic v7-Benutzer? {#v7-restrictions}
+### Welche Bedingungen gelten für den Zugriff auf das Control Panel, wenn man Campaign Classic v7-Benutzer ist? {#v7-restrictions}
 
 Das Control Panel steht nur Administratoren zur Verfügung. [Weitere Informationen](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=de#discover-control-panel).
 
-Beachten Sie zum Campaign Classic v7, dass Ihre Instanz auf Amazon Web Services (AWS) gehostet und auf den neuesten Build [Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=de#rn-statuses) aktualisiert werden muss. Erfahren Sie in [diesem Abschnitt](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=de#getting-your-campaign-version), wie Sie Ihre Campaign Classic-Version überprüfen. Um zu überprüfen, ob Ihre Campaign Classic-Instanz auf AWS gehostet wird, führen Sie die in [diesem Abschnitt](#hosted-aws) beschriebenen Schritte aus.
+Beachten Sie für Campaign Classic v7, dass Ihre Instanz auf Amazon Web Services (AWS) gehostet und auf den neuesten [allgemein verfügbaren Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=de#rn-statuses)-Build aktualisiert werden muss. In [diesem Abschnitt](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=de#getting-your-campaign-version) erfahren Sie, wie Sie Ihre Campaign Classic-Version überprüfen. Um zu überprüfen, ob Ihre Campaign Classic-Instanz auf AWS gehostet wird, folgen Sie den Schritten in [diesem Abschnitt](#hosted-aws).
 
 ### Wie kann ich auf das Control Panel zugreifen?
 
-Folgen Sie der detaillierten Anleitung in der Dokumentation zum Zugriff auf das Control Panel.
+Folgen Sie der detaillierten Anleitung in der Dokumentation im Abschnitt zum Zugriff auf das Control Panel.
 
-### Gibt es eine zusätzliche Gebühr für die Nutzung des Control Panels?
+### Gibt es eine zusätzliche Gebühr für die Nutzung des Control Panel?
 
 Nein, es fallen keine zusätzlichen Kosten an, wenn Sie bereits Kunde von Adobe Campaign sind.
 
@@ -62,11 +62,11 @@ Nein, es fallen keine zusätzlichen Kosten an, wenn Sie bereits Kunde von Adobe 
 
 Dies ist eine eindeutige Kennung, die Ihrer Instanz bei der ersten Anmeldung in Adobe Experience Cloud zugewiesen wird. Sie sollte im folgenden Format vorliegen: xxx@AdobeOrg.
 
-Weitere Informationen finden Sie in der [Adobe Experience Cloud-Dokumentation](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=en).
+Weitere Informationen finden Sie in der [Adobe Experience Cloud-Dokumentation](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=de).
 
 ### Wo finde ich meine Kennung der IMS-Organisation?
 
-Eine Möglichkeit besteht darin, zur [Startseite von Adobe Experience Cloud](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]** zu navigieren. Ihre Kennung der IMS-Organisation finden Sie in der Administration unten im Bereich **[!UICONTROL Schnellzugriff]**. Detailliertere Informationen finden Sie in der [Adobe Experience Cloud-Dokumentation](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=en).
+Eine Möglichkeit besteht darin, zur [Startseite von Adobe Experience Cloud](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]** zu navigieren. Ihre Kennung der IMS-Organisation finden Sie in der Administration unten im Bereich **[!UICONTROL Schnellzugriff]**. Detailliertere Informationen finden Sie in der [Adobe Experience Cloud-Dokumentation](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=de).
 
 Eine andere Möglichkeit besteht darin, die **Admin Console** zu starten. Ihre Kennung der IMS-Organisation wird in Ihrer URL angezeigt. Sie sieht in etwa so aus: https://adminconsole.adobe.com/xxx@AdobeOrg/overview.
 
