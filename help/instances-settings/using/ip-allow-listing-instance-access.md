@@ -8,9 +8,9 @@ role: Architect
 level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
 source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
-workflow-type: tm+mt
-source-wordcount: '795'
-ht-degree: 94%
+workflow-type: ht
+source-wordcount: '793'
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 94%
 >
 >Diese Funktion ist nur für Campaign Classic v7- und Campaign v8-Instanzen verfügbar.
 
-Standardmäßig ist der Zugriff auf Ihre Adobe Campaign-Instanz nicht über verschiedene IP-Adressen möglich.
+Standardmäßig kann auf eine Adobe Campaign-Instanz nicht über verschiedene IP-Adressen zugegriffen werden.
 
 Wenn Ihre IP-Adresse nicht auf der Zulassungsliste steht, können Sie sich nicht von dieser Adresse aus bei der Instanz anmelden. Ebenso können Sie keine API mit Ihrer Message Center- oder Marketing-Instanz verbinden, wenn die IP-Adresse nicht speziell für die Instanz auf die Zulassungsliste gesetzt wurde.
 
@@ -82,7 +82,7 @@ Gehen Sie wie folgt vor, um IP-Adressen auf die Zulassungsliste zu setzen:
 
 1. Geben Sie die Art des Zugriffs an, den Sie den IP-Adressen gewähren möchten:
 
-   * **[!UICONTROL Zugriff auf die Campaign-Konsole]**: Die IP-Adressen können sich mit der Campaign Client Console verbinden. Beachten Sie, dass der Konsolenzugriff nur für Marketing-Instanzen möglich ist. Der Zugriff auf MID- und RT-Instanzen ist nicht erlaubt und deshalb auch nicht aktiviert.
+   * **[!UICONTROL Zugriff auf die Campaign-Konsole]**: Die IP-Adressen können sich mit der Campaign Client-Konsole verbinden. Beachten Sie, dass der Konsolenzugriff nur für Marketing-Instanzen möglich ist. Der Zugriff auf MID- und RT-Instanzen ist nicht erlaubt und deshalb auch nicht aktiviert.
    * **[!UICONTROL AEM-Verbindung]**: Die angegebenen AEM-IP-Adressen können sich mit der Marketing-Instanz verbinden.
    * **[!UICONTROL Externe API-Verbindung]**: Externe APIs mit den angegebenen IP-Adressen können sich mit der Marketing- und/oder Message Center (RT)-Instanz verbinden. Beachten Sie, dass die Verbindung mit der Konsole für RT-Instanzen nicht aktiviert ist.
 
