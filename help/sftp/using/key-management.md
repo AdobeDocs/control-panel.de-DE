@@ -7,11 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 03815e01-6371-4e1c-b4b8-7abe25957cee
-translation-type: ht
-source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
-workflow-type: ht
-source-wordcount: '641'
-ht-degree: 100%
+source-git-commit: dd5b69604178ef9a11af88a90a1a4f9e74374b7e
+workflow-type: tm+mt
+source-wordcount: '653'
+ht-degree: 94%
 
 ---
 
@@ -19,8 +18,8 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="cp_key_management"
->title="Über die Schlüsselverwaltung"
->abstract="Auf dieser Registerkarte können Sie Ihre öffentlichen Schlüssel verwalten."
+>title="Über die Verwaltung öffentlicher Schlüssel"
+>abstract="Auf dieser Registerkarte können Sie Ihre öffentlichen Schlüssel erstellen, verwalten und bearbeiten."
 >additional-url="https://images-tv.adobe.com/mpcv3/8a977e03-d76c-44d3-853c-95d0b799c870_1560205338.1920x1080at3000_h264.mp4#t=166" text="Demovideo ansehen"
 
 Adobe empfiehlt allen Kunden, die Verbindung zu ihren SFTP-Servern mit einem **Paar aus öffentlichem und privatem Schlüssel** herzustellen.
@@ -53,8 +52,8 @@ In sehr seltenen Fällen ist die passwortbasierte Authentifizierung auf manchen 
 
 >[!CONTEXTUALHELP]
 >id="cp_sftp_publickey_add"
->title="Hinzufügen von öffentlichen Schlüsseln"
->abstract="Fügen Sie einen neuen öffentlichen Schlüssel für eine Instanz hinzu."
+>title="Hinzufügen öffentlicher Schlüssel"
+>abstract="Generieren Sie einen öffentlichen SSH-Schlüssel für eine Instanz und fügen Sie ihn dem Control Panel hinzu, um auf den SFTP-Server zuzugreifen."
 
 >[!IMPORTANT]
 >

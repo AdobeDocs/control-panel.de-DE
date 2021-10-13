@@ -7,14 +7,20 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
-source-git-commit: 599cb22da734f53c0b06583be3e47668dcb57ef1
-workflow-type: ht
-source-wordcount: '1178'
-ht-degree: 100%
+source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
+workflow-type: tm+mt
+source-wordcount: '1219'
+ht-degree: 96%
 
 ---
 
 # GPG-Schlüsselverwaltung {#gpg-keys-management}
+
+>[!CONTEXTUALHELP]
+>id="cp_instancesettings_gpg_management"
+>title="Über GPG-Schlüssel"
+>abstract="Auf dieser Registerkarte können Sie GPG-Schlüssel in einer Marketing-Instanz installieren und/oder generieren, um von Campaign gesendete Daten zu verschlüsseln und eingehende Daten zu entschlüsseln."
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=en" text="Über die Leistungsüberwachung"
 
 ## Über die GPG-Verschlüsselung {#about-gpg-encryption}
 
@@ -92,7 +98,7 @@ Weitere Informationen zu diesem Thema finden Sie in der Adobe Campaign-Dokumenta
 **Campaign Classic v7 und Campaign v8:**
 
 * [Komprimieren oder Verschlüsseln von Dateien](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/zip-encrypt.html?lang=de)
-* [Anwendungsfall: Verschlüsseln und Exportieren von Daten mit einem im Control Panel installierten Schlüssel](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/general-operation/how-to-use-workflow-data.html?lang=de#use-case-gpg-encrypt)
+* [Anwendungsfall: Verschlüsseln und Exportieren von Daten mit einem im Control Panel installierten Schlüssel](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-encrypt)
 
 **Campaign Standard:**
 

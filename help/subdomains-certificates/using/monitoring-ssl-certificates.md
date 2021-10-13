@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: a7888e1c-259d-4601-951b-0f1062d90dc2
-source-git-commit: 3bd3dcc0e09d887cab7d810d43f2c72bb4251ac9
-workflow-type: ht
-source-wordcount: '403'
-ht-degree: 100%
+source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
+workflow-type: tm+mt
+source-wordcount: '405'
+ht-degree: 98%
 
 ---
 
@@ -37,7 +37,7 @@ Mit der **SSL-Verschlüsselung (Secure Socket Layer)** stellen Sie sicher, dass 
 >[!CONTEXTUALHELP]
 >id="cp_subdomain_details"
 >title="Details der Subdomain"
->abstract="Rufen Sie Informationen zu Ihren Subdomains ab."
+>abstract="Rufen Sie Informationen zu den SSL-Zertifikaten Ihrer Subdomains ab."
 
 Der Status der SSL-Zertifikate Ihrer Subdomains ist direkt in der Liste der Subdomains verfügbar, wenn Sie die Karte **[!UICONTROL Subdomains &amp; Zertifikate]** auswählen.
 
@@ -61,7 +61,7 @@ Wenn eines der SSL-Zertifikate Ihrer Subdomain bald abläuft, können Sie es dir
 
 >[!IMPORTANT]
 >
->Die Zertifikatsverlängerung über das Control Panel befindet sich in der Beta-Phase und unterliegt häufigen Aktualisierungen und Änderungen ohne Vorankündigung.
+>Die Zertifikatsverlängerung über das Control Panel befindet sich in der Betaversion und unterliegt häufigen Aktualisierungen und Änderungen ohne Vorankündigung.
 
 **Verwandte Themen:**
 

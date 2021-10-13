@@ -7,15 +7,14 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 45a3bfcd-500c-4139-b610-d39989260ab7
-translation-type: ht
-source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
-workflow-type: ht
-source-wordcount: '648'
-ht-degree: 100%
+source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
+workflow-type: tm+mt
+source-wordcount: '645'
+ht-degree: 99%
 
 ---
 
-# Zulassungsauflistung von IP-Bereichen{#ip-range-allow-listing}
+# Zulassungsauflistung von IP-Bereichen {#ip-range-allow-listing}
 
 >[!CONTEXTUALHELP]
 >id="cp_ip_whitelist"
@@ -48,7 +47,7 @@ Beachten Sie unbedingt die folgenden Empfehlungen und Einschränkungen, wenn Sie
 
 >[!CONTEXTUALHELP]
 >id="cp_sftp_iprange_add"
->title="Hinzufügen neuer IP-Bereiche"
+>title="IP-Bereichskonfiguration"
 >abstract="Definieren Sie IP-Bereiche, die Sie auf die Zulassungsliste setzen möchten, um sich mit Ihren SFTP-Servern zu verbinden."
 
 Gehen Sie wie folgt vor, um einen IP-Bereich auf die Zulassungsliste zu setzen:

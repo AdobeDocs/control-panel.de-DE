@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: a7df90da-a2ce-409f-9bc3-c7d4fa3024c8
-source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
-workflow-type: ht
-source-wordcount: '614'
-ht-degree: 100%
+source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
+workflow-type: tm+mt
+source-wordcount: '613'
+ht-degree: 99%
 
 ---
 
@@ -51,7 +51,7 @@ Nach dem Hinzufügen einer URL wird sie in der Konfigurationsdatei der Instanz r
 
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_url_add"
->title="Neue URL hinzufügen"
+>title="URL-Definition"
 >abstract="Fügen Sie URLs hinzu, um Verbindungen zu Ihrer Campaign-Instanz zuzulassen."
 
 Gehen Sie wie folgt vor, um eine URL hinzuzufügen, mit der sich Ihre Instanz verbinden kann:

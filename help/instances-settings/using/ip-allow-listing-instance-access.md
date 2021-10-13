@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
-source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
-workflow-type: ht
-source-wordcount: '793'
-ht-degree: 100%
+source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
+workflow-type: tm+mt
+source-wordcount: '792'
+ht-degree: 98%
 
 ---
 
@@ -46,11 +46,11 @@ Beachten Sie unbedingt die folgenden Empfehlungen und Einschränkungen, wenn Sie
 * **Wenn Sie einer IP-Adresse einen temporären Zugriff auf Ihre Instanz gewährt haben**, entfernen Sie die IP-Adresse wieder aus der Zulassungsliste, wenn diese keine Verbindung mehr mit Ihrer Instanz herstellen muss.
 * **Wir empfehlen, keine IP-Adressen öffentlicher Orte auf die Zulassungsliste zu setzen** (Flughäfen, Hotels etc.). Verwenden Sie Ihre unternehmenseigene VPN-Adresse, um jederzeit die Sicherheit Ihrer Instanz zu gewährleisten.
 
-## Hinzufügen von IP-Adressen zur Zulassungsliste für den Zugriff auf Instanzen {#adding-ip-addresses-allow-list}
+## Hinzufügen von IP-Adressen zur Zulassungsliste für den Instanzzugriff {#adding-ip-addresses-allow-list}
 
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_iprange_add"
->title="Hinzufügen neuer IP-Bereiche"
+>title="IP-Bereichskonfiguration"
 >abstract="Definieren Sie IP-Bereiche, die Sie auf die Zulassungsliste setzen möchten, um sich mit Ihren Instanzen zu verbinden."
 
 Gehen Sie wie folgt vor, um IP-Adressen auf die Zulassungsliste zu setzen:

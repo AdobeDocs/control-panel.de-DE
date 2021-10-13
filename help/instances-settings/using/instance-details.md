@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
-source-git-commit: 599cb22da734f53c0b06583be3e47668dcb57ef1
-workflow-type: ht
-source-wordcount: '563'
-ht-degree: 100%
+source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
+workflow-type: tm+mt
+source-wordcount: '561'
+ht-degree: 97%
 
 ---
 
@@ -20,8 +20,8 @@ ht-degree: 100%
 >id="cp_instancesettings_instancedetails"
 >title="Über die Details der Instanz"
 >abstract="Zeigen Sie die Details Ihrer Adobe Campaign-Instanzen an: Typen, Namen, Build-Informationen und mögliche Upgrade-Empfehlungen."
->additional-url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=de" text="Versionshinweise zu Campaign Classic"
->additional-url="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html?lang=de" text="Versionshinweise zu Campaign Standard"
+>additional-url="://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=de" text="Versionshinweise zu Campaign Classic"
+>additional-url="://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html?lang=de" text="Versionshinweise zu Campaign Standard"
 
 ## Über die Details der Instanz {#about-instance-details}
 
@@ -72,7 +72,7 @@ Diese Informationen sind verfügbar:
    * Gelb: Sie sollten ein Upgrade in Erwägung ziehen. Ihnen fehlen die neuesten Funktionen und Fehlerkorrekturen.
    * Rot: Führen Sie möglichst rasch ein Upgrade durch. Ihnen fehlen neue Funktionen und die Server-Leistung ist möglicherweise nicht optimal.
 
-Informationen zur Aktualisierung von Servern finden Sie in [dieser Dokumentation](https://docs.campaign.adobe.com/doc/AC/getting_started/DE/buildUpgrade.html).
+Informationen zur Aktualisierung von Servern finden Sie in [dieser Dokumentation](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html).
 
 ## Häufige Fragen {#common-questions}
 

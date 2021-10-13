@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: a489d051-fb95-45cf-bb6d-33aef10b7795
-source-git-commit: 599cb22da734f53c0b06583be3e47668dcb57ef1
-workflow-type: ht
-source-wordcount: '705'
-ht-degree: 100%
+source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
+workflow-type: tm+mt
+source-wordcount: '753'
+ht-degree: 97%
 
 ---
 
@@ -20,14 +20,13 @@ ht-degree: 100%
 >id="cp_certificate_management"
 >title="Über Subdomains und SSL-Zertifikate"
 >abstract="Überwachen Sie Ihre Subdomains und die zugehörigen SSL-Zertifikate."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=de" text="Überwachen der SSL-Zertifikate Ihrer Subdomains"
-
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=de" text="Überwachung von SSL-Zertifikaten"
 
 ## Warum sollten Sie Subdomains einrichten? {#why-setting-up-subdomains}
 
 >[!IMPORTANT]
 >
->Die Subdomain-Konfiguration über das Control Panel befindet sich in der Beta-Phase und unterliegt häufigen Aktualisierungen und Änderungen ohne Vorankündigung.
+>Die Subdomain-Konfiguration über das Control Panel befindet sich in der Betaversion und unterliegt häufigen Aktualisierungen und Änderungen ohne Vorankündigung.
 >
 >Diese Funktion ist für Campaign v8 nicht verfügbar.
 
@@ -60,6 +59,13 @@ Weitere Informationen zur Domain-Konfiguration finden Sie in [dieser Dokumentati
 Wenden Sie sich bei Fragen zu den Methoden der Subdomain-Konfiguration an das Zustellbarkeitsteam von Adobe oder an die Kundenunterstützung, um eine Beratung zu Fragen der Zustellbarkeit anzufordern.
 
 ## Anwendungsfälle von Subdomains (Campaign Classic){#subdomains-use-cases}
+
+>[!CONTEXTUALHELP]
+>id="cp_add_subdomain_usecase_selection"
+>title="Anwendungsfall für Ihre Subdomain auswählen"
+>abstract="Die Unterteilung Ihrer Subdomains nach Anwendungsfällen ist eine Best Practice für die Zustellbarkeit. Dadurch wird die Reputation jeder Subdomain isoliert und geschützt."
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=de" text="Einrichten einer neuen Subdomain"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=de" text="Subdomain-Branding"
 
 Beim Einrichten von Subdomains für Campaign Classic-Instanzen müssen Sie den Anwendungsfall auswählen, für den die Subdomain verwendet werden soll (siehe [Einrichten einer neuen Subdomain](../../subdomains-certificates/using/setting-up-new-subdomain.md)).
 
