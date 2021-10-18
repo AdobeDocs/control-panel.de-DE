@@ -1,25 +1,24 @@
 ---
 product: campaign
 solution: Campaign
-title: Warnungen per E-Mail
+title: Benachrichtigungen per E-Mail
 description: Erfahren Sie, wie Sie E-Mail-Benachrichtigungen erhalten, wenn Probleme mit Ihren Campaign-Instanzen auftreten.
 feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 7942d2b1-d28f-4760-aa25-5ba94a627fd0
-translation-type: ht
-source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
-workflow-type: ht
-source-wordcount: '171'
+source-git-commit: 6249776ef4981cd3d706bf1946be0e054b471fb6
+workflow-type: tm+mt
+source-wordcount: '222'
 ht-degree: 100%
 
 ---
 
-# Warnungen per E-Mail {#email-alerting}
+# Benachrichtigungen per E-Mail {#email-alerting}
 
-Um Ihre Arbeit flexibler zu gestalten, verfügt das Control Panel über eine Funktion mit echtzeitbasierten E-Mail-Warnungen.
+Das Control Panel verfügt über eine Funktion mit echtzeitbasierten E-Mail-Warnungen, damit Sie Ihre Arbeit flexibler gestalten können.
 
-Gehen Sie wie folgt vor, um diese Warnungen zu abonnieren:
+Gehen Sie wie folgt vor, um diese Warnhinweise zu abonnieren:
 
 1. Klicken Sie an einer beliebigen Stelle im Control Panel auf die Schaltfläche **[!UICONTROL Warnbenachrichtigungen]** und dann auf **[!UICONTROL Abonnieren]**.
 
@@ -33,7 +32,6 @@ Gehen Sie wie folgt vor, um diese Warnungen zu abonnieren:
 
    ![](assets/alert_sample.png)
 
-
 Die Liste der Warnungen lautet wie folgt:
 
 * **Nutzung des SFTP-Speichers**: Einer Ihrer SFTP-Server hat mindestens 80 % seiner Kapazität erreicht. Siehe [SFTP-Speicherverwaltung](../../sftp/using/sftp-storage-management.md).
@@ -41,3 +39,7 @@ Die Liste der Warnungen lautet wie folgt:
 * **Datenbanknutzung**: Eine der Datenbanken Ihrer Instanzen hat mindestens 80 % ihrer Kapazität erreicht. Siehe [Datenbanküberwachung](../../performance-monitoring/using/database-monitoring.md).
 
 * **Ablauf des SSL-Zertifikats**: Eines der SSL-Zertifikate Ihrer Subdomains ist abgelaufen oder läuft in 60 Tagen oder weniger ab. Siehe [Überwachen von SSL-Zertifikaten der Subdomains](../../subdomains-certificates/using/monitoring-ssl-certificates.md).
+
+* **Ablauf der SFTP-IP-Zulassungsauflistung**: Einer der von Ihnen definierten IP-Bereiche ist abgelaufen oder läuft in spätestens 10 Tagen ab. Weitere Informationen finden Sie unter [IP-Bereich-Zulassungsauflistung](../../sftp/using/ip-range-allow-listing.md).
+
+* **Ablauf des öffentlichen SFTP-Schlüssels**: Einer der von Ihnen definierten öffentlichen Schlüssel ist abgelaufen oder läuft in spätestens 10 Tagen ab. Weitere Informationen finden Sie unter [Schlüsselverwaltung](../../sftp/using/key-management.md).
