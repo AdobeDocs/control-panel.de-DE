@@ -1,33 +1,32 @@
 ---
 product: adobe campaign
-sub-product: Control Panel
+sub-product: control panel
 audience: end-user
-user-guide-title: Control Panel-Anleitung
+user-guide-title: Handbuch zum Control Panel
 feature: Control Panel
 role: Architect
 level: Beginner
-translation-type: ht
 source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
-workflow-type: ht
-source-wordcount: '102'
+workflow-type: tm+mt
+source-wordcount: '98'
 ht-degree: 100%
 
 ---
 
 
-# Control Panel-Anleitung {#using}
+# Handbuch zum Control Panel {#using}
 
 + [Produktdokumentation](control-panel-home.md)
 + [Versionshinweise](release-notes.md)
-+ Control Panel {#discover-control-panel}
-   + [Schlüsselfunktionen](discover/using/key-features.md)
++ Entdecken Sie das Control Panel {#discover-control-panel}
+   + [Hauptfunktionen](discover/using/key-features.md)
    + [Zugriff auf das Control Panel](discover/using/accessing-control-panel.md)
-   + [Berechtigungen für das Control Panel verwalten](discover/using/managing-permissions.md)
-   + [Benutzeroberfläche des Control Panels](discover/using/discovering-the-interface.md)
+   + [Verwalten von Berechtigungen für das Control Panel](discover/using/managing-permissions.md)
+   + [Die Benutzeroberfläche des Control Panels](discover/using/discovering-the-interface.md)
 + SFTP-Verwaltung {#sftp-management}
    + [Über die SFTP-Verwaltung](sftp/using/about-sftp-management.md)
    + [SFTP-Speicherverwaltung](sftp/using/sftp-storage-management.md)
-   + [IP-Bereich-Zulassungsauflistung](sftp/using/ip-range-allow-listing.md)
+   + [Zulassungsauflistung von IP-Bereichen](sftp/using/ip-range-allow-listing.md)
    + [Schlüsselverwaltung](sftp/using/key-management.md)
    + [Anmeldung bei Ihrem SFTP-Server](sftp/using/logging-into-sftp-server.md)
    + [Häufige Fragen](sftp/using/common-questions.md)
@@ -38,11 +37,11 @@ ht-degree: 100%
    + [Überwachen von SSL-Zertifikaten](subdomains-certificates/using/monitoring-ssl-certificates.md)
    + [Verlängern von SSL-Zertifikaten](subdomains-certificates/using/renewing-subdomain-certificate.md)
    + [Verwalten von TXT-Einträgen](subdomains-certificates/using/managing-txt-records.md)
-+ Leistungsüberwachung {#performance-monitoring}
-   + [Über die Leistungsüberwachung](performance-monitoring/using/about-performance-monitoring.md)
-   + [Datenbanküberwachung](performance-monitoring/using/database-monitoring.md)
-   + [Überwachung aktiver Profile](performance-monitoring/using/active-profiles-monitoring.md)
-   + [Warnungen per E-Mail](performance-monitoring/using/email-alerting.md)
++ Monitoring der Leistung {#performance-monitoring}
+   + [Über das Leistungs-Monitoring](performance-monitoring/using/about-performance-monitoring.md)
+   + [Monitoring der Datenbank](performance-monitoring/using/database-monitoring.md)
+   + [Monitoring aktiver Profile](performance-monitoring/using/active-profiles-monitoring.md)
+   + [Benachrichtigungen per E-Mail](performance-monitoring/using/email-alerting.md)
 + Instanzeneinstellungen {#instances-settings}
    + [IP-Zulassungsauflistung für den Zugriff auf Instanzen](instances-settings/using/ip-allow-listing-instance-access.md)
    + [URL-Genehmigungen](instances-settings/using/url-permissions.md)
