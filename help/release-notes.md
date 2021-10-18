@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
+source-git-commit: eb7cfbd68bdaaf3761e8901feecebea2d8b3b38a
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 94%
+source-wordcount: '792'
+ht-degree: 79%
 
 ---
 
@@ -24,7 +24,27 @@ Hier finden Sie Informationen zu den aktuellen Versionen des Control Panel.
 >
 >Beachten Sie für Campaign Classic v7, dass Ihre Instanz auf AWS gehostet und mit dem neuesten [Gold Standard](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/gs-overview.html?lang=de)-Build oder dem neuesten [allgemein verfügbaren Build (21.1)](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=de#release-notes) aktualisiert werden muss. Erfahren Sie in [diesem Abschnitt](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=de#getting-your-campaign-version), wie Sie Ihre Version überprüfen. Um zu überprüfen, ob Ihre Instanz auf AWS gehostet wird, folgen Sie den Schritten auf [dieser Seite](faq.md).
 
+## Oktober 2021 {#october-2021}
+
+**IP-Bereich und Gültigkeitszeitraum des öffentlichen Schlüssels**
+
+Es ist jetzt möglich, eine Dauer für die Verfügbarkeit von IP-Bereichen und öffentlichen Schlüsseln festzulegen. Weitere Informationen finden Sie in den Abschnitten [Zulassungsauflistung von IP-Bereichen](sftp/using/ip-range-allow-listing.md#adding-ip-addresses-allow-list) und [Schlüsselverwaltung](sftp/using/key-management.md#installing-ssh-key) .
+
+**IP-Bereich und Ausgabe öffentlicher Schlüssel**
+
+Sie können jetzt die von Ihnen erstellten [IP-Bereiche](sftp/using/ip-range-allow-listing.md#editing-ip-ranges) und [öffentlichen Schlüssel](sftp/using/key-management.md#editing-public-keys) bearbeiten. Beachten Sie, dass diese Funktion nicht für die Elemente verfügbar ist, die vor der aktuellen Control Panel-Version erstellt wurden.
+
+**Benachrichtigung zum SFTP-IP-Bereich und zum Ablauf des öffentlichen Schlüssels**
+
+Die E-Mail-Warnungsfunktion enthält jetzt Warnhinweise zum Ablauf der SFTP-IP-Zulassungsauflistung und zum Ablauf des öffentlichen SFTP-Schlüssels. [Mehr dazu](performance-monitoring/using/email-alerting.md)
+
+**Vollständige Unterstützung mit Campaign v8**
+
+Die Verwaltungsfunktionen **Subdomain** und **Zertifikat** werden jetzt vom Control Panel auf Adobe Campaign v8 unterstützt.
+
 ## August 2021 {#august-2021}
+
+**Unterstützung mit Campaign v8**
 
 Das Control Panel ist jetzt für Adobe Campaign v8 verfügbar, mit Ausnahme der Verwaltungsfunktionen **Subdomain** und **Zertifikat**, die noch nicht unterstützt werden. Weitere Informationen finden Sie in der [Dokumentation zu Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/deploy/self-service.html){target=&quot;_blank&quot;}
 
