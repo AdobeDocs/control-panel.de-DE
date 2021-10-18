@@ -10,7 +10,7 @@ exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
 source-git-commit: eb7cfbd68bdaaf3761e8901feecebea2d8b3b38a
 workflow-type: tm+mt
 source-wordcount: '792'
-ht-degree: 79%
+ht-degree: 82%
 
 ---
 
@@ -28,11 +28,11 @@ Hier finden Sie Informationen zu den aktuellen Versionen des Control Panel.
 
 **IP-Bereich und Gültigkeitszeitraum des öffentlichen Schlüssels**
 
-Es ist jetzt möglich, eine Dauer für die Verfügbarkeit von IP-Bereichen und öffentlichen Schlüsseln festzulegen. Weitere Informationen finden Sie in den Abschnitten [Zulassungsauflistung von IP-Bereichen](sftp/using/ip-range-allow-listing.md#adding-ip-addresses-allow-list) und [Schlüsselverwaltung](sftp/using/key-management.md#installing-ssh-key) .
+Es ist jetzt möglich, eine Dauer für die Verfügbarkeit von IP-Bereichen und öffentlichen Schlüsseln festzulegen. Mehr dazu im [Zulassungsauflistung von IP-Bereichen](sftp/using/ip-range-allow-listing.md#adding-ip-addresses-allow-list) und [Schlüsselverwaltung](sftp/using/key-management.md#installing-ssh-key) Abschnitte.
 
 **IP-Bereich und Ausgabe öffentlicher Schlüssel**
 
-Sie können jetzt die von Ihnen erstellten [IP-Bereiche](sftp/using/ip-range-allow-listing.md#editing-ip-ranges) und [öffentlichen Schlüssel](sftp/using/key-management.md#editing-public-keys) bearbeiten. Beachten Sie, dass diese Funktion nicht für die Elemente verfügbar ist, die vor der aktuellen Control Panel-Version erstellt wurden.
+Sie können jetzt die [IP-Bereiche](sftp/using/ip-range-allow-listing.md#editing-ip-ranges) und [Öffentliche Schlüssel](sftp/using/key-management.md#editing-public-keys) die Sie erstellen. Beachten Sie, dass diese Funktion nicht für die Elemente verfügbar ist, die vor der aktuellen Control Panel-Version erstellt wurden.
 
 **Benachrichtigung zum SFTP-IP-Bereich und zum Ablauf des öffentlichen Schlüssels**
 
@@ -40,7 +40,7 @@ Die E-Mail-Warnungsfunktion enthält jetzt Warnhinweise zum Ablauf der SFTP-IP-Z
 
 **Vollständige Unterstützung mit Campaign v8**
 
-Die Verwaltungsfunktionen **Subdomain** und **Zertifikat** werden jetzt vom Control Panel auf Adobe Campaign v8 unterstützt.
+Die **Subdomain** und **Zertifikat** Verwaltungsfunktionen werden jetzt vom Control Panel auf Adobe Campaign v8 unterstützt.
 
 ## August 2021 {#august-2021}
 
@@ -92,7 +92,7 @@ Fügen Sie allen Subdomains, die zum Senden von E-Mails an Gmail-Adressen über 
 
 Das Campaign Control Panel verfügt über Funktionen zur Datenbanküberwachung, mit denen Sie die Auslastung Ihres Datenbankspeicherplatzes zu einem bestimmten Zeitpunkt und im Zeitverlauf anzeigen können. [Mehr dazu](performance-monitoring/using/database-monitoring.md)
 
-**Warnungen per E-Mail**
+**Benachrichtigungen per E-Mail**
 
 Das Campaign Control Panel bietet Funktionen zum Empfang von E-Mail-Warnungen in Echtzeit. Wenn Sie sich beim Control Panel anmelden und Warnhinweise abonnieren, werden Sie benachrichtigt, wenn Ihrem System eine Leistungsverschlechterung droht oder eine Aktion erforderlich ist, um eine künftig hohe Leistung sicherzustellen. [Mehr dazu](performance-monitoring/using/email-alerting.md)
 
