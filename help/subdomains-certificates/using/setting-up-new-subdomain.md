@@ -20,7 +20,7 @@ ht-degree: 89%
 >id="cp_subdomain_management"
 >title="Einrichten neuer Subdomains und Verwalten von Zertifikaten"
 >abstract="Sie müssen eine neue Subdomain einrichten und die SSL-Zertifikate Ihrer Subdomains verwalten, um mit Adobe Campaign E-Mails senden oder Landingpages veröffentlichen zu können."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=de" text="Überwachung von SSL-Zertifikaten"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=de" text="Überwachen von SSL-Zertifikaten"
 
 ## Wichtige Informationen {#must-read}
 
