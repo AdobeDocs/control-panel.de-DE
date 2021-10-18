@@ -10,7 +10,7 @@ exl-id: 7314a679-78c3-4650-bf3a-2bde8be82747
 source-git-commit: 7115dac6b3a4cf002979fba36113b98507fdf3db
 workflow-type: tm+mt
 source-wordcount: '290'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -20,17 +20,17 @@ Auf das Control Panel haben alle Admin-Benutzer einer Campaign-Instanz Zugriff. 
 
 ![](assets/do-not-localize/how-to-video.png) Funktion kennenlernen im [Video](../../discover/using/managing-permissions.md#video)
 
-1. Navigieren Sie zur [Adobe Experience Cloud-Homepage](https://experiencecloud.adobe.com/){target=&quot;_blank&quot;}.
+1. Gehen Sie zur [Startseite von Adobe Experience Cloud](https://experiencecloud.adobe.com/){target=&quot;_blank&quot;}.
 
-1. Starten Sie die **Admin Console**, indem Sie auf den verfügbaren Link im Bereich **Schnellzugriff** oder oben rechts klicken.
+1. Starten Sie die **Admin Console**, indem Sie auf den verfügbaren Link im Bereich **Schnellzugriff** oder im Menü oben rechts klicken.
 
    ![](assets/do-not-localize/control_panel_admin-console.png)
 
    >[!NOTE]
    >
-   >Wenn der Link **Admin Console** nicht angezeigt wird, bedeutet dies, dass Sie für Ihr Unternehmen keine Administratorrechte haben. Wenden Sie sich an die Administratoren Ihrer Organisation, um die entsprechenden Schritte auszuführen.
+   >Wenn der Link **Admin Console** nicht sichtbar ist, bedeutet das, dass Sie für Ihre Organisation keine Administratorrechte haben. Wenden Sie sich an die Administratoren Ihrer Organisation, um die entsprechenden Schritte auszuführen.
 
-1. Wählen Sie in der Admin Console **a1/> das gewünschte Campaign-Produkt aus der Liste**[!UICONTROL  Produkte und Dienste ]**aus.**
+1. Wählen Sie in der **Admin Console** das gewünschte Campaign-Produkt aus der Liste **[!UICONTROL Produkte und Dienste]** aus.
 
    ![](assets/do-not-localize/control_panel_product-list.png)
 
@@ -44,9 +44,9 @@ Auf das Control Panel haben alle Admin-Benutzer einer Campaign-Instanz Zugriff. 
 
    >[!NOTE]
    >
-   >Sie können für jede Campaign-Instanz unterschiedliche Admin-Benutzer hinzufügen. Administratoren greifen nur auf das Control Panel der Instanz zu, zu der sie gehören.
+   >Sie können für jede Campaign-Instanz unterschiedliche Admin-Benutzer hinzufügen. Admin-Benutzer können nur auf das Control Panel der Instanz zugreifen, zu der sie gehören.
 
-1. Die Liste **[!UICONTROL Produktprofile]** für die ausgewählte Instanz wird angezeigt. Wählen Sie das Produktprofil **[!UICONTROL Administratoren]** aus, um auf die Liste der Admin-Benutzer zuzugreifen.
+1. Für die ausgewählte Instanz wird die Liste der **[!UICONTROL Produktprofile]** angezeigt. Wählen Sie das Produktprofil **[!UICONTROL Administratoren]** aus, um auf die Liste der Admin-Benutzer zuzugreifen.
 
    ![](assets/do-not-localize/control_panel_add_user_5.png)
 
@@ -62,6 +62,6 @@ Auf das Control Panel haben alle Admin-Benutzer einer Campaign-Instanz Zugriff. 
 >
 >Sobald der Zugriff konfiguriert ist, muss sich der Benutzer bei Adobe Experience Cloud abmelden und erneut anmelden, um auf das Control Panel zugreifen zu können.
 
-## Anleitungsvideo {#video}
+## Tutorial {#video}
 
 >[!VIDEO](https://video.tv.adobe.com/v/27147?quality=12)
