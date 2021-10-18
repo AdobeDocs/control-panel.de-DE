@@ -20,7 +20,7 @@ ht-degree: 97%
 >id="cp_certificate_management"
 >title="Über Subdomains und SSL-Zertifikate"
 >abstract="Überwachen Sie Ihre Subdomains und die zugehörigen SSL-Zertifikate."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=de" text="Überwachung von SSL-Zertifikaten"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=de" text="Überwachen von SSL-Zertifikaten"
 
 ## Warum sollten Sie Subdomains einrichten? {#why-setting-up-subdomains}
 
