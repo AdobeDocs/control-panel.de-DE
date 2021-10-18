@@ -7,27 +7,26 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 20302017-d4b1-489b-a6b4-f086e5bad4d5
-translation-type: ht
-source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
-workflow-type: ht
-source-wordcount: '144'
+source-git-commit: 99409f462993191d8fb4d6dfacc77c1e4b973f68
+workflow-type: tm+mt
+source-wordcount: '129'
 ht-degree: 100%
 
 ---
 
-# Benutzeroberfläche des Control Panels {#discovering-interface}
+# Die Benutzeroberfläche des Control Panels {#discovering-interface}
 
 Auf der Startseite des Control Panels haben Sie Zugriff auf alle Aktionen, die auf Ihren Campaign-Instanzen ausgeführt werden können.
 
-Die Aktionen werden durch Karten mit unterschiedlichen Themen dargestellt, z. B. **Speicher- und Datenbankverwaltung**.
+Die Aktionen werden durch Karten dargestellt, die in unterschiedliche Themen geordnet sind, z. B. **Monitoring der Leistung**.
 
-In den kommenden Campaign-Versionen werden weitere Themen und Karten bereitgestellt.
+<!--With upcoming Campaign releases, more topics and cards will be made available.-->
 
 ![](assets/control_panel_interface.png)
 
-## Verarbeitungslogs {#job-logs}
+## Vorgangslogs {#job-logs}
 
-Über die Schaltfläche **[!UICONTROL Verarbeitungslogs]** oben rechts können Sie alle Änderungen überprüfen, die von Benutzern Ihres Unternehmens vorgenommen wurden.
+Über die Schaltfläche **[!UICONTROL Vorgangslog]** oben rechts können Sie alle Änderungen überprüfen, die von Benutzern Ihres Unternehmens vorgenommen wurden.
 
 ![](assets/control_panel_interface2.png)
 
