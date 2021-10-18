@@ -20,7 +20,7 @@ ht-degree: 95%
 >id="cp_instancesettings_gpg_management"
 >title="Über GPG-Schlüssel"
 >abstract="Auf dieser Registerkarte können Sie GPG-Schlüssel in einer Marketing-Instanz installieren und/oder generieren, um von Campaign gesendete Daten zu verschlüsseln und eingehende Daten zu entschlüsseln."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=de" text="Über die Leistungsüberwachung"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=de" text="Über das Monitoring der Leistung"
 
 ## Über die GPG-Verschlüsselung {#about-gpg-encryption}
 
