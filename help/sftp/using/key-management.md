@@ -10,7 +10,7 @@ exl-id: 03815e01-6371-4e1c-b4b8-7abe25957cee
 source-git-commit: 99861c898c216d2589f23bd52779db328ea47256
 workflow-type: tm+mt
 source-wordcount: '1081'
-ht-degree: 35%
+ht-degree: 68%
 
 ---
 
@@ -38,7 +38,7 @@ Verwenden Sie immer dieselbe Authentifizierung für die Verbindung zum Server un
 
 **API-Integration mit Benutzername und Passwort**
 
-In sehr seltenen Fällen ist die passwortbasierte Authentifizierung auf einigen SFTP-Servern aktiviert. Adobe empfiehlt die Verwendung der schlüsselbasierten Authentifizierung, da diese Methode effizienter und sicherer ist. Sie können den Wechsel zur schlüsselbasierten Authentifizierung anfordern, indem Sie sich an die Kundenunterstützung wenden.
+In sehr seltenen Fällen ist die passwortbasierte Authentifizierung auf manchen SFTP-Servern aktiviert. Adobe empfiehlt die Verwendung der schlüsselbasierten Authentifizierung, da diese Methode effizienter und sicherer ist. Sie können die Umstellung auf schlüsselbasierte Authentifizierung bei der Kundenunterstützung anfordern.
 
 >[!IMPORTANT]
 >
@@ -53,7 +53,7 @@ In sehr seltenen Fällen ist die passwortbasierte Authentifizierung auf einigen 
 
 >[!IMPORTANT]
 >
->Sie müssen bezüglich der SSH-Schlüssel stets die Richtlinien Ihrer Organisation befolgen. Die folgenden Schritte sind nur ein Beispiel dafür, wie SSH-Schlüssel erstellt werden können, und sie können als nützlicher Bezugspunkt für die Übermittlung von Anforderungen an Ihr Team oder Ihre interne Netzwerkgruppe dienen.
+>Sie müssen bezüglich der SSH-Schlüssel stets die Richtlinien Ihrer Organisation befolgen. Die folgenden Schritte sind nur ein Beispiel für die SSH-Schlüsselerstellung und können Ihnen als Referenz dafür dienen, welche Informationen Sie Ihrem Team oder Ihrer internen Netzwerkgruppe mitteilen müssen.
 
 1. Öffnen Sie die Registerkarte **[!UICONTROL Schlüsselverwaltung]** und wählen Sie dann die Schaltfläche **[!UICONTROL Neuen öffentlichen Schlüssel hinzufügen]** aus.
 
@@ -69,15 +69,15 @@ In sehr seltenen Fällen ist die passwortbasierte Authentifizierung auf einigen 
    >
    >Für jeden Benutzer kann einer oder mehrere öffentliche SSH-Schlüssel hinzugefügt werden.
 
-1. Um Ihre öffentlichen Schlüssel besser zu verwalten, können Sie eine Dauer für die Verfügbarkeit der einzelnen Schlüssel festlegen. Wählen Sie dazu eine Einheit in der Dropdown-Liste **[!UICONTROL Typ]** aus und legen Sie eine Dauer im entsprechenden Feld fest. Weitere Informationen zum Ablauf des öffentlichen Schlüssels finden Sie in [diesem Abschnitt](#expiry).
+1. Um Ihre öffentlichen Schlüssel besser zu verwalten, können Sie eine Dauer für die Verfügbarkeit der einzelnen Schlüssel festlegen. Wählen Sie dazu eine Einheit in der Dropdown-Liste **[!UICONTROL Typ]** aus und legen Sie eine Dauer im entsprechenden Feld fest. Weitere Informationen zum Ablauf des öffentlichen Schlüssels finden Sie unter [diesem Abschnitt](#expiry).
 
    ![](assets/key_expiry.png)
 
    >[!NOTE]
    >
-   >Standardmäßig ist das Feld **[!UICONTROL Typ]** auf **[!UICONTROL Unlimited]** gesetzt, was bedeutet, dass der öffentliche Schlüssel nie abläuft.
+   >Standardmäßig ist das Feld **[!UICONTROL Typ]** auf **[!UICONTROL Unbegrenzt]** gesetzt, was bedeutet, dass der öffentliche Schlüssel nie abläuft.
 
-1. Im Feld **[!UICONTROL Kommentar]** können Sie einen Grund für das Hinzufügen dieses öffentlichen Schlüssels angeben (warum, für wen usw.).
+1. Im **[!UICONTROL Kommentar]** können Sie einen Grund für das Hinzufügen dieses öffentlichen Schlüssels angeben (warum, für wen usw.).
 
 1. Um das Feld **[!UICONTROL Öffentlicher Schlüssel]** ausfüllen zu können, müssen Sie einen öffentlichen SSH-Schlüssel generieren. Führen Sie je nach Betriebssystem die folgenden Schritte aus.
 
@@ -91,9 +91,9 @@ In sehr seltenen Fällen ist die passwortbasierte Authentifizierung auf einigen 
 
    **Windows:**
 
-   Möglicherweise müssen Sie ein Tool eines Drittanbieters installieren, mit dem Sie ein privates/öffentliches Schlüsselpaar im gleichen Format wie &quot;name.pub&quot;generieren können.
+   Möglicherweise müssen Sie ein Tool eines Drittanbieters installieren, mit dem Sie ein Schlüsselpaar aus privatem und öffentlichem Schlüssel im Format „name.pub“ erstellen können.
 
-1. Öffnen Sie die .pub-Datei und kopieren Sie die gesamte Zeichenfolge beginnend mit &quot;ssh...&quot; in das Control Panel.
+1. Öffnen Sie die .pub-Datei und kopieren Sie die gesamte Zeichenfolge beginnend mit „ssh...“ in das Control Panel.
 
    ![](assets/publickey.png)
 
@@ -105,13 +105,13 @@ In sehr seltenen Fällen ist die passwortbasierte Authentifizierung auf einigen 
 
 >[!IMPORTANT]
 >
->Wenn der von Ihnen erstellte Schlüssel zum Herstellen einer Verbindung mit einem System verwendet wird, das noch nie zuvor mit dem ausgewählten SFTP-Server verbunden war, müssen Sie der Zulassungsliste eine öffentliche IP-Adresse dieses Systems hinzufügen, bevor Sie dieses System mit dem SFTP-Server verwenden können. Weitere Informationen finden Sie in [diesem Abschnitt](ip-range-allow-listing.md).
+>Wenn der von Ihnen erstellte Schlüssel verwendet wird, um eine Verbindung zu einem System herzustellen, das noch nie mit dem ausgewählten SFTP-Server verbunden war, müssen Sie eine öffentliche IP-Adresse dieses Systems auf die Zulassungsliste setzen. Erst danach können Sie dieses System mit dem SFTP-Server verwenden. Weitere Informationen finden Sie in [diesem Abschnitt](ip-range-allow-listing.md).
 
 Sie können Fingerabdrücke verwenden, um die auf Ihrem Computer gespeicherten privaten Schlüssel mit den entsprechenden öffentlichen Schlüsseln im Control Panel abzugleichen.
 
 ![](assets/fingerprint_compare.png)
 
-Mit der Schaltfläche &quot;**...**&quot; können Sie einen vorhandenen Schlüssel löschen oder seinen zugehörigen Fingerabdruck in die Zwischenablage kopieren.
+Mit der Schaltfläche **...** können Sie einen vorhandenen Schlüssel löschen oder seinen zugehörigen Fingerabdruck in die Zwischenablage kopieren.
 
 ![](assets/key_options.png)
 
@@ -125,23 +125,23 @@ Sie können auch einen öffentlichen Schlüssel durchsuchen, indem Sie mit der E
 
 ![](assets/control_panel_key_management_sort.png)
 
-Informationen zum Bearbeiten eines oder mehrerer IP-Bereiche finden Sie in [diesem Abschnitt](#editing-public-keys).
+Informationen zum Bearbeiten eines oder mehrerer IP-Bereiche finden Sie unter [diesem Abschnitt](#editing-public-keys).
 
-Um einen oder mehrere öffentliche Schlüssel aus der Liste zu löschen, wählen Sie diese aus und klicken Sie auf die Schaltfläche **[!UICONTROL Öffentlichen Schlüssel löschen]** .
+Um einen oder mehrere öffentliche Schlüssel aus der Liste zu löschen, wählen Sie sie aus und klicken Sie auf die Schaltfläche **[!UICONTROL Löschen des öffentlichen Schlüssels]** Schaltfläche.
 
 ![](assets/control_panel_delete_key.png)
 
 ### Ablauf {#expiry}
 
-Die Spalte **[!UICONTROL Läuft ab]** gibt an, wie viele Tage verstreichen, bis der öffentliche Schlüssel abläuft.
+Die **[!UICONTROL Läuft ab]** gibt an, wie viele Tage bis zum Ablauf des öffentlichen Schlüssels verbleiben.
 
-Wenn Sie sich für [E-Mail-Warnungen](../../performance-monitoring/using/email-alerting.md) angemeldet haben, erhalten Sie Benachrichtigungen per E-Mail 10 Tage und 5 Tage, bevor ein öffentlicher Schlüssel abläuft und an dem Tag, an dem er abläuft. Nach Erhalt des Warnhinweises können Sie den öffentlichen Schlüssel [bearbeiten, um den Gültigkeitszeitraum bei Bedarf zu verlängern.](#editing-public-keys)
+Wenn Sie [E-Mail-Warnungen](../../performance-monitoring/using/email-alerting.md) abonniert haben, erhalten Sie Benachrichtigungen per E-Mail 10 Tage und 5 Tage, bevor ein öffentlicher Schlüssel abläuft, und auch an dem Tag, an dem er abläuft. Nach Erhalt des Warnhinweises können Sie [Bearbeiten des öffentlichen Schlüssels](#editing-public-keys) um den Gültigkeitszeitraum bei Bedarf zu verlängern.
 
-Ein abgelaufener öffentlicher Schlüssel wird nach 7 Tagen automatisch gelöscht. Sie wird als **[!UICONTROL Abgelaufen]** in der Spalte **[!UICONTROL Läuft ab]** angezeigt. Innerhalb dieses 7-tägigen Zeitraums:
+Ein abgelaufener öffentlicher Schlüssel wird nach 7 Tagen automatisch gelöscht. Dies wird als **[!UICONTROL Abgelaufen]** im **[!UICONTROL Läuft ab]** Spalte. Innerhalb dieses 7-tägigen Zeitraums:
 
 * Ein abgelaufener öffentlicher Schlüssel kann nicht mehr zur Verbindung mit dem SFTP-Server verwendet werden.
 
-* Sie können [bearbeiten](#editing-public-keys) einen abgelaufenen öffentlichen Schlüssel und aktualisieren dessen Dauer, um ihn erneut verfügbar zu machen.
+* Sie können [edit](#editing-public-keys) einen abgelaufenen öffentlichen Schlüssel erstellen und seine Dauer aktualisieren, um ihn erneut verfügbar zu machen.
 
 * Sie können sie aus der Liste löschen.
 
@@ -159,7 +159,7 @@ Gehen Sie wie folgt vor, um öffentliche Schlüssel zu bearbeiten.
 >Sie können nur öffentliche Schlüssel bearbeiten, die seit der Control Panel-Version vom Oktober 2021 erstellt wurden.
 
 1. Wählen Sie ein oder mehrere Elemente aus der Liste **[!UICONTROL Schlüsselverwaltung]** aus.
-1. Klicken Sie auf die Schaltfläche **[!UICONTROL Öffentlichen Schlüssel aktualisieren]** .
+1. Klicken Sie auf **[!UICONTROL Öffentlichen Schlüssel aktualisieren]** Schaltfläche.
 
    ![](assets/control_panel_edit_key.png)
 
