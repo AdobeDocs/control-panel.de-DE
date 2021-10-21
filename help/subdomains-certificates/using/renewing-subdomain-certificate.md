@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
-source-git-commit: d37c83c19863992fb02251e50dddd6965b068e23
+source-git-commit: 8dce5b9d1eb59b7ebc8ef1f73f7552dcf61077a1
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '861'
 ht-degree: 94%
 
 ---
@@ -28,6 +28,8 @@ ht-degree: 94%
 >[!IMPORTANT]
 >
 >Die Subdomain-Konfiguration über das Control Panel befindet sich in der Betaversion und unterliegt häufigen Aktualisierungen und Änderungen ohne Vorankündigung.
+>
+>Diese Funktion ist für Campaign v8 nicht verfügbar.
 
 Der Verlängerungsprozess eines SSL-Zertifikats besteht aus drei Schritten:
 

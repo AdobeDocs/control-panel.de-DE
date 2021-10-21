@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: a315b98ac3fc35eca0234a44afdd513ba24dce63
+source-git-commit: 056d5b91652b07ccf9ce8e46e11a4c29cccf6e70
 workflow-type: tm+mt
-source-wordcount: '232'
-ht-degree: 62%
+source-wordcount: '214'
+ht-degree: 96%
 
 ---
 
@@ -25,23 +25,21 @@ ht-degree: 62%
 
 ## Neue Funktionen
 
-**Vollständige Unterstützung mit Campaign v8**
+**Subdomain-Konfiguration mit CNAME**
 
-Alle Funktionen, einschließlich **Subdomain** und **Zertifikat** Verwaltung, werden jetzt vom Control Panel auf Adobe Campaign v8 unterstützt. [Mehr dazu](faq.md#v8-restrictions)
+Im Control Panel können Sie jetzt mit CNAME eine Subdomain für die Verwendung mit Adobe direkt über die Benutzeroberfläche konfigurieren. [Mehr dazu](subdomains-certificates/using/setting-up-new-subdomain.md)
 
-**Gültigkeitszeitraum des IP-Bereichs und Bearbeitung**
+**Verbesserungen bei der Datenbanküberwachung**
 
-Jetzt ist es möglich, eine Dauer für die Verfügbarkeit von IP-Bereichen festzulegen und die von Ihnen erstellten IP-Bereiche zu bearbeiten. [Mehr dazu](sftp/using/ip-range-allow-listing.md)
-
-**Gültigkeitszeitraum und Ausgabe des öffentlichen Schlüssels**
-
-Ebenso können Sie jetzt eine Dauer für die Verfügbarkeit öffentlicher Schlüssel festlegen und die von Ihnen erstellten öffentlichen Schlüssel bearbeiten. [Mehr dazu](sftp/using/key-management.md)
+Die Registerkarte **[!UICONTROL Datenbanküberwachung]** wurde um zusätzliche Metriken erweitert, sodass Sie detaillierte Informationen zu den Ressourcen erhalten können, die Speicherplatz in Ihrer Datenbank belegen. [Mehr dazu](performance-monitoring/using/database-monitoring.md)
 
 >[!CAUTION]
 >
 >* Das Control Panel steht nur Administratoren zur Verfügung. [Weitere Informationen](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html#discover-control-panel)   
 >
 >* Für Campaign Classic v7 gelten Implementierungsbeschränkungen. [Weitere Informationen](faq.md#v7-restrictions)   
+>
+>* Für Campaign v8 sind einige Funktionen nicht verfügbar. [Weitere Informationen](faq.md#v8-restrictions)   
 
 
 ## Zusätzliche Ressourcen {#additional-resources}
