@@ -32,7 +32,7 @@ Profile gelten als aktiv, wenn sie in den letzten 12 Monaten über einen beliebi
 >
 >Die Kanäle Facebook und Twitter werden nicht berücksichtigt.
 
-Weitere Informationen zu aktiven Profilen finden Sie unter [Campaign Standard](://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html?lang=de) und [Campaign Classic v7](://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html?lang=de#active-profiles) Dokumentationen.
+Weitere Informationen zu aktiven Profilen finden Sie unter [Campaign Standard](://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html?lang=de) und [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html?lang=de#active-profiles) Dokumentationen.
 
 ## Überwachen aktiver Profile {#monitoring-active-profiles}
 
