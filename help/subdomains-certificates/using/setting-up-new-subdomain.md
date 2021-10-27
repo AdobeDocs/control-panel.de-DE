@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: 8dce5b9d1eb59b7ebc8ef1f73f7552dcf61077a1
+source-git-commit: 46a4e13e8017c5406dcd65f21c9839374dd44aa7
 workflow-type: tm+mt
-source-wordcount: '1370'
+source-wordcount: '1362'
 ht-degree: 89%
 
 ---
@@ -26,9 +26,7 @@ ht-degree: 89%
 
 >[!IMPORTANT]
 >
->Die Subdomain-Konfiguration über das Control Panel befindet sich in der Betaversion und unterliegt häufigen Aktualisierungen und Änderungen ohne Vorankündigung..
->
->Diese Funktion ist für Campaign v8 nicht verfügbar.
+>Die Subdomain-Konfiguration über das Control Panel befindet sich in der Betaversion und unterliegt häufigen Aktualisierungen und Änderungen ohne Vorankündigung.
 
 Auf dieser Seite finden Sie Informationen zum Einrichten neuer Subdomains mit der vollständigen Subdomain-Zuweisung oder mit CNAME. Globale Konzepte zu diesen beiden Methoden werden in diesem Abschnitt vorgestellt: [Subdomain-Branding](../../subdomains-certificates/using/subdomains-branding.md).
 

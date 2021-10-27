@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
-source-git-commit: d6bf3db521085078499e88c9a2077f63914d9c4c
+source-git-commit: 47a57b38e9af8b03d277bf9ee6922b19f0298944
 workflow-type: tm+mt
-source-wordcount: '771'
-ht-degree: 97%
+source-wordcount: '774'
+ht-degree: 91%
 
 ---
 
@@ -28,9 +28,9 @@ Das Control Panel ermöglicht es Ihnen, Speicherplatz zu überwachen, IP-Adresse
 
 Weitere Informationen zu den vom Control Panel unterstützten Aktionen finden Sie in der Dokumentation.
 
-### Welche Funktionen werden von Campaign v8 nicht unterstützt, sind jedoch in Campaign Classic v7 verfügbar?{#v8-restrictions}
+### Gibt es einige Funktionen, die von Campaign v8 noch nicht unterstützt, aber auf Campaign Classic v7 verfügbar sind?{#v8-restrictions}
 
-Die Subdomain- und Zertifikatsverwaltungs-Funktionen werden vom Control Panel in Campaign v8 noch nicht unterstützt. Wenden Sie sich an die Kundenunterstützung von Campaign, um diesbezüglich Hilfe zu erhalten.
+Nein. Alle in Campaign Classic v7 verfügbaren Funktionen werden jetzt auch über das Control Panel in Campaign v8 unterstützt, einschließlich Funktionen für Subdomain und Zertifikatverwaltung.
 
 ### Wird das Control Panel nur für Adobe Campaign verwendet?
 

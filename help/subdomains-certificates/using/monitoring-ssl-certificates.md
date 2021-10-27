@@ -7,18 +7,14 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: a7888e1c-259d-4601-951b-0f1062d90dc2
-source-git-commit: 8dce5b9d1eb59b7ebc8ef1f73f7552dcf61077a1
+source-git-commit: 46a4e13e8017c5406dcd65f21c9839374dd44aa7
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '397'
 ht-degree: 98%
 
 ---
 
 # Überwachen von SSL-Zertifikaten der Subdomains {#monitoring-ssl-certificates}
-
->[!AVAILABILITY]
->
->Diese Funktion ist für Campaign v8 nicht verfügbar.
 
 ## Über SSL-Zertifikate {#about-ssl-certificates}
 
