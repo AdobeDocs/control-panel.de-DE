@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 8b0f652559e0296a22b3eac92057e6f4487215e1
+source-git-commit: 23c2cd3172a846c1006fc172acf07cae1f222a9c
 workflow-type: tm+mt
-source-wordcount: '771'
-ht-degree: 84%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -38,9 +38,9 @@ Sie können jetzt die [IP-Bereiche](sftp/using/ip-range-allow-listing.md#editing
 
 Die E-Mail-Warnungsfunktion enthält jetzt Warnhinweise zum Ablauf der SFTP-IP-Zulassungsauflistung und zum Ablauf des öffentlichen SFTP-Schlüssels. [Mehr dazu](performance-monitoring/using/email-alerting.md)
 
-<!--**Full support with Campaign v8**
+**Vollständige Unterstützung mit Campaign v8**
 
-The **Subdomain** and **Certificate** management capabilities are now supported by Control Panel on Adobe Campaign v8.-->
+Die **Subdomain** und **Zertifikat** Verwaltungsfunktionen werden jetzt vom Control Panel auf Adobe Campaign v8 unterstützt.
 
 ## August 2021 {#august-2021}
 
