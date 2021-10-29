@@ -10,7 +10,7 @@ exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
 source-git-commit: 83a6d002a5a21815a66d198c6e5e805f559d5ee2
 workflow-type: tm+mt
 source-wordcount: '797'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Im Control Panel können Sie neue Verbindungen mit Ihren Instanzen einrichten, i
 
 Nachdem IP-Adressen auf die Zulassungsliste gesetzt wurden, können Sie Campaign-Benutzer erstellen und mit den Adressen verknüpfen, sodass die Benutzer auf die Instanz zugreifen können.
 
-![](assets/do-not-localize/how-to-video.png) [Funktion im Video kennenlernen](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/ip-allow-listing.html#instance-settings).
+![](assets/do-not-localize/how-to-video.png) [Funktion im Video kennenlernen](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/ip-allow-listing.html?lang=de#instance-settings).
 
 ## Best Practices {#best-practices}
 
@@ -46,16 +46,16 @@ Beachten Sie die folgenden Empfehlungen und Einschränkungen, wenn Sie IP-Adress
 * **Wenn Sie einer IP-Adresse einen temporären Zugriff auf Ihre Instanz gewährt haben**, entfernen Sie die IP-Adresse wieder aus der Zulassungsliste, wenn diese keine Verbindung mehr mit Ihrer Instanz herstellen muss.
 * **Wir empfehlen, keine IP-Adressen öffentlicher Orte auf die Zulassungsliste zu setzen** (Flughäfen, Hotels etc.). Verwenden Sie Ihre unternehmenseigene VPN-Adresse, um jederzeit die Sicherheit Ihrer Instanz zu gewährleisten.
 
-## Hinzufügen von IP-Adressen zur Zulassungsliste für den Instanzzugriff {#adding-ip-addresses-allow-list}
+## Hinzufügen von IP-Adressen zur Zulassungsliste für den Zugriff auf Instanzen {#adding-ip-addresses-allow-list}
 
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_iprange_add"
 >title="IP-Bereichskonfiguration"
->abstract="Definieren Sie IP-Bereiche, die Sie auf die Zulassungsliste setzen möchten, um sich mit Ihren Instanzen zu verbinden."
+>abstract="Definieren Sie den IP-Bereich, den Sie auf die Zulassungsliste setzen möchten, um sich mit Ihren Instanzen zu verbinden."
 
 >[!NOTE]
 >
->Wenn die Variable **[!UICONTROL Instanzeneinstellungen]** -Karte auf der Startseite des Control Panels nicht sichtbar ist, bedeutet dies, dass Ihre IMS-Organisations-ID mit keiner Adobe Campaign Classic v7- oder Campaign v8-Instanz verknüpft ist.
+>Wenn die Karte **[!UICONTROL Instanzeneinstellungen]** nicht auf der Startseite des Control Panel sichtbar ist, bedeutet das, dass die Kennung Ihrer IMS-Organisation mit keiner Adobe Campaign Classic v7- oder Campaign v8-Instanz verknüpft ist.
 
 Gehen Sie wie folgt vor, um IP-Adressen auf die Zulassungsliste zu setzen:
 
@@ -94,7 +94,7 @@ Gehen Sie wie folgt vor, um IP-Adressen auf die Zulassungsliste zu setzen:
 
    <!--![](assets/ip_whitelist_added.png)-->
 
-Um einen oder mehrere IP-Bereiche aus der Zulassungsliste zu löschen, wählen Sie sie aus und klicken Sie auf die Schaltfläche **[!UICONTROL IP-Bereich löschen]** Schaltfläche.
+Um einen oder mehrere IP-Bereiche aus der Zulassungsliste zu löschen, wählen Sie sie aus und klicken Sie anschließend auf die Schaltfläche **[!UICONTROL IP-Bereich löschen]**.
 
 ![](assets/ip_whitelist_delete.png)
 

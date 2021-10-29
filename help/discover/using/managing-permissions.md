@@ -62,6 +62,6 @@ Auf das Control Panel haben alle Admin-Benutzer einer Campaign-Instanz Zugriff. 
 >
 >Sobald der Zugriff konfiguriert ist, muss sich der Benutzer bei Adobe Experience Cloud abmelden und erneut anmelden, um auf das Control Panel zugreifen zu können.
 
-## Tutorial {#video}
+## Tutorial-Video {#video}
 
 >[!VIDEO](https://video.tv.adobe.com/v/27147?quality=12)

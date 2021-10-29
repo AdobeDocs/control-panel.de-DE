@@ -10,7 +10,7 @@ exl-id: a7888e1c-259d-4601-951b-0f1062d90dc2
 source-git-commit: 46a4e13e8017c5406dcd65f21c9839374dd44aa7
 workflow-type: tm+mt
 source-wordcount: '397'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Mit der **SSL-Verschlüsselung (Secure Socket Layer)** stellen Sie sicher, dass 
 
 ![](assets/no_certificate.png)
 
-## Überwachung von SSL-Zertifikaten {#monitoring-certificates}
+## Überwachen von SSL-Zertifikaten {#monitoring-certificates}
 
 >[!CONTEXTUALHELP]
 >id="cp_subdomain_details"

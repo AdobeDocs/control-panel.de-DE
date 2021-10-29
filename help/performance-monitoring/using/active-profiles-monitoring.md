@@ -10,7 +10,7 @@ exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
 source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
 workflow-type: tm+mt
 source-wordcount: '402'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -32,15 +32,15 @@ Profile gelten als aktiv, wenn sie in den letzten 12 Monaten über einen beliebi
 >
 >Die Kanäle Facebook und Twitter werden nicht berücksichtigt.
 
-Weitere Informationen zu aktiven Profilen finden Sie unter [Campaign Standard](://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html?lang=de) und [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html?lang=de#active-profiles) Dokumentationen.
+Weitere Informationen zu aktiven Profilen finden Sie in der Dokumentation zu [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html?lang=de) und [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html?lang=de#active-profiles).
 
 ## Überwachen aktiver Profile {#monitoring-active-profiles}
 
 >[!CONTEXTUALHELP]
 >id="cp_performancemonitoring_active_profile"
 >title="Über die Überwachung aktiver Profile"
->abstract="Auf diesem Tab erhalten Sie Echtzeitinformationen über die aktuelle und historische Nutzung und Entwicklung aktiver Profile für jede Ihrer Campaign-Instanzen."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=de" text="Über das Monitoring der Leistung"
+>abstract="Auf dieser Registerkarte erhalten Sie in Echtzeit Informationen über die aktuelle und frühere Nutzung und Entwicklung aktiver Profile für jede Ihrer Campaign-Instanzen."
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=de" text="Über die Leistungsüberwachung "
 
 Mit dem Control Panel können Sie die Nutzung aktiver Profile für jede Ihrer Campaign-Instanzen überwachen.
 
