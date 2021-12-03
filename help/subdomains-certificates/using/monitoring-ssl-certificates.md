@@ -8,7 +8,7 @@ role: Architect
 level: Experienced
 exl-id: a7888e1c-259d-4601-951b-0f1062d90dc2
 source-git-commit: 46a4e13e8017c5406dcd65f21c9839374dd44aa7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '397'
 ht-degree: 100%
 
@@ -37,7 +37,7 @@ Mit der **SSL-Verschlüsselung (Secure Socket Layer)** stellen Sie sicher, dass 
 
 Der Status der SSL-Zertifikate Ihrer Subdomains ist direkt in der Liste der Subdomains verfügbar, wenn Sie die Karte **[!UICONTROL Subdomains &amp; Zertifikate]** auswählen.
 
-Die Subdomains sind nach dem nächsten Ablaufdatum des SSL-Zertifikats geordnet, wobei das Ablaufdatum in Tagen optisch dargestellt wird:
+Die Subdomains sind nach dem nächsten Gültigkeitsdatum des SSL-Zertifikats geordnet, wobei das Gültigkeitsdatum in Tagen optisch dargestellt wird:
 
 * **Grün**: Das Zertifikat der Subdomain läuft nicht innerhalb der nächsten 60 Tage ab.
 * **Orange**: Mindestens eine Subdomain hat ein Zertifikat, das innerhalb der nächsten 60 Tage abläuft.
