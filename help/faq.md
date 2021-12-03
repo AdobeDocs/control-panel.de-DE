@@ -8,9 +8,9 @@ role: Architect
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
 source-git-commit: 47a57b38e9af8b03d277bf9ee6922b19f0298944
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '774'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -28,9 +28,9 @@ Das Control Panel ermöglicht es Ihnen, Speicherplatz zu überwachen, IP-Adresse
 
 Weitere Informationen zu den vom Control Panel unterstützten Aktionen finden Sie in der Dokumentation.
 
-### Gibt es einige Funktionen, die von Campaign v8 noch nicht unterstützt, aber auf Campaign Classic v7 verfügbar sind?{#v8-restrictions}
+### Gibt es Funktionen, die von Campaign v8 noch nicht unterstützt werden, aber in Campaign Classic v7 verfügbar sind?{#v8-restrictions}
 
-Nein. Alle in Campaign Classic v7 verfügbaren Funktionen werden jetzt auch über das Control Panel in Campaign v8 unterstützt, einschließlich Funktionen für Subdomain und Zertifikatverwaltung.
+Nein. Alle in Campaign Classic v7 verfügbaren Funktionen werden jetzt auch über Control Panel in Campaign v8 unterstützt, einschließlich Funktionen für Subdomain und Zertifikatverwaltung.
 
 ### Wird das Control Panel nur für Adobe Campaign verwendet?
 
@@ -66,7 +66,7 @@ Weitere Informationen finden Sie in der [Adobe Experience Cloud-Dokumentation](h
 
 ### Wo finde ich meine Kennung der IMS-Organisation?
 
-Eine Möglichkeit besteht darin, zur [Startseite von Adobe Experience Cloud](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]** zu navigieren. Ihre Kennung der IMS-Organisation finden Sie in der Administration unten im Bereich **[!UICONTROL Schnellzugriff]**. Detailliertere Informationen finden Sie in der [Adobe Experience Cloud-Dokumentation](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html).
+Eine Möglichkeit besteht darin, zur [Startseite von Adobe Experience Cloud](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]** zu navigieren. Ihre Kennung der IMS-Organisation finden Sie in der Administration unten im Bereich **[!UICONTROL Schnellzugriff]**. Detailliertere Informationen finden Sie in der [Adobe Experience Cloud-Dokumentation](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=de).
 
 Eine andere Möglichkeit besteht darin, die **Admin Console** zu starten. Ihre Kennung der IMS-Organisation wird in Ihrer URL angezeigt. Sie sieht in etwa so aus: https://adminconsole.adobe.com/xxx@AdobeOrg/overview.
 
