@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 8c604e9b1f657be938b04d096ac22efed99e1cbe
+source-git-commit: 5c7937fc201e83f8afd3973b50e8121e2fd2bf41
 workflow-type: tm+mt
 source-wordcount: '778'
-ht-degree: 96%
+ht-degree: 94%
 
 ---
 
@@ -20,9 +20,9 @@ Hier finden Sie Informationen zu den aktuellen Versionen des Control Panel.
 
 >[!NOTE]
 >
->Das Control Panel steht allen Administratoren zur Verfügung. Die Schritte, um einem Benutzer Administratorzugriff zu gewähren, finden Sie in [diesem Abschnitt](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=de#discover-control-panel).
+>Das Control Panel steht nur Admin-Benutzern zur Verfügung. Weitere Informationen zu Berechtigungen finden Sie unter [diesem Abschnitt](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=de#discover-control-panel).
 >
->Beachten Sie zum Campaign Classic v7, dass Ihre Instanz auf AWS gehostet und mit der neuesten Version aktualisiert werden muss [stabiler Build](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/rn-overview.html). Erfahren Sie in [diesem Abschnitt](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=de#getting-your-campaign-version), wie Sie Ihre Version überprüfen. Um zu überprüfen, ob Ihre Instanz auf AWS gehostet wird, folgen Sie den Schritten auf [dieser Seite](faq.md).
+>Zum Campaign Classic v7 muss Ihre Instanz auf Amazon Web Services (AWS) gehostet und auf die neueste Version aktualisiert werden [Kampagneninstabiler Build](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=de#rn-statuses) (oder zum Erstellen von 9032 oder höher). Erfahren Sie in [diesem Abschnitt](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=de#getting-your-campaign-version), wie Sie Ihre Version überprüfen. Um zu überprüfen, ob Ihre Instanz auf AWS gehostet wird, folgen Sie den Schritten auf [dieser Seite](faq.md#hosted-aws).
 
 ## Oktober 2021 {#october-2021}
 
