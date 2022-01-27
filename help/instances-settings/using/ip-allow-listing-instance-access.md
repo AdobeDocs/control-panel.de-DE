@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_iprange"
->title="Über die Zulassungsauflistung"
+>title="Über die Zulassungsauflistung von IP-Bereichen"
 >abstract="Fügen Sie der Zulassungsliste IP-Adressen hinzu, um auf Ihre Instanzen zuzugreifen."
 >additional-url="https://images-tv.adobe.com/mpcv3/045cac99-f948-478e-ae04-f8c161dcb9e2_1568132508.1920x1080at3000_h264.mp4" text="Demovideo ansehen"
 

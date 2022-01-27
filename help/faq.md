@@ -10,7 +10,7 @@ exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
 source-git-commit: 5c7937fc201e83f8afd3973b50e8121e2fd2bf41
 workflow-type: tm+mt
 source-wordcount: '771'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ Wenn Sie kein Administrator sind, aber Zugriff wünschen, wenden Sie sich an Ihr
 
 Das Control Panel steht nur Administratoren zur Verfügung. [Weitere Informationen](discover/using/managing-permissions.md).
 
-Beachten Sie zum Campaign Classic v7, dass Ihre Instanz auf Amazon Web Services (AWS) gehostet und auf die neueste Version aktualisiert werden muss [Kampagneninstabiler Build](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=de#rn-statuses) oder um 9032 oder höher zu erstellen. In [diesem Abschnitt](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=de#getting-your-campaign-version) erfahren Sie, wie Sie Ihre Campaign Classic-Version überprüfen. Um zu überprüfen, ob Ihre Campaign Classic-Instanz auf AWS gehostet wird, folgen Sie den Schritten in [diesem Abschnitt](#hosted-aws).
+Beachten Sie für Campaign Classic v7, dass Ihre Instanz auf Amazon Web Services (AWS) gehostet und auf den neuesten [stabilen Campaign-Build](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=de#rn-statuses) (oder auf Build 9032 oder höher) aktualisiert werden muss. In [diesem Abschnitt](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=de#getting-your-campaign-version) erfahren Sie, wie Sie Ihre Campaign Classic-Version überprüfen. Um zu überprüfen, ob Ihre Campaign Classic-Instanz auf AWS gehostet wird, folgen Sie den Schritten in [diesem Abschnitt](#hosted-aws).
 
 ### Wie kann ich auf das Control Panel zugreifen?
 
