@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: 46a4e13e8017c5406dcd65f21c9839374dd44aa7
+source-git-commit: 278788a69f06865b6a38d8a901077866e1bc88ee
 workflow-type: tm+mt
-source-wordcount: '1362'
+source-wordcount: '1382'
 ht-degree: 100%
 
 ---
@@ -38,9 +38,7 @@ Auf dieser Seite finden Sie Informationen zum Einrichten neuer Subdomains mit de
 
 Die Konfiguration von Subdomains ist nur für **Produktionsinstanzen** verfügbar.
 
-Wenn die im Assistenten ausgewählte Instanz keine zuvor eingerichteten Subdomains hat, wird die erste konfigurierte Subdomain zur **primären Subdomain** für diese Instanz. Sie werden dies später nicht mehr ändern können.
-
-Daher werden **Reverse-DNS-Einträge** für andere Subdomains mithilfe dieser primären Subdomain erstellt. **Außerdem werden über die primäre Subdomain Antwort- und Bounce-Adressen für andere Subdomains generiert.**
+Wenn die im Assistenten ausgewählte Instanz keine zuvor eingerichteten Subdomains hat, wird die erste konfigurierte Subdomain zur **primären Subdomain** für diese Instanz. Sie werden dies später nicht mehr ändern können. Daher werden **Reverse-DNS-Einträge** für andere Subdomains mithilfe dieser primären Subdomain erstellt. **Außerdem werden über die primäre Subdomain Antwort- und Bounce-Adressen für andere Subdomains generiert.**
 
 ### Nameserver-Konfiguration
 
@@ -183,6 +181,8 @@ Sobald die Subdomain gesendet wurde, führt das Control Panel verschiedene Prüf
    >[!IMPORTANT]
    >
    >Die durchgeführten Zustellbarkeitsprüfungen umfassen das Testen von Feedback-Schleifen und Spam-Beschwerdeschleifen. Daher empfehlen wir nicht, die Subdomain vor Abschluss der Prüfung zu verwenden, da dies zu einer schlechten Reputation der Subdomain führen kann.
+   >
+   >Beachten Sie jedoch, dass Sie Vorgänge im Zusammenhang mit SSL-Zertifikaten in Ihrer Subdomain durchführen können, auch wenn die Zustellbarkeitsprüfung noch läuft.
 
 1. Am Ende des Prozesses werden die Subdomains für die Verwendung mit Ihrer Adobe Campaign-Instanz konfiguriert und die folgenden Elemente erstellt:
 

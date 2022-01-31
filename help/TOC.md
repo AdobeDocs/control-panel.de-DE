@@ -6,9 +6,9 @@ user-guide-title: Handbuch zum Control Panel
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+source-git-commit: 9a864f8a80ed0d34212e5e825cc8962e557345a7
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '118'
 ht-degree: 100%
 
 ---
@@ -39,8 +39,15 @@ ht-degree: 100%
    + [Verwalten von TXT-Einträgen](subdomains-certificates/using/managing-txt-records.md)
 + Monitoring der Leistung {#performance-monitoring}
    + [Über das Leistungs-Monitoring](performance-monitoring/using/about-performance-monitoring.md)
-   + [Monitoring der Datenbank](performance-monitoring/using/database-monitoring.md)
-   + [Monitoring aktiver Profile](performance-monitoring/using/active-profiles-monitoring.md)
+   + Monitoring der Datenbank {#database-monitoring}
+      + [Über die Datenbanküberwachung](performance-monitoring/using/database-monitoring.md)
+      + [Datenbankauslastung](performance-monitoring/using/database-utilization.md)
+      + [Speicherübersicht](performance-monitoring/using/database-storage-overview.md)
+      + [Die zehn wichtigsten temporären Ressourcen](performance-monitoring/using/database-top-ten-resources.md)
+      + [Überwachen aktiver Abfragen](performance-monitoring/using/database-active-queries.md)
+      + [Verhindern einer Überlastung von Datenbanken](performance-monitoring/using/database-preventing-overload.md)
+   + [Überwachung aktiver Profile](performance-monitoring/using/active-profiles-monitoring.md)
+   + [Überwachung von Durchsätzen und Latenzzeiten](performance-monitoring/using/thoughputs-latencies.md)
    + [Benachrichtigungen per E-Mail](performance-monitoring/using/email-alerting.md)
 + Instanzeneinstellungen {#instances-settings}
    + [IP-Zulassungsauflistung für den Zugriff auf Instanzen](instances-settings/using/ip-allow-listing-instance-access.md)

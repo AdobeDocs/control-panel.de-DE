@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 5c7937fc201e83f8afd3973b50e8121e2fd2bf41
+source-git-commit: 10c4cf41dc9502bb66566951780cf8f963b08aa9
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '858'
 ht-degree: 100%
 
 ---
@@ -24,6 +24,20 @@ Hier finden Sie Informationen zu den aktuellen Versionen des Control Panel.
 >
 >Für Campaign Classic v7 muss Ihre Instanz auf Amazon Web Services (AWS) gehostet und auf den neuesten [stabilen Campaign-Build](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=de#rn-statuses) (oder auf Build 9032 oder höher) aktualisiert werden. Erfahren Sie in [diesem Abschnitt](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=de#getting-your-campaign-version), wie Sie Ihre Version überprüfen. Um zu überprüfen, ob Ihre Instanz auf AWS gehostet wird, folgen Sie den Schritten auf [dieser Seite](faq.md#hosted-aws).
 
+## Januar 2022 {#january-2022}
+
+**Überwachung aktiver Abfragen**
+
+Mit dem Control Panel können Sie jetzt diejenigen Abfragen überwachen, die auf Ihren Instanzen am längsten ausgeführt werden. [Mehr dazu](performance-monitoring/using/database-active-queries.md)
+
+**Überwachung von Durchsätzen und Latenzzeiten**
+
+Sie können jetzt die Entwicklung der Durchsätze und Latenzzeiten Ihrer Instanzen über einen bestimmten Zeitraum hinweg überwachen. [Mehr dazu](performance-monitoring/using/thoughputs-latencies.md)
+
+**Vorgänge von SSL-Zertifikaten auf neuen Subdomains**
+
+Vorgänge von SSL-Zertifikaten können jetzt auf einer neu eingerichteten Subdomain ausgeführt werden, auch wenn die Zustellbarkeitsprüfung noch läuft. [Mehr dazu](subdomains-certificates/using/renewing-subdomain-certificate.md)
+
 ## Oktober 2021 {#october-2021}
 
 **IP-Bereich und Gültigkeitszeitraum des öffentlichen Schlüssels**
@@ -36,7 +50,8 @@ Sie können jetzt die [IP-Bereiche](sftp/using/ip-range-allow-listing.md#editing
 
 **Benachrichtigung zum SFTP-IP-Bereich und zum Ablauf öffentlicher Schlüssel**
 
-Die E-Mail-Warnungsfunktion enthält jetzt Warnhinweise zum Ablauf der SFTP-IP-Zulassungsauflistung und zum Ablauf öffentlicher SFTP-Schlüssel. [Mehr dazu](performance-monitoring/using/email-alerting.md)
+Die E-Mail-Warnfunktion enthält jetzt Warnhinweise zum Verfall der SFTP-IP-Zulassungsauflistung und der öffentlichen SFTP-Schlüssel.
+[Mehr dazu](performance-monitoring/using/email-alerting.md)
 
 **Vollständige Unterstützung in Campaign v8**
 
