@@ -5,9 +5,9 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: 28688c8abc92d77d41ee27fe727b85504ba74877
+source-git-commit: a99c3753a2bf4378e981629feb934e39fdd410d8
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '197'
 ht-degree: 100%
 
 ---
@@ -25,17 +25,14 @@ ht-degree: 100%
 
 ## Neue Funktionen
 
-**Vollständige Unterstützung in Campaign v8**
+**Überwachung aktiver Abfragen**
 
-Die Funktionen, auch die Verwaltung von **Subdomains** und **Zertifikaten**, werden jetzt vom Control Panel in Adobe Campaign v8 unterstützt. [Mehr dazu](faq.md#v8-restrictions)
+Mit dem Control Panel können Sie jetzt diejenigen Abfragen überwachen, die auf Ihren Instanzen am längsten ausgeführt werden. [Mehr dazu](performance-monitoring/using/database-active-queries.md)
 
-**Gültigkeitszeitraum und Bearbeitung des IP-Bereichs**
+**Überwachung von Durchsätzen und Latenzzeiten**
 
-Es ist nun möglich, eine Dauer für die Verfügbarkeit von IP-Bereichen festzulegen und die von Ihnen erstellten IP-Bereiche zu bearbeiten. [Mehr dazu](sftp/using/ip-range-allow-listing.md)
+Sie können jetzt die Entwicklung der Durchsätze und Latenzzeiten Ihrer Instanzen über einen bestimmten Zeitraum hinweg überwachen. [Mehr dazu](performance-monitoring/using/thoughputs-latencies.md)
 
-**Gültigkeitszeitraum und Bearbeitung von öffentlichen Schlüsseln**
-
-Ebenso können Sie jetzt eine Dauer für die Verfügbarkeit öffentlicher Schlüssel festlegen und die von Ihnen erstellten öffentlichen Schlüssel bearbeiten. [Mehr dazu](sftp/using/key-management.md)
 
 >[!CAUTION]
 >
