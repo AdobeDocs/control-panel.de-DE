@@ -6,11 +6,10 @@ description: Erfahren Sie, wie Sie aktive Abfragen auf Ihren Campaign-Instanzen 
 feature: Control Panel
 role: Architect
 level: Experienced
-exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e
-source-git-commit: 6922e132321f67e1e8122e33ead3c5e54c639763
-workflow-type: ht
-source-wordcount: '111'
-ht-degree: 100%
+source-git-commit: 12e9326ba220776874654705587152bf3978949c
+workflow-type: tm+mt
+source-wordcount: '123'
+ht-degree: 52%
 
 ---
 
@@ -24,4 +23,6 @@ Die Spalte **[!UICONTROL Dauer]** gibt an, wie lange eine Abfrage schon auf der 
 
 >[!IMPORTANT]
 >
->Wenn eine der Abfragen seit mehr als 24 Stunden aktiv ist, wenden Sie sich an die Kundenunterstützung, damit diese das Problem erkennt und behebt. In diesem Fall müssen Sie den Wert der Spalte **[!UICONTROL PID]** angeben, der eine eindeutige Kennung für die Abfrage darstellt.
+>Wenn eine der Abfragen länger als 24 Stunden aktiv ist, werden Sie per E-Mail benachrichtigt, wenn Sie sich für [E-Mail-Benachrichtigung](email-alerting.md).
+>
+>Wenden Sie sich in diesem Fall an die Kundenunterstützung , damit diese das Problem identifiziert und beheben kann. Sie müssen ihnen die Variable **[!UICONTROL PID]** column -Wert, der eine eindeutige Kennung für die Abfrage darstellt.
