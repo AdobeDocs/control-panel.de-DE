@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 source-git-commit: 12e9326ba220776874654705587152bf3978949c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '123'
-ht-degree: 52%
+ht-degree: 100%
 
 ---
 
@@ -23,6 +23,6 @@ Die Spalte **[!UICONTROL Dauer]** gibt an, wie lange eine Abfrage schon auf der 
 
 >[!IMPORTANT]
 >
->Wenn eine der Abfragen länger als 24 Stunden aktiv ist, werden Sie per E-Mail benachrichtigt, wenn Sie sich für [E-Mail-Benachrichtigung](email-alerting.md).
+>Wenn eine der Abfragen schon länger als 24 Stunden aktiv ist, werden Sie per E-Mail benachrichtigt, wenn Sie [Benachrichtigungen per E-Mail](email-alerting.md) abonniert haben.
 >
->Wenden Sie sich in diesem Fall an die Kundenunterstützung , damit diese das Problem identifiziert und beheben kann. Sie müssen ihnen die Variable **[!UICONTROL PID]** column -Wert, der eine eindeutige Kennung für die Abfrage darstellt.
+>Wenden Sie sich in diesem Fall an die Kundenunterstützung, damit diese das Problem identifizieren und beheben kann. In diesem Fall müssen Sie den Wert der Spalte **[!UICONTROL PID]** angeben, der eine eindeutige Kennung für die Abfrage darstellt.
