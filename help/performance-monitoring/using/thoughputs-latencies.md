@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 source-git-commit: 12e9326ba220776874654705587152bf3978949c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '243'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 78%
 
 Um die Nutzung Ihrer Instanzen zu verstehen und sicherzustellen, dass sie eine gute Leistung erzielen, müssen Sie unbedingt überwachen, wie sich die Versanddurchsätze und die Latenzzeiten über einen bestimmten Zeitraum verhalten.
 
-Diese Informationen werden im Control Panel für jede Ihrer Campaign-Instanzen im **[!UICONTROL Leistungsüberwachung]** Karte, **[!UICONTROL Durchsätze und Latenz]** (beachten Sie, dass das Control Panel bis zu 1 Stunde benötigen kann, um die Zahlen anzuzeigen).
+Diese Informationen werden im Control Panel für jede Ihrer Campaign-Instanzen auf der Karte **[!UICONTROL Leistungsüberwachung]** auf der Registerkarte **[!UICONTROL Durchsätze und Latenzzeiten]** verfügbar gemacht (beachten Sie, dass es im Control Panel bis zu 1 Stunde dauern kann, bis die Zahlen angezeigt werden).
 
 * Der Bereich **[!UICONTROL Durchsatz]** enthält Informationen zur Anzahl der Nachrichten, die pro Stunde von der ausgewählten Campaign-Instanz für alle Kommunikationskanäle gesendet werden, für die Sie eine Berechtigung haben.
 
@@ -36,6 +36,6 @@ Diese Informationen werden im Control Panel für jede Ihrer Campaign-Instanzen i
 
 Standardmäßig werden Daten für den aktuellen Tag angezeigt. Sie können den angezeigten Zeitraum mithilfe der Schaltflächen **[!UICONTROL 6 Monate]**, **[!UICONTROL 30 Tage]** und **[!UICONTROL 7 Tage]** ändern.
 
-Sie können Informationen auch in tabellarischer Form mit sortierbaren Spalten und nicht mit einem Diagramm visualisieren. Klicken Sie dazu auf die Schaltfläche **[!UICONTROL Visualisierungseinstellungen]** und wählen Sie **[!UICONTROL Tabelle]**.
+Sie können diese Informationen auch in tabellarischer Form mit sortierbaren Spalten anstatt mit einem Diagramm visualisieren. Klicken Sie dazu auf die Schaltfläche **[!UICONTROL Visualisierungseinstellungen]** und wählen Sie **[!UICONTROL Tabelle]**.
 
 ![](assets/throughput-latencies-table.png)
