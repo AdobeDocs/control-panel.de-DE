@@ -6,9 +6,9 @@ user-guide-title: Handbuch zum Control Panel
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: 65f4603e6ff6c232479bf567981871e92b1cfa1c
+source-git-commit: 76301a1e222da17a2b4fd58d68d24efd04b07b1c
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '117'
 ht-degree: 100%
 
 ---
@@ -44,6 +44,7 @@ ht-degree: 100%
       + [Datenbankauslastung](performance-monitoring/using/database-utilization.md)
       + [Speicherübersicht](performance-monitoring/using/database-storage-overview.md)
       + [Die zehn wichtigsten temporären Ressourcen](performance-monitoring/using/database-top-ten-resources.md)
+      + [Aktive Abfragen](performance-monitoring/using/database-active-queries.md)
       + [Verhindern einer Überlastung von Datenbanken](performance-monitoring/using/database-preventing-overload.md)
    + [Überwachung aktiver Profile](performance-monitoring/using/active-profiles-monitoring.md)
    + [Überwachung von Durchsätzen und Latenzzeiten](performance-monitoring/using/thoughputs-latencies.md)
