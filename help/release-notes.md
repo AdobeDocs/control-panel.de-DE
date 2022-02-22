@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 76301a1e222da17a2b4fd58d68d24efd04b07b1c
+source-git-commit: c52094b8145bdd84aa9e71430a811b8a7b32354d
 workflow-type: tm+mt
-source-wordcount: '858'
-ht-degree: 100%
+source-wordcount: '882'
+ht-degree: 97%
 
 ---
 
@@ -23,6 +23,12 @@ Hier finden Sie Informationen zu den aktuellen Versionen des Control Panel.
 >Das Control Panel ist nur für Administratoren zugänglich. Weiterführende Informationen zu Berechtigungen finden Sie in [diesem Abschnitt](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=de#discover-control-panel).
 >
 >Für Campaign Classic v7 muss Ihre Instanz auf Amazon Web Services (AWS) gehostet und auf den neuesten [stabilen Campaign-Build](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=de#rn-statuses) (oder auf Build 9032 oder höher) aktualisiert werden. Erfahren Sie in [diesem Abschnitt](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=de#getting-your-campaign-version), wie Sie Ihre Version überprüfen. Um zu überprüfen, ob Ihre Instanz auf AWS gehostet wird, folgen Sie den Schritten auf [dieser Seite](faq.md#hosted-aws).
+
+## Februar 2022 {#february-2022}
+
+**Überwachung von Workflow-Parametern**
+
+Sie können jetzt Workflow-Parameter überwachen, die möglicherweise besondere Aufmerksamkeit erfordern, um Probleme in Ihren Instanzen zu vermeiden. [Mehr dazu](performance-monitoring/using/workflow-monitoring.md)
 
 ## Januar 2022 {#january-2022}
 

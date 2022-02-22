@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e
-source-git-commit: 9accc4306bacab3bc27922f495c19138f905b1c5
-workflow-type: ht
-source-wordcount: '141'
-ht-degree: 100%
+source-git-commit: c52094b8145bdd84aa9e71430a811b8a7b32354d
+workflow-type: tm+mt
+source-wordcount: '175'
+ht-degree: 74%
 
 ---
 
@@ -35,8 +35,8 @@ Der Bereich **[!UICONTROL Speicherübersicht]** bietet eine grafische Darstellun
 
 Klicken Sie auf **[!UICONTROL Details anzeigen]**, um weitere Informationen zu den verschiedenen Assets zu erhalten, die Datenbankspeicher belegen.
 
+Sie können die Dropdown-Liste verwenden, um Ihre Suche zu verfeinern und Tabellen nur aus einem bestimmten Asset-Typ anzuzeigen (Workflows, Sendungen, Empfänger).
+
 ![](assets/database-storage-details.png)
 
-Verwenden Sie den Filter, um die Suche zu verfeinern und Tabellen nur für einen bestimmten Asset-Typ anzuzeigen.
-
-![](assets/database-storage-overview-filter.png)
+Beachten Sie, dass Sie in diesem Bildschirm auch Workflow-Parameter überwachen können, die besondere Aufmerksamkeit erfordern, um Probleme in Ihren Instanzen zu vermeiden. Weiterführende Informationen finden Sie auf [dieser Seite](workflow-monitoring.md).

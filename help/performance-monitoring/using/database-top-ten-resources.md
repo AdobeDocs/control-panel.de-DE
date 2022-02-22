@@ -6,10 +6,11 @@ description: Erfahren Sie, wie Sie im Control Panel die zehn größten temporär
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: 34af1000aeb444b273ade358eb35096bd3365fc7
+exl-id: 2fa2ffbb-102b-42c4-8feb-b0263ee9c930
+source-git-commit: b17abddf6bad7e58cb7bd825cd97322427a0b21f
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 100%
+source-wordcount: '182'
+ht-degree: 79%
 
 ---
 
@@ -21,24 +22,10 @@ Die Überwachung von Workflows und Sendungen, die große temporäre Ressourcen e
 
 >[!IMPORTANT]
 >
->Es wird allgemein empfohlen, zu vermeiden, **mehr als 40 Spalten** nicht nativer Ressourcen zu haben.
+>Es wird allgemein empfohlen, zu vermeiden, **mehr als 40 Spalten** nicht nativer Ressourcen zu haben. Wenn festgestellt wird, dass ein Workflow eine große Anzahl von Tabellenzahlen oder Datenbankgrößen aufweist, empfehlen wir, den Workflow zu überprüfen und zu untersuchen, warum so viele Daten generiert werden.
+>
+>Campaign Standard- und Classic-Richtlinien sind auch in [diese Seite](database-preventing-overload.md) um eine Überlastung der Datenbank zu verhindern.
 
 ![](assets/database-top10.png)
 
->[!NOTE]
->
->Wenn festgestellt wird, dass ein Workflow eine große Anzahl von Tabellenzahlen oder Datenbankgrößen aufweist, empfehlen wir, den Workflow zu überprüfen und zu untersuchen, warum so viele Daten generiert werden.
->
->Am Ende dieser Seite finden Sie auch Ressourcen für Campaign Standard und Campaign Classic, mit denen Sie eine Überlastung der Datenbank verhindern können.
-
-Über **[!UICONTROL Alle anzeigen]** können Sie auf detaillierte Informationen zu diesen temporären Ressourcen zugreifen.
-
-![](assets/database-top10-view.png)
-
-Der Wert in der Spalte **[!UICONTROL Zwischenergebnisse behalten]** gibt an, ob die Option in Campaign aktiviert („1“) oder deaktiviert („0“) ist. Mit dieser Option können Sie die Ergebnisse der Transitionen zwischen den verschiedenen Aktivitäten eines Workflows speichern (siehe die Dokumentationen zu [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html?lang=de) und [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/workflow-best-practices.html?lang=de#logs)).
-
->[!IMPORTANT]
->
->Diese Option darf in einem Produktions-Workflow niemals aktiviert sein. Sie wird zur Analyse der Ergebnisse verwendet und ist nur für Testzwecke konzipiert und darf daher nur in Entwicklungs- oder Staging-Umgebungen verwendet werden.
->
->Wenn der Wert im Control Panel anzeigt, dass die Option für einen Ihrer Workflows aktiviert ist, empfehlen wir dringend, sie in Campaign zu deaktivieren.
+Die **[!UICONTROL Alle anzeigen]** -Schaltfläche können Sie auf die **[!UICONTROL Speicherübersicht]** Details, um detaillierte Informationen zu diesen temporären Ressourcen zu erhalten. Weitere Informationen hierzu finden Sie auf [dieser Seite](database-storage-overview.md).
