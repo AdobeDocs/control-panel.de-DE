@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie bestimmte Workflow-Parameter überwachen, die
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: c52094b8145bdd84aa9e71430a811b8a7b32354d
+source-git-commit: 062fce923fe638925a9fee22aeab589a890cfa37
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 10%
@@ -13,7 +13,7 @@ ht-degree: 10%
 
 # Überwachen von Workflows {#monitor-workflows}
 
-<!--## Clean paused and completed workflows
+<!-- Clean paused and completed workflows
 
 When [!DNL Adobe Campaign] workflows are paused or completed, they leave temporary tables on your instances database that consume space and can lead to performance issues.
 
@@ -41,7 +41,7 @@ To clean paused and completed workflows, follow these steps:
 
     ![](assets/wkf-monitoring-in-progress.png)
 
-## Monitor workflow parameters -->
+Monitor workflow parameters -->
 
 In Adobe Campaign erfordern einige Workflow-Parameter möglicherweise besondere Aufmerksamkeit, um Probleme in Ihren Instanzen zu vermeiden. Das Control Panel **[!UICONTROL Speicherübersicht]** -Details können Sie überprüfen, ob eine dieser Optionen für Ihre Workflows aktiviert ist.
 
