@@ -1,13 +1,14 @@
 ---
 title: Überwachen von Workflows
-description: Erfahren Sie, wie Sie bestimmte Workflow-Parameter überwachen, die möglicherweise beachtet werden müssen, um Probleme in Ihren Instanzen zu vermeiden.
+description: Erfahren Sie, wie Sie bestimmte Workflow-Parameter überwachen können, die möglicherweise Aufmerksamkeit erfordern, um Probleme auf Ihren Instanzen zu vermeiden.
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: 062fce923fe638925a9fee22aeab589a890cfa37
-workflow-type: tm+mt
+exl-id: 8016f800-430a-413d-a77b-b7f18f5ab733
+source-git-commit: f22a935769d74a2b8bae3f79cd53f2ee31d19737
+workflow-type: ht
 source-wordcount: '320'
-ht-degree: 10%
+ht-degree: 100%
 
 ---
 
@@ -43,36 +44,36 @@ To clean paused and completed workflows, follow these steps:
 
 Monitor workflow parameters -->
 
-In Adobe Campaign erfordern einige Workflow-Parameter möglicherweise besondere Aufmerksamkeit, um Probleme in Ihren Instanzen zu vermeiden. Das Control Panel **[!UICONTROL Speicherübersicht]** -Details können Sie überprüfen, ob eine dieser Optionen für Ihre Workflows aktiviert ist.
+In Adobe Campaign gibt es einige Workflow-Parameter, die möglicherweise besondere Aufmerksamkeit erfordern, um Probleme in Ihren Instanzen zu vermeiden. Über die Control Panel-Details **[!UICONTROL Speicherübersicht]** können Sie überprüfen, ob eine dieser Optionen für Ihre Workflows aktiviert ist.
 
 ![](assets/wkf-monitoring-parameters.png)
 
 ## **[!UICONTROL Zwischenergebnis festhalten]** {#keep-results}
 
-Bei Aktivierung (Wert &quot;1&quot;) speichert diese Option die Ergebnisse der Transitionen zwischen den verschiedenen Aktivitäten eines Workflows. Weitere Informationen finden Sie unter [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html?lang=de) und [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/workflow-best-practices.html?lang=de#logs) Dokumentation.
+Wenn diese Option aktiviert ist (Wert „1“), werden die Ergebnisse der Übergänge zwischen den verschiedenen Aktivitäten eines Workflows gespeichert. Weitere Informationen finden Sie in der Dokumentation zu [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html?lang=de) und [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/workflow-best-practices.html?lang=de#logs).
 
 >[!IMPORTANT]
 >
->Diese Option darf in einem Produktions-Workflow niemals aktiviert sein. Sie wird für Analyse- und Testzwecke verwendet und darf daher nur in Entwicklungs- oder Staging-Umgebungen verwendet werden. Es wird dringend empfohlen, diese Option in Campaign zu deaktivieren.
+>Diese Option darf in einem Produktions-Workflow niemals aktiviert sein. Sie wird für Analyse- und Testzwecke verwendet und darf daher nur in Entwicklungs- oder Staging-Umgebungen eingesetzt werden. Wir empfehlen dringend, sie in Campaign zu deaktivieren.
 
 ![](assets/wkf-monitoring-keep.png)
 
 ## **[!UICONTROL SQL-Protokoll anzeigen]** {#sql}
 
-Wenn diese Option aktiviert ist, werden die SQL-Abfragen, die während der Workflow-Ausführung an die Datenbank gesendet werden, in Adobe Campaign angezeigt. Weitere Informationen finden Sie unter [Campaign Standard](https://experienceleague.corp.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html?lang=en) und [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=en#execution) Dokumentation.
+Wenn diese Option aktiviert ist, werden die SQL-Abfragen, die während der Workflow-Ausführung an die Datenbank gesendet werden, in Adobe Campaign angezeigt. Weitere Informationen finden Sie in der Dokumentation zu [Campaign Standard](https://experienceleague.corp.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html?lang=de) und [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=de#execution).
 
-Der Wert &quot;1&quot;zeigt an, dass der Workflow die **Schweregrad** auf &quot;Produktion&quot;gesetzt ist und dass die SQL-Abfragelog-Option aktiviert ist.
+Der Wert „1“ zeigt an, dass für den Workflow das Feld **Schweregrad** auf „Produktion“ eingestellt ist und dass die Option für das SQL-Abfrageprotokoll aktiviert ist.
 
 >[!IMPORTANT]
 >
->Die Aktivierung dieser Option kann sich auf die Leistung auswirken und die Protokolldateien auf dem Server ausfüllen. Es sollte nur zu Analyse- und Diagnosezwecken verwendet werden.
+>Die Aktivierung dieser Option kann die Leistung beeinträchtigen und die Protokolldateien auf dem Server ausfüllen. Sie sollte nur für Analyse- und Diagnosezwecke verwendet werden.
 
 ![](assets/wkf-monitoring-sql.png)
 
 ## **[!UICONTROL Verantwortliche]** {#supervisors}
 
-In diesem Feld können Sie einem Workflow einen Benutzer zuweisen. Wenn der Workflow fehlschlägt, wird der zugehörige Benutzer benachrichtigt. Weitere Informationen finden Sie unter [Campaign Standard](https://experienceleague.corp.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/monitoring-workflow-execution.html?lang=en#error-management) und [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=en#error-management) Dokumentation.
+Dieses Feld ermöglicht es Ihnen, einem Workflow einen Benutzer zuzuweisen. Wenn der Workflow fehlschlägt, wird der jeweilige Verantwortliche benachrichtigt. Weitere Informationen finden Sie in der Dokumentation zu [Campaign Standard](https://experienceleague.corp.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/monitoring-workflow-execution.html?lang=de#error-management) und [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=de#error-management).
 
-Der Wert &quot;1&quot;zeigt an, dass der Workflow die **Schweregrad** auf &quot;Produktion&quot;eingestellt ist und keine Supervisorgruppe dem Workflow zugewiesen wurde.
+Der Wert „1“ zeigt an, dass für den Workflow das Feld **Schweregrad** auf „Produktion“ eingestellt ist und dass dem Workflow keine Gruppe von Verantwortlichen zugewiesen wurde.
 
 ![](assets/wkf-monitoring-supervisors.png)
