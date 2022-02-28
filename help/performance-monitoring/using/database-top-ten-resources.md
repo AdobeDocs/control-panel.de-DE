@@ -8,9 +8,9 @@ role: Architect
 level: Experienced
 exl-id: 2fa2ffbb-102b-42c4-8feb-b0263ee9c930
 source-git-commit: b17abddf6bad7e58cb7bd825cd97322427a0b21f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '182'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -22,10 +22,10 @@ Die Überwachung von Workflows und Sendungen, die große temporäre Ressourcen e
 
 >[!IMPORTANT]
 >
->Es wird allgemein empfohlen, zu vermeiden, **mehr als 40 Spalten** nicht nativer Ressourcen zu haben. Wenn festgestellt wird, dass ein Workflow eine große Anzahl von Tabellenzahlen oder Datenbankgrößen aufweist, empfehlen wir, den Workflow zu überprüfen und zu untersuchen, warum so viele Daten generiert werden.
+>Es wird allgemein empfohlen zu vermeiden, **mehr als 40 Spalten** nicht vorkonfigurierter Ressourcen zu haben. Wenn ein Workflow eine große Anzahl von Tabellen oder eine hohe Datenbankgröße aufweist, empfehlen wir, den Workflow zu überprüfen, um herauszufinden, warum er so viele Daten erzeugt.
 >
->Campaign Standard- und Classic-Richtlinien sind auch in [diese Seite](database-preventing-overload.md) um eine Überlastung der Datenbank zu verhindern.
+>Die Richtlinien für Campaign Standard und Classic sind auch auf [dieser Seite](database-preventing-overload.md) verfügbar. Sie helfen Ihnen, eine Überlastung der Datenbank zu vermeiden.
 
 ![](assets/database-top10.png)
 
-Die **[!UICONTROL Alle anzeigen]** -Schaltfläche können Sie auf die **[!UICONTROL Speicherübersicht]** Details, um detaillierte Informationen zu diesen temporären Ressourcen zu erhalten. Weitere Informationen hierzu finden Sie auf [dieser Seite](database-storage-overview.md).
+Über die Schaltfläche **[!UICONTROL Alles anzeigen]** können Sie auf die Details der **[!UICONTROL Speicherübersicht]** zugreifen, um detaillierte Informationen zu diesen temporären Ressourcen zu erhalten. Weitere Informationen hierzu finden Sie auf [dieser Seite](database-storage-overview.md).
