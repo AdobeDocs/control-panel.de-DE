@@ -8,9 +8,9 @@ role: Architect
 level: Beginner
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
 source-git-commit: c52094b8145bdd84aa9e71430a811b8a7b32354d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '882'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Hier finden Sie Informationen zu den aktuellen Versionen des Control Panel.
 
 **Überwachung von Workflow-Parametern**
 
-Sie können jetzt Workflow-Parameter überwachen, die möglicherweise besondere Aufmerksamkeit erfordern, um Probleme in Ihren Instanzen zu vermeiden. [Mehr dazu](performance-monitoring/using/workflow-monitoring.md)
+Sie können jetzt Workflow-Parameter überwachen, die möglicherweise besondere Aufmerksamkeit erfordern, um Probleme in Ihren Instanzen zu vermeiden. [Weitere Informationen](performance-monitoring/using/workflow-monitoring.md)
 
 ## Januar 2022 {#january-2022}
 
