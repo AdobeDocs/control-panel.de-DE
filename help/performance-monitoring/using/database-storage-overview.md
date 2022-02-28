@@ -8,9 +8,9 @@ role: Architect
 level: Experienced
 exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e
 source-git-commit: c52094b8145bdd84aa9e71430a811b8a7b32354d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '175'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Der Bereich **[!UICONTROL Speicherübersicht]** bietet eine grafische Darstellun
 
 Klicken Sie auf **[!UICONTROL Details anzeigen]**, um weitere Informationen zu den verschiedenen Assets zu erhalten, die Datenbankspeicher belegen.
 
-Sie können die Dropdown-Liste verwenden, um Ihre Suche zu verfeinern und Tabellen nur aus einem bestimmten Asset-Typ anzuzeigen (Workflows, Sendungen, Empfänger).
+Sie können die Dropdown-Liste verwenden, um Ihre Suche zu verfeinern und nur Tabellen aus einem bestimmten Asset-Typ anzuzeigen (Workflows, Sendungen, Empfänger).
 
 ![](assets/database-storage-details.png)
 
