@@ -4,9 +4,9 @@ solution: Campaign
 title: Control Panel-Versionen
 description: Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für das Control Panel aufgeführt.
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 84fe0aeb10bc5e535a7ab54a3316a51a1a32b3ca
+source-git-commit: 35b849725711bfee9852cf8f503bc599f6d8eaff
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '1022'
 ht-degree: 86%
 
 ---
@@ -32,7 +32,7 @@ Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für das Contro
 <tbody>
 <tr>
 <td>
-<p>Durchsätze und Latenzüberwachung stehen jetzt allen Campaign Standard und v8-Kunden mit den Build-Nummern 9032,9330, 9346 oder 9349 zur Verfügung, die eigenständige Bereitstellungen (ohne Zwischeninstanz) aufweisen.</p><p>Weitere Informationen finden Sie in der <a href="performance-monitoring/using/thoughputs-latencies.md">entsprechenden Dokumentation.</a></p>
+<p>Durchsätze und Latenzüberwachung sind jetzt für alle Campaign Standard- und v8-Kunden sowie für Campaign V7-Kunden mit den Build-Nummern 9032,9330, 9346 oder 9349 verfügbar, die eigenständige Bereitstellungen (ohne Zwischeninstanz) aufweisen.</p><p>Weitere Informationen finden Sie in der <a href="performance-monitoring/using/thoughputs-latencies.md">entsprechenden Dokumentation.</a></p>
 </td>
 </tr>
 </tbody>
