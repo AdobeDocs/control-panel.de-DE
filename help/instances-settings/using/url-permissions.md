@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: a7df90da-a2ce-409f-9bc3-c7d4fa3024c8
-source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
+source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
 workflow-type: tm+mt
-source-wordcount: '611'
-ht-degree: 100%
+source-wordcount: '609'
+ht-degree: 94%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->Diese Funktion ist ab Build 8850 nur für Campaign v8- und Campaign Classic v7-Instanzen verfügbar. Wenn Sie einen früheren Build verwenden, müssen Sie ein Upgrade durchführen, um diese Funktion verwenden zu können.
+>Diese Funktion ist nur für Campaign v7/v8-Instanzen ab Build 8850 verfügbar. Wenn Sie einen früheren Build verwenden, müssen Sie ein Upgrade durchführen, um diese Funktion verwenden zu können.
 
 Die Liste der URLs, die standardmäßig von JavaScript-Codes (Workflows usw.) über Ihre Campaign Classic-Instanzen aufgerufen werden können, Ist begrenzt. Diese URLs ermöglichen das ordnungsgemäße Funktionieren der Instanzen.
 
@@ -72,7 +72,7 @@ Gehen Sie wie folgt vor, um eine URL hinzuzufügen, mit der sich Ihre Instanz ve
    >
    >Alle Campaign-Instanzen werden auf der linken Fensterseite aufgelistet.
    >
-   >Da die Verwaltung der URL-Genehmigungen nur für Campaign Classic-Instanzen möglich ist, erscheint bei der Auswahl einer Campaign Standard-Instanz die Meldung &quot;Nicht anwendbare Instanz&quot;.
+   >Da die Verwaltung von URL-Berechtigungen nur für Campaign v7/v8-Instanzen vorgesehen ist, wird bei Auswahl einer Campaign Standard-Instanz die Meldung &quot;Nicht anwendbare Instanz&quot;angezeigt.
 
 1. Geben Sie die URL ein, die genehmigt werden soll, einschließlich des mit ihr verknüpften Protokolls (HTTP, HTTPS oder SFTP).
 

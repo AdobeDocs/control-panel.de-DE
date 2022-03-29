@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
-source-git-commit: 83a6d002a5a21815a66d198c6e5e805f559d5ee2
+source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
 workflow-type: tm+mt
-source-wordcount: '797'
-ht-degree: 100%
+source-wordcount: '791'
+ht-degree: 94%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->Diese Funktion ist nur für Campaign Classic v7- und Campaign v8-Instanzen verfügbar.
+>Diese Funktion ist nur für Campaign v7/v8-Instanzen verfügbar.
 
 Standardmäßig kann auf eine Adobe Campaign-Instanz nicht über verschiedene IP-Adressen zugegriffen werden.
 
@@ -55,7 +55,7 @@ Beachten Sie die folgenden Empfehlungen und Einschränkungen, wenn Sie IP-Adress
 
 >[!NOTE]
 >
->Wenn die Karte **[!UICONTROL Instanzeneinstellungen]** nicht auf der Startseite des Control Panel sichtbar ist, bedeutet das, dass die Kennung Ihrer IMS-Organisation mit keiner Adobe Campaign Classic v7- oder Campaign v8-Instanz verknüpft ist.
+>Wenn die Variable **[!UICONTROL Instanzeneinstellungen]** -Karte auf der Startseite des Control Panels nicht sichtbar ist, bedeutet dies, dass Ihre IMS-Organisations-ID mit keiner Adobe Campaign v7/v8-Instanz verknüpft ist.
 
 Gehen Sie wie folgt vor, um IP-Adressen auf die Zulassungsliste zu setzen:
 

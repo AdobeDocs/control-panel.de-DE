@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 2bd7d2dd-97be-49bb-9f8e-7161d0742bc1
-source-git-commit: 7078ff03bf2e4d156a71de4d900cbfcbd2ded312
-workflow-type: ht
-source-wordcount: '391'
-ht-degree: 100%
+source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
+workflow-type: tm+mt
+source-wordcount: '393'
+ht-degree: 90%
 
 ---
 
@@ -46,7 +46,7 @@ Zusätzlich stehen Ihnen auch Benachrichtigungen zur Verfügung, die an Sie gese
 
 ![](assets/databases_dashboard.png)
 
-Die Daten aus diesem Dashboard werden auf der Grundlage des **[!UICONTROL technischen Workflows zur Datenbankbereinigung]** aktualisiert, der auf Ihrer Campaign-Instanz ausgeführt wird (siehe die Dokumentationen zu [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=de#list-of-technical-workflows) und [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html?lang=de)). Unter den Metriken **[!UICONTROL Verwendeter Speicherplatz]** und **[!UICONTROL Bereitgestellter Speicherplatz]** können Sie überprüfen, wann der Workflow zuletzt ausgeführt wurde. Wenn der Workflow seit mehr als 3 Tagen nicht mehr ausgeführt wird, empfehlen wir, sich an die Adobe-Kundenunterstützung zu wenden, um zu untersuchen, warum der Workflow nicht ausgeführt wird.
+Die Daten aus diesem Dashboard werden auf der Grundlage der Variablen **[!UICONTROL Technischer Workflow für die Datenbankbereinigung]** die in Ihrer Campaign-Instanz ausgeführt wird (siehe [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=de#list-of-technical-workflows) und [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html?lang=de) Dokumentation). Unter den Metriken **[!UICONTROL Verwendeter Speicherplatz]** und **[!UICONTROL Bereitgestellter Speicherplatz]** können Sie überprüfen, wann der Workflow zuletzt ausgeführt wurde. Wenn der Workflow seit mehr als 3 Tagen nicht mehr ausgeführt wird, empfehlen wir, sich an die Adobe-Kundenunterstützung zu wenden, um zu untersuchen, warum der Workflow nicht ausgeführt wird.
 
 In diesem Dashboard stehen zusätzliche Metriken zur Verfügung, mit denen Sie die Verwendung der Datenbank der Instanz analysieren können. Sie werden in den folgenden Abschnitten beschrieben:
 
@@ -55,4 +55,4 @@ In diesem Dashboard stehen zusätzliche Metriken zur Verfügung, mit denen Sie d
 * [Die zehn wichtigsten temporären Ressourcen](../../performance-monitoring/using/database-top-ten-resources.md)
 * [Aktive Abfragen](../../performance-monitoring/using/database-active-queries.md)
 
-![](assets/do-not-localize/how-to-video.png) Sehen Sie sich diese Funktion im Video unter Verwendung von [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=de#performance-monitoring) oder [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=de#performance-monitoring) an.
+![](assets/do-not-localize/how-to-video.png) Erfahren Sie mehr über diese Funktion im Video mit [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=de#performance-monitoring) oder [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=de#performance-monitoring)

@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: cb6cc63b-d6cc-4c8b-870f-e108d05aa740
-source-git-commit: fa45ec38ff06a0b02ab724e7ced79b7b5de2c766
+source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '295'
+ht-degree: 79%
 
 ---
 
@@ -28,7 +28,7 @@ Wichtigste Vorteile:
 >
 >Das Control Panel steht nur Administratoren zur Verfügung. Die Schritte, um einem Benutzer Administratorzugriff zu gewähren, finden Sie in [diesem Abschnitt](managing-permissions.md).
 >
->Beachten Sie für Campaign Classic, dass Ihre Instanz auf Amazon Web Services (AWS) gehostet und auf den neuesten [stabilen Campaign-Build](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=de#rn-statuses) (oder auf Build 9032 oder höher) aktualisiert sein muss. Erfahren Sie in [diesem Abschnitt](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=de#getting-your-campaign-version), wie Sie Ihre Version überprüfen. Um zu überprüfen, ob Ihre Instanz auf AWS gehostet wird, folgen Sie den Schritten auf [dieser Seite](../../faq.md#hosted-aws).
+>Beachten Sie bei Campaign v7/v8, dass Ihre Instanz auf Amazon Web Services (AWS) gehostet und auf die neueste Version aktualisiert werden muss. [Kampagneninstabiler Build](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=de#rn-statuses) oder um 9032 oder höher zu erstellen. Erfahren Sie in [diesem Abschnitt](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=de#getting-your-campaign-version), wie Sie Ihre Version überprüfen. Um zu überprüfen, ob Ihre Instanz auf AWS gehostet wird, folgen Sie den Schritten auf [dieser Seite](../../faq.md#hosted-aws).
 
 <table style="table-layout:fixed">
 <tr>
@@ -50,7 +50,7 @@ Wichtigste Vorteile:
     <td>
         <a href="../../instances-settings/using/ip-allow-listing-instance-access.md"><img alt="Bedingungen" src="assets/do-not-localize/instance_settings.png"/></a>
         <div><a href="../../instances-settings/using/ip-allow-listing-instance-access.md"><strong>Verwalten der Instanzeneinstellungen</strong></a></div>
-        <br/><em>Erfahren Sie, wie Sie Ihre Instanzeneinstellungen verwalten (nur Campaign Classic).</em>
+        <br/><em>Erfahren Sie, wie Sie Ihre Instanzeneinstellungen verwalten (nur Campaign v7/v8).</em>
     </td>
     <td>
         <a href="../../performance-monitoring/using/about-performance-monitoring.md"><img alt="Bedingungen" src="assets/do-not-localize/monitoring-performance.png"/></a>

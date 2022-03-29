@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: c52094b8145bdd84aa9e71430a811b8a7b32354d
-workflow-type: ht
-source-wordcount: '220'
-ht-degree: 100%
+source-git-commit: aa5dbe361febee91eb936661da6dea09fc023eaa
+workflow-type: tm+mt
+source-wordcount: '228'
+ht-degree: 84%
 
 ---
 
@@ -23,16 +23,13 @@ ht-degree: 100%
 
 ![](assets/do-not-localize/banner.png)
 
+Mit dem Campaign Control Panel können Sie als Produktadministrator von Campaign Standard und V7/v8 die Effizienz Ihrer Arbeit steigern, indem Sie die Einstellungen verwalten und die Nutzung für jede Ihrer Campaign-Instanzen verfolgen können.
+
 ## Neue Funktionen
 
 **Überwachung von Workflow-Parametern**
 
 Sie können jetzt Workflow-Parameter überwachen, die möglicherweise besondere Aufmerksamkeit erfordern, um Probleme in Ihren Instanzen zu vermeiden. [Weitere Informationen](performance-monitoring/using/workflow-monitoring.md)
-
-
-**Überwachung aktiver Abfragen**
-
-Mit dem Control Panel können Sie jetzt diejenigen Abfragen überwachen, die auf Ihren Instanzen am längsten ausgeführt werden. [Mehr dazu](performance-monitoring/using/database-active-queries.md)
 
 **Überwachung von Durchsätzen und Latenzzeiten**
 
@@ -43,7 +40,7 @@ Sie können jetzt die Entwicklung der Durchsätze und Latenzzeiten Ihrer Instanz
 >
 >* Das Control Panel steht nur Administratoren zur Verfügung. [Weitere Informationen](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=de#discover-control-panel)   
 >
->* Für Campaign Classic v7 gelten Implementierungsbeschränkungen. [Weitere Informationen](faq.md#v7-restrictions)   
+>* Für Campaign v7 gelten Implementierungsbeschränkungen. [Weitere Informationen](faq.md#v7-restrictions)   
 
 
 ## Zusätzliche Ressourcen {#additional-resources}
@@ -56,10 +53,10 @@ Sie können jetzt die Entwicklung der Durchsätze und Latenzzeiten Ihrer Instanz
             <li><a href="https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=de">Produktdokumentation zu Campaign Standard</a></li>
         </ul>
         </td>
-        <td><b>Campaign Classic v7</b><br/>
+        <td><b>Campaign v7</b><br/>
         <ul>
             <li><a href="https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html?lang=de">Tutorial-Videos zum Control Panel</a></li>
-            <li><a href="https://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html?lang=de">Produktdokumentation zu Campaign Classic v7</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html?lang=de">Produktdokumentation zu Campaign v7</a></li>
         </ul>
         </td>
         <td><b>Campaign v8</b><br/>

@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
-source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
+source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
 workflow-type: tm+mt
-source-wordcount: '1210'
-ht-degree: 100%
+source-wordcount: '1206'
+ht-degree: 97%
 
 ---
 
@@ -95,7 +95,7 @@ Der Schlüssel kann dann in Adobe Campaign-Workflows verwendet werden. Sie könn
 
 Weitere Informationen zu diesem Thema finden Sie in der Adobe Campaign-Dokumentation:
 
-**Campaign Classic v7 und Campaign v8:**
+**Campaign v7/v8:**
 
 * [Komprimieren oder Verschlüsseln von Dateien](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/zip-encrypt.html?lang=de)
 * [Anwendungsfall: Verschlüsseln und Exportieren von Daten mit einem im Control Panel installierten Schlüssel](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html?lang=de#use-case-gpg-encrypt)
@@ -138,7 +138,7 @@ Der öffentliche Schlüssel kann dann mit jedem Drittsystem geteilt werden. Adob
 
 Weitere Informationen hierzu finden Sie in der Adobe Campaign-Dokumentation:
 
-**Campaign Classic v7 und Campaign v8:**
+**Campaign v7 und v8:**
 
 * [Dekomprimieren oder Entschlüsseln einer Datei vor der Verarbeitung](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/unzip-decrypt.html?lang=de)
 * [Anwendungsfall: Importieren von Daten, die mit einem vom Control Panel generierten Schlüssel verschlüsselt wurden](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/unzip-decrypt.html?lang=de#use-case-gpg-decrypt)
@@ -186,6 +186,6 @@ Als Best Practice empfehlen wir, alle Schlüssel zu entfernen, die Sie nicht meh
 
 Im folgenden Video wird gezeigt, wie GPG-Schlüssel für die Datenverschlüsselung generiert und installiert werden.
 
-Weitere Anleitungen zum Verwalten von GPG-Schlüsseln finden Sie in den Tutorials zu [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=de#instance-settings) und [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=de#instance-settings).
+Weitere Anleitungsvideos zur Verwaltung von GPG-Schlüsseln finden Sie unter  [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=de#instance-settings) und [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=de#instance-settings) Tutorials-Seiten.
 
 >[!VIDEO](https://video.tv.adobe.com/v/36386?quality=12)

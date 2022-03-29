@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
-source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
+source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 100%
+source-wordcount: '403'
+ht-degree: 93%
 
 ---
 
@@ -32,7 +32,7 @@ Profile gelten als aktiv, wenn sie in den letzten 12 Monaten über einen beliebi
 >
 >Die Kanäle Facebook und Twitter werden nicht berücksichtigt.
 
-Weitere Informationen zu aktiven Profilen finden Sie in der Dokumentation zu [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html?lang=de) und [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html?lang=de#active-profiles).
+Weitere Informationen zu aktiven Profilen finden Sie unter [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html?lang=de) und [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html?lang=de#active-profiles) Dokumentationen.
 
 ## Überwachen aktiver Profile {#monitoring-active-profiles}
 
@@ -59,7 +59,7 @@ Gehen Sie dazu wie folgt vor:
 >Aktive Profile werden anhand spezieller technischer Workflows gezählt, die täglich für Ihre Instanzen ausgeführt werden:
 >
 >* Der Workflow „[Abrechnung](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=de)“ für Campaign Standard,
->* Der Workflow „[Anzahl aktiver Abrechnungsprofile](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=de)“ für Campaign Classic.
+>* Die [&quot;Anzahl der aktiven Abrechnungsprofile&quot;](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=de) Workflow für Campaign v7/v8.
 
 
 Der untere Bereich zeigt eine grafische Darstellung der Nutzung aktiver Profile in den letzten 30 Tagen. Sie können den angezeigten Zeitraum mithilfe der oben rechts verfügbaren Filter auf 1 Jahr ändern.

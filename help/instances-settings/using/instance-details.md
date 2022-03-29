@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
-source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
+source-git-commit: d323fa76c5707b3284e5763b5f60a82974a6c045
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 100%
+source-wordcount: '539'
+ht-degree: 80%
 
 ---
 
@@ -20,14 +20,12 @@ ht-degree: 100%
 >id="cp_instancesettings_instancedetails"
 >title="Über die Details der Instanz"
 >abstract="Zeigen Sie die Details Ihrer Adobe Campaign-Instanzen an: Typen, Namen, Build-Informationen und mögliche Upgrade-Empfehlungen."
->additional-url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=de" text="Versionshinweise zu Campaign Classic"
->additional-url="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html?lang=de" text="Versionshinweise zu Campaign Standard"
 
 ## Über die Details der Instanz {#about-instance-details}
 
 >[!IMPORTANT]
 >
->Diese Funktion ist nur für Campaign Classic v7- und Campaign v8-Instanzen verfügbar.
+>Diese Funktion ist nur für Campaign v7/v8-Instanzen verfügbar.
 
 Die Architektur Ihrer Adobe Campaign-Instanz kann mehrere Server umfassen, um flexible Marketing-Aktivitäten zu ermöglichen. So können beispielsweise Marketing-, Echtzeit- (oder Message Center-) und Mid Sourcing-Server Ihre Instanz unterstützen.
 
@@ -35,7 +33,7 @@ Mit der Funktion &quot;Details der Instanz&quot; können Sie sich die flache Arc
 
 >[!NOTE]
 >
->Es ist empfehlenswert, Instanzen mindestens einmal jährlich zu aktualisieren, um ein Nachlassen der Leistung zu verhindern und die neuesten Funktionen und Fehlerkorrekturen von Adobe Campaign Classic zu nutzen.
+>Es wird empfohlen, Ihre Instanzen mindestens einmal jährlich zu aktualisieren, um Leistungsbeeinträchtigungen zu vermeiden und die neuesten Funktionen und Fehlerbehebungen von Adobe Campaign v7/v8 nutzen zu können.
 
 **Verwandte Themen:**
 
@@ -50,13 +48,13 @@ Gehen Sie wie folgt vor, um Informationen zu den mit Ihren Instanzen verbundenen
 
    >[!NOTE]
    >
-   >Wenn die Karte „Instanzeneinstellungen“ nicht auf der Startseite des Control Panel sichtbar ist, bedeutet das, dass Ihre Kennung der IMS-Organisation mit keiner Adobe Campaign Classic-Instanz verknüpft ist.
+   >Wenn die Karte Instanzeinstellungen nicht auf der Startseite des Control Panels sichtbar ist, bedeutet das, dass Ihre IMS-Organisations-ID mit keiner Adobe Campaign v7/v8-Instanz verknüpft ist.
 
 1. Wählen Sie im linken Fenster die gewünschte Campaign-Instanz aus.
 
    >[!NOTE]
    >
-   >Alle Campaign-Instanzen werden auf der linken Fensterseite aufgelistet. Da die Funktion &quot;Details der Instanz&quot; nur für Campaign Classic-Instanzen unterstützt wird, erscheint bei der Auswahl einer Campaign Standard-Instanz die Meldung &quot;Nicht anwendbare Instanz&quot;.
+   >Alle Campaign-Instanzen werden auf der linken Fensterseite aufgelistet. Da die Funktion &quot;Details der Instanz&quot;nur für Campaign v7/v8-Instanzen vorgesehen ist, wird bei Auswahl einer Campaign Standard-Instanz die Meldung &quot;Nicht anwendbare Instanz&quot;angezeigt.
 
 1. Die mit der Instanz verbundenen Server werden angezeigt.
 
