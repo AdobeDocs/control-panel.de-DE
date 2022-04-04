@@ -8,9 +8,9 @@ role: Architect
 level: Intermediate
 exl-id: a489d051-fb95-45cf-bb6d-33aef10b7795
 source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '748'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -82,7 +82,7 @@ Mögliche Anwendungsfälle sind:
 
 >[!NOTE]
 >
->Wenn Sie Campaign v7/v8 verwenden, können Sie im Control Panel sehen, welche RT/MID-Instanzen mit der Marketing-Instanz verbunden sind, mit der Sie arbeiten. Weitere Informationen hierzu finden Sie im Abschnitt [Details der Instanz](../../instances-settings/using/instance-details.md).
+>Wenn Sie Campaign v7/v8 verwenden, können Sie im Control Panel sehen, welche RT/MID-Instanzen mit der Marketing-Instanz verbunden sind, mit der Sie gerade arbeiten. Weitere Informationen hierzu finden Sie im Abschnitt [Details der Instanz](../../instances-settings/using/instance-details.md).
 
 **Verwandte Themen:**
 
