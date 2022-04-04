@@ -8,9 +8,9 @@ role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
 source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1386'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -60,17 +60,17 @@ Erstellen Sie außerdem **keine separate Zonendatei** für diese neue Subdomain.
 >id="cp_add_subdomain_create_delegate"
 >title="Subdomain erstellen und delegieren"
 >abstract="Erstellen Sie die Subdomain, die Sie mit Adobe Campaign in Ihrer Hosting-Lösung verwenden möchten, und delegieren Sie sie an Adobe."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="Einrichten einer neuen Subdomain"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=de" text="Einrichten einer neuen Subdomain"
 
 >[!CONTEXTUALHELP]
 >id="cp_add_subdomain_submit"
 >title="Subdomain übermitteln"
 >abstract="Bestätigen und senden Sie die in den vorherigen Schritten konfigurierte Subdomain."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="Einrichten einer neuen Subdomain"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=de" text="Einrichten einer neuen Subdomain"
 
-Gehen Sie wie folgt vor, um eine Subdomain Adobe Campaign vollständig zuzuweisen.
+Gehen Sie wie folgt vor, um Adobe Campaign eine Subdomain vollständig zuzuweisen.
 
-![](assets/do-not-localize/how-to-video.png) Erfahren Sie mehr über diese Funktion im Video mit [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=de#subdomains-and-certificates) oder [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=de#subdomains-and-certificates)
+![](assets/do-not-localize/how-to-video.png) Entdecken Sie diese Funktion bei der Verwendung von [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=de#subdomains-and-certificates) oder [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=de#subdomains-and-certificates) im Video.
 
 1. Wählen Sie auf der Karte **[!UICONTROL Subdomains &amp; Zertifikate]** die gewünschte Produktionsinstanz und danach **[!UICONTROL Neue Subdomain einrichten]** aus.
 
@@ -88,9 +88,9 @@ Gehen Sie wie folgt vor, um eine Subdomain Adobe Campaign vollständig zuzuweise
 
    ![](assets/subdomain4.png)
 
-1. Nachdem die Subdomain mit den entsprechenden Adobe-Nameserver-Informationen erstellt wurde, wählen Sie **[!UICONTROL Weiter]** aus.
+1. Nachdem die Subdomain mit den entsprechenden Adobe-Nameserver-Informationen erstellt wurde, klicken Sie auf **[!UICONTROL Weiter]**.
 
-1. Wenn Sie eine Campaign v7/v8-Instanz ausgewählt haben, wählen Sie den gewünschten Anwendungsfall für die Subdomain aus: **Marketingkommunikation** oder **Transaktions- und Betriebsnachrichten**. Globale Konzepte zu den Anwendungsfällen von Subdomains werden in [diesem Abschnitt](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases) vorgestellt.
+1. Falls Sie eine Campaign v7/v8-Instanz ausgewählt haben, wählen Sie den gewünschten Anwendungsfall für die Subdomain aus: **Marketing-Nachrichten** oder **Transaktions- und Betriebsnachrichten**. Globale Konzepte zu den Anwendungsfällen von Subdomains werden in [diesem Abschnitt](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases) vorgestellt.
 
    ![](assets/subdomain5.png)
 
@@ -108,23 +108,23 @@ Sobald die Subdomain gesendet wurde, führt das Control Panel verschiedene Prüf
 >id="cp_add_cname_subdomain_create_delegate"
 >title="Subdomain konfigurieren"
 >abstract="Geben Sie in diesem Bildschirm die Subdomain an, die Sie mit CNAMEs konfigurieren möchten."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="Einrichten einer neuen Subdomain"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=de" text="Einrichten einer neuen Subdomain"
 
 >[!CONTEXTUALHELP]
 >id="cp_add_cname_records"
 >title="Einträge generieren"
 >abstract="Navigieren Sie zu Ihrer Hosting-Lösung, um die Liste der in diesem Bildschirm angezeigten DNS-Einträge zu generieren."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="Einrichten einer neuen Subdomain"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=de" text="Einrichten einer neuen Subdomain"
 
 >[!CONTEXTUALHELP]
 >id="cp_add_cname_subdomain_submit"
 >title="Subdomain übermitteln"
 >abstract="Bestätigen und senden Sie die in den vorherigen Schritten konfigurierte Subdomain."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="Einrichten einer neuen Subdomain"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=de" text="Einrichten einer neuen Subdomain"
 
-Gehen Sie wie folgt vor, um eine Subdomain mit CNAME zu konfigurieren.
+Gehen Sie wie folgt vor, um eine Subdomain mithilfe von CNAMEs zu konfigurieren.
 
-![](assets/do-not-localize/how-to-video.png) Erfahren Sie mehr über diese Funktion im Video mit [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=de#subdomains-and-certificates) oder [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=de)
+![](assets/do-not-localize/how-to-video.png) Entdecken Sie diese Funktion bei der Verwendung von [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=de#subdomains-and-certificates) oder [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=de) im Video.
 
 1. Wählen Sie auf der Karte **[!UICONTROL Subdomains &amp; Zertifikate]** die gewünschte Produktionsinstanz und danach **[!UICONTROL Neue Subdomain einrichten]** aus.
 
@@ -134,7 +134,7 @@ Gehen Sie wie folgt vor, um eine Subdomain mit CNAME zu konfigurieren.
 
    ![](assets/cname-method-selection.png)
 
-1. Wenn Sie eine Campaign v7/v8-Instanz ausgewählt haben, wählen Sie den gewünschten Anwendungsfall für die Subdomain aus: **Marketingkommunikation** oder **Transaktions- und Betriebsnachrichten**. Globale Konzepte zu den Anwendungsfällen von Subdomains werden in [diesem Abschnitt](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases) vorgestellt.
+1. Falls Sie eine Campaign v7/v8-Instanz ausgewählt haben, wählen Sie den gewünschten Anwendungsfall für die Subdomain aus: **Marketing-Nachrichten** oder **Transaktions- und Betriebsnachrichten**. Globale Konzepte zu den Anwendungsfällen von Subdomains werden in [diesem Abschnitt](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases) vorgestellt.
 
    ![](assets/cname-use-case.png)
 
