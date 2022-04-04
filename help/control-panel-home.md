@@ -6,9 +6,9 @@ role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: aa5dbe361febee91eb936661da6dea09fc023eaa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '228'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 84%
 
 ![](assets/do-not-localize/banner.png)
 
-Mit dem Campaign Control Panel können Sie als Produktadministrator von Campaign Standard und V7/v8 die Effizienz Ihrer Arbeit steigern, indem Sie die Einstellungen verwalten und die Nutzung für jede Ihrer Campaign-Instanzen verfolgen können.
+Das Control Panel von Campaign hilft Produktadministratoren von Campaign Standard und v7/v8, effizienter zu arbeiten, indem sie Einstellungen verwalten und die Nutzung der Instanzen überwachen können.
 
 ## Neue Funktionen
 
