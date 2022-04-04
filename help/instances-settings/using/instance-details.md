@@ -8,9 +8,9 @@ role: Architect
 level: Experienced
 exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
 source-git-commit: d323fa76c5707b3284e5763b5f60a82974a6c045
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '539'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Mit der Funktion &quot;Details der Instanz&quot; können Sie sich die flache Arc
 
 >[!NOTE]
 >
->Es wird empfohlen, Ihre Instanzen mindestens einmal jährlich zu aktualisieren, um Leistungsbeeinträchtigungen zu vermeiden und die neuesten Funktionen und Fehlerbehebungen von Adobe Campaign v7/v8 nutzen zu können.
+>Es wird empfohlen, Instanzen mindestens einmal jährlich zu aktualisieren, um ein Nachlassen der Leistung zu verhindern und die neuesten Funktionen und Fehlerkorrekturen von Adobe Campaign v7/v8 zu nutzen.
 
 **Verwandte Themen:**
 
@@ -48,13 +48,13 @@ Gehen Sie wie folgt vor, um Informationen zu den mit Ihren Instanzen verbundenen
 
    >[!NOTE]
    >
-   >Wenn die Karte Instanzeinstellungen nicht auf der Startseite des Control Panels sichtbar ist, bedeutet das, dass Ihre IMS-Organisations-ID mit keiner Adobe Campaign v7/v8-Instanz verknüpft ist.
+   >Wenn die Karte „Instanzeneinstellungen“ nicht auf der Startseite des Control Panel sichtbar ist, bedeutet das, dass Ihre IMS-Organisations-ID mit keiner Adobe Campaign v7/v8-Instanz verknüpft ist
 
 1. Wählen Sie im linken Fenster die gewünschte Campaign-Instanz aus.
 
    >[!NOTE]
    >
-   >Alle Campaign-Instanzen werden auf der linken Fensterseite aufgelistet. Da die Funktion &quot;Details der Instanz&quot;nur für Campaign v7/v8-Instanzen vorgesehen ist, wird bei Auswahl einer Campaign Standard-Instanz die Meldung &quot;Nicht anwendbare Instanz&quot;angezeigt.
+   >Alle Campaign-Instanzen werden auf der linken Fensterseite aufgelistet. Da die Funktion „Details der Instanz“ nur für Campaign v7/v8-Instanzen unterstützt wird, erscheint bei der Auswahl einer Campaign Standard-Instanz die Meldung „Ungültige Instanz“.
 
 1. Die mit der Instanz verbundenen Server werden angezeigt.
 
@@ -70,7 +70,7 @@ Diese Informationen sind verfügbar:
    * Gelb: Sie sollten ein Upgrade in Erwägung ziehen. Ihnen fehlen die neuesten Funktionen und Fehlerkorrekturen.
    * Rot: Führen Sie möglichst rasch ein Upgrade durch. Ihnen fehlen neue Funktionen und die Server-Leistung ist möglicherweise nicht optimal.
 
-Informationen zur Aktualisierung von Servern finden Sie in [dieser Dokumentation](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html).
+Informationen zur Aktualisierung von Servern finden Sie in [dieser Dokumentation](https://docs.campaign.adobe.com/doc/AC/getting_started/DE/buildUpgrade.html).
 
 ## Häufige Fragen {#common-questions}
 
