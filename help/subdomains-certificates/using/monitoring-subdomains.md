@@ -2,15 +2,15 @@
 product: campaign
 solution: Campaign
 title: Überwachen von Subdomains
-description: Überwachen Sie Ihre Subdomains, um sicherzustellen, dass alle ordnungsgemäß für die Verwendung mit Adobe Campaign konfiguriert sind.
+description: Überwachen Sie Ihre Subdomains, um sicherzustellen, dass sie alle ordnungsgemäß für die Verwendung mit Adobe Campaign konfiguriert sind.
 feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: edd55d07-bf0b-44b0-8281-be69c698d5e8
 source-git-commit: fa45ec38ff06a0b02ab724e7ced79b7b5de2c766
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '154'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
