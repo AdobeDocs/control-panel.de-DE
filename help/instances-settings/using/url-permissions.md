@@ -8,9 +8,9 @@ role: Architect
 level: Intermediate
 exl-id: a7df90da-a2ce-409f-9bc3-c7d4fa3024c8
 source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '609'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -72,7 +72,7 @@ Gehen Sie wie folgt vor, um eine URL hinzuzufügen, mit der sich Ihre Instanz ve
    >
    >Alle Campaign-Instanzen werden auf der linken Fensterseite aufgelistet.
    >
-   >Da die Verwaltung von URL-Berechtigungen nur für Campaign v7/v8-Instanzen vorgesehen ist, wird bei Auswahl einer Campaign Standard-Instanz die Meldung &quot;Nicht anwendbare Instanz&quot;angezeigt.
+   >Da die Verwaltung der URL-Genehmigungen nur für Campaign v7/v8-Instanzen möglich ist, erscheint bei der Auswahl einer Campaign Standard-Instanz die Meldung „Ungültige Instanz“.
 
 1. Geben Sie die URL ein, die genehmigt werden soll, einschließlich des mit ihr verknüpften Protokolls (HTTP, HTTPS oder SFTP).
 
