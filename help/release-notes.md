@@ -4,10 +4,10 @@ solution: Campaign
 title: Control Panel-Versionen
 description: Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für das Control Panel aufgelistet.
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 35b849725711bfee9852cf8f503bc599f6d8eaff
-workflow-type: ht
-source-wordcount: '1022'
-ht-degree: 100%
+source-git-commit: da68420340ea8605f6e1347e86797c9e6a790ea6
+workflow-type: tm+mt
+source-wordcount: '1070'
+ht-degree: 96%
 
 ---
 
@@ -20,6 +20,23 @@ Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für das Contro
 >Das Control Panel ist nur für Administratoren zugänglich. Weiterführende Informationen zu Berechtigungen finden Sie in [diesem Abschnitt](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=de#discover-control-panel).
 >
 >Für Campaign v7 muss Ihre Instanz auf Amazon Web Services (AWS) gehostet und auf den neuesten [stabilen Campaign-Build](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=de#rn-statuses) (oder auf Build 9032 oder höher) aktualisiert werden. Erfahren Sie in [diesem Abschnitt](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=de#getting-your-campaign-version), wie Sie Ihre Version überprüfen. Um zu überprüfen, ob Ihre Instanz auf AWS gehostet wird, folgen Sie den Schritten auf [dieser Seite](faq.md#hosted-aws).
+
+## April 2022 {#april-2022}
+
+<table>
+<thead>
+<tr>
+<th><strong>Überwachung wichtiger Kontakte und Ereignisse auf Ihren Instanzen</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Sie können jetzt vergangene und bevorstehende Versionen und Service Reviews überwachen, die auf Ihren Instanzen auftreten, und auf eine Liste der wichtigsten Kontakte zur Adobe für alle Anfragen oder Probleme zugreifen.</p><p>Weitere Informationen finden Sie in der <a href="service-events/service-events.md">entsprechenden Dokumentation.</a></p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## März 2022 {#march-2022}
 

@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: aa5dbe361febee91eb936661da6dea09fc023eaa
-workflow-type: ht
-source-wordcount: '228'
-ht-degree: 100%
+source-git-commit: da68420340ea8605f6e1347e86797c9e6a790ea6
+workflow-type: tm+mt
+source-wordcount: '221'
+ht-degree: 82%
 
 ---
 
@@ -27,14 +27,9 @@ Das Control Panel von Campaign hilft Produktadministratoren von Campaign Standar
 
 ## Neue Funktionen
 
-**Überwachung von Workflow-Parametern**
+**Überwachung wichtiger Kontakte und Ereignisse auf Ihren Instanzen**
 
-Sie können jetzt Workflow-Parameter überwachen, die möglicherweise besondere Aufmerksamkeit erfordern, um Probleme in Ihren Instanzen zu vermeiden. [Weitere Informationen](performance-monitoring/using/workflow-monitoring.md)
-
-**Überwachung von Durchsätzen und Latenzzeiten**
-
-Sie können jetzt die Entwicklung der Durchsätze und Latenzzeiten Ihrer Instanzen über einen bestimmten Zeitraum hinweg überwachen. [Mehr dazu](performance-monitoring/using/thoughputs-latencies.md)
-
+Sie können jetzt vergangene und bevorstehende Versionen und Service Reviews überwachen, die auf Ihren Instanzen auftreten, und auf eine Liste der wichtigsten Kontakte zur Adobe für alle Anfragen oder Probleme zugreifen. [Mehr dazu](service-events/service-events.md)
 
 >[!CAUTION]
 >
