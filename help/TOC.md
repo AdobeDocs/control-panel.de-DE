@@ -6,10 +6,10 @@ user-guide-title: Handbuch zum Control Panel
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: 33afa568cb850c72d1a65b03f68d1922addfc034
-workflow-type: ht
-source-wordcount: '119'
-ht-degree: 100%
+source-git-commit: 9dc288986f11cd64f187ba9253e4e4ff9f1b00b3
+workflow-type: tm+mt
+source-wordcount: '124'
+ht-degree: 95%
 
 ---
 
@@ -23,6 +23,7 @@ ht-degree: 100%
    + [Zugriff auf das Control Panel](discover/using/accessing-control-panel.md)
    + [Verwalten von Berechtigungen für das Control Panel](discover/using/managing-permissions.md)
    + [Die Benutzeroberfläche des Control Panels](discover/using/discovering-the-interface.md)
++ [Überwachung wichtiger Kontakte und Ereignisse](service-events/service-events.md)
 + SFTP-Verwaltung {#sftp-management}
    + [Über die SFTP-Verwaltung](sftp/using/about-sftp-management.md)
    + [SFTP-Speicherverwaltung](sftp/using/sftp-storage-management.md)
