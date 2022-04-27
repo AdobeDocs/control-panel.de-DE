@@ -5,9 +5,9 @@ title: Control Panel-Versionen
 description: Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für das Control Panel aufgelistet.
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
 source-git-commit: da68420340ea8605f6e1347e86797c9e6a790ea6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1070'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für das Contro
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt vergangene und bevorstehende Versionen und Service Reviews überwachen, die auf Ihren Instanzen auftreten, und auf eine Liste der wichtigsten Kontakte zur Adobe für alle Anfragen oder Probleme zugreifen.</p><p>Weitere Informationen finden Sie in der <a href="service-events/service-events.md">entsprechenden Dokumentation.</a></p>
+<p>Sie können jetzt frühere und künftige Releases und Service-Reviews auf Ihren Instanzen überwachen sowie auf eine Liste der wichtigsten Ansprechpartner bei Adobe zugreifen, wenn Sie eine Anfrage oder ein Problem haben.</p><p>Weitere Informationen finden Sie in der <a href="service-events/service-events.md">entsprechenden Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
