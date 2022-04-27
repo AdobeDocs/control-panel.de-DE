@@ -6,9 +6,9 @@ role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: da68420340ea8605f6e1347e86797c9e6a790ea6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '221'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Das Control Panel von Campaign hilft Produktadministratoren von Campaign Standar
 
 **Überwachung wichtiger Kontakte und Ereignisse auf Ihren Instanzen**
 
-Sie können jetzt vergangene und bevorstehende Versionen und Service Reviews überwachen, die auf Ihren Instanzen auftreten, und auf eine Liste der wichtigsten Kontakte zur Adobe für alle Anfragen oder Probleme zugreifen. [Mehr dazu](service-events/service-events.md)
+Sie können jetzt frühere und künftige Releases und Service-Reviews auf Ihren Instanzen überwachen sowie auf eine Liste der wichtigsten Ansprechpartner bei Adobe zugreifen, wenn Sie eine Anfrage oder ein Problem haben. [Mehr dazu](service-events/service-events.md)
 
 >[!CAUTION]
 >
