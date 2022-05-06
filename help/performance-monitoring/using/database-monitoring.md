@@ -8,7 +8,7 @@ role: Architect
 level: Experienced
 exl-id: 2bd7d2dd-97be-49bb-9f8e-7161d0742bc1
 source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 100%
 
@@ -52,7 +52,7 @@ In diesem Dashboard stehen zusätzliche Metriken zur Verfügung, mit denen Sie d
 
 * [Datenbankauslastung](../../performance-monitoring/using/database-utilization.md)
 * [Speicherübersicht](../../performance-monitoring/using/database-storage-overview.md)
-* [Die zehn wichtigsten temporären Ressourcen](../../performance-monitoring/using/database-top-ten-resources.md)
+* [Die Top 10 der temporären Ressourcen](../../performance-monitoring/using/database-top-ten-resources.md)
 * [Aktive Abfragen](../../performance-monitoring/using/database-active-queries.md)
 
 ![](assets/do-not-localize/how-to-video.png) Entdecken Sie diese Funktion bei der Verwendung von [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=de#performance-monitoring) oder [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=de#performance-monitoring) im Video.

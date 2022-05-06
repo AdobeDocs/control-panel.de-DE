@@ -8,8 +8,8 @@ role: Architect
 level: Beginner
 source-git-commit: d8843ddcce0de7a29bbdd83af629c8d8f0d32920
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '124'
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 0%
       + [Über die Datenbanküberwachung](performance-monitoring/using/database-monitoring.md)
       + [Datenbankauslastung](performance-monitoring/using/database-utilization.md)
       + [Speicherübersicht](performance-monitoring/using/database-storage-overview.md)
-      + [Die zehn wichtigsten temporären Ressourcen](performance-monitoring/using/database-top-ten-resources.md)
+      + [Die Top 10 der temporären Ressourcen](performance-monitoring/using/database-top-ten-resources.md)
       + [Aktive Abfragen](performance-monitoring/using/database-active-queries.md)
       + [Überwachen von Workflows](performance-monitoring/using/workflow-monitoring.md)
       + [Verhindern einer Überlastung von Datenbanken](performance-monitoring/using/database-preventing-overload.md)

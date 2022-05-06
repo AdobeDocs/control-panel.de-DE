@@ -1,20 +1,20 @@
 ---
 product: campaign
 solution: Campaign
-title: Überwachung aktiver Profile
+title: Überwachen aktiver Profile
 description: Erfahren Sie, wie Sie Informationen über die aktuelle und historische Nutzung und Entwicklung aktiver Profile für jede Ihrer Campaign-Instanzen in Echtzeit abrufen.
 feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
 source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 100%
 
 ---
 
-# Überwachung aktiver Profile {#active-profiles-monitoring}
+# Überwachen aktiver Profile {#active-profiles-monitoring}
 
 ## Über aktive Profile {#about-active-profiles}
 

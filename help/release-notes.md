@@ -5,7 +5,7 @@ title: Control Panel-Versionen
 description: Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für das Control Panel aufgelistet.
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
 source-git-commit: da68420340ea8605f6e1347e86797c9e6a790ea6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1070'
 ht-degree: 100%
 
@@ -92,7 +92,7 @@ Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für das Contro
 <table>
 <thead>
 <tr>
-<th><strong>Überwachung von Durchsätzen und Latenzzeiten</strong><br/></th>
+<th><strong>Überwachen von Durchsätzen und Latenzzeiten</strong><br/></th>
 </tr>
 </thead>
 <tbody>
