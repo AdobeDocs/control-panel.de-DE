@@ -6,10 +6,10 @@ user-guide-title: Handbuch zum Control Panel
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: 9dc288986f11cd64f187ba9253e4e4ff9f1b00b3
-workflow-type: ht
-source-wordcount: '124'
-ht-degree: 100%
+source-git-commit: d99076ab844c348dbca2ae2ca2f3dc83da29406e
+workflow-type: tm+mt
+source-wordcount: '128'
+ht-degree: 96%
 
 ---
 
@@ -48,12 +48,13 @@ ht-degree: 100%
       + [Aktive Abfragen](performance-monitoring/using/database-active-queries.md)
       + [Überwachen von Workflows](performance-monitoring/using/workflow-monitoring.md)
       + [Verhindern einer Überlastung von Datenbanken](performance-monitoring/using/database-preventing-overload.md)
-   + [Überwachung aktiver Profile](performance-monitoring/using/active-profiles-monitoring.md)
-   + [Überwachung von Durchsätzen und Latenzzeiten](performance-monitoring/using/thoughputs-latencies.md)
+   + [Überwachen aktiver Profile](performance-monitoring/using/active-profiles-monitoring.md)
+   + [Überwachen von Durchsätzen und Latenzzeiten](performance-monitoring/using/thoughputs-latencies.md)
    + [Benachrichtigungen per E-Mail](performance-monitoring/using/email-alerting.md)
 + Instanzeneinstellungen {#instances-settings}
    + [IP-Zulassungsauflistung für den Zugriff auf Instanzen](instances-settings/using/ip-allow-listing-instance-access.md)
    + [URL-Genehmigungen](instances-settings/using/url-permissions.md)
    + [Details der Instanz](instances-settings/using/instance-details.md)
    + [GPG-Schlüsselverwaltung](instances-settings/using/gpg-keys-management.md)
+   + [MID-/RT-Instanzen verbinden](instances-settings/using/external-accounts.md)
 + [Häufig gestellte Fragen](faq.md)
