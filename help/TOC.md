@@ -6,10 +6,10 @@ user-guide-title: Handbuch zum Control Panel
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: d8843ddcce0de7a29bbdd83af629c8d8f0d32920
+source-git-commit: 085d1854eda2c9fe05473760e1f1a30113de01a9
 workflow-type: tm+mt
-source-wordcount: '124'
-ht-degree: 100%
+source-wordcount: '130'
+ht-degree: 95%
 
 ---
 
@@ -56,4 +56,5 @@ ht-degree: 100%
    + [URL-Genehmigungen](instances-settings/using/url-permissions.md)
    + [Details der Instanz](instances-settings/using/instance-details.md)
    + [GPG-Schlüsselverwaltung](instances-settings/using/gpg-keys-management.md)
+   + [MID-/RT-Instanzen hinzufügen (Hybridmodell)](instances-settings/using/external-accounts.md)
 + [Häufig gestellte Fragen](faq.md)

@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
-source-git-commit: 330733c5a025ed8f26120a38f40743bfb5023fd4
+source-git-commit: 2458263ef5981a16d983912b498e320501df7889
 workflow-type: tm+mt
-source-wordcount: '790'
-ht-degree: 96%
+source-wordcount: '858'
+ht-degree: 93%
 
 ---
 
@@ -27,6 +27,8 @@ ht-degree: 96%
 >[!IMPORTANT]
 >
 >Diese Funktion ist nur für Campaign v7/v8-Instanzen verfügbar.
+>
+>Wenn Sie eine Instanz mit einem Hybrid-Hosting-Modell verwenden, können Sie nur IP-Adressen in &quot;Externe API-Verbindung&quot;für RT-Instanz hinzufügen.
 
 Standardmäßig kann auf eine Adobe Campaign-Instanz nicht über verschiedene IP-Adressen zugegriffen werden.
 
@@ -55,7 +57,7 @@ Beachten Sie die folgenden Empfehlungen und Einschränkungen, wenn Sie IP-Adress
 
 >[!NOTE]
 >
->Wenn die Variable **[!UICONTROL Instanzeneinstellungen]** -Karte auf der Startseite des Control Panels nicht sichtbar ist, bedeutet dies, dass Ihre Organisations-ID mit keiner Adobe Campaign v7/v8-Instanz verknüpft ist.
+>Wenn die Karte **[!UICONTROL Instanzeneinstellungen]** nicht auf der Startseite des Control Panel sichtbar ist, bedeutet dies, dass Ihre IMS-Organisations-ID mit keiner Adobe Campaign v7/v8-Instanz verknüpft ist.
 
 Gehen Sie wie folgt vor, um IP-Adressen auf die Zulassungsliste zu setzen:
 
@@ -88,11 +90,16 @@ Gehen Sie wie folgt vor, um IP-Adressen auf die Zulassungsliste zu setzen:
    * **[!UICONTROL AEM-Verbindung]**: Die angegebenen AEM-IP-Adressen können sich mit der Marketing-Instanz verbinden.
    * **[!UICONTROL Externe API-Verbindung]**: Externe APIs mit den angegebenen IP-Adressen können sich mit der Marketing- und/oder Message Center (RT)-Instanz verbinden. Beachten Sie, dass die Verbindung mit der Konsole für RT-Instanzen nicht aktiviert ist.
 
+      >[!NOTE]
+      >
+      >Wenn Sie eine Instanz mit einem Hybrid-Hosting-Modell verwenden, können Sie nur IP-Adressen in &quot;Externe API-Verbindung&quot;für RT-Instanz hinzufügen.
    ![](assets/ip_whitelist_acesstype.png)
 
 1. Wählen Sie die Schaltfläche **[!UICONTROL Speichern]** aus. Der IP-Bereich wird der Zulassungsliste hinzugefügt.
 
    <!--![](assets/ip_whitelist_added.png)-->
+
+Standardmäßig kann auf eine Adobe Campaign-Instanz nicht über verschiedene IP-Adressen zugegriffen werden.
 
 Um einen oder mehrere IP-Bereiche aus der Zulassungsliste zu löschen, wählen Sie sie aus und klicken Sie anschließend auf die Schaltfläche **[!UICONTROL IP-Bereich löschen]**.
 

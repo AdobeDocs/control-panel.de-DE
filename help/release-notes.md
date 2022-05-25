@@ -4,10 +4,10 @@ solution: Campaign
 title: Control Panel-Versionen
 description: Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für das Control Panel aufgelistet.
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: da68420340ea8605f6e1347e86797c9e6a790ea6
+source-git-commit: 87b28195ede08756d5084aad36bf1c95f621b5f5
 workflow-type: tm+mt
-source-wordcount: '1070'
-ht-degree: 100%
+source-wordcount: '1174'
+ht-degree: 93%
 
 ---
 
@@ -20,6 +20,39 @@ Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für das Contro
 >Das Control Panel ist nur für Administratoren zugänglich. Weiterführende Informationen zu Berechtigungen finden Sie in [diesem Abschnitt](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=de#discover-control-panel).
 >
 >Für Campaign v7 muss Ihre Instanz auf Amazon Web Services (AWS) gehostet und auf den neuesten [stabilen Campaign-Build](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=de#rn-statuses) (oder auf Build 9032 oder höher) aktualisiert werden. Erfahren Sie in [diesem Abschnitt](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=de#getting-your-campaign-version), wie Sie Ihre Version überprüfen. Um zu überprüfen, ob Ihre Instanz auf AWS gehostet wird, folgen Sie den Schritten auf [dieser Seite](faq.md#hosted-aws).
+
+## Mai 2022 {#may-2022}
+
+<table>
+<thead>
+<tr>
+<th><strong>Verfügbarkeit des Control Panels für das Hybrid-Hosting-Modell</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Das Control Panel ist jetzt für Kunden mit Hybrid-Hosting-Modell verfügbar. Diese Kunden können die Funktionen des Control Panels nutzen, indem sie ihre in ihrer Marketing-Instanz im Control Panel konfigurierte MID/RT-Instanz-URL angeben.</p><p>Weitere Informationen finden Sie in der <a href="instances-settings/using/external-accounts.md">entsprechenden Dokumentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Aktualisierungen zur Überwachung von Durchsätzen und Latenzen</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Die Überwachungsfunktionen für Durchsätze und Latenzen wurden verbessert:<ul><li>Sie können jetzt die IDs der 5 wichtigsten Sendungen identifizieren, die zum Durchsatz Ihrer Instanz beitragen.</li><li>Kunden von Campaign Classic v7/v8 können jetzt die Latenz für einen bestimmten Kanal visualisieren.</p></li><p>Weitere Informationen finden Sie in der <a href="performance-monitoring/using/thoughputs-latencies.md">entsprechenden Dokumentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 
 ## April 2022 {#april-2022}
 
