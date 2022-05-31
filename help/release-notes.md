@@ -5,9 +5,9 @@ title: Control Panel-Versionen
 description: Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für das Control Panel aufgelistet.
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
 source-git-commit: 87b28195ede08756d5084aad36bf1c95f621b5f5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1174'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für das Contro
 <tbody>
 <tr>
 <td>
-<p>Das Control Panel ist jetzt für Kunden mit Hybrid-Hosting-Modell verfügbar. Diese Kunden können die Funktionen des Control Panels nutzen, indem sie ihre in ihrer Marketing-Instanz im Control Panel konfigurierte MID/RT-Instanz-URL angeben.</p><p>Weitere Informationen finden Sie in der <a href="instances-settings/using/external-accounts.md">entsprechenden Dokumentation</a>.</p>
+<p>Das Control Panel ist ab jetzt für Kunden mit einem Hybrid-Hosting-Modell verfügbar. Diese Kunden können die Funktionen des Control Panels nutzen, indem sie die URL ihrer MID/RT-Instanz, die in ihrer Marketing-Instanz konfiguriert ist, im Control Panel angeben.</p><p>Weitere Informationen finden Sie in der <a href="instances-settings/using/external-accounts.md">entsprechenden Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -41,13 +41,13 @@ Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für das Contro
 <table>
 <thead>
 <tr>
-<th><strong>Aktualisierungen zur Überwachung von Durchsätzen und Latenzen</strong><br/></th>
+<th><strong>Aktualisierungen der Überwachung von Durchsätzen und Latenzzeiten</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Die Überwachungsfunktionen für Durchsätze und Latenzen wurden verbessert:<ul><li>Sie können jetzt die IDs der 5 wichtigsten Sendungen identifizieren, die zum Durchsatz Ihrer Instanz beitragen.</li><li>Kunden von Campaign Classic v7/v8 können jetzt die Latenz für einen bestimmten Kanal visualisieren.</p></li><p>Weitere Informationen finden Sie in der <a href="performance-monitoring/using/thoughputs-latencies.md">entsprechenden Dokumentation</a>.</p>
+<p>Die Überwachungsfunktionen für Durchsätze und Latenzzeiten wurden verbessert:<ul><li>Sie können jetzt die IDs der 5 Sendungen identifizieren, die am stärksten zum Durchsatz Ihrer Instanz beitragen.</li><li>Kunden von Campaign Classic v7/v8 können jetzt die Latenzzeit für einen bestimmten Kanal visualisieren.</p></li><p>Weitere Informationen finden Sie in der <a href="performance-monitoring/using/thoughputs-latencies.md">entsprechenden Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
