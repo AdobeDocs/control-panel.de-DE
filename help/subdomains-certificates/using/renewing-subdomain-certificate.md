@@ -8,9 +8,9 @@ role: Architect
 level: Experienced
 exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
 source-git-commit: 8f83b5c440ad9fd698a48776723fe71e0915f527
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '885'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 94%
 
 >[!IMPORTANT]
 >
->Die Verlängerung von SSL-Zertifikaten über das Control Panel ist in der Beta-Phase verfügbar und unterliegt häufigen Aktualisierungen und Änderungen ohne Vorankündigung.
+>Die Verlängerung von SSL-Zertifikaten über das Control Panel befindet sich in der Beta-Version und unterliegt häufigen Aktualisierungen und Änderungen ohne Vorankündigung.
 >
 >Wenn Sie eine Instanz mit einem Hybrid-Hosting-Modell verwenden, können Sie nur Zertifikate anzeigen, die mit den zugewiesenen Subdomains verknüpft sind. Sie können keine SSL-Zertifikate erneuern.
 
@@ -102,7 +102,7 @@ Nachdem Sie eine Certificate Signing Request (CSR) über das Control Panel gener
 >id="cp_install_ssl_certificate"
 >title="Installation eines SSL-Zertifikats"
 >abstract="Installieren Sie das SSL-Zertifikat, das Sie bei der von Ihrem Unternehmen zugelassenen Zertifizierungsstelle erworben haben."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html" text="Über Subdomain-Branding"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=de" text="Über Subdomain-Branding"
 
 Sobald Sie ein SSL-Zertifikat gekauft haben, können Sie es auf Ihrer Instanz installieren. Bevor Sie fortfahren, achten Sie auf folgende Voraussetzungen:
 
