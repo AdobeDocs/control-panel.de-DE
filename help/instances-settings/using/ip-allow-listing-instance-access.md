@@ -8,9 +8,9 @@ role: Architect
 level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
 source-git-commit: 2458263ef5981a16d983912b498e320501df7889
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '858'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 93%
 >
 >Diese Funktion ist nur für Campaign v7/v8-Instanzen verfügbar.
 >
->Wenn Sie eine Instanz mit einem Hybrid-Hosting-Modell verwenden, können Sie nur IP-Adressen in &quot;Externe API-Verbindung&quot;für RT-Instanz hinzufügen.
+>Wenn Sie eine Instanz mit einem Hybrid-Hosting-Modell verwenden, können Sie IP-Adressen nur in „Externe API-Verbindung“ für eine RT-Instanz hinzufügen.
 
 Standardmäßig kann auf eine Adobe Campaign-Instanz nicht über verschiedene IP-Adressen zugegriffen werden.
 
@@ -92,10 +92,10 @@ Gehen Sie wie folgt vor, um IP-Adressen auf die Zulassungsliste zu setzen:
 
       >[!NOTE]
       >
-      >Wenn Sie eine Instanz mit einem Hybrid-Hosting-Modell verwenden, können Sie nur IP-Adressen in &quot;Externe API-Verbindung&quot;für RT-Instanz hinzufügen.
+      >Wenn Sie eine Instanz mit einem Hybrid-Hosting-Modell verwenden, können Sie IP-Adressen nur in „Externe API-Verbindung“ für eine RT-Instanz hinzufügen.
    ![](assets/ip_whitelist_acesstype.png)
 
-1. Wählen Sie die Schaltfläche **[!UICONTROL Speichern]** aus. Der IP-Bereich wird der Zulassungsliste hinzugefügt.
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL Speichern]**. Der IP-Bereich wird der Zulassungsliste hinzugefügt.
 
    <!--![](assets/ip_whitelist_added.png)-->
 
