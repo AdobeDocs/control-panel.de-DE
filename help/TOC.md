@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Beginner
 source-git-commit: 085d1854eda2c9fe05473760e1f1a30113de01a9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '130'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -56,5 +56,5 @@ ht-degree: 95%
    + [URL-Genehmigungen](instances-settings/using/url-permissions.md)
    + [Details der Instanz](instances-settings/using/instance-details.md)
    + [GPG-Schlüsselverwaltung](instances-settings/using/gpg-keys-management.md)
-   + [MID-/RT-Instanzen hinzufügen (Hybridmodell)](instances-settings/using/external-accounts.md)
+   + [Hinzufügen von MID-/RT-Instanzen (Hybridmodell)](instances-settings/using/external-accounts.md)
 + [Häufig gestellte Fragen](faq.md)
