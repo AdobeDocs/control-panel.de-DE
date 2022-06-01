@@ -93,6 +93,7 @@ Gehen Sie wie folgt vor, um IP-Adressen auf die Zulassungsliste zu setzen:
       >[!NOTE]
       >
       >Wenn Sie eine Instanz mit einem Hybrid-Hosting-Modell verwenden, können Sie IP-Adressen nur in „Externe API-Verbindung“ für eine RT-Instanz hinzufügen.
+
    ![](assets/ip_whitelist_acesstype.png)
 
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Speichern]**. Der IP-Bereich wird der Zulassungsliste hinzugefügt.
