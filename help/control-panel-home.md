@@ -5,9 +5,9 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: da68420340ea8605f6e1347e86797c9e6a790ea6
+source-git-commit: d2d5f43b4fcd8f0161681b55d2834e753e388de4
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '271'
 ht-degree: 100%
 
 ---
@@ -27,9 +27,17 @@ Das Control Panel von Campaign hilft Produktadministratoren von Campaign Standar
 
 ## Neue Funktionen
 
-**Überwachung wichtiger Kontakte und Ereignisse auf Ihren Instanzen**
+**Verfügbarkeit des Control Panels für das Hybrid-Hosting-Modell**
 
-Sie können jetzt frühere und künftige Releases und Service-Reviews auf Ihren Instanzen überwachen sowie auf eine Liste der wichtigsten Ansprechpartner bei Adobe zugreifen, wenn Sie eine Anfrage oder ein Problem haben. [Mehr dazu](service-events/service-events.md)
+Das Control Panel ist ab jetzt für Kunden mit einem Hybrid-Hosting-Modell verfügbar. Diese Kunden können die Funktionen des Control Panels nutzen, indem sie die URL ihrer MID/RT-Instanz, die in ihrer Marketing-Instanz konfiguriert ist, im Control Panel angeben. [Mehr dazu](instances-settings/using/external-accounts.md)
+
+
+**Aktualisierungen der Überwachung von Durchsätzen und Latenzzeiten**
+
+Die Überwachungsfunktionen für Durchsätze und Latenzzeiten wurden verbessert. [Mehr dazu](performance-monitoring/using/thoughputs-latencies.md)
+
+* Sie können jetzt die IDs der 5 Sendungen identifizieren, die am stärksten zum Durchsatz Ihrer Instanz beitragen.
+* Kunden von Campaign Classic v7/v8 können jetzt die Latenzzeit für einen bestimmten Kanal visualisieren.
 
 >[!CAUTION]
 >
