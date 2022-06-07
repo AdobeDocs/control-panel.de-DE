@@ -8,9 +8,9 @@ role: Architect
 level: Experienced
 exl-id: eddef17f-0667-4b43-bc56-2b1aeeae61bb
 source-git-commit: bcc9ae9e8f3d6ed88f6f930af81e46c98dfd3d89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '436'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Mit dem Control Panel können Sie den Versanddurchsatz und die Latenzzeit für j
 
 >[!IMPORTANT]
 >
->Diese Funktion steht allen Campaign Standard, v8-Kunden und Campaign v7-Kunden mit den Build-Nummern 9032 und höher zur Verfügung, einschließlich [Standalone-Implementierungen](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/deployment-types-/standalone-deployment.html?lang=de) (ohne Mid-Instanz).
+>Diese Funktion steht allen Kunden von Campaign Standard, Campaign v8 und Campaign v7 mit den Build-Nummern 9032 und höher zur Verfügung, einschließlich [eigenständiger Bereitstellungen](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/deployment-types-/standalone-deployment.html?lang=de) (ohne Mid-Instanz).
 
 Die Überwachung der Entwicklung von Versanddurchsatz und Latenz über einen bestimmten Zeitraum ist wichtig, um die Nutzung Ihrer Instanzen zu verstehen und sicherzustellen, dass sie eine gute Leistung erzielen.
 
