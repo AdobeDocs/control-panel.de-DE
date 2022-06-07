@@ -6,7 +6,7 @@ role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: d2d5f43b4fcd8f0161681b55d2834e753e388de4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '271'
 ht-degree: 100%
 
@@ -29,7 +29,7 @@ Das Control Panel von Campaign hilft Produktadministratoren von Campaign Standar
 
 **Verfügbarkeit des Control Panels für das Hybrid-Hosting-Modell**
 
-Das Control Panel ist ab jetzt für Kunden mit einem Hybrid-Hosting-Modell verfügbar. Diese Kunden können die Funktionen des Control Panels nutzen, indem sie die URL ihrer MID/RT-Instanz, die in ihrer Marketing-Instanz konfiguriert ist, im Control Panel angeben. [Mehr dazu](instances-settings/using/external-accounts.md)
+Das Control Panel ist ab jetzt für Kunden mit einem Hybrid-Hosting-Modell verfügbar. Diese Kunden können die Funktionen des Control Panels nutzen, indem sie die URL ihrer MID-/RT-Instanz, die in ihrer Marketing-Instanz konfiguriert ist, im Control Panel angeben. [Mehr dazu](instances-settings/using/external-accounts.md)
 
 
 **Aktualisierungen der Überwachung von Durchsätzen und Latenzzeiten**
