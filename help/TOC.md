@@ -6,10 +6,10 @@ user-guide-title: Handbuch zum Control Panel
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: 085d1854eda2c9fe05473760e1f1a30113de01a9
+source-git-commit: e0b0daba3a5820dc80b35d8c83ffc9143d547529
 workflow-type: tm+mt
-source-wordcount: '130'
-ht-degree: 100%
+source-wordcount: '151'
+ht-degree: 73%
 
 ---
 
@@ -17,27 +17,35 @@ ht-degree: 100%
 # Handbuch zum Control Panel {#using}
 
 + [Produktdokumentation](control-panel-home.md)
-+ [Versionshinweise](release-notes.md)
++ Versionshinweise {#release-notes}
+   + [Aktuelle Version](rn/release-notes.md)
+   + Frühere Versionen {#previous-releases}
+      + [Versionshinweise 2021](rn/release-notes-2021.md)
+      + [Versionshinweise 2020](rn/release-notes-2020.md)
+      + [Versionshinweise 20219](rn/release-notes-2019.md)
 + Entdecken Sie das Control Panel {#discover-control-panel}
    + [Hauptfunktionen](discover/using/key-features.md)
    + [Zugriff auf das Control Panel](discover/using/accessing-control-panel.md)
-   + [Verwalten von Berechtigungen für das Control Panel](discover/using/managing-permissions.md)
-   + [Die Benutzeroberfläche des Control Panels](discover/using/discovering-the-interface.md)
+   + [Berechtigungen für das Control Panel verwalten](discover/using/managing-permissions.md)
+   + [Benutzeroberfläche des Control Panels](discover/using/discovering-the-interface.md)
 + [Überwachung wichtiger Kontakte und Ereignisse](service-events/service-events.md)
 + SFTP-Verwaltung {#sftp-management}
    + [Über die SFTP-Verwaltung](sftp/using/about-sftp-management.md)
-   + [SFTP-Speicherverwaltung](sftp/using/sftp-storage-management.md)
+   + [Verwalten des SFTP-Speichers](sftp/using/sftp-storage-management.md)
    + [Zulassungsauflistung von IP-Bereichen](sftp/using/ip-range-allow-listing.md)
    + [Schlüsselverwaltung](sftp/using/key-management.md)
-   + [Anmeldung bei Ihrem SFTP-Server](sftp/using/logging-into-sftp-server.md)
+   + [Melden Sie sich bei Ihrem SFTP-Server an](sftp/using/logging-into-sftp-server.md)
    + [Häufige Fragen](sftp/using/common-questions.md)
 + Subdomains und Zertifikate {#subdomains-and-certificates}
    + [Subdomain-Branding](subdomains-certificates/using/subdomains-branding.md)
-   + [Überwachen von Subdomains](subdomains-certificates/using/monitoring-subdomains.md)
-   + [Einrichten einer neuen Subdomain](subdomains-certificates/using/setting-up-new-subdomain.md)
-   + [Überwachen von SSL-Zertifikaten](subdomains-certificates/using/monitoring-ssl-certificates.md)
-   + [Verlängern von SSL-Zertifikaten](subdomains-certificates/using/renewing-subdomain-certificate.md)
+   + [Überwachen Ihrer Subdomains](subdomains-certificates/using/monitoring-subdomains.md)
+   + [Einrichten einer neuen Sub-Domain](subdomains-certificates/using/setting-up-new-subdomain.md)
    + [Verwalten von TXT-Einträgen](subdomains-certificates/using/managing-txt-records.md)
+   + [Überwachen von SSL-Zertifikaten](subdomains-certificates/using/monitoring-ssl-certificates.md)
+   + Verlängerung von SSL-Zertifikaten {#renew-ssl}
+      + [Über die Verlängerung von SSL-Zertifikaten](subdomains-certificates/using/renewing-subdomain-certificate.md)
+      + [CSR generieren](subdomains-certificates/using/generate-csr.md)
+      + [SSL-Zertifikat installieren](subdomains-certificates/using/install-ssl-certificate.md)
 + Monitoring der Leistung {#performance-monitoring}
    + [Über das Leistungs-Monitoring](performance-monitoring/using/about-performance-monitoring.md)
    + Monitoring der Datenbank {#database-monitoring}
@@ -47,7 +55,7 @@ ht-degree: 100%
       + [Die Top 10 der temporären Ressourcen](performance-monitoring/using/database-top-ten-resources.md)
       + [Aktive Abfragen](performance-monitoring/using/database-active-queries.md)
       + [Überwachen von Workflows](performance-monitoring/using/workflow-monitoring.md)
-      + [Verhindern einer Überlastung von Datenbanken](performance-monitoring/using/database-preventing-overload.md)
+      + [Verhindern einer Datenbanküberlastung](performance-monitoring/using/database-preventing-overload.md)
    + [Überwachen aktiver Profile](performance-monitoring/using/active-profiles-monitoring.md)
    + [Überwachen von Durchsätzen und Latenzzeiten](performance-monitoring/using/thoughputs-latencies.md)
    + [Benachrichtigungen per E-Mail](performance-monitoring/using/email-alerting.md)

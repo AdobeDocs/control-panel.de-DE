@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
-source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
+source-git-commit: 140a84657325a3cb0e209996ca1aed7d6c1a3282
 workflow-type: tm+mt
-source-wordcount: '1206'
-ht-degree: 100%
+source-wordcount: '1216'
+ht-degree: 99%
 
 ---
 
@@ -41,6 +41,10 @@ Anschließend können Sie:
 Mit dem Control Panel können Sie Daten verschlüsseln, die aus Ihrer Adobe Campaign-Instanz stammen.
 
 Dazu müssen Sie mithilfe eines PGP-Verschlüsselungs-Tools ein GPG-Schlüsselpaar generieren und dann den öffentlichen Schlüssel im Control Panel installieren. Sie können dann Daten verschlüsseln, bevor Sie diese von Ihrer Instanz senden. Gehen Sie dazu wie folgt vor:
+
+>[!NOTE]
+>
+>Sie können bis zu 60 GPG-Schlüssel im Control Panel installieren.
 
 ![](assets/do-not-localize/how-to-video.png) Funktion kennenlernen im [Video](#video).
 

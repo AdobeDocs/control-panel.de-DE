@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: d2d5f43b4fcd8f0161681b55d2834e753e388de4
-workflow-type: ht
-source-wordcount: '271'
-ht-degree: 100%
+source-git-commit: 66456eefea1bf442874e2b388f292af9df9ec186
+workflow-type: tm+mt
+source-wordcount: '252'
+ht-degree: 73%
 
 ---
 
@@ -27,17 +27,19 @@ Das Control Panel von Campaign hilft Produktadministratoren von Campaign Standar
 
 ## Neue Funktionen
 
-**Verfügbarkeit des Control Panels für das Hybrid-Hosting-Modell**
+**Die 10 beliebtesten Dateien, die Speicherplatz auf SFTP-Servern belegen**
 
-Das Control Panel ist ab jetzt für Kunden mit einem Hybrid-Hosting-Modell verfügbar. Diese Kunden können die Funktionen des Control Panels nutzen, indem sie die URL ihrer MID-/RT-Instanz, die in ihrer Marketing-Instanz konfiguriert ist, im Control Panel angeben. [Mehr dazu](instances-settings/using/external-accounts.md)
+Sie können jetzt die 10 wichtigsten Dateien identifizieren, die den meisten Speicherplatz auf einem SFTP-Server belegen. [Weitere Informationen](sftp/using/sftp-storage-management.md)
 
 
-**Aktualisierungen der Überwachung von Durchsätzen und Latenzzeiten**
+**Erinnerungen an Dienstkalender**
 
-Die Überwachungsfunktionen für Durchsätze und Latenzzeiten wurden verbessert. [Mehr dazu](performance-monitoring/using/thoughputs-latencies.md)
+Mit dem Dienstkalender können Sie jetzt Erinnerungen festlegen, damit Sie per E-Mail benachrichtigt werden können, bevor ein Ereignis auf Ihren Instanzen eintritt. [Weitere Informationen](instances-settings/using/external-accounts.md)
 
-* Sie können jetzt die IDs der 5 Sendungen identifizieren, die am stärksten zum Durchsatz Ihrer Instanz beitragen.
-* Kunden von Campaign Classic v7/v8 können jetzt die Latenzzeit für einen bestimmten Kanal visualisieren.
+**CSR-Generierungsverbesserungen von Subdomains**
+
+Der CSR-Generierungsprozess wurde mehrfach verbessert. [Mehr dazu](subdomains-certificates/using/renewing-subdomain-certificate.md)
+
 
 >[!CAUTION]
 >

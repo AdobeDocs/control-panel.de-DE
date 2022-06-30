@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: d230aae6-4f0e-4201-bb3c-0e3f83a7c1b8
-source-git-commit: 281a1a5fc677c4e98fe32c53e0f2fe69e8c72888
+source-git-commit: 8d1eda31cbe6ab915760d4894a03a4a0055a3130
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 100%
+source-wordcount: '527'
+ht-degree: 60%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="cp_servicecalendar_serviceevents"
 >title="Service-Kalender"
->abstract="Im Abschnitt „Wichtige Kontakte“ finden Sie eine Liste der Ansprechpartner bei Adobe, an die Sie sich bei Anfragen oder Problemen mit Ihren Instanzen wenden können. Im Abschnitt „Kalender der Service-Ereignisse“ finden Sie alle früheren und künftigen Releases und Service-Reviews für die ausgewählte Instanz."
+>abstract="Im Abschnitt „Wichtige Kontakte“ finden Sie eine Liste der Ansprechpartner bei Adobe, an die Sie sich bei Anfragen oder Problemen mit Ihren Instanzen wenden können. Im Abschnitt Dienstereigniskalender können Sie Versionen und Service Reviews für die ausgewählte Instanz identifizieren und Erinnerungen für bevorstehende Ereignisse einrichten."
 
 >[!IMPORTANT]
 >
@@ -51,6 +51,8 @@ Zu den wichtigen Kontakten gehören die folgenden Rollen:
 
 ## Ereignisse {#events}
 
+### Ereignisse überwachen {#monitor-events}
+
 Der Abschnitt **[!UICONTROL Kalender der Service-Ereignisse]** enthält alle früheren und künftigen Releases und Service-Reviews für die ausgewählte Instanz.
 
 ![](assets/service-events-calendar.png)
@@ -68,3 +70,33 @@ Der Build wird nicht mehr unterstützt. Ein Upgrade ist unbedingt erforderlich.
 Sie können einem oder mehreren kommenden Ereignissen eine Markierung zuweisen, um sie zu verfolgen. Klicken Sie dazu auf die Schaltfläche mit den Auslassungspunkten neben dem Ereignisnamen.
 
 ![](assets/service-events-flag.png)
+
+### Festlegen von Erinnerungen {#reminders}
+
+Mit dem Dienstkalender können Sie Erinnerungen festlegen, die per E-Mail benachrichtigt werden sollen, bevor ein Ereignis eintritt.
+
+>[!NOTE]
+>
+>Um über bevorstehende Ereignisse benachrichtigt zu werden, müssen Sie im Control Panel E-Mail-Warnungen abonniert haben. [Weitere Informationen](../performance-monitoring/using/email-alerting.md)
+
+Gehen Sie wie folgt vor, um eine Warnung für ein Ereignis festzulegen:
+
+1. Klicken Sie auf die Schaltfläche mit den Auslassungspunkten neben dem Ereignis, an das Sie erinnert werden möchten, und wählen Sie dann **[!UICONTROL Set Reminder]**.
+
+1. Geben Sie der Erinnerung einen Titel und wählen Sie dann das Datum aus, an dem Sie benachrichtigt werden möchten, bevor das Ereignis eintritt.
+
+   ![](assets/service-events-set-reminder.png)
+
+   >[!NOTE]
+   >
+   >Wenn Sie keine Warnhinweise im Control Panel abonniert haben, wird eine Meldung angezeigt, über die Sie sich für den Erhalt von E-Mail-Benachrichtigungen anmelden können.
+
+1. Die Erinnerung ist jetzt für das ausgewählte Ereignis festgelegt. Sie können den Mauszeiger jederzeit darüber bewegen, um den Titel anzuzeigen.
+
+   ![](assets/service-events-reminder.png)
+
+   >[!NOTE]
+   >
+   >Sie können bis zu 2 Erinnerungen für dasselbe Ereignis einrichten.
+
+1. Am in der Erinnerung angegebenen Datum wird eine E-Mail gesendet, um Sie über das bevorstehende Ereignis zu informieren. Die Erinnerung wird automatisch aus dem **[!UICONTROL Erinnerungen]** im Menü Dienstkalender .

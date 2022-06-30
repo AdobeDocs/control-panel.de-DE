@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: eaf67573-f088-47d9-8a25-273d08dc541a
-source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
+source-git-commit: 8db39899be5dfe610f39a6cecc23bd5f969078c6
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 100%
+source-wordcount: '389'
+ht-degree: 89%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="cp_storage"
 >title="Über die Speicherkapazität"
->abstract="Auf diesem Tab finden Sie die Speicherkapazität und die Nutzungsinformationen Ihrer SFTP-Server. Hier werden nur SFTP-Server aufgeführt, auf die Sie Zugriff haben. Wenn Sie Zugriff auf andere SFTP-Server wünschen, kontaktieren Sie Ihren Administrator."
+>abstract="Auf diesem Tab finden Sie die Speicherkapazität und die Nutzungsinformationen Ihrer SFTP-Server. Sie können auch die 10 wichtigsten Dateien auflisten, die den meisten Speicherplatz auf einem SFTP-Server belegen, indem Sie auf dessen Namen klicken. Hier werden nur SFTP-Server aufgeführt, auf die Sie Zugriff haben. Wenn Sie Zugriff auf andere SFTP-Server wünschen, kontaktieren Sie Ihren Administrator."
 >additional-url="https://images-tv.adobe.com/mpcv3/8a977e03-d76c-44d3-853c-95d0b799c870_1560205338.1920x1080at3000_h264.mp4" text="Demovideo ansehen"
 
 Abhängig von Ihrem Vertrag kann Ihr SFTP-Server eine andere Speicherkapazität aufweisen.
@@ -38,6 +38,10 @@ Eine visuelle Warnung wird für jede Instanz angezeigt, bei der die Speicherkapa
 
 * **Orange**: Mehr als 80 % der Kapazität der Instanz sind ausgelastet,
 * **Rot**: Mehr als 90 % der Kapazität der Instanz sind ausgelastet.
+
+Sie können auch die 10 wichtigsten Dateien identifizieren, die den meisten Speicherplatz auf einem SFTP-Server belegen, indem Sie auf dessen Namen klicken.
+
+![](assets/sftp-top10.png)
 
 Außerdem erfahren Sie, wie Sie vorgehen sollten, wenn die Server-Kapazität nahezu erschöpft ist.
 
