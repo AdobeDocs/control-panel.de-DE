@@ -2,7 +2,7 @@
 title: Aktuelle Version
 description: Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für das Control Panel aufgelistet.
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: e0b0daba3a5820dc80b35d8c83ffc9143d547529
+source-git-commit: daa52035ea5db89552b56afc4ab5690610b6e846
 workflow-type: tm+mt
 source-wordcount: '501'
 ht-degree: 73%
@@ -42,7 +42,7 @@ Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für das Contro
 <tbody>
 <tr>
 <td>
-<p>Mit dem Dienstkalender können Sie jetzt Erinnerungen festlegen, damit Sie per E-Mail benachrichtigt werden können, bevor ein Ereignis auf Ihren Instanzen eintritt. <a href="../instances-settings/using/external-accounts.md">Weitere Informationen</a></p>
+<p>Mit dem Dienstkalender können Sie jetzt Erinnerungen festlegen, damit Sie per E-Mail benachrichtigt werden können, bevor ein Ereignis auf Ihren Instanzen eintritt. <a href="../service-events/service-events.md">Weitere Informationen</a></p>
 <img src="../assets/do-not-localize/reminders.gif"/>
 </td>
 </tr>

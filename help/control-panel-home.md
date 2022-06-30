@@ -5,7 +5,7 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: 66456eefea1bf442874e2b388f292af9df9ec186
+source-git-commit: daa52035ea5db89552b56afc4ab5690610b6e846
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 73%
@@ -34,7 +34,7 @@ Sie können jetzt die 10 wichtigsten Dateien identifizieren, die den meisten Spe
 
 **Erinnerungen an Dienstkalender**
 
-Mit dem Dienstkalender können Sie jetzt Erinnerungen festlegen, damit Sie per E-Mail benachrichtigt werden können, bevor ein Ereignis auf Ihren Instanzen eintritt. [Weitere Informationen](instances-settings/using/external-accounts.md)
+Mit dem Dienstkalender können Sie jetzt Erinnerungen festlegen, damit Sie per E-Mail benachrichtigt werden können, bevor ein Ereignis auf Ihren Instanzen eintritt. [Weitere Informationen](service-events/service-events.md)
 
 **CSR-Generierungsverbesserungen von Subdomains**
 
