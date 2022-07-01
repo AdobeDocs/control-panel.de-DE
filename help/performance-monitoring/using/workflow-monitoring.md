@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 8016f800-430a-413d-a77b-b7f18f5ab733
-source-git-commit: f22a935769d74a2b8bae3f79cd53f2ee31d19737
+source-git-commit: 485069285709a7cc5c074f8813b322328e2840c0
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -60,7 +60,7 @@ Wenn diese Option aktiviert ist (Wert „1“), werden die Ergebnisse der Überg
 
 ## **[!UICONTROL SQL-Protokoll anzeigen]** {#sql}
 
-Wenn diese Option aktiviert ist, werden die SQL-Abfragen, die während der Workflow-Ausführung an die Datenbank gesendet werden, in Adobe Campaign angezeigt. Weitere Informationen finden Sie in der Dokumentation zu [Campaign Standard](https://experienceleague.corp.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html?lang=de) und [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=de#execution).
+Wenn diese Option aktiviert ist, werden die SQL-Abfragen, die während der Workflow-Ausführung an die Datenbank gesendet werden, in Adobe Campaign angezeigt. Weitere Informationen finden Sie in der Dokumentation zu [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html?lang=en) und [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=de#execution).
 
 Der Wert „1“ zeigt an, dass für den Workflow das Feld **Schweregrad** auf „Produktion“ eingestellt ist und dass die Option für das SQL-Abfrageprotokoll aktiviert ist.
 
@@ -72,7 +72,7 @@ Der Wert „1“ zeigt an, dass für den Workflow das Feld **Schweregrad** auf �
 
 ## **[!UICONTROL Verantwortliche]** {#supervisors}
 
-Dieses Feld ermöglicht es Ihnen, einem Workflow einen Benutzer zuzuweisen. Wenn der Workflow fehlschlägt, wird der jeweilige Verantwortliche benachrichtigt. Weitere Informationen finden Sie in der Dokumentation zu [Campaign Standard](https://experienceleague.corp.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/monitoring-workflow-execution.html?lang=de#error-management) und [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=de#error-management).
+Dieses Feld ermöglicht es Ihnen, einem Workflow einen Benutzer zuzuweisen. Wenn der Workflow fehlschlägt, wird der jeweilige Verantwortliche benachrichtigt. Weitere Informationen finden Sie in der Dokumentation zu [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/monitoring-workflow-execution.html?lang=en#error-management) und [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=de#error-management).
 
 Der Wert „1“ zeigt an, dass für den Workflow das Feld **Schweregrad** auf „Produktion“ eingestellt ist und dass dem Workflow keine Gruppe von Verantwortlichen zugewiesen wurde.
 
