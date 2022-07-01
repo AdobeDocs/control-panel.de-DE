@@ -6,9 +6,9 @@ user-guide-title: Handbuch zum Control Panel
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: e0b0daba3a5820dc80b35d8c83ffc9143d547529
+source-git-commit: bf710d56b0f4d3834ab505633ae85cf9444b6ccf
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '153'
 ht-degree: 73%
 
 ---
@@ -20,9 +20,10 @@ ht-degree: 73%
 + Versionshinweise {#release-notes}
    + [Aktuelle Version](rn/release-notes.md)
    + Frühere Versionen {#previous-releases}
+      + [Versionshinweise 2022](rn/release-notes-2022.md)
       + [Versionshinweise 2021](rn/release-notes-2021.md)
       + [Versionshinweise 2020](rn/release-notes-2020.md)
-      + [Versionshinweise 20219](rn/release-notes-2019.md)
+      + [Versionshinweise 2019](rn/release-notes-2019.md)
 + Entdecken Sie das Control Panel {#discover-control-panel}
    + [Hauptfunktionen](discover/using/key-features.md)
    + [Zugriff auf das Control Panel](discover/using/accessing-control-panel.md)
