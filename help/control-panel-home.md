@@ -6,9 +6,9 @@ role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: daa52035ea5db89552b56afc4ab5690610b6e846
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '252'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -27,18 +27,18 @@ Das Control Panel von Campaign hilft Produktadministratoren von Campaign Standar
 
 ## Neue Funktionen
 
-**Die 10 beliebtesten Dateien, die Speicherplatz auf SFTP-Servern belegen**
+**Die 10 Dateien, die auf SFTP-Servern den meisten Speicherplatz verbrauchen**
 
-Sie können jetzt die 10 wichtigsten Dateien identifizieren, die den meisten Speicherplatz auf einem SFTP-Server belegen. [Weitere Informationen](sftp/using/sftp-storage-management.md)
+Sie können jetzt die 10 Dateien identifizieren, die den meisten Speicherplatz auf einem SFTP-Server belegen. [Weitere Informationen](sftp/using/sftp-storage-management.md)
 
 
-**Erinnerungen an Dienstkalender**
+**Service-Kalender-Erinnerungen**
 
-Mit dem Dienstkalender können Sie jetzt Erinnerungen festlegen, damit Sie per E-Mail benachrichtigt werden können, bevor ein Ereignis auf Ihren Instanzen eintritt. [Weitere Informationen](service-events/service-events.md)
+Im Service-Kalender können Sie jetzt Erinnerungen einstellen, sodass Sie per E-Mail benachrichtigt werden, bevor ein Ereignis auf Ihren Instanzen eintritt. [Weitere Informationen](service-events/service-events.md)
 
-**CSR-Generierungsverbesserungen von Subdomains**
+**Verbesserungen bei der CSR-Generierung von Subdomains**
 
-Der CSR-Generierungsprozess wurde mehrfach verbessert. [Mehr dazu](subdomains-certificates/using/renewing-subdomain-certificate.md)
+Der Prozess der CSR-Generierung wurde in mehreren Punkten verbessert. [Mehr dazu](subdomains-certificates/using/renewing-subdomain-certificate.md)
 
 
 >[!CAUTION]
