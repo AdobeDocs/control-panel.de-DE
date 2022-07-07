@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 source-git-commit: b31853a861aad7beb5b639f0fa22e821e8e25e19
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '461'
-ht-degree: 59%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ Gehen Sie wie folgt vor, um eine Certificate Signing Request (CSR) zu erstellen:
    * **[!UICONTROL Organisation]**: Offizieller Name der Organisation.
    * **[!UICONTROL Organisationseinheit]**: Die mit der Subdomain verknüpfte Einheit (Beispiel: Marketing, IT).
    * **[!UICONTROL Instanz]** (vorbelegt): URL der Campaign-Instanz, die mit der Subdomain verknüpft ist.
-   * **[!UICONTROL Gebrauchsname]**: Wenn der allgemeine Name standardmäßig ausgewählt ist, können Sie bei Bedarf eine der Subdomains auswählen.
+   * **[!UICONTROL Gebrauchsname]**: Wenn der Gebrauchsname standardmäßig ausgewählt ist, können Sie bei Bedarf eine der Subdomains auswählen.
 
    ![](assets/renewal3.png)
 
@@ -63,22 +63,22 @@ Gehen Sie wie folgt vor, um eine Certificate Signing Request (CSR) zu erstellen:
 
    >[!NOTE]
    >
-   >Die **[!UICONTROL CSR-Inhalt kopieren]** -Schaltfläche können Sie alle Informationen kopieren, die sich auf die CSR beziehen (Organisations-ID, Instanz, Organisationsname, gebräuchlicher Name, enthaltene Subdomains usw.)
+   >Mit der Schaltfläche **[!UICONTROL CSR-Inhalt kopieren]** können Sie alle mit der CSR verbundenen Informationen kopieren (Org-ID, Instanz, Organisationsname, Gebrauchsname, enthaltene Subdomains usw.).
 
-1. Die .csr-Datei wird entsprechend Ihrer Auswahl automatisch generiert und heruntergeladen. Mit dieser Datei können Sie nun das SSL-Zertifikat bei der von Ihrem Unternehmen genehmigten Zertifizierungsstelle erwerben. Wenn Sie CSR erneut herunterladen müssen, folgen Sie den Schritten im Abschnitt [diesem Abschnitt](#download).
+1. Die CSR-Datei wird entsprechend Ihrer Auswahl automatisch generiert und heruntergeladen. Mit dieser Datei können Sie nun das SSL-Zertifikat bei der von Ihrem Unternehmen genehmigten Zertifizierungsstelle erwerben. Wenn Sie die CSR erneut herunterladen müssen, befolgen Sie die in [diesem Abschnitt](#download) beschriebenen Schritte.
 
-Nachdem Ihr CSR generiert und heruntergeladen wurde, können Sie damit ein SSL-Zertifikat von einer Zertifizierungsstelle erwerben, die von Ihrem Unternehmen genehmigt wurde.
+Sobald Ihre CSR erstellt und heruntergeladen wurde, können Sie damit ein SSL-Zertifikat bei einer von Ihrer Organisation genehmigten Zertifizierungsstelle erwerben.
 
-Nachdem das SSL-Zertifikat erworben wurde, können Sie es auf Ihrer Instanz installieren, um Ihre Subdomain zu schützen. [Weitere Informationen](install-ssl-certificate.md)
+Nachdem Sie das SSL-Zertifikat erworben haben, können Sie es in Ihrer Instanz installieren, um Ihre Subdomain zu sichern. [Weitere Informationen](install-ssl-certificate.md)
 
 ## CSR herunterladen {#download}
 
-Um ein SSL-Zertifikat zu erwerben, müssen Sie zunächst die Certificate Signing Request herunterladen. CSR wird automatisch heruntergeladen, nachdem es generiert wurde. Sie können es auch jederzeit aus den Auftragsprotokollen erneut herunterladen:
+Um ein SSL-Zertifikat zu erwerben, müssen Sie zunächst den „Certificate Signing Request“ herunterladen. Die CSR wird automatisch heruntergeladen, nachdem sie generiert wurde. Sie können ihn auch jederzeit in den Vorgangslogs erneut herunterladen:
 
-1. Im **[!UICONTROL Auftragsprotokolle]**, wählen Sie die **[!UICONTROL Abgeschlossen]** und filtern Sie dann die Liste, um Vorgänge im Zusammenhang mit der Verwaltung von Subdomains anzuzeigen.
+1. Wählen Sie in den **[!UICONTROL Vorgangslogs]** die Registerkarte **[!UICONTROL Abgeschlossen]** und filtern Sie dann die Liste, um Vorgänge im Zusammenhang mit der Verwaltung von Subdomains anzuzeigen.
 
    ![](assets/renewal-download.png)
 
-1. Öffnen Sie den Auftrag, der der Generierung der CSR entspricht, und klicken Sie dann auf die **[!UICONTROL Download]** -Link, um die .csr -Datei abzurufen.
+1. Öffnen Sie den Vorgang, der der Generierung der CSR entspricht, und klicken Sie dann auf den **[!UICONTROL Downbload]**-Link, um die CSR-Datei zu erhalten.
 
    ![](assets/renewal-download-button.png)
