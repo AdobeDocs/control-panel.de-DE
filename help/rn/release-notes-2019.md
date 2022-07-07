@@ -1,10 +1,10 @@
 ---
 title: Versionshinweise 2019
-description: Auf dieser Seite werden alle Versionen des Control Panels von 2019 aufgelistet.
+description: Auf dieser Seite sind alle Control Panel-Versionen des Jahres 2019 aufgelistet.
 source-git-commit: e0b0daba3a5820dc80b35d8c83ffc9143d547529
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '150'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
