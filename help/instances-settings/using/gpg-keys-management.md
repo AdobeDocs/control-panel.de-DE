@@ -8,9 +8,9 @@ role: Architect
 level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
 source-git-commit: 140a84657325a3cb0e209996ca1aed7d6c1a3282
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1216'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Dazu müssen Sie mithilfe eines PGP-Verschlüsselungs-Tools ein GPG-Schlüsselpa
 
 >[!NOTE]
 >
->Sie können bis zu 60 GPG-Schlüssel im Control Panel installieren.
+>Sie können im Control Panel bis zu 60 GPG-Schlüssel installieren.
 
 ![](assets/do-not-localize/how-to-video.png) Funktion kennenlernen im [Video](#video).
 
@@ -149,7 +149,7 @@ Weitere Informationen hierzu finden Sie in der Adobe Campaign-Dokumentation:
 
 **Campaign Standard:**
 
-* [Verwalten verschlüsselter Daten](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
+* [Verwalten verschlüsselter Daten](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html?lang=de)
 * [Anwendungsfall: Importieren von Daten, die mit einem vom Control Panel generierten Schlüssel verschlüsselt wurden](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html?lang=de#use-case-gpg-decrypt)
 
 ## Überwachen von GPG-Schlüsseln
