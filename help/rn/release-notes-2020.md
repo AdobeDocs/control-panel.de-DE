@@ -1,10 +1,10 @@
 ---
 title: Versionshinweise 2020
-description: Auf dieser Seite werden alle Versionen des Control Panels für 2020 aufgelistet.
+description: Auf dieser Seite sind alle Control Panel-Versionen des Jahres 2020 aufgelistet.
 source-git-commit: e0b0daba3a5820dc80b35d8c83ffc9143d547529
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '429'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
