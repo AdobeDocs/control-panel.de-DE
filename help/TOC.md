@@ -58,7 +58,7 @@ ht-degree: 100%
       + [Überwachen von Workflows](performance-monitoring/using/workflow-monitoring.md)
       + [Verhindern von Datenbanküberlastungen](performance-monitoring/using/database-preventing-overload.md)
    + [Überwachen aktiver Profile](performance-monitoring/using/active-profiles-monitoring.md)
-   + [Überwachen von Durchsätzen und Latenzzeiten](performance-monitoring/using/thoughputs-latencies.md)
+   + [Überwachen von Durchsätzen und Latenzen](performance-monitoring/using/thoughputs-latencies.md)
    + [Benachrichtigungen per E-Mail](performance-monitoring/using/email-alerting.md)
 + Instanzeneinstellungen {#instances-settings}
    + [IP-Zulassungsauflistung für den Zugriff auf Instanzen](instances-settings/using/ip-allow-listing-instance-access.md)

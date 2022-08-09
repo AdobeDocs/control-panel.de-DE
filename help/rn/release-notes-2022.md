@@ -87,13 +87,13 @@ ht-degree: 100%
 <table>
 <thead>
 <tr>
-<th><strong>Aktualisierungen der Überwachung von Durchsätzen und Latenzzeiten</strong><br/></th>
+<th><strong>Aktualisierungen der Überwachung von Durchsätzen und Latenzen</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Die Überwachungsfunktionen für Durchsätze und Latenzzeiten wurden verbessert:<ul><li>Sie können jetzt die IDs der 5 Sendungen identifizieren, die am stärksten zum Durchsatz Ihrer Instanz beitragen.</li><li>Kunden von Campaign Classic v7/v8 können jetzt die Latenzzeit für einen bestimmten Kanal visualisieren.</p></li><p>Weitere Informationen finden Sie in der <a href="../performance-monitoring/using/thoughputs-latencies.md">entsprechenden Dokumentation</a>.</p>
+<p>Die Überwachungsfunktionen für Durchsätze und Latenzen wurden verbessert:<ul><li>Sie können jetzt die IDs der 5 Sendungen identifizieren, die am stärksten zum Durchsatz Ihrer Instanz beitragen.</li><li>Kunden von Campaign Classic v7/v8 können jetzt die Latenz für einen bestimmten Kanal visualisieren.</p></li><p>Weitere Informationen finden Sie in der <a href="../performance-monitoring/using/thoughputs-latencies.md">entsprechenden Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -122,7 +122,7 @@ ht-degree: 100%
 <table>
 <thead>
 <tr>
-<th><strong>Verfügbarkeit der Überwachung von Durchsätzen und Latenzzeiten</strong><br/></th>
+<th><strong>Verfügbarkeit der Überwachung von Durchsätzen und Latenzen</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -171,13 +171,13 @@ ht-degree: 100%
 <table>
 <thead>
 <tr>
-<th><strong>Überwachen von Durchsätzen und Latenzzeiten</strong><br/></th>
+<th><strong>Überwachen von Durchsätzen und Latenzen</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt die Entwicklung der Durchsätze und Latenzzeiten Ihrer Instanzen über einen bestimmten Zeitraum hinweg überwachen.</p><p>Weitere Informationen finden Sie in der <a href="../performance-monitoring/using/thoughputs-latencies.md">entsprechenden Dokumentation</a>.</p>
+<p>Sie können jetzt die Entwicklung der Durchsätze und Latenzen Ihrer Instanzen über einen bestimmten Zeitraum hinweg überwachen.</p><p>Weitere Informationen finden Sie in der <a href="../performance-monitoring/using/thoughputs-latencies.md">entsprechenden Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
