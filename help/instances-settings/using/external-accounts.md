@@ -8,9 +8,9 @@ role: Architect
 level: Intermediate
 exl-id: ff64acbe-d8cb-499b-b20f-b0934fb0f695
 source-git-commit: 4740a446265e5d06be35e66aa29676a24d4f7d29
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '481'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -94,4 +94,4 @@ Sobald eine MID/RT-Instanz zum Control Panel hinzugefügt worden ist, können Si
 * [Details Ihrer Instanz anzeigen](../../instances-settings/using/instance-details.md),
 * [Hinzufügen von IP-Adressen zur Zulassungsliste](../../instances-settings/using/ip-allow-listing-instance-access.md) (für RT-Instanzen),
 * [Informationen zu delegierten Subdomains anzeigen](../../subdomains-certificates/using/monitoring-subdomains.md),
-* [SSL-Zertifikate der Subdomains erneuern](../../subdomains-certificates/using/renewing-subdomain-certificate.md).
+* [Erneuern von SSL-Zertifikaten der Subdomains](../../subdomains-certificates/using/renewing-subdomain-certificate.md).
