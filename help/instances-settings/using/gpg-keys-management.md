@@ -7,7 +7,7 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
-source-git-commit: 140a84657325a3cb0e209996ca1aed7d6c1a3282
+source-git-commit: 5d2f0d08b7f9ae78fecfaa169190d6248ec4505b
 workflow-type: tm+mt
 source-wordcount: '1216'
 ht-degree: 100%
@@ -61,7 +61,7 @@ Dazu müssen Sie mithilfe eines PGP-Verschlüsselungs-Tools ein GPG-Schlüsselpa
 1. Geben Sie bei Aufforderung die gewünschten Parameter für den Schlüssel an. Erforderliche Parameter sind:
 
    * **Schlüsseltyp**: RSA
-   * **Schlüssellänge**: 1024–4096 Bit
+   * **Schlüssellänge**: 3072–4096 Bit
    * **Richtiger Name** und **E-Mail-Adresse**: Ermöglicht die Verfolgung, wer das Schlüsselpaar erstellt hat. Geben Sie einen Namen und eine E-Mail-Adresse ein, die mit Ihrer Organisation oder Abteilung verknüpft sind.
    * **Kommentar**: Wenn Sie dem Kommentarfeld eine Bezeichnung hinzufügen, können Sie den Schlüssel, der zum Verschlüsseln Ihrer Daten verwendet werden soll, leicht identifizieren.
    * **Gültigkeit**: Datum oder „0“ für kein Ablaufdatum.
