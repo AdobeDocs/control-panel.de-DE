@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
-source-git-commit: 3f68145c40f40df3e69f4fdfd889f3a7a2e995ab
+source-git-commit: 963c2af5cdca80ebc2cd79e0708dc4dfe8c6ec1e
 workflow-type: tm+mt
-source-wordcount: '770'
+source-wordcount: '798'
 ht-degree: 100%
 
 ---
@@ -38,7 +38,9 @@ Ja, Sie können im Control Panel nur die Einstellungen für Adobe Campaign verwa
 
 ### Kann jeder das Control Panel nutzen?
 
-Das Control Panel steht nur Produktadministratoren unserer aktuellen Kunden offen, bei denen Adobe Campaign auf AWS gehostet wird. Beachten Sie, dass hybride Umgebungen noch nicht unterstützt werden.
+Das Control Panel steht nur Produktadministratoren unserer aktuellen Kunden offen, bei denen Adobe Campaign auf AWS gehostet wird.
+
+Das Control Panel ermöglicht es Kunden mit einem hybriden Hosting-Modell, spezifische Funktionen des Control Panels zu nutzen. Dazu müssen sie die in ihrer Marketing-Instanz im Control Panel konfigurierte URL der MID/RT-Instanz angeben. [Weitere Informationen](instances-settings/using/external-accounts.md)
 
 Wenn Sie kein Administrator sind, aber Zugriff wünschen, wenden Sie sich an Ihren Produktadministrator mit der Bitte, Sie als Administrator hinzuzufügen.
 

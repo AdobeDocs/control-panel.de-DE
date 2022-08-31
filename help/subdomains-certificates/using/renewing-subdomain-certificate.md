@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
-source-git-commit: 5a5ac1a604fe5bdce07479ff84184abdb2e0ddba
+source-git-commit: 963c2af5cdca80ebc2cd79e0708dc4dfe8c6ec1e
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '228'
 ht-degree: 100%
 
 ---
@@ -22,12 +22,6 @@ ht-degree: 100%
 >abstract="Um ein SSL-Zertifikat hinzuzufügen, müssen Sie eine CSR generieren, das SSL-Zertifikat für Ihre Subdomain erwerben und das Zertifikat-Bundle installieren."
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html?lang=de#generating-csr" text="Generieren einer Certificate Signing Request (CSR)"
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html?lang=de#installing-ssl-certificate" text="Installieren eines SSL-Zertifikats"
-
->[!IMPORTANT]
->
->Die Verlängerung von SSL-Zertifikaten über das Control Panel ist in der Beta-Version verfügbar und unterliegt häufigen Aktualisierungen und Änderungen ohne Vorankündigung.
->
->Wenn Sie eine Instanz mit einem Hybrid-Hosting-Modell verwenden, können Sie nur die Zertifikate anzeigen, die mit den delegierten Subdomains verknüpft sind, und können diese nicht verlängern.
 
 Der Verlängerungsprozess eines SSL-Zertifikats besteht aus drei Schritten:
 

@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: a7888e1c-259d-4601-951b-0f1062d90dc2
-source-git-commit: 46a4e13e8017c5406dcd65f21c9839374dd44aa7
+source-git-commit: 963c2af5cdca80ebc2cd79e0708dc4dfe8c6ec1e
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '378'
 ht-degree: 100%
 
 ---
@@ -54,10 +54,6 @@ Die Registerkarte **[!UICONTROL Absenderdetails]** enthält Informationen zu den
 ![](assets/subdomain_details.png)
 
 Wenn eines der SSL-Zertifikate Ihrer Subdomain bald abläuft, können Sie es direkt im Control Panel verlängern. Weitere Informationen dazu finden Sie in diesem Abschnitt: [Verlängern des SSL-Zertifikats einer Subdomain](../../subdomains-certificates/using/renewing-subdomain-certificate.md).
-
->[!IMPORTANT]
->
->Die Zertifikatsverlängerung über das Control Panel befindet sich in der Betaversion und unterliegt häufigen Aktualisierungen und Änderungen ohne Vorankündigung.
 
 **Verwandte Themen:**
 
