@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: f1f6388bd32927cb13359f8975748ca4a158e660
-workflow-type: tm+mt
-source-wordcount: '1394'
+source-git-commit: bbf1aa11ef7e1b43b4df7799c4a4491b73cfbef1
+workflow-type: ht
+source-wordcount: '1367'
 ht-degree: 100%
 
 ---
@@ -23,10 +23,6 @@ ht-degree: 100%
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=de" text="Überwachen von SSL-Zertifikaten"
 
 ## Wichtige Informationen {#must-read}
-
->[!IMPORTANT]
->
->Wenn Sie eine Instanz mit einem Hybrid-Hosting-Modell verwenden, können Sie nur bereits zugewiesene Subdomains anzeigen und keine Subdomains konfigurieren.
 
 Auf dieser Seite finden Sie Informationen zum Einrichten neuer Subdomains mit der vollständigen Subdomain-Zuweisung oder mit CNAME. Globale Konzepte zu diesen beiden Methoden werden in diesem Abschnitt vorgestellt: [Subdomain-Branding](../../subdomains-certificates/using/subdomains-branding.md).
 
@@ -42,7 +38,7 @@ Wenn die im Assistenten ausgewählte Instanz keine zuvor eingerichteten Subdomai
 
 ### Nameserver-Konfiguration
 
-Achten Sie beim Konfigurieren von Nameservern darauf, **Adobe nie Ihre Stamm-Subdomain zuzuweisen**. Andernfalls kann die Domain nur mit Adobe verwendet werden. Eine andere Verwendung ist dann nicht möglich, wie z. B. das Senden interner E-Mails an die Mitarbeiter Ihrer Organisation.
+Achten Sie beim Konfigurieren von Nameservern darauf, **nie Ihre Stamm-Subdomain an Adobe zu delegieren**. Andernfalls kann die Domain nur mit Adobe verwendet werden. Eine andere Verwendung ist dann nicht möglich, wie z. B. das Senden interner E-Mails an die Mitarbeiter Ihrer Organisation.
 
 Erstellen Sie außerdem **keine separate Zonendatei** für diese neue Subdomain.
 
@@ -60,15 +56,15 @@ Erstellen Sie außerdem **keine separate Zonendatei** für diese neue Subdomain.
 >id="cp_add_subdomain_create_delegate"
 >title="Subdomain erstellen und delegieren"
 >abstract="Erstellen Sie die Subdomain, die Sie mit Adobe Campaign in Ihrer Hosting-Lösung verwenden möchten, und delegieren Sie sie an Adobe."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="Einrichten einer neuen Subdomain"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=de" text="Einrichten einer neuen Subdomain"
 
 >[!CONTEXTUALHELP]
 >id="cp_add_subdomain_submit"
 >title="Subdomain übermitteln"
 >abstract="Bestätigen und senden Sie die in den vorherigen Schritten konfigurierte Subdomain."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="Einrichten einer neuen Subdomain"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=de" text="Einrichten einer neuen Subdomain"
 
-Gehen Sie wie folgt vor, um Adobe Campaign eine Subdomain vollständig zuzuweisen.
+Gehen Sie wie folgt vor, um eine Subdomain vollständig an Adobe Campaign zu delegieren.
 
 ![](assets/do-not-localize/how-to-video.png) Entdecken Sie diese Funktion bei der Verwendung von [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=de#subdomains-and-certificates) oder [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=de#subdomains-and-certificates) im Video.
 
@@ -84,7 +80,7 @@ Gehen Sie wie folgt vor, um Adobe Campaign eine Subdomain vollständig zuzuweise
 
    >[!NOTE]
    >
-   > Bei Adobe Campaign Standard können Sie über zugewiesene Subdomains sowohl **Marketing**- als auch **Transaktions**-Nachrichten senden.
+   > Bei Adobe Campaign Standard können Sie über delegierte Subdomains sowohl **Marketing**- als auch **Transaktions**-Nachrichten senden.
 
    ![](assets/subdomain4.png)
 
@@ -96,7 +92,7 @@ Gehen Sie wie folgt vor, um Adobe Campaign eine Subdomain vollständig zuzuweise
 
 1. Geben Sie die von Ihnen erstellte Subdomain in Ihre Hosting-Lösung ein und wählen Sie dann **[!UICONTROL Senden]** aus.
 
-   Vergewissern Sie sich, dass Sie den **vollständigen Namen** der zuzuweisenden Subdomain eingeben. Um beispielsweise die Subdomain &quot;usoffer.email.weretail.com&quot; zuzuweisen, geben Sie &quot;usoffer.email.weretail.com&quot; ein.
+   Vergewissern Sie sich, dass Sie den **vollständigen Namen** der delegierten Subdomain eingeben. Um beispielsweise die Subdomain &quot;usoffer.email.weretail.com&quot; zu delegieren, geben Sie &quot;usoffer.email.weretail.com&quot; ein.
 
    ![](assets/subdomain6.png)
 
@@ -108,19 +104,19 @@ Sobald die Subdomain gesendet wurde, führt das Control Panel verschiedene Prüf
 >id="cp_add_cname_subdomain_create_delegate"
 >title="Subdomain konfigurieren"
 >abstract="Geben Sie in diesem Bildschirm die Subdomain an, die Sie mit CNAMEs konfigurieren möchten."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="Einrichten einer neuen Subdomain"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=de" text="Einrichten einer neuen Subdomain"
 
 >[!CONTEXTUALHELP]
 >id="cp_add_cname_records"
 >title="Einträge generieren"
 >abstract="Navigieren Sie zu Ihrer Hosting-Lösung, um die Liste der in diesem Bildschirm angezeigten DNS-Einträge zu generieren."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="Einrichten einer neuen Subdomain"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=de" text="Einrichten einer neuen Subdomain"
 
 >[!CONTEXTUALHELP]
 >id="cp_add_cname_subdomain_submit"
 >title="Subdomain übermitteln"
 >abstract="Bestätigen und senden Sie die in den vorherigen Schritten konfigurierte Subdomain."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="Einrichten einer neuen Subdomain"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=de" text="Einrichten einer neuen Subdomain"
 
 Gehen Sie wie folgt vor, um eine Subdomain mithilfe von CNAMEs zu konfigurieren.
 
