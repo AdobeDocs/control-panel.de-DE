@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: a7df90da-a2ce-409f-9bc3-c7d4fa3024c8
-source-git-commit: 3f68145c40f40df3e69f4fdfd889f3a7a2e995ab
+source-git-commit: c834ae7226ed9dd1f78d4f4511b52cb5f04abfae
 workflow-type: tm+mt
-source-wordcount: '609'
-ht-degree: 100%
+source-wordcount: '615'
+ht-degree: 95%
 
 ---
 
@@ -60,7 +60,7 @@ Gehen Sie wie folgt vor, um eine URL hinzuzufügen, mit der sich Ihre Instanz ve
 
    >[!NOTE]
    >
-   >Wenn die Karte „Instanzeneinstellungen“ nicht auf der Startseite des Control Panel sichtbar ist, bedeutet das, dass Ihre IMS-Organisationskennung mit keiner Adobe Campaign-Instanz verknüpft ist.
+   >Wenn die Karte Instanzeinstellungen nicht auf der Startseite des Control Panels sichtbar ist, bedeutet dies, dass Sie [Organisations-ID](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=de) ist mit keiner Adobe Campaign-Instanz verknüpft
    >
    >Auf der Registerkarte <b><span class="uicontrol">URL-Genehmigungen</span></b> werden alle externen URLs aufgelistet, mit denen Ihre Instanz eine Verbindung herstellen kann. Diese Liste enthält jedoch nicht die URLs, die für das Funktionieren von Campaign erforderlich sind (z. B. Verbindungen zwischen Infrastrukturelementen).
 

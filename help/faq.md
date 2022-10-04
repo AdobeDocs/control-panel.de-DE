@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
-source-git-commit: 963c2af5cdca80ebc2cd79e0708dc4dfe8c6ec1e
+source-git-commit: c834ae7226ed9dd1f78d4f4511b52cb5f04abfae
 workflow-type: tm+mt
-source-wordcount: '798'
-ht-degree: 100%
+source-wordcount: '786'
+ht-degree: 78%
 
 ---
 
@@ -58,33 +58,33 @@ Folgen Sie der detaillierten Anleitung in der Dokumentation im Abschnitt zum Zug
 
 Nein, es fallen keine zusätzlichen Kosten an, wenn Sie bereits Kunde von Adobe Campaign sind.
 
-## Kennung der IMS-Organisation {#ims-org-id}
+## Organization ID (Organisationskennung) {#ims-org-id}
 
-### Was ist die Kennung der IMS-Organisation?
+### Was ist eine Organisations-ID?
 
 Dies ist eine eindeutige Kennung, die Ihrer Instanz bei der ersten Anmeldung in Adobe Experience Cloud zugewiesen wird. Sie sollte im folgenden Format vorliegen: xxx@AdobeOrg.
 
 Weitere Informationen finden Sie in der [Adobe Experience Cloud-Dokumentation](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=de).
 
-### Wo finde ich meine Kennung der IMS-Organisation?
+### Wo finde ich meine Organisations-ID?
 
-Eine Möglichkeit besteht darin, zur [Startseite von Adobe Experience Cloud](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]** zu navigieren. Ihre Kennung der IMS-Organisation finden Sie in der Administration unten im Bereich **[!UICONTROL Schnellzugriff]**. Detailliertere Informationen finden Sie in der [Adobe Experience Cloud-Dokumentation](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html).
+Eine Möglichkeit besteht darin, zur [Startseite von Adobe Experience Cloud](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]** zu navigieren. Ihre Organisations-ID finden Sie unten in der Administration . **[!UICONTROL Schnellzugriff]** Abschnitt. Detailliertere Informationen finden Sie in der [Adobe Experience Cloud-Dokumentation](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html).
 
-Eine andere Möglichkeit besteht darin, die **Admin Console** zu starten. Ihre Kennung der IMS-Organisation wird in Ihrer URL angezeigt. Sie sieht in etwa so aus: https://adminconsole.adobe.com/xxx@AdobeOrg/overview.
+Eine andere Möglichkeit besteht darin, die **Admin Console** zu starten. Ihre Organisations-ID wird in Ihrer URL angezeigt. Sie sollte in etwa so aussehen: https://adminconsole.adobe.com/xxx@AdobeOrg/overview
 
-### Warum muss ich wissen, wie meine Kennung der IMS-Organisation lautet?
+### Warum muss ich wissen, wie meine Organisations-ID lautet?
 
 Damit Sie die Einstellungen für Ihre Instanz verwalten können, möchten wir sicherstellen, dass Sie die richtigen Informationen für die richtige Instanz erhalten, falls Sie mehrere Instanzen für Ihr Unternehmen verwenden.
 
-### Was passiert, wenn ich mehrere Kennungen der IMS-Organisation habe?
+### Was passiert, wenn ich mehrere Organisations-IDs habe?
 
-Wenn Sie Zugriff auf mehrere Adobe-Lösungen haben, kann es sein, dass Sie mehr als eine Kennung der IMS-Organisation besitzen. In diesem Fall ist die korrekte Kennung der IMS-Organisation, die Sie verwenden sollten, diejenige unter Ihrer Adobe Campaign-Instanz.
+Wenn Sie Zugriff auf mehrere Adobe-Lösungen haben, kann es sein, dass Sie über mehr als eine Organisations-ID verfügen. In diesem Fall ist die korrekte Organisations-ID, die Sie verwenden sollten, diejenige unter Ihrer Adobe Campaign-Instanz.
 
 >[!NOTE]
 >
->Wenn Sie dieselbe Kennung für Adobe Campaign und Adobe Analytics haben, ist das von Vorteil. Eine von Analytics und Campaign gemeinsam genutzte Kennung der IMS-Organisation ist Voraussetzung, um diese Lösungen zu integrieren und um komplexe Anwendungsfälle zu nutzen wie z. B. den Abbruch von Warenkörben (für AA und AC).
+>Wenn Sie dieselbe Organisations-ID für Adobe Campaign und Adobe Analytics haben, ist dies großartig. Eine Organisations-ID zwischen Analytics und Campaign ist eine Voraussetzung, wenn Sie die Lösungen integrieren möchten, um komplexe Anwendungsfälle wie den Abbruch von Warenkörben (für AA und AC) nutzen zu können.
 >
->Wenn für Adobe Campaign und Adobe Analytics unterschiedliche Kennungen der IMS-Organisation vorhanden sind, wenden Sie sich an die Kundenunterstützung mit der Bitte um eine Angleichung der beiden Kennungen.
+>Wenn Sie unterschiedliche Organisations-IDs für Adobe Campaign und Adobe Analytics haben, wenden Sie sich an die Kundenunterstützung, um eine Angleichung zu erreichen.
 
 ### Woher weiß ich, ob meine Adobe Campaign-Instanz auf AWS gehostet wird oder nicht?{#hosted-aws}
 

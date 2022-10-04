@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: ff64acbe-d8cb-499b-b20f-b0934fb0f695
-source-git-commit: bbf1aa11ef7e1b43b4df7799c4a4491b73cfbef1
+source-git-commit: c834ae7226ed9dd1f78d4f4511b52cb5f04abfae
 workflow-type: tm+mt
-source-wordcount: '480'
-ht-degree: 99%
+source-wordcount: '487'
+ht-degree: 93%
 
 ---
 
@@ -48,7 +48,7 @@ Hybrid-Kunden sollten eine Verbindung zum Control Panel über Experience Cloud h
 
 >[!NOTE]
 >
->Falls Probleme beim Zugriff auf das Control Panel auftreten, ist Ihre Marketing-Instanz höchstwahrscheinlich noch nicht Ihrer Organisations-ID zugeordnet. Wenden Sie sich an die Kundenunterstützung, um diese Einrichtung abzuschließen und fortzufahren. Bei erfolgreicher Verbindung wird die Startseite des Control Panels angezeigt.
+>Falls Probleme beim Zugriff auf das Control Panel auftreten, ist Ihre Marketing-Instanz höchstwahrscheinlich noch nicht Ihrer [Organisations-ID](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=de). Wenden Sie sich an die Kundenunterstützung, um diese Einrichtung abzuschließen und fortzufahren. Bei erfolgreicher Verbindung wird die Startseite des Control Panels angezeigt.
 
 Um auf die Funktionen des Control Panels zugreifen zu können, müssen Sie Ihre MID/RT-Instanzinformationen auf der Karte **[!UICONTROL Instanzeinstellungen]** angeben. Gehen Sie dazu wie folgt vor:
 

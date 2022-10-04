@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
-source-git-commit: 2458263ef5981a16d983912b498e320501df7889
+source-git-commit: c834ae7226ed9dd1f78d4f4511b52cb5f04abfae
 workflow-type: tm+mt
-source-wordcount: '858'
-ht-degree: 100%
+source-wordcount: '864'
+ht-degree: 96%
 
 ---
 
@@ -57,7 +57,7 @@ Beachten Sie die folgenden Empfehlungen und Einschränkungen, wenn Sie IP-Adress
 
 >[!NOTE]
 >
->Wenn die Karte **[!UICONTROL Instanzeneinstellungen]** nicht auf der Startseite des Control Panel sichtbar ist, bedeutet dies, dass Ihre IMS-Organisations-ID mit keiner Adobe Campaign v7/v8-Instanz verknüpft ist.
+>Wenn die Variable **[!UICONTROL Instanzeneinstellungen]** -Karte nicht auf der Startseite des Control Panels sichtbar ist, bedeutet dies, dass Ihre [Organisations-ID](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=de) ist mit keiner Adobe Campaign v7/v8-Instanz verknüpft.
 
 Gehen Sie wie folgt vor, um IP-Adressen auf die Zulassungsliste zu setzen:
 
@@ -93,7 +93,6 @@ Gehen Sie wie folgt vor, um IP-Adressen auf die Zulassungsliste zu setzen:
       >[!NOTE]
       >
       >Wenn Sie eine Instanz mit einem Hybrid-Hosting-Modell verwenden, können Sie IP-Adressen nur in „Externe API-Verbindung“ für eine RT-Instanz hinzufügen.
-
    ![](assets/ip_whitelist_acesstype.png)
 
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Speichern]**. Der IP-Bereich wird der Zulassungsliste hinzugefügt.
