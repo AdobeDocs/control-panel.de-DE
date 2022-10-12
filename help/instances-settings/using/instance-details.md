@@ -8,9 +8,9 @@ role: Architect
 level: Experienced
 exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
 source-git-commit: c834ae7226ed9dd1f78d4f4511b52cb5f04abfae
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '538'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ Gehen Sie wie folgt vor, um Informationen zu den mit Ihren Instanzen verbundenen
 
    >[!NOTE]
    >
-   >Wenn die Karte Instanzeinstellungen nicht auf der Startseite des Control Panels sichtbar ist, bedeutet das, dass Ihre Organisations-ID mit keiner Adobe Campaign v7/v8-Instanz verknüpft ist.
+   >Wenn die Karte „Instanzeinstellungen“ auf der Startseite des Control Panels nicht sichtbar ist, bedeutet dies, dass Ihre Organisations-ID mit keiner Adobe Campaign v7/v8-Instanz verbunden ist.
 
 1. Wählen Sie im linken Fenster die gewünschte Campaign-Instanz aus.
 
@@ -70,7 +70,7 @@ Diese Informationen sind verfügbar:
    * Gelb: Sie sollten ein Upgrade in Erwägung ziehen. Ihnen fehlen die neuesten Funktionen und Fehlerkorrekturen.
    * Rot: Führen Sie möglichst rasch ein Upgrade durch. Ihnen fehlen neue Funktionen und die Server-Leistung ist möglicherweise nicht optimal.
 
-Informationen zur Aktualisierung von Servern finden Sie in [dieser Dokumentation](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html).
+Informationen zur Aktualisierung von Servern finden Sie in [dieser Dokumentation](https://docs.campaign.adobe.com/doc/AC/getting_started/DE/buildUpgrade.html).
 
 ## Häufige Fragen {#common-questions}
 
