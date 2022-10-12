@@ -8,9 +8,9 @@ role: Architect
 level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
 source-git-commit: c834ae7226ed9dd1f78d4f4511b52cb5f04abfae
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '864'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ Beachten Sie die folgenden Empfehlungen und Einschränkungen, wenn Sie IP-Adress
 
 >[!NOTE]
 >
->Wenn die Variable **[!UICONTROL Instanzeneinstellungen]** -Karte nicht auf der Startseite des Control Panels sichtbar ist, bedeutet dies, dass Ihre [Organisations-ID](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=de) ist mit keiner Adobe Campaign v7/v8-Instanz verknüpft.
+>Wenn die Karte **[!UICONTROL Instanzeinstellungen]** auf der Startseite des Control Panels nicht sichtbar ist, bedeutet dies, dass Ihre [Organisations-ID](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=de) mit keiner Adobe Campaign v7/v8-Instanz verbunden ist.
 
 Gehen Sie wie folgt vor, um IP-Adressen auf die Zulassungsliste zu setzen:
 
