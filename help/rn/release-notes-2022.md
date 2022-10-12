@@ -3,9 +3,9 @@ title: Versionshinweise 2022
 description: Auf dieser Seite sind alle Control Panel-Versionen des Jahres 2022 aufgelistet.
 exl-id: 9fb18bb6-c4e4-48aa-849c-d9129add5266
 source-git-commit: bbf1aa11ef7e1b43b4df7799c4a4491b73cfbef1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '544'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -13,8 +13,8 @@ ht-degree: 95%
 
 ## August 2022 {#august-2022}
 
-* Kunden mit Hybrid-Hosting-Modell können nun ihre Subdomains überprüfen. [Weitere Informationen](../subdomains-certificates/using/monitoring-subdomains.md)
-* Das Feld &quot;Organisationseinheit (OU)&quot;ist jetzt in der Certificate Generation Request (CSR) optional. [Weitere Informationen](../subdomains-certificates/using/renewing-subdomain-certificate.md)
+* Kunden mit einem Hybrid-Hosting-Modell können nun ihre Subdomains verifizieren. [Weitere Informationen](../subdomains-certificates/using/monitoring-subdomains.md)
+* Das Feld „Organisationseinheit (OU)“ ist in der Certificate Generation Request (CSR) jetzt optional. [Weitere Informationen](../subdomains-certificates/using/renewing-subdomain-certificate.md)
 
 ## Juli 2022 {#july-2022}
 
