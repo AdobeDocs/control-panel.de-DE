@@ -8,9 +8,9 @@ role: Architect
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
 source-git-commit: c834ae7226ed9dd1f78d4f4511b52cb5f04abfae
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '786'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Ja, Sie können im Control Panel nur die Einstellungen für Adobe Campaign verwa
 
 ### Kann jeder das Control Panel nutzen?
 
-Das Control Panel steht nur Produktadministratoren unserer aktuellen Kunden offen, bei denen Adobe Campaign auf AWS gehostet wird.
+Das Control Panel kann nur von Produktadministratoren bzw. -administratorinnen unserer aktuellen Kunden verwendet werden, bei denen Adobe Campaign auf AWS gehostet wird.
 
 Das Control Panel ermöglicht es Kunden mit einem hybriden Hosting-Modell, spezifische Funktionen des Control Panels zu nutzen. Dazu müssen sie die in ihrer Marketing-Instanz im Control Panel konfigurierte URL der MID/RT-Instanz angeben. [Weitere Informationen](instances-settings/using/external-accounts.md)
 
@@ -58,7 +58,7 @@ Folgen Sie der detaillierten Anleitung in der Dokumentation im Abschnitt zum Zug
 
 Nein, es fallen keine zusätzlichen Kosten an, wenn Sie bereits Kunde von Adobe Campaign sind.
 
-## Organization ID (Organisationskennung) {#ims-org-id}
+## Organisations-ID {#ims-org-id}
 
 ### Was ist eine Organisations-ID?
 
@@ -68,23 +68,23 @@ Weitere Informationen finden Sie in der [Adobe Experience Cloud-Dokumentation](h
 
 ### Wo finde ich meine Organisations-ID?
 
-Eine Möglichkeit besteht darin, zur [Startseite von Adobe Experience Cloud](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]** zu navigieren. Ihre Organisations-ID finden Sie unten in der Administration . **[!UICONTROL Schnellzugriff]** Abschnitt. Detailliertere Informationen finden Sie in der [Adobe Experience Cloud-Dokumentation](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html).
+Eine Möglichkeit besteht darin, zur [Startseite von Adobe Experience Cloud](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]** zu navigieren. Ihre Organisations-ID finden Sie in der Administration unten im Bereich **[!UICONTROL Schnellzugriff]**. Detailliertere Informationen finden Sie in der [Adobe Experience Cloud-Dokumentation](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=de).
 
-Eine andere Möglichkeit besteht darin, die **Admin Console** zu starten. Ihre Organisations-ID wird in Ihrer URL angezeigt. Sie sollte in etwa so aussehen: https://adminconsole.adobe.com/xxx@AdobeOrg/overview
+Eine andere Möglichkeit besteht darin, die **Admin Console** zu starten. Ihre Organisations-ID wird in Ihrer URL angezeigt. Sie sieht in etwa so aus: https://adminconsole.adobe.com/xxx@AdobeOrg/overview.
 
-### Warum muss ich wissen, wie meine Organisations-ID lautet?
+### Warum muss ich meine Organisations-ID kennen?
 
 Damit Sie die Einstellungen für Ihre Instanz verwalten können, möchten wir sicherstellen, dass Sie die richtigen Informationen für die richtige Instanz erhalten, falls Sie mehrere Instanzen für Ihr Unternehmen verwenden.
 
 ### Was passiert, wenn ich mehrere Organisations-IDs habe?
 
-Wenn Sie Zugriff auf mehrere Adobe-Lösungen haben, kann es sein, dass Sie über mehr als eine Organisations-ID verfügen. In diesem Fall ist die korrekte Organisations-ID, die Sie verwenden sollten, diejenige unter Ihrer Adobe Campaign-Instanz.
+Wenn Sie Zugriff auf mehrere Adobe-Lösungen haben, kann es sein, dass Sie mehr als eine Organisations-ID besitzen. In diesem Fall ist die richtige Organisations-ID diejenige, die Sie unter Ihrer Adobe Campaign-Instanz sehen.
 
 >[!NOTE]
 >
->Wenn Sie dieselbe Organisations-ID für Adobe Campaign und Adobe Analytics haben, ist dies großartig. Eine Organisations-ID zwischen Analytics und Campaign ist eine Voraussetzung, wenn Sie die Lösungen integrieren möchten, um komplexe Anwendungsfälle wie den Abbruch von Warenkörben (für AA und AC) nutzen zu können.
+>Wenn Sie dieselbe Organisations-ID für Adobe Campaign und Adobe Analytics haben, ist das ideal. Eine einheitliche Organisations-ID für Analytics und Campaign ist eine Voraussetzung, um die Lösungen zu integrieren und komplexe Anwendungsfälle wie Warenkorbabbrüche (für AA + AC) zu nutzen.
 >
->Wenn Sie unterschiedliche Organisations-IDs für Adobe Campaign und Adobe Analytics haben, wenden Sie sich an die Kundenunterstützung, um eine Angleichung zu erreichen.
+>Wenn Sie unterschiedliche Organisations-IDs für Adobe Campaign und Adobe Analytics haben, wenden Sie sich bitte an die Kundenunterstützung, um sie angleichen zu lassen.
 
 ### Woher weiß ich, ob meine Adobe Campaign-Instanz auf AWS gehostet wird oder nicht?{#hosted-aws}
 
