@@ -5,9 +5,9 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: daa52035ea5db89552b56afc4ab5690610b6e846
-workflow-type: tm+mt
-source-wordcount: '252'
+source-git-commit: 9fc94d403a0cd4229feea112f460514bef9a2104
+workflow-type: ht
+source-wordcount: '242'
 ht-degree: 100%
 
 ---
@@ -18,7 +18,6 @@ ht-degree: 100%
 >id="cp_overview"
 >title="Über das Control Panel"
 >abstract="Auf der Startseite des Control Panels haben Sie Zugriff auf alle Aktionen, die auf Ihren Campaign-Instanzen ausgeführt werden können."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/discovering-the-interface.html?lang=de" text="Kennenlernen der Benutzeroberfläche"
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=de" text="Zugriff auf das Control Panel"
 
 ![](assets/do-not-localize/banner.png)
@@ -45,7 +44,7 @@ Der Prozess der CSR-Generierung wurde in mehreren Punkten verbessert. [Mehr dazu
 >
 >* Das Control Panel steht nur Administratoren zur Verfügung. [Weitere Informationen](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=de#discover-control-panel)   
 >
->* Für Campaign v7 gelten Implementierungsbeschränkungen. [Weitere Informationen](faq.md#v7-restrictions)   
+>* Für Campaign v7 gelten Implementierungsbeschränkungen. [Weitere Informationen](faq.md#v7-restrictions)
 
 
 ## Zusätzliche Ressourcen {#additional-resources}
