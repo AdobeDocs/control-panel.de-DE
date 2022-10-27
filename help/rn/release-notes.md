@@ -2,10 +2,10 @@
 title: Aktuelle Version
 description: Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für das Control Panel aufgelistet.
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: bbf1aa11ef7e1b43b4df7799c4a4491b73cfbef1
-workflow-type: ht
-source-wordcount: '41'
-ht-degree: 100%
+source-git-commit: 641c5ef1a62c278972e6a90ed85c52851deddb56
+workflow-type: tm+mt
+source-wordcount: '49'
+ht-degree: 61%
 
 ---
 
@@ -13,6 +13,6 @@ ht-degree: 100%
 
 Diese Seite listet alle neuen Funktionen und Verbesserungen für das Control Panel auf.
 
-## September 2022 {#september-2022}
+## Oktober 2022 {#october-2022}
 
-Kunden mit dem Hybrid-Hosting-Modell können jetzt neue Subdomains einrichten. [Weitere Informationen](../subdomains-certificates/using/setting-up-new-subdomain.md)
+Die E-Mail-Benachrichtigung benachrichtigt Sie jetzt, wenn eines Ihrer SSL-Zertifikate in 30 Tagen oder weniger abläuft. [Weitere Informationen](../performance-monitoring/using/email-alerting.md)

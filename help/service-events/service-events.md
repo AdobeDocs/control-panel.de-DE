@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: d230aae6-4f0e-4201-bb3c-0e3f83a7c1b8
-source-git-commit: 8d1eda31cbe6ab915760d4894a03a4a0055a3130
+source-git-commit: 80a96152ffcfa184fbeb6fc5cddcb119655ffab1
 workflow-type: tm+mt
 source-wordcount: '527'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -89,7 +89,7 @@ Gehen Sie wie folgt vor, um eine Benachrichtigung für ein Ereignis einzurichten
 
    >[!NOTE]
    >
-   >Wenn Sie die Benachrichtigungen des Control Panels noch nicht abonniert haben, wird eine Meldung angezeigt, in der Sie sich für den Erhalt von E-Mail-Benachrichtigungen anmelden können.
+   >Wenn Sie keine Warnhinweise vom Control Panel abonniert haben, wird eine Meldung angezeigt, mit der Sie sich für den Erhalt von E-Mail-Benachrichtigungen anmelden können.
 
 1. Die Erinnerung ist jetzt für das ausgewählte Ereignis eingerichtet. Wenn Sie den Mauszeiger darüber bewegen, wird der Titel angezeigt.
 

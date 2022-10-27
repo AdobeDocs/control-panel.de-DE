@@ -6,8 +6,8 @@ user-guide-title: Handbuch zum Control Panel
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: bf710d56b0f4d3834ab505633ae85cf9444b6ccf
-workflow-type: ht
+source-git-commit: 80a96152ffcfa184fbeb6fc5cddcb119655ffab1
+workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 100%
 
@@ -30,6 +30,8 @@ ht-degree: 100%
    + [Verwalten von Berechtigungen für das Control Panel](discover/using/managing-permissions.md)
    + [Die Benutzeroberfläche des Control Panels](discover/using/discovering-the-interface.md)
 + [Überwachung wichtiger Kontakte und Ereignisse](service-events/service-events.md)
++ [Benachrichtigungen per E-Mail](performance-monitoring/using/email-alerting.md)
++ Instanzeneinstellungen {#instances-settings}
 + SFTP-Verwaltung {#sftp-management}
    + [Über die SFTP-Verwaltung](sftp/using/about-sftp-management.md)
    + [Verwalten des SFTP-Speichers](sftp/using/sftp-storage-management.md)
@@ -59,8 +61,6 @@ ht-degree: 100%
       + [Verhindern von Datenbanküberlastungen](performance-monitoring/using/database-preventing-overload.md)
    + [Überwachen aktiver Profile](performance-monitoring/using/active-profiles-monitoring.md)
    + [Überwachen von Durchsätzen und Latenzen](performance-monitoring/using/thoughputs-latencies.md)
-   + [Benachrichtigungen per E-Mail](performance-monitoring/using/email-alerting.md)
-+ Instanzeneinstellungen {#instances-settings}
    + [IP-Zulassungsauflistung für den Zugriff auf Instanzen](instances-settings/using/ip-allow-listing-instance-access.md)
    + [URL-Genehmigungen](instances-settings/using/url-permissions.md)
    + [Details der Instanz](instances-settings/using/instance-details.md)
