@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 80a5dc43-205e-4764-805a-85d2faabc20a
-source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
-workflow-type: tm+mt
-source-wordcount: '114'
+source-git-commit: 6430a1719528e6b4d8c219eb5a88b6ace93b209d
+workflow-type: ht
+source-wordcount: '81'
 ht-degree: 100%
 
 ---
@@ -26,4 +26,3 @@ Mit der Karte **[!UICONTROL Leistungsüberwachung]** auf der Startseite von Cont
 >
 >In den kommenden Versionen des Control Panel werden zusätzliche Überwachungsfunktionen auf dieser Karte bereitgestellt.
 
-Darüber hinaus bietet Ihnen das Control Panel die Möglichkeit, sich für den Erhalt von E-Mail-Benachrichtigungen anzumelden. Diese werden versendet, wenn in einer Ihrer Campaign-Instanzen ein Problem festgestellt wird. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../performance-monitoring/using/email-alerting.md).
