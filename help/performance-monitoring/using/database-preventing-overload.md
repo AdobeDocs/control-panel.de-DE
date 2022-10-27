@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 07118637-cebd-4dd8-8374-2d7c20a47a89
-source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
-workflow-type: tm+mt
-source-wordcount: '195'
+source-git-commit: 95390bb1f8af21907ce8984279a6a73dd7828b00
+workflow-type: ht
+source-wordcount: '174'
 ht-degree: 100%
 
 ---
@@ -32,7 +32,3 @@ Im folgenden Abschnitt finden Sie nützliche Ressourcen aus Campaign-Dokumentati
 * [Fehlerbehebung bei der Datenbankleistung](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/troubleshooting-toc/database-issues-toc/database-performances.html?lang=de) (Campaign v7/v8)
 * [Datenbankbezogene Optionen](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html?lang=de#database) (Campaign v7/v8)
 * Datenspeicherung: [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/data-retention.html?lang=de) – [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/data-model/data-model-best-practices.html?lang=de#data-retention)
-
->[!NOTE]
->
->Zusätzlich stehen Ihnen auch Benachrichtigungen zur Verfügung, die an Sie gesendet werden, wenn eine Ihrer Datenbanken ihre Kapazitätsgrenze erreicht. Abonnieren Sie dazu [Benachrichtigungen per E-Mail](../../performance-monitoring/using/email-alerting.md).
