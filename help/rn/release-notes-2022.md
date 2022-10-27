@@ -2,14 +2,18 @@
 title: Versionshinweise 2022
 description: Auf dieser Seite sind alle Control Panel-Versionen des Jahres 2022 aufgelistet.
 exl-id: 9fb18bb6-c4e4-48aa-849c-d9129add5266
-source-git-commit: bbf1aa11ef7e1b43b4df7799c4a4491b73cfbef1
+source-git-commit: 95390bb1f8af21907ce8984279a6a73dd7828b00
 workflow-type: ht
-source-wordcount: '544'
+source-wordcount: '558'
 ht-degree: 100%
 
 ---
 
 # Versionshinweise 2022 {#rn-2022}
+
+## September 2022 {#september-2022}
+
+Kunden mit dem Hybrid-Hosting-Modell können jetzt neue Subdomains einrichten. [Weitere Informationen](../subdomains-certificates/using/setting-up-new-subdomain.md)
 
 ## August 2022 {#august-2022}
 
