@@ -8,9 +8,9 @@ role: Architect
 level: Experienced
 exl-id: 2bd7d2dd-97be-49bb-9f8e-7161d0742bc1
 source-git-commit: 80a96152ffcfa184fbeb6fc5cddcb119655ffab1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '397'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Im Laufe der Zeit können Datenbanken ihre maximale Kapazität erreichen, insbes
 
 Ein Überlaufen der Datenbank einer Instanz kann zu verschiedenen Problemen führen (Anmeldung nicht möglich, Versand von E-Mails nicht möglich usw.). Daher ist für optimale Leistung eine Überwachung der Datenbanken Ihrer Instanzen unerlässlich.
 
-Wenn Sie sich für [E-Mail-Benachrichtigung](../../performance-monitoring/using/email-alerting.md)erhalten Sie Benachrichtigungen per E-Mail, wenn eine der Datenbanken Ihrer Instanzen mindestens 80 % ihrer Kapazität erreicht hat.
+Wenn Sie [E-Mail-Benachrichtigungen](../../performance-monitoring/using/email-alerting.md) abonniert haben, erhalten Sie Benachrichtigungen per E-Mail, wenn eine der Datenbanken Ihrer Instanzen mindestens 80 % ihrer Kapazität erreicht hat.
 
 ## Überwachen der Datenbanknutzung{#monitoring-database-usage}
 
