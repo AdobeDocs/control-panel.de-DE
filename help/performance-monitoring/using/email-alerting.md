@@ -8,9 +8,9 @@ role: Architect
 level: Experienced
 exl-id: 7942d2b1-d28f-4760-aa25-5ba94a627fd0
 source-git-commit: 80a96152ffcfa184fbeb6fc5cddcb119655ffab1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '285'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -26,19 +26,19 @@ Die Liste der Warnungen lautet wie folgt:
 
 * **Datenbanknutzung**: Eine der Datenbanken Ihrer Instanzen hat mindestens 80 % ihrer Kapazität erreicht. Siehe [Datenbanküberwachung](../../performance-monitoring/using/database-monitoring.md).
 
-* **Ablauf der SFTP-IP-Zulassungsauflistung**: Einer der von Ihnen definierten IP-Bereiche ist abgelaufen oder läuft in spätestens 10 Tagen ab. Weitere Informationen finden Sie unter [IP-Bereich-Zulassungsauflistung](../../sftp/using/ip-range-allow-listing.md).
+* **Gültigkeit der SFTP-IP-Zulassungsauflistung**: Einer der von Ihnen definierten IP-Bereiche ist abgelaufen oder läuft in spätestens 10 Tagen ab. Weitere Informationen finden Sie unter [IP-Bereich-Zulassungsauflistung](../../sftp/using/ip-range-allow-listing.md).
 
-* **Ablauf des öffentlichen SFTP-Schlüssels**: Einer der von Ihnen definierten öffentlichen Schlüssel ist abgelaufen oder läuft in spätestens 10 Tagen ab. Weitere Informationen finden Sie unter [Schlüsselverwaltung](../../sftp/using/key-management.md).
+* **Gültigkeit des öffentlichen SFTP-Schlüssels**: Einer der von Ihnen definierten öffentlichen Schlüssel ist abgelaufen oder läuft in spätestens 10 Tagen ab. Weitere Informationen finden Sie unter [Schlüsselverwaltung](../../sftp/using/key-management.md).
 
-* **Ablauf des SSL-Zertifikats**: Eines der SSL-Zertifikate Ihrer Subdomains ist abgelaufen oder läuft in 30 Tagen oder weniger ab. Siehe [Überwachen von SSL-Zertifikaten der Subdomains](../../subdomains-certificates/using/monitoring-ssl-certificates.md).
+* **Gültigkeit des SSL-Zertifikats**: Eines der SSL-Zertifikate Ihrer Subdomains ist abgelaufen oder läuft in 30 Tagen oder weniger ab. Siehe [Überwachen von SSL-Zertifikaten der Subdomains](../../subdomains-certificates/using/monitoring-ssl-certificates.md).
 
 <!--* **Long running Queries**: A query has been running for more than 24 hours on one of your instances. See [Monitoring active queries](database-active-queries.md).-->
 
 >[!NOTE]
 >
->Darüber hinaus ermöglicht Ihnen das Control Panel Folgendes: **Erinnerungen festlegen** um per E-Mail benachrichtigt zu werden, bevor ein Ereignis auf Ihren Instanzen eintritt (Versionen und Service Reviews).
+>Darüber hinaus ermöglicht Ihnen das Control Panel, **Erinnerungen festzulegen**, um per E-Mail benachrichtigt zu werden, bevor ein Ereignis auf Ihren Instanzen eintritt (Versionen und Service-Reviews).
 >
->Dazu müssen Sie E-Mail-Warnungen abonniert und eine Erinnerung an die gewünschten bevorstehenden Ereignisse einrichten. [Erfahren Sie, wie Sie Erinnerungen für bevorstehende Ereignisse festlegen.](../../service-events/service-events.md#reminders)
+>Dazu müssen Sie E-Mail-Warnungen abonniert und eine Erinnerung an die gewünschten anstehenden Ereignisse eingerichtet haben. [Erfahren Sie, wie Sie Erinnerungen für anstehende Ereignisse festlegen.](../../service-events/service-events.md#reminders)
 
 ## Warnhinweise abonnieren {#subscribe}
 
