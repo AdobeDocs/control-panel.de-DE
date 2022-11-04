@@ -3,9 +3,9 @@ title: Aktuelle Version
 description: Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für das Control Panel aufgelistet.
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
 source-git-commit: 641c5ef1a62c278972e6a90ed85c52851deddb56
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '49'
-ht-degree: 61%
+ht-degree: 100%
 
 ---
 
