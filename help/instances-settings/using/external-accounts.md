@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: ff64acbe-d8cb-499b-b20f-b0934fb0f695
-source-git-commit: c834ae7226ed9dd1f78d4f4511b52cb5f04abfae
-workflow-type: ht
-source-wordcount: '487'
-ht-degree: 100%
+source-git-commit: 803068a1f6dec68afba11a4ea49edae1eafcedd5
+workflow-type: tm+mt
+source-wordcount: '484'
+ht-degree: 98%
 
 ---
 
@@ -92,6 +92,6 @@ Sobald eine MID/RT-Instanz zum Control Panel hinzugefügt worden ist, können Si
 
 * [Überwachung wichtiger Kontakte und Ereignisse](../../service-events/service-events.md)
 * [Details Ihrer Instanz anzeigen](../../instances-settings/using/instance-details.md),
-* [Hinzufügen von IP-Adressen zur Zulassungsliste](../../instances-settings/using/ip-allow-listing-instance-access.md) (für RT-Instanzen),
+* [Hinzufügen von IP-Adressen zur Zulassungsliste](../../instances-settings/using/ip-allow-listing-instance-access.md),
 * [Einrichten neuer Subdomains](../../subdomains-certificates/using/setting-up-new-subdomain.md),
 * [Erneuern von SSL-Zertifikaten der Subdomains](../../subdomains-certificates/using/renewing-subdomain-certificate.md).

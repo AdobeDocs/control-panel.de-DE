@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
-source-git-commit: c834ae7226ed9dd1f78d4f4511b52cb5f04abfae
-workflow-type: ht
-source-wordcount: '864'
-ht-degree: 100%
+source-git-commit: b6ccd751ee9885bacd955dfaf1ee61e923e0c07f
+workflow-type: tm+mt
+source-wordcount: '839'
+ht-degree: 96%
 
 ---
 
@@ -27,8 +27,6 @@ ht-degree: 100%
 >[!IMPORTANT]
 >
 >Diese Funktion ist nur für Campaign v7/v8-Instanzen verfügbar.
->
->Wenn Sie eine Instanz mit einem Hybrid-Hosting-Modell verwenden, können Sie IP-Adressen nur in „Externe API-Verbindung“ für eine RT-Instanz hinzufügen.
 
 Standardmäßig kann auf eine Adobe Campaign-Instanz nicht über verschiedene IP-Adressen zugegriffen werden.
 
@@ -90,9 +88,9 @@ Gehen Sie wie folgt vor, um IP-Adressen auf die Zulassungsliste zu setzen:
    * **[!UICONTROL AEM-Verbindung]**: Die angegebenen AEM-IP-Adressen können sich mit der Marketing-Instanz verbinden.
    * **[!UICONTROL Externe API-Verbindung]**: Externe APIs mit den angegebenen IP-Adressen können sich mit der Marketing- und/oder Message Center (RT)-Instanz verbinden. Beachten Sie, dass die Verbindung mit der Konsole für RT-Instanzen nicht aktiviert ist.
 
-      >[!NOTE]
-      >
-      >Wenn Sie eine Instanz mit einem Hybrid-Hosting-Modell verwenden, können Sie IP-Adressen nur in „Externe API-Verbindung“ für eine RT-Instanz hinzufügen.
+   >[!NOTE]
+   >
+   >Wenn Sie eine Instanz mit einem Hybrid-Hosting-Modell verwenden, können Sie nur IP-Adressen in &quot;Externe API-Verbindung&quot;für MID- und RT-Instanzen hinzufügen.
 
    ![](assets/ip_whitelist_acesstype.png)
 
