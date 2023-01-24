@@ -2,14 +2,18 @@
 title: Versionshinweise 2022
 description: Auf dieser Seite sind alle Control Panel-Versionen des Jahres 2022 aufgelistet.
 exl-id: 9fb18bb6-c4e4-48aa-849c-d9129add5266
-source-git-commit: 95390bb1f8af21907ce8984279a6a73dd7828b00
+source-git-commit: f617995e7313e7ac239116e0595d1746dfc7e51f
 workflow-type: ht
-source-wordcount: '558'
+source-wordcount: '580'
 ht-degree: 100%
 
 ---
 
 # Versionshinweise 2022 {#rn-2022}
+
+## Oktober 2022 {#october-2022}
+
+Die E-Mail-Benachrichtigung benachrichtigt Sie jetzt, wenn eines Ihrer SSL-Zertifikate in 30 Tagen oder weniger abläuft. [Weitere Informationen](../performance-monitoring/using/email-alerting.md)
 
 ## September 2022 {#september-2022}
 
