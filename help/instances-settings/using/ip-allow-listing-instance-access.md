@@ -8,9 +8,9 @@ role: Architect
 level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
 source-git-commit: b6ccd751ee9885bacd955dfaf1ee61e923e0c07f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '839'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -90,7 +90,7 @@ Gehen Sie wie folgt vor, um IP-Adressen auf die Zulassungsliste zu setzen:
 
    >[!NOTE]
    >
-   >Wenn Sie eine Instanz mit einem Hybrid-Hosting-Modell verwenden, können Sie nur IP-Adressen in &quot;Externe API-Verbindung&quot;für MID- und RT-Instanzen hinzufügen.
+   >Bei Verwendung einer Instanz mit einem Hybrid-Hosting-Modell können IP-Adressen für MID- und RT-Instanzen nur in „Externe API-Verbindung“ hinzugefügt werden.
 
    ![](assets/ip_whitelist_acesstype.png)
 
