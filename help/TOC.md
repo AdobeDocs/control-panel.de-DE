@@ -6,8 +6,8 @@ user-guide-title: Handbuch zum Control Panel
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: 80a96152ffcfa184fbeb6fc5cddcb119655ffab1
-workflow-type: ht
+source-git-commit: e0eb0bba95bcd02fef8f9bac4e9605711d3a9c30
+workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 100%
 
@@ -60,7 +60,7 @@ ht-degree: 100%
       + [Überwachen von Workflows](performance-monitoring/using/workflow-monitoring.md)
       + [Verhindern von Datenbanküberlastungen](performance-monitoring/using/database-preventing-overload.md)
    + [Überwachen aktiver Profile](performance-monitoring/using/active-profiles-monitoring.md)
-   + [Überwachen von Durchsätzen und Latenzen](performance-monitoring/using/thoughputs-latencies.md)
+   + [Überwachen von Durchsätzen und Latenzen](performance-monitoring/using/throughputs-latencies.md)
    + [IP-Zulassungsauflistung für den Zugriff auf Instanzen](instances-settings/using/ip-allow-listing-instance-access.md)
    + [URL-Genehmigungen](instances-settings/using/url-permissions.md)
    + [Details der Instanz](instances-settings/using/instance-details.md)
