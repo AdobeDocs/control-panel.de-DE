@@ -2,8 +2,8 @@
 title: Versionshinweise 2022
 description: Auf dieser Seite sind alle Control Panel-Versionen des Jahres 2022 aufgelistet.
 exl-id: 9fb18bb6-c4e4-48aa-849c-d9129add5266
-source-git-commit: f617995e7313e7ac239116e0595d1746dfc7e51f
-workflow-type: ht
+source-git-commit: e0eb0bba95bcd02fef8f9bac4e9605711d3a9c30
+workflow-type: tm+mt
 source-wordcount: '580'
 ht-degree: 100%
 
@@ -123,7 +123,7 @@ Kunden mit dem Hybrid-Hosting-Modell können jetzt neue Subdomains einrichten. [
 <tbody>
 <tr>
 <td>
-<p>Die Überwachungsfunktionen für Durchsätze und Latenzen wurden verbessert:<ul><li>Sie können jetzt die IDs der 5 Sendungen identifizieren, die am stärksten zum Durchsatz Ihrer Instanz beitragen.</li><li>Kunden von Campaign Classic v7/v8 können jetzt die Latenz für einen bestimmten Kanal visualisieren.</p></li><p>Weitere Informationen finden Sie in der <a href="../performance-monitoring/using/thoughputs-latencies.md">entsprechenden Dokumentation</a>.</p>
+<p>Die Überwachungsfunktionen für Durchsätze und Latenzen wurden verbessert:<ul><li>Sie können jetzt die IDs der 5 Sendungen identifizieren, die am stärksten zum Durchsatz Ihrer Instanz beitragen.</li><li>Kunden von Campaign Classic v7/v8 können jetzt die Latenz für einen bestimmten Kanal visualisieren.</p></li><p>Weitere Informationen finden Sie in der <a href="../performance-monitoring/using/throughputs-latencies.md">entsprechenden Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -158,7 +158,7 @@ Kunden mit dem Hybrid-Hosting-Modell können jetzt neue Subdomains einrichten. [
 <tbody>
 <tr>
 <td>
-<p>Die Durchsatz- und Latenzüberwachung sind jetzt für alle Campaign Standard- und v8-Kunden sowie für Campaign v7-Kunden mit den Build-Nummern 9032, 9330, 9346 oder 9349 verfügbar, die eigenständige Bereitstellungen (ohne Mid-Instanz) besitzen.</p><p>Weitere Informationen finden Sie in der <a href="../performance-monitoring/using/thoughputs-latencies.md">entsprechenden Dokumentation.</a></p>
+<p>Die Durchsatz- und Latenzüberwachung sind jetzt für alle Campaign Standard- und v8-Kunden sowie für Campaign v7-Kunden mit den Build-Nummern 9032, 9330, 9346 oder 9349 verfügbar, die eigenständige Bereitstellungen (ohne Mid-Instanz) besitzen.</p><p>Weitere Informationen finden Sie in der <a href="../performance-monitoring/using/throughputs-latencies.md">entsprechenden Dokumentation.</a></p>
 </td>
 </tr>
 </tbody>
@@ -207,7 +207,7 @@ Kunden mit dem Hybrid-Hosting-Modell können jetzt neue Subdomains einrichten. [
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt die Entwicklung der Durchsätze und Latenzen Ihrer Instanzen über einen bestimmten Zeitraum hinweg überwachen.</p><p>Weitere Informationen finden Sie in der <a href="../performance-monitoring/using/thoughputs-latencies.md">entsprechenden Dokumentation</a>.</p>
+<p>Sie können jetzt die Entwicklung der Durchsätze und Latenzen Ihrer Instanzen über einen bestimmten Zeitraum hinweg überwachen.</p><p>Weitere Informationen finden Sie in der <a href="../performance-monitoring/using/throughputs-latencies.md">entsprechenden Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
