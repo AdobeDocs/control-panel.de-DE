@@ -7,19 +7,14 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: a7888e1c-259d-4601-951b-0f1062d90dc2
-source-git-commit: 349f97423b9a4834ab17c50c1f9cde226b99e4cc
-workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 99%
+source-git-commit: a6a77cf6e564f4607c0c12facb2061cfb102a5a5
+workflow-type: ht
+source-wordcount: '378'
+ht-degree: 100%
 
 ---
 
 # Überwachen von SSL-Zertifikaten der Subdomains {#monitoring-ssl-certificates}
-
->[!CONTEXTUALHELP]
->id="cp_subdomain_undelegate"
->title="Nicht zuweisen von Subdomains "
->abstract="Noch nicht definiert"
 
 ## Über SSL-Zertifikate {#about-ssl-certificates}
 
