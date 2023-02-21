@@ -37,7 +37,7 @@ Dies hilft Ihnen, die Reputation Ihrer Domain und anderer Subdomains zu schütze
 
 Mithilfe der Subdomain-Konfiguration können Sie einen Teil Ihrer Domain (technisch eine „DNS-Zone“) für die Verwendung mit Adobe Campaign konfigurieren. Verfügbare Einrichtungsmethoden sind:
 
-* **Vollständige Subdomain-Zuweisung an Adobe Campaign** (empfohlen): Die Subdomain wird Adobe vollständig zugewiesen. Adobe kann Campaign als verwalteten Dienst bereitstellen, im Rahmen dessen alle DNS-Bereiche kontrolliert und gewartet werden, die für die Zustellung, die korrekte Darstellung und das Tracking von E-Mail-Kampagnen erforderlich sind.
+* **Vollständige Subdomain-Delegation an Adobe Campaign** (empfohlen): Die Subdomain wird vollständig an Adobe delegiert. Adobe kann Campaign als verwalteten Dienst bereitstellen, im Rahmen dessen alle DNS-Bereiche kontrolliert und gewartet werden, die für die Zustellung, die korrekte Darstellung und das Tracking von E-Mail-Kampagnen erforderlich sind.
 
 * **Verwenden von CNAME**: Erstellen Sie eine Subdomain und verwenden Sie CNAME, um auf Adobe-spezifische Einträge zu verweisen. Mit dieser Konfiguration sind Adobe und der Kunde gleichermaßen für die Wartung des DNS verantwortlich.
 

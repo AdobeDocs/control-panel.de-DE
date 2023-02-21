@@ -9,8 +9,8 @@ level: Intermediate
 exl-id: 7314a679-78c3-4650-bf3a-2bde8be82747
 source-git-commit: 7115dac6b3a4cf002979fba36113b98507fdf3db
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 100%
+source-wordcount: '288'
+ht-degree: 97%
 
 ---
 
@@ -20,7 +20,7 @@ Auf das Control Panel haben alle Admin-Benutzer einer Campaign-Instanz Zugriff. 
 
 ![](assets/do-not-localize/how-to-video.png) Funktion kennenlernen im [Video](../../discover/using/managing-permissions.md#video)
 
-1. Gehen Sie zur [Startseite von Adobe Experience Cloud](https://experiencecloud.adobe.com/){target=&quot;_blank&quot;}.
+1. Navigieren Sie zum [Adobe Experience Cloud-Homepage](https://experiencecloud.adobe.com/){target="_blank"}.
 
 1. Starten Sie die **Admin Console**, indem Sie auf den verfügbaren Link im Bereich **Schnellzugriff** oder im Menü oben rechts klicken.
 

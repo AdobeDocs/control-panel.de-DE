@@ -5,7 +5,7 @@ exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
 source-git-commit: e72d3809eddc47cf0b41422f6c703671ebefad38
 workflow-type: tm+mt
 source-wordcount: '71'
-ht-degree: 42%
+ht-degree: 69%
 
 ---
 
@@ -17,7 +17,7 @@ Diese Seite listet alle neuen Funktionen und Verbesserungen für das Control Pan
 
 **Neue Hybrid-Hosting-Modellfunktion**
 
-Kunden mit hybridem Hosting-Modell können der Zulassungsliste nun IP-Adressen für den Zugriff auf MID-Instanzen hinzufügen. [Weitere Informationen](../instances-settings/using/ip-allow-listing-instance-access.md)
+Kundinnen und Kunden mit Hybrid-Hosting-Modell können der Zulassungsliste nun IP-Adressen für den Zugriff auf MID-Instanzen hinzufügen. [Weitere Informationen](../instances-settings/using/ip-allow-listing-instance-access.md)
 
 **Verbesserung bei Certificate Signing Request (CSR)**
 
