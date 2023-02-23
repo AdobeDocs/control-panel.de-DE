@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: edd55d07-bf0b-44b0-8281-be69c698d5e8
-source-git-commit: 76c42ba45b3430b1b93458f18b1b0e78f289fad1
+source-git-commit: f0c3df4727e89e3f6127fe4563908b955ccb820c
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '211'
 ht-degree: 72%
 
 ---
@@ -18,8 +18,8 @@ ht-degree: 72%
 
 >[!CONTEXTUALHELP]
 >id="cp_subdomain_undelegate"
->title="Delegierte Subdomains entfernen "
->abstract="In diesem Bildschirm können Sie jede Subdomain entfernen, die im Control Panel zugewiesen wurde. Beachten Sie, dass das Entfernen von Subdomains nicht rückgängig gemacht werden kann und nach der Übermittlung nicht mehr rückgängig gemacht werden kann.<br><br>Wenn Sie versuchen, die primäre Domäne für die ausgewählte Instanz zu entfernen, werden Sie aufgefordert, die Domäne auszuwählen, die sie ersetzen soll."
+>title="Zuweisung von Subdomains entfernen"
+>abstract="Auf diesem Bildschirm können Sie die Zuweisung einer Subdomain zu Adobe entfernen. Beachten Sie, dass dieser Prozess nach der Übermittlung nicht mehr rückgängig gemacht oder gestoppt werden kann.<br><br>Wenn Sie versuchen, die Zuweisung einer primären Domäne für die ausgewählte Instanz zu entfernen, werden Sie aufgefordert, die Domäne auszuwählen, die sie ersetzen soll."
 
 Sie müssen Ihre Subdomains unbedingt überwachen, um sicherzustellen, dass alle ordnungsgemäß für die Verwendung mit Adobe Campaign konfiguriert sind.
 
