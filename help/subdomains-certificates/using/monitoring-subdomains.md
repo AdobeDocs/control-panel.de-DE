@@ -7,19 +7,15 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: edd55d07-bf0b-44b0-8281-be69c698d5e8
-source-git-commit: f0c3df4727e89e3f6127fe4563908b955ccb820c
+source-git-commit: acf0334e894649d6b5edf0b96877c3f643894763
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 72%
+source-wordcount: '154'
+ht-degree: 100%
 
 ---
 
-# Überwachen von Subdomains {#monitoring-subdomains}
 
->[!CONTEXTUALHELP]
->id="cp_subdomain_undelegate"
->title="Zuweisung von Subdomains entfernen"
->abstract="Auf diesem Bildschirm können Sie die Zuweisung einer Subdomain zu Adobe entfernen. Beachten Sie, dass dieser Prozess nach der Übermittlung nicht mehr rückgängig gemacht oder gestoppt werden kann.<br><br>Wenn Sie versuchen, die Zuweisung einer primären Domäne für die ausgewählte Instanz zu entfernen, werden Sie aufgefordert, die Domäne auszuwählen, die sie ersetzen soll."
+# Überwachen Ihrer Subdomains {#monitoring-subdomains}
 
 Sie müssen Ihre Subdomains unbedingt überwachen, um sicherzustellen, dass alle ordnungsgemäß für die Verwendung mit Adobe Campaign konfiguriert sind.
 
@@ -33,9 +29,7 @@ Die Spalte **[!UICONTROL Letzte Verifizierung]** gibt an, wann eine Subdomain zu
 >
 >Adobe rät von der Verwendung von Subdomains ohne Zertifikatsdatum ab, da diese Subdomains Probleme mit der Zustellbarkeit haben können.
 
-Beim Starten einer Verifizierung werden mehrere Vorgänge ausgeführt, um zu überprüfen, ob die Subdomain korrekt konfiguriert ist (Prüfung des Instanzmandanten, E-Mail-Versand-Test usw.)
-
-Wenn die Verifizierung der Subdomain fehlschlägt, wenden Sie sich für weitere Informationen an die Adobe-Kundenunterstützung.
+Beim Starten einer Verifizierung werden mehrere Vorgänge ausgeführt, um zu überprüfen, ob die Subdomain korrekt konfiguriert ist (Prüfung des Instanzmandanten, E-Mail-Versand-Test usw.) Wenn die Verifizierung der Subdomain fehlschlägt, wenden Sie sich für weitere Informationen an die Adobe-Kundenunterstützung.
 
 **Verwandte Themen:**
 

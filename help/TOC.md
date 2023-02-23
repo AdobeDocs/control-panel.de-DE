@@ -6,10 +6,10 @@ user-guide-title: Handbuch zum Control Panel
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: 99241b1b4982049f844fcf51d307ace36ee70c94
+source-git-commit: a62bf4913a97c12ab282709d06c9a50b8b503d8d
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 100%
+source-wordcount: '160'
+ht-degree: 94%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 100%
 + Versionshinweise {#release-notes}
    + [Aktuelle Version](rn/release-notes.md)
    + Frühere Versionen {#previous-releases}
+      + [Versionshinweise 2023](rn/release-notes-2023.md)
       + [Versionshinweise 2022](rn/release-notes-2022.md)
       + [Versionshinweise 2021](rn/release-notes-2021.md)
       + [Versionshinweise 2020](rn/release-notes-2020.md)
@@ -42,10 +43,11 @@ ht-degree: 100%
    + [Subdomain-Branding](subdomains-certificates/using/subdomains-branding.md)
    + [Überwachen Ihrer Subdomains](subdomains-certificates/using/monitoring-subdomains.md)
    + [Einrichten einer neuen Subdomain](subdomains-certificates/using/setting-up-new-subdomain.md)
+   + [Zuweisung von Subdomains zur Adobe entfernen](subdomains-certificates/using/remove-delegated-subdomains.md)
    + [Verwalten von TXT-Einträgen](subdomains-certificates/using/managing-txt-records.md)
-   + [Überwachen von SSL-Zertifikaten](subdomains-certificates/using/monitoring-ssl-certificates.md)
-   + Verlängern von SSL-Zertifikaten {#renew-ssl}
-      + [Über die Verlängerung von SSL-Zertifikaten](subdomains-certificates/using/renewing-subdomain-certificate.md)
+   + Verwalten von SSL-Zertifikaten {#manage-certificates}
+      + [Überwachen von SSL-Zertifikaten](subdomains-certificates/using/monitoring-ssl-certificates.md)
+      + [Verlängern von SSL-Zertifikaten](subdomains-certificates/using/renewing-subdomain-certificate.md)
       + [CSR generieren](subdomains-certificates/using/generate-csr.md)
       + [Installieren des SSL-Zertifikats](subdomains-certificates/using/install-ssl-certificate.md)
 + Monitoring der Leistung {#performance-monitoring}
