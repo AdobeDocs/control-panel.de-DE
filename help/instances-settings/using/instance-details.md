@@ -8,9 +8,9 @@ role: Architect
 level: Experienced
 exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
 source-git-commit: 78ac04811f0110fa8f90d4ec51bc33a0ac97c4eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '536'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -37,8 +37,8 @@ Mit der Funktion &quot;Details der Instanz&quot; können Sie sich die flache Arc
 
 **Verwandte Themen:**
 
-* [Durchführen eines Build-Upgrades](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/build-upgrade.html)
-* [Adobe Campaign aktualisieren](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/introduction.html)
+* [Durchführen eines Build-Upgrades](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/build-upgrade.html?lang=de)
+* [Adobe Campaign aktualisieren](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/introduction.html?lang=de)
 
 ## Abrufen von Informationen zu Ihren Instanzen {#retrieving-information-about-instances}
 
@@ -70,7 +70,7 @@ Diese Informationen sind verfügbar:
    * Gelb: Sie sollten ein Upgrade in Erwägung ziehen. Ihnen fehlen die neuesten Funktionen und Fehlerkorrekturen.
    * Rot: Führen Sie möglichst rasch ein Upgrade durch. Ihnen fehlen neue Funktionen und die Server-Leistung ist möglicherweise nicht optimal.
 
-Informationen zur Aktualisierung von Servern finden Sie in [dieser Dokumentation](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/build-upgrade.html).
+Informationen zur Aktualisierung von Servern finden Sie in [dieser Dokumentation](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/build-upgrade.html?lang=de).
 
 ## Häufige Fragen {#common-questions}
 
