@@ -8,9 +8,9 @@ role: Architect
 level: Intermediate
 exl-id: a7df90da-a2ce-409f-9bc3-c7d4fa3024c8
 source-git-commit: 78ac04811f0110fa8f90d4ec51bc33a0ac97c4eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '612'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Nach dem Hinzufügen einer URL wird sie in der Konfigurationsdatei der Instanz r
 
 **Verwandte Themen:**
 
-* [Campaign-Server konfigurieren](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configuring-campaign-server.html)
+* [Campaign-Server konfigurieren](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configuring-campaign-server.html?lang=de)
 * [Schutz der ausgehenden Verbindung](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/server-configuration.html?lang=de#outgoing-connection-protection)
 
 ## Best Practices {#best-practices}
