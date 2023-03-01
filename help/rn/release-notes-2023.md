@@ -4,7 +4,7 @@ description: Auf dieser Seite sind alle Control Panel-Versionen des Jahres 2023 
 source-git-commit: a62bf4913a97c12ab282709d06c9a50b8b503d8d
 workflow-type: tm+mt
 source-wordcount: '56'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
@@ -18,4 +18,4 @@ Kundinnen und Kunden mit Hybrid-Hosting-Modell können der Zulassungsliste nun I
 
 **Verbesserung bei Certificate Signing Request (CSR)**
 
-Das Feld Stadt/Ort ist jetzt bei der Erstellung von Certificate Signing Request optional.
+Das Feld „Stadt/Ort“ ist jetzt bei der Erstellung einer Certificate Signing Request optional.
