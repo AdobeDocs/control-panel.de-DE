@@ -2,10 +2,10 @@
 title: Aktuelle Version
 description: Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für das Control Panel aufgelistet.
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 975ed013a50c6f5e15178e3c8700c554c5baa34c
+source-git-commit: 349eb8778a19263b83b70b8c920c401aff7fa24a
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 34%
+source-wordcount: '105'
+ht-degree: 30%
 
 ---
 
@@ -17,10 +17,13 @@ Diese Seite listet alle neuen Funktionen und Verbesserungen für das Control Pan
 
 **Delegationslöschung für an die Adobe delegierte Subdomains**
 
-Sie können jetzt die Zuweisung einer Subdomain entfernen, die an Adobe delegiert wurde, einschließlich CNAME-Einrichtung. [Weitere Informationen](../subdomains-certificates/using/remove-delegated-subdomains.md)
+Sie können jetzt die Zuweisung einer Subdomain entfernen, die vollständig an Adobe delegiert ist. [Weitere Informationen](../subdomains-certificates/using/remove-delegated-subdomains.md)
 
 ![](assets/do-not-localize/gif-delegation.gif)
 
+>[!NOTE]
+>
+>Die Entfernung von Delegierungen ist derzeit nicht für Subdomains verfügbar, die mit CNAME eingerichtet wurden.
 
 **Dienstkalender**
 
