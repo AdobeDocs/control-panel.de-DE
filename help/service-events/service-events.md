@@ -1,33 +1,33 @@
 ---
 product: campaign
 solution: Campaign
-title: Wichtige Kontakte und Ereignisse identifizieren
-description: Erfahren Sie, wie Sie Ereignisse auf Ihren Instanzen und wichtige Ansprechpartner bei Adobe finden können.
+title: Identifizieren wichtiger Kontakte und Ereignisse
+description: Erfahren Sie, wie Sie Ereignisse auf Ihren Instanzen identifizieren und wichtige Ansprechpersonen bei Adobe finden können.
 feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: d230aae6-4f0e-4201-bb3c-0e3f83a7c1b8
 source-git-commit: 5e2a5975a4a2ced4b23a18900309fc537daf13c0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '780'
-ht-degree: 44%
+ht-degree: 100%
 
 ---
 
-# Wichtige Kontakte und Ereignisse identifizieren {#keycontacts-events}
+# Identifizieren wichtiger Kontakte und Ereignisse {#keycontacts-events}
 
 >[!CONTEXTUALHELP]
 >id="cp_servicecalendar_serviceevents"
 >title="Service-Kalender"
->abstract="Im Abschnitt „Wichtige Kontakte“ finden Sie eine Liste der Ansprechpartner bei Adobe, an die Sie sich bei Anfragen oder Problemen mit Ihren Instanzen wenden können. Im Abschnitt Dienstereigniskalender können Sie frühere/bevorstehende Versionen und Warnungen für die ausgewählte Instanz identifizieren und Erinnerungen für ein bestimmtes Ereignis einrichten."
+>abstract="Im Abschnitt „Wichtige Kontakte“ finden Sie eine Liste der Ansprechpartner bei Adobe, an die Sie sich bei Anfragen oder Problemen mit Ihren Instanzen wenden können. Im Abschnitt „Kalender der Service-Ereignisse“ können Sie frühere und künftige Versionen und Benachrichtigungen für die ausgewählte Instanz identifizieren und Erinnerungen für ein bestimmtes Ereignis einrichten."
 
 >[!IMPORTANT]
 >
 >Der Service-Kalender ist als Beta-Version verfügbar und unterliegt häufigen Aktualisierungen und Änderungen ohne Vorankündigung.
 
-Um Ihre Campaign-Instanzen effektiv überwachen zu können, ist es wichtig, wichtige Ereignisse zu verfolgen, die sich auf Ihre Instanz(en) auswirken können. Im Control Panel können Sie Ereignisse wie neue Versionen, Upgrades, Patches, Hotfixes usw. identifizieren. und stellt eine Liste der wichtigsten Ansprechpartner für Adoben bei Anfragen oder Problemen bereit.
+Um Ihre Campaign-Instanzen effektiv überwachen zu können, sollten Sie wichtige Ereignisse nachverfolgen, die sich auf Ihre Instanzen auswirken können. Im Control Panel können Sie Ereignisse wie neue Versionen, Upgrades, Patches, Hotfixes usw. identifizieren. und eine Liste der wichtigsten Kontaktpersonen bei Adobe für Anfragen oder Probleme abrufen.
 
-Auf diese Informationen kann über die **[!UICONTROL Dienstkalender]** Karte auf der Startseite des Control Panels.
+Diese Informationen können Sie über die Karte **[!UICONTROL Service-Kalender]** auf der Startseite von Control Panel abrufen.
 
 ## Wichtige Kontakte {#key-contacts}
 
@@ -47,25 +47,25 @@ Zu den wichtigen Kontakten gehören die folgenden Rollen:
 * **[!UICONTROL Transition Manager]**: Managed Services Transition Manager (nur Managed Services-Konto),
 * **[!UICONTROL Onboarding-Spezialist]**: Dem Konto zugewiesener Spezialist, der Sie beim Einstieg in Campaign Classic unterstützt (nur Managed Services-Konto).
 
-## Wichtige Ereignisse verfolgen {#events}
+## Nachverfolgen wichtiger Ereignisse {#events}
 
-Die **[!UICONTROL Dienstereigniskalender]** enthält alle früheren und kommenden Versionen sowie Warnhinweise, die Benutzer abonniert haben, die in den E-Mail-Warnungen des Control Panels angezeigt wurden. Darüber hinaus ermöglicht das Control Panel Benutzern das Festlegen von Erinnerungen und das Kennzeichnen relevanter Ereignisse für die ausgewählte Instanz, damit diese besser organisiert und effizient sind.
+Im Abschnitt **[!UICONTROL Kalender der Service-Ereignisse]** von Control Panel werden alle früheren und künftigen Versionen sowie alle von Benutzenden abonnierten E-Mail-Warnhinweise angezeigt. Darüber hinaus können Benutzende in Control Panel Erinnerungen einrichten und relevante Ereignisse für die ausgewählte Instanz markieren. Dies sorgt für eine bessere Organisation und Effizienz.
 
-Ereignisse werden entweder in einem Kalender oder in einer Liste angezeigt. Sie können mit der **[!UICONTROL Kalender]** und **[!UICONTROL Liste]** -Schaltflächen in der oberen rechten Ecke des Bereichs.
+Ereignisse werden entweder in einem Kalender oder in einer Liste angezeigt. Über die Schaltflächen **[!UICONTROL Kalender]** und **[!UICONTROL Liste]** in der oberen rechten Ecke des Bereichs können Sie zwischen den zwei Ansichten wechseln.
 
 ![](assets/service-events-calendar.png)
 
 <table><tr style="border: 0;">
 <td><img src="assets/do-not-localize/nav-buttons.png">
-</td><td>In der Kalenderansicht sind Navigationsschaltflächen in der oberen rechten Ecke verfügbar, mit denen Sie die Ereignisse durchsuchen können. Verwenden Sie die <b>Doppelpfeile</b> um zum ersten Ereignis zu navigieren, das nach/vor dem ausgewählten Monat auftritt, und die <b>Einzelpfeile</b> um von einem Monat zum nächsten zu navigieren. Klicken Sie auf <b>Kreis-Schaltfläche</b> , um zur heutigen Ansicht zurückzukehren.</td>
+</td><td>Navigationsschaltflächen, mit denen Sie die Ereignisse durchsuchen können, sind in der Kalenderansicht in der oberen rechten Ecke zu finden. Klicken Sie auf die <b>Doppelpfeile</b>, um zum ersten Ereignis nach/vor dem ausgewählten Monat zu gehen. Über die <b>Einzelpfeile</b> können Sie von einem Monat zum nächsten navigieren. Klicken Sie auf die <b>Kreis-Schaltfläche</b>, um zur heutigen Ansicht zurückzukehren.</td>
 </tr></table>
 
-Es werden drei Ereignistypen angezeigt:
+Es werden drei Arten von Ereignissen angezeigt:
 
-* **Erinnerungen** von Benutzern festgelegt werden, damit sie benachrichtigt werden können, bevor ein Ereignis eintritt. Diese werden in der Kalenderansicht grün angezeigt. [Erfahren Sie, wie Sie Erinnerungen festlegen](#reminders)
-* **Warnhinweise** werden vom Control Panel per E-Mail gesendet, um Benutzer über Probleme in ihren Instanzen zu informieren, z. B. über eine Speicherüberlastung oder den Ablauf von SSL-Zertifikaten. Diese werden in der Kalenderansicht orange angezeigt. Die Ereignisbeschreibung gibt an, ob der Warnhinweis je nach Abonnement für E-Mail-Warnungen an den angemeldeten Benutzer gesendet wird. [Weitere Informationen zu den Funktionen für E-Mail-Warnungen im Control Panel](../performance-monitoring/using/email-alerting.md)
+* **Erinnerungen** werden von Benutzenden festgelegt, damit sie benachrichtigt werden, bevor ein Ereignis eintritt. Sie werden in der Kalenderansicht grün angezeigt. [Weitere Informationen zum Festlegen von Erinnerungen](#reminders)
+* **Warnhinweise** werden vom Control Panel per E-Mail gesendet, um Benutzende über Probleme in ihren Instanzen zu informieren, z. B. bei einer Speicherüberlastung oder beim Gültigkeitsablauf von SSL-Zertifikaten. Sie werden in der Kalenderansicht orange angezeigt. Die Ereignisbeschreibung gibt an, ob der Warnhinweis an die angemeldete Person gesendet wird, je nachdem, ob sie E-Mail-Warnhinweise abonniert hat. [Weitere Informationen zu E-Mail-Warnhinweisen im Control Panel](../performance-monitoring/using/email-alerting.md)
 
-* **Versionen** Geben Sie sowohl vergangene als auch bevorstehende Implementierungen für die Instanz an, die in der Kalenderansicht in Grau bzw. Blau angezeigt werden. In den Ereignisdetails wird der mit der jeweiligen Bereitstellung verknüpfte Freigabetyp angegeben:
+* **Versionen** zeigt sowohl frühere als auch künftige Implementierungen für die Instanz an. Diese werden in der Kalenderansicht grau bzw. blau angezeigt. In den Ereignisdetails wird der Versionstyp der jeweiligen Implementierung angegeben:
 
    * **[!UICONTROL Allgemeine Verfügbarkeit]**: Neuester verfügbarer stabiler Build.
    * **[!UICONTROL Eingeschränkte Verfügbarkeit]**: Implementierung nur auf Anfrage.
@@ -74,7 +74,7 @@ Es werden drei Ereignistypen angezeigt:
    * **[!UICONTROL Nicht mehr verfügbar]**: Mit diesem Build bestehen zwar keine größeren Probleme, aber es ist ein neuerer Build mit zusätzlichen Fehlerkorrekturen verfügbar. Ein Upgrade ist erforderlich.
    * **[!UICONTROL Veraltet]**: Ein Build, der bekannte Regressionen enthält. Der Build wird nicht mehr unterstützt. Ein Upgrade ist unbedingt erforderlich.
 
-Sie können einem oder mehreren kommenden Ereignissen eine Markierung zuweisen, um sie zu verfolgen. Klicken Sie dazu auf die Suchschaltfläche neben dem Ereignisnamen.
+Sie können einem oder mehreren kommenden Ereignissen eine Markierung zuweisen, um sie zu verfolgen. Klicken Sie dazu auf die Schaltfläche mit den Auslassungspunkten neben dem Ereignisnamen.
 
 ![](assets/service-events-flag.png)
 
@@ -88,9 +88,9 @@ Mit Service-Kalender können Sie Erinnerungen festlegen, um vor einem Ereignis p
 
 Gehen Sie wie folgt vor, um eine Benachrichtigung für ein Ereignis einzurichten:
 
-1. Bewegen Sie den Mauszeiger über das Ereignis, an das Sie erinnert werden möchten, oder klicken Sie in der Listenansicht auf die Schaltfläche mit den Auslassungspunkten und wählen Sie **[!UICONTROL Set Reminder]**.
+1. Bewegen Sie den Mauszeiger über das Ereignis, an das Sie erinnert werden möchten, oder klicken Sie in der Listenansicht auf die Schaltfläche mit den Auslassungspunkten, und wählen Sie **[!UICONTROL Erinnerung einstellen]** aus.
 
-1. Geben Sie der Erinnerung einen Titel und wählen Sie das Datum aus, an dem Sie benachrichtigt werden möchten, bevor das Ereignis eintritt.
+1. Geben Sie der Erinnerung einen Titel und wählen Sie dann, wie früh Sie benachrichtigt werden möchten, bevor das Ereignis eintritt.
 
    ![](assets/service-events-set-reminder.png)
 
