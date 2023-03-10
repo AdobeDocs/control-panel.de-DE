@@ -6,9 +6,9 @@ role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: d0ba7f99eefd565ffa52dbe22771df0cd5438899
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '236'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -26,13 +26,13 @@ Das Control Panel von Campaign hilft Produktadministratoren von Campaign Standar
 
 ## Neue Funktionen
 
-**Delegationslöschung für an die Adobe delegierte Subdomains**
+**Entfernung der Delegation für an Adobe delegierte Subdomains**
 
-Sie können jetzt die Zuweisung einer Subdomain entfernen, die an Adobe delegiert wurde, einschließlich CNAME-Einrichtung. [Weitere Informationen](../help/subdomains-certificates/using/remove-delegated-subdomains.md)
+Sie können jetzt die Delegation einer Subdomain, die Adobe delegiert wurde, entfernen, einschließlich der Einrichtung mit CNAME. [Weitere Informationen](../help/subdomains-certificates/using/remove-delegated-subdomains.md)
 
-**Dienstkalender**
+**Service-Kalender**
 
-Der Dienstkalender bietet jetzt eine Kalenderansicht, in der Sie wichtige Ereignisse verfolgen können, die in Ihren Instanzen auftreten. Darüber hinaus wurden Informationen zu den Benachrichtigungen hinzugefügt, die an Benutzer gesendet werden, die Warnhinweise im Control Panel abonniert haben. [Weitere Informationen](../help/service-events/service-events.md)
+Der Service-Kalender bietet jetzt eine Kalenderansicht, in der Sie wichtige Ereignisse verfolgen können, die in Ihren Instanzen auftreten. Darüber hinaus wurden Informationen zu den Benachrichtigungen hinzugefügt, die an Benutzende gesendet werden, die Warnhinweise von Control Panel abonniert haben. [Weitere Informationen](../help/service-events/service-events.md)
 
 >[!CAUTION]
 >
