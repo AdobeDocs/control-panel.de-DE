@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Beginner
 source-git-commit: a62bf4913a97c12ab282709d06c9a50b8b503d8d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '160'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 94%
    + [Subdomain-Branding](subdomains-certificates/using/subdomains-branding.md)
    + [Überwachen Ihrer Subdomains](subdomains-certificates/using/monitoring-subdomains.md)
    + [Einrichten einer neuen Subdomain](subdomains-certificates/using/setting-up-new-subdomain.md)
-   + [Zuweisung von Subdomains zur Adobe entfernen](subdomains-certificates/using/remove-delegated-subdomains.md)
+   + [Entfernen der Zuweisung von Subdomains an Adobe](subdomains-certificates/using/remove-delegated-subdomains.md)
    + [Verwalten von TXT-Einträgen](subdomains-certificates/using/managing-txt-records.md)
    + Verwalten von SSL-Zertifikaten {#manage-certificates}
       + [Überwachen von SSL-Zertifikaten](subdomains-certificates/using/monitoring-ssl-certificates.md)
