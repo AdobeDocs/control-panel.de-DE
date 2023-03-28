@@ -6,10 +6,10 @@ description: Erfahren Sie, wie Sie die Zuweisung von Subdomains an Adobe entfern
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: dbd1b2dd31cf732609f8a515e9adc1c43cbf39c6
+source-git-commit: 4cf7fc767deaff12ca63c844e5c0842eea558078
 workflow-type: tm+mt
-source-wordcount: '819'
-ht-degree: 61%
+source-wordcount: '821'
+ht-degree: 60%
 
 ---
 
@@ -66,14 +66,16 @@ Beim Entfernen einer CNAME-Delegation müssen Sie **DNS-Einträge entfernen** vo
 
 In der folgenden Tabelle sind die Aktionen aufgeführt, die je nach Art der Delegation, die Sie entfernen, und der Art der Zuweisung, die zum Einrichten der Ersatzdomäne verwendet wird.
 
-| Delegation entfernt | Ersetzungsdomäne | Erforderliche Aktion |
+| Delegation entfernt | Zuweisung von Ersatzdomänen | Erforderliche Aktion |
 |  ---  |  ---  |  ---  |
-| Vollständig | Keine Ersatzdomäne | Keine Aktion erforderlich |
-| Vollständig | CNAME | DNS-Einträge hinzufügen (optional, je nach IP-Affinitäten) |
-| Vollständig | Vollständig | Keine Aktion erforderlich |
 | CNAME | Keine Ersatzdomäne | DNS-Einträge löschen |
-| CNAME | CNAME | DNS-Einträge löschen und hinzufügen (optional je nach IP-Affinitäten) |
+| CNAME | CNAME | DNS-Einträge löschen<br/>DNS-Einträge hinzufügen *(optional, je nach IP-Affinitäten)* |
 | CNAME | Vollständig | DNS-Einträge löschen |
+| Vollständig | Keine Ersatzdomäne | Keine Aktion erforderlich |
+| Vollständig | CNAME | DNS-Einträge hinzufügen *(optional, je nach IP-Affinitäten)* |
+| Vollständig | Vollständig | Keine Aktion erforderlich |
+
+{style="table-layout:auto"}
 
 Dazu wird eine zusätzliche **[!DNL Action]** vor der Bestätigung des Delegationslöschens angezeigt. Dieser Bildschirm listet die DNS-Einträge auf, die je nach Kontext entfernt oder hinzugefügt werden sollen.
 
