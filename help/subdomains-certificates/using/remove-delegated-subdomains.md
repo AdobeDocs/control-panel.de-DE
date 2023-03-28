@@ -6,10 +6,10 @@ description: Erfahren Sie, wie Sie die Zuweisung von Subdomains an Adobe entfern
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: 349eb8778a19263b83b70b8c920c401aff7fa24a
+source-git-commit: dbd1b2dd31cf732609f8a515e9adc1c43cbf39c6
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 100%
+source-wordcount: '819'
+ht-degree: 61%
 
 ---
 
@@ -20,11 +20,7 @@ ht-degree: 100%
 >title="Entfernen der Delegierung einer Subdomain"
 >abstract="Auf diesem Bildschirm können Sie die Zuweisung einer Subdomain an Adobe entfernen. Es ist zu beachten, dass dieser Prozess nicht rückgängig gemacht werden kann und unumkehrbar ist, sobald die Ausführung begonnen hat.<br><br>Wenn Sie versuchen, die Zuweisung der primären Domain für die ausgewählte Instanz zu entfernen, müssen Sie die Domain angeben, der sie stattdessen zugewiesen werden soll."
 
-Mit Control Panel können Sie die Delegation einer Adobe delegierten Subdomain entfernen.
-
->[!NOTE]
->
->Bei Subdomains, die mit CNAME eingerichtet wurden, können Zuweisungen derzeit nicht entfernt werden.
+Mit dem Control Panel können Sie die Zuweisung einer Subdomain entfernen, die vollständig mit CNAMEs an Adobe delegiert oder delegiert wurde.
 
 ## Wichtige Hinweise {#important}
 
@@ -52,6 +48,8 @@ Gehen Sie wie folgt vor, um die Zuweisung einer Subdomain zu Adobe zu entfernen:
 
    ![](assets/undelegate-subdomain-details.png)
 
+1. Wenn Sie eine Delegation vom Typ CNAME entfernen oder eine primäre Domäne durch eine mit CNAMEs delegierte Domäne ersetzen, wird eine zusätzliche **[!UICONTROL Aktion]** -Schritt angezeigt, um DNS-Einträge zu verwalten. [Weitere Informationen finden Sie in diesem Abschnitt](#dns)
+
 1. Lesen Sie die angezeigte Zusammenfassung. Um die Entfernung zu bestätigen, geben Sie die URL der Domain ein, für die Sie die Zuweisung entfernen möchten, und klicken Sie auf **[!UICONTROL Senden]**.
 
    ![](assets/undelegate-submit.png)
@@ -59,6 +57,39 @@ Gehen Sie wie folgt vor, um die Zuweisung einer Subdomain zu Adobe zu entfernen:
 Nachdem der Entfernungsprozess gestartet wurde, wird der ausstehende Vorgang in den Vorgangslogs angezeigt, bis er abgeschlossen ist.
 
 ![](assets/undelegate-job.png)
+
+## Verwaltung von DNS-Einträgen {#dns}
+
+Um eine Domänendelegierung mit CNAMEs zu konfigurieren, muss das Control Panel bestimmte Einträge auf Ihrem DNS-Server hinzufügen. [Erfahren Sie, wie Sie Subdomains mit CNAMEs einrichten.](setting-up-new-subdomain.md#use-cnames)
+
+Beim Entfernen einer CNAME-Delegation müssen Sie **DNS-Einträge entfernen** von Ihrem Server aus, um Probleme zu vermeiden. Wenn Sie außerdem die Zuweisung einer primären Subdomain entfernen und sie durch eine mit CNAME delegierte Domäne ersetzen möchten, müssen Sie möglicherweise **DNS-Einträge hinzufügen** auf Ihrem Server, abhängig von den für die Subdomain festgelegten IP-Affinitäten.
+
+In der folgenden Tabelle sind die Aktionen aufgeführt, die je nach Art der Delegation, die Sie entfernen, und der Art der Zuweisung, die zum Einrichten der Ersatzdomäne verwendet wird.
+
+| Delegation entfernt | Ersetzungsdomäne | Erforderliche Aktion |
+|  ---  |  ---  |  ---  |
+| Vollständig | Keine Ersatzdomäne | Keine Aktion erforderlich |
+| Vollständig | CNAME | DNS-Einträge hinzufügen (optional, je nach IP-Affinitäten) |
+| Vollständig | Vollständig | Keine Aktion erforderlich |
+| CNAME | Keine Ersatzdomäne | DNS-Einträge löschen |
+| CNAME | CNAME | DNS-Einträge löschen und hinzufügen (optional je nach IP-Affinitäten) |
+| CNAME | Vollständig | DNS-Einträge löschen |
+
+Dazu wird eine zusätzliche **[!DNL Action]** vor der Bestätigung des Delegationslöschens angezeigt. Dieser Bildschirm listet die DNS-Einträge auf, die je nach Kontext entfernt oder hinzugefügt werden sollen.
+
+![](assets/action-step.png)
+
+### DNS-Einträge löschen
+
+1. Navigieren Sie zu Ihrem DNS-Server und entfernen Sie die im Control Panel aufgelisteten Datensätze.
+1. Gehen Sie zurück zum Control Panel und klicken Sie auf **[!UICONTROL Nächste]** , um mit der Entfernung der Delegation fortzufahren.
+
+### DNS-Einträge hinzufügen
+
+1. Navigieren Sie zu Ihrem DNS-Server und fügen Sie die im Control Panel aufgelisteten Datensätze hinzu.
+1. Warten Sie, bis der DNS-Zusatz wirksam ist.
+1. Gehen Sie zurück zum Control Panel und klicken Sie auf **[!UICONTROL Überprüfen]**.
+1. Nachdem das Hinzufügen der Datensätze erfolgreich überprüft wurde, klicken Sie auf **[!UICONTROL Nächste]** , um mit der Entfernung der Delegation fortzufahren.
 
 ## Fehler-Codes {#FAQ}
 
