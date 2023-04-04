@@ -3,9 +3,9 @@ title: Aktuelle Version
 description: Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für das Control Panel aufgelistet.
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
 source-git-commit: 83138e63558125757259849064552904594e2e0b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '49'
-ht-degree: 61%
+ht-degree: 100%
 
 ---
 
@@ -15,6 +15,6 @@ Diese Seite listet alle neuen Funktionen und Verbesserungen für das Control Pan
 
 ## März 2023 {#march-2023}
 
-**Entfernung der Subdomain-Zuweisung für CNAME**
+**Entfernen der Subdomain-Delegation für CNAME-Einträge**
 
-Sie können jetzt die Zuweisung von Subdomains entfernen, die mit CNAME konfiguriert wurden. [Weitere Informationen](../subdomains-certificates/using/remove-delegated-subdomains.md)
+Sie können nun die Delegation von Subdomains, die mithilfe von CNAME-Einträgen konfiguriert wurden, aufheben. [Weitere Informationen](../subdomains-certificates/using/remove-delegated-subdomains.md)
