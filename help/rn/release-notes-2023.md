@@ -3,7 +3,7 @@ title: Versionshinweise 2023
 description: Auf dieser Seite sind alle Control Panel-Versionen des Jahres 2023 aufgelistet.
 source-git-commit: 83138e63558125757259849064552904594e2e0b
 workflow-type: ht
-source-wordcount: '0'
+source-wordcount: '134'
 ht-degree: 100%
 
 ---
