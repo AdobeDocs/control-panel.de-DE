@@ -6,10 +6,11 @@ description: Erfahren Sie, wie Sie die Zuweisung von Subdomains an Adobe entfern
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: 4cf7fc767deaff12ca63c844e5c0842eea558078
-workflow-type: ht
-source-wordcount: '821'
-ht-degree: 100%
+exl-id: 517818c9-8557-49fd-b49c-b98b60e48f1c
+source-git-commit: ea738ea3764e4651e0eb7b4bcc68a9f7b3c8d1e5
+workflow-type: tm+mt
+source-wordcount: '828'
+ht-degree: 95%
 
 ---
 
@@ -34,7 +35,7 @@ Bevor Sie fortfahren, sollten Sie sorgfältig prüfen, welche Auswirkungen das E
 
 Gehen Sie wie folgt vor, um die Zuweisung einer Subdomain zu Adobe zu entfernen:
 
-1. Klicken Sie neben der Domain, die Sie entfernen möchten, auf die Schaltfläche mit den Auslassungspunkten und wählen Sie **[!UICONTROL Delegierte Subdomain entfernen]** aus.
+1. Klicken Sie auf die Suchschaltfläche neben der Domäne, die Sie entfernen möchten, und wählen Sie **[!UICONTROL Zuweisung löschen]**.
 
    ![](assets/undelegate-subdomain.png)
 
@@ -77,7 +78,7 @@ In der folgenden Tabelle ist(sind) die auszuführende(n) Aktion(en) aufgeführt,
 
 {style="table-layout:auto"}
 
-Dazu wird ein zusätzlicher **[!DNL Action]**-Schritt angezeigt, bevor die Entfernung der Delegation bestätigt wird. In diesem Bildschirm werden je nach Kontext die zu entfernenden oder hinzuzufügenden DNS-Einträge aufgelistet.
+Wenn eine dieser Aktionen zum Entfernen der Delegation erforderlich ist, wird eine zusätzliche **[!DNL Action]** vor der Bestätigung des Delegationslöschens angezeigt. In diesem Bildschirm werden je nach Kontext die zu entfernenden oder hinzuzufügenden DNS-Einträge aufgelistet.
 
 ![](assets/action-step.png)
 

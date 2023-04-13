@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: eddef17f-0667-4b43-bc56-2b1aeeae61bb
-source-git-commit: e0eb0bba95bcd02fef8f9bac4e9605711d3a9c30
+source-git-commit: ea738ea3764e4651e0eb7b4bcc68a9f7b3c8d1e5
 workflow-type: tm+mt
 source-wordcount: '436'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -46,7 +46,7 @@ Sie können diese Informationen auch in tabellarischer Form mit sortierbaren Spa
 
 ![](assets/throughput-latencies-table.png)
 
-## Überwachung des Durchsatzes {#throughput}
+## Durchsatz überwachen {#throughput}
 
 Der Bereich **[!UICONTROL Durchsatz]** enthält Informationen zur Anzahl der Nachrichten, die pro Stunde von der ausgewählten Campaign-Instanz für alle Kommunikationskanäle gesendet werden, für die Sie eine Berechtigung haben.
 
