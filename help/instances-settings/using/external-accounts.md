@@ -54,7 +54,7 @@ Um auf die Funktionen des Control Panels zugreifen zu können, müssen Sie Ihre 
 
 1. Wählen Sie auf der Karte **[!UICONTROL Instanzeinstellungen]** die Registerkarte **[!UICONTROL Externe Konten]**.
 
-1. Wählen Sie die gewünschte Marketinginstanz aus der Dropdown-Liste und klicken Sie dann auf **[!UICONTROL Neue URL hinzufügen]**.
+1. Wählen Sie die gewünschte Marketing-Instanz aus der Dropdown-Liste und klicken Sie dann auf **[!UICONTROL Neue URL hinzufügen]**.
 
    ![](assets/external-account-addbutton.png)
 
