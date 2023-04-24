@@ -19,7 +19,7 @@ ht-degree: 95%
 >[!CONTEXTUALHELP]
 >id="cp_subdomain_undelegate"
 >title="Entfernen der Delegierung einer Subdomain"
->abstract="Auf diesem Bildschirm können Sie die Zuweisung einer Subdomain an Adobe entfernen. Es ist zu beachten, dass dieser Prozess nicht rückgängig gemacht werden kann und unumkehrbar ist, sobald die Ausführung begonnen hat.<br><br>Wenn Sie versuchen, die Zuweisung der primären Domain für die ausgewählte Instanz zu entfernen, müssen Sie die Domain angeben, der sie stattdessen zugewiesen werden soll."
+>abstract="Auf diesem Bildschirm kann die Delegierung einer Subdomain an Adobe entfernt werden. Es ist zu beachten, dass dieser Prozess nicht rückgängig gemacht werden kann und unumkehrbar ist, sobald die Ausführung begonnen hat.<br><br>Beim Versuch, die Delegierung der primären Domain für die ausgewählte Instanz zu entfernen, muss die Domain angegeben werden, der sie stattdessen zugewiesen werden soll."
 
 Mit dem Control Panel können Sie die Delegation einer Subdomain entfernen, die vollständig an Adobe oder mithilfe von CNAME-Einträgen delegiert wurde.
 
