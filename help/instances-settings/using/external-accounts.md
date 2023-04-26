@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: ff64acbe-d8cb-499b-b20f-b0934fb0f695
-source-git-commit: 803068a1f6dec68afba11a4ea49edae1eafcedd5
+source-git-commit: 96d18b56f70a6a8bf0270a5c94f5ba16923d0e9f
 workflow-type: tm+mt
-source-wordcount: '484'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +21,10 @@ ht-degree: 100%
 >title="Externe Konten"
 >abstract="In diesem Bildschirm können Kunden mit Hybrid-Hosting-Modell ihre in der Marketing-Instanz im Control Panel konfigurierte URL für die MID/RT-Instanz bereitstellen, um die Funktionen des Control Panels zu nutzen."
 
-Das Control Panel ermöglicht es Kunden mit einem hybriden Hosting-Modell, spezifische Funktionen des Control Panels zu nutzen. Dazu müssen sie die in ihrer Marketing-Instanz im Control Panel konfigurierte URL der MID/RT-Instanz angeben.
+Das Control Panel ermöglicht es Kunden mit einem hybriden Hosting-Modell, spezifische Funktionen des Control Panels zu nutzen. Gehen Sie dazu folgendermaßen vor:
+
+* [Geben Sie die URL der MID/RT-Instanz an](#add) in Ihrer Marketinginstanz im Control Panel konfiguriert wurden,
+* [Fügen Sie die IP-Adresse der MID/RT-Instanz zur Zulassungsliste hinzu.](#ip) , damit sich die Marketing-Instanz mit ihr verbinden kann.
 
 Weitere Informationen zu Hosting-Modellen finden Sie in der [Dokumentation zu Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=de).
 
@@ -85,6 +88,14 @@ Sie können eine MID/RT-Instanz-URL jederzeit entfernen oder deaktivieren, indem
 Beachten Sie, dass Sie jede Aktion, die auf der Registerkarte **[!UICONTROL Externe Konten]** auf einer MID/RT-Instanz-URL ausgeführt wird, in den **[!UICONTROL Vorgangslogs]** überwachen können:
 
 ![](assets/external-account-logs.png)
+
+## Hinzufügen der IP-Adresse zur Zulassungsliste {#ip}
+
+Nachdem die MID/RT-Instanz hinzugefügt wurde, müssen Sie ihre IP-Adresse zur Zulassungsliste hinzufügen, damit Ihre Marketing-Instanz eine Verbindung mit ihr herstellen kann.
+
+Dies kann über die **[!UICONTROL IP-Zulassungsauflistung]** im **[!UICONTROL Instanzeneinstellungen]** Karte. [Erfahren Sie, wie Sie der Zulassungsliste IP-Adressen hinzufügen.](ip-allow-listing-instance-access.md)
+
+Danach können Sie die Control Panel-Funktionen mit Ihrer MID/RT-Instanz verwenden.
 
 ## Für Hybridkunden verfügbare Funktionen {#capabilities}
 
