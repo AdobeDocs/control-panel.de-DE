@@ -8,9 +8,9 @@ role: Architect
 level: Intermediate
 exl-id: ff64acbe-d8cb-499b-b20f-b0934fb0f695
 source-git-commit: 96d18b56f70a6a8bf0270a5c94f5ba16923d0e9f
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '581'
+ht-degree: 100%
 
 ---
 
@@ -23,8 +23,8 @@ ht-degree: 0%
 
 Das Control Panel ermöglicht es Kunden mit einem hybriden Hosting-Modell, spezifische Funktionen des Control Panels zu nutzen. Gehen Sie dazu folgendermaßen vor:
 
-* [Geben Sie die URL der MID/RT-Instanz an](#add) in Ihrer Marketinginstanz im Control Panel konfiguriert wurden,
-* [Fügen Sie die IP-Adresse der MID/RT-Instanz zur Zulassungsliste hinzu.](#ip) , damit sich die Marketing-Instanz mit ihr verbinden kann.
+* [Geben Sie die URL der MID/RT-Instanz an](#add), die in der Marketing-Instanz in Control Panel konfiguriert wurde.
+* [Fügen Sie die IP-Adresse der MID/RT-Instanz zur Zulassungsliste hinzu](#ip), damit sich die Marketing-Instanz mit ihr verbinden kann.
 
 Weitere Informationen zu Hosting-Modellen finden Sie in der [Dokumentation zu Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=de).
 
@@ -93,7 +93,7 @@ Beachten Sie, dass Sie jede Aktion, die auf der Registerkarte **[!UICONTROL Exte
 
 Nachdem die MID/RT-Instanz hinzugefügt wurde, müssen Sie ihre IP-Adresse zur Zulassungsliste hinzufügen, damit Ihre Marketing-Instanz eine Verbindung mit ihr herstellen kann.
 
-Dies kann über die **[!UICONTROL IP-Zulassungsauflistung]** im **[!UICONTROL Instanzeneinstellungen]** Karte. [Erfahren Sie, wie Sie der Zulassungsliste IP-Adressen hinzufügen.](ip-allow-listing-instance-access.md)
+Dies kann über die **[!UICONTROL IP-Zulassungsauflistung]** auf der Karte **[!UICONTROL Instanzeneinstellungen]** getan werden. [Erfahren Sie, wie Sie der Zulassungsliste IP-Adressen hinzufügen.](ip-allow-listing-instance-access.md)
 
 Danach können Sie die Control Panel-Funktionen mit Ihrer MID/RT-Instanz verwenden.
 
