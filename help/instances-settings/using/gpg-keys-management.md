@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
-source-git-commit: 5d2f0d08b7f9ae78fecfaa169190d6248ec4505b
+source-git-commit: e6b518e8a935b523972302c8efa92a889d36735f
 workflow-type: tm+mt
-source-wordcount: '1216'
-ht-degree: 100%
+source-wordcount: '1232'
+ht-degree: 98%
 
 ---
 
@@ -64,6 +64,11 @@ Dazu müssen Sie mithilfe eines PGP-Verschlüsselungs-Tools ein GPG-Schlüsselpa
    * **Schlüssellänge**: 3072–4096 Bit
    * **Richtiger Name** und **E-Mail-Adresse**: Ermöglicht die Verfolgung, wer das Schlüsselpaar erstellt hat. Geben Sie einen Namen und eine E-Mail-Adresse ein, die mit Ihrer Organisation oder Abteilung verknüpft sind.
    * **Kommentar**: Wenn Sie dem Kommentarfeld eine Bezeichnung hinzufügen, können Sie den Schlüssel, der zum Verschlüsseln Ihrer Daten verwendet werden soll, leicht identifizieren.
+
+      >[!IMPORTANT]
+      >
+      >Vergewissern Sie sich, dass dieses Feld nicht leer bleibt und ein Kommentar ausgefüllt ist.
+
    * **Gültigkeit**: Datum oder „0“ für kein Ablaufdatum.
    * **Passphrase**
 
