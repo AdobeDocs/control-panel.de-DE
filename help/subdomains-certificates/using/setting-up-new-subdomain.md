@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: 3b128832fa453981d358f225e160e3ef6c648b50
+source-git-commit: 05c199984ec1282a0135841dd168430dec374a2e
 workflow-type: tm+mt
-source-wordcount: '1542'
+source-wordcount: '1543'
 ht-degree: 86%
 
 ---
@@ -165,7 +165,7 @@ Gehen Sie wie folgt vor, um eine Subdomain mithilfe von CNAMEs zu konfigurieren.
 
    ![](assets/cname-confirmation.png)
 
-1. Wenn Sie das Zertifikat der Subdomains an Adobe delegieren, wird das Zertifikat automatisch generiert. Kopieren Sie diese Datensätze entweder einzeln oder durch Herunterladen einer CSV-Datei und navigieren Sie dann zu Ihrer Domain-Hosting-Lösung, um das entsprechende Zertifikat zu generieren.
+1. Wenn Sie das Zertifikat der Subdomains an Adobe delegieren, werden automatisch Zertifikatdatensätze generiert. Kopieren Sie diese Datensätze entweder einzeln oder durch Herunterladen einer CSV-Datei und navigieren Sie dann zu Ihrer Domain-Hosting-Lösung, um das entsprechende Zertifikat zu generieren.
 
    ![](assets/cname-csr-generation.png)
 
