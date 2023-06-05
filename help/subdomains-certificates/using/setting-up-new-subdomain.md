@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: 503280181293df6ec5ffaf6c148042d54c5c1958
+source-git-commit: 3adb780dbff27cf40d519af1bc59e0946110604a
 workflow-type: tm+mt
-source-wordcount: '1564'
-ht-degree: 85%
+source-wordcount: '1652'
+ht-degree: 80%
 
 ---
 
@@ -41,6 +41,16 @@ Auf dieser Seite finden Sie Informationen zum Einrichten neuer Subdomains mit de
 Die Konfiguration von Subdomains ist nur für **Produktionsinstanzen** verfügbar.
 
 Wenn die im Assistenten ausgewählte Instanz keine zuvor eingerichteten Subdomains hat, wird die erste konfigurierte Subdomain zur **primären Subdomain** für diese Instanz. Sie werden dies später nicht mehr ändern können. Daher werden **Reverse-DNS-Einträge** für andere Subdomains mithilfe dieser primären Subdomain erstellt. **Außerdem werden über die primäre Subdomain Antwort- und Bounce-Adressen für andere Subdomains generiert.**
+
+### SSL-Zertifikate von Subdomains an Adobe delegieren
+
+Beim Einrichten einer neuen Subdomain kann das SSL-Zertifikat von Adobe verwaltet werden. Dies wird dringend empfohlen, da Adobe das Zertifikat automatisch erstellt und jedes Jahr erneuert, bevor das Zertifikat abläuft.
+
+Wenn Sie CNAMEs zum Einrichten einer Subdomain-Zuweisung verwenden, stellt Adobe Zertifikatdatensätze bereit, die in Ihrer Domain-Hosting-Lösung zum Generieren Ihres Zertifikats verwendet werden.
+
+>[!NOTE]
+>
+>Die Zuweisung von SSL-Zertifikaten ist nur bei der Einrichtung einer neuen Subdomain verfügbar. Sie ist nicht für bereits zugewiesene Subdomains verfügbar.
 
 ### Nameserver-Konfiguration
 
