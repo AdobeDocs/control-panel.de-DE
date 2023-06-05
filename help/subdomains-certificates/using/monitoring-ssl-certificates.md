@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: a7888e1c-259d-4601-951b-0f1062d90dc2
-source-git-commit: a6a77cf6e564f4607c0c12facb2061cfb102a5a5
+source-git-commit: 0628e9eb12da4dcc33b2ea21c9ef31bb7ba4f9c4
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 100%
+source-wordcount: '484'
+ht-degree: 78%
 
 ---
 
@@ -27,6 +27,18 @@ Mit der **SSL-Verschlüsselung (Secure Socket Layer)** stellen Sie sicher, dass 
 **SSL-Zertifikate werden für einen bestimmten Zeitraum bereitgestellt** (1 Jahr, 60 Tage usw.). Wenn ein Zertifikat abgelaufen ist, können Probleme beim Zugriff auf die Landingpages oder bei der Verwendung von auf der Subdomain vorhandenen Ressourcen auftreten. Um dies zu verhindern, können Sie über das Control Panel die SSL-Zertifikate Ihrer Subdomains überwachen und eine Verlängerung beantragen.
 
 ![](assets/no_certificate.png)
+
+## SSL-Zertifikate von Subdomains an Adobe delegieren
+
+Beim Einrichten einer neuen Subdomain kann das SSL-Zertifikat von Adobe verwaltet werden. Dies wird dringend empfohlen, da Adobe das Zertifikat automatisch erstellt und jedes Jahr erneuert, bevor das Zertifikat abläuft.
+
+Wenn Sie CNAMEs zum Einrichten einer Subdomain-Zuweisung verwenden, stellt Adobe Zertifikatdatensätze bereit, die in Ihrer Domain-Hosting-Lösung zum Generieren Ihres Zertifikats verwendet werden.
+
+>[!NOTE]
+>
+>Die Zuweisung von SSL-Zertifikaten ist nur bei der Einrichtung einer neuen Subdomain verfügbar. Sie ist nicht für bereits zugewiesene Subdomains verfügbar.
+
+Die Zuweisung von SSL-Zertifikaten wird beim Einrichten einer neuen Subdomain aktiviert. Erfahren Sie, wie Sie fortfahren in [diesem Abschnitt](setting-up-new-subdomain.md).
 
 ## Überwachen von SSL-Zertifikaten {#monitoring-certificates}
 
