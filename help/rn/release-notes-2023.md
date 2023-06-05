@@ -2,14 +2,20 @@
 title: Versionshinweise 2023
 description: Auf dieser Seite sind alle Control Panel-Versionen des Jahres 2023 aufgelistet.
 exl-id: 9a83e32a-4c11-4784-a6fe-341ce9ebc7a7
-source-git-commit: 11015d1a7c44abaeeb704138e2a3071d293715b7
+source-git-commit: f43dbc1d28ff22ca1f9092d6ca416c43eed2ebec
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '156'
 ht-degree: 100%
 
 ---
 
 # Versionshinweise 2023 {#rn-2023}
+
+## März 2023 {#march-2023}
+
+**Entfernen der Subdomain-Delegation für CNAME-Einträge**
+
+Sie können nun die Delegation von Subdomains, die mithilfe von CNAME-Einträgen konfiguriert wurden, aufheben. [Weitere Informationen](../subdomains-certificates/using/remove-delegated-subdomains.md)
 
 ## Februar 2023 {#february-2023}
 
