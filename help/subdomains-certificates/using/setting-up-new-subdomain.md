@@ -7,12 +7,13 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: bbf1aa11ef7e1b43b4df7799c4a4491b73cfbef1
+source-git-commit: 3b128832fa453981d358f225e160e3ef6c648b50
 workflow-type: tm+mt
-source-wordcount: '1367'
-ht-degree: 100%
+source-wordcount: '1542'
+ht-degree: 86%
 
 ---
+
 
 # Einrichten einer neuen Subdomain {#setting-up-subdomain}
 
@@ -21,6 +22,11 @@ ht-degree: 100%
 >title="Einrichten neuer Subdomains und Verwalten von Zertifikaten"
 >abstract="Sie müssen eine neue Subdomain einrichten und die SSL-Zertifikate Ihrer Subdomains verwalten, um mit Adobe Campaign E-Mails senden oder Landingpages veröffentlichen zu können."
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=de" text="Überwachen von SSL-Zertifikaten"
+
+>[!CONTEXTUALHELP]
+>id="cp_managed_ssl"
+>title="SSL-Zertifikate von Subdomains an Adobe delegieren"
+>abstract="Mit dem Control Panel können Sie die SSL-Zertifikate Ihrer Subdomains von Adobe verwalten lassen. Wenn Sie CNAME zum Einrichten Ihrer Subdomain verwenden, werden automatisch Zertifikatdatensätze generiert und bereitgestellt, um ein Zertifikat in Ihrer Domain-Hosting-Lösung zu generieren."
 
 ## Wichtige Informationen {#must-read}
 
@@ -94,6 +100,8 @@ Gehen Sie wie folgt vor, um eine Subdomain vollständig an Adobe Campaign zu del
 
    Vergewissern Sie sich, dass Sie den **vollständigen Namen** der delegierten Subdomain eingeben. Um beispielsweise die Subdomain &quot;usoffer.email.weretail.com&quot; zu delegieren, geben Sie &quot;usoffer.email.weretail.com&quot; ein.
 
+1. Um die Generierung des SSL-Zertifikats der Subdomain an Adobe zu delegieren, aktivieren Sie die **[!UICONTROL Opt-in für Adobe Managed SSL für Subdomains]** -Option.
+
    ![](assets/subdomain6.png)
 
 Sobald die Subdomain gesendet wurde, führt das Control Panel verschiedene Prüfungen und Konfigurationsschritte durch. Weitere Informationen hierzu finden Sie unter [Subdomain-Prüfungen und -konfiguration](#subdomain-checks-and-configuration).
@@ -134,25 +142,36 @@ Gehen Sie wie folgt vor, um eine Subdomain mithilfe von CNAMEs zu konfigurieren.
 
    ![](assets/cname-use-case.png)
 
-1. Geben Sie die von Ihnen erstellte Subdomain in Ihre Hosting-Lösung ein und wählen Sie dann **[!UICONTROL Weiter]** aus.
+1. Geben Sie die von Ihnen erstellte Subdomain in Ihre Hosting-Lösung ein. Um die Generierung des SSL-Zertifikats der Subdomain an Adobe zu delegieren, aktivieren Sie die **[!UICONTROL Opt-in für Adobe Managed SSL für Subdomains]** -Option.
 
-   Vergewissern Sie sich, dass Sie den **vollständigen Namen** der einzurichtenden Subdomain eingeben. Um beispielsweise die Subdomain „usoffer.email.weretail.com“ zu konfigurieren, geben Sie „usoffer.email.weretail.com“ ein.
+   ![](assets/cname-adobe-managed.png)
 
-   ![](assets/cname-submit.png)
+   >[!NOTE]
+   >
+   >Vergewissern Sie sich, dass Sie den **vollständigen Namen** der einzurichtenden Subdomain eingeben. Um beispielsweise die Subdomain „usoffer.email.weretail.com“ zu konfigurieren, geben Sie „usoffer.email.weretail.com“ ein.
 
 1. Die Liste der Einträge, die auf Ihren DNS-Servern gespeichert werden sollen, wird angezeigt. Kopieren Sie diese Einträge entweder einzeln oder durch Herunterladen einer CSV-Datei, und navigieren Sie dann zu Ihrer Domain-Hosting-Lösung, um die passenden DNS-Einträge zu generieren.
 
    ![](assets/cname-generate-record.png)
 
-1. Stellen Sie sicher, dass alle DNS-Einträge aus den vorherigen Schritten in Ihrer Domain-Hosting-Lösung generiert wurden. Wenn alles richtig konfiguriert ist, wählen Sie die erste Aussage aus und klicken Sie dann zur Bestätigung auf **[!UICONTROL Senden]**.
+1. Stellen Sie sicher, dass alle DNS-Einträge aus den vorherigen Schritten in Ihrer Domain-Hosting-Lösung generiert wurden. Wenn alles ordnungsgemäß konfiguriert ist, wählen Sie die erste Anweisung aus und klicken Sie auf **[!UICONTROL Nächste]** zur Bestätigung.
 
-   ![](assets/cname-confirmation.png)
+   Wenn Sie die Datensätze erstellen und die Subdomain-Konfiguration später senden möchten, wählen Sie die zweite Anweisung aus. Sie können dann die Konfiguration der Subdomain direkt über den **[!UICONTROL Verarbeitungsbereich]** des Bildschirms zur Subdomain-Verwaltung fortsetzen. Beachten Sie, dass DNS-Einträge, die auf Ihrem Server abgelegt werden sollen, vom Control Panel 30 Tage lang aufbewahrt werden. Nach diesem Zeitraum müssen Sie die Subdomain von Grund auf neu konfigurieren.
+
 
    >[!NOTE]
    >
-   >Wenn Sie die Einträge erstellen und die Subdomain-Konfiguration später senden möchten, wählen Sie die zweite Aussage aus und klicken Sie dann auf **[!UICONTROL Später senden]**. Sie können dann die Konfiguration der Subdomain direkt über den **[!UICONTROL Verarbeitungsbereich]** des Bildschirms zur Subdomain-Verwaltung fortsetzen.
-   >
-   >Beachten Sie, dass DNS-Einträge, die auf Ihrem Server abgelegt werden sollen, vom Control Panel 30 Tage lang aufbewahrt werden. Nach diesem Zeitraum müssen Sie die Subdomain von Grund auf neu konfigurieren.
+   >Wenn Sie das SSL-Zertifikat nicht an Adobe delegieren möchten, ist dies der letzte Schritt der Subdomain-Konfiguration. Klicken Sie auf **[!UICONTROL Einsenden]** Schaltfläche.
+
+   ![](assets/cname-confirmation.png)
+
+1. Wenn Sie das Zertifikat der Subdomains an Adobe delegieren, wird das Zertifikat automatisch generiert. Kopieren Sie diese Datensätze entweder einzeln oder durch Herunterladen einer CSV-Datei und navigieren Sie dann zu Ihrer Domain-Hosting-Lösung, um das entsprechende Zertifikat zu generieren.
+
+   ![](assets/cname-csr-generation.png)
+
+1. Stellen Sie sicher, dass alle Zertifikatdatensätze in Ihrer Domain-Hosting-Lösung generiert wurden. Wenn alles richtig konfiguriert ist, wählen Sie die erste Aussage aus und klicken Sie dann zur Bestätigung auf **[!UICONTROL Senden]**.
+
+   ![](assets/cnames-submit.png)
 
 Sobald die Subdomain gesendet wurde, führt das Control Panel verschiedene Prüfungen und Konfigurationsschritte durch. Weitere Informationen hierzu finden Sie unter [Subdomain-Prüfungen und -konfiguration](#subdomain-checks-and-configuration).
 
