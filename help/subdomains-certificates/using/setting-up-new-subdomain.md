@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: 05c199984ec1282a0135841dd168430dec374a2e
+source-git-commit: 503280181293df6ec5ffaf6c148042d54c5c1958
 workflow-type: tm+mt
-source-wordcount: '1543'
-ht-degree: 86%
+source-wordcount: '1564'
+ht-degree: 85%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 86%
 >[!CONTEXTUALHELP]
 >id="cp_managed_ssl"
 >title="SSL-Zertifikate von Subdomains an Adobe delegieren"
->abstract="Mit dem Control Panel können Sie die SSL-Zertifikate Ihrer Subdomains von Adobe verwalten lassen. Wenn Sie CNAME zum Einrichten Ihrer Subdomain verwenden, werden automatisch Zertifikatdatensätze generiert und bereitgestellt, um ein Zertifikat in Ihrer Domain-Hosting-Lösung zu generieren."
+>abstract="Mit dem Control Panel können Sie die SSL-Zertifikate Ihrer Subdomains von Adobe verwalten lassen. Wenn Sie CNAME zum Einrichten Ihrer Subdomain verwenden, werden automatisch Zertifikatdatensätze generiert und bereitgestellt, um ein Zertifikat in Ihrer Domain-Hosting-Lösung zu generieren. Beachten Sie, dass diese Funktion nur beim Einrichten einer neuen Subdomain verfügbar ist. Sie können keine Zertifikate für vorhandene zugewiesene Subdomains zuweisen."
 
 ## Wichtige Informationen {#must-read}
 
