@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: 3adb780dbff27cf40d519af1bc59e0946110604a
+source-git-commit: 47a11cbafe3c81aba81c2f16c83e7d31e571fb95
 workflow-type: tm+mt
-source-wordcount: '1652'
-ht-degree: 80%
+source-wordcount: '1669'
+ht-degree: 79%
 
 ---
 
@@ -44,13 +44,13 @@ Wenn die im Assistenten ausgewählte Instanz keine zuvor eingerichteten Subdomai
 
 ### SSL-Zertifikate von Subdomains an Adobe delegieren
 
-Beim Einrichten einer neuen Subdomain kann das SSL-Zertifikat von Adobe verwaltet werden. Dies wird dringend empfohlen, da Adobe das Zertifikat automatisch erstellt und jedes Jahr erneuert, bevor das Zertifikat abläuft.
+Beim Einrichten einer neuen Subdomain kann das SSL-Zertifikat von Adobe verwaltet werden. Dies wird dringend empfohlen, da Adobe das Zertifikat automatisch erstellt und jedes Jahr erneuert, bevor das Zertifikat abläuft. Beachten Sie, dass die Zuweisung von SSL-Zertifikaten nur bei der Einrichtung einer neuen Subdomain verfügbar ist. Sie ist nicht für bereits zugewiesene Subdomains verfügbar.
 
 Wenn Sie CNAMEs zum Einrichten einer Subdomain-Zuweisung verwenden, stellt Adobe Zertifikatdatensätze bereit, die in Ihrer Domain-Hosting-Lösung zum Generieren Ihres Zertifikats verwendet werden.
 
 >[!NOTE]
 >
->Die Zuweisung von SSL-Zertifikaten ist nur bei der Einrichtung einer neuen Subdomain verfügbar. Sie ist nicht für bereits zugewiesene Subdomains verfügbar.
+>Adobe managed SSL ist eine kostenlose Funktion, die Benutzern kostenlos zur Verfügung steht.
 
 ### Nameserver-Konfiguration
 
