@@ -8,9 +8,9 @@ role: Architect
 level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
 source-git-commit: e6b518e8a935b523972302c8efa92a889d36735f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1232'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -64,10 +64,9 @@ Dazu müssen Sie mithilfe eines PGP-Verschlüsselungs-Tools ein GPG-Schlüsselpa
    * **Schlüssellänge**: 3072–4096 Bit
    * **Richtiger Name** und **E-Mail-Adresse**: Ermöglicht die Verfolgung, wer das Schlüsselpaar erstellt hat. Geben Sie einen Namen und eine E-Mail-Adresse ein, die mit Ihrer Organisation oder Abteilung verknüpft sind.
    * **Kommentar**: Wenn Sie dem Kommentarfeld eine Bezeichnung hinzufügen, können Sie den Schlüssel, der zum Verschlüsseln Ihrer Daten verwendet werden soll, leicht identifizieren.
-
-      >[!IMPORTANT]
-      >
-      >Vergewissern Sie sich, dass dieses Feld nicht leer bleibt und ein Kommentar ausgefüllt ist.
+     >[!IMPORTANT]
+     >
+     >Achten Sie darauf, dass dieses Feld nicht leer bleibt und dass ein Kommentar eingetragen wird.
 
    * **Gültigkeit**: Datum oder „0“ für kein Ablaufdatum.
    * **Passphrase**
@@ -168,9 +167,9 @@ In der Liste werden alle GPG-Schlüssel zur Ver- und Entschlüsselung angezeigt,
 * **[!UICONTROL Name]**: Der Name, der beim Installieren oder Generieren des Schlüssels definiert wurde.
 * **[!UICONTROL Anwendungsfall]**: Diese Spalte gibt den Anwendungsfall des Schlüssels an:
 
-   ![](assets/gpg_icon_encrypt.png): Der Schlüssel wurde zur Verschlüsselung von Daten installiert.
+  ![](assets/gpg_icon_encrypt.png): Der Schlüssel wurde zur Verschlüsselung von Daten installiert.
 
-   ![](assets/gpg_icon_decrypt.png): Der Schlüssel wurde generiert, um die Entschlüsselung von Daten zu ermöglichen.
+  ![](assets/gpg_icon_decrypt.png): Der Schlüssel wurde generiert, um die Entschlüsselung von Daten zu ermöglichen.
 
 * **[!UICONTROL Fingerabdruck]**: Der Fingerabdruck des Schlüssels.
 * **[!UICONTROL Läuft ab]**: Das Ablaufdatum des Schlüssels. Beachten Sie, dass das Control Panel visuelle Hinweise gibt, wenn sich der Schlüssel seinem Ablaufdatum nähert:
@@ -179,9 +178,9 @@ In der Liste werden alle GPG-Schlüssel zur Ver- und Entschlüsselung angezeigt,
    * „Warnung“ (gelb) wird 60 Tage vor dem Ablaufdatum angezeigt.
    * Sobald ein Schlüssel abgelaufen ist, wird ein rotes Banner „Abgelaufen“ angezeigt.
 
-   >[!NOTE]
-   >
-   >Beachten Sie, dass das Control Panel keine E-Mail-Benachrichtigungen sendet.
+  >[!NOTE]
+  >
+  >Beachten Sie, dass das Control Panel keine E-Mail-Benachrichtigungen sendet.
 
 Als Best Practice empfehlen wir, alle Schlüssel zu entfernen, die Sie nicht mehr benötigen. Klicken Sie dazu auf die Schaltfläche **...** und wählen Sie dann **[!UICONTROL Schlüssel löschen] aus.**
 
