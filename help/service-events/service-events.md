@@ -65,10 +65,10 @@ Es werden drei Arten von Ereignissen angezeigt:
 * **Erinnerungen** werden von Benutzenden festgelegt, damit sie benachrichtigt werden, bevor ein Ereignis eintritt. Sie werden in der Kalenderansicht grün angezeigt. [Weitere Informationen zum Festlegen von Erinnerungen](#reminders)
 * **Warnhinweise** werden vom Control Panel per E-Mail gesendet, um Benutzende über Probleme in ihren Instanzen zu informieren, z. B. bei einer Speicherüberlastung oder beim Gültigkeitsablauf von SSL-Zertifikaten. Sie werden in der Kalenderansicht orange angezeigt. Die Ereignisbeschreibung gibt an, ob der Warnhinweis an die angemeldete Person gesendet wird, je nachdem, ob sie E-Mail-Warnhinweise abonniert hat. [Weitere Informationen zu E-Mail-Warnhinweisen im Control Panel](../performance-monitoring/using/email-alerting.md)
 
-* **Versionen** zeigt sowohl frühere als auch künftige Implementierungen für die Instanz an. Diese werden in der Kalenderansicht grau bzw. blau angezeigt. In den Ereignisdetails wird der Versionstyp der jeweiligen Implementierung angegeben:
+* **Versionen** zeigt sowohl frühere als auch künftige Bereitstellungen für die Instanz an. Diese werden in der Kalenderansicht grau bzw. blau angezeigt. In den Ereignisdetails wird der Versionstyp der jeweiligen Bereitstellung angegeben:
 
    * **[!UICONTROL Allgemeine Verfügbarkeit]**: Neuester verfügbarer stabiler Build.
-   * **[!UICONTROL Eingeschränkte Verfügbarkeit]**: Implementierung nur auf Anfrage.
+   * **[!UICONTROL Eingeschränkte Verfügbarkeit]**: Bereitstellung nur auf Anfrage.
    * **[!UICONTROL Release-Kandidat]**: technisch validiert. Fertigstellung für die Produktion ist ausstehend.
    * **[!UICONTROL Vorabversion]**: Frühere Verfügbarkeit für spezifische Kundenanforderungen.
    * **[!UICONTROL Nicht mehr verfügbar]**: Mit diesem Build bestehen zwar keine größeren Probleme, aber es ist ein neuerer Build mit zusätzlichen Fehlerkorrekturen verfügbar. Ein Upgrade ist erforderlich.

@@ -81,7 +81,6 @@ Gehen Sie wie folgt vor, um IP-Adressen auf die Zulassungsliste zu setzen:
    * **[!UICONTROL Titel]**: Die Bezeichnung, die auf der Zulassungsliste erscheinen soll.
    * **[!UICONTROL Name]**: Der Name muss für den Zugriffstyp, die Instanz (im Fall einer externen API-Verbindung) und die IP-Adresse eindeutig sein.
 
-
 1. Geben Sie die Art des Zugriffs an, den Sie den IP-Adressen gewähren möchten:
 
    * **[!UICONTROL Zugriff auf die Campaign-Konsole]**: Die IP-Adressen können sich mit der Campaign Client-Konsole verbinden. Beachten Sie, dass der Konsolenzugriff nur für Marketing-Instanzen möglich ist. Der Zugriff auf MID- und RT-Instanzen ist nicht erlaubt und deshalb auch nicht aktiviert.

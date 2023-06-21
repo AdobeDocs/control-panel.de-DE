@@ -38,8 +38,7 @@ Der Service-Kalender bietet jetzt eine Kalenderansicht, in der Sie wichtige Erei
 >
 >* Das Control Panel steht nur Administratoren zur Verfügung. [Weitere Informationen](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=de#discover-control-panel)   
 >
->* Für Campaign v7 gelten Implementierungsbeschränkungen. [Weitere Informationen](faq.md#v7-restrictions)
-
+>* Für Campaign v7 gelten Bereitstellungsbeschränkungen. [Weitere Informationen](faq.md#v7-restrictions)
 
 ## Zusätzliche Ressourcen {#additional-resources}
 

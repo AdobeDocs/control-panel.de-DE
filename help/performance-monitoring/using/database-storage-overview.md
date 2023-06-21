@@ -25,7 +25,7 @@ Der Bereich **[!UICONTROL Speicherübersicht]** bietet eine grafische Darstellun
 
 * **[!UICONTROL Systemressourcen]**
 
-   Wir empfehlen, sich an die Kundenunterstützung zu wenden, wenn die Systemressourcen einen großen Teil des Datenbankspeichers beanspruchen.
+  Wir empfehlen, sich an die Kundenunterstützung zu wenden, wenn die Systemressourcen einen großen Teil des Datenbankspeichers beanspruchen.
 
 * **[!UICONTROL Native Tabellen]**, die standardmäßig mit den Campaign-Instanzen bereitgestellt werden,
 * **[!UICONTROL Temporäre Tabellen]**, die von Workflows und Sendungen erstellt wurden,

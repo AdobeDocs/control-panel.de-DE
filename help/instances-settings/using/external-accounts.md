@@ -8,7 +8,7 @@ role: Architect
 level: Intermediate
 exl-id: ff64acbe-d8cb-499b-b20f-b0934fb0f695
 source-git-commit: 96d18b56f70a6a8bf0270a5c94f5ba16923d0e9f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '581'
 ht-degree: 100%
 
@@ -67,13 +67,13 @@ Um auf die Funktionen des Control Panels zugreifen zu können, müssen Sie Ihre 
 
    * **[!UICONTROL URL]**: URL der Instanz, die in der Client-Konsole von Campaign im Menü **[!UICONTROL Administration]** > **[!UICONTROL Plattform]** > **[!UICONTROL Externe Konten]** gefunden werden kann.
 
-      ![](assets/external-account-url.png)
+     ![](assets/external-account-url.png)
 
    * **[!UICONTROL Benutzer]** / **[!UICONTROL Passwort]**: Anmeldedaten des Benutzer, die nach der Bereitstellung von einem Adobe-Administrator bereitgestellt wurden.
 
-      >[!NOTE]
-      >
-      >Wenn diese Informationen nicht verfügbar sind, wenden Sie sich an die Kundenunterstützung.
+     >[!NOTE]
+     >
+     >Wenn diese Informationen nicht verfügbar sind, wenden Sie sich an die Kundenunterstützung.
 
 1. Klicken Sie zur Bestätigung auf **[!UICONTROL Speichern]**.
 
