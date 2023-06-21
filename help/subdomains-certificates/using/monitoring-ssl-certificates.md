@@ -8,9 +8,9 @@ role: Architect
 level: Experienced
 exl-id: a7888e1c-259d-4601-951b-0f1062d90dc2
 source-git-commit: 0628e9eb12da4dcc33b2ea21c9ef31bb7ba4f9c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '484'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -28,17 +28,17 @@ Mit der **SSL-Verschlüsselung (Secure Socket Layer)** stellen Sie sicher, dass 
 
 ![](assets/no_certificate.png)
 
-## SSL-Zertifikate von Subdomains an Adobe delegieren
+## Delegieren von SSL-Zertifikaten von Subdomains an Adobe
 
 Beim Einrichten einer neuen Subdomain kann das SSL-Zertifikat von Adobe verwaltet werden. Dies wird dringend empfohlen, da Adobe das Zertifikat automatisch erstellt und jedes Jahr erneuert, bevor das Zertifikat abläuft.
 
-Wenn Sie CNAMEs zum Einrichten einer Subdomain-Zuweisung verwenden, stellt Adobe Zertifikatdatensätze bereit, die in Ihrer Domain-Hosting-Lösung zum Generieren Ihres Zertifikats verwendet werden.
+Wenn Sie CNAMEs zum Einrichten einer Subdomain-Delegierung verwenden, stellt Adobe Zertifikatdatensätze bereit, die in Ihrer Domain-Hosting-Lösung zum Generieren Ihres Zertifikats verwendet werden.
 
 >[!NOTE]
 >
->Die Zuweisung von SSL-Zertifikaten ist nur bei der Einrichtung einer neuen Subdomain verfügbar. Sie ist nicht für bereits zugewiesene Subdomains verfügbar.
+>Die Delegierung von SSL-Zertifikaten ist nur bei der Einrichtung einer neuen Subdomain verfügbar. Sie ist nicht für bereits zugewiesene Subdomains verfügbar.
 
-Die Zuweisung von SSL-Zertifikaten wird beim Einrichten einer neuen Subdomain aktiviert. Erfahren Sie, wie Sie fortfahren in [diesem Abschnitt](setting-up-new-subdomain.md).
+Die Delegierung von SSL-Zertifikaten ist beim Einrichten einer neuen Subdomain aktiviert. Wie Sie vorgehen, erfahren Sie in [diesem Abschnitt](setting-up-new-subdomain.md).
 
 ## Überwachen von SSL-Zertifikaten {#monitoring-certificates}
 
