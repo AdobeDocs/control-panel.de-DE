@@ -8,9 +8,9 @@ role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
 source-git-commit: 47a11cbafe3c81aba81c2f16c83e7d31e571fb95
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1669'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -25,8 +25,8 @@ ht-degree: 79%
 
 >[!CONTEXTUALHELP]
 >id="cp_managed_ssl"
->title="SSL-Zertifikate von Subdomains an Adobe delegieren"
->abstract="Mit dem Control Panel können Sie die SSL-Zertifikate Ihrer Subdomains von Adobe verwalten lassen. Wenn Sie CNAME zum Einrichten Ihrer Subdomain verwenden, werden automatisch Zertifikatdatensätze generiert und bereitgestellt, um ein Zertifikat in Ihrer Domain-Hosting-Lösung zu generieren. Beachten Sie, dass diese Funktion nur beim Einrichten einer neuen Subdomain verfügbar ist. Sie können keine Zertifikate für vorhandene zugewiesene Subdomains zuweisen."
+>title="Delegieren von SSL-Zertifikaten von Subdomains an Adobe"
+>abstract="Mit dem Control Panel können Sie die SSL-Zertifikate Ihrer Subdomains von Adobe verwalten lassen. Wenn Sie CNAME zum Einrichten Ihrer Subdomain verwenden, werden automatisch Zertifikatdatensätze generiert und bereitgestellt, um ein Zertifikat in Ihrer Domain-Hosting-Lösung zu generieren. Beachten Sie, dass diese Funktion nur beim Einrichten einer neuen Subdomain verfügbar ist. Sie können keine Zertifikate für bestehende, zugewiesene Subdomains delegieren."
 
 ## Wichtige Informationen {#must-read}
 
@@ -42,15 +42,15 @@ Die Konfiguration von Subdomains ist nur für **Produktionsinstanzen** verfügba
 
 Wenn die im Assistenten ausgewählte Instanz keine zuvor eingerichteten Subdomains hat, wird die erste konfigurierte Subdomain zur **primären Subdomain** für diese Instanz. Sie werden dies später nicht mehr ändern können. Daher werden **Reverse-DNS-Einträge** für andere Subdomains mithilfe dieser primären Subdomain erstellt. **Außerdem werden über die primäre Subdomain Antwort- und Bounce-Adressen für andere Subdomains generiert.**
 
-### SSL-Zertifikate von Subdomains an Adobe delegieren
+### Delegieren von SSL-Zertifikaten von Subdomains an Adobe
 
-Beim Einrichten einer neuen Subdomain kann das SSL-Zertifikat von Adobe verwaltet werden. Dies wird dringend empfohlen, da Adobe das Zertifikat automatisch erstellt und jedes Jahr erneuert, bevor das Zertifikat abläuft. Beachten Sie, dass die Zuweisung von SSL-Zertifikaten nur bei der Einrichtung einer neuen Subdomain verfügbar ist. Sie ist nicht für bereits zugewiesene Subdomains verfügbar.
+Beim Einrichten einer neuen Subdomain kann das SSL-Zertifikat von Adobe verwaltet werden. Dies wird dringend empfohlen, da Adobe das Zertifikat automatisch erstellt und jedes Jahr erneuert, bevor das Zertifikat abläuft. Beachten Sie, dass die Delegierung von SSL-Zertifikaten nur bei der Einrichtung einer neuen Subdomain verfügbar ist. Sie ist nicht für bereits zugewiesene Subdomains verfügbar.
 
-Wenn Sie CNAMEs zum Einrichten einer Subdomain-Zuweisung verwenden, stellt Adobe Zertifikatdatensätze bereit, die in Ihrer Domain-Hosting-Lösung zum Generieren Ihres Zertifikats verwendet werden.
+Wenn Sie CNAMEs zum Einrichten einer Subdomain-Delegierung verwenden, stellt Adobe Zertifikatdatensätze bereit, die in Ihrer Domain-Hosting-Lösung zum Generieren Ihres Zertifikats verwendet werden.
 
 >[!NOTE]
 >
->Adobe managed SSL ist eine kostenlose Funktion, die Benutzern kostenlos zur Verfügung steht.
+>Adobe Managed SSL ist eine kostenlose Funktion, die Benutzenden gebührenfrei zur Verfügung steht.
 
 ### Nameserver-Konfiguration
 
@@ -110,7 +110,7 @@ Gehen Sie wie folgt vor, um eine Subdomain vollständig an Adobe Campaign zu del
 
    Vergewissern Sie sich, dass Sie den **vollständigen Namen** der delegierten Subdomain eingeben. Um beispielsweise die Subdomain &quot;usoffer.email.weretail.com&quot; zu delegieren, geben Sie &quot;usoffer.email.weretail.com&quot; ein.
 
-1. Um die Generierung des SSL-Zertifikats der Subdomain an Adobe zu delegieren, aktivieren Sie die **[!UICONTROL Opt-in für Adobe Managed SSL für Subdomains]** -Option.
+1. Um die Erstellung des SSL-Zertifikats der Subdomain an Adobe zu delegieren, aktivieren Sie die Option **[!UICONTROL Für von Adobe verwaltetes SSL für Subdomains registrieren]**.
 
    ![](assets/subdomain6.png)
 
@@ -152,7 +152,7 @@ Gehen Sie wie folgt vor, um eine Subdomain mithilfe von CNAMEs zu konfigurieren.
 
    ![](assets/cname-use-case.png)
 
-1. Geben Sie die von Ihnen erstellte Subdomain in Ihre Hosting-Lösung ein. Um die Generierung des SSL-Zertifikats der Subdomain an Adobe zu delegieren, aktivieren Sie die **[!UICONTROL Opt-in für Adobe Managed SSL für Subdomains]** -Option.
+1. Geben Sie die Subdomain ein, die Sie in Ihrer Hosting-Lösung erstellt haben. Um die Erstellung des SSL-Zertifikats der Subdomain an Adobe zu delegieren, aktivieren Sie die Option **[!UICONTROL Für von Adobe verwaltetes SSL für Subdomains registrieren]**.
 
    ![](assets/cname-adobe-managed.png)
 
@@ -164,22 +164,22 @@ Gehen Sie wie folgt vor, um eine Subdomain mithilfe von CNAMEs zu konfigurieren.
 
    ![](assets/cname-generate-record.png)
 
-1. Stellen Sie sicher, dass alle DNS-Einträge aus den vorherigen Schritten in Ihrer Domain-Hosting-Lösung generiert wurden. Wenn alles ordnungsgemäß konfiguriert ist, wählen Sie die erste Anweisung aus und klicken Sie auf **[!UICONTROL Nächste]** zur Bestätigung.
+1. Stellen Sie sicher, dass alle DNS-Einträge aus den vorherigen Schritten in Ihrer Domain-Hosting-Lösung generiert wurden. Wenn alles richtig konfiguriert ist, wählen Sie die erste Aussage aus und klicken Sie dann zur Bestätigung auf **[!UICONTROL Weiter]**.
 
-   Wenn Sie die Datensätze erstellen und die Subdomain-Konfiguration später senden möchten, wählen Sie die zweite Anweisung aus. Sie können dann die Konfiguration der Subdomain direkt über den **[!UICONTROL Verarbeitungsbereich]** des Bildschirms zur Subdomain-Verwaltung fortsetzen. Beachten Sie, dass DNS-Einträge, die auf Ihrem Server abgelegt werden sollen, vom Control Panel 30 Tage lang aufbewahrt werden. Nach diesem Zeitraum müssen Sie die Subdomain von Grund auf neu konfigurieren.
+   Wenn Sie die Einträge erstellen und die Subdomain-Konfiguration später senden möchten, wählen Sie die zweite Aussage aus. Sie können dann die Konfiguration der Subdomain direkt über den **[!UICONTROL Verarbeitungsbereich]** des Bildschirms zur Subdomain-Verwaltung fortsetzen. Beachten Sie, dass DNS-Einträge, die auf Ihrem Server abgelegt werden sollen, vom Control Panel 30 Tage lang aufbewahrt werden. Nach diesem Zeitraum müssen Sie die Subdomain von Grund auf neu konfigurieren.
 
 
    >[!NOTE]
    >
-   >Wenn Sie das SSL-Zertifikat nicht an Adobe delegieren möchten, ist dies der letzte Schritt der Subdomain-Konfiguration. Klicken Sie auf **[!UICONTROL Einsenden]** Schaltfläche.
+   >Wenn Sie das SSL-Zertifikat nicht an Adobe delegieren möchten, ist dies der letzte Schritt der Subdomain-Konfiguration. Klicken Sie auf **[!UICONTROL Senden]**.
 
    ![](assets/cname-confirmation.png)
 
-1. Wenn Sie das Zertifikat der Subdomains an Adobe delegieren, werden automatisch Zertifikatdatensätze generiert. Kopieren Sie diese Datensätze entweder einzeln oder durch Herunterladen einer CSV-Datei und navigieren Sie dann zu Ihrer Domain-Hosting-Lösung, um das entsprechende Zertifikat zu generieren.
+1. Wenn Sie das Zertifikat der Subdomains an Adobe delegieren, werden automatisch Zertifikatdatensätze generiert. Kopieren Sie diese Einträge entweder einzeln oder durch Herunterladen einer CSV-Datei, und navigieren Sie dann zu Ihrer Domain-Hosting-Lösung, um die passenden Zertifikate zu generieren.
 
    ![](assets/cname-csr-generation.png)
 
-1. Stellen Sie sicher, dass alle Zertifikatdatensätze in Ihrer Domain-Hosting-Lösung generiert wurden. Wenn alles richtig konfiguriert ist, wählen Sie die erste Aussage aus und klicken Sie dann zur Bestätigung auf **[!UICONTROL Senden]**.
+1. Stellen Sie sicher, dass alle Zertifikate aus den vorherigen Schritten in Ihrer Domain-Hosting-Lösung generiert wurden. Wenn alles richtig konfiguriert ist, wählen Sie die erste Aussage aus und klicken Sie dann zur Bestätigung auf **[!UICONTROL Senden]**.
 
    ![](assets/cnames-submit.png)
 
