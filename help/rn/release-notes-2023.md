@@ -2,14 +2,26 @@
 title: Versionshinweise 2023
 description: Auf dieser Seite sind alle Control Panel-Versionen des Jahres 2023 aufgelistet.
 exl-id: 9a83e32a-4c11-4784-a6fe-341ce9ebc7a7
-source-git-commit: f43dbc1d28ff22ca1f9092d6ca416c43eed2ebec
+source-git-commit: 40654418f0c5b298cc4fbd66a5d835355876a12c
 workflow-type: tm+mt
-source-wordcount: '156'
-ht-degree: 100%
+source-wordcount: '242'
+ht-degree: 99%
 
 ---
 
 # Versionshinweise 2023 {#rn-2023}
+
+## Verbesserungen vom Mai 2023 {#june-2023}
+
+**Delegierung von SSL-Zertifikaten der Subdomains an Adobe**
+
+Sie können jetzt die SSL-Zertifikate Ihrer Subdomains von Adobe verwalten lassen. Wenn Sie CNAME zum Einrichten Ihrer Subdomain verwenden, werden automatisch Zertifikatdatensätze generiert und bereitgestellt, um ein Zertifikat in Ihrer Domain-Hosting-Lösung zu generieren.
+
+Beachten Sie, dass diese Funktion nur beim Einrichten einer neuen Subdomain verfügbar ist. Sie können keine Zertifikate für bestehende, zugewiesene Subdomains delegieren. [Weitere Informationen](../subdomains-certificates/using/setting-up-new-subdomain.md)
+
+>[!NOTE]
+>
+>Adobe Managed SSL ist eine kostenlose Funktion, die Benutzenden gebührenfrei zur Verfügung steht.
 
 ## März 2023 {#march-2023}
 

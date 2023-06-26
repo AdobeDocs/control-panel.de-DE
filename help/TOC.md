@@ -6,10 +6,10 @@ user-guide-title: Handbuch zum Control Panel
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: a62bf4913a97c12ab282709d06c9a50b8b503d8d
+source-git-commit: 40654418f0c5b298cc4fbd66a5d835355876a12c
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 100%
+source-wordcount: '165'
+ht-degree: 96%
 
 ---
 
@@ -47,6 +47,7 @@ ht-degree: 100%
    + [Verwalten von TXT-Einträgen](subdomains-certificates/using/managing-txt-records.md)
    + Verwalten von SSL-Zertifikaten {#manage-certificates}
       + [Überwachen von SSL-Zertifikaten](subdomains-certificates/using/monitoring-ssl-certificates.md)
+      + [Delegieren von SSL-Zertifikaten an Adobe](subdomains-certificates/using/delegate-ssl.md)
       + [Verlängern von SSL-Zertifikaten](subdomains-certificates/using/renewing-subdomain-certificate.md)
       + [CSR generieren](subdomains-certificates/using/generate-csr.md)
       + [Installieren des SSL-Zertifikats](subdomains-certificates/using/install-ssl-certificate.md)
