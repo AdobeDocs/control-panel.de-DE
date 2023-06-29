@@ -31,7 +31,7 @@ Wenn Sie [E-Mail-Benachrichtigungen](../../performance-monitoring/using/email-al
 >[!CONTEXTUALHELP]
 >id="cp_performancemonitoring_database"
 >title="Über die Datenbanküberwachung"
->abstract="Auf dieser Registerkarte erhalten Sie Echtzeitinformationen über die aktuelle und frühere Datenbanknutzung und -entwicklung für jede Ihrer Campaign-Instanzen."
+>abstract="Auf dieser Registerkarte befinden sich Echtzeitinformationen über die aktuelle und frühere Datenbanknutzung und -entwicklung für jede Campaign-Instanz."
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=de" text="Über die Leistungsüberwachung "
 
 Mit dem Control Panel können Sie die Datenbanknutzung für jede Ihrer Campaign-Instanzen überwachen. Öffnen Sie dazu die Karte **[!UICONTROL Leistungsüberwachung]** und wählen Sie dann den Tab **[!UICONTROL Datenbanken]** aus.
