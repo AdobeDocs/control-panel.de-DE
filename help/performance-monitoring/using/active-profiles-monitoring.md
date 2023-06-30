@@ -39,7 +39,7 @@ Weitere Informationen zu aktiven Profilen finden Sie in den Dokumentationen zu [
 >[!CONTEXTUALHELP]
 >id="cp_performancemonitoring_active_profile"
 >title="Über die Überwachung aktiver Profile"
->abstract="Auf dieser Registerkarte erhalten Sie in Echtzeit Informationen über die aktuelle und frühere Nutzung und Entwicklung aktiver Profile für jede Ihrer Campaign-Instanzen."
+>abstract="Auf dieser Registerkarte befinden sich Echtzeitinformationen über die aktuelle und frühere Nutzung und Entwicklung aktiver Profile für jede Campaign-Instanz."
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=de" text="Über die Leistungsüberwachung "
 
 Mit dem Control Panel können Sie die Nutzung aktiver Profile für jede Ihrer Campaign-Instanzen überwachen.

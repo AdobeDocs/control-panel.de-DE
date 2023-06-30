@@ -19,7 +19,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="cp_performancemonitoring_throughputslatencies"
 >title="Über die Überwachung von Durchsätzen und Latenzen "
->abstract="Auf dieser Registerkarte können Sie die Entwicklung der Durchsätze und Latenzen Ihrer Instanzen über einen bestimmten Zeitraum hinweg überwachen. Um Informationen über Sendungen zu erhalten, die zum Durchsatz beitragen, wechseln Sie zur Tabellenansicht."
+>abstract="Auf dieser Registerkarte kann die Entwicklung der Durchsätze und Latenzen über einen bestimmten Zeitraum hinweg überwacht werden. Um Informationen über Versände zu erhalten, die zum Durchsatz beitragen, muss zur Tabellenansicht gewechselt werden."
 
 Mit dem Control Panel können Sie den Versanddurchsatz und die Latenz für jede Ihrer Instanzen überwachen.
 
