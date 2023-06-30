@@ -19,7 +19,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="cp_dbdetails_storagedetails"
 >title="Über die Speicherübersicht"
->abstract="Auf dieser Registerkarte erhalten Sie detaillierte Informationen zu den verschiedenen Campaign-Ressourcen, die Datenbankspeicherplatz belegen."
+>abstract="Auf dieser Registerkarte befinden sich detaillierte Informationen zu den verschiedenen Campaign-Ressourcen, die Datenbankspeicherplatz belegen."
 
 Der Bereich **[!UICONTROL Speicherübersicht]** bietet eine grafische Darstellung des belegten Speicherplatzes durch:
 
