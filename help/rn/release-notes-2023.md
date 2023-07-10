@@ -3,15 +3,15 @@ title: Versionshinweise 2023
 description: Auf dieser Seite sind alle Control Panel-Versionen des Jahres 2023 aufgelistet.
 exl-id: 9a83e32a-4c11-4784-a6fe-341ce9ebc7a7
 source-git-commit: 40654418f0c5b298cc4fbd66a5d835355876a12c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '242'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 # Versionshinweise 2023 {#rn-2023}
 
-## Verbesserungen vom Mai 2023 {#june-2023}
+## Verbesserungen von Mai 2023 {#june-2023}
 
 **Delegierung von SSL-Zertifikaten der Subdomains an Adobe**
 
