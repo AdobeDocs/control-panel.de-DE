@@ -8,9 +8,9 @@ role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
 source-git-commit: 40654418f0c5b298cc4fbd66a5d835355876a12c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1590'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -104,7 +104,7 @@ Gehen Sie wie folgt vor, um eine Subdomain vollständig an Adobe Campaign zu del
 
    Vergewissern Sie sich, dass Sie den **vollständigen Namen** der delegierten Subdomain eingeben. Um beispielsweise die Subdomain &quot;usoffer.email.weretail.com&quot; zu delegieren, geben Sie &quot;usoffer.email.weretail.com&quot; ein.
 
-1. Um die Erstellung des SSL-Zertifikats der Subdomain an Adobe zu delegieren, aktivieren Sie die Option **[!UICONTROL Für von Adobe verwaltetes SSL für Subdomains registrieren]**. [Erfahren Sie mehr über die Zuweisung von SSL-Zertifikaten](delegate-ssl.md)
+1. Um die Erstellung des SSL-Zertifikats der Subdomain an Adobe zu delegieren, aktivieren Sie die Option **[!UICONTROL Für von Adobe verwaltetes SSL für Subdomains registrieren]**. [Erfahren Sie mehr über die Delegierung von SSL-Zertifikaten](delegate-ssl.md)
 
    ![](assets/subdomain6.png)
 
@@ -148,7 +148,7 @@ Gehen Sie wie folgt vor, um eine Subdomain mithilfe von CNAMEs zu konfigurieren.
 
 1. Geben Sie die Subdomain ein, die Sie in Ihrer Hosting-Lösung erstellt haben.
 
-   Um die Erstellung des SSL-Zertifikats der Subdomain an Adobe zu delegieren, aktivieren Sie die Option **[!UICONTROL Für von Adobe verwaltetes SSL für Subdomains registrieren]**. [Erfahren Sie mehr über die Zuweisung von SSL-Zertifikaten](delegate-ssl.md)
+   Um die Erstellung des SSL-Zertifikats der Subdomain an Adobe zu delegieren, aktivieren Sie die Option **[!UICONTROL Für von Adobe verwaltetes SSL für Subdomains registrieren]**. [Erfahren Sie mehr über die Delegierung von SSL-Zertifikaten](delegate-ssl.md)
 
    ![](assets/cname-adobe-managed.png)
 
