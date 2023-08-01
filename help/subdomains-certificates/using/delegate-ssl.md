@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 source-git-commit: 01da21a883804b9c79c7ee4056d984f3df6cb96c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '337'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 83%
 >title="Delegieren von SSL-Zertifikaten von Subdomains an Adobe"
 >abstract="Mit dem Control Panel können Sie die SSL-Zertifikate Ihrer Subdomains von Adobe verwalten lassen. Wenn Sie CNAMEs zum Einrichten Ihrer Subdomain verwenden, werden automatisch Zertifikatdatensätze generiert und bereitgestellt, um ein Zertifikat in Ihrer Domain-Hosting-Lösung zu generieren."
 
-Es wird dringend empfohlen, die Verwaltung der SSL-Zertifikate Ihrer Subdomains an Adobe zu delegieren, da Adobe das Zertifikat automatisch erstellt und jedes Jahr erneuert, bevor das Zertifikat abläuft.
+Es wird dringend empfohlen, die Verwaltung der SSL-Zertifikate Ihrer Subdomains an Adobe zu delegieren, da Adobe das Zertifikat automatisch ausstellt und jedes Jahr vor Ablauf erneuert.
 
 Wenn Sie CNAMEs zum Einrichten einer Subdomain-Delegierung verwenden, stellt Adobe Zertifikatdatensätze bereit, die in Ihrer Domain-Hosting-Lösung zum Generieren Ihres Zertifikats verwendet werden.
 
@@ -28,7 +28,7 @@ Die Delegierung von SSL-Zertifikaten an Adobe kann beim Einrichten einer neuen S
 
 >[!NOTE]
 >
->Adobe Managed SSL ist eine kostenlose Funktion, die Benutzenden gebührenfrei zur Verfügung steht. Die Delegierung des Zertifikats einer Subdomain an Adobe ist transparent und hat keine Auswirkungen auf Ihre Kampagnen und die Zustellbarkeit. [Weitere Informationen zur Verwaltung von SSL-Zertifikaten](monitoring-ssl-certificates.md#management)
+>Adobe Managed SSL ist eine kostenlose Funktion, die Benutzenden gebührenfrei zur Verfügung steht. Das Delegieren des Zertifikats einer Subdomain an Adobe ist transparent und hat keinen Einfluss auf Ihre Kampagnen und die Zustellbarkeit. [Erfahren Sie mehr über die Verwaltung von SSL-Zertifikaten](monitoring-ssl-certificates.md#management)
 
 
 ## Delegieren von SSL-Zertifikaten neuer Subdomains {#new}
