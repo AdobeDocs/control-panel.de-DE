@@ -8,9 +8,9 @@ role: Architect
 level: Experienced
 exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
 source-git-commit: 01da21a883804b9c79c7ee4056d984f3df6cb96c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1027'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="cp_add_ssl_certificate"
 >title="Verlängerung von SSL-Zertifikaten"
->abstract="Um ein SSL-Zertifikat hinzuzufügen, müssen Sie eine CSR generieren, das SSL-Zertifikat für Ihre Subdomain erwerben und das Zertifikat-Bundle installieren. Dieser Vorgang ist nur erforderlich, wenn Sie Zertifikate manuell verwalten möchten, anstatt sie an Adobe zu delegieren. "
+>abstract="Um ein SSL-Zertifikat hinzuzufügen, müssen Sie eine CSR generieren, das SSL-Zertifikat für Ihre Subdomain erwerben und das Zertifikat-Bundle installieren. Dieser Vorgang ist nur erforderlich, wenn Sie die Zertifikatsverwaltung manuell durchführen und nicht an Adobe delegieren möchten. "
 
 >[!NOTE]
 >
->Die Verlängerung der SSL-Zertifikate Ihrer Subdomains ist nur erforderlich, wenn Sie Zertifikate selbst verwalten möchten, anstatt diesen Vorgang an Adobe zu delegieren. Es wird dringend empfohlen, die Verwaltung der SSL-Zertifikate Ihrer Subdomains an Adobe zu delegieren, da Adobe das Zertifikat automatisch erstellt und jedes Jahr erneuert, bevor es abläuft. [Weitere Informationen zur Verwaltung von SSL-Zertifikaten](monitoring-ssl-certificates.md#management)
+>Die Erneuerung der SSL-Zertifikate Ihrer Subdomains ist nur dann erforderlich, wenn Sie die Zertifikate selbst verwalten möchten, anstatt diesen Prozess an Adobe zu delegieren. Es wird dringend empfohlen, die Verwaltung der SSL-Zertifikate Ihrer Subdomains an Adobe zu delegieren, da Adobe das Zertifikat automatisch ausstellt und jedes Jahr vor Ablauf erneuert. [Erfahren Sie mehr über die Verwaltung von SSL-Zertifikaten](monitoring-ssl-certificates.md#management)
 
 Der Verlängerungsprozess eines SSL-Zertifikats besteht aus drei Schritten:
 
@@ -47,7 +47,7 @@ Der Verlängerungsprozess eines SSL-Zertifikats besteht aus drei Schritten:
 * [Subdomain-Branding](../../subdomains-certificates/using/subdomains-branding.md)
 * [Überwachen von Subdomains](../../subdomains-certificates/using/monitoring-subdomains.md)
 
-## CSR generieren {#generate}
+## Generieren der CSR {#generate}
 
 >[!CONTEXTUALHELP]
 >id="cp_generate_csr"
