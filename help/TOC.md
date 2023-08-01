@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Beginner
 source-git-commit: 7a355dee0482a519878a44407d133a8b6d94f00c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '161'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -42,11 +42,11 @@ ht-degree: 96%
 + Subdomains und Zertifikate {#subdomains-and-certificates}
    + [Subdomain-Branding](subdomains-certificates/using/subdomains-branding.md)
    + [Überwachen Ihrer Subdomains](subdomains-certificates/using/monitoring-subdomains.md)
-   + Zuweisen von Subdomains {#delegate-subdomains}
+   + Delegieren von Subdomains {#delegate-subdomains}
       + [Einrichten einer neuen Subdomain](subdomains-certificates/using/setting-up-new-subdomain.md)
       + [Entfernen der Zuweisung von Subdomains an Adobe](subdomains-certificates/using/remove-delegated-subdomains.md)
       + [Verwalten von TXT-Einträgen](subdomains-certificates/using/managing-txt-records.md)
-   + SSL-Zertifikate von Subdomains verwalten {#manage-certificates}
+   + Verwalten von SSL-Zertifikaten für Subdomains {#manage-certificates}
       + [Überwachen von SSL-Zertifikaten](subdomains-certificates/using/monitoring-ssl-certificates.md)
       + [Delegieren von SSL-Zertifikaten an Adobe](subdomains-certificates/using/delegate-ssl.md)
       + [Verlängern von SSL-Zertifikaten](subdomains-certificates/using/renewing-subdomain-certificate.md)
