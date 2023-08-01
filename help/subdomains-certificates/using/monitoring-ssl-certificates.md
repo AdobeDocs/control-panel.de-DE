@@ -8,9 +8,9 @@ role: Architect
 level: Experienced
 exl-id: a7888e1c-259d-4601-951b-0f1062d90dc2
 source-git-commit: 01da21a883804b9c79c7ee4056d984f3df6cb96c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '573'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
@@ -30,19 +30,19 @@ Mit der **SSL-Verschlüsselung (Secure Socket Layer)** stellen Sie sicher, dass 
 
 ## SSL-Zertifikatverwaltung {#management}
 
-Die Überwachung von SSL-Zertifikaten ist wichtig, um sicherzustellen, dass Ihre Subdomains sicher sind. Mit dem Control Panel können Sie die SSL-Zertifikate Ihrer Subdomains direkt selbst installieren und erneuern oder sie an Adobe delegieren, damit dieser Vorgang automatisch ohne von Ihrer Seite aus erforderliche Maßnahmen ausgeführt wird.
+Die Überwachung von SSL-Zertifikaten ist wichtig, um die Sicherheit Ihrer Subdomains zu gewährleisten. Über das Control Panel können Sie die SSL-Zertifikate Ihrer Subdomains direkt selbst installieren und erneuern oder diese Aufgabe an Adobe delegieren, damit dies automatisch und ohne Ihr Eingreifen geschieht.
 
-Es wird dringend empfohlen, die Verwaltung der SSL-Zertifikate Ihrer Subdomains an Adobe zu delegieren, da Adobe das Zertifikat automatisch erstellt und jedes Jahr erneuert, bevor es abläuft. Dadurch wird das Risiko von Fehlern reduziert, die beim manuellen Verwalten von Zertifikaten auftreten können. [Erfahren Sie, wie Sie SSL-Zertifikate von Subdomains an Adobe delegieren](delegate-ssl.md)
+Es wird dringend empfohlen, die Verwaltung der SSL-Zertifikate Ihrer Subdomains an Adobe zu delegieren, da Adobe das Zertifikat automatisch ausstellt und jedes Jahr vor Ablauf erneuert. Dadurch wird das Risiko von Fehlern verringert, die bei der manuellen Verwaltung von Zertifikaten auftreten können. [Erfahren Sie, wie Sie SSL-Zertifikate von Subdomains an Adobe delegieren](delegate-ssl.md)
 
-Unten finden Sie eine umfassende Liste der Auswirkungen, die mit der manuellen Zertifikatverwaltung im Vergleich zur Übertragung dieses Vorgangs an die Adobe verbunden sind:
+Nachfolgend finden Sie eine umfassende Liste der Auswirkungen, die mit der manuellen Zertifikatsverwaltung im Vergleich zur Delegierung dieses Vorgangs an Adobe verbunden sind:
 
-|       | Vom Kunden verwaltetes Zertifikat | Adobe-verwaltetes Zertifikat |
+|       | Kundenverwaltetes Zertifikat | Adobe-verwaltetes Zertifikat |
 |  ---  |  ---  |  ---  |
-| Zertifikatanbieter | Zertifizierungsstellen von Drittanbietern | Adobe über AWS-Zertifikatmanager |
+| Zertifikatsanbieter | Zertifizierungsstellen von Drittanbietern | Adobe über AWS Certificate Manager |
 | Manuelle Schritte | CSR-Generierung, Zertifikatkauf und -installation | Kein(e) |
-| Erneuerungsprozess | Verantwortung des Kunden | Automatisch von Adobe verwaltet |
-| Subdomain-Sicherheit | Die Domäne kann unbesicherte Subdomains (Tracking, Mirror und res) aufweisen, es sei denn, Sie installieren/erneuern Zertifikate. | Für jede neue Domäne (sofern sie sich für die Verwaltung von Adoben entschieden hat) sind standardmäßig alle Subdomains gesichert. |
-| Zertifikatkosten | Der Kunde trägt die Kosten für Zertifikate | Frei |
+| Erneuerungsprozess | Verantwortung des Kunden | Verwaltet von Adobe |
+| Subdomain-Sicherheit | Die Domain kann ungesicherte Subdomains haben (Tracking, Mirror und Res), es sei denn, Sie installieren/erneuern Zertifikate. | Bei jeder neuen Domain (sofern sie von Adobe verwaltet wird) sind alle Subdomains standardmäßig abgesichert. |
+| Zertifikatskosten | Der Kunde trägt die Kosten für Zertifikate | Frei |
 
 ## Überwachen von SSL-Zertifikaten {#monitoring-certificates}
 
