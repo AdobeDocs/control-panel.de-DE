@@ -37,7 +37,7 @@ Sie können jetzt die Delegation einer Subdomain entfernen, die vollständig Ado
 
 >[!NOTE]
 >
->Bei Subdomains, die mit CNAME eingerichtet wurden, können Zuweisungen derzeit nicht entfernt werden.
+>Bei Subdomains, die mit CNAME eingerichtet wurden, können Delegierungen derzeit nicht entfernt werden.
 
 **Service-Kalender**
 
