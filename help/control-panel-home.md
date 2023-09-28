@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: d0ba7f99eefd565ffa52dbe22771df0cd5438899
+source-git-commit: fc026f157346253fc79bde4ce624e7efa3373af2
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 100%
+source-wordcount: '240'
+ht-degree: 70%
 
 ---
 
@@ -26,13 +26,14 @@ Das Control Panel von Campaign hilft Produktadministratoren von Campaign Standar
 
 ## Neue Funktionen
 
-**Entfernung der Delegation für an Adobe delegierte Subdomains**
+**Verwaltung von DMARC- und BIMI-Datensätzen**
 
-Sie können jetzt die Delegation einer Subdomain, die Adobe delegiert wurde, entfernen, einschließlich der Einrichtung mit CNAME. [Weitere Informationen](../help/subdomains-certificates/using/remove-delegated-subdomains.md)
+Sie können jetzt DMARC- und BIMI-Datensätze direkt über das Control Panel hinzufügen:
 
-**Service-Kalender**
+* **DMARC-Einträge** bieten eine Möglichkeit, die Domain des Absenders zu authentifizieren und die unbefugte Nutzung der Domain für böswillige Zwecke zu verhindern. [Erfahren Sie, wie Sie DMARC-Datensätze hinzufügen](subdomains-certificates/using/dmarc.md)
 
-Der Service-Kalender bietet jetzt eine Kalenderansicht, in der Sie wichtige Ereignisse verfolgen können, die in Ihren Instanzen auftreten. Darüber hinaus wurden Informationen zu den Benachrichtigungen hinzugefügt, die an Benutzende gesendet werden, die Warnhinweise von Control Panel abonniert haben. [Weitere Informationen](../help/service-events/service-events.md)
+
+* **BIMI-Datensätze** ermöglichen es Ihnen, ein bestätigtes Logo neben Ihren E-Mails in den Postfächern von Postfachanbietern anzuzeigen, um die Markenerkennung und das Vertrauen zu verbessern. [Erfahren Sie, wie Sie BIMI-Datensätze hinzufügen](subdomains-certificates/using/bimi.md)
 
 >[!CAUTION]
 >

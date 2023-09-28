@@ -2,16 +2,22 @@
 title: Versionshinweise 2023
 description: Auf dieser Seite sind alle Control Panel-Versionen des Jahres 2023 aufgelistet.
 exl-id: 9a83e32a-4c11-4784-a6fe-341ce9ebc7a7
-source-git-commit: 40654418f0c5b298cc4fbd66a5d835355876a12c
+source-git-commit: 2a1119022af2ced06052cf48b50d6ff7be2d1faa
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '270'
 ht-degree: 100%
 
 ---
 
 # Versionshinweise 2023 {#rn-2023}
 
-## Verbesserungen von Mai 2023 {#june-2023}
+## Juni 2023 {#june-2023}
+
+* Sie können jetzt die SSL-Zertifikate bereits delegierter Subdomains direkt aus der Liste der Subdomains an Adobe delegieren. [Weitere Informationen](../subdomains-certificates/using/delegate-ssl.md)
+
+* Die Absenderadresse der Warn-E-Mails wurde in `"alert@notifications.campaign.adobe.com"` geändert.
+
+## Verbesserungen von Mai 2023 {#may-2023}
 
 **Delegierung von SSL-Zertifikaten der Subdomains an Adobe**
 
