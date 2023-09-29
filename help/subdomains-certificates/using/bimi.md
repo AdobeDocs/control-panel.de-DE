@@ -6,9 +6,9 @@ description: Erfahren Sie, wie Sie einen BIMI-Datensatz für eine Subdomain hinz
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: 0ad4c1f12eb035c8d543777be2a8806d507be5be
+source-git-commit: dfb6f548c4d53df7eb807d9aa21065449927f945
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '508'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Gehen Sie wie folgt vor, um einen BIMI-Datensatz für eine Subdomain hinzuzufüg
 
 1. Im **[!UICONTROL Firmen-Logo-URL]**, geben Sie die URL der SVG-Datei an, die Ihr Logo enthält.
 
-1. Die **[!UICONTROL ZertifikatURL]** -Feld ist optional. Damit können Sie eine URL für das Verified Mark Certificate (VMC) hinzufügen, um zu bestätigen, dass Ihr Unternehmen der rechtliche Eigentümer des Logos ist, um zu verhindern, dass Spammer und andere böswillige Benutzer Markenlogos verwenden, deren Inhaber sie nicht sind.
+1. Husten **[!UICONTROL ZertifikatURL]** optional ist, ist es für einige Postfachanbieter wie Gmail und Apple erforderlich, die 80 % des Postfachmarkts abdecken. Daher empfehlen wir, ein Verified Mark Certificate (VMC) zu erhalten, um BIMI wirklich zu nutzen.
 
    +++Wie erhalte ich einen VMC?
 
@@ -56,6 +56,8 @@ Gehen Sie wie folgt vor, um einen BIMI-Datensatz für eine Subdomain hinzuzufüg
    1. Nachdem Sie sich vergewissert haben, dass Ihr Logo mit einer Marke versehen ist, wenden Sie sich an DigiCert oder die Zertifizierungsstelle von Entrust (CA), um einen VMC anzufordern.
 
    1. Wenn Ihr VMC genehmigt ist, erhalten Sie eine PEM-Datei (Privacy Enhanced Mail) mit einem Entitätszertifikat. Hängen Sie alle anderen Zwischenzertifikate, die Sie von der Zertifizierungsstelle erhalten, an diese PEM-Datei an. Laden Sie die PEM-Datei (zusammen mit angehängten Dateien) auf Ihren öffentlichen Webserver hoch und notieren Sie sich die PEM-Datei-URL. Sie verwenden die URL in Ihrem BIMI TXT-Eintrag.
+
+   1. Sobald der BIMI-Datensatz auf der Detailseite der Subdomain für eine bestimmte Subdomain sichtbar ist, können Sie den verfügbaren BIMI-Inspektor verwenden [here](https://bimigroup.org/bimi-generator/) um zu überprüfen, ob der BIMI-Datensatz ordnungsgemäß funktioniert.
 
    Detaillierte Informationen zur BIMI-Implementierung finden Sie im Abschnitt [BIMI-Standarddokumentation](https://bimigroup.org/implementation-guide/)
 +++

@@ -6,9 +6,9 @@ description: Erfahren Sie, wie Sie einen DMARC-Datensatz für eine Subdomain hin
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: fc026f157346253fc79bde4ce624e7efa3373af2
+source-git-commit: f87a13c8553173e4303c9b95cfea5de05ff49cee
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '714'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ ht-degree: 0%
 ## Über DMARC-Einträge {#about}
 
 Domain based Message Authentication, Reporting and Conformance (DMARC) ist ein E-Mail-Authentifizierungsprotokollstandard, der Unternehmen dabei unterstützt, ihre E-Mail-Domains vor Phishing- und Spoofing-Angriffen zu schützen. Sie können damit festlegen, wie ein Postfachanbieter E-Mails verarbeiten soll, die bei SPF- und DKIM-Prüfungen fehlschlagen. So können Sie die Domäne des Absenders authentifizieren und eine unbefugte Nutzung der Domain zu bösartigen Zwecken verhindern.
+
+<!--Detailed information on DMARC implementation is available in [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-bimi.html)-->
 
 ## Einschränkungen und Voraussetzungen {#limitations}
 
@@ -37,11 +39,17 @@ Gehen Sie wie folgt vor, um einen DMARC-Datensatz für eine Subdomain hinzuzufü
 
 1. Wählen Sie die **[!UICONTROL Richtlinientyp]** dass der Empfängerserver folgen sollte, wenn eine Ihrer E-Mails fehlschlägt. Verfügbare Richtlinientypen sind:
 
-   * Keine,
-   * Quarantäne (Platzierung des Spam-Ordners),
-   * Ablehnen (E-Mail blockieren).
+   * **[!UICONTROL Keine]**,
+   * **[!UICONTROL Quarantäne]** (Platzierung von Spam-Ordnern),
+   * **[!UICONTROL Ablehnen]** (E-Mail blockieren).
 
-   Wenn Ihre Subdomain gerade konfiguriert wurde, empfehlen wir, diesen Wert auf &quot;Keine&quot;festzulegen, bis Ihre Subdomain vollständig eingerichtet ist und Ihre E-Mails korrekt gesendet werden. Sobald alles ordnungsgemäß konfiguriert ist, können Sie den Richtlinientyp in &quot;Quarantäne&quot;oder &quot;Ablehnen&quot;ändern.
+   Als Best Practice wird empfohlen, die DMARC-Implementierung langsam einzuführen, indem Sie Ihre DMARC-Richtlinie von p=none auf p=quarantine eskalieren und p=reject, sobald DMARC die potenziellen Auswirkungen von DMARC erkennt.
+
+   * **Schritt 1:** Analysieren Sie das Feedback, das Sie erhalten und verwenden (p=none), das den Empfänger anweist, keine Aktionen für Nachrichten durchzuführen, die die Authentifizierung nicht befolgen, aber trotzdem E-Mail-Berichte an den Absender senden. Überprüfen und beheben Sie außerdem Probleme mit SPF/DKIM, wenn die Authentifizierung für legitime Nachrichten fehlschlägt.
+
+   * **Schritt 2:** Bestimmen Sie, ob SPF und DKIM abgestimmt sind und übergeben Sie die Authentifizierung für alle legitimen E-Mails und verschieben Sie dann die Richtlinie auf (p=quarantine), wodurch der E-Mail-Empfangs-Server angewiesen wird, E-Mails unter Quarantäne zu stellen, die die Authentifizierung fehlschlagen (im Allgemeinen bedeutet dies, dass diese Nachrichten im Spam-Ordner abgelegt werden). Wenn die Richtlinie auf Quarantäne gesetzt ist, wird empfohlen, mit einem kleinen Prozentsatz Ihrer E-Mails zu beginnen.
+
+   * **Schritt 3:** Richtlinie anpassen auf (p=reject). HINWEIS: Verwenden Sie diese Richtlinie mit Vorsicht und legen Sie fest, ob sie für Ihre Organisation geeignet ist. Die p=-Zurückweisungsrichtlinie weist den Empfänger an, jede E-Mail für die Domain, bei der die Authentifizierung fehlschlägt, vollständig zu verweigern (Bounce). Wenn diese Richtlinie aktiviert ist, haben nur E-Mails, die zu 100 % von Ihrer Domäne authentifiziert wurden, sogar die Möglichkeit, die Posteingangsplatzierung durchzuführen.
 
    >[!NOTE]
    >
@@ -52,9 +60,9 @@ Gehen Sie wie folgt vor, um einen DMARC-Datensatz für eine Subdomain hinzuzufü
    * Aggregate-DMARC-Berichte enthalten allgemeine Informationen wie z. B. die Anzahl der E-Mails, die in einem bestimmten Zeitraum fehlgeschlagen sind.
    * Berichte zu forensischen DMARC-Fehlern enthalten detaillierte Informationen, z. B. von welcher IP-Adresse die fehlgeschlagene E-Mail stammt.
 
-1. Standardmäßig wird die ausgewählte DMARC-Richtlinie auf alle E-Mails angewendet. Sie können diesen Parameter so ändern, dass er nur auf einen bestimmten Prozentsatz von E-Mails angewendet wird.
+1. Wenn die DMARC-Richtlinie auf &quot;Keine&quot;gesetzt ist, geben Sie einen Prozentsatz ein, der für 100 % der E-Mails gilt.
 
-   Wenn Sie DMARC schrittweise bereitstellen, können Sie mit einem kleinen Prozentsatz Ihrer Nachrichten beginnen. Wenn mehr Nachrichten aus Ihrer Domäne die Authentifizierung mit Empfangs-Servern bestehen, aktualisieren Sie Ihren Datensatz mit einem höheren Prozentsatz, bis Sie 100 Prozent erreichen.
+   Wenn die Richtlinie auf &quot;Ablehnen&quot;oder &quot;Quarantäne&quot;gesetzt ist, wird empfohlen, mit einem kleinen Prozentsatz Ihrer E-Mails zu beginnen. Wenn mehr E-Mails aus Ihrer Domain die Authentifizierung mit Empfangs-Servern bestehen, aktualisieren Sie Ihren Datensatz langsam mit einem höheren Prozentsatz.
 
    >[!NOTE]
    >
