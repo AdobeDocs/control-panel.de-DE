@@ -6,19 +6,21 @@ description: Erfahren Sie, wie Sie einen BIMI-Datensatz für eine Subdomain hinz
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: dfb6f548c4d53df7eb807d9aa21065449927f945
+exl-id: eb7863fb-6e6d-4821-a156-03fee03cdd0e
+source-git-commit: 64ea5e26786eea107983ee5025025c81334b0a91
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 0%
 
 ---
 
-
 # Hinzufügen von BIMI-Datensätzen {#dmarc}
 
 ## Über BIMI-Datensätze {#about}
 
-Brand Indicators for Message Identification (BIMI) ist ein Branchenstandard, der es ermöglicht, ein genehmigtes Logo neben der E-Mail eines Absenders in den Postfächern von Postfachanbietern anzuzeigen, um die Markenerkennung und das Vertrauen zu verbessern. Dies hilft, das Spoofing und Phishing von E-Mails zu verhindern, indem die Identität des Absenders durch DMARC-Authentifizierung überprüft wird. Dadurch wird es für böswillige Akteure schwieriger, sich in E-Mails als legitime Marken auszugeben. Detaillierte Informationen zur BIMI-Implementierung finden Sie unter [Best Practices für die Adobe-Zustellbarkeit](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-bimi.html)
+Brand Indicators for Message Identification (BIMI) ist ein Branchenstandard, der es ermöglicht, ein genehmigtes Logo neben der E-Mail eines Absenders in den Postfächern von Postfachanbietern anzuzeigen, um die Markenerkennung und das Vertrauen zu verbessern. Dies hilft, das Spoofing und Phishing von E-Mails zu verhindern, indem die Identität des Absenders durch DMARC-Authentifizierung überprüft wird. Dadurch wird es für böswillige Akteure schwieriger, sich in E-Mails als legitime Marken auszugeben.
+
+Detaillierte Informationen zur BIMI-Implementierung finden Sie unter [Best Practices für die Adobe-Zustellbarkeit](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-bimi.html)
 
 ![](assets/bimi-example.png){width="70%" align="center"}
 

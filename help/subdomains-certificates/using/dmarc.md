@@ -6,13 +6,13 @@ description: Erfahren Sie, wie Sie einen DMARC-Datensatz für eine Subdomain hin
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: f87a13c8553173e4303c9b95cfea5de05ff49cee
+exl-id: 2ca66983-5beb-495a-9639-a31905500cff
+source-git-commit: 64ea5e26786eea107983ee5025025c81334b0a91
 workflow-type: tm+mt
-source-wordcount: '714'
+source-wordcount: '735'
 ht-degree: 0%
 
 ---
-
 
 # Hinzufügen von DMARC-Datensätzen {#dmarc}
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Domain based Message Authentication, Reporting and Conformance (DMARC) ist ein E-Mail-Authentifizierungsprotokollstandard, der Unternehmen dabei unterstützt, ihre E-Mail-Domains vor Phishing- und Spoofing-Angriffen zu schützen. Sie können damit festlegen, wie ein Postfachanbieter E-Mails verarbeiten soll, die bei SPF- und DKIM-Prüfungen fehlschlagen. So können Sie die Domäne des Absenders authentifizieren und eine unbefugte Nutzung der Domain zu bösartigen Zwecken verhindern.
 
-<!--Detailed information on DMARC implementation is available in [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-bimi.html)-->
+Detaillierte Informationen zur DMARC-Implementierung finden Sie unter [Best Practices für die Adobe-Zustellbarkeit](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html)
 
 ## Einschränkungen und Voraussetzungen {#limitations}
 
