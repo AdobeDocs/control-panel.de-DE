@@ -1,20 +1,20 @@
 ---
 product: campaign
 solution: Campaign
-title: Hinzufügen von Google Site-Überprüfungsdatensätzen für eine Subdomain
-description: Erfahren Sie, wie Sie einen Google Site Verification-Datensatz für eine Subdomain zur Verifizierung des Domäneneigentums hinzufügen.
+title: Hinzufügen von Google Site-Verifizierungseinträgen für eine Subdomain
+description: Erfahren Sie, wie Sie einen Google Site-Verifizierungseintrag für eine Subdomain zur Überprüfung des Domain-Eigentums hinzufügen.
 feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 547ca6f2-720f-4d58-b31b-5b2611ba9156
 source-git-commit: 355abf48cce3036d1c3e0f6c5fe3ca8fb63cf645
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '300'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
-# Hinzufügen von Google-Site-Überprüfungsdatensätzen {#adding-a-google-txt-record}
+# Hinzufügen von Google Site-Verifizierungseinträgen {#adding-a-google-txt-record}
 
 Für hohe Posteingangsraten und niedrige Spam-Raten setzen bestimmte Dienste wie Google voraus, dass Sie Ihren Domain-Einstellungen einen TXT-Eintrag hinzufügen, um zu verifizieren, dass Sie der Besitzer der Domain sind.
 
@@ -22,11 +22,11 @@ Gmail gehört derzeit zu den beliebtesten Anbietern von E-Mail-Adressen. Für op
 
 Gehen Sie wie folgt vor, um Ihrer Subdomain, die Sie zum Versenden von E-Mails an Gmail-Adressen nutzen, einen Google TXT-Eintrag hinzuzufügen:
 
-1. Klicken Sie in der Liste der Subdomains auf die Suchschaltfläche neben der gewünschten Subdomain und wählen Sie **[!UICONTROL Details der Subdomain]**.
+1. Klicken Sie in der Liste der Subdomains auf die Schaltfläche mit den Auslassungspunkten neben der gewünschten Subdomain und wählen Sie **[!UICONTROL Details der Subdomain]**.
 
-1. Klicken Sie auf **[!UICONTROL TXT-Eintrag hinzufügen]** und wählen Sie **[!UICONTROL Google Site Verification]** aus dem **[!UICONTROL Record Type]** Dropdown-Liste.
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL TXT-Eintrag hinzufügen]** und wählen Sie **[!UICONTROL Google Site-Überprüfung]** aus der Dropdown-Liste **[!UICONTROL Typ des Eintrages]**.
 
-1. Geben Sie den in den G Suite Admin Tools generierten Wert ein. Weiterführende Informationen finden Sie in der [G Suite Admin-Hilfe](https://support.google.com/a/answer/183895).
+1. Geben Sie den in den G Suite-Administrationswerkzeugen generierten Wert ein. Weiterführende Informationen finden Sie in der [G Suite Admin-Hilfe](https://support.google.com/a/answer/183895).
 
    ![](assets/txt_addtxt.png)
 
