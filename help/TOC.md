@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Beginner
 source-git-commit: 355abf48cce3036d1c3e0f6c5fe3ca8fb63cf645
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '181'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -44,12 +44,12 @@ ht-degree: 87%
    + [Überwachen Ihrer Subdomains](subdomains-certificates/using/monitoring-subdomains.md)
    + Delegieren von Subdomains {#delegate-subdomains}
       + [Einrichten einer neuen Subdomain](subdomains-certificates/using/setting-up-new-subdomain.md)
-      + [Entfernen der Zuweisung von Subdomains an Adobe](subdomains-certificates/using/remove-delegated-subdomains.md)
+      + [Entfernen der Delegierung von Subdomains an Adobe](subdomains-certificates/using/remove-delegated-subdomains.md)
    + Arbeiten mit TXT-Einträgen (Google, BIMI, DMARC) {#txt-records}
       + [Erste Schritte mit TXT-Einträgen](subdomains-certificates/using/gs-txt-records.md)
-      + [Hinzufügen von Google-Site-Überprüfungsdatensätzen](subdomains-certificates/using/managing-txt-records.md)
-      + [Hinzufügen von DMARC-Datensätzen](subdomains-certificates/using/dmarc.md)
-      + [Hinzufügen von BIMI-Datensätzen](subdomains-certificates/using/bimi.md)
+      + [Hinzufügen von Google Site-Verifizierungseinträgen](subdomains-certificates/using/managing-txt-records.md)
+      + [Hinzufügen von DMARC-Einträgen](subdomains-certificates/using/dmarc.md)
+      + [Hinzufügen von BIMI-Einträgen](subdomains-certificates/using/bimi.md)
    + Verwalten von SSL-Zertifikaten für Subdomains {#manage-certificates}
       + [Überwachen von SSL-Zertifikaten](subdomains-certificates/using/monitoring-ssl-certificates.md)
       + [Delegieren von SSL-Zertifikaten an Adobe](subdomains-certificates/using/delegate-ssl.md)
