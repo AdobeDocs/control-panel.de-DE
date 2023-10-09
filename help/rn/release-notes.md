@@ -3,9 +3,9 @@ title: Aktuelle Version
 description: Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für das Control Panel aufgelistet.
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
 source-git-commit: 2a1119022af2ced06052cf48b50d6ff7be2d1faa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '98'
-ht-degree: 28%
+ht-degree: 100%
 
 ---
 
@@ -18,16 +18,16 @@ Diese Seite listet alle neuen Funktionen und Verbesserungen für das Control Pan
 <table>
 <thead>
 <tr>
-<th><strong>Verwaltung von DMARC- und BIMI-Datensätzen</strong><br/></th>
+<th><strong>Verwaltung von DMARC- und BIMI-Einträgen</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p><p>Sie können jetzt DMARC- und BIMI-Datensätze direkt über das Control Panel hinzufügen:
+<p><p>Sie können jetzt DMARC- und BIMI-Einträge direkt über Control Panel hinzufügen:
 
-<ul><li><strong>DMARC-Einträge</strong> bieten eine Möglichkeit, die Domain des Absenders zu authentifizieren und die unbefugte Nutzung der Domain für böswillige Zwecke zu verhindern. <a href="../subdomains-certificates/using/dmarc.md">Erfahren Sie, wie Sie DMARC-Datensätze hinzufügen</a></li>
-<li><strong>BIMI-Datensätze</strong> ermöglichen es Ihnen, ein bestätigtes Logo neben Ihren E-Mails in den Postfächern von Postfachanbietern anzuzeigen, um die Markenerkennung und das Vertrauen zu verbessern. <a href="../subdomains-certificates/using/bimi.md">Erfahren Sie, wie Sie BIMI-Datensätze hinzufügen</a></li></ul>
+<ul><li><strong>DMARC-Einträge</strong> bieten eine Möglichkeit, die Absender-Domain zu authentifizieren und die unbefugte Nutzung der Domain für böswillige Zwecke zu verhindern. <a href="../subdomains-certificates/using/dmarc.md">Erfahren Sie, wie Sie DMARC-Einträge hinzufügen</a></li>
+<li><strong>BIMI-Einträge</strong> ermöglichen es Ihnen, ein genehmigtes Logo neben Ihren E-Mails in den Postfächern von E-Mail-Anbietern anzuzeigen, um die Markenerkennung und das Vertrauen zu fördern. <a href="../subdomains-certificates/using/bimi.md">Erfahren Sie, wie Sie BIMI-Einträge hinzufügen</a></li></ul>
 </td>
 </tr>
 </tbody>
