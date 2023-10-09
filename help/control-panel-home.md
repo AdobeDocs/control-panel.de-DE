@@ -6,9 +6,9 @@ role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: fc026f157346253fc79bde4ce624e7efa3373af2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '240'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -26,14 +26,14 @@ Das Control Panel von Campaign hilft Produktadministratoren von Campaign Standar
 
 ## Neue Funktionen
 
-**Verwaltung von DMARC- und BIMI-Datensätzen**
+**Verwaltung von DMARC- und BIMI-Einträgen**
 
-Sie können jetzt DMARC- und BIMI-Datensätze direkt über das Control Panel hinzufügen:
+Sie können jetzt DMARC- und BIMI-Einträge direkt über Control Panel hinzufügen:
 
-* **DMARC-Einträge** bieten eine Möglichkeit, die Domain des Absenders zu authentifizieren und die unbefugte Nutzung der Domain für böswillige Zwecke zu verhindern. [Erfahren Sie, wie Sie DMARC-Datensätze hinzufügen](subdomains-certificates/using/dmarc.md)
+* **DMARC-Einträge** bieten eine Möglichkeit, die Absender-Domain zu authentifizieren und die unbefugte Nutzung der Domain für böswillige Zwecke zu verhindern. [Erfahren Sie, wie Sie DMARC-Einträge hinzufügen](subdomains-certificates/using/dmarc.md)
 
 
-* **BIMI-Datensätze** ermöglichen es Ihnen, ein bestätigtes Logo neben Ihren E-Mails in den Postfächern von Postfachanbietern anzuzeigen, um die Markenerkennung und das Vertrauen zu verbessern. [Erfahren Sie, wie Sie BIMI-Datensätze hinzufügen](subdomains-certificates/using/bimi.md)
+* **BIMI-Einträge** ermöglichen es Ihnen, ein genehmigtes Logo neben Ihren E-Mails in den Postfächern von E-Mail-Anbietern anzuzeigen, um die Markenerkennung und das Vertrauen zu fördern. [Erfahren Sie, wie Sie BIMI-Einträge hinzufügen](subdomains-certificates/using/bimi.md)
 
 >[!CAUTION]
 >
