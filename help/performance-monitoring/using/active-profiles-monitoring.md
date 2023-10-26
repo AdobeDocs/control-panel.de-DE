@@ -7,7 +7,7 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
-source-git-commit: ebebff05669160b97de7e0d58d898ba0e3a30df1
+source-git-commit: cb18dbcbb3a575d88d3c13fe3f22a657caea1e7e
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 51%
@@ -56,7 +56,11 @@ Im oberen Abschnitt werden die folgenden Informationen angezeigt:
 
 * Die Anzahl der aktiven Profile, die derzeit in der ausgewählten Instanz verwendet werden, sowie der Zeitstempel der letzten Ausführung des Abrechnungs-Workflows für Ihre Instanz.
 
-* Die Gesamtzahl der aktiven Profile, die in Ihrer Organisation in allen Instanzen verwendet werden. Dieser Abschnitt ist nur sichtbar, wenn Ihrem Unternehmen mehrere Instanzen zugeordnet sind.
+* Die Gesamtzahl der aktiven Profile, die in Ihrer Organisation in allen Instanzen verwendet werden.
+
+  >[!NOTE]
+  >
+  >Dieser Abschnitt ist nur sichtbar, wenn Ihrem Unternehmen mehrere Instanzen zugeordnet sind.
 
 * Die Gesamtzahl der aktiven Profile, die Ihrer Organisation zugewiesen sind.
 
