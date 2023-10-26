@@ -2,10 +2,10 @@
 title: Aktuelle Version
 description: Auf dieser Seite werden alle neuen Funktionen und Verbesserungen für das Control Panel aufgelistet.
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 2a1119022af2ced06052cf48b50d6ff7be2d1faa
-workflow-type: ht
-source-wordcount: '98'
-ht-degree: 100%
+source-git-commit: a8e2fb9789e9755aa6b9c55019816d7e748606ec
+workflow-type: tm+mt
+source-wordcount: '148'
+ht-degree: 26%
 
 ---
 
@@ -13,22 +13,21 @@ ht-degree: 100%
 
 Diese Seite listet alle neuen Funktionen und Verbesserungen für das Control Panel auf.
 
-## September 2023 {#september-2023}
+## Oktober 2023 {#october-2023}
 
-<table>
-<thead>
-<tr>
-<th><strong>Verwaltung von DMARC- und BIMI-Einträgen</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p><p>Sie können jetzt DMARC- und BIMI-Einträge direkt über Control Panel hinzufügen:
+**Benutzeroberfläche**
 
-<ul><li><strong>DMARC-Einträge</strong> bieten eine Möglichkeit, die Absender-Domain zu authentifizieren und die unbefugte Nutzung der Domain für böswillige Zwecke zu verhindern. <a href="../subdomains-certificates/using/dmarc.md">Erfahren Sie, wie Sie DMARC-Einträge hinzufügen</a></li>
-<li><strong>BIMI-Einträge</strong> ermöglichen es Ihnen, ein genehmigtes Logo neben Ihren E-Mails in den Postfächern von E-Mail-Anbietern anzuzeigen, um die Markenerkennung und das Vertrauen zu fördern. <a href="../subdomains-certificates/using/bimi.md">Erfahren Sie, wie Sie BIMI-Einträge hinzufügen</a></li></ul>
-</td>
-</tr>
-</tbody>
-</table>
+* Das Control Panel ist jetzt in zusätzlichen Sprachen verfügbar. [Weitere Informationen](../discover/using/discovering-the-interface.md#supported-languages-languages)
+
+**Überwachen aktiver Profile**
+
+* Sie können jetzt die Anzahl der aktiven Profile überwachen, die Sie für Ihr Unternehmen berechtigt sind, sowie die Gesamtzahl der in Ihrem Unternehmen verwendeten Profile in allen Instanzen, wenn Sie mehrere Instanzen verwenden. [Weitere Informationen](../performance-monitoring/using/active-profiles-monitoring.md)
+
+**DMARC-Einträge**
+
+* Mehrere E-Mail-Adressen können jetzt E-Mails zu aggregierten Berichten und Fehlerberichten erhalten. [Weitere Informationen](../subdomains-certificates/using/dmarc.md)
+* Änderungen wurden vorgenommen, wenn sowohl DMARC- als auch BIMI-Datensätze für eine Subdomain vorhanden sind:
+
+   * DMARC-Datensätze können nicht gelöscht werden. Wenn Sie einen Eintrag löschen möchten, müssen Sie zuerst den BIMI-Datensatz löschen.
+   * DMARC-Einträge können bearbeitet werden, aber das Downgrade der Richtlinie auf &quot;Keine&quot;ist nicht zulässig und der Prozentwert muss 100 betragen.
+

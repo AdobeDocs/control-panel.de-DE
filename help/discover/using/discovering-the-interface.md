@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 20302017-d4b1-489b-a6b4-f086e5bad4d5
-source-git-commit: 99409f462993191d8fb4d6dfacc77c1e4b973f68
+source-git-commit: ca503b824422227e762eeaf75a4cf5aeed4801f8
 workflow-type: tm+mt
-source-wordcount: '129'
-ht-degree: 100%
+source-wordcount: '226'
+ht-degree: 64%
 
 ---
 
@@ -41,3 +41,22 @@ Durch Auswahl der Elemente der Liste werden weitere Details angezeigt.
 Der Abschnitt **[!UICONTROL Hilfe-Ressourcen]** enthält nützliche Informationen zur Verwendung des Control Panels und der Campaign-Produkte. Lesen Sie einfach bei Bedarf nach.
 
 ![](assets/helpresources.png)
+
+## Unterstützte Sprachen {#languages}
+
+Die Benutzeroberfläche des Control Panels wurde so konzipiert, dass sie in der Sprache angezeigt wird, die der Konfiguration Ihres Browsers entspricht.
+
+Wenn Ihr Browser auf eine Sprache festgelegt ist, die nicht unterstützt wird, überprüft das Control Panel die ersten drei Sprachen in der Sprachliste Ihres Browsers, bis eine unterstützte Sprache gefunden wird. Wenn keine der ersten drei Sprachen vom Control Panel unterstützt wird, wird standardmäßig Englisch (USA) verwendet.
+
+Nachfolgend finden Sie eine Liste der Sprachen, die derzeit vom Control Panel unterstützt werden:
+
+* Englisch (USA)
+* Deutsch
+* Französisch
+* Japanisch
+* Italienisch (Italien)
+* Spanisch (Spanien)
+* Koreanisch
+* Portugiesisch (Brasilien)
+* Chinesisch (vereinfacht)
+* Chinesisch (traditionell)

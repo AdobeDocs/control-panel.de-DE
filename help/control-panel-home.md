@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: fc026f157346253fc79bde4ce624e7efa3373af2
+source-git-commit: 6a4db9712d3a92d8057758eb134b0178213f5ff8
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 100%
+source-wordcount: '290'
+ht-degree: 62%
 
 ---
 
@@ -26,14 +26,21 @@ Das Control Panel von Campaign hilft Produktadministratoren von Campaign Standar
 
 ## Neue Funktionen
 
-**Verwaltung von DMARC- und BIMI-Einträgen**
+**Benutzeroberfläche**
 
-Sie können jetzt DMARC- und BIMI-Einträge direkt über Control Panel hinzufügen:
+* Das Control Panel ist jetzt in zusätzlichen Sprachen verfügbar. [Weitere Informationen](discover/using/discovering-the-interface.md#supported-languages-languages)
 
-* **DMARC-Einträge** bieten eine Möglichkeit, die Absender-Domain zu authentifizieren und die unbefugte Nutzung der Domain für böswillige Zwecke zu verhindern. [Erfahren Sie, wie Sie DMARC-Einträge hinzufügen](subdomains-certificates/using/dmarc.md)
+**Überwachen aktiver Profile**
 
+* Sie können jetzt die Anzahl der aktiven Profile überwachen, die Sie für Ihr Unternehmen berechtigt sind, sowie die Gesamtzahl der in Ihrem Unternehmen verwendeten Profile in allen Instanzen, wenn Sie mehrere Instanzen verwenden. [Weitere Informationen](performance-monitoring/using/active-profiles-monitoring.md)
 
-* **BIMI-Einträge** ermöglichen es Ihnen, ein genehmigtes Logo neben Ihren E-Mails in den Postfächern von E-Mail-Anbietern anzuzeigen, um die Markenerkennung und das Vertrauen zu fördern. [Erfahren Sie, wie Sie BIMI-Einträge hinzufügen](subdomains-certificates/using/bimi.md)
+**DMARC-Einträge**
+
+* Mehrere E-Mail-Adressen können jetzt E-Mails zu aggregierten Berichten und Fehlerberichten erhalten. [Weitere Informationen](subdomains-certificates/using/dmarc.md)
+* Änderungen wurden vorgenommen, wenn sowohl DMARC- als auch BIMI-Datensätze für eine Subdomain vorhanden sind:
+
+   * DMARC-Datensätze können nicht gelöscht werden. Wenn Sie einen Eintrag löschen möchten, müssen Sie zuerst den BIMI-Datensatz löschen.
+   * DMARC-Einträge können bearbeitet werden, aber das Downgrade der Richtlinie auf &quot;Keine&quot;ist nicht zulässig und der Prozentwert muss 100 betragen.
 
 >[!CAUTION]
 >
