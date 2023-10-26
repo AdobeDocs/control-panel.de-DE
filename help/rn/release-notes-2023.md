@@ -2,14 +2,34 @@
 title: Versionshinweise 2023
 description: Auf dieser Seite sind alle Control Panel-Versionen des Jahres 2023 aufgelistet.
 exl-id: 9a83e32a-4c11-4784-a6fe-341ce9ebc7a7
-source-git-commit: 2a1119022af2ced06052cf48b50d6ff7be2d1faa
+source-git-commit: a8e2fb9789e9755aa6b9c55019816d7e748606ec
 workflow-type: ht
-source-wordcount: '270'
+source-wordcount: '341'
 ht-degree: 100%
 
 ---
 
 # Versionshinweise 2023 {#rn-2023}
+
+## September 2023 {#september-2023}
+
+<table>
+<thead>
+<tr>
+<th><strong>Verwaltung von DMARC- und BIMI-Einträgen</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><p>Sie können jetzt DMARC- und BIMI-Einträge direkt über Control Panel hinzufügen:
+
+<ul><li><strong>DMARC-Einträge</strong> bieten eine Möglichkeit, die Absender-Domain zu authentifizieren und die unbefugte Nutzung der Domain für böswillige Zwecke zu verhindern. <a href="../subdomains-certificates/using/dmarc.md">Erfahren Sie, wie Sie DMARC-Einträge hinzufügen</a></li>
+<li><strong>BIMI-Einträge</strong> ermöglichen es Ihnen, ein genehmigtes Logo neben Ihren E-Mails in den Postfächern von E-Mail-Anbietern anzuzeigen, um die Markenerkennung und das Vertrauen zu fördern. <a href="../subdomains-certificates/using/bimi.md">Erfahren Sie, wie Sie BIMI-Einträge hinzufügen</a></li></ul>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## Juni 2023 {#june-2023}
 
