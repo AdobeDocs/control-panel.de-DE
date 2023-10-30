@@ -3,11 +3,11 @@ product: campaign
 solution: Campaign
 title: Überwachen von Durchsätzen und Latenzen
 description: Erfahren Sie, wie Sie die Durchsätze und die Latenzen Ihrer Campaign-Instanzen im Control Panel überwachen.
-feature: Control Panel
+feature: Control Panel, Monitoring
 role: Admin
 level: Experienced
 exl-id: eddef17f-0667-4b43-bc56-2b1aeeae61bb
-source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 100%

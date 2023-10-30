@@ -3,11 +3,11 @@ product: campaign
 solution: Campaign
 title: Delegieren von SSL-Zertifikaten von Subdomains an Adobe
 description: Erfahren Sie, wie Sie die SSL-Zertifikate Ihrer Subdomains an Adobe delegieren
-feature: Control Panel
+feature: Control Panel, Subdomains and Certificates
 role: Admin
 level: Experienced
 exl-id: a2b3d409-704b-4e81-ae40-b734f755b598
-source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 100%

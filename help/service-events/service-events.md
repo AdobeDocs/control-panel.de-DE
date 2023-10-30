@@ -3,11 +3,11 @@ product: campaign
 solution: Campaign
 title: Identifizieren wichtiger Kontakte und Ereignisse
 description: Erfahren Sie, wie Sie Ereignisse auf Ihren Instanzen identifizieren und wichtige Ansprechpersonen bei Adobe finden können.
-feature: Control Panel
+feature: Control Panel, Monitoring
 role: Admin
 level: Intermediate
 exl-id: d230aae6-4f0e-4201-bb3c-0e3f83a7c1b8
-source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '780'
 ht-degree: 100%
