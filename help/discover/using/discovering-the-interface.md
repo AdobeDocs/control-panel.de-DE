@@ -10,7 +10,7 @@ exl-id: 20302017-d4b1-489b-a6b4-f086e5bad4d5
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '226'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
@@ -44,11 +44,11 @@ Der Abschnitt **[!UICONTROL Hilfe-Ressourcen]** enthält nützliche Informatione
 
 ## Unterstützte Sprachen {#languages}
 
-Die Benutzeroberfläche des Control Panels wurde so konzipiert, dass sie in der Sprache angezeigt wird, die der Konfiguration Ihres Browsers entspricht.
+Die Benutzeroberfläche von Control Panel wurde so konzipiert, dass sie in der Sprache angezeigt wird, die der Konfiguration Ihres Browsers entspricht.
 
-Wenn Ihr Browser auf eine Sprache festgelegt ist, die nicht unterstützt wird, überprüft das Control Panel die ersten drei Sprachen in der Sprachliste Ihres Browsers, bis eine unterstützte Sprache gefunden wird. Wenn keine der ersten drei Sprachen vom Control Panel unterstützt wird, wird standardmäßig Englisch (USA) verwendet.
+Wenn Ihr Browser auf eine Sprache festgelegt ist, die nicht unterstützt wird, überprüft Control Panel die ersten drei Sprachen in der Sprachliste Ihres Browsers, bis eine unterstützte Sprache gefunden wird. Wenn keine der ersten drei Sprachen von Control Panel unterstützt wird, wird standardmäßig Englisch (USA) verwendet.
 
-Nachfolgend finden Sie eine Liste der Sprachen, die derzeit vom Control Panel unterstützt werden:
+Nachfolgend finden Sie eine Liste der Sprachen, die derzeit von Control Panel unterstützt werden:
 
 * Englisch (USA)
 * Deutsch

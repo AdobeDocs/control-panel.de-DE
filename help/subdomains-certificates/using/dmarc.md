@@ -10,7 +10,7 @@ exl-id: 2ca66983-5beb-495a-9639-a31905500cff
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '795'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -26,9 +26,9 @@ Detaillierte Informationen zur DMARC-Implementierung finden Sie im [Adobe-Hand
 
 * SPF- und DKIM-Einträge sind Voraussetzung für das Erstellen eines DMARC-Eintrags.
 * DMARC-Einträge können nur für Subdomains hinzugefügt werden, die eine vollständige Subdomain-Delegierung verwenden. [Hier finden Sie weitere Informationen zu den Konfigurationsmethoden von Subdomains](subdomains-branding.md#subdomain-delegation-methods)
-* Wenn sowohl DMARC- als auch BIMI-Datensätze für eine Subdomain vorhanden sind:
-   * DMARC-Einträge können nicht gelöscht werden. Wenn Sie einen DMARC-Datensatz löschen möchten, löschen Sie zuerst den BIMI-Datensatz.
-   * DMARC-Einträge können bearbeitet werden, aber das Downgrade der DMARC-Richtlinie auf &quot;Keine&quot;ist nicht zulässig und der Prozentwert muss auf &quot;100&quot;gesetzt werden.
+* Wenn sowohl DMARC- als auch BIMI-Einträge für eine Subdomain vorhanden sind:
+   * DMARC-Einträge können nicht gelöscht werden. Wenn Sie einen DMARC-Eintrag löschen möchten, löschen Sie zuerst den BIMI-Eintrag.
+   * DMARC-Einträge können bearbeitet werden, aber das Herunterstufen der DMARC-Richtlinie auf „Keine“ ist nicht zulässig und der Prozentwert muss auf 100 gesetzt sein.
 
 ## Hinzufügen eines DMARC-Eintrags für eine Subdomain {#add}
 
@@ -58,7 +58,7 @@ Gehen Sie wie folgt vor, um einen DMARC-Eintrag für eine Subdomain hinzuzufüge
    >
    > Die Erstellung von BIMI-Einträgen ist nicht verfügbar, wenn der DMARC-Eintragstyp auf „Keine“ festgelegt ist.
 
-1. Tragen Sie die E-Mail-Adressen ein, an die die DMARC-Berichte gesendet werden sollen. Sie können mehrere E-Mail-Adressen hinzufügen, getrennt durch Kommas. Wenn eine Ihrer E-Mails fehlschlägt, werden DMARC-Berichte automatisch an die E-Mail-Adresse Ihrer Wahl gesendet:
+1. Tragen Sie die E-Mail-Adressen ein, an die die DMARC-Berichte gesendet werden sollen. Sie können mehrere E-Mail-Adressen hinzufügen, indem Sie sie durch Kommas trennen. Wenn eine Ihrer E-Mails fehlschlägt, werden DMARC-Berichte automatisch an die E-Mail-Adresse Ihrer Wahl gesendet:
 
    * Aggregierte DMARC-Berichte enthalten allgemeine Informationen wie z. B. die Anzahl der E-Mails, die in einem bestimmten Zeitraum fehlgeschlagen sind.
    * Forensische DMARC-Fehlerberichte enthalten detaillierte Informationen, z. B. von welcher IP-Adresse die fehlgeschlagene E-Mail stammte.

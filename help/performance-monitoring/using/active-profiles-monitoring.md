@@ -10,11 +10,11 @@ exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '439'
-ht-degree: 51%
+ht-degree: 100%
 
 ---
 
-# Aktive Profile überwachen {#active-profiles-monitoring}
+# Überwachen aktiver Profile {#active-profiles-monitoring}
 
 ## Über aktive Profile {#about-active-profiles}
 
@@ -39,14 +39,14 @@ Weitere Informationen zu aktiven Profilen finden Sie in den Dokumentationen zu [
 >[!CONTEXTUALHELP]
 >id="cp_performancemonitoring_active_profile"
 >title="Über die Überwachung aktiver Profile"
->abstract="Auf diesem Tab erhalten Sie Echtzeitinformationen über die aktuelle und historische Nutzung und Entwicklung aktiver Profile für jede Instanz in Ihren Campaign-Instanzen und in Ihrer Organisation."
+>abstract="Auf dieser Registerkarte erhalten Sie in Echtzeit Informationen über die aktuelle und frühere Nutzung und Entwicklung aktiver Profile für jede Ihrer Campaign-Instanzen und Ihre Organisation."
 
-Die Informationen zur Verwendung aktiver Profile werden im Control Panel auf der Grundlage des dedizierten [!DNL Campaign] technische Workflows, die täglich auf Ihren Instanzen ausgeführt werden:
-* Der Workflow „[Abrechnung](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=de)“ für Campaign Standard,
+Die Informationen zur Verwendung aktiver Profile werden in Control Panel auf der Grundlage von dedizierten technischen [!DNL Campaign]-Workflows aktualisiert, die täglich auf Ihren Instanzen ausgeführt werden:
+* Der Workflow [Abrechnung](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=de) für Campaign Standard,
 * Der Workflow [Anzahl aktiver Abrechnungsprofile](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=de) für Campaign v7/v8.
 
 
-Um die aktive Profilnutzung im Control Panel zu überwachen, navigieren Sie zum **[!UICONTROL Leistungsüberwachung]** card > **[!UICONTROL Aktive Profile]** und wählen Sie die gewünschte Instanz aus dem **[!UICONTROL Instanzliste]**.
+Um die Verwendung aktiver Profile in Control Panel zu überwachen, navigieren Sie zu **[!UICONTROL Leistungsüberwachung]** Karte > **[!UICONTROL Aktive Profile]** und wählen Sie die gewünschte Instanz aus der **[!UICONTROL Instanzliste]** aus.
 
 Es werden Informationen zu Ihrer Verwendung aktiver Profile angezeigt.
 
@@ -60,8 +60,8 @@ Im oberen Abschnitt werden die folgenden Informationen angezeigt:
 
   >[!NOTE]
   >
-  >Dieser Abschnitt ist nur sichtbar, wenn Ihrem Unternehmen mehrere Instanzen zugeordnet sind.
+  >Dieser Abschnitt ist nur sichtbar, wenn Ihrer Organisation mehrere Instanzen zugeordnet sind.
 
 * Die Gesamtzahl der aktiven Profile, die Ihrer Organisation zugewiesen sind.
 
-Der untere Abschnitt bietet eine visuelle Darstellung der aktiven Profilnutzung in den letzten 30 Tagen. Mit dem Filter oben rechts können Sie diesen Zeitraum auf 1 Jahr ändern. Wenn Sie den Mauszeiger über das Diagramm bewegen, erhalten Sie die genaue Anzahl der im ausgewählten Zeitraum verwendeten aktiven Profile.
+Der untere Abschnitt bietet eine visuelle Darstellung der Verwendung aktiver Profile in den letzten 30 Tagen. Mit dem Filter oben rechts können Sie diesen Zeitrahmen auf 1 Jahr ändern. Wenn Sie den Mauszeiger über den Diagrammbalken bewegen, können Sie die genaue Anzahl der aktiven Profile abrufen, die im ausgewählten Zeitraum verwendet wurden.

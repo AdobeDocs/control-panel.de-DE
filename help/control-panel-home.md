@@ -8,7 +8,7 @@ exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
 workflow-type: tm+mt
 source-wordcount: '290'
-ht-degree: 62%
+ht-degree: 100%
 
 ---
 
@@ -26,19 +26,19 @@ Das Control Panel von Campaign hilft Produktadministratoren von Campaign Standar
 
 **Benutzeroberfläche**
 
-* Das Control Panel ist jetzt in zusätzlichen Sprachen verfügbar. [Weitere Informationen](discover/using/discovering-the-interface.md#supported-languages-languages)
+* Control Panel ist jetzt in weiteren Sprachen verfügbar. [Weitere Informationen](discover/using/discovering-the-interface.md#supported-languages-languages)
 
-**Überwachen aktiver Profile**
+**Überwachung aktiver Profile**
 
-* Sie können jetzt die Anzahl der aktiven Profile überwachen, die Sie für Ihr Unternehmen berechtigt sind, sowie die Gesamtzahl der in Ihrem Unternehmen verwendeten Profile in allen Instanzen, wenn Sie mehrere Instanzen verwenden. [Weitere Informationen](performance-monitoring/using/active-profiles-monitoring.md)
+* Sie können jetzt die Anzahl der aktiven Profile überwachen, die Ihnen für Ihre Organisation zustehen, sowie die Gesamtzahl der in Ihrer Organisation verwendeten Profile in allen Instanzen, wenn Sie mehrere Instanzen verwenden. [Weitere Informationen](performance-monitoring/using/active-profiles-monitoring.md)
 
 **DMARC-Einträge**
 
 * Mehrere E-Mail-Adressen können jetzt E-Mails zu aggregierten Berichten und Fehlerberichten erhalten. [Weitere Informationen](subdomains-certificates/using/dmarc.md)
-* Änderungen wurden vorgenommen, wenn sowohl DMARC- als auch BIMI-Datensätze für eine Subdomain vorhanden sind:
+* Es wurden Änderungen für den Fall vorgenommen, dass sowohl DMARC- als auch BIMI-Einträge für eine Subdomain vorhanden sind:
 
-   * DMARC-Datensätze können nicht gelöscht werden. Wenn Sie einen Eintrag löschen möchten, müssen Sie zuerst den BIMI-Datensatz löschen.
-   * DMARC-Einträge können bearbeitet werden, aber das Downgrade der Richtlinie auf &quot;Keine&quot;ist nicht zulässig und der Prozentwert muss 100 betragen.
+   * DMARC-Einträge können nicht gelöscht werden. Wenn Sie einen Eintrag löschen möchten, müssen Sie zuerst den BIMI-Eintrag löschen.
+   * DMARC-Einträge können bearbeitet werden, aber das Herunterstufen der Richtlinie auf „Keine“ ist nicht zulässig und der Prozentwert muss 100 betragen.
 
 >[!CAUTION]
 >
