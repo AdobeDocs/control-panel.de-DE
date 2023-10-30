@@ -6,7 +6,7 @@ user-guide-title: Handbuch zum Control Panel
 feature: Control Panel
 role: Admin
 level: Experienced
-source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
+source-git-commit: a892d5ff82fd0160faca2dbe76d3cd1b71073cff
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 98%
@@ -30,6 +30,7 @@ ht-degree: 98%
    + [Zugriff auf das Control Panel](discover/using/accessing-control-panel.md)
    + [Verwalten von Berechtigungen für das Control Panel](discover/using/managing-permissions.md)
    + [Die Benutzeroberfläche des Control Panels](discover/using/discovering-the-interface.md)
+   + [Häufig gestellte Fragen](faq.md)
 + Ereignisse und E-Mail-Warnungen {#alerts-events}
    + [Überwachung wichtiger Kontakte und Ereignisse](service-events/service-events.md)
    + [Benachrichtigungen per E-Mail](performance-monitoring/using/email-alerting.md)
@@ -73,4 +74,3 @@ ht-degree: 98%
    + [Details der Instanz](instances-settings/using/instance-details.md)
    + [GPG-Schlüsselverwaltung](instances-settings/using/gpg-keys-management.md)
    + [Hinzufügen von MID-/RT-Instanzen (Hybridmodell)](instances-settings/using/external-accounts.md)
-+ [Häufig gestellte Fragen](faq.md)
