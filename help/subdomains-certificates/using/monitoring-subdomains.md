@@ -4,10 +4,10 @@ solution: Campaign
 title: Überwachen von Subdomains
 description: Überwachen Sie Ihre Subdomains, um sicherzustellen, dass sie alle ordnungsgemäß für die Verwendung mit Adobe Campaign konfiguriert sind.
 feature: Control Panel
-role: Architect
+role: Admin
 level: Experienced
 exl-id: edd55d07-bf0b-44b0-8281-be69c698d5e8
-source-git-commit: acf0334e894649d6b5edf0b96877c3f643894763
+source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 100%

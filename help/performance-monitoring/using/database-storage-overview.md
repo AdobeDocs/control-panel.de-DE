@@ -4,10 +4,10 @@ solution: Campaign
 title: Speicherübersicht
 description: Erfahren Sie, wie Sie im Control Panel die verschiedenen Campaign-Ressourcen überwachen, die in Ihren Instanzen Datenbankspeicherplatz belegen.
 feature: Control Panel
-role: Architect
+role: Admin
 level: Experienced
 exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e
-source-git-commit: c52094b8145bdd84aa9e71430a811b8a7b32354d
+source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 100%

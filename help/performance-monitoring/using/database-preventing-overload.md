@@ -4,10 +4,10 @@ solution: Campaign
 title: Verhindern einer Überlastung von Datenbanken
 description: Sie können auf Ressourcen in der Campaign-Dokumentation zugreifen, die Ihnen helfen, eine Überlastung der Datenbank durch Ihre Instanzen zu verhindern.
 feature: Control Panel
-role: Architect
+role: Admin
 level: Experienced
 exl-id: 07118637-cebd-4dd8-8374-2d7c20a47a89
-source-git-commit: 95390bb1f8af21907ce8984279a6a73dd7828b00
+source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 100%

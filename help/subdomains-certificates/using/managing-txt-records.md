@@ -4,11 +4,11 @@ solution: Campaign
 title: Hinzufügen von Google Site-Verifizierungseinträgen für eine Subdomain
 description: Erfahren Sie, wie Sie einen Google Site-Verifizierungseintrag für eine Subdomain zur Überprüfung des Domain-Eigentums hinzufügen.
 feature: Control Panel
-role: Architect
+role: Admin
 level: Experienced
 exl-id: 547ca6f2-720f-4d58-b31b-5b2611ba9156
-source-git-commit: 355abf48cce3036d1c3e0f6c5fe3ca8fb63cf645
-workflow-type: ht
+source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
+workflow-type: tm+mt
 source-wordcount: '300'
 ht-degree: 100%
 

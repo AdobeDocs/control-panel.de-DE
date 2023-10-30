@@ -4,10 +4,10 @@ solution: Campaign
 title: SFTP-Speicherverwaltung
 description: Erfahren Sie, wie Sie den Speicher des SFTP-Servers überwachen und verwalten.
 feature: Control Panel
-role: Architect
+role: Admin
 level: Experienced
 exl-id: eaf67573-f088-47d9-8a25-273d08dc541a
-source-git-commit: 641c5ef1a62c278972e6a90ed85c52851deddb56
+source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
 workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 100%

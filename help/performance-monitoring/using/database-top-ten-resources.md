@@ -4,10 +4,10 @@ solution: Campaign
 title: Die zehn wichtigsten temporären Ressourcen
 description: Erfahren Sie, wie Sie im Control Panel die zehn größten temporären Ressourcen überwachen, die durch Workflows und Sendungen in Ihrer Campaign-Datenbank generiert wurden.
 feature: Control Panel
-role: Architect
+role: Admin
 level: Experienced
 exl-id: 2fa2ffbb-102b-42c4-8feb-b0263ee9c930
-source-git-commit: b17abddf6bad7e58cb7bd825cd97322427a0b21f
+source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 100%

@@ -2,10 +2,10 @@
 title: Überwachen von Workflows
 description: Erfahren Sie, wie Sie bestimmte Workflow-Parameter überwachen können, die möglicherweise Aufmerksamkeit erfordern, um Probleme auf Ihren Instanzen zu vermeiden.
 feature: Control Panel
-role: Architect
+role: Admin
 level: Experienced
 exl-id: 8016f800-430a-413d-a77b-b7f18f5ab733
-source-git-commit: 485069285709a7cc5c074f8813b322328e2840c0
+source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 100%
