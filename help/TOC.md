@@ -6,10 +6,10 @@ user-guide-title: Handbuch zum Control Panel
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: 355abf48cce3036d1c3e0f6c5fe3ca8fb63cf645
-workflow-type: ht
-source-wordcount: '181'
-ht-degree: 100%
+source-git-commit: 9ce224c2d7c9f7c3f7691f000b5e1a43cef0853d
+workflow-type: tm+mt
+source-wordcount: '184'
+ht-degree: 98%
 
 ---
 
@@ -30,8 +30,9 @@ ht-degree: 100%
    + [Zugriff auf das Control Panel](discover/using/accessing-control-panel.md)
    + [Verwalten von Berechtigungen für das Control Panel](discover/using/managing-permissions.md)
    + [Die Benutzeroberfläche des Control Panels](discover/using/discovering-the-interface.md)
-+ [Überwachung wichtiger Kontakte und Ereignisse](service-events/service-events.md)
-+ [Benachrichtigungen per E-Mail](performance-monitoring/using/email-alerting.md)
++ Ereignisse und E-Mail-Warnungen {#alerts-events}
+   + [Überwachung wichtiger Kontakte und Ereignisse](service-events/service-events.md)
+   + [Benachrichtigungen per E-Mail](performance-monitoring/using/email-alerting.md)
 + SFTP-Verwaltung {#sftp-management}
    + [Über die SFTP-Verwaltung](sftp/using/about-sftp-management.md)
    + [Verwalten des SFTP-Speichers](sftp/using/sftp-storage-management.md)
