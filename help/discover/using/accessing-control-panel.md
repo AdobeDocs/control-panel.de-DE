@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: eb67af6e-a64e-49a7-9656-782f91bc1d67
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '177'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Es steht nur **Administratoren** zur Verfügung. Weitere Informationen zum Hinzu
 
 Gehen Sie wie folgt vor, um über Adobe Experience Cloud Platform auf das Control Panel zuzugreifen.
 
-1. Navigieren Sie zum [Experience Cloud homepage](https://experiencecloud.adobe.com/){target="_blank"}.
+1. Navigieren Sie zur [Startseite von Experience Cloud](https://experiencecloud.adobe.com/){target="_blank"}.
 
 1. Klicken Sie auf den entsprechenden Link im Abschnitt **Schnellzugriff**.
 
@@ -32,7 +32,7 @@ Gehen Sie wie folgt vor, um über Adobe Experience Cloud Platform auf das Contro
 
 Der Zugriff auf das Control Panel ist auch über Experience Cloud Platform in der **Auswahlfunktion für Lösungen** möglich:
 
-1. Aus dem [Adobe Experience Cloud-Homepage](https://experiencecloud.adobe.com/){target="_blank"}auswählen **Kampagne** aus dem **Schnellzugriff** oder das obere Menü auf der rechten Seite.
+1. Wählen Sie auf der [Startseite von Adobe Experience Cloud](https://experiencecloud.adobe.com/){target="_blank"} die Option **Campaign** im Bereich **Schnellzugriff** oder im Menü rechts oben aus.
 
    ![](assets/do-not-localize/control_panel_access1.png)
 
@@ -44,7 +44,7 @@ Der Zugriff auf das Control Panel ist auch über Experience Cloud Platform in de
 
 >[!NOTE]
 >
->Der Zugriff über das Produkt ist verfügbar für [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=de){target="_blank"} nur.
+>Der Zugriff über das Produkt ist nur für [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=de) verfügbar.{target="_blank"}
 
 1. Öffnen Sie Ihr Campaign Standard-Produkt.
 
