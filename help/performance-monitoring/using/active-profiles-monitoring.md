@@ -7,10 +7,10 @@ feature: Control Panel, Monitoring
 role: Admin
 level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
-source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
-source-wordcount: '439'
-ht-degree: 100%
+source-git-commit: 9d0686cd3bb0a037ae66b1a090c3f77d215ff61c
+workflow-type: tm+mt
+source-wordcount: '438'
+ht-degree: 92%
 
 ---
 
@@ -41,11 +41,6 @@ Weitere Informationen zu aktiven Profilen finden Sie in den Dokumentationen zu [
 >title="Über die Überwachung aktiver Profile"
 >abstract="Auf dieser Registerkarte erhalten Sie in Echtzeit Informationen über die aktuelle und frühere Nutzung und Entwicklung aktiver Profile für jede Ihrer Campaign-Instanzen und Ihre Organisation."
 
-Die Informationen zur Verwendung aktiver Profile werden in Control Panel auf der Grundlage von dedizierten technischen [!DNL Campaign]-Workflows aktualisiert, die täglich auf Ihren Instanzen ausgeführt werden:
-* Der Workflow [Abrechnung](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=de) für Campaign Standard,
-* Der Workflow [Anzahl aktiver Abrechnungsprofile](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=de) für Campaign v7/v8.
-
-
 Um die Verwendung aktiver Profile in Control Panel zu überwachen, navigieren Sie zu **[!UICONTROL Leistungsüberwachung]** Karte > **[!UICONTROL Aktive Profile]** und wählen Sie die gewünschte Instanz aus der **[!UICONTROL Instanzliste]** aus.
 
 Es werden Informationen zu Ihrer Verwendung aktiver Profile angezeigt.
@@ -65,3 +60,10 @@ Im oberen Abschnitt werden die folgenden Informationen angezeigt:
 * Die Gesamtzahl der aktiven Profile, die Ihrer Organisation zugewiesen sind.
 
 Der untere Abschnitt bietet eine visuelle Darstellung der Verwendung aktiver Profile in den letzten 30 Tagen. Mit dem Filter oben rechts können Sie diesen Zeitrahmen auf 1 Jahr ändern. Wenn Sie den Mauszeiger über den Diagrammbalken bewegen, können Sie die genaue Anzahl der aktiven Profile abrufen, die im ausgewählten Zeitraum verwendet wurden.
+
+Die Informationen zur Verwendung aktiver Profile werden im Control Panel auf der Grundlage des dedizierten [!DNL Campaign] Technische Workflows &quot;Rechnungsstellung&quot;, die regelmäßig in Ihren Instanzen ausgeführt werden.
+
+| Campaign-Version | Technischer Workflow | Ausführungen |
+|  ---  |  ---  |  ---  |
+| Campaign Standard | [Fakturierung](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=de) | Täglich |
+| Campaign v7/v8 | [Fakturierung](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflowsadvanced-management/about-technical-workflows.html) | Monatlich |
