@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
 source-git-commit: a9b150a4f24447d22d5c1ecff5d456ca39cb65e2
-workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 89%
+workflow-type: ht
+source-wordcount: '418'
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Profile gelten als aktiv, wenn sie in den letzten 12 Monaten über einen beliebi
 
 >[!NOTE]
 >
->Facebook- und X-Kanäle (ehemals Twitter) werden nicht berücksichtigt.
+>Die Kanäle Facebook und X (früher bekannt als Twitter) werden nicht berücksichtigt.
 
 Weitere Informationen zu aktiven Profilen finden Sie in den Dokumentationen zu [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html?lang=de) und [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html?lang=de#active-profiles).
 
@@ -61,9 +61,9 @@ Im oberen Abschnitt werden die folgenden Informationen angezeigt:
 
 Der untere Abschnitt bietet eine visuelle Darstellung der Verwendung aktiver Profile in den letzten 30 Tagen. Mit dem Filter oben rechts können Sie diesen Zeitrahmen auf 1 Jahr ändern. Wenn Sie den Mauszeiger über den Diagrammbalken bewegen, können Sie die genaue Anzahl der aktiven Profile abrufen, die im ausgewählten Zeitraum verwendet wurden.
 
-Die Informationen zur Verwendung aktiver Profile werden im Control Panel auf der Grundlage des dedizierten [!DNL Campaign] Technische Workflows &quot;Rechnungsstellung&quot;, die regelmäßig in Ihren Instanzen ausgeführt werden.
+Die Informationen zur Verwendung aktiver Profile werden im Control Panel auf der Grundlage von dedizierten technischen [!DNL Campaign]-Workflows für die „Abrechnung“ aktualisiert, die regelmäßig auf Ihren Instanzen ausgeführt werden.
 
 | Campaign-Version | Technischer Workflow | Ausführungen |
 |  ---  |  ---  |  ---  |
-| Campaign Standard | [Fakturierung](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=de) | Täglich |
-| Campaign v7/v8 | [Fakturierung](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflowsadvanced-management/about-technical-workflows.html) | Monatlich |
+| Campaign Standard | [Abrechnung](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=de) | Täglich |
+| Campaign v7/v8 | [Abrechnung](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflowsadvanced-management/about-technical-workflows.html?lang=de) | Monatlich |
