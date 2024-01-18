@@ -7,10 +7,10 @@ feature: Control Panel, Subdomains and Certificates
 role: Admin
 level: Experienced
 exl-id: eb7863fb-6e6d-4821-a156-03fee03cdd0e
-source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
-source-wordcount: '508'
-ht-degree: 100%
+source-git-commit: e601f74ae9e53d3a008c55e1fd568013ca0196f8
+workflow-type: tm+mt
+source-wordcount: '577'
+ht-degree: 86%
 
 ---
 
@@ -19,6 +19,8 @@ ht-degree: 100%
 ## Über BIMI-Einträge {#about}
 
 Brand Indicators for Message Identification (BIMI) ist ein Branchenstandard, der es ermöglicht, ein genehmigtes Logo neben der Absender-E-Mail in den Postfächern von E-Mail-Anbietern anzuzeigen, um die Markenerkennung und das Vertrauen zu fördern. Dies hilft, das Spoofing und Phishing von E-Mails zu verhindern, indem die Identität der Absenderin bzw. des Absenders durch DMARC-Authentifizierung überprüft wird. Dadurch wird es für böswillig Agierende schwieriger, sich in E-Mails als legitime Marken auszugeben.
+
+Sie können mehrere Logos für eine bestimmte Subdomain haben. Dazu müssen Sie für jedes Logo einen BIMI-Datensatz einrichten und jedem Datensatz einen BIMI-Selektor zuweisen. [Erfahren Sie, wie Sie einen BIMI-Datensatz hinzufügen](#add)
 
 Detaillierte Informationen zur BIMI-Implementierung finden Sie im [Adobe-Handbuch für Best Practices zur Zustellbarkeit](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-bimi.html?lang=de)
 
@@ -44,6 +46,8 @@ Gehen Sie wie folgt vor, um einen BIMI-Eintrag für eine Subdomain hinzuzufügen
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL TXT-Eintrag hinzufügen]** und wählen Sie **[!UICONTROL BIMI]** aus der Dropdown-Liste **[!UICONTROL Typ des Eintrages]**.
 
    ![](assets/bimi-add.png)
+
+1. Die **[!UICONTROL Selektor]** -Feld können Sie einen BIMI-Selektor für den Datensatz angeben. Ein BIMI-Selektor ist eine eindeutige Kennung, die Sie einem BIMI-Datensatz zuweisen können. Auf diese Weise können Sie mehrere Logos für eine bestimmte Subdomain definieren.
 
 1. Geben Sie in der **[!UICONTROL Firmen-Logo-URL]** die URL der SVG-Datei an, die Ihr Logo enthält.
 
