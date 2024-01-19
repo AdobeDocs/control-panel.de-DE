@@ -7,10 +7,10 @@ feature: Control Panel, Subdomains and Certificates
 role: Admin
 level: Experienced
 exl-id: 2ca66983-5beb-495a-9639-a31905500cff
-source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
-source-wordcount: '795'
-ht-degree: 100%
+source-git-commit: aacaec4e6ed7b997c0d879c4a9d4bf85ddd18cf7
+workflow-type: tm+mt
+source-wordcount: '836'
+ht-degree: 95%
 
 ---
 
@@ -26,6 +26,9 @@ Detaillierte Informationen zur DMARC-Implementierung finden Sie im [Adobe-Hand
 
 * SPF- und DKIM-Einträge sind Voraussetzung für das Erstellen eines DMARC-Eintrags.
 * DMARC-Einträge können nur für Subdomains hinzugefügt werden, die eine vollständige Subdomain-Delegierung verwenden. [Hier finden Sie weitere Informationen zu den Konfigurationsmethoden von Subdomains](subdomains-branding.md#subdomain-delegation-methods)
+
+  Um einen DMARC-Datensatz in einer CNAME-basierten Subdomain einzurichten, können Sie den DMARC-Datensatz in der übergeordneten Domäne konfigurieren. Dadurch wird sichergestellt, dass alle zugehörigen Subdomains die DMARC-Datensatzparameter übernehmen, selbst wenn diese über CNAMEs delegiert werden.
+
 * Wenn sowohl DMARC- als auch BIMI-Einträge für eine Subdomain vorhanden sind:
    * DMARC-Einträge können nicht gelöscht werden. Wenn Sie einen DMARC-Eintrag löschen möchten, löschen Sie zuerst den BIMI-Eintrag.
    * DMARC-Einträge können bearbeitet werden, aber das Herunterstufen der DMARC-Richtlinie auf „Keine“ ist nicht zulässig und der Prozentwert muss auf 100 gesetzt sein.
