@@ -7,8 +7,8 @@ feature: Control Panel, Monitoring
 role: Admin
 level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
-source-git-commit: a9b150a4f24447d22d5c1ecff5d456ca39cb65e2
-workflow-type: ht
+source-git-commit: 73cf3102c0926728595e975ee4c85bf110f2a23d
+workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 100%
 
@@ -41,7 +41,7 @@ Weitere Informationen zu aktiven Profilen finden Sie in den Dokumentationen zu [
 >title="Über die Überwachung aktiver Profile"
 >abstract="Auf dieser Registerkarte erhalten Sie in Echtzeit Informationen über die aktuelle und frühere Nutzung und Entwicklung aktiver Profile für jede Ihrer Campaign-Instanzen und Ihre Organisation."
 
-Um die Verwendung aktiver Profile in Control Panel zu überwachen, navigieren Sie zu **[!UICONTROL Leistungsüberwachung]** Karte > **[!UICONTROL Aktive Profile]** und wählen Sie die gewünschte Instanz aus der **[!UICONTROL Instanzliste]** aus.
+Um die Verwendung aktiver Profile in Control Panel zu überwachen, navigieren Sie zu **[!UICONTROL Performance-Überwachung]** Karte > **[!UICONTROL Aktive Profile]** und wählen Sie die gewünschte Instanz aus der **[!UICONTROL Instanzliste]** aus.
 
 Es werden Informationen zu Ihrer Verwendung aktiver Profile angezeigt.
 
@@ -66,4 +66,5 @@ Die Informationen zur Verwendung aktiver Profile werden im Control Panel auf der
 | Campaign-Version | Technischer Workflow | Ausführungen |
 |  ---  |  ---  |  ---  |
 | Campaign Standard | [Abrechnung](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=de) | Täglich |
-| Campaign v7/v8 | [Abrechnung](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflowsadvanced-management/about-technical-workflows.html?lang=de) | Monatlich |
+| Campaign v7/v8 | [Abrechnung](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=de) | Monatlich |
+
