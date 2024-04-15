@@ -7,10 +7,10 @@ feature: Control Panel, Subdomains and Certificates
 role: Admin
 level: Experienced
 exl-id: 2ca66983-5beb-495a-9639-a31905500cff
-source-git-commit: aacaec4e6ed7b997c0d879c4a9d4bf85ddd18cf7
-workflow-type: ht
-source-wordcount: '836'
-ht-degree: 100%
+source-git-commit: 80b9f62feb9f00758cf175762b1cf4dc26912ed8
+workflow-type: tm+mt
+source-wordcount: '885'
+ht-degree: 94%
 
 ---
 
@@ -65,6 +65,10 @@ Gehen Sie wie folgt vor, um einen DMARC-Eintrag für eine Subdomain hinzuzufüge
 
    * Aggregierte DMARC-Berichte enthalten allgemeine Informationen wie z. B. die Anzahl der E-Mails, die in einem bestimmten Zeitraum fehlgeschlagen sind.
    * Forensische DMARC-Fehlerberichte enthalten detaillierte Informationen, z. B. von welcher IP-Adresse die fehlgeschlagene E-Mail stammte.
+
+   >[!CAUTION]
+   >
+   >Wenn sich die E-Mail-Adressen, die Sie zum Empfang von Berichten hinzufügen, außerhalb der Domäne befinden, für die der DMARC-Datensatz erstellt wird, müssen Sie deren externe Domäne autorisieren, dem DNS anzugeben, dass Sie diese Domäne besitzen. Gehen Sie dazu wie im Abschnitt [dmarc.org Dokumentation](https://dmarc.org/2015/08/receiving-dmarc-reports-outside-your-domain)
 
 1. Wenn die DMARC-Richtlinie auf „Keine“ gesetzt ist, geben Sie einen Prozentsatz ein, der für 100 % der E-Mails gilt.
 
