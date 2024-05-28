@@ -4,11 +4,13 @@ description: Auf dieser Seite sind alle Control Panel-Versionen des Jahres 2019 
 feature: Control Panel, Release Notes
 role: Admin
 level: Experienced
+hide: true
+hidefromtoc: true
 exl-id: bb796bef-1a2b-4f2e-848e-ad682c6c7ea0
-source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
-source-wordcount: '150'
-ht-degree: 100%
+source-git-commit: cc45dc517a8baa2583a082b99bc084bd84013918
+workflow-type: tm+mt
+source-wordcount: '156'
+ht-degree: 73%
 
 ---
 
@@ -16,14 +18,14 @@ ht-degree: 100%
 
 ## September 2019 {#september-2019}
 
-Für Admin-Benutzer wurden neue Funktionen hinzugefügt, mit denen sie IP-Adressen auf die Zulassungsliste setzen können, um eine Verbindung zu Campaign v7/v8-Instanzen herzustellen.
+Admin-Benutzern wurden neue Funktionen hinzugefügt, mit denen sie IP-Adressen zur Zulassungsliste hinzufügen können, um eine Verbindung zu Campaign v7/v8-Instanzen herzustellen.
 Außerdem können Admin-Benutzer jetzt die Liste der Campaign v7/v8-Instanzen und die Berechtigung für Build-Upgrades einsehen.
 
 Weitere Informationen finden Sie in der [entsprechenden Dokumentation](../instances-settings/using/ip-allow-listing-instance-access.md).
 
 ## August 2019 {#august-2019}
 
-Für Admin-Benutzer wurden neue Funktionen hinzugefügt, durch die sie benachrichtigt werden, bevor die SSL-Zertifikate für ihre Domains ablaufen. Weitere Informationen finden Sie im [entsprechenden Handbuch](../subdomains-certificates/using/monitoring-ssl-certificates.md).
+Es wurden neue Funktionen hinzugefügt, mit denen Admin-Benutzer Benachrichtigungen erhalten können, bevor SSL-Zertifikate für ihre Domänen ablaufen. Weitere Informationen finden Sie im [entsprechenden Handbuch](../subdomains-certificates/using/monitoring-ssl-certificates.md).
 
 Darüber hinaus können die Admin-Benutzer jetzt SSH-Schlüssel löschen, die für den Zugriff auf SFTP-Server hinzugefügt wurden.
 

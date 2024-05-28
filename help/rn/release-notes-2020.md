@@ -4,11 +4,13 @@ description: Auf dieser Seite sind alle Control Panel-Versionen des Jahres 2020 
 feature: Control Panel, Release Notes
 role: Admin
 level: Experienced
+hide: true
+hidefromtoc: true
 exl-id: 70357a40-3dc1-486d-bba2-f500b3175d62
-source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
-source-wordcount: '429'
-ht-degree: 100%
+source-git-commit: cc45dc517a8baa2583a082b99bc084bd84013918
+workflow-type: tm+mt
+source-wordcount: '437'
+ht-degree: 96%
 
 ---
 
@@ -155,7 +157,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>Das Control Panel von Campaign bietet Funktionen zum Empfang von E-Mail-Warnungen in Echtzeit. Wenn Sie sich beim Control Panel anmelden und Warnhinweise abonnieren, werden Sie benachrichtigt, wenn Ihrem System eine Leistungsverschlechterung droht oder eine Aktion erforderlich ist, um eine künftig hohe Leistung sicherzustellen.</p><p>Weitere Informationen finden Sie in der <a href="../performance-monitoring/using/email-alerting.md">entsprechenden Dokumentation</a>.</p>
+<p>Das Control Panel von Campaign bietet Funktionen zum Empfang von E-Mail-Warnungen in Echtzeit. Wenn Sie sich beim Control Panel anmelden und Warnhinweise abonnieren, werden Sie benachrichtigt, wenn Ihrem System eine Performance-Verschlechterung droht oder eine Aktion erforderlich ist, um eine künftig hohe Performance sicherzustellen.</p><p>Weitere Informationen finden Sie in der <a href="../performance-monitoring/using/email-alerting.md">entsprechenden Dokumentation</a>.</p>
 </td>
 </tr>
 </tbody>
