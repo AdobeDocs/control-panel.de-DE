@@ -9,7 +9,7 @@ level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: ht
-source-wordcount: '1596'
+source-wordcount: '1526'
 ht-degree: 100%
 
 ---
@@ -186,7 +186,7 @@ Sobald die Subdomain gesendet wurde, führt das Control Panel verschiedene Prüf
 
    >[!NOTE]
    >
-   >Beachten Sie, dass während der Ausführung der Subdomain-Konfiguration andere Anfragen über das Control Panel in einer Warteschlange gereiht und erst nach Abschluss der Subdomain-Konfiguration ausgeführt werden, um Leistungsprobleme zu vermeiden.
+   >Beachten Sie, dass während der Ausführung der Subdomain-Konfiguration andere Anfragen über das Control Panel in einer Warteschlange gereiht und erst nach Abschluss der Subdomain-Konfiguration ausgeführt werden, um Performance-Probleme zu vermeiden.
 
 1. Wenn die Prüfungen erfolgreich sind, beginnt das Control Panel mit der Einrichtung der Subdomain mit DNS-Einträgen, zusätzlichen URLs, Posteingängen usw.
 

@@ -1,8 +1,8 @@
 ---
 product: campaign
 solution: Campaign
-title: Über die Leistungsüberwachung
-description: Erfahren Sie, wie Sie im Control Panel die Leistung Ihrer Instanzen überwachen können
+title: Über das Monitoring der Performance
+description: Erfahren Sie, wie Sie im Control Panel die Performance Ihrer Instanzen überwachen können
 feature: Control Panel, Monitoring
 role: Admin
 level: Experienced
@@ -14,11 +14,11 @@ ht-degree: 100%
 
 ---
 
-# Über das Monitoring der Leistung {#about-performance-monitoring}
+# Über das Monitoring der Performance {#about-performance-monitoring}
 
-Das Control Panel bietet verschiedene Funktionen, mit denen Sie Ihre Instanzen überwachen und eine optimale Leistung sicherstellen können.
+Das Control Panel bietet verschiedene Funktionen, mit denen Sie Ihre Instanzen überwachen und eine optimale Performance sicherstellen können.
 
-Mit der Karte **[!UICONTROL Leistungsüberwachung]** auf der Startseite von Control Panel können Sie die Nutzung Ihrer Campaign-Instanzen (wie z. B. deren Datenbankkapazität) überwachen. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../performance-monitoring/using/database-monitoring.md).
+Mit der Karte **[!UICONTROL Performance-Überwachung]** auf der Startseite von Control Panel können Sie die Nutzung Ihrer Campaign-Instanzen (wie z. B. deren Datenbankkapazität) überwachen. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../performance-monitoring/using/database-monitoring.md).
 
 ![](assets/performance_card.png)
 

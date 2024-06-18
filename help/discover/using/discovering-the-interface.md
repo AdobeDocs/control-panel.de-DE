@@ -18,7 +18,7 @@ ht-degree: 100%
 
 Auf der Startseite des Control Panels haben Sie Zugriff auf alle Aktionen, die auf Ihren Campaign-Instanzen ausgeführt werden können.
 
-Die Aktionen werden durch Karten dargestellt, die in unterschiedliche Themen geordnet sind, z. B. **Monitoring der Leistung**.
+Die Aktionen werden durch Karten dargestellt, die in unterschiedliche Themen geordnet sind, z. B. **Monitoring der Performance**.
 
 <!--With upcoming Campaign releases, more topics and cards will be made available.-->
 

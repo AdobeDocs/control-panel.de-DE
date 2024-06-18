@@ -7,7 +7,7 @@ level: Experienced
 exl-id: 8016f800-430a-413d-a77b-b7f18f5ab733
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: ht
-source-wordcount: '320'
+source-wordcount: '269'
 ht-degree: 100%
 
 ---
@@ -66,7 +66,7 @@ Der Wert „1“ zeigt an, dass für den Workflow das Feld **Schweregrad** auf �
 
 >[!IMPORTANT]
 >
->Die Aktivierung dieser Option kann die Leistung beeinträchtigen und die Protokolldateien auf dem Server ausfüllen. Sie sollte nur für Analyse- und Diagnosezwecke verwendet werden.
+>Die Aktivierung dieser Option kann die Performance beeinträchtigen und die Protokolldateien auf dem Server ausfüllen. Sie sollte nur für Analyse- und Diagnosezwecke verwendet werden.
 
 ![](assets/wkf-monitoring-sql.png)
 

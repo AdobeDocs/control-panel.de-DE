@@ -9,7 +9,7 @@ level: Experienced
 exl-id: cb6cc63b-d6cc-4c8b-870f-e108d05aa740
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: ht
-source-wordcount: '295'
+source-wordcount: '281'
 ht-degree: 100%
 
 ---
@@ -54,7 +54,7 @@ Wichtigste Vorteile:
     </td>
     <td>
         <a href="../../performance-monitoring/using/about-performance-monitoring.md"><img alt="Bedingungen" src="assets/do-not-localize/monitoring-performance.png"/></a>
-        <div><a href="../../performance-monitoring/using/about-performance-monitoring.md"><strong>Überwachen der Leistung</strong></a></div>
+        <div><a href="../../performance-monitoring/using/about-performance-monitoring.md"><strong>Überwachen der Performance</strong></a></div>
         <em>Erfahren Sie, wie Sie die Nutzung wichtiger Ressourcen in Ihren Instanzen überwachen.</em>
     </td>
 </tr>

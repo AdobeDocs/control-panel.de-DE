@@ -9,7 +9,7 @@ level: Experienced
 exl-id: 2bd7d2dd-97be-49bb-9f8e-7161d0742bc1
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: ht
-source-wordcount: '397'
+source-wordcount: '365'
 ht-degree: 100%
 
 ---
@@ -22,7 +22,7 @@ Gemäß Ihrem Vertrag erhalten alle Ihre Campaign-Instanzen eine bestimmte Menge
 
 Im Laufe der Zeit können Datenbanken ihre maximale Kapazität erreichen, insbesondere wenn gespeicherte Ressourcen nie aus der Instanz gelöscht werden oder sich viele Workflows in angehaltenem Zustand befinden.
 
-Ein Überlaufen der Datenbank einer Instanz kann zu verschiedenen Problemen führen (Anmeldung nicht möglich, Versand von E-Mails nicht möglich usw.). Daher ist für optimale Leistung eine Überwachung der Datenbanken Ihrer Instanzen unerlässlich.
+Ein Überlaufen der Datenbank einer Instanz kann zu verschiedenen Problemen führen (Anmeldung nicht möglich, Versand von E-Mails nicht möglich usw.). Daher ist für optimale Performance eine Überwachung der Datenbanken Ihrer Instanzen unerlässlich.
 
 Wenn Sie [E-Mail-Benachrichtigungen](../../performance-monitoring/using/email-alerting.md) abonniert haben, erhalten Sie Benachrichtigungen per E-Mail, wenn eine der Datenbanken Ihrer Instanzen mindestens 80 % ihrer Kapazität erreicht hat.
 
@@ -32,9 +32,9 @@ Wenn Sie [E-Mail-Benachrichtigungen](../../performance-monitoring/using/email-al
 >id="cp_performancemonitoring_database"
 >title="Über die Datenbanküberwachung"
 >abstract="Auf dieser Registerkarte befinden sich Echtzeitinformationen über die aktuelle und frühere Datenbanknutzung und -entwicklung für jede Campaign-Instanz."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=de" text="Über die Leistungsüberwachung "
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=de" text="Über das Monitoring der Performance"
 
-Mit dem Control Panel können Sie die Datenbanknutzung für jede Ihrer Campaign-Instanzen überwachen. Öffnen Sie dazu die Karte **[!UICONTROL Leistungsüberwachung]** und wählen Sie dann den Tab **[!UICONTROL Datenbanken]** aus.
+Mit dem Control Panel können Sie die Datenbanknutzung für jede Ihrer Campaign-Instanzen überwachen. Öffnen Sie dazu die Karte **[!UICONTROL Performance-Überwachung]** und wählen Sie dann den Tab **[!UICONTROL Datenbanken]** aus.
 
 Wählen Sie die gewünschte Instanz aus der **[!UICONTROL Instanzenliste]** aus, um Informationen zur Datenbankkapazität und zum verwendeten Speicherplatz der Instanz anzuzeigen.
 

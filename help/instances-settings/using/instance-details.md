@@ -9,7 +9,7 @@ level: Experienced
 exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: ht
-source-wordcount: '536'
+source-wordcount: '515'
 ht-degree: 100%
 
 ---
@@ -33,7 +33,7 @@ Mit der Funktion &quot;Details der Instanz&quot; können Sie sich die flache Arc
 
 >[!NOTE]
 >
->Es wird empfohlen, Instanzen mindestens einmal jährlich zu aktualisieren, um ein Nachlassen der Leistung zu verhindern und die neuesten Funktionen und Fehlerkorrekturen von Adobe Campaign v7/v8 zu nutzen.
+>Es wird empfohlen, Instanzen mindestens einmal jährlich zu aktualisieren, um ein Nachlassen der Performance zu verhindern und die neuesten Funktionen und Fehlerkorrekturen von Adobe Campaign v7/v8 zu nutzen.
 
 **Verwandte Themen:**
 
@@ -68,7 +68,7 @@ Diese Informationen sind verfügbar:
 * **[!UICONTROL Aktualisierungsinformationen:]** In dieser Spalte werden für den Server erforderliche Updates aufgeführt.
    * Grün: Ihr Server ist auf dem neuesten Stand, kein Upgrade ist erforderlich.
    * Gelb: Sie sollten ein Upgrade in Erwägung ziehen. Ihnen fehlen die neuesten Funktionen und Fehlerkorrekturen.
-   * Rot: Führen Sie möglichst rasch ein Upgrade durch. Ihnen fehlen neue Funktionen und die Server-Leistung ist möglicherweise nicht optimal.
+   * Rot: Führen Sie möglichst rasch ein Upgrade durch. Ihnen fehlen neue Funktionen und die Server-Performance ist möglicherweise nicht optimal.
 
 Informationen zur Aktualisierung von Servern finden Sie in [dieser Dokumentation](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/build-upgrade.html?lang=de).
 
