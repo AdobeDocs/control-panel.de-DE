@@ -5,10 +5,11 @@ feature: Control Panel, Monitoring, Workflows
 role: Admin
 level: Experienced
 exl-id: 8016f800-430a-413d-a77b-b7f18f5ab733
-source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
+source-git-commit: 360f2ca6fa1896ae5376143ee73b7e8b71d98be0
 workflow-type: ht
 source-wordcount: '269'
 ht-degree: 100%
+
 ---
 
 # Überwachen von Workflows {#monitor-workflows}
@@ -76,3 +77,4 @@ Dieses Feld ermöglicht es Ihnen, einem Workflow einen Benutzer zuzuweisen. Wenn
 Der Wert „1“ zeigt an, dass für den Workflow das Feld **Schweregrad** auf „Produktion“ eingestellt ist und dass dem Workflow keine Gruppe von Verantwortlichen zugewiesen wurde.
 
 ![](assets/wkf-monitoring-supervisors.png)
+
