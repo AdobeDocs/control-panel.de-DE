@@ -7,10 +7,10 @@ feature: Control Panel
 role: Admin
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
-source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
+source-git-commit: 98cf425548884c3a5e503c35ce5ea5b7ceaee67f
 workflow-type: tm+mt
-source-wordcount: '756'
-ht-degree: 100%
+source-wordcount: '719'
+ht-degree: 92%
 
 ---
 
@@ -78,19 +78,19 @@ Damit Sie die Einstellungen für Ihre Instanz verwalten können, möchten wir si
 
 ### Was passiert, wenn ich mehrere Organisations-IDs habe?
 
-Wenn Sie Zugriff auf mehrere Adobe-Lösungen haben, kann es sein, dass Sie mehr als eine Organisations-ID besitzen. In diesem Fall ist die richtige Organisations-ID diejenige, die Sie unter Ihrer Adobe Campaign-Instanz sehen.
+Eine Organisations-ID zwischen Analytics und Campaign ist eine Voraussetzung, wenn Sie die Lösungen integrieren möchten, um komplexe Anwendungsfälle wie den Abbruch von Warenkörben (für Adobe Analytics und Adobe Campaign) nutzen zu können. Wenn Sie Zugriff auf mehrere Adobe-Lösungen haben, kann es sein, dass Sie mehr als eine Organisations-ID besitzen. In diesem Fall ist die richtige Organisations-ID diejenige, die Sie unter Ihrer Adobe Campaign-Instanz sehen.
 
+<!--
 >[!NOTE]
 >
->Wenn Sie dieselbe Organisations-ID für Adobe Campaign und Adobe Analytics haben, ist das ideal. Eine einheitliche Organisations-ID für Analytics und Campaign ist eine Voraussetzung, um die Lösungen zu integrieren und komplexe Anwendungsfälle wie Warenkorbabbrüche (für AA + AC) zu nutzen.
->
->Wenn Sie unterschiedliche Organisations-IDs für Adobe Campaign und Adobe Analytics haben, wenden Sie sich bitte an die Kundenunterstützung, um sie angleichen zu lassen.
+>If you have different organization IDs for Adobe Campaign and Adobe Analytics, please reach out to Customer Care to get them aligned.
+-->
 
 ### Woher weiß ich, ob meine Adobe Campaign-Instanz auf AWS gehostet wird oder nicht?{#hosted-aws}
 
 Gehen Sie wie folgt vor, um zu überprüfen, ob Ihre Instanz auf AWS gehostet wird:
 
-1. Rufen Sie Ihre Anmelde-URL ab. Dies ist die URL, die Sie zur Anmeldung in Ihrer Campaign-Instanz verwenden. Sie endet normalerweise auf &quot;.campaign.adobe.com&quot; oder &quot;.neolane.net&quot;.
+1. Rufen Sie Ihre Anmelde-URL ab. Dies ist die URL, die Sie zum Anmelden bei Ihrer Campaign-Instanz verwenden. Sie endet normalerweise auf &quot;.campaign.adobe.com&quot; oder &quot;.neolane.net&quot;.
 1. Öffnen Sie das Terminal und führen Sie dann einen **[!DNL nslookup]** -Vorgang auf Ihrer Anmelde-URL aus.
 
    `doe-macOS% nslookup myinstance.campaign.adobe.com`
