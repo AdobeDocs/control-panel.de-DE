@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: eb7863fb-6e6d-4821-a156-03fee03cdd0e
 source-git-commit: c555a91ee0772fd615d38ebbb3964392649af907
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '523'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 80%
 
 ## Über BIMI-Einträge {#about}
 
-Brand Indicators for Message Identification (BIMI) ist ein Branchenstandard, der es ermöglicht, neben der E-Mail eines Absenders in den Postfächern von Postfachanbietern ein genehmigtes Logo anzuzeigen, um die Markenerkennung und das Vertrauen zu stärken.
+Brand Indicators for Message Identification (BIMI) ist ein Branchenstandard, der es ermöglicht, in den Posteingängen von E-Mail-Anbietern ein Bestätigungslogo neben der E-Mail eines Absenders anzuzeigen. Dies fördert die Markenerkennung und das Vertrauen.
 
 Detaillierte Informationen zur BIMI-Implementierung finden Sie im [Adobe-Handbuch für Best Practices zur Zustellbarkeit](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-bimi.html?lang=de)
 
@@ -28,11 +28,11 @@ Detaillierte Informationen zur BIMI-Implementierung finden Sie im [Adobe-Handbuc
 
 * SPF-, DKIM- und DMARC-Einträge sind Voraussetzung für das Erstellen eines BIMI-Eintrags.
 
-* BIMI-Eintrag muss im DNS veröffentlicht werden. Für vollständig delegierte Domains ist dies über das Control Panel möglich. [Hier finden Sie weitere Informationen zu den Konfigurationsmethoden von Subdomains](subdomains-branding.md#subdomain-delegation-methods)
+* Der BIMI-Eintrag muss im DNS veröffentlicht werden. Bei vollständig delegierten Domains kann dies über das Control Panel erfolgen. [Hier finden Sie weitere Informationen zu den Konfigurationsmethoden von Subdomains](subdomains-branding.md#subdomain-delegation-methods)
 
 * Voraussetzungen für DMARC-Einträge:
 
-   * Der Richtlinientyp für die Aufzeichnung der Organisationsdomäne muss auf &quot;Quarantäne&quot;oder &quot;Ablehnen&quot;eingestellt sein. Die Erstellung von BIMI-Einträgen ist nicht verfügbar, wenn der DMARC-Richtlinientyp auf „Keine“ festgelegt ist.
+   * Der Richtlinientyp für die Einträge der Organisations-Domain muss auf „In Quarantäne“ oder „Ablehnen“ eingestellt sein. Die Erstellung von BIMI-Einträgen ist nicht verfügbar, wenn der DMARC-Richtlinientyp auf „Keine“ festgelegt ist.
    * Der Prozentsatz der E-Mails, auf die die DMARC-Richtlinie angewendet wird, muss 100 % betragen. BIMI unterstützt keine DMARC-Richtlinien, deren Prozentsatz auf weniger als 100 % festgelegt ist.
 
 [Erfahren Sie, wie Sie DMARC-Einträge konfigurieren](dmarc.md)
@@ -47,11 +47,11 @@ Gehen Sie wie folgt vor, um einen BIMI-Eintrag für eine Subdomain hinzuzufügen
 
    ![](assets/bimi-add.png)
 
-1. Mit dem Feld **[!UICONTROL Selektor]** können Sie einen BIMI-Selektor für den Eintrag angeben. Ein BIMI-Selektor ist eine eindeutige Kennung, die Sie einem BIMI-Eintrag zuweisen können. Auf diese Weise können Sie mehrere Logos für eine bestimmte Subdomain definieren. Dies wird derzeit von Postfachanbietern nicht unterstützt.
+1. Mit dem Feld **[!UICONTROL Selektor]** können Sie einen BIMI-Selektor für den Eintrag angeben. Ein BIMI-Selektor ist eine eindeutige Kennung, die Sie einem BIMI-Eintrag zuweisen können. Auf diese Weise können Sie mehrere Logos für eine bestimmte Subdomain definieren. Dies wird derzeit nicht von E-Mail-Anbietern unterstützt.
 
 1. Geben Sie in der **[!UICONTROL Firmen-Logo-URL]** die URL der SVG-Datei an, die Ihr Logo enthält.
 
-1. Obwohl die **[!UICONTROL Zertifikat-URL]** optional ist, ist sie für einige Postfachanbieter wie Gmail und Apple erforderlich. Daher empfehlen wir, ein Verified Mark Certificate (VMC) zu erhalten, um BIMI wirklich auszunutzen.
+1. Obwohl die **[!UICONTROL Zertifikat-URL]** optional ist, ist sie bei einigen E-Mail-Anbietern wie Gmail und Apple erforderlich. Daher empfehlen wir, ein Verified Mark Certificate (VMC) zu erhalten, um BIMI wirklich auszunutzen.
 
    +++Wie erhalte ich ein VMC?
 
