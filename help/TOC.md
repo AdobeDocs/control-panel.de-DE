@@ -9,7 +9,7 @@ level: Experienced
 source-git-commit: cc45dc517a8baa2583a082b99bc084bd84013918
 workflow-type: tm+mt
 source-wordcount: '180'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
@@ -25,13 +25,13 @@ ht-degree: 100%
       + [2021](rn/release-notes-2021.md)
       + [2020](rn/release-notes-2020.md)
       + [2019](rn/release-notes-2019.md)
-+ Entdecken Sie das Control Panel {#discover-control-panel}
++ Funktionsweise des Control Panels {#discover-control-panel}
    + [Hauptfunktionen](discover/using/key-features.md)
    + [Zugriff auf das Control Panel](discover/using/accessing-control-panel.md)
    + [Verwalten von Berechtigungen für das Control Panel](discover/using/managing-permissions.md)
    + [Die Benutzeroberfläche des Control Panels](discover/using/discovering-the-interface.md)
    + [Häufig gestellte Fragen](faq.md)
-+ Ereignis- und E-Mail-Warnhinweise {#alerts-events}
++ Ereignisse und E-Mail-Warnungen {#alerts-events}
    + [Überwachung wichtiger Kontakte und Ereignisse](service-events/service-events.md)
    + [Benachrichtigungen per E-Mail](performance-monitoring/using/email-alerting.md)
 + SFTP-Verwaltung {#sftp-management}
@@ -52,13 +52,13 @@ ht-degree: 100%
       + [Hinzufügen von Google Site-Verifizierungseinträgen](subdomains-certificates/using/managing-txt-records.md)
       + [Hinzufügen von DMARC-Einträgen](subdomains-certificates/using/dmarc.md)
       + [Hinzufügen von BIMI-Einträgen](subdomains-certificates/using/bimi.md)
-   + Verwalten von SSL-Zertifikaten für Subdomains {#manage-certificates}
+   + Verwalten von SSL-Zertifikaten der Subdomains {#manage-certificates}
       + [Überwachen von SSL-Zertifikaten](subdomains-certificates/using/monitoring-ssl-certificates.md)
       + [Delegieren von SSL-Zertifikaten an Adobe](subdomains-certificates/using/delegate-ssl.md)
       + [Verlängern von SSL-Zertifikaten](subdomains-certificates/using/renewing-subdomain-certificate.md)
-+ Monitoring der Performance {#performance-monitoring}
++ Überwachen der Performance {#performance-monitoring}
    + [Über das Leistungs-Monitoring](performance-monitoring/using/about-performance-monitoring.md)
-   + Datenbanküberwachung {#database-monitoring}
+   + Monitoring der Datenbank {#database-monitoring}
       + [Über die Datenbanküberwachung](performance-monitoring/using/database-monitoring.md)
       + [Datenbankauslastung](performance-monitoring/using/database-utilization.md)
       + [Speicherübersicht](performance-monitoring/using/database-storage-overview.md)
