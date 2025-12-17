@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: a2b3d409-704b-4e81-ae40-b734f755b598
 source-git-commit: 31d181770474428a7b42e96f2e603cc820db48d4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '483'
-ht-degree: 61%
+ht-degree: 100%
 
 ---
 
@@ -34,11 +34,11 @@ Die Delegierung von SSL-Zertifikaten an Adobe kann beim Einrichten einer neuen S
 
 ## Delegieren von SSL-Zertifikaten neuer Subdomains {#new}
 
-Um SSL-Zertifikate beim Einrichten einer neuen Subdomain zu delegieren, aktivieren Sie die Option **[!UICONTROL Für von Adobe verwaltetes SSL für Subdomains registrieren]** im Konfigurationsassistenten für Subdomains. Der Prozess zur Zertifikatgenerierung unterscheidet sich je nach Methode der Subdomain-Delegierung:
+Um SSL-Zertifikate beim Einrichten einer neuen Subdomain zu delegieren, aktivieren Sie die Option **[!UICONTROL Für von Adobe verwaltetes SSL für Subdomains registrieren]** im Konfigurationsassistenten für Subdomains. Der Vorgang zur Generierung von Zertifikaten unterscheidet sich je nach Methode für die Subdomain-Delegierung:
 
-* **Vollständige Subdomain-Delegierung**: Das SSL-Zertifikat wird automatisch von Adobe angefordert und installiert, ohne dass eine Aktion von Ihnen erforderlich ist. Nachdem Sie die Subdomain-Konfiguration übermittelt haben, wird die Anfrage zur Zertifikatinstallation sofort als Teil des Workflows zum Einrichten der Subdomain verarbeitet. [Weitere Informationen zur vollständigen Subdomain-Delegierung](setting-up-new-subdomain.md#full-subdomain-delegation)
+* **Vollständige Delegierung von Subdomains**: Das SSL-Zertifikat wird automatisch von Adobe angefordert und installiert, ohne dass Sie Maßnahmen ergreifen müssen. Nachdem Sie die Subdomain-Konfiguration übermittelt haben, wird die Anfrage zur Zertifikatinstallation sofort als Teil des Workflows zum Einrichten der Subdomain verarbeitet. [Weitere Informationen zur vollständigen Delegierung von Subdomains](setting-up-new-subdomain.md#full-subdomain-delegation)
 
-* **CNAME-Delegierung**: Zertifikatsdatensätze, die in Ihre Hosting-Lösung kopiert werden sollen, werden später im Konfigurationsassistenten bereitgestellt. Sie müssen diese Zertifikatsdatensätze in Ihrer Domain-Hosting-Lösung generieren, bevor Sie die Subdomain-Konfiguration übermitteln. [Weitere Informationen zur CNAME-Delegierung](setting-up-new-subdomain.md#use-cnames)
+* **CNAME-Delegierung**: Zertifikatseinträge, die in Ihre Hosting-Lösung kopiert werden sollen, werden später im Konfigurationsassistenten bereitgestellt. Sie müssen diese Zertifikatseinträge in Ihrer Domain-Hosting-Lösung generieren, bevor Sie die Subdomain-Konfiguration übermitteln. [Weitere Informationen zur CNAME-Delegierung](setting-up-new-subdomain.md#use-cnames)
 
 ![](assets/cname-adobe-managed.png){width="70%" align="left"}
 
@@ -48,15 +48,15 @@ Um SSL-Zertifikate für eine bereits delegierte Subdomain zu delegieren, klicken
 
 ![](assets/delegate-ssl-list.png){width="70%" align="left"}
 
-Der Prozess der Zertifikatgenerierung hängt davon ab, wie die Subdomain ursprünglich konfiguriert wurde:
+Der Vorgang zur Generierung von Zertifikaten hängt davon ab, wie die Subdomain ursprünglich konfiguriert wurde:
 
 ### Vollständig delegierte Subdomains
 
-Bei Subdomains, die mit vollständiger Subdomain-Delegierung (mit Adobe-Nameservern) eingerichtet wurden, wird das SSL-Zertifikat automatisch von Adobe angefordert und installiert. Nachdem Sie auf **[!UICONTROL Zu verwaltetem SSL wechseln]** geklickt und bestätigt haben, wird die Anfrage zur Zertifikatinstallation sofort gesendet, ohne dass Sie zusätzliche Maßnahmen ergreifen müssen.
+Bei Subdomains, die mit der vollständigen Delegierung von Subdomains (mit Adobe-Nameservern) eingerichtet wurden, wird das SSL-Zertifikat automatisch von Adobe angefordert und installiert. Nachdem Sie auf **[!UICONTROL Zu Verwaltetem SSL wechseln]** geklickt und den Vorgang bestätigt haben, wird die Anfrage zur Zertifikatinstallation sofort gesendet, ohne dass Sie zusätzliche Maßnahmen ergreifen müssen.
 
-### Delegierte CNAME-Subdomains
+### Mit CNAME delegierte Subdomains
 
-Bei Subdomains, die mit CNAME-Delegierung eingerichtet wurden, wird ein Dialogfeld mit den Zertifikatsdatensätzen angezeigt, die automatisch von Adobe generiert wurden. Kopieren Sie diese Einträge entweder einzeln oder durch Herunterladen einer CSV-Datei, und navigieren Sie dann zu Ihrer Domain-Hosting-Lösung, um die passenden Zertifikate zu generieren.
+Bei Subdomains, die per CNAME-Delegierung eingerichtet wurden, wird ein Dialogfeld mit den Zertifikatseinträgen angezeigt, die automatisch von Adobe generiert wurden. Kopieren Sie diese Einträge entweder einzeln oder durch Herunterladen einer CSV-Datei, und navigieren Sie dann zu Ihrer Domain-Hosting-Lösung, um die passenden Zertifikate zu generieren.
 
 Stellen Sie sicher, dass alle Zertifikatseinträge aus den vorherigen Schritten in Ihrer Domain-Hosting-Lösung generiert wurden. Wenn alles ordnungsgemäß konfiguriert ist, bestätigen Sie die Erstellung der Einträge und klicken Sie auf **[!UICONTROL Senden]**.
 

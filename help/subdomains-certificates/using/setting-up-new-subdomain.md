@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
 source-git-commit: 0b7cb860592508f7323bcd30345d1853e4a4ac94
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1526'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -86,7 +86,7 @@ Gehen Sie wie folgt vor, um eine Subdomain vollständig an Adobe Campaign zu del
 
    ![](assets/subdomain3.png)
 
-1. Erstellen Sie die gewünschte Subdomain und die gewünschten Nameserver in der von Ihrem Unternehmen verwendeten Hosting-Lösung. Kopieren Sie dazu die im Assistenten angezeigten Adobe-Nameserver-Informationen und fügen Sie sie ein. Weitere Informationen zum Erstellen einer Subdomain in einer Hosting-Lösung finden Sie in diesem [Tutorial-Video](https://video.tv.adobe.com/v/33269?captions=ger).
+1. Erstellen Sie die gewünschte Subdomain und die gewünschten Nameserver in der von Ihrem Unternehmen verwendeten Hosting-Lösung. Kopieren Sie dazu die im Assistenten angezeigten Adobe-Nameserver-Informationen und fügen Sie sie ein. Weitere Informationen zum Erstellen einer Subdomain in einer Hosting-Lösung finden Sie in diesem [Tutorial-Video](https://video.tv.adobe.com/v/30175).
 
    >[!NOTE]
    >
@@ -223,6 +223,6 @@ Klicken Sie auf **[!UICONTROL Details der Subdomain]** und **[!UICONTROL Absende
 
 ## Fehlerbehebung {#troubleshooting}
 
-* In einigen Fällen wird die Subdomain-Konfiguration durchgeführt, die Subdomain wird jedoch möglicherweise nicht erfolgreich verifiziert. Die Subdomain verbleibt mit einem Vorgangslog mit Informationen zum Fehler in der Liste **[!UICONTROL Konfiguriert]**. Wenden Sie sich an die Kundenunterstützung, wenn Sie Probleme bei der Lösung des Problems haben.
+* In einigen Fällen wird die Subdomain-Konfiguration durchgeführt, die Subdomain wird jedoch möglicherweise nicht erfolgreich verifiziert. Die Subdomain verbleibt mit einem Auftragslog mit Informationen zum Fehler in der Liste **[!UICONTROL Konfiguriert]**. Wenden Sie sich an die Kundenunterstützung, wenn Sie Probleme bei der Lösung des Problems haben.
 * Wenn die Subdomain nach der Konfiguration als &quot;Nicht verifiziert&quot; angezeigt wird, starten Sie eine neue Subdomain-Verifizierung (**...** / **[!UICONTROL Subdomain verifizieren]**). Wenn immer noch derselbe Status angezeigt wird, kann dies daran liegen, dass einige Anpassungen am Empfängerschema vorgenommen wurden, die mit Standardprozessen nicht überprüft werden können. Versuchen Sie, über diese Subdomain eine Kampagne zu senden.
 * Wenn die Konfiguration der Subdomain bei der Zustellbarkeitsprüfung zu lange dauert (mehr als 10 Werktage), wenden Sie sich an die Kundenunterstützung.
