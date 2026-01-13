@@ -38,7 +38,7 @@ Gehen Sie wie folgt vor, um über Adobe Experience Cloud Platform auf das Contro
 
 Der Zugriff auf das Control Panel ist auch über Experience Cloud Platform in der **Auswahlfunktion für Lösungen** möglich:
 
-1. Wählen Sie auf der [ von ](https://experiencecloud.adobe.com/){target="_blank"}Adobe Experience Cloud **Campaign** im Bereich **Schnellzugriff** oder im Menü rechts oben aus.
+1. Wählen Sie auf der [&#x200B; von &#x200B;](https://experiencecloud.adobe.com/){target="_blank"}Adobe Experience Cloud **Campaign** im Bereich **Schnellzugriff** oder im Menü rechts oben aus.
 
    ![](assets/do-not-localize/control_panel_access1.png)
 
