@@ -7,10 +7,10 @@ feature: Control Panel, Permissions
 role: Admin
 level: Intermediate
 exl-id: 7314a679-78c3-4650-bf3a-2bde8be82747
-source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
+source-git-commit: aff51e72ac2781264d0cd028a816e00c3fcb8bdd
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 100%
+source-wordcount: '341'
+ht-degree: 74%
 
 ---
 
@@ -20,7 +20,7 @@ Auf das Control Panel haben alle Admin-Benutzer einer Campaign-Instanz Zugriff. 
 
 ![](assets/do-not-localize/how-to-video.png) Funktion kennenlernen im [Video](../../discover/using/managing-permissions.md#video)
 
-1. Gehen Sie zur [Startseite von Adobe Experience Cloud](https://experiencecloud.adobe.com/){target="_blank"}.
+1. Navigieren Sie zur [Adobe Experience Cloud-Homepage](https://experiencecloud.adobe.com/){target="_blank"}.
 
 1. Starten Sie die **Admin Console**, indem Sie auf den verfügbaren Link im Bereich **Schnellzugriff** oder im Menü oben rechts klicken.
 
@@ -50,9 +50,11 @@ Auf das Control Panel haben alle Admin-Benutzer einer Campaign-Instanz Zugriff. 
 
    ![](assets/do-not-localize/control_panel_add_user_5.png)
 
-   >[!NOTE]
+   >[!IMPORTANT]
    >
-   >Standardmäßig gehören Admin-Benutzer dem Produktprofil &quot;Administratoren&quot; an. Je nach Konfiguration Ihrer Organisation kann das Produktprofil unterschiedlich benannt sein (&quot;admin&quot;, &quot;admins&quot; usw.).
+   >Standardmäßig ist das Control Panel für Admin-Benutzer zugänglich, die zum Produktprofil „Administratoren“ gehören. Je nach Konfiguration Ihres Unternehmens kann das Produktprofil anders benannt werden („Admin“, „Admins“, „Genehmigungsadmin“ usw.). **Jedes Produktprofil, das das Wort „admin“ im Namen enthält, gewährt automatisch Zugriff auf das Control Panel.**
+   >
+   >Überprüfen Sie die Benennungskonventionen für Produktprofile in der Admin Console sorgfältig, um sicherzustellen, dass nur autorisierte Benutzende Zugriff auf das Control Panel haben, da dies erhebliche Änderungen an Campaign-Instanzen ermöglicht.
 
 1. Die Liste der Admin-Benutzer wird angezeigt. Wählen Sie die Schaltfläche **[!UICONTROL Benutzer hinzufügen]** aus, um den gewünschten Benutzer hinzuzufügen.
 
@@ -62,6 +64,6 @@ Auf das Control Panel haben alle Admin-Benutzer einer Campaign-Instanz Zugriff. 
 >
 >Sobald der Zugriff konfiguriert ist, muss sich der Benutzer bei Adobe Experience Cloud abmelden und erneut anmelden, um auf das Control Panel zugreifen zu können.
 
-## Tutorial-Video {#video}
+## Anleitungsvideo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/34781?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/27147?quality=12)
