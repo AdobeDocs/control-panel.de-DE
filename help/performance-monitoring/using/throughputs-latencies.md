@@ -8,7 +8,7 @@ role: Admin
 level: Experienced
 exl-id: eddef17f-0667-4b43-bc56-2b1aeeae61bb
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '444'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="cp_performancemonitoring_throughputslatencies"
 >title="Über die Überwachung von Durchsätzen und Latenzen "
->abstract="Auf dieser Registerkarte kann die Entwicklung der Durchsätze und Latenzen über einen bestimmten Zeitraum hinweg überwacht werden. Um Informationen über Versände zu erhalten, die zum Durchsatz beitragen, muss zur Tabellenansicht gewechselt werden."
+>abstract="Auf dieser Registerkarte kann die Entwicklung der Durchsätze und Latenzen auf den Instanzen über einen bestimmten Zeitraum hinweg überwacht werden. Um Informationen über Versände zu erhalten, die zum Durchsatz beitragen, muss zur Tabellenansicht gewechselt werden."
 
 Mit dem Control Panel können Sie den Versanddurchsatz und die Latenz für jede Ihrer Instanzen überwachen.
 
