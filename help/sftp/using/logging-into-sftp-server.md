@@ -18,7 +18,7 @@ ht-degree: 100%
 
 Die folgenden Schritte beschreiben, wie Sie mit Ihrer SFTP-Client-Anwendung eine Verbindung mit Ihrem SFTP-Server herstellen.
 
-![](assets/do-not-localize/how-to-video.png)[ Funktion im Video kennenlernen](https://video.tv.adobe.com/v/27263?quality=12).
+![](assets/do-not-localize/how-to-video.png)[ Funktion im Video kennenlernen](https://video.tv.adobe.com/v/34778?captions=ger&quality=12).
 
 Bevor Sie sich beim Server anmelden, überprüfen Sie, ob folgende Voraussetzungen gegeben sind:
 
