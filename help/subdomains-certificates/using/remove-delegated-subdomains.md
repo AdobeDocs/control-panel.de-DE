@@ -8,7 +8,7 @@ role: Admin
 level: Experienced
 exl-id: 517818c9-8557-49fd-b49c-b98b60e48f1c
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '831'
 ht-degree: 100%
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 Mit dem Control Panel können Sie die Delegation einer Subdomain entfernen, die vollständig an Adobe oder mithilfe von CNAME-Einträgen delegiert wurde.
 
-## Wichtige Hinweise {#important}
+## Wichtige Hinweise        {#important}
 
 Bevor Sie fortfahren, sollten Sie sorgfältig prüfen, welche Auswirkungen das Entfernen der Zuweisung haben könnte:
 
@@ -55,7 +55,7 @@ Gehen Sie wie folgt vor, um die Zuweisung einer Subdomain zu Adobe zu entfernen:
 
    ![](assets/undelegate-submit.png)
 
-Nachdem der Entfernungsprozess gestartet wurde, wird der ausstehende Vorgang in den Vorgangslogs angezeigt, bis er abgeschlossen ist.
+Nachdem der Entfernungsprozess gestartet wurde, wird der ausstehende Auftrag in den Auftragslogs angezeigt, bis er abgeschlossen ist.
 
 ![](assets/undelegate-job.png)
 
@@ -100,7 +100,7 @@ In diesem Abschnitt sind die Fehlermeldungen aufgelistet, die auftreten können,
 
 | Fehler-Code | Nachricht | Beschreibung |
 |  ---  |  ---  |  ---  |
-| 8002 | Die angeforderte Entfernung der delegierten Domain kann nicht angegangen werden, da eine ähnliche, sich damit überlappende Anfrage ausgeführt wird. Bitte in 3 Tagen erneut versuchen | Ein Vorgang zum Entfernen einer Subdomain-Zuweisung wird für die ausgewählte Instanz bereits ausgeführt. Es muss 3 Tage gewartet werden, um einen neuen Entfernungsvorgang zu starten. |
+| 8002 | Die angeforderte Entfernung der delegierten Domain kann nicht angegangen werden, da eine ähnliche, sich damit überlappende Anfrage ausgeführt wird. Bitte in 3 Tagen erneut versuchen | Ein Auftrag zum Entfernen einer Subdomain-Zuweisung wird für die ausgewählte Instanz bereits ausgeführt. Es muss 3 Tage gewartet werden, um einen neuen Entfernungsauftrag zu starten. |
 | 8003 | Die angeforderte Entfernung der delegierten Domain wird für diese Instanz nicht unterstützt. | Aufgrund eines technischen Problems wird das Entfernen der Delegierung für die ausgewählte Subdomain nicht unterstützt. Bitte die Kundenunterstützung kontaktieren. |
 | 8004 | Die angeforderte Entfernung der delegierten Domain ist nicht zulässig, da es in dieser Instanz nur eine Domain gibt. | Für die ausgewählte Instanz wurde nur eine Subdomain delegiert. Das Entfernen von Delegierungen ist nicht erlaubt. |
 | 8005 | Die angeforderte Entfernung der delegierten Domain wird für diese Konfiguration nicht unterstützt. | Aufgrund eines technischen Problems wird das Entfernen der Delegierung für die ausgewählte Subdomain nicht unterstützt. Bitte die Kundenunterstützung kontaktieren. |

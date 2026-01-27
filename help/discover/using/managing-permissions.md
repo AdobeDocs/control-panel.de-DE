@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: 7314a679-78c3-4650-bf3a-2bde8be82747
 source-git-commit: aff51e72ac2781264d0cd028a816e00c3fcb8bdd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '341'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 74%
 
 Auf das Control Panel haben alle Admin-Benutzer einer Campaign-Instanz Zugriff. Führen Sie die folgenden Schritte aus, um Benutzern Administratorrechte zu erteilen und ihnen Zugriff auf das Control Panel zu gewähren.
 
-![](assets/do-not-localize/how-to-video.png) Funktion kennenlernen im [Video](../../discover/using/managing-permissions.md#video)
+![](assets/do-not-localize/how-to-video.png)[ Funktion im Video kennenlernen](../../discover/using/managing-permissions.md#video).
 
-1. Navigieren Sie zur [Adobe Experience Cloud-Homepage](https://experiencecloud.adobe.com/){target="_blank"}.
+1. Navigieren Sie zur [Startseite von Adobe Experience Cloud](https://experiencecloud.adobe.com/){target="_blank"}.
 
 1. Starten Sie die **Admin Console**, indem Sie auf den verfügbaren Link im Bereich **Schnellzugriff** oder im Menü oben rechts klicken.
 
@@ -52,9 +52,9 @@ Auf das Control Panel haben alle Admin-Benutzer einer Campaign-Instanz Zugriff. 
 
    >[!IMPORTANT]
    >
-   >Standardmäßig ist das Control Panel für Admin-Benutzer zugänglich, die zum Produktprofil „Administratoren“ gehören. Je nach Konfiguration Ihres Unternehmens kann das Produktprofil anders benannt werden („Admin“, „Admins“, „Genehmigungsadmin“ usw.). **Jedes Produktprofil, das das Wort „admin“ im Namen enthält, gewährt automatisch Zugriff auf das Control Panel.**
+   >Standardmäßig ist das Control Panel für Admin-Benutzende zugänglich, die zum Produktprofil der Admins gehören. Je nach Konfiguration Ihrer Organisation kann das Produktprofil unterschiedlich benannt sein („Admin“, „Admins“, „Validierungsadmin“ usw.). **Jedes Produktprofil, das das Wort „Admin“ im Namen enthält, gewährt automatisch Zugriff auf das Control Panel.**
    >
-   >Überprüfen Sie die Benennungskonventionen für Produktprofile in der Admin Console sorgfältig, um sicherzustellen, dass nur autorisierte Benutzende Zugriff auf das Control Panel haben, da dies erhebliche Änderungen an Campaign-Instanzen ermöglicht.
+   >Überprüfen Sie die Namenskonventionen für Produktprofile in der Admin Console sorgfältig, um sicherzustellen, dass nur autorisierte Benutzende Zugriff auf das Control Panel haben, da hier erhebliche Änderungen an Campaign-Instanzen vorgenommen werden können.
 
 1. Die Liste der Admin-Benutzer wird angezeigt. Wählen Sie die Schaltfläche **[!UICONTROL Benutzer hinzufügen]** aus, um den gewünschten Benutzer hinzuzufügen.
 
@@ -66,4 +66,4 @@ Auf das Control Panel haben alle Admin-Benutzer einer Campaign-Instanz Zugriff. 
 
 ## Anleitungsvideo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/34781?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/27147?quality=12)

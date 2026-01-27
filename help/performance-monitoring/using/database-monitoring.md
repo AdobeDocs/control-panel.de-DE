@@ -8,7 +8,7 @@ role: Admin
 level: Experienced
 exl-id: 2bd7d2dd-97be-49bb-9f8e-7161d0742bc1
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '365'
 ht-degree: 100%
 
@@ -53,4 +53,4 @@ In diesem Dashboard stehen zusätzliche Metriken zur Verfügung, mit denen Sie d
 * [Die Top 10 der temporären Ressourcen](../../performance-monitoring/using/database-top-ten-resources.md)
 * [Aktive Abfragen](../../performance-monitoring/using/database-active-queries.md)
 
-![](assets/do-not-localize/how-to-video.png) Entdecken Sie diese Funktion bei der Verwendung von [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=de#performance-monitoring) oder [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=de#performance-monitoring) im Video.
+![](assets/do-not-localize/how-to-video.png) Entdecken Sie diese Funktion bei der Verwendung von [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=de#performance-monitoring) oder [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=de#performance-monitoring) im Video

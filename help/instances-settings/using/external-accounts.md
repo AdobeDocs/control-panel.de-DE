@@ -8,7 +8,7 @@ role: Admin
 level: Intermediate
 exl-id: ff64acbe-d8cb-499b-b20f-b0934fb0f695
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '567'
 ht-degree: 100%
 
@@ -77,7 +77,7 @@ Um auf die Funktionen des Control Panels zugreifen zu können, müssen Sie Ihre 
 
 1. Klicken Sie zur Bestätigung auf **[!UICONTROL Speichern]**.
 
-Beim Hinzufügen der MID/RT-URL wird ein asynchroner Prozess ausgelöst, um die Richtigkeit der URLs zu überprüfen. Dieser Vorgang kann einige Minuten dauern. Bis die URL der MID/RT-Instanz validiert ist, ist der Vorgang ausstehend. Erst nach Abschluss der Überprüfung können Sie auf die Hauptfunktionen des Control Panels zugreifen.
+Beim Hinzufügen der MID/RT-URL wird ein asynchroner Prozess ausgelöst, um die Richtigkeit der URLs zu überprüfen. Dieser Vorgang kann einige Minuten dauern. Bis die URL der MID/RT-Instanz validiert ist, ist der Auftrag ausstehend. Erst nach Abschluss der Überprüfung können Sie auf die Hauptfunktionen des Control Panels zugreifen.
 
 ![](assets/external-account-pending.png)
 
@@ -85,7 +85,7 @@ Sie können eine MID/RT-Instanz-URL jederzeit entfernen oder deaktivieren, indem
 
 ![](assets/external-account-edit.png)
 
-Beachten Sie, dass Sie jede Aktion, die auf der Registerkarte **[!UICONTROL Externe Konten]** auf einer MID/RT-Instanz-URL ausgeführt wird, in den **[!UICONTROL Vorgangslogs]** überwachen können:
+Beachten Sie, dass Sie jede Aktion, die auf der Registerkarte **[!UICONTROL Externe Konten]** auf einer MID/RT-Instanz-URL ausgeführt wird, in den **[!UICONTROL Auftragslogs]** überwachen können:
 
 ![](assets/external-account-logs.png)
 

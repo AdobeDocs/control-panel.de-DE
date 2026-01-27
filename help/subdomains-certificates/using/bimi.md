@@ -8,7 +8,7 @@ role: Admin
 level: Experienced
 exl-id: eb7863fb-6e6d-4821-a156-03fee03cdd0e
 source-git-commit: c555a91ee0772fd615d38ebbb3964392649af907
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '523'
 ht-degree: 100%
 
@@ -66,7 +66,7 @@ Gehen Sie wie folgt vor, um einen BIMI-Eintrag für eine Subdomain hinzuzufügen
    1. Sobald der BIMI-Eintrag auf der Detailseite einer bestimmten Subdomain sichtbar ist, können Sie den [hier](https://bimigroup.org/bimi-generator/) verfügbaren BIMI-Inspektor verwenden, um zu überprüfen, ob der BIMI-Eintrag ordnungsgemäß funktioniert.
 
    Detaillierte Informationen zur BIMI-Implementierung finden Sie in der [Dokumentation zu den BIMI-Standards](https://bimigroup.org/implementation-guide/)
-+++
+   +++
 
 1. Klicken Sie auf **[!UICONTROL Hinzufügen]**, um die Erstellung des BIMI-Eintrags zu bestätigen.
 

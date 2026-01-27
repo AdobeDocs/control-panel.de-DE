@@ -8,8 +8,8 @@ role: Admin
 level: Experienced
 exl-id: 45a3bfcd-500c-4139-b610-d39989260ab7
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
-source-wordcount: '1059'
+workflow-type: ht
+source-wordcount: '1057'
 ht-degree: 100%
 
 ---
@@ -19,12 +19,12 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="cp_ip_whitelist"
 >title="Über die Zulassungsauflistung von IP-Bereichen"
->abstract="Auf dieser Registerkarte können Sie der Zulassungsliste IP-Bereiche hinzufügen, um eine Verbindung zu Ihren SFTP-Servern herzustellen. Hier werden nur SFTP-Server aufgeführt, auf die Sie Zugriff haben. Wenn Sie Zugriff auf andere SFTP-Server wünschen, kontaktieren Sie Ihre oder Ihren Admin."
+>abstract="Auf dieser Registerkarte können Sie der Zulassungsliste IP-Bereiche hinzufügen, um eine Verbindung zu Ihren SFTP-Servern herzustellen. Hier werden nur SFTP-Server aufgeführt, auf die Sie Zugriff haben. Wenn Sie Zugriff auf andere SFTP-Server wünschen, kontaktieren Sie Ihren Administrator."
 >additional-url="https://images-tv.adobe.com/mpcv3/8a977e03-d76c-44d3-853c-95d0b799c870_1560205338.1920x1080at3000_h264.mp4#t=98" text="Demovideo ansehen"
 
 SFTP-Server sind geschützt. Damit Sie auf die Server zugreifen und Dateien anzeigen oder neue erstellen können, müssen Sie die öffentliche IP-Adresse des Systems oder des Clients, über das bzw. den der Zugriff auf den Server erfolgt, auf die Zulassungsliste setzen.
 
-![](assets/do-not-localize/how-to-video.png) Entdecken Sie diese Funktion bei der Verwendung von [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html?lang=de#sftp-management) oder [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html?lang=de#sftp-management) im Video.
+![](assets/do-not-localize/how-to-video.png) Entdecken Sie diese Funktion bei der Verwendung von [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html?lang=de#sftp-management) oder [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html?lang=de#sftp-management) im Video
 
 ## Über das CIDR-Format {#about-cidr-format}
 
@@ -69,13 +69,13 @@ Gehen Sie wie folgt vor, um einen IP-Bereich auf die Zulassungsliste zu setzen:
 
    ![](assets/control_panel_add_range3.png)
 
-1. Definieren Sie den Titel, der für diesen IP-Bereich in der Liste angezeigt wird.
+1. Definieren Sie das Label, das für diesen IP-Bereich in der Liste angezeigt wird.
 
    ![](assets/control_panel_add_range2.png)
 
    >[!NOTE]
    >
-   >Diese Sonderzeichen sind im Feld **[!UICONTROL Titel]** erlaubt:
+   >Diese Sonderzeichen sind im Feld **[!UICONTROL Label]** erlaubt:
    > `. _ - : / ( ) # , @ [ ] + = & ; { } ! $`
 
 1. Um Ihre IP-Zulassungsliste besser zu verwalten, können Sie eine Dauer für die Verfügbarkeit der einzelnen IP-Bereiche festlegen. Wählen Sie dazu eine Einheit in der Dropdown-Liste **[!UICONTROL Typ]** aus und legen Sie eine Dauer im entsprechenden Feld fest. Weitere Informationen zum Ablauf des IP-Bereichs finden Sie in [diesem Abschnitt](#expiry).
@@ -102,7 +102,7 @@ Die von Ihnen erstellten IP-Bereiche werden auf der Registerkarte **[!UICONTROL 
 
 Sie können die Elemente nach Erstellungsdatum, Bearbeitungsdatum, Benutzer, der sie erstellt oder bearbeitet hat, sowie nach Ablaufdatum des IP-Bereichs sortieren.
 
-Sie können auch einen IP-Bereich durchsuchen, indem Sie eine Bezeichnung, einen Bereich, einen Namen oder einen Kommentar eingeben.
+Sie können auch einen IP-Bereich durchsuchen, indem Sie ein Label, einen Bereich, einen Namen oder einen Kommentar eingeben.
 
 ![](assets/control_panel_allow_list_sort.png)
 
@@ -153,7 +153,7 @@ Gehen Sie wie folgt vor, um IP-Bereiche zu bearbeiten.
 
    >[!NOTE]
    >
-   >Um das CIDR-Format, seinen Titel oder die zugehörige(n) Instanz(en) zu ändern, müssen Sie zunächst den IP-Bereich löschen und dann einen neuen, Ihren Anforderungen entsprechenden erstellen.
+   >Um das CIDR-Format, sein Label oder die zugehörige(n) Instanz(en) zu ändern, müssen Sie zunächst den IP-Bereich löschen und dann einen neuen, Ihren Anforderungen entsprechenden erstellen.
 
    ![](assets/control_panel_edit_range2.png)
 
@@ -161,7 +161,7 @@ Gehen Sie wie folgt vor, um IP-Bereiche zu bearbeiten.
 
 ## Überwachen von Änderungen {#monitoring-changes}
 
-Auf der Startseite im Control Panel können Sie mit der Option **[!UICONTROL Vorgangslogs]** alle Änderungen an IP-Adressen überwachen, die sich auf der Zulassungsliste befinden.
+Auf der Startseite im Control Panel können Sie mit der Option **[!UICONTROL Auftragslogs]** alle Änderungen an IP-Adressen überwachen, die sich auf der Zulassungsliste befinden.
 
 Weitere Informationen zur Benutzeroberfläche des Control Panels finden Sie in [diesem Abschnitt](../../discover/using/discovering-the-interface.md).
 

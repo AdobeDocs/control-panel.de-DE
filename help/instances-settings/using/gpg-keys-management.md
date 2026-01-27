@@ -8,7 +8,7 @@ role: Admin
 level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
 source-git-commit: de33a10a168358d0f38ca776fbcd88e0ccf63ce2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1146'
 ht-degree: 100%
 
@@ -46,7 +46,7 @@ Dazu müssen Sie mithilfe eines PGP-Verschlüsselungs-Tools ein GPG-Schlüsselpa
 >
 >Sie können im Control Panel bis zu 60 GPG-Schlüssel installieren.
 
-![](assets/do-not-localize/how-to-video.png) Funktion kennenlernen im [Video](#video).
+![](assets/do-not-localize/how-to-video.png)[ Funktion im Video kennenlernen](#video).
 
 1. Generieren Sie mithilfe eines PGP-Verschlüsselungs-Tools ein öffentlich-privates Schlüsselpaar gemäß der [OpenPGP-Spezifikation](https://www.openpgp.org/about/standard/). Installieren Sie dazu ein GPG-Dienstprogramm oder eine GNuGP-Software.
 
@@ -99,7 +99,7 @@ Sobald der öffentliche Schlüssel installiert ist, wird er in der Liste angezei
 
 Der Schlüssel kann dann in Adobe Campaign-Workflows verwendet werden. Sie können ihn bei Aktivitäten zur Datenextraktion zum Verschlüsseln von Daten verwenden.
 
-![](assets/do-not-localize/how-to-video.png) Funktion kennenlernen im [Video](#video)
+![](assets/do-not-localize/how-to-video.png)[ Funktion im Video kennenlernen](#video).
 
 Weitere Informationen zu diesem Thema finden Sie in der Adobe Campaign-Dokumentation:
 
@@ -122,7 +122,7 @@ Dazu müssen Sie ein GPG-Schlüsselpaar direkt im Control Panel generieren.
 * Der **öffentliche Schlüssel** wird mit dem Drittsystem geteilt, das ihn zum Verschlüsseln der an Campaign zu sendenden Daten verwendet.
 * Der **private Schlüssel** wird von Campaign verwendet, um die eingehenden verschlüsselten Daten zu entschlüsseln.
 
-![](assets/do-not-localize/how-to-video.png) Funktion kennenlernen im [Video](#video)
+![](assets/do-not-localize/how-to-video.png)[ Funktion im Video kennenlernen](#video).
 
 Gehen Sie wie folgt vor, um ein Schlüsselpaar im Control Panel zu generieren:
 
@@ -190,10 +190,10 @@ Als Best Practice empfehlen wir, alle Schlüssel zu entfernen, die Sie nicht meh
 >
 >Stellen Sie vor dem Entfernen eines Schlüssels sicher, dass er in keinem Adobe Campaign-Workflow verwendet wird, um ein Fehlschlagen zu verhindern.
 
-## Tutorial-Video {#video}
+## Anleitungsvideo {#video}
 
 Im folgenden Video wird gezeigt, wie GPG-Schlüssel für die Datenverschlüsselung generiert und installiert werden.
 
 Weitere Anleitungen zum Verwalten von GPG-Schlüsseln finden Sie in den Tutorials zu [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=de#instance-settings) und [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=de#instance-settings).
 
->[!VIDEO](https://video.tv.adobe.com/v/327882?quality=12&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/36386?quality=12)

@@ -6,9 +6,9 @@ role: Admin
 level: Experienced
 exl-id: 9fb18bb6-c4e4-48aa-849c-d9129add5266
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '601'
+ht-degree: 100%
 
 ---
 
@@ -87,7 +87,7 @@ Kunden mit dem Hybrid-Hosting-Modell können jetzt neue Subdomains einrichten. [
 <tbody>
 <tr>
 <td>
-<p>Der Prozess der CSR-Generierung wurde in mehreren Punkten verbessert. <a href="../subdomains-certificates/using/renewing-subdomain-certificate.md">Weitere Informationen</a></p><ul><li>Beim Generieren einer CSR können Sie jetzt eine der enthaltenen Subdomains als Gebrauchsnamen auswählen.</li><li>Sie können jetzt die CSR-Zusammenfassung kopieren, bevor Sie die CSR generieren.</li><li>Nachdem eine CSR generiert wurde, können Sie sie erneut aus den Vorgangslogs herunterladen. Diese Funktion gilt nicht für Zertifikate, die vor dieser Version generiert wurden.</li></ul><p>
+<p>Der Prozess der CSR-Generierung wurde in mehreren Punkten verbessert. <a href="../subdomains-certificates/using/renewing-subdomain-certificate.md">Weitere Informationen</a></p><ul><li>Beim Generieren einer CSR können Sie jetzt eine der enthaltenen Subdomains als Gebrauchsnamen auswählen.</li><li>Sie können jetzt die CSR-Zusammenfassung kopieren, bevor Sie die CSR generieren.</li><li>Nachdem eine CSR generiert wurde, können Sie sie erneut aus den Auftragslogs herunterladen. Diese Funktion gilt nicht für Zertifikate, die vor dieser Version generiert wurden.</li></ul><p>
 
 </td>
 </tr>
@@ -178,7 +178,7 @@ Kunden mit dem Hybrid-Hosting-Modell können jetzt neue Subdomains einrichten. [
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt Workflow-Parameter überwachen, die möglicherweise besondere Aufmerksamkeit erfordern, um Probleme in Ihren Instanzen zu vermeiden. </p><p>Weitere Informationen finden Sie in der <a href="../performance-monitoring/using/workflow-monitoring.md">entsprechenden Dokumentation</a>.</p>
+<p>Sie können jetzt Workflow-Parameter überwachen, die möglicherweise besondere Aufmerksamkeit erfordern, um Probleme in Ihren Instanzen zu vermeiden. </p><p>Weitere Informationen finden Sie im <a href="../performance-monitoring/using/workflow-monitoring.md">entsprechenden Handbuch</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -195,7 +195,7 @@ Kunden mit dem Hybrid-Hosting-Modell können jetzt neue Subdomains einrichten. [
 <tbody>
 <tr>
 <td>
-<p>Mit dem Control Panel können Sie jetzt diejenigen Abfragen überwachen, die am längsten auf Ihren Instanzen ausgeführt werden.</p><p>Weitere Informationen finden Sie in der <a href="../performance-monitoring/using/database-active-queries.md">entsprechenden Dokumentation</a>.</p>
+<p>Mit dem Control Panel können Sie jetzt diejenigen Abfragen überwachen, die am längsten auf Ihren Instanzen ausgeführt werden.</p><p>Weitere Informationen finden Sie im <a href="../performance-monitoring/using/database-active-queries.md">entsprechenden Handbuch</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -210,7 +210,7 @@ Kunden mit dem Hybrid-Hosting-Modell können jetzt neue Subdomains einrichten. [
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt die Entwicklung der Durchsätze und Latenzen Ihrer Instanzen über einen bestimmten Zeitraum hinweg überwachen.</p><p>Weitere Informationen finden Sie in der <a href="../performance-monitoring/using/throughputs-latencies.md">entsprechenden Dokumentation</a>.</p>
+<p>Sie können jetzt die Entwicklung der Durchsätze und Latenzen Ihrer Instanzen über einen bestimmten Zeitraum hinweg überwachen.</p><p>Weitere Informationen finden Sie im <a href="../performance-monitoring/using/throughputs-latencies.md">entsprechenden Handbuch</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -225,7 +225,7 @@ Kunden mit dem Hybrid-Hosting-Modell können jetzt neue Subdomains einrichten. [
 <tbody>
 <tr>
 <td>
-<p>Vorgänge von SSL-Zertifikaten können jetzt auf einer neu eingerichteten Subdomain ausgeführt werden, auch wenn die Zustellbarkeitsprüfung noch läuft.</p><p>Weitere Informationen finden Sie in der <a href="../subdomains-certificates/using/renewing-subdomain-certificate.md">entsprechenden Dokumentation</a>.</p>
+<p>Vorgänge von SSL-Zertifikaten können jetzt auf einer neu eingerichteten Subdomain ausgeführt werden, auch wenn die Zustellbarkeitsprüfung noch läuft.</p><p>Weitere Informationen finden Sie im <a href="../subdomains-certificates/using/renewing-subdomain-certificate.md">entsprechenden Handbuch</a>.</p>
 </td>
 </tr>
 </tbody>

@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: a7df90da-a2ce-409f-9bc3-c7d4fa3024c8
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '572'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -28,13 +28,13 @@ ht-degree: 96%
 >
 >Diese Funktion ist nur für Campaign v7/v8-Instanzen ab Build 8850 verfügbar. Wenn Sie einen früheren Build verwenden, müssen Sie ein Upgrade durchführen, um diese Funktion verwenden zu können.
 
-Die Standardliste der URLs, die von JavaScript-Codes (Workflows usw.) von Ihren Campaign-Instanzen aufgerufen werden können, ist begrenzt. Diese URLs ermöglichen das ordnungsgemäße Funktionieren der Instanzen.
+Die Standardliste der URLs, die von JavaScript-Codes (Workflows usw.) über Ihre Campaign-Instanzen aufgerufen werden können, ist eingeschränkt. Diese URLs ermöglichen das ordnungsgemäße Funktionieren der Instanzen.
 
 Standardmäßig sind Instanzen nicht berechtigt, eine Verbindung zu externen URLs herzustellen. Über das Control Panel haben Sie die Möglichkeit, externe URLs zur Liste der berechtigten URLs hinzufügen, sodass sich Ihre Instanz mit ihnen verbinden kann. Dadurch können Sie zwischen Ihren Campaign-Instanzen und externen Systemen, wie z. B. SFTP-Servern oder Websites, eine Verbindung herstellen, um den Datei- und/oder Datentransfer zu ermöglichen.
 
 Nach dem Hinzufügen einer URL wird sie in der Konfigurationsdatei der Instanz referenziert (serverConf.xml).
 
-![](assets/do-not-localize/how-to-video.png) [Funktion im Video kennenlernen](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/adding-url-permissions.html?lang=de#instance-settings).
+![](assets/do-not-localize/how-to-video.png) [Entdecken Sie diese Funktion im Video](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/adding-url-permissions.html?lang=de#instance-settings)
 
 **Verwandte Themen:**
 

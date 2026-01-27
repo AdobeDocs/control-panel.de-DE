@@ -8,7 +8,7 @@ role: Admin
 level: Intermediate
 exl-id: 20302017-d4b1-489b-a6b4-f086e5bad4d5
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '226'
 ht-degree: 100%
 
@@ -24,9 +24,9 @@ Die Aktionen werden durch Karten dargestellt, die in unterschiedliche Themen geo
 
 ![](assets/control_panel_interface.png)
 
-## Vorgangslogs {#job-logs}
+## Auftragslogs {#job-logs}
 
-Über die Schaltfläche **[!UICONTROL Vorgangslog]** oben rechts können Sie alle Änderungen überprüfen, die von Benutzern Ihres Unternehmens vorgenommen wurden.
+Über die Schaltfläche **[!UICONTROL Auftragslog]** oben rechts können Sie alle Änderungen überprüfen, die von Benutzern Ihres Unternehmens vorgenommen wurden.
 
 ![](assets/control_panel_interface2.png)
 

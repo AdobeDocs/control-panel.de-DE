@@ -8,7 +8,7 @@ role: Admin
 level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '794'
 ht-degree: 100%
 
@@ -36,7 +36,7 @@ Im Control Panel können Sie neue Verbindungen mit Ihren Instanzen einrichten, i
 
 Nachdem IP-Adressen auf die Zulassungsliste gesetzt wurden, können Sie Campaign-Benutzer erstellen und mit den Adressen verknüpfen, sodass die Benutzer auf die Instanz zugreifen können.
 
-![](assets/do-not-localize/how-to-video.png) [Funktion im Video kennenlernen](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/ip-allow-listing.html?lang=de#instance-settings).
+![](assets/do-not-localize/how-to-video.png) [Entdecken Sie diese Funktion im Video](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/ip-allow-listing.html?lang=de#instance-settings)
 
 ## Best Practices {#best-practices}
 

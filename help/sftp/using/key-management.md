@@ -8,7 +8,7 @@ role: Admin
 level: Experienced
 exl-id: 03815e01-6371-4e1c-b4b8-7abe25957cee
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1058'
 ht-degree: 100%
 
@@ -28,7 +28,7 @@ Im Folgenden werden die Schritte zum Erstellen und Hinzufügen eines öffentlich
 
 Nachdem der Zugriff auf den Server eingerichtet wurde, müssen die **IP-Adressen auf die Zulassungsliste gesetzt werden, die Zugriff auf den Server benötigen**, damit Sie eine Verbindung mit ihm herstellen können. Weiterführende Informationen hierzu finden Sie in [diesem Abschnitt](../../instances-settings/using/ip-allow-listing-instance-access.md).
 
-![](assets/do-not-localize/how-to-video.png) Entdecken Sie diese Funktion bei der Verwendung von [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/generate-ssh-key.html?lang=de#sftp-management) oder [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/generate-ssh-key.html?lang=de#sftp-management) im Video.
+![](assets/do-not-localize/how-to-video.png) Entdecken Sie diese Funktion bei der Verwendung von [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/generate-ssh-key.html?lang=de#sftp-management) oder [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/generate-ssh-key.html?lang=de#sftp-management) im Video
 
 ## Best Practices {#best-practices}
 
@@ -105,7 +105,7 @@ In sehr seltenen Fällen ist die passwortbasierte Authentifizierung auf manchen 
 
 >[!IMPORTANT]
 >
->Wenn der von Ihnen erstellte Schlüssel verwendet wird, um eine Verbindung zu einem System herzustellen, das noch nie mit dem ausgewählten SFTP-Server verbunden war, müssen Sie eine öffentliche IP-Adresse dieses Systems auf die Zulassungsliste setzen. Erst danach können Sie dieses System mit dem SFTP-Server verwenden. Weitere Informationen finden Sie in [diesem Abschnitt](ip-range-allow-listing.md).
+>Wenn der von Ihnen erstellte Schlüssel verwendet wird, um eine Verbindung zu einem System herzustellen, das noch nie mit dem ausgewählten SFTP-Server verbunden war, müssen Sie eine öffentliche IP-Adresse dieses Systems auf die Zulassungsliste setzen. Erst danach können Sie dieses System mit dem SFTP-Server verwenden. Siehe [diesen Abschnitt](ip-range-allow-listing.md).
 
 Sie können Fingerabdrücke verwenden, um die auf Ihrem Computer gespeicherten privaten Schlüssel mit den entsprechenden öffentlichen Schlüsseln im Control Panel abzugleichen.
 

@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: d230aae6-4f0e-4201-bb3c-0e3f83a7c1b8
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '781'
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ Es werden drei Arten von Ereignissen angezeigt:
 
    * **[!UICONTROL Allgemeine Verfügbarkeit]**: Neuester verfügbarer stabiler Build.
    * **[!UICONTROL Eingeschränkte Verfügbarkeit]**: Bereitstellung nur auf Anfrage.
-   * **[!UICONTROL Release-Kandidat]**: technisch validiert. Fertigstellung für die Produktion ist ausstehend.
+   * **[!UICONTROL Release-Kandidat]**: technisch validiert. Produktionstestversand ist ausstehend.
    * **[!UICONTROL Vorabversion]**: Frühere Verfügbarkeit für spezifische Kundenanforderungen.
    * **[!UICONTROL Nicht mehr verfügbar]**: Mit diesem Build bestehen zwar keine größeren Probleme, aber es ist ein neuerer Build mit zusätzlichen Fehlerkorrekturen verfügbar. Ein Upgrade ist erforderlich.
    * **[!UICONTROL Veraltet]**: Ein Build, der bekannte Regressionen enthält. Der Build wird nicht mehr unterstützt. Ein Upgrade ist unbedingt erforderlich.

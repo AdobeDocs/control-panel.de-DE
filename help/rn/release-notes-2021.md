@@ -8,7 +8,7 @@ hide: true
 hidefromtoc: true
 exl-id: ee974059-9ede-4c8e-9e77-d0e67bb4e849
 source-git-commit: cc45dc517a8baa2583a082b99bc084bd84013918
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '184'
 ht-degree: 100%
 
@@ -57,7 +57,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>Die E-Mail-Warnfunktion enthält jetzt Warnhinweise zum Verfall der SFTP-IP-Zulassungsliste und der öffentlichen SFTP-Schlüssel</p><p>Weitere Informationen finden Sie in der <a href="../performance-monitoring/using/email-alerting.md">entsprechenden Dokumentation</a>.</p>
+<p>Die E-Mail-Warnfunktion enthält jetzt Warnhinweise zum Verfall der SFTP-IP-Zulassungsliste und der öffentlichen SFTP-Schlüssel</p><p>Weitere Informationen finden Sie im <a href="../performance-monitoring/using/email-alerting.md">entsprechenden Handbuch</a>.</p>
 </td>
 </tr>
 </tbody>

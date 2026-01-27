@@ -8,7 +8,7 @@ role: Admin
 level: Experienced
 exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1010'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ Der Verlängerungsprozess eines SSL-Zertifikats besteht aus drei Schritten:
 
    Vor dem Kauf eines Zertifikats muss eine Certificate Signing Request für die Instanz und die Subdomains generiert werden, die Sie schützen möchten.  Dabei müssen Sie die zur Erstellung einer CSR erforderlichen Informationen bereitstellen (z. B. Gebrauchsname, Organisationsname und Adresse). [Weitere Informationen](#generate)
 
-1. **Erwerb des SSL-Zertifikats**
+1. **Kauf des SSL-Zertifikats**
 
    Sobald die CSR generiert wurde, können Sie damit das SSL-Zertifikat bei der von Ihrem Unternehmen genehmigten Zertifizierungsstelle erwerben.
 
@@ -39,7 +39,7 @@ Der Verlängerungsprozess eines SSL-Zertifikats besteht aus drei Schritten:
 
    Installieren Sie das erworbene SSL-Zertifikat auf der gewünschten Subdomain, um sie zu sichern. [Weitere Informationen](#install)
 
-![](assets/do-not-localize/how-to-video.png) Erkunden Sie diese Funktion von [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=de#subdomains-and-certificates) oder [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=de#adding-ssl-certificates) im Video.
+![](assets/do-not-localize/how-to-video.png) Entdecken Sie diese Funktion bei der Verwendung von [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=de#subdomains-and-certificates) oder [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=de#adding-ssl-certificates) im Video
 
 **Verwandte Themen:**
 
@@ -104,13 +104,13 @@ Nachdem Sie das SSL-Zertifikat erworben haben, können Sie es in Ihrer Instanz i
 
 ## CSR herunterladen {#download}
 
-Um ein SSL-Zertifikat zu erwerben, müssen Sie zunächst den „Certificate Signing Request“ herunterladen. Die CSR wird automatisch heruntergeladen, nachdem sie generiert wurde. Sie können ihn auch jederzeit in den Vorgangslogs erneut herunterladen:
+Um ein SSL-Zertifikat zu erwerben, müssen Sie zunächst den „Certificate Signing Request“ herunterladen. Die CSR wird automatisch heruntergeladen, nachdem sie generiert wurde. Sie können ihn auch jederzeit in den Auftragslogs erneut herunterladen:
 
 1. Wählen Sie in den **[!UICONTROL Vorgangslogs]** die Registerkarte **[!UICONTROL Abgeschlossen]** und filtern Sie dann die Liste, um Vorgänge im Zusammenhang mit der Verwaltung von Subdomains anzuzeigen.
 
    ![](assets/renewal-download.png)
 
-1. Öffnen Sie den Vorgang, der der Generierung der CSR entspricht, und klicken Sie dann auf den **[!UICONTROL Downbload]**-Link, um die CSR-Datei zu erhalten.
+1. Öffnen Sie den Auftrag, der der Generierung der CSR entspricht, und klicken Sie dann auf den **[!UICONTROL Downbload]**-Link, um die CSR-Datei zu erhalten.
 
    ![](assets/renewal-download-button.png)
 

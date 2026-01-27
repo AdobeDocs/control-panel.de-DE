@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: eb67af6e-a64e-49a7-9656-782f91bc1d67
 source-git-commit: aff51e72ac2781264d0cd028a816e00c3fcb8bdd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '235'
-ht-degree: 56%
+ht-degree: 100%
 
 ---
 
@@ -22,15 +22,15 @@ Es steht nur **Administratoren** zur Verfügung. Weitere Informationen zum Hinzu
 
 >[!IMPORTANT]
 >
->Standardmäßig ist das Control Panel für Admin-Benutzer zugänglich, die zum Produktprofil „Administratoren“ gehören. Je nach Konfiguration Ihres Unternehmens kann das Produktprofil anders benannt werden („Admin“, „Admins“, „Genehmigungsadmin“ usw.). **Jedes Produktprofil, das das Wort „admin“ im Namen enthält, gewährt automatisch Zugriff auf das Control Panel.**
+>Standardmäßig ist das Control Panel für Admin-Benutzende zugänglich, die zum Produktprofil der Admins gehören. Je nach Konfiguration Ihrer Organisation kann das Produktprofil unterschiedlich benannt sein („Admin“, „Admins“, „Validierungsadmin“ usw.). **Jedes Produktprofil, das das Wort „Admin“ im Namen enthält, gewährt automatisch Zugriff auf das Control Panel.**
 >
->Überprüfen Sie die Benennung Ihres Produktprofils sorgfältig, um sicherzustellen, dass nur autorisierte Benutzer Zugriff auf das Control Panel haben.
+>Überprüfen Sie die Benennung des Produktprofils sorgfältig, um sicherzustellen, dass nur autorisierte Benutzende Zugriff auf das Control Panel haben.
 
 ## Zugriff über Experience Cloud Platform {#access-experience-cloud-platform}
 
 Gehen Sie wie folgt vor, um über Adobe Experience Cloud Platform auf das Control Panel zuzugreifen.
 
-1. Navigieren Sie zur [Experience Cloud-Homepage](https://experiencecloud.adobe.com/){target="_blank"}.
+1. Navigieren Sie zur [Startseite von Experience Cloud](https://experiencecloud.adobe.com/){target="_blank"}.
 
 1. Klicken Sie auf den entsprechenden Link im Abschnitt **Schnellzugriff**.
 
@@ -38,7 +38,7 @@ Gehen Sie wie folgt vor, um über Adobe Experience Cloud Platform auf das Contro
 
 Der Zugriff auf das Control Panel ist auch über Experience Cloud Platform in der **Auswahlfunktion für Lösungen** möglich:
 
-1. Wählen Sie auf der [&#x200B; von &#x200B;](https://experiencecloud.adobe.com/){target="_blank"}Adobe Experience Cloud **Campaign** im Bereich **Schnellzugriff** oder im Menü rechts oben aus.
+1. Wählen Sie auf der [Startseite von Adobe Experience Cloud](https://experiencecloud.adobe.com/){target="_blank"} im Bereich **Schnellzugriff** oder im Menü oben rechts die Option **Campaign** aus.
 
    ![](assets/do-not-localize/control_panel_access1.png)
 

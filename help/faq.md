@@ -1,14 +1,14 @@
 ---
 product: campaign
 solution: Campaign
-title: Control Panel – Häufig gestellte Fragen
+title: Control Panel – häufig gestellte Fragen
 description: Häufige Fragen zum Control Panel
 feature: Control Panel
 role: Admin
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
 source-git-commit: 98cf425548884c3a5e503c35ce5ea5b7ceaee67f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '719'
 ht-degree: 100%
 
@@ -58,7 +58,7 @@ Folgen Sie der detaillierten Anleitung in der Dokumentation im Abschnitt zum Zug
 
 Nein, es fallen keine zusätzlichen Kosten an, wenn Sie bereits Kunde von Adobe Campaign sind.
 
-## Organisations-ID {#ims-org-id}
+## Organization ID (Organisationskennung) {#ims-org-id}
 
 ### Was ist eine Organisations-ID?
 
