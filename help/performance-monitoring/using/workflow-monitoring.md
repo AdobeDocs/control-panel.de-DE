@@ -5,16 +5,17 @@ feature: Control Panel, Monitoring, Workflows
 role: Admin
 level: Experienced
 exl-id: 8016f800-430a-413d-a77b-b7f18f5ab733
-source-git-commit: 360f2ca6fa1896ae5376143ee73b7e8b71d98be0
+source-git-commit: bf1bbf0d85cf4f8e33232e4e19d08a6f31d4a35a
 workflow-type: ht
-source-wordcount: '269'
+source-wordcount: '364'
 ht-degree: 100%
 
 ---
 
 # Überwachen von Workflows {#monitor-workflows}
 
-<!-- Clean paused and completed workflows
+<!-- 
+Clean paused and completed workflows
 
 When [!DNL Adobe Campaign] workflows are paused or completed, they leave temporary tables on your instances database that consume space and can lead to performance issues.
 
@@ -22,7 +23,7 @@ Control Panel allows you to identify those workflows and clean the temporary res
 
 >[!NOTE]
 >
->Technically, this operation executes the **[!UICONTROL Database cleanup technical workflow]** that runs on your Campaign instance everyday (see [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=de#list-of-technical-workflows) and [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html?lang=de) documentation). 
+>Technically, this operation executes the **[!UICONTROL Database cleanup technical workflow]** that runs on your Campaign instance everyday (see [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows) and [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html) documentation). 
 
 To clean paused and completed workflows, follow these steps:
 
@@ -42,7 +43,8 @@ To clean paused and completed workflows, follow these steps:
 
     ![](assets/wkf-monitoring-in-progress.png)
 
-Monitor workflow parameters -->
+Monitor workflow parameters 
+-->
 
 In Adobe Campaign gibt es einige Workflow-Parameter, die möglicherweise besondere Aufmerksamkeit erfordern, um Probleme in Ihren Instanzen zu vermeiden. Über die Control Panel-Details **[!UICONTROL Speicherübersicht]** können Sie überprüfen, ob eine dieser Optionen für Ihre Workflows aktiviert ist.
 
