@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
-source-wordcount: '515'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '556'
+ht-degree: 99%
 
 ---
 
@@ -38,7 +38,7 @@ Mit der Funktion &quot;Details der Instanz&quot; können Sie sich die flache Arc
 **Verwandte Themen:**
 
 * [Durchführen eines Build-Upgrades](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/build-upgrade.html?lang=de)
-* [Adobe Campaign aktualisieren](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/introduction.html?lang=de)
+* [Aktualisieren von Adobe Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/introduction.html?lang=de)
 
 ## Abrufen von Informationen zu Ihren Instanzen {#retrieving-information-about-instances}
 

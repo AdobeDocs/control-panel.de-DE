@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: 03815e01-6371-4e1c-b4b8-7abe25957cee
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
-source-wordcount: '1058'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1106'
+ht-degree: 96%
 
 ---
 
@@ -93,7 +93,7 @@ In sehr seltenen Fällen ist die passwortbasierte Authentifizierung auf manchen 
 
    Möglicherweise müssen Sie ein Tool eines Drittanbieters installieren, mit dem Sie ein Schlüsselpaar aus privatem und öffentlichem Schlüssel im Format „name.pub“ erstellen können.
 
-1. Öffnen Sie die .pub-Datei und kopieren Sie die gesamte Zeichenfolge beginnend mit „ssh...“ in das Control Panel.
+1. Öffnen Sie die .pub-Datei und kopieren Sie dann die gesamte Zeichenfolge beginnend mit „ssh…“ in das Control Panel.
 
    ![](assets/publickey.png)
 
@@ -111,7 +111,7 @@ Sie können Fingerabdrücke verwenden, um die auf Ihrem Computer gespeicherten p
 
 ![](assets/fingerprint_compare.png)
 
-Mit der Schaltfläche **...** können Sie einen vorhandenen Schlüssel löschen oder seinen zugehörigen Fingerabdruck in die Zwischenablage kopieren.
+Das &quot;**…**&quot; Mit der Schaltfläche können Sie einen vorhandenen Schlüssel löschen oder seinen zugehörigen Fingerabdruck in die Zwischenablage kopieren.
 
 ![](assets/key_options.png)
 
@@ -137,7 +137,7 @@ Die Spalte **[!UICONTROL Läuft ab]** gibt an, wie viele Tage bis zum Ablauf des
 
 Wenn Sie [E-Mail-Warnungen](../../performance-monitoring/using/email-alerting.md) abonniert haben, erhalten Sie Benachrichtigungen per E-Mail 10 Tage und 5 Tage, bevor ein öffentlicher Schlüssel abläuft, und auch an dem Tag, an dem er abläuft. Nach Erhalt des Warnhinweises können Sie [den öffentlichen Schlüssel bearbeiten](#editing-public-keys), um die Gültigkeitsdauer bei Bedarf zu verlängern.
 
-Ein abgelaufener öffentlicher Schlüssel wird nach 7 Tagen automatisch gelöscht. Dies wird als **[!UICONTROL Abgelaufen]** in der Spalte **[!UICONTROL Läuft ab]** angezeigt. Innerhalb dieses 7-tägigen Zeitraums:
+Ein abgelaufener öffentlicher Schlüssel wird nach 7 Tagen automatisch gelöscht. Er wird als **[!UICONTROL Abgelaufen]** in der Spalte **[!UICONTROL Läuft ab]** angezeigt. Innerhalb dieses 7-tägigen Zeitraums:
 
 * Ein abgelaufener öffentlicher Schlüssel kann nicht mehr zur dazu verwendet werden, eine Verbindung zum SFTP-Server herzustellen.
 
