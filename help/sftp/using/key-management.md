@@ -127,7 +127,7 @@ Sie können auch einen öffentlichen Schlüssel durchsuchen, indem Sie mit der E
 
 Informationen zum Bearbeiten eines oder mehrerer IP-Bereiche finden Sie in [diesem Abschnitt](#editing-public-keys).
 
-Um einen oder mehrere öffentliche Schlüssel aus der Liste zu löschen, wählen Sie diese aus und klicken Sie auf die Schaltfläche ]**Öffentlichen Schlüssel löschen**[!UICONTROL .
+Um einen oder mehrere öffentliche Schlüssel aus der Liste zu löschen, wählen Sie diese aus und klicken Sie auf die Schaltfläche **Öffentlichen Schlüssel löschen**.
 
 ![](assets/control_panel_delete_key.png)
 

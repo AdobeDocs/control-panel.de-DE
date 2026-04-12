@@ -46,7 +46,7 @@ Dazu müssen Sie mithilfe eines PGP-Verschlüsselungs-Tools ein GPG-Schlüsselpa
 >
 >Sie können im Control Panel bis zu 60 GPG-Schlüssel installieren.
 
-![](assets/do-not-localize/how-to-video.png)[ Funktion im Video kennenlernen](#video).
+![](assets/do-not-localize/how-to-video.png) [&#x200B; Funktion im Video kennenlernen](#video).
 
 1. Generieren Sie mithilfe eines PGP-Verschlüsselungs-Tools ein öffentlich-privates Schlüsselpaar gemäß der [OpenPGP-Spezifikation](https://www.openpgp.org/about/standard/). Installieren Sie dazu ein GPG-Dienstprogramm oder eine GNuGP-Software.
 
@@ -99,7 +99,7 @@ Sobald der öffentliche Schlüssel installiert ist, wird er in der Liste angezei
 
 Der Schlüssel kann dann in Adobe Campaign-Workflows verwendet werden. Sie können ihn bei Aktivitäten zur Datenextraktion zum Verschlüsseln von Daten verwenden.
 
-![](assets/do-not-localize/how-to-video.png)[ Funktion im Video kennenlernen](#video).
+![](assets/do-not-localize/how-to-video.png) [&#x200B; Funktion im Video kennenlernen](#video).
 
 Weitere Informationen zu diesem Thema finden Sie in der Adobe Campaign-Dokumentation:
 
@@ -122,7 +122,7 @@ Dazu müssen Sie ein GPG-Schlüsselpaar direkt im Control Panel generieren.
 * Der **öffentliche Schlüssel** wird mit dem Drittsystem geteilt, das ihn zum Verschlüsseln der an Campaign zu sendenden Daten verwendet.
 * Der **private Schlüssel** wird von Campaign verwendet, um die eingehenden verschlüsselten Daten zu entschlüsseln.
 
-![](assets/do-not-localize/how-to-video.png)[ Funktion im Video kennenlernen](#video).
+![](assets/do-not-localize/how-to-video.png) [&#x200B; Funktion im Video kennenlernen](#video).
 
 Gehen Sie wie folgt vor, um ein Schlüsselpaar im Control Panel zu generieren:
 
