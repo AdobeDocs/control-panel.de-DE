@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
 source-git-commit: de33a10a168358d0f38ca776fbcd88e0ccf63ce2
-workflow-type: ht
-source-wordcount: '1146'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1348'
+ht-degree: 99%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 >id="cp_instancesettings_gpg_management"
 >title="Über GPG-Schlüssel"
 >abstract="Auf dieser Registerkarte können Sie GPG-Schlüssel in einer Marketing-Instanz installieren und/oder generieren, um von Campaign gesendete Daten zu verschlüsseln und eingehende Daten zu entschlüsseln."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=de" text="Über die Performance-Überwachung"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=de" text="Über das Monitoring der Performance"
 
 ## Über die GPG-Verschlüsselung {#about-gpg-encryption}
 
@@ -46,7 +46,7 @@ Dazu müssen Sie mithilfe eines PGP-Verschlüsselungs-Tools ein GPG-Schlüsselpa
 >
 >Sie können im Control Panel bis zu 60 GPG-Schlüssel installieren.
 
-![](assets/do-not-localize/how-to-video.png)[ Funktion im Video kennenlernen](#video).
+![](assets/do-not-localize/how-to-video.png) [&#x200B; Funktion im Video kennenlernen](#video).
 
 1. Generieren Sie mithilfe eines PGP-Verschlüsselungs-Tools ein öffentlich-privates Schlüsselpaar gemäß der [OpenPGP-Spezifikation](https://www.openpgp.org/about/standard/). Installieren Sie dazu ein GPG-Dienstprogramm oder eine GNuGP-Software.
 
@@ -99,13 +99,13 @@ Sobald der öffentliche Schlüssel installiert ist, wird er in der Liste angezei
 
 Der Schlüssel kann dann in Adobe Campaign-Workflows verwendet werden. Sie können ihn bei Aktivitäten zur Datenextraktion zum Verschlüsseln von Daten verwenden.
 
-![](assets/do-not-localize/how-to-video.png)[ Funktion im Video kennenlernen](#video).
+![](assets/do-not-localize/how-to-video.png) [&#x200B; Funktion im Video kennenlernen](#video).
 
 Weitere Informationen zu diesem Thema finden Sie in der Adobe Campaign-Dokumentation:
 
 **Campaign v7/v8:**
 
-* [Komprimieren oder Verschlüsseln von Dateien](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/zip-encrypt.html?lang=de)
+* [Datei komprimieren oder verschlüsseln](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/zip-encrypt.html?lang=de)
 * [Anwendungsfall: Verschlüsseln und Exportieren von Daten mit einem im Control Panel installierten Schlüssel](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html?lang=de#use-case-gpg-encrypt)
 
 **Campaign Standard:**
@@ -122,7 +122,7 @@ Dazu müssen Sie ein GPG-Schlüsselpaar direkt im Control Panel generieren.
 * Der **öffentliche Schlüssel** wird mit dem Drittsystem geteilt, das ihn zum Verschlüsseln der an Campaign zu sendenden Daten verwendet.
 * Der **private Schlüssel** wird von Campaign verwendet, um die eingehenden verschlüsselten Daten zu entschlüsseln.
 
-![](assets/do-not-localize/how-to-video.png)[ Funktion im Video kennenlernen](#video).
+![](assets/do-not-localize/how-to-video.png) [&#x200B; Funktion im Video kennenlernen](#video).
 
 Gehen Sie wie folgt vor, um ein Schlüsselpaar im Control Panel zu generieren:
 

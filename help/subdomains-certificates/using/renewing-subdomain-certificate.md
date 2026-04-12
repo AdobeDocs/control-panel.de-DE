@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
-source-wordcount: '1010'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1060'
+ht-degree: 98%
 
 ---
 
@@ -43,7 +43,7 @@ Der Verlängerungsprozess eines SSL-Zertifikats besteht aus drei Schritten:
 
 **Verwandte Themen:**
 
-* [Best Practice-Handbuch zur Zustellbarkeit – SSL-Zertifikats-Anforderungsprozess für Adobe Campaign](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-ssl-certificate-request.html?lang=de)
+* [Best Practice-Handbuch zur Zustellbarkeit - SSL-Zertifikats-Anforderungsprozess für Adobe Campaign](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-ssl-certificate-request.html?lang=de)
 * [Subdomain-Branding](../../subdomains-certificates/using/subdomains-branding.md)
 * [Überwachen von Subdomains](../../subdomains-certificates/using/monitoring-subdomains.md)
 

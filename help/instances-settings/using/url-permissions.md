@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: a7df90da-a2ce-409f-9bc3-c7d4fa3024c8
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
-source-wordcount: '572'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '632'
+ht-degree: 92%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 >
 >Diese Funktion ist nur für Campaign v7/v8-Instanzen ab Build 8850 verfügbar. Wenn Sie einen früheren Build verwenden, müssen Sie ein Upgrade durchführen, um diese Funktion verwenden zu können.
 
-Die Standardliste der URLs, die von JavaScript-Codes (Workflows usw.) über Ihre Campaign-Instanzen aufgerufen werden können, ist eingeschränkt. Diese URLs ermöglichen das ordnungsgemäße Funktionieren der Instanzen.
+Die Standardliste der URLs, die von JavaScript-Codes (Workflows usw.) aufgerufen werden können durch Ihre Campaign-Instanzen ist eingeschränkt. Diese URLs ermöglichen das ordnungsgemäße Funktionieren der Instanzen.
 
 Standardmäßig sind Instanzen nicht berechtigt, eine Verbindung zu externen URLs herzustellen. Über das Control Panel haben Sie die Möglichkeit, externe URLs zur Liste der berechtigten URLs hinzufügen, sodass sich Ihre Instanz mit ihnen verbinden kann. Dadurch können Sie zwischen Ihren Campaign-Instanzen und externen Systemen, wie z. B. SFTP-Servern oder Websites, eine Verbindung herstellen, um den Datei- und/oder Datentransfer zu ermöglichen.
 
@@ -39,7 +39,7 @@ Nach dem Hinzufügen einer URL wird sie in der Konfigurationsdatei der Instanz r
 **Verwandte Themen:**
 
 * [Campaign-Server konfigurieren](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configuring-campaign-server.html?lang=de)
-* [Schutz der ausgehenden Verbindung](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/server-configuration.html?lang=de#outgoing-connection-protection)
+* [Schutz vor ausgehenden Verbindungen](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/server-configuration.html?lang=de#outgoing-connection-protection)
 
 ## Best Practices {#best-practices}
 
@@ -86,7 +86,7 @@ Gehen Sie wie folgt vor, um eine URL hinzuzufügen, mit der sich Ihre Instanz ve
 
    >[!NOTE]
    >
-   >Nach der Validierung werden am Ende der eingegebenen URL automatisch die Zeichen &quot;/.*&quot; hinzugefügt, damit auch alle Unterseiten eingeschlossen sind.
+   >Die Zeichen &quot;/.*&quot; werden nach der Validierung automatisch an das Ende der eingegebenen URL eingefügt, um alle Unterseiten der eingegebenen Seite abzudecken.
 
    ![](assets/add_url_listnew.png)
 

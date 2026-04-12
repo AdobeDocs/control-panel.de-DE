@@ -8,8 +8,8 @@ role: Admin
 level: Experienced
 exl-id: eaf67573-f088-47d9-8a25-273d08dc541a
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
-source-wordcount: '380'
+workflow-type: tm+mt
+source-wordcount: '440'
 ht-degree: 100%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="cp_storage"
 >title="Über die Speicherkapazität"
->abstract="Auf diesem Tab finden Sie die Speicherkapazität und die Nutzungsinformationen Ihrer SFTP-Server. Sie können auch die 10 wichtigsten Dateien auflisten, die den meisten Speicherplatz auf einem SFTP-Server belegen, indem Sie auf dessen Namen klicken. Hier werden nur SFTP-Server aufgeführt, auf die Sie Zugriff haben. Wenn Sie Zugriff auf andere SFTP-Server wünschen, kontaktieren Sie Ihren Administrator."
+>abstract="Auf diesem Tab finden Sie die Speicherkapazität und die Nutzungsinformationen Ihrer SFTP-Server. Sie können auch die 10 wichtigsten Dateien auflisten, die den meisten Speicherplatz auf einem SFTP-Server belegen, indem Sie auf dessen Namen klicken. Es werden nur SFTP-Server angezeigt, auf die Sie Zugriff haben. Wenden Sie sich an Ihre oder Ihren Admin, um Zugriff auf andere SFTP-Server zu beantragen."
 >additional-url="https://images-tv.adobe.com/mpcv3/8a977e03-d76c-44d3-853c-95d0b799c870_1560205338.1920x1080at3000_h264.mp4" text="Demovideo ansehen"
 
 Abhängig von Ihrem Vertrag kann Ihr SFTP-Server eine andere Speicherkapazität aufweisen.
