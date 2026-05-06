@@ -7,10 +7,10 @@ feature: Control Panel, Subdomains and Certificates
 role: Admin
 level: Experienced
 exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
-source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
+source-git-commit: 2ee542f43c75d9645681228dea10c1d7ede63c23
 workflow-type: tm+mt
-source-wordcount: '1060'
-ht-degree: 98%
+source-wordcount: '1084'
+ht-degree: 96%
 
 ---
 
@@ -24,6 +24,8 @@ ht-degree: 98%
 >[!NOTE]
 >
 >Die Erneuerung der SSL-Zertifikate Ihrer Subdomains ist nur dann erforderlich, wenn Sie die Zertifikate selbst verwalten möchten, anstatt diesen Prozess an Adobe zu delegieren. Es wird dringend empfohlen, die Verwaltung der SSL-Zertifikate Ihrer Subdomains an Adobe zu delegieren, da Adobe das Zertifikat automatisch ausstellt und jedes Jahr vor Ablauf erneuert. [Erfahren Sie mehr über die Verwaltung von SSL-Zertifikaten](monitoring-ssl-certificates.md#management)
+>
+>Die vom Kunden verwaltete SSL-Zertifikatverwaltung ist für Campaign v7/v8-Instanzen auf AWS und für Campaign v8-Instanzen auf Microsoft Azure verfügbar.
 
 Der Verlängerungsprozess eines SSL-Zertifikats besteht aus drei Schritten:
 
