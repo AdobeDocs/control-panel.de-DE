@@ -7,10 +7,10 @@ feature: Control Panel, Access Management
 role: Admin
 level: Experienced
 exl-id: eb67af6e-a64e-49a7-9656-782f91bc1d67
-source-git-commit: aff51e72ac2781264d0cd028a816e00c3fcb8bdd
-workflow-type: ht
-source-wordcount: '235'
-ht-degree: 100%
+source-git-commit: 2ee542f43c75d9645681228dea10c1d7ede63c23
+workflow-type: tm+mt
+source-wordcount: '353'
+ht-degree: 83%
 
 ---
 
@@ -18,13 +18,15 @@ ht-degree: 100%
 
 Das Control Panel ist direkt in Experience Cloud oder über das Produkt selbst verfügbar.
 
-Es steht nur **Administratoren** zur Verfügung. Weitere Informationen zum Hinzufügen von Benutzern zur Gruppe der Administratoren finden Sie in [diesem Abschnitt](../../discover/using/managing-permissions.md).
+## Voraussetzungen {#prerequisites}
+
+Beachten Sie für Campaign v7/v8, dass Ihre Instanz auf Amazon Web Services (AWS) gehostet und auf den neuesten [stabilen Campaign-Build](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=de#rn-statuses) (oder auf Build 9032 oder höher) aktualisiert werden muss. Erfahren Sie in [diesem Abschnitt](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=de#getting-your-campaign-version), wie Sie Ihre Version überprüfen. Um zu überprüfen, ob Ihre Instanz auf AWS gehostet wird, folgen Sie den Schritten auf [dieser Seite](../../faq.md#hosted-aws).
+
+Campaign v8-Instanzen, die auf Microsoft Azure gehostet werden, haben außerdem Zugriff auf eine Untergruppe von Control Panel-Funktionen: [IP-Zulassungsauflistung für ](../../instances-settings/using/ip-allow-listing-instance-access.md)-Zugriff[, IP-Zulassungsauflistung für SFTP-Server](../../sftp/using/ip-range-allow-listing.md) und [kundenverwaltete SSL-Zertifikatverwaltung](../../subdomains-certificates/using/renewing-subdomain-certificate.md).
 
 >[!IMPORTANT]
 >
->Standardmäßig ist das Control Panel für Admin-Benutzende zugänglich, die zum Produktprofil der Admins gehören. Je nach Konfiguration Ihrer Organisation kann das Produktprofil unterschiedlich benannt sein („Admin“, „Admins“, „Validierungsadmin“ usw.). **Jedes Produktprofil, das das Wort „Admin“ im Namen enthält, gewährt automatisch Zugriff auf das Control Panel.**
->
->Überprüfen Sie die Benennung des Produktprofils sorgfältig, um sicherzustellen, dass nur autorisierte Benutzende Zugriff auf das Control Panel haben.
+>Standardmäßig ist das Control Panel für Admin-Benutzende zugänglich, die zum Produktprofil der Admins gehören. Je nach Konfiguration Ihrer Organisation kann das Produktprofil unterschiedlich benannt sein („Admin“, „Admins“, „Validierungsadmin“ usw.). **Jedes Produktprofil, das das Wort „admin“ im Namen enthält, gewährt automatisch Zugriff auf das Control Panel**. Überprüfen Sie die Benennung des Produktprofils sorgfältig, um sicherzustellen, dass nur autorisierte Benutzende Zugriff auf das Control Panel haben. [Erfahren Sie, wie Sie Berechtigungen für das Control Panel verwalten](../../discover/using/managing-permissions.md).
 
 ## Zugriff über Experience Cloud Platform {#access-experience-cloud-platform}
 
