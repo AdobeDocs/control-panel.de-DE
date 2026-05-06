@@ -22,7 +22,7 @@ Das Control Panel ist direkt in Experience Cloud oder über das Produkt selbst v
 
 Beachten Sie für Campaign v7/v8, dass Ihre Instanz auf Amazon Web Services (AWS) gehostet und auf den neuesten [stabilen Campaign-Build](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=de#rn-statuses) (oder auf Build 9032 oder höher) aktualisiert werden muss. Erfahren Sie in [diesem Abschnitt](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=de#getting-your-campaign-version), wie Sie Ihre Version überprüfen. Um zu überprüfen, ob Ihre Instanz auf AWS gehostet wird, folgen Sie den Schritten auf [dieser Seite](../../faq.md#hosted-aws).
 
-Campaign v8-Instanzen, die auf Microsoft Azure gehostet werden, haben außerdem Zugriff auf eine Untergruppe von Control Panel-Funktionen: [IP-Zulassungsauflistung für ](../../instances-settings/using/ip-allow-listing-instance-access.md)-Zugriff[, IP-Zulassungsauflistung für SFTP-Server](../../sftp/using/ip-range-allow-listing.md) und [kundenverwaltete SSL-Zertifikatverwaltung](../../subdomains-certificates/using/renewing-subdomain-certificate.md).
+Campaign v8-Instanzen, die auf Microsoft Azure gehostet werden, haben außerdem Zugriff auf eine Untergruppe von Control Panel-Funktionen: [IP-Zulassungsauflistung für &#x200B;](../../instances-settings/using/ip-allow-listing-instance-access.md)-Zugriff[, IP-Zulassungsauflistung für SFTP-Server](../../sftp/using/ip-range-allow-listing.md) und [kundenverwaltete SSL-Zertifikatverwaltung](../../subdomains-certificates/using/renewing-subdomain-certificate.md).
 
 >[!IMPORTANT]
 >
