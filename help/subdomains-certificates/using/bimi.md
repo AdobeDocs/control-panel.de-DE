@@ -7,9 +7,17 @@ feature: Control Panel, Subdomains and Certificates
 role: Admin
 level: Experienced
 exl-id: eb7863fb-6e6d-4821-a156-03fee03cdd0e
-source-git-commit: c555a91ee0772fd615d38ebbb3964392649af907
-workflow-type: ht
-source-wordcount: '523'
+TQID: https://experienceleague.adobe.com/gdmtHgMWI-8y3w6uzXdNxOatrjJMDdp6EWLuXz1mhhg
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
+workflow-type: tm+mt
+source-wordcount: 543
 ht-degree: 100%
 
 ---
@@ -35,7 +43,7 @@ Detaillierte Informationen zur BIMI-Implementierung finden Sie im [Adobe-Handbuc
    * Der Richtlinientyp für die Einträge der Organisations-Domain muss auf „In Quarantäne“ oder „Ablehnen“ eingestellt sein. Die Erstellung von BIMI-Einträgen ist nicht verfügbar, wenn der DMARC-Richtlinientyp auf „Keine“ festgelegt ist.
    * Der Prozentsatz der E-Mails, auf die die DMARC-Richtlinie angewendet wird, muss 100 % betragen. BIMI unterstützt keine DMARC-Richtlinien, deren Prozentsatz auf weniger als 100 % festgelegt ist.
 
-[Erfahren Sie, wie Sie DMARC-Einträge konfigurieren](dmarc.md)
+     [Erfahren Sie, wie Sie DMARC-Einträge konfigurieren](dmarc.md)
 
 ## Hinzufügen eines BIMI-Eintrags für eine Subdomain {#add}
 
