@@ -7,13 +7,15 @@ feature: Control Panel, Subdomains and Certificates
 role: Admin
 level: Experienced
 exl-id: edd55d07-bf0b-44b0-8281-be69c698d5e8
-source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
-source-wordcount: '154'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/49fMBOZ2iN7xs7PpnYRLDHpQO5eXMTvn-veAxpjeH7w
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
+workflow-type: tm+mt
+source-wordcount: 154
+ht-degree: 77%
 
 ---
-
 
 # Überwachen Ihrer Subdomains {#monitoring-subdomains}
 
@@ -29,7 +31,7 @@ Die Spalte **[!UICONTROL Letzte Verifizierung]** gibt an, wann eine Subdomain zu
 >
 >Adobe rät von der Verwendung von Subdomains ohne Zertifikatsdatum ab, da diese Subdomains Probleme mit der Zustellbarkeit haben können.
 
-Beim Starten einer Verifizierung werden mehrere Vorgänge ausgeführt, um zu überprüfen, ob die Subdomain korrekt konfiguriert ist (Prüfung des Instanzmandanten, E-Mail-Versand-Test usw.). Wenn die Verifizierung der Subdomain fehlschlägt, wenden Sie sich an die Adobe-Kundenunterstützung, damit das Problem weiter untersucht werden kann.
+Beim Starten einer Verifizierung werden mehrere Vorgänge ausgeführt, um zu überprüfen, ob die Subdomain korrekt konfiguriert ist (Prüfung des Instanzmandanten, E-Mail-Versand-Test usw.) Wenn die Verifizierung der Subdomain fehlschlägt, wenden Sie sich an die Kundenunterstützung von Adobe, um weitere Informationen zu erhalten.
 
 **Verwandte Themen:**
 
