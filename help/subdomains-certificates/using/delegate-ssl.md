@@ -14,7 +14,7 @@ feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
+source-git-commit: e0e2ccba4ec069124297a26da48d210599671b48
 workflow-type: tm+mt
 source-wordcount: 485
 ht-degree: 100%
@@ -47,13 +47,13 @@ Um SSL-Zertifikate beim Einrichten einer neuen Subdomain zu delegieren, aktivier
 
 * **CNAME-Delegierung**: Zertifikatseinträge, die in Ihre Hosting-Lösung kopiert werden sollen, werden später im Konfigurationsassistenten bereitgestellt. Sie müssen diese Zertifikatseinträge in Ihrer Domain-Hosting-Lösung generieren, bevor Sie die Subdomain-Konfiguration übermitteln. [Weitere Informationen zur CNAME-Delegierung](setting-up-new-subdomain.md#use-cnames)
 
-![](assets/cname-adobe-managed.png){width="70%" align="left"}
+![](assets/cname-adobe-managed.png){width="70%"}
 
 ## Delegieren von SSL-Zertifikaten für bereits delegierte Subdomains {#delegated}
 
 Um SSL-Zertifikate für eine bereits delegierte Subdomain zu delegieren, klicken Sie auf die Ellipsen-Schaltfläche neben der gewünschten Subdomain und klicken Sie auf **[!UICONTROL Zu verwaltetem SSL wechseln]**.
 
-![](assets/delegate-ssl-list.png){width="70%" align="left"}
+![](assets/delegate-ssl-list.png){width="70%"}
 
 Der Vorgang zur Generierung von Zertifikaten hängt davon ab, wie die Subdomain ursprünglich konfiguriert wurde:
 
@@ -67,4 +67,4 @@ Bei Subdomains, die per CNAME-Delegierung eingerichtet wurden, wird ein Dialogfe
 
 Stellen Sie sicher, dass alle Zertifikatseinträge aus den vorherigen Schritten in Ihrer Domain-Hosting-Lösung generiert wurden. Wenn alles ordnungsgemäß konfiguriert ist, bestätigen Sie die Erstellung der Einträge und klicken Sie auf **[!UICONTROL Senden]**.
 
-![](assets/delegate-ssl.png){width="70%" align="left"}
+![](assets/delegate-ssl.png){width="70%"}
