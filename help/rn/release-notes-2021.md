@@ -7,14 +7,12 @@ level: Experienced
 hide: true
 exl-id: ee974059-9ede-4c8e-9e77-d0e67bb4e849
 TQID: https://experienceleague.adobe.com/vx-DFjLWS2pyJOUYeWZJL18MC-2AlpPo-iyRWTEtaks
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
-workflow-type: tm+mt
-source-wordcount: 193
-ht-degree: 99%
+workflow-type: ht
+source-wordcount: 176
+ht-degree: 100%
 
 ---
 
@@ -46,7 +44,7 @@ ht-degree: 99%
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt die <a href="../sftp/using/ip-range-allow-listing.md#editing-ip-ranges">IP-Bereiche</a> und die <a href="../sftp/using/key-management.md#editing-public-keys">öffentlichen Schlüssel</a> bearbeiten, die Sie erstellen. Beachten Sie, dass diese Funktion nicht für die Elemente verfügbar ist, die vor der aktuellen Control Panel-Version erstellt wurden.
+<p>Sie können nun die <a href="../sftp/using/ip-range-allow-listing.md#editing-ip-ranges">IP-Bereiche</a> und <a href="../sftp/using/key-management.md#editing-public-keys">öffentlichen Schlüssel</a> bearbeiten, die Sie erstellen. Beachten Sie, dass diese Funktion nicht für die Elemente verfügbar ist, die vor der aktuellen Control Panel-Version erstellt wurden.
 </td>
 </tr>
 </tbody>
@@ -99,4 +97,4 @@ ht-degree: 99%
 </tbody>
 </table>
 
-Beenden.
+Ende.

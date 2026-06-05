@@ -8,16 +8,13 @@ role: Admin
 level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
 TQID: https://experienceleague.adobe.com/bASJhkj1kBwWQDiuSYzI0ULRLETI2Byw8y77wi7Acx0
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1348
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -53,7 +50,7 @@ Dazu müssen Sie mithilfe eines PGP-Verschlüsselungs-Tools ein GPG-Schlüsselpa
 >
 >Sie können im Control Panel bis zu 60 GPG-Schlüssel installieren.
 
-![](assets/do-not-localize/how-to-video.png) [&#x200B; Funktion im Video kennenlernen](#video).
+![](assets/do-not-localize/how-to-video.png)[ Funktion im Video kennenlernen](#video).
 
 1. Generieren Sie mithilfe eines PGP-Verschlüsselungs-Tools ein öffentlich-privates Schlüsselpaar gemäß der [OpenPGP-Spezifikation](https://www.openpgp.org/about/standard/). Installieren Sie dazu ein GPG-Dienstprogramm oder eine GNuGP-Software.
 
@@ -106,7 +103,7 @@ Sobald der öffentliche Schlüssel installiert ist, wird er in der Liste angezei
 
 Der Schlüssel kann dann in Adobe Campaign-Workflows verwendet werden. Sie können ihn bei Aktivitäten zur Datenextraktion zum Verschlüsseln von Daten verwenden.
 
-![](assets/do-not-localize/how-to-video.png) [&#x200B; Funktion im Video kennenlernen](#video).
+![](assets/do-not-localize/how-to-video.png)[ Funktion im Video kennenlernen](#video).
 
 Weitere Informationen zu diesem Thema finden Sie in der Adobe Campaign-Dokumentation:
 
@@ -129,7 +126,7 @@ Dazu müssen Sie ein GPG-Schlüsselpaar direkt im Control Panel generieren.
 * Der **öffentliche Schlüssel** wird mit dem Drittsystem geteilt, das ihn zum Verschlüsseln der an Campaign zu sendenden Daten verwendet.
 * Der **private Schlüssel** wird von Campaign verwendet, um die eingehenden verschlüsselten Daten zu entschlüsseln.
 
-![](assets/do-not-localize/how-to-video.png) [&#x200B; Funktion im Video kennenlernen](#video).
+![](assets/do-not-localize/how-to-video.png)[ Funktion im Video kennenlernen](#video).
 
 Gehen Sie wie folgt vor, um ein Schlüsselpaar im Control Panel zu generieren:
 
@@ -155,7 +152,7 @@ Weitere Informationen hierzu finden Sie in der Adobe Campaign-Dokumentation:
 
 **Campaign v7 und v8:**
 
-* [Dekomprimieren oder Entschlüsseln einer Datei vor der Verarbeitung](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/unzip-decrypt.html?lang=de)
+* [Entpacken oder Entschlüsseln von Dateien vor der Verarbeitung](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/unzip-decrypt.html?lang=de)
 * [Anwendungsfall: Importieren von Daten, die mit einem vom Control Panel generierten Schlüssel verschlüsselt wurden](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/unzip-decrypt.html?lang=de#use-case-gpg-decrypt)
 
 **Campaign Standard:**
@@ -203,4 +200,4 @@ Im folgenden Video wird gezeigt, wie GPG-Schlüssel für die Datenverschlüsselu
 
 Weitere Anleitungen zum Verwalten von GPG-Schlüsseln finden Sie in den Tutorials zu [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=de#instance-settings) und [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=de#instance-settings).
 
->[!VIDEO](https://video.tv.adobe.com/v/327882?captions=ger&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/36386?quality=12)

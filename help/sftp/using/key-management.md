@@ -8,14 +8,12 @@ role: Admin
 level: Experienced
 exl-id: 03815e01-6371-4e1c-b4b8-7abe25957cee
 TQID: https://experienceleague.adobe.com/fCmnWIo7FfgfreWs9oFucCL1PNgSN7-1sWXbagwvn6I
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1106
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -98,7 +96,7 @@ In sehr seltenen Fällen ist die passwortbasierte Authentifizierung auf manchen 
 
    Möglicherweise müssen Sie ein Tool eines Drittanbieters installieren, mit dem Sie ein Schlüsselpaar aus privatem und öffentlichem Schlüssel im Format „name.pub“ erstellen können.
 
-1. Öffnen Sie die .pub-Datei und kopieren Sie dann die gesamte Zeichenfolge beginnend mit „ssh…“ in das Control Panel.
+1. Öffnen Sie die .pub-Datei und kopieren Sie den gesamten String beginnend mit „ssh…“ in das Control Panel.
 
    ![](assets/publickey.png)
 
@@ -116,7 +114,7 @@ Sie können Fingerabdrücke verwenden, um die auf Ihrem Computer gespeicherten p
 
 ![](assets/fingerprint_compare.png)
 
-Das &quot;**…**&quot; Mit der Schaltfläche können Sie einen vorhandenen Schlüssel löschen oder seinen zugehörigen Fingerabdruck in die Zwischenablage kopieren.
+Mit der Schaltfläche „**…**“ können Sie einen vorhandenen Schlüssel löschen oder seinen zugehörigen Fingerabdruck in die Zwischenablage kopieren.
 
 ![](assets/key_options.png)
 
@@ -132,7 +130,7 @@ Sie können auch einen öffentlichen Schlüssel durchsuchen, indem Sie mit der E
 
 Informationen zum Bearbeiten eines oder mehrerer IP-Bereiche finden Sie in [diesem Abschnitt](#editing-public-keys).
 
-Um einen oder mehrere öffentliche Schlüssel aus der Liste zu löschen, wählen Sie diese aus und klicken Sie auf die Schaltfläche **Öffentlichen Schlüssel löschen**.
+Um einen oder mehrere öffentliche Schlüssel aus der Liste zu löschen, wählen Sie diese aus und klicken Sie auf die Schaltfläche ]**Öffentlichen Schlüssel löschen**[!UICONTROL .
 
 ![](assets/control_panel_delete_key.png)
 

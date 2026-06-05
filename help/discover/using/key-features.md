@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: cb6cc63b-d6cc-4c8b-870f-e108d05aa740
 source-git-commit: 2ee542f43c75d9645681228dea10c1d7ede63c23
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '236'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Wichtigste Vorteile:
 
 >[!NOTE]
 >
->Das Control Panel steht nur Administratoren zur Verfügung. Die Schritte, um einem Benutzer Administratorzugriff zu gewähren, finden Sie in [diesem Abschnitt](managing-permissions.md). Die Voraussetzungen für das Hosting der Instanz finden Sie auf [dieser Seite](accessing-control-panel.md).
+>Das Control Panel steht nur Administratoren zur Verfügung. Die Schritte, um einem Benutzer Administratorzugriff zu gewähren, finden Sie in [diesem Abschnitt](managing-permissions.md). Die Anforderungen für das Hosting der Instanz finden Sie auf [dieser Seite](accessing-control-panel.md).
 
 <table style="table-layout:fixed">
 <tr>

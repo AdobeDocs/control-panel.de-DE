@@ -8,16 +8,13 @@ role: Admin
 level: Experienced
 exl-id: eb67af6e-a64e-49a7-9656-782f91bc1d67
 TQID: https://experienceleague.adobe.com/Ug0vHjgyTK-BRO4IMdCwSQuiwO--XagzjW-MFTPcZrY
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 57345245341bf2d04b9b01611d502532ba8f175b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 353
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -29,11 +26,11 @@ Das Control Panel ist direkt in Experience Cloud oder über das Produkt selbst v
 
 Beachten Sie für Campaign v7/v8, dass Ihre Instanz auf Amazon Web Services (AWS) gehostet und auf den neuesten [stabilen Campaign-Build](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=de#rn-statuses) (oder auf Build 9032 oder höher) aktualisiert werden muss. Erfahren Sie in [diesem Abschnitt](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=de#getting-your-campaign-version), wie Sie Ihre Version überprüfen. Um zu überprüfen, ob Ihre Instanz auf AWS gehostet wird, folgen Sie den Schritten auf [dieser Seite](../../faq.md#hosted-aws).
 
-Campaign v8-Instanzen, die auf Microsoft Azure gehostet werden, haben außerdem Zugriff auf eine Untergruppe von Control Panel-Funktionen: [IP-Zulassungsauflistung für &#x200B;](../../instances-settings/using/ip-allow-listing-instance-access.md)-Zugriff[, IP-Zulassungsauflistung für SFTP-Server](../../sftp/using/ip-range-allow-listing.md) und [kundenverwaltete SSL-Zertifikatverwaltung](../../subdomains-certificates/using/renewing-subdomain-certificate.md).
+Auf Microsoft Azure gehostete Campaign v8-Instanzen haben außerdem Zugriff auf einen Teil der Control Panel-Funktionen: [IP-Zulassungsauflistung für Instanzzugriff](../../instances-settings/using/ip-allow-listing-instance-access.md), [IP-Zulassungsauflistung für SFTP-Server](../../sftp/using/ip-range-allow-listing.md) und [kundenseitig verwaltete SSL-Zertifikatsverwaltung](../../subdomains-certificates/using/renewing-subdomain-certificate.md).
 
 >[!IMPORTANT]
 >
->Standardmäßig ist das Control Panel für Admin-Benutzende zugänglich, die zum Produktprofil der Admins gehören. Je nach Konfiguration Ihrer Organisation kann das Produktprofil unterschiedlich benannt sein („Admin“, „Admins“, „Validierungsadmin“ usw.). **Jedes Produktprofil, das das Wort „admin“ im Namen enthält, gewährt automatisch Zugriff auf das Control Panel**. Überprüfen Sie die Benennung des Produktprofils sorgfältig, um sicherzustellen, dass nur autorisierte Benutzende Zugriff auf das Control Panel haben. [Erfahren Sie, wie Sie Berechtigungen für das Control Panel verwalten](../../discover/using/managing-permissions.md).
+>Standardmäßig ist das Control Panel für Admin-Benutzende zugänglich, die zum Produktprofil der Admins gehören. Je nach Konfiguration Ihrer Organisation kann das Produktprofil unterschiedlich benannt sein („Admin“, „Admins“, „Validierungsadmin“ usw.). **Jedes Produktprofil, das das Wort „Admin“ im Namen enthält, gewährt automatisch Zugriff auf das Control Panel**. Überprüfen Sie die Benennung des Produktprofils sorgfältig, um sicherzustellen, dass nur autorisierte Benutzende Zugriff auf das Control Panel haben. [Erfahren Sie, wie Sie Berechtigungen für das Control Panel verwalten](../../discover/using/managing-permissions.md).
 
 ## Zugriff über Experience Cloud Platform {#access-experience-cloud-platform}
 

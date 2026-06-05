@@ -8,14 +8,12 @@ role: Admin
 level: Experienced
 exl-id: 517818c9-8557-49fd-b49c-b98b60e48f1c
 TQID: https://experienceleague.adobe.com/1PSG6lEWpdKabuTMelwKAPnMjK2nBT-ygtKuSqEGZd8
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 833
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -109,4 +107,4 @@ In diesem Abschnitt sind die Fehlermeldungen aufgelistet, die auftreten können,
 | 8003 | Die angeforderte Entfernung der delegierten Domain wird für diese Instanz nicht unterstützt. | Aufgrund eines technischen Problems wird das Entfernen der Delegierung für die ausgewählte Subdomain nicht unterstützt. Bitte die Kundenunterstützung kontaktieren. |
 | 8004 | Die angeforderte Entfernung der delegierten Domain ist nicht zulässig, da es in dieser Instanz nur eine Domain gibt. | Für die ausgewählte Instanz wurde nur eine Subdomain delegiert. Das Entfernen von Delegierungen ist nicht erlaubt. |
 | 8005 | Die angeforderte Entfernung der delegierten Domain wird für diese Konfiguration nicht unterstützt. | Aufgrund eines technischen Problems wird das Entfernen der Delegierung für die ausgewählte Subdomain nicht unterstützt. Bitte die Kundenunterstützung kontaktieren. |
-| 8006 | Die angeforderte Entfernung der delegierten Domain ist aus unbekannten Gründen nicht zulässig. Wenden Sie sich an die Kundenunterstützung. | Aufgrund unbekannter Probleme wird das Entfernen von Delegierungen für die ausgewählte Instanz nicht unterstützt. Bitte die Kundenunterstützung kontaktieren. |
+| 8006 | Die angeforderte Entfernung der delegierten Domain ist aus unbekannten Gründen nicht zulässig.Bitte die Kundenunterstützung kontaktieren. | Aufgrund unbekannter Probleme wird das Entfernen von Delegierungen für die ausgewählte Instanz nicht unterstützt. Bitte die Kundenunterstützung kontaktieren. |
