@@ -13,9 +13,9 @@ product_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 57345245341bf2d04b9b01611d502532ba8f175b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1136
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ SFTP-Server sind geschützt. Damit Sie auf die Server zugreifen und Dateien anze
 
 >[!NOTE]
 >
->Die IP-Zulassungsauflistung für SFTP-Server ist für Campaign v7/v8-Instanzen verfügbar, die auf AWS, Campaign Standard-Instanzen und Campaign v8-Instanzen gehostet werden, die auf Microsoft Azure gehostet werden.
+>Die IP-Zulassungsauflistung für SFTP-Server ist für auf AWS gehostete Campaign v7/v8-Instanzen, Campaign Standard-Instanzen und auf Microsoft Azure gehostete Campaign v8-Instanzen verfügbar.
 
 ![](assets/do-not-localize/how-to-video.png) Entdecken Sie diese Funktion bei der Verwendung von [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html?lang=de#sftp-management) oder [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html?lang=de#sftp-management) im Video
 

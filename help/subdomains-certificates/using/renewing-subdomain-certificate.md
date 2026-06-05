@@ -15,9 +15,9 @@ role_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 57345245341bf2d04b9b01611d502532ba8f175b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1084
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 96%
 >
 >Die Erneuerung der SSL-Zertifikate Ihrer Subdomains ist nur dann erforderlich, wenn Sie die Zertifikate selbst verwalten möchten, anstatt diesen Prozess an Adobe zu delegieren. Es wird dringend empfohlen, die Verwaltung der SSL-Zertifikate Ihrer Subdomains an Adobe zu delegieren, da Adobe das Zertifikat automatisch ausstellt und jedes Jahr vor Ablauf erneuert. [Erfahren Sie mehr über die Verwaltung von SSL-Zertifikaten](monitoring-ssl-certificates.md#management)
 >
->Die vom Kunden verwaltete SSL-Zertifikatverwaltung ist für Campaign v7/v8-Instanzen auf AWS und für Campaign v8-Instanzen auf Microsoft Azure verfügbar.
+>Die kundenseitig verwaltete SSL-Zertifikatverwaltung ist für auf AWS gehostete Campaign v7/v8-Instanzen und für auf Microsoft Azure gehostete Campaign v8-Instanzen verfügbar.
 
 Der Verlängerungsprozess eines SSL-Zertifikats besteht aus drei Schritten:
 
@@ -52,7 +52,7 @@ Der Verlängerungsprozess eines SSL-Zertifikats besteht aus drei Schritten:
 
 **Verwandte Themen:**
 
-* [Best Practice-Handbuch zur Zustellbarkeit - SSL-Zertifikats-Anforderungsprozess für Adobe Campaign](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-ssl-certificate-request.html?lang=de)
+* [Handbuch mit Best Practices zur Zustellbarkeit – Anforderungsprozess für SSL-Zertifikate für Adobe Campaign](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-ssl-certificate-request.html?lang=de)
 * [Subdomain-Branding](../../subdomains-certificates/using/subdomains-branding.md)
 * [Überwachen von Subdomains](../../subdomains-certificates/using/monitoring-subdomains.md)
 

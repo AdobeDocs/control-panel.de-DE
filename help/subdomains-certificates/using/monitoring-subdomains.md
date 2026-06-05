@@ -13,9 +13,9 @@ product_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 154
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Die Spalte **[!UICONTROL Letzte Verifizierung]** gibt an, wann eine Subdomain zu
 >
 >Adobe rät von der Verwendung von Subdomains ohne Zertifikatsdatum ab, da diese Subdomains Probleme mit der Zustellbarkeit haben können.
 
-Beim Starten einer Verifizierung werden mehrere Vorgänge ausgeführt, um zu überprüfen, ob die Subdomain korrekt konfiguriert ist (Prüfung des Instanzmandanten, E-Mail-Versand-Test usw.) Wenn die Verifizierung der Subdomain fehlschlägt, wenden Sie sich an die Kundenunterstützung von Adobe, um weitere Informationen zu erhalten.
+Beim Starten einer Verifizierung werden mehrere Vorgänge ausgeführt, um zu überprüfen, ob die Subdomain korrekt konfiguriert ist (Prüfung des Instanzmandanten, E-Mail-Versand-Test usw.). Wenn die Verifizierung der Subdomain fehlschlägt, wenden Sie sich an die Adobe-Kundenunterstützung, damit das Problem weiter analysiert werden kann.
 
 **Verwandte Themen:**
 

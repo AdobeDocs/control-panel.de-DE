@@ -20,9 +20,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 57345245341bf2d04b9b01611d502532ba8f175b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 857
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 96%
 
 >[!IMPORTANT]
 >
->Diese Funktion ist für auf AWS gehostete Campaign v7/v8-Instanzen und für auf Microsoft Azure gehostete Campaign v8-Instanzen verfügbar.
+>Diese Funktion ist für auf AWS gehostete Campaign v7/v8-Instanzen und für auf Microsoft Azure gehostete Campaign v8-Instanzen verfügbar.
 
 Standardmäßig kann auf eine Adobe Campaign-Instanz nicht über verschiedene IP-Adressen zugegriffen werden.
 
@@ -117,4 +117,4 @@ Um einen oder mehrere IP-Bereiche aus der Zulassungsliste zu löschen, wählen S
 
 **Verwandtes Thema:**
 
-* [Verknüpfen einer Sicherheitszone mit einem Benutzer](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/security-zones.html?lang=de#linking-a-security-zone-to-an-operator)
+* [Verknüpfen einer Sicherheitszone mit einer Benutzerin bzw. einem Benutzer](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/security-zones.html?lang=de#linking-a-security-zone-to-an-operator)

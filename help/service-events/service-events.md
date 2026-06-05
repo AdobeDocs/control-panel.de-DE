@@ -17,9 +17,9 @@ level_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 787
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 96%
 >
 >Der Service-Kalender ist als Beta-Version verfügbar und unterliegt häufigen Aktualisierungen und Änderungen ohne Vorankündigung.
 
-Um Ihre Campaign-Instanzen effektiv überwachen zu können, sollten Sie wichtige Ereignisse nachverfolgen, die sich auf Ihre Instanzen auswirken können. Im Control Panel können Sie Ereignisse wie neue Versionen, Upgrades, Patches, Hotfixes usw. identifizieren. Außerdem wird eine Liste der wichtigsten Adobe-Ansprechpartner für Anfragen oder Probleme angezeigt.
+Um Ihre Campaign-Instanzen effektiv überwachen zu können, sollten Sie wichtige Ereignisse nachverfolgen, die sich auf Ihre Instanzen auswirken können. Im Control Panel können Sie Ereignisse wie neue Versionen, Upgrades, Patches, Hotfixes usw. identifizieren. Außerdem wird eine Liste der wichtigsten Adobe-Ansprechpartner für Anfragen oder Probleme bereitgestellt.
 
 Diese Informationen können Sie über die Karte **[!UICONTROL Service-Kalender]** auf der Startseite von Control Panel abrufen.
 

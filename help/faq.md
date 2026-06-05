@@ -24,9 +24,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 57345245341bf2d04b9b01611d502532ba8f175b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 801
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ Ja, Sie können im Control Panel nur die Einstellungen für Adobe Campaign verwa
 
 ### Kann jeder das Control Panel nutzen?
 
-Das Control Panel steht Produktadministratoren von Kunden offen, die Adobe Campaign auf AWS gehostet haben. Campaign v8-Instanzen, die auf Microsoft Azure gehostet werden, haben außerdem Zugriff auf eine Untergruppe von Control Panel-Funktionen: IP-Zulassungsauflistung für Instanzzugriff, IP-Zulassungsauflistung für SFTP-Server und kundenverwaltete SSL-Zertifikatverwaltung.
+Das Control Panel ist für Produktadmins von Kundinnen und Kunden verfügbar, bei denen Adobe Campaign auf AWS gehostet wird. Auf Microsoft Azure gehostete Campaign v8-Instanzen haben außerdem Zugriff auf einen Teil der Control Panel-Funktionen: IP-Zulassungsauflistung für Instanzzugriff, IP-Zulassungsauflistung für SFTP-Server und kundenseitig verwaltete SSL-Zertifikatsverwaltung.
 
 Das Control Panel ermöglicht es Kunden mit einem hybriden Hosting-Modell, spezifische Funktionen des Control Panels zu nutzen. Dazu müssen sie die in ihrer Marketing-Instanz im Control Panel konfigurierte URL der MID/RT-Instanz angeben. [Weitere Informationen](instances-settings/using/external-accounts.md)
 
