@@ -7,18 +7,29 @@ feature: Control Panel, Monitoring
 role: Admin
 level: Experienced
 exl-id: 2bd7d2dd-97be-49bb-9f8e-7161d0742bc1
-TQID: https://experienceleague.adobe.com/J0Ck-CM1YCDNPjP-kCGbKXHXQGe34eTi7xYcnCSRabk
+TQID: 'https://experienceleague.adobe.com/J0Ck-CM1YCDNPjP-kCGbKXHXQGe34eTi7xYcnCSRabk'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: ae9127b0-c11d-467b-903d-a84cef43f6ed
+    internal-label: Control Panel
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
+    internal-label: Monitoring guidelines
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: b2723b0683a305a992b710a37a3e47927e1fb65e
 workflow-type: tm+mt
-source-wordcount: 429
+source-wordcount: '429'
 ht-degree: 100%
-
 ---
-
 # Über die Datenbanküberwachung {#database-monitoring}
 
 ## Über Datenbanken von Instanzen {#about-instances-databases}
@@ -39,7 +50,7 @@ Wenn Sie [E-Mail-Benachrichtigungen](../../performance-monitoring/using/email-al
 >abstract="Auf dieser Registerkarte befinden sich Echtzeitinformationen über die aktuelle und frühere Datenbanknutzung und -entwicklung für jede Campaign-Instanz."
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=de" text="Über das Monitoring der Performance"
 
-Mit dem Control Panel können Sie die Datenbanknutzung für jede Ihrer Campaign-Instanzen überwachen. Öffnen Sie dazu die Karte **[!UICONTROL Performance-Überwachung]** und wählen Sie dann den Tab **[!UICONTROL Datenbanken]** aus.
+Mit dem Control Panel können Sie die Datenbanknutzung für jede Ihrer Campaign-Instanzen überwachen. Öffnen Sie dazu die Karte **[!UICONTROL Überwachen der Performance]** und wählen Sie dann den Tab **[!UICONTROL Datenbanken]** aus.
 
 Wählen Sie die gewünschte Instanz aus der **[!UICONTROL Instanzenliste]** aus, um Informationen zur Datenbankkapazität und zum verwendeten Speicherplatz der Instanz anzuzeigen.
 
