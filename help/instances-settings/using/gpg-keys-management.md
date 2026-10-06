@@ -7,27 +7,39 @@ feature: Control Panel, Encryption
 role: Admin
 level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
-TQID: https://experienceleague.adobe.com/bASJhkj1kBwWQDiuSYzI0ULRLETI2Byw8y77wi7Acx0
+TQID: 'https://experienceleague.adobe.com/bASJhkj1kBwWQDiuSYzI0ULRLETI2Byw8y77wi7Acx0'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: ae9127b0-c11d-467b-903d-a84cef43f6ed
+    internal-label: Control Panel
+  - id: a7760dfc-5c44-4d77-bb68-c50b1e265c93
+    internal-label: Security and privacy
+subfeature_v2:
+  - id: d0dbac2b-cbd2-42b3-956e-60af02966728
+    internal-label: Encryption
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
-workflow-type: ht
-source-wordcount: 1348
+    internal-label: Security
+source-git-commit: b2723b0683a305a992b710a37a3e47927e1fb65e
+workflow-type: tm+mt
+source-wordcount: '1348'
 ht-degree: 100%
-
 ---
-
 # GPG-Schlüsselverwaltung {#gpg-keys-management}
 
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_gpg_management"
 >title="Über GPG-Schlüssel"
 >abstract="Auf dieser Registerkarte können Sie GPG-Schlüssel in einer Marketing-Instanz installieren und/oder generieren, um von Campaign gesendete Daten zu verschlüsseln und eingehende Daten zu entschlüsseln."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=de" text="Über das Monitoring der Performance"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=de" text="Über die Überwachung der Performance"
 
 ## Über die GPG-Verschlüsselung {#about-gpg-encryption}
 
@@ -181,9 +193,9 @@ In der Liste werden alle GPG-Schlüssel zur Ver- und Entschlüsselung angezeigt,
 * **[!UICONTROL Fingerabdruck]**: Der Fingerabdruck des Schlüssels.
 * **[!UICONTROL Läuft ab]**: Das Ablaufdatum des Schlüssels. Beachten Sie, dass das Control Panel visuelle Hinweise gibt, wenn sich der Schlüssel seinem Ablaufdatum nähert:
 
-   * „Dringend“ (rot) wird 30 Tage vor dem Ablaufdatum angezeigt.
-   * „Warnung“ (gelb) wird 60 Tage vor dem Ablaufdatum angezeigt.
-   * Sobald ein Schlüssel abgelaufen ist, wird ein rotes Banner „Abgelaufen“ angezeigt.
+  * „Dringend“ (rot) wird 30 Tage vor dem Ablaufdatum angezeigt.
+  * „Warnung“ (gelb) wird 60 Tage vor dem Ablaufdatum angezeigt.
+  * Sobald ein Schlüssel abgelaufen ist, wird ein rotes Banner „Abgelaufen“ angezeigt.
 
   >[!NOTE]
   >
